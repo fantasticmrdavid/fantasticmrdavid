@@ -1,0 +1,36 @@
+{
+  "name": "fantasticmrdavid.com",
+  "version": "1.0.0",
+  "description": "Fantastic Mr David's amazing electronic website (for computers)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack -d --watch",
+    "build": "webpack -p"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fantasticmrdavid/fantasticmrdavid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fantasticmrdavid/fantasticmrdavid/issues"
+  },
+  "homepage": "https://github.com/fantasticmrdavid/fantasticmrdavid#readme",
+  "dependencies": {
+    "babel-core": "6.22.0",
+    "babel-loader": "6.2.10",
+    "babel-preset-es2015": "6.22.0",
+    "babel-preset-react": "6.22.0",
+    "react": "15.4.2",
+    "react-dom": "15.4.2",
+    "webpack": "1.14.0"
+  },
+  "devDependencies": {
+    "postcss-loader": "1.2.2",
+    "postcss-smart-import": "0.6.7",
+    "precss": "^1.4.0",
+    "style-loader": "0.13.1"
+  }
+}
