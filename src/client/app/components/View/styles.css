@@ -10,13 +10,15 @@
 }
 
 .View_control {
-  width: 50%;
+  width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #232323;
+  color: #aaa;
 }
 
 .View_media {
-  width: 50%;
+  width: 60%;
   background: grey;
 }

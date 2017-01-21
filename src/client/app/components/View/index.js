@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './styles.css';
 import LogoMenu from './LogoMenu';
+import HomeMedia from './HomeMedia';
 
 export default class View extends Component {
   constructor (props) {
@@ -28,6 +29,7 @@ export default class View extends Component {
             </section>
 
             <section className="View_media">
+              { currentLocation === "home" && <HomeMedia /> }
             </section>
           </div>;
   }

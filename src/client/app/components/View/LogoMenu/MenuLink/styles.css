@@ -1,12 +1,15 @@
 .MenuLink {
   display: block;
   color: inherit;
-  transition: 0.3s;
+
+  &.u-current {
+    transition: 0s;
+  }
 
   &:not(.u-current) {
     .MenuLink_label:hover {
       padding-left: 60px;
-      background: #dedede;
+      background: #555;
     }
   }
 }

@@ -20,7 +20,7 @@
   transition: 0.5s;
   opacity: 0;
   overflow: hidden;
-  background-color: #eee;
+  background-color: #444;
 
   .LogoMenu.u-active & {
     padding: 1rem 0;
