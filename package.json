@@ -28,9 +28,12 @@
     "webpack": "1.14.0"
   },
   "devDependencies": {
+    "babel-plugin-transform-function-bind": "6.22.0",
+    "babel-preset-stage-2": "6.22.0",
+    "css-loader": "0.26.1",
     "postcss-loader": "1.2.2",
     "postcss-smart-import": "0.6.7",
-    "precss": "^1.4.0",
+    "precss": "1.4.0",
     "style-loader": "0.13.1"
   }
 }

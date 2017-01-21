@@ -1,12 +1,12 @@
 import React from 'react';
 import { render } from 'react-dom';
-
 import Styles from "./styles";
-import SplashLogo from "./components/SplashLogo";
+
+import View from "./components/View";
 
 class App extends React.Component {
   render () {
-    return <SplashLogo />;
+    return <View />;
   }
 }
 

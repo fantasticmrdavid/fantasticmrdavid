@@ -1,0 +1,22 @@
+.View {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+
+  section {
+    min-height: 100%;
+  }
+}
+
+.View_control {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.View_media {
+  width: 50%;
+  background: grey;
+}
