@@ -1,0 +1,39 @@
+.MenuLink {
+  display: block;
+  color: inherit;
+  transition: 0.3s;
+
+  &:not(.u-current) {
+    .MenuLink_label:hover {
+      padding-left: 60px;
+      background: #dedede;
+    }
+  }
+}
+
+.MenuLink_label {
+  padding: 0.75rem 0;
+  transition: 0.5s;
+
+  .LogoMenu.u-active & {
+    padding: 0.75rem 2rem;
+  }
+
+  .MenuLink.u-current & {
+    background: #aaa;
+    color: black;
+    font-size: 2rem;
+
+    &.u-about {
+      background: #70eab7;
+    }
+
+    &.u-work {
+      background: #ea70d6;
+    }
+
+    &.u-contact {
+      background: #ea8670;
+    }
+  }
+}

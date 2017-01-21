@@ -1,19 +1,26 @@
 .LogoMenu {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  height: 100%;
   font-family: 'Josefin Slab', Helvetica, "Trebuchet MS", Arial, serif;
   cursor: pointer;
 }
 
 .LogoMenu_title {
+  padding: 0 2rem;
   font-size: 2rem;
 }
 
 .LogoMenu_nav {
   flex-wrap: wrap;
   font-size: 1.5rem;
+  width: 100%;
   max-height: 0px;
   transition: 0.5s;
   opacity: 0;
   overflow: hidden;
+  background-color: #eee;
 
   .LogoMenu.u-active & {
     padding: 1rem 0;
@@ -23,24 +30,13 @@
     border-bottom: 1px solid #333;
     opacity: 1;
   }
-
-  a {
-    display: block;
-    text-decoration: none;
-    color: inherit;
-    padding: 0.75rem 0;
-    transition: 0.3s;
-
-    &:hover {
-      padding-left: 30px;
-      background: #dedede;
-    }
-  }
 }
 
 .LogoMenu_subtitle {
   font-size: 1rem;
-  text-align: right;
+  width: 100%;
+  padding: 0 2rem;
+  margin-top: 0.25em;
 
   i {
     opacity: 0.5;

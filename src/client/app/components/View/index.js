@@ -12,17 +12,19 @@ export default class View extends Component {
   }
 
   updateLocation (newLocation) {
+    const { currentLocation } = this.state;
     this.setState({
-      currentLocation: newLocation,
+      currentLocation: currentLocation !== newLocation ? newLocation : "home",
     });
   }
 
   render () {
+    const { store } = this.props;
     const { currentLocation } = this.state;
 
     return <div className="View">
             <section className="View_control">
-              <LogoMenu currentLocation={ currentLocation } updateLocation={ ::this.updateLocation } />
+              <LogoMenu menu={ store.menu } currentLocation={ currentLocation } updateLocation={ ::this.updateLocation } />
             </section>
 
             <section className="View_media">
