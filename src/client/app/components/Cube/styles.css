@@ -1,0 +1,59 @@
+.Cube_container {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+	perspective: 800px;
+	perspective-origin: 50% 150px;
+  transition: 0.5s;
+  transform: scale(2);
+
+  .u-loading & {
+    transform: scale(8);
+  }
+}
+
+.Cube {
+	position: absolute;;
+  bottom: 225px;
+  right: -100px;
+	width: 300px;
+	transform-style: preserve-3d;
+  animation: spin 0.6s normal linear;
+  animation-fill-mode: forwards;
+
+  div {
+  	position: absolute;
+  	width: 300px;
+  	height: 300px;
+    background: rgba(209, 43, 43, 0.1);
+    border: 1px solid rgba(209, 43, 43, 0.2);
+  }
+
+  .back {
+  	transform: translateZ(-150px) rotateY(180deg);
+  }
+  .right {
+  	transform: rotateY(-270deg) translateX(150px);
+  	transform-origin: top right;
+  }
+  .left {
+  	transform: rotateY(270deg) translateX(-150px);
+  	transform-origin: center left;
+  }
+  .top {
+  	transform: rotateX(-90deg) translateY(-150px);
+  	transform-origin: top center;
+  }
+  .bottom {
+  	transform: rotateX(90deg) translateY(150px);
+  	transform-origin: bottom center;
+  }
+  .front {
+  	transform: translateZ(150px);
+  }
+}
+
+@keyframes spin {
+	from { transform: rotateX(15deg) rotateY(15deg); }
+	to { transform: rotateX(-60deg) rotateY(60deg); }
+}

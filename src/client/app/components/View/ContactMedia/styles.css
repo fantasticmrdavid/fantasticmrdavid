@@ -1,0 +1,47 @@
+.ContactMedia {
+  position: relative;
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+  background: #aaa;
+
+  &.u-loading {
+    opacity: 0;
+  }
+}
+
+.ContactMedia_content {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 17;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #aaa;
+  font-size: 1.5em;
+}
+
+.ContactMedia_shutter {
+  position: absolute;
+  right: 0px;
+  z-index: 16;
+  width: 100%;
+  height: 50%;
+  transition: 0.3s;
+  background: black;
+
+  &.u-top {
+    top: 0px;
+  }
+
+  &.u-bottom {
+    bottom: 0px;
+  }
+
+  .u-loading & {
+    height: 0%;
+  }
+}

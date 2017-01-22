@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "./styles.css";
 import MenuLink from "./MenuLink";
+import Blinker from "../../Blinker";
 
 export default class LogoMenu extends Component {
   constructor (props) {
@@ -34,7 +35,10 @@ export default class LogoMenu extends Component {
                   updateLocation={ updateLocation } />; })
               }
             </div>
-            <h2 className="LogoMenu_subtitle"><i className="fa fa-cog" /> Art + Engineering</h2>
+            <div className="LogoMenu_subtitle">
+              <h2><i className="fa fa-cog" /> Art + Engineering</h2>
+              <Blinker />
+            </div>
           </div>;
   }
 }

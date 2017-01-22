@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './styles.css';
 import LogoMenu from './LogoMenu';
 import HomeMedia from './HomeMedia';
+import AboutMedia from './AboutMedia';
+import ContactMedia from './ContactMedia';
 
 export default class View extends Component {
   constructor (props) {
@@ -49,6 +51,8 @@ export default class View extends Component {
               <div className="View_mediaShutter u-bottom" />
               <div className="View_mediaLoadingMessage">Hello!</div>
               { currentLocation === "home" && <HomeMedia loading={ mediaLoading } stopMediaLoading={ ::this.stopMediaLoading } /> }
+              { currentLocation === "about" && <AboutMedia loading={ mediaLoading } stopMediaLoading={ ::this.stopMediaLoading } /> }
+              { currentLocation === "contact" && <ContactMedia loading={ mediaLoading } stopMediaLoading={ ::this.stopMediaLoading } /> }
             </section>
           </div>;
   }

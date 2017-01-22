@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   align-content: center;
-  height: 100%;
+  min-height: 100%;
   cursor: pointer;
 }
 
@@ -22,9 +22,8 @@
   background-color: #444;
 
   .LogoMenu.u-active & {
-    padding: 1rem 0;
     margin: 0.5rem 0;
-    max-height: 500px;
+    max-height: 1000px;
     border-top: 1px solid #333;
     border-bottom: 1px solid #333;
     opacity: 1;
@@ -32,6 +31,8 @@
 }
 
 .LogoMenu_subtitle {
+  display: flex;
+  position: relative;
   font-size: 1rem;
   width: 100%;
   padding: 0 2rem;
