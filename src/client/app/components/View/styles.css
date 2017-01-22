@@ -16,9 +16,53 @@
   align-items: center;
   background: #232323;
   color: #aaa;
+  transition: 1s;
 }
 
 .View_media {
+  position: relative;
   width: 60%;
   background: grey;
+  transition: 0.6s;
+}
+
+.View_mediaShutter {
+  position: absolute;
+  right: 0px;
+  z-index: 16;
+  width: 100%;
+  height: 0%;
+  transition: 0.3s;
+  background: black;
+
+  &.u-top {
+    top: 0px;
+  }
+
+  &.u-bottom {
+    bottom: 0px;
+  }
+
+  .u-firstMediaLoading & {
+    height: 50%;
+  }
+}
+
+.View_mediaLoadingMessage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  right: 0px;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  z-index: 17;
+  display: none;
+
+  .u-firstMediaLoading & {
+    display: flex;
+  }
 }

@@ -4,6 +4,8 @@ var path = require('path');
 var BUILD_DIR = path.resolve(__dirname, 'src/client/public');
 var APP_DIR = path.resolve(__dirname, 'src/client/app');
 
+var PROD = (process.env.NODE_ENV === 'production');
+
 var config = {
   entry: APP_DIR + '/index.js',
   output: {
@@ -26,7 +28,15 @@ var config = {
         ]
       }
     ]
-  }
+  },
+  plugins: PROD ? [
+    new webpack.DefinePlugin({
+      'process.env': {
+        NODE_ENV: JSON.stringify('production')
+      }
+    }),
+    new webpack.optimize.UglifyJsPlugin()
+  ] : [],
 };
 
 module.exports = config;
