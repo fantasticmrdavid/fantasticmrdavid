@@ -4,13 +4,10 @@
   align-items: flex-start;
   min-height: 100%;
   background: #111;
-
-  section {
-    min-height: 100%;
-  }
 }
 
 .View_control {
+  min-height: 100%;
   width: 40%;
   display: flex;
   justify-content: center;
@@ -22,6 +19,7 @@
 
 .View_media {
   position: relative;
+  min-height: 100%;
   width: 60%;
   transition: 0.6s;
 }

@@ -34,7 +34,7 @@ export var store = {
         tileOn: "/public/assets/images/projects/legoFlinders_on.jpg",
       },
       products: "Artwork, prints",
-      technology: "Lego Digital Designer, Photoshop, POV-Ray",
+      technology: "LEGO Digital Designer, Photoshop, POV-Ray",
       description: "The combination of visiting Brickvention, unfulfilled childhood LEGO dreams, and a love for the great city that is Melbourne sparked off this idea. The project took a year to complete, over 43,000 parts, and many visits to the actual location. LDD model was then converted and rendered in POV-Ray before touch up artwork in Photoshop.",
     },
     {

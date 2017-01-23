@@ -4,6 +4,32 @@
   width: 100%;
   flex: 1;
   perspective: 1200px;
+
+  &.u-otherCurrent {
+    max-height: 0px;
+    overflow: hidden;
+  }
+}
+
+.ProjectTile_close {
+  position: absolute;
+  bottom: -45px;
+  right: 1em;
+  font-family: 'Nunito Sans', Helvetica, 'Trebuchet MS', Arial, sans-serif;
+  color: white;
+  font-size: 1.4rem;
+  opacity: 0;
+  cursor: pointer;
+  transition: 0.3s;
+  z-index: 2;
+
+  .Project.u-current & {
+    opacity: 1;
+  }
+
+  &:hover {
+    color: tomato;
+  }
 }
 
 .ProjectTile {
@@ -29,6 +55,13 @@
   }
 
   .Project:hover & {
+    right: 0px;
+    transform: rotateY(0deg);
+    z-index: 12;
+  }
+
+  .Project.u-current & {
+    height: 4rem;
     right: 0px;
     transform: rotateY(0deg);
     z-index: 12;
@@ -61,6 +94,14 @@
       opacity: 1;
     }
   }
+
+  .Project.u-current & {
+    opacity: 1;
+
+    .u-sitepoint& {
+      background-position-y: top;
+    }
+  }
 }
 
 .ProjectTile_title {
@@ -68,8 +109,21 @@
   bottom: 0px;
   right: 0px;
   color: #aaa;
+  font-family: 'Nunito Sans', Helvetica, 'Trebuchet MS', Arial, sans-serif;
+  font-weight: 300;
   font-size: 1.25rem;
+  text-transform: uppercase;
   padding: 1em 2em;
   background: #111;
   opacity: 0.9;
+  transition: 0.3s;
+
+  .Project.u-current & {
+    color: white;
+    right: 0;
+    left: -0.25em;
+    bottom: -4rem;
+    cursor: default;
+    opacity: 1;
+  }
 }
