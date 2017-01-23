@@ -1,6 +1,5 @@
 .LocationContent {
-  font-family: 'Roboto', Helvetica, 'Trebuchet MS', Arial, sans-serif;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 300;
   line-height: 1.3;
   max-height: 0px;
@@ -13,6 +12,5 @@
     padding: 1em 2em;
     background: #333;
     color: white;
-    text-indent: 2em;
   }
 }

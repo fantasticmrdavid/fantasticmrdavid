@@ -1,0 +1,75 @@
+.Project {
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex: 1;
+  perspective: 1200px;
+}
+
+.ProjectTile {
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  right: -20px;
+  background-color: #333;
+  border: 2px solid black;
+  box-shadow: 7px 7px 5px rgba(0,0,0,0.2);
+  transition: 0.5s;
+  transform: rotateY(20deg);
+
+  .Project:nth-child(even) & {
+    right: 20px;
+    transform: rotateY(-20deg);
+  }
+
+  .u-loading & {
+    transform: rotateY(180deg);
+  }
+
+  .Project:hover & {
+    right: 0px;
+    transform: rotateY(0deg);
+    z-index: 12;
+  }
+}
+
+.ProjectTile_bg {
+  position: absolute;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &.u-off {
+    opacity: 1;
+  }
+
+  &.u-on {
+    opacity: 0;
+  }
+
+  .Project:hover & {
+    &.u-off {
+      opacity: 0;
+    }
+
+    &.u-on {
+      opacity: 1;
+    }
+  }
+}
+
+.ProjectTile_title {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  color: #aaa;
+  font-size: 1.25rem;
+  padding: 1em 2em;
+  background: #111;
+  opacity: 0.9;
+}

@@ -3,6 +3,7 @@ import './styles.css';
 import LogoMenu from './LogoMenu';
 import HomeMedia from './HomeMedia';
 import AboutMedia from './AboutMedia';
+import WorkMedia from './WorkMedia';
 import ContactMedia from './ContactMedia';
 
 export default class View extends Component {
@@ -52,6 +53,7 @@ export default class View extends Component {
               <div className="View_mediaLoadingMessage">Hello!</div>
               { currentLocation === "home" && <HomeMedia loading={ mediaLoading } stopMediaLoading={ ::this.stopMediaLoading } /> }
               { currentLocation === "about" && <AboutMedia loading={ mediaLoading } stopMediaLoading={ ::this.stopMediaLoading } /> }
+              { currentLocation === "work" && <WorkMedia projects={ store.projects } loading={ mediaLoading } stopMediaLoading={ ::this.stopMediaLoading } /> }
               { currentLocation === "contact" && <ContactMedia loading={ mediaLoading } stopMediaLoading={ ::this.stopMediaLoading } /> }
             </section>
           </div>;
