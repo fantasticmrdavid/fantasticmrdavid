@@ -1,0 +1,45 @@
+.ProjectMedia_mobile {
+  .u-stroke {
+    border: 1px solid #aaa;
+  }
+}
+
+.ProjectMedia_mobileOuterFrame {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  padding: 20px 7px 30px;
+}
+
+.ProjectMedia_mobileScreen {
+  img {
+    width: 100px;
+    height: auto;
+  }
+}
+
+.ProjectMedia_mobileHomeButton {
+  position: absolute;
+  bottom: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.ProjectMedia_mobileUpButton {
+  position: absolute;
+  top: 30px;
+  right: -2px;
+  width: 1px;
+  height: 20px;
+}
+
+.ProjectMedia_mobileDownButton {
+  position: absolute;
+  top: 60px;
+  right: -2px;
+  width: 1px;
+  height: 20px;
+}

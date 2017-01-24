@@ -1,0 +1,28 @@
+.ProjectMedia {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  min-height: 150px;
+  margin-bottom: 2em;
+}
+
+.ProjectMedia_image {
+  box-sizing: border-box;
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+
+  .u-image & {
+    width: 100%;
+  }
+
+  .u-mobile & {
+    min-width: 100px;
+  }
+
+  .u-desktop & {
+    flex: 2;
+    min-width: 300px;
+    width: 60%;
+  }
+}

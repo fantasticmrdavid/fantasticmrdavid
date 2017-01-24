@@ -4,10 +4,15 @@
   width: 100%;
   flex: 1;
   perspective: 1200px;
+  overflow: hidden;
 
   &.u-otherCurrent {
     max-height: 0px;
     overflow: hidden;
+  }
+
+  &.u-current {
+    overflow: auto;
   }
 }
 
@@ -120,9 +125,10 @@
 
   .Project.u-current & {
     color: white;
+    border-bottom: 1px solid #333;
     right: 0;
     left: -0.25em;
-    bottom: -4rem;
+    bottom: -3.85rem;
     cursor: default;
     opacity: 1;
   }

@@ -1,0 +1,15 @@
+.ProjectMedia_image {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .u-stroke {
+    border: 1px solid #aaa;
+  }
+}
+
+.ProjectMedia_imageFrame {
+  padding: 10px 10px;
+  margin-bottom: 20px;
+}

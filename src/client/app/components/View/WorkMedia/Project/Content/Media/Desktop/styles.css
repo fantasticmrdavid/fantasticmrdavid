@@ -1,0 +1,38 @@
+.ProjectMedia_desktop {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+
+  .u-stroke {
+    border: 1px solid #aaa;
+  }
+}
+
+.ProjectMedia_desktopOuterFrame {
+  padding: 10px 10px 20px;
+}
+
+.ProjectMedia_desktopScreen {
+  img {
+    width: 300px;
+    height: auto;
+  }
+}
+
+.ProjectMedia_desktopStand {
+  width: 80px;
+  min-height: 20px;
+
+  &.u-stroke {
+    border-top: 0px;
+    border-bottom: 0px;
+  }
+}
+
+.ProjectMedia_desktopBase {
+  border-top-width: 0px;
+  width: 200px;
+  min-height: 5px;
+}

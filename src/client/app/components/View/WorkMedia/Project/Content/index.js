@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import './styles.css';
+import ProjectMedia from './Media';
 
 export default class Content extends Component {
   render () {
-    const { title, target, url, products, technology, description, current, updateCurrent } = this.props;
+    const { title, target, url, products, technology, description, media, current, updateCurrent } = this.props;
 
     return <div className={ `ProjectContent u-${target} u-${ current && 'current'}` }>
             <section className="ProjectContent_products">
@@ -26,6 +27,11 @@ export default class Content extends Component {
                 <a href={ url } target="_blank">Visit { title }</a>
               </div>
             }
+            <div className="ProjectContent_mediaWrapper">
+              {
+                media.map( (m, i) => { return <ProjectMedia {...m} key={ `ProjectMedia_${i}` } /> } )
+              }
+            </div>
           </div>;
   }
 }
