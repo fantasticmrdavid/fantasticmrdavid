@@ -23,8 +23,9 @@ export default class Project extends Component {
 
   render () {
     const { title, target, images, updateCurrent, current } = this.props;
-    let bgOffStyle = { backgroundImage: `url(${images.tileOff})` };
-    let bgOnStyle = { backgroundImage: `url(${images.tileOn})` };
+
+    let bgOffStyle = { backgroundImage: `url(${!!images && images.tileOff})` };
+    let bgOnStyle = { backgroundImage: `url(${!!images && images.tileOn})` };
 
     return <div className={ `Project u-${target} u-${ this.isCurrent() && 'current'} u-${ this.isOtherCurrent() && 'otherCurrent' }` }>
             <a className="ProjectTile" data-target={ target } onClick={ ::this.handleTileClick }>

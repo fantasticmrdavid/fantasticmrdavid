@@ -8,4 +8,5 @@
 .ProjectMedia_imageFrame {
   padding: 10px 10px;
   margin-bottom: 20px;
+  cursor: pointer;
 }

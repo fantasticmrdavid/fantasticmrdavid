@@ -4,13 +4,32 @@ import ProjectMedia from './Media';
 
 export default class Content extends Component {
   render () {
-    const { title, target, url, products, technology, description, media, current, updateCurrent } = this.props;
+    const { title,
+            target,
+            url,
+            products,
+            role,
+            technology,
+            description,
+            media,
+            current,
+            updateCurrent,
+            showPopup } = this.props;
 
     return <div className={ `ProjectContent u-${target} u-${ current && 'current'}` }>
-            <section className="ProjectContent_products">
-              <div className="ProjectContent_label">Products</div>
-              <div className="ProjectContent_copy">{ products }</div>
-            </section>
+            { !!products &&
+              <section className="ProjectContent_products">
+                <div className="ProjectContent_label">Products</div>
+                <div className="ProjectContent_copy">{ products }</div>
+              </section>
+            }
+
+            { !!role &&
+              <section className="ProjectContent_role">
+                <div className="ProjectContent_label">Role</div>
+                <div className="ProjectContent_copy">{ role }</div>
+              </section>
+            }
 
             <section className="ProjectContent_technology">
               <div className="ProjectContent_label">Technology</div>
@@ -29,7 +48,7 @@ export default class Content extends Component {
             }
             <div className="ProjectContent_mediaWrapper">
               {
-                media.map( (m, i) => { return <ProjectMedia {...m} key={ `ProjectMedia_${i}` } /> } )
+                !!media && media.map( (m, i) => { return <ProjectMedia {...m} showPopup={ showPopup } key={ `ProjectMedia_${i}` } /> } )
               }
             </div>
           </div>;

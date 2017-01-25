@@ -22,8 +22,10 @@ export default class WorkMedia extends Component {
     let images = [];
 
     projects.map((p) => {
-      let newImages = Object.values(p.images);
-      images = [...images, ...newImages];
+      if (!!p.images) {
+        let newImages = Object.values(p.images);
+        images = [...images, ...newImages];
+      }
     });
 
     return images;
@@ -31,7 +33,7 @@ export default class WorkMedia extends Component {
 
   render () {
     let { current } = this.state;
-    const { projects, loading, stopMediaLoading } = this.props;
+    const { projects, loading, stopMediaLoading, showPopup } = this.props;
 
     return <div className={ `WorkMedia u-${loading && 'loading'}` }>
             <div className="WorkMedia_loadingContainer">
@@ -45,6 +47,7 @@ export default class WorkMedia extends Component {
                           { ...p }
                           key={`Project_${i}`}
                           updateCurrent={ ::this.updateCurrent }
+                          showPopup={ showPopup }
                           current={ current }/> }
                         )
               }

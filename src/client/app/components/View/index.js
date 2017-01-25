@@ -5,6 +5,7 @@ import HomeMedia from './HomeMedia';
 import AboutMedia from './AboutMedia';
 import WorkMedia from './WorkMedia';
 import ContactMedia from './ContactMedia';
+import Popup from '../Popup';
 
 export default class View extends Component {
   constructor (props) {
@@ -14,6 +15,7 @@ export default class View extends Component {
       currentLocation: "home",
       mediaLoading: true,
       firstLoad: true,
+      popup: undefined,
     };
   }
 
@@ -37,12 +39,21 @@ export default class View extends Component {
     });
   }
 
+  showPopup (obj) {
+    this.setState({ popup: obj });
+  }
+
+  hidePopup () {
+    this.setState({ popup: undefined });
+  }
+
   render () {
     const { store } = this.props;
-    const { currentLocation, mediaLoading, firstLoad } = this.state;
+    const { currentLocation, mediaLoading, firstLoad, popup } = this.state;
     let firstMediaLoading = mediaLoading && firstLoad;
 
     return <div className={`View u-${ firstMediaLoading && 'firstMediaLoading' }`}>
+            { !!popup && <Popup { ...popup } hideAction={ ::this.hidePopup } />}
             <section className="View_control">
               <LogoMenu menu={ store.menu } currentLocation={ currentLocation } updateLocation={ ::this.updateLocation } />
             </section>
@@ -53,7 +64,14 @@ export default class View extends Component {
               <div className="View_mediaLoadingMessage">Hello!</div>
               { currentLocation === "home" && <HomeMedia loading={ mediaLoading } stopMediaLoading={ ::this.stopMediaLoading } /> }
               { currentLocation === "about" && <AboutMedia loading={ mediaLoading } stopMediaLoading={ ::this.stopMediaLoading } /> }
-              { currentLocation === "work" && <WorkMedia projects={ store.projects } loading={ mediaLoading } stopMediaLoading={ ::this.stopMediaLoading } /> }
+              { currentLocation === "work" &&
+                <WorkMedia
+                  projects={ store.projects }
+                  loading={ mediaLoading }
+                  stopMediaLoading={ ::this.stopMediaLoading }
+                  showPopup={ ::this.showPopup }
+                />
+              }
               { currentLocation === "contact" && <ContactMedia loading={ mediaLoading } stopMediaLoading={ ::this.stopMediaLoading } /> }
             </section>
           </div>;
