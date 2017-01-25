@@ -7,7 +7,7 @@ export default (props) => {
 
   return <div className="ProjectMedia_image">
           <div className="ProjectMedia_imageFrame u-stroke">
-            <a href={ url } target="_blank"><img src={ thumbnail } alt={ title } /></a>
+            <a href={ url } target="_blank"><img className="u-stroke" src={ thumbnail } alt={ title } /></a>
           </div>
         </div>
 }

@@ -109,8 +109,8 @@ export var store = {
         },
         {
           type: "image",
-          thumbnail: "",
-          url: "",
+          thumbnail: "/public/assets/images/projects/tramsformation/tramsformation_model_preview.jpg",
+          url: "/public/assets/images/projects/tramsformation/tramsformation_model_full.jpg",
           title: "Tramsformer model",
         },
       ],

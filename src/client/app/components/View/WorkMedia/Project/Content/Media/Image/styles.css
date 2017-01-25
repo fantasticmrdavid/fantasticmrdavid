@@ -3,10 +3,6 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-
-  .u-stroke {
-    border: 1px solid #aaa;
-  }
 }
 
 .ProjectMedia_imageFrame {

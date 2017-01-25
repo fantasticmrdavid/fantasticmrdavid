@@ -26,10 +26,10 @@ export default class HomeMedia extends Component {
     const { stopMediaLoading } = this.props;
     const { image } = this.state;
     let bg = new Image;
-    bg.src = image.src;
     bg.onload = () => {
       stopMediaLoading();
     };
+    bg.src = image.src;
   }
 
   render () {

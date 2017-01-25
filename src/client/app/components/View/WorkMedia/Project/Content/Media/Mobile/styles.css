@@ -1,9 +1,3 @@
-.ProjectMedia_mobile {
-  .u-stroke {
-    border: 1px solid #aaa;
-  }
-}
-
 .ProjectMedia_mobileOuterFrame {
   position: relative;
   display: flex;
