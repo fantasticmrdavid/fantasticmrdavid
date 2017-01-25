@@ -2,6 +2,7 @@
   position: relative;
   box-sizing: border-box;
   display: flex;
+  max-height: 25%;  /* Required by IE */
   width: 100%;
   flex: 1;
   perspective: 1200px;
@@ -12,7 +13,9 @@
   }
 
   &.u-current {
-    overflow: auto;
+    height: 100%;
+    max-height: none;
+    overflow-x: hidden;
   }
 }
 
@@ -138,6 +141,7 @@
   }
 
   .Project.u-current & {
+    width: 100%;
     color: white;
     border-bottom: 1px solid #333;
     right: 0;

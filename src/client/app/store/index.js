@@ -24,7 +24,7 @@ export var store = {
       url: "https://www.sitepoint.com",
       products: "Company media website, Premium platform, forums",
       technology: "HTML, CSS, ES6, React, Redux, Node.js, MobX, RoR, PHP",
-      description: "Working with Agile development team to maintain and upgrade company WordPress and Premium platforms. WordPress media site featured a new homepage and article layouts with server-side rendered front-end components. Premium members platform completely renovated the library design as well as shifting front-end components from Rails to React and Redux.",
+      description: "Working with the Agile development team to maintain and upgrade company WordPress and Premium platforms. The revised WordPress media site featured a new homepage and article layouts with server-side rendered front-end components. We completely renovated the Premium members platform library design as well as shifted front-end components from Rails to React and Redux.",
       media: [
         {
           type: "website",
@@ -86,7 +86,7 @@ export var store = {
       url: "https://generalassemb.ly",
       role: "Lead Instructor",
       technology: "HTML, CSS, JavaScript, PHP",
-      description: "The combination of visiting Brickvention, unfulfilled childhood LEGO dreams, and a love for the great city that is Melbourne sparked off this idea. The project took a year to complete, over 43,000 parts, and many visits to the actual location. LDD model was then converted and rendered in POV-Ray before touch up artwork in Photoshop.",
+      description: "I currently teach the Front End Web Development (FEWD) part time course at General Assembly's Melbourne campus. Throughout the 10 week course, students learn HTML, CSS, JavaScript and fundamental programming skills to build their own website project.",
     },
     {
       title: "Tramsformation",

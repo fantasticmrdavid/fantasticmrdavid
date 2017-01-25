@@ -40,8 +40,11 @@
   padding-right: 1em;
   z-index: 1;
 
+  h2{
+    color: white;
+  }
+
   p {
-    text-indent: 2em;
     margin-bottom: 1em;
   }
 }

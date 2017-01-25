@@ -19,10 +19,10 @@ export default class Popup extends Component {
     hideAction();
   }
   render () {
-    const { title, url, orientation } = this.props;
+    const { title, url, orientation, active } = this.props;
     let { loading } = this.state;
 
-    return <div className={`Popup u-${ !!loading && 'loading' }`}>
+    return <div className={`Popup u-${ !!loading && 'loading' } u-${ !!active && 'active' }`}>
               <div className="Lightbox" onClick={ ::this.close } />
               <div className="Popup_dialog">
                 <div className="Popup_close" onClick={ ::this.close }>X</div>

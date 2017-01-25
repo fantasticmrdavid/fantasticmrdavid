@@ -9,8 +9,10 @@
   transition: 0.5s;
   opacity: 1;
 
-  &.u-loading {
+  &.u-loading,
+  &:not(.u-active) {
     opacity: 0;
+    z-index: -1;
   }
 }
 
@@ -27,6 +29,7 @@
   box-shadow: 7px 7px 5px rgba(0,0,0,0.2);
   max-width: 90%;
   max-height: 90%;
+  transition: 0.5s;
 
   img {
     &.u-landscape {

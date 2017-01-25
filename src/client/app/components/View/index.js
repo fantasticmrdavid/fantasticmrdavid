@@ -53,7 +53,7 @@ export default class View extends Component {
     let firstMediaLoading = mediaLoading && firstLoad;
 
     return <div className={`View u-${ firstMediaLoading && 'firstMediaLoading' }`}>
-            { !!popup && <Popup { ...popup } hideAction={ ::this.hidePopup } />}
+            <Popup { ...popup } hideAction={ ::this.hidePopup } active={ !!popup }/>
             <section className="View_control">
               <LogoMenu menu={ store.menu } currentLocation={ currentLocation } updateLocation={ ::this.updateLocation } />
             </section>
