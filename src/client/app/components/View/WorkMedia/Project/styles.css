@@ -35,8 +35,10 @@
     opacity: 1;
   }
 
-  &:hover {
-    color: tomato;
+  @media (min-width: $l-w-medium) {
+    &:hover {
+      color: tomato;
+    }
   }
 }
 

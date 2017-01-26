@@ -16,6 +16,7 @@
 
 .ProjectMedia_mobileHomeButton {
   position: absolute;
+  align-self: center;
   bottom: 5px;
   width: 20px;
   height: 20px;

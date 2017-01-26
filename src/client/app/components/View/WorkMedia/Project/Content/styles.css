@@ -36,8 +36,10 @@
     border-bottom: 1px solid white;
     transition: 0.3s;
 
-    &:hover {
-      border-bottom-color: tomato;
+    @media (min-width: $l-w-medium) {
+      &:hover {
+        border-bottom-color: tomato;
+      }
     }
   }
 }

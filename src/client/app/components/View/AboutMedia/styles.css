@@ -1,5 +1,8 @@
+@import "../../../styles/variables.css";
+
 .AboutMedia {
   display: flex;
+  flex-direction: row-reverse;
   align-items: flex-start;
   justify-content: center;
   box-sizing: border-box;
@@ -12,6 +15,12 @@
 
   &.u-loading {
     opacity: 0;
+  }
+
+  @media (max-width: $l-w-small) {
+    padding: 2em;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -28,6 +37,10 @@
   width: 100px;
   height: auto;
   z-index: 1;
+
+  @media (max-width: $l-w-small) {
+    margin-bottom: 1em;
+  }
 }
 
 .AboutMedia_content {
@@ -39,6 +52,11 @@
   max-width: 900px;
   padding-right: 1em;
   z-index: 1;
+
+  @media (max-width: $l-w-small) {
+    padding-right: 0px;
+    max-width: 100%;
+  }
 
   h2{
     color: white;

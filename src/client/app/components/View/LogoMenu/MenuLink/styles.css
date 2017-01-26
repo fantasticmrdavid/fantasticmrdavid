@@ -11,10 +11,12 @@ $c_contact: #cc750c;
     transition: 0s;
   }
 
-  &:not(.u-current) {
-    .MenuLink_label:hover {
-      padding-left: 60px;
-      background: #555;
+  @media (min-width: $l-w-medium) {
+    &:not(.u-current) {
+      .MenuLink_label:hover {
+        padding-left: 60px;
+        background: #555;
+      }
     }
   }
 }
@@ -57,7 +59,7 @@ $c_contact: #cc750c;
     transition: 0.3s;
     background: #222;
   }
-
+  
   .MenuLink:not(.u-current):hover & {
     &:before {
       width: 15px;

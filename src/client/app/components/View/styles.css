@@ -1,10 +1,15 @@
+@import "../../styles/variables.css";
+
 .View {
   display: flex;
   justify-content: center;
   align-items: stretch;
-  height: 100%;
   min-height: 100%;
   background: #111;
+
+  @media (max-width: $l-w-small) {
+    display: block;
+  }
 }
 
 .View_control {
@@ -15,6 +20,10 @@
   background: #232323;
   color: #aaa;
   transition: 0.3s;
+
+  @media (max-width: $l-w-small) {
+    width: 100%;
+  }
 }
 
 .View_media {
@@ -22,6 +31,10 @@
   display: flex;
   width: 60%;
   transition: 1s;
+
+  @media (max-width: $l-w-small) {
+    width: 100%;
+  }
 }
 
 .View_mediaShutter {

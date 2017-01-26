@@ -27,14 +27,14 @@ export default class LogoMenu extends Component {
 
     return <div className={`LogoMenu ${!!active && 'u-active'}`} onClick={ ::this.toggleActive }>
             <h1 className="LogoMenu_title">Fantastic Mr David</h1>
-            <div className="LogoMenu_nav">
+            <nav className="LogoMenu_nav">
               { menu.map((item, i) => { return <MenuLink
                   key={`MenuLink_${i}`}
                   { ...item }
                   current={ currentLocation === item.target }
                   updateLocation={ updateLocation } />; })
               }
-            </div>
+            </nav>
             <div className="LogoMenu_subtitle">
               <h2><i className="fa fa-cog" /> Art + Engineering</h2>
               <Blinker />

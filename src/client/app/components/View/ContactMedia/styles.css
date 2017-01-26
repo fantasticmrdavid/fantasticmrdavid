@@ -1,9 +1,16 @@
+@import "../../../styles/variables.css";
+
 .ContactMedia {
   position: relative;
   opacity: 1;
   height: 100%;
   width: 100%;
   background: #aaa;
+
+  @media (max-width: $l-w-small) {
+    max-height: 40vh;
+    padding: 3em 0;
+  }
 
   &.u-loading {
     opacity: 0;
