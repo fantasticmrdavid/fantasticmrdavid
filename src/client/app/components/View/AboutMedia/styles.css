@@ -8,8 +8,8 @@
   box-sizing: border-box;
   min-height: 100%;
   padding: 4em 2em;
-  background-color: #111;
-  color: #aaa;
+  background-color: $c-dark-charcoal;
+  color: $c-text-primary;
   opacity: 1;
   transition: 1s;
 

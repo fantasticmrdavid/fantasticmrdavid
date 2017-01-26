@@ -1,3 +1,5 @@
+@import "../../../../styles/variables.css";
+
 .Project {
   position: relative;
   box-sizing: border-box;
@@ -49,7 +51,7 @@
   height: 100%;
   top: 0px;
   right: -20px;
-  background-color: #333;
+  background-color: $c-charcoal;
   border: 2px solid black;
   box-shadow: 7px 7px 5px rgba(0,0,0,0.2);
   transition: 0.5s;
@@ -127,13 +129,13 @@
   position: absolute;
   bottom: 0px;
   right: 0px;
-  color: #aaa;
+  color: $c-text-primary;
   font-family: 'Nunito Sans', Helvetica, 'Trebuchet MS', Arial, sans-serif;
   font-weight: 300;
   font-size: 1.25rem;
   text-transform: uppercase;
   padding: 1em 2em;
-  background: #111;
+  background: $c-dark-charcoal;
   opacity: 0.9;
   transition: 0.3s;
 

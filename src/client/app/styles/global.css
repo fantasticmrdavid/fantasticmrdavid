@@ -1,4 +1,6 @@
+@import "./variables.css";
+
 html {
   font-family: 'Josefin Slab', Courier, "Trebuchet MS", 'Times New Roman', serif;
-  color: #333;
+  color: $c-charcoal;
 }

@@ -1,3 +1,5 @@
+@import "../../../../styles/variables.css";
+
 $c_about: #3fa44e;
 $c_work: #967fd1;
 $c_contact: #cc750c;
@@ -31,7 +33,7 @@ $c_contact: #cc750c;
   }
 
   .MenuLink.u-current & {
-    background: #aaa;
+    background: $c-light-grey;
     color: black;
     font-size: 2rem;
     font-weight: 600;
@@ -59,7 +61,7 @@ $c_contact: #cc750c;
     transition: 0.3s;
     background: #222;
   }
-  
+
   .MenuLink:not(.u-current):hover & {
     &:before {
       width: 15px;

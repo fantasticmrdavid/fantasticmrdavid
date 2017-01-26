@@ -1,3 +1,5 @@
+@import "../../../../../styles/variables.css";
+
 .ProjectContent {
   display: flex;
   flex-direction: column;
@@ -9,7 +11,7 @@
   max-height: 0px;
   padding: 4rem 2.5em;
   transition: 1s;
-  background: #111;
+  background: $c-dark-charcoal;
   opacity: 0;
 
   section {

@@ -1,2 +1,10 @@
+$c-light-grey: #aaa;
+$c-charcoal: #333;
+$c-dark-charcoal: #111;
+
 $l-w-small: 568px;
 $l-w-medium: 768px;
+
+$c-text-primary: $c-light-grey;
+
+$c-border-color: $c-light-grey;

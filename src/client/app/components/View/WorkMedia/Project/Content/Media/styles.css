@@ -1,3 +1,5 @@
+@import "../../../../../../styles/variables.css";
+
 .ProjectMedia {
   display: flex;
   justify-content: center;
@@ -6,7 +8,7 @@
   margin-bottom: 2em;
 
   .u-stroke {
-    border: 1px solid #aaa;
+    border: 1px solid $c-border-color;
     max-height: 600px;
     transition: 0.3s;
 
