@@ -1,6 +1,7 @@
 @import "../../../styles/variables.css";
 
 .LogoMenu {
+  position: relative;
   font-family: $ff-heading;
   display: flex;
   flex-wrap: wrap;
@@ -22,6 +23,36 @@
 .LogoMenu_title {
   padding: 0 2rem;
   font-size: 2rem;
+}
+
+.LogoMenu_startCta {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: calc(50% - 25px);
+  right: 2rem;
+  border-radius: 50%;
+  border: 2px solid $c-dark-grey;
+  font-size: 2rem;
+  color: $c-dark-grey;
+  width: 50px;
+  height: 50px;
+  transition: 0.3s;
+
+  @media (max-width: $l-w-small) {
+    display: none;
+  }
+
+  @media (min-width: $l-w-medium) {
+    &:hover {
+      background: $c-charcoal;
+    }
+  }
+
+  .u-active & {
+    opacity: 0;
+  }
 }
 
 .LogoMenu_nav {
