@@ -9,7 +9,7 @@ export default class Content extends Component {
             url,
             products,
             role,
-            technology,
+            technologies,
             description,
             media,
             current,
@@ -31,9 +31,9 @@ export default class Content extends Component {
               </section>
             }
 
-            <section className="ProjectContent_technology">
-              <div className="ProjectContent_label">Technology</div>
-              <div className="ProjectContent_copy">{ technology }</div>
+            <section className="ProjectContent_technologies">
+              <div className="ProjectContent_label">Technologies</div>
+              <div className="ProjectContent_copy">{ technologies }</div>
             </section>
 
             <section className="ProjectContent_description">
@@ -43,7 +43,7 @@ export default class Content extends Component {
             {
               !!url &&
               <div className="ProjectContent_url">
-                <a href={ url } target="_blank">Visit { title }</a>
+                <a className="u-cta" href={ url } target="_blank">Visit { title }</a>
               </div>
             }
             <div className="ProjectContent_mediaWrapper">

@@ -1,6 +1,19 @@
 @import "./variables.css";
 
 html {
-  font-family: 'Josefin Slab', Courier, "Trebuchet MS", 'Times New Roman', serif;
+  font-family: $ff-copy;
   color: $c-charcoal;
+}
+
+a.u-cta {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  transition: 0.3s;
+
+  @media (min-width: $l-w-medium) {
+    &:hover {
+      border-bottom-color: tomato;
+    }
+  }
 }

@@ -1,6 +1,7 @@
 @import "../../../styles/variables.css";
 
 .LogoMenu {
+  font-family: $ff-heading;
   display: flex;
   flex-wrap: wrap;
   align-content: center;

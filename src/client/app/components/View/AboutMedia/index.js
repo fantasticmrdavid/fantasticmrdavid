@@ -24,6 +24,22 @@ export default class AboutMedia extends Component {
 
               <h2>Artist</h2>
               <p>Maybe it was the cartoons and comics growing up, but by the time my parents realised that the massive time sink of a hobby that was drawing wasn't going away, it was too late. While web engineering keeps the problem solving part of my brain occupied, illustration and artwork have allowed me to stretch my creative boundaries. In my after hours I have drawn comics, produced character concepts, made 3D prints, and anything else I feel like at the time.</p>
+
+              <h2>About this site</h2>
+              <p>
+                fantasticmrdavid.com.au was built with:
+                <ul>
+                  <li>ES6</li>
+                  <li>Node.js</li>
+                  <li>Webpack</li>
+                  <li>React</li>
+                  <li>PostCSS</li>
+                </ul>
+                <br />
+                <a className="u-cta" href="https://github.com/fantasticmrdavid/fantasticmrdavid" target="_blank">
+                Visit the Github repository
+                </a>
+              </p>
             </div>
           </div>
   }

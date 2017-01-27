@@ -58,7 +58,7 @@ export default class View extends Component {
               <LogoMenu menu={ store.menu } currentLocation={ currentLocation } updateLocation={ ::this.updateLocation } />
             </section>
 
-            <section className="View_media">
+            <section className={`View_media u-${currentLocation}`}>
               <div className="View_mediaShutter u-top" />
               <div className="View_mediaShutter u-bottom" />
               <div className="View_mediaLoadingMessage">Hello!</div>

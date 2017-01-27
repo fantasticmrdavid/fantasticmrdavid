@@ -8,3 +8,6 @@ $l-w-medium: 768px;
 $c-text-primary: $c-light-grey;
 
 $c-border-color: $c-light-grey;
+
+$ff-heading: 'Josefin Slab', Courier, "Trebuchet MS", 'Times New Roman', serif;
+$ff-copy: 'Nunito Sans', Helvetica, 'Trebuchet MS', Arial, sans-serif;
