@@ -46,6 +46,8 @@
 }
 
 .ContactMedia_social {
+  display: flex;
+  justify-content: center;
   margin-top: 0.25em;
   text-align: center;
   width: 100%;
@@ -58,6 +60,23 @@
     @media (min-width: $l-w-medium) {
       &:hover {
         color: white;
+      }
+    }
+  }
+
+  svg {
+    width: 1em;
+    height: 1em;
+    margin: 0 3px;
+
+    .u-fill {
+      fill: $c-light-grey;
+      transition: 0.3s;
+    }
+
+    &:hover {
+      .u-fill {
+        fill: white;
       }
     }
   }
