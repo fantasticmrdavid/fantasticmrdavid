@@ -34,6 +34,7 @@ export default class AboutMedia extends Component {
                   <li>Webpack</li>
                   <li>React</li>
                   <li>PostCSS</li>
+                  <li>AWS</li>
                 </ul>
                 <br />
                 <a className="u-cta" href="https://github.com/fantasticmrdavid/fantasticmrdavid" target="_blank">

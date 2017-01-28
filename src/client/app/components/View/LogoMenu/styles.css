@@ -41,7 +41,7 @@
   z-index: 1;
   transition: 0.3s;
 
-  @media (max-width: $l-w-small) {
+  @media (max-width: $l-w-large) {
     display: none;
   }
 

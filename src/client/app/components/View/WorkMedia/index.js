@@ -23,7 +23,7 @@ export default class WorkMedia extends Component {
 
     projects.map((p) => {
       if (!!p.images) {
-        let newImages = Object.values(p.images);
+        let newImages = Object.keys(p.images).map(function(key) { return p.images[key]; });
         images = [...images, ...newImages];
       }
     });

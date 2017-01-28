@@ -20,6 +20,7 @@
   background: #232323;
   color: $c-text-primary;
   transition: 0.3s;
+  min-height: 100vh;
 
   @media (max-width: $l-w-small) {
     width: 100%;
