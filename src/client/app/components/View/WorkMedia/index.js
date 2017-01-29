@@ -15,6 +15,7 @@ export default class WorkMedia extends Component {
 
   updateCurrent (newCurrent) {
     this.setState({ current: newCurrent });
+    ga('send', 'event', 'Work Navigate', newCurrent);
   }
 
   getImages () {

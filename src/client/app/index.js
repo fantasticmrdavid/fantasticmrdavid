@@ -1,6 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
-import Styles from "./styles";
+import './styles';
+import './helpers';
 
 import { store } from "./store";
 import View from "./components/View";

@@ -3,6 +3,11 @@ import './styles.css';
 import ProjectMedia from './Media';
 
 export default class Content extends Component {
+  handleUrlClick () {
+    const { title } = this.props;
+    ga('send', 'event', 'Project URL Click', title);
+  }
+
   render () {
     const { title,
             target,
@@ -43,7 +48,7 @@ export default class Content extends Component {
             {
               !!url &&
               <div className="ProjectContent_url">
-                <a className="u-cta" href={ url } target="_blank">Visit { title }</a>
+                <a className="u-cta" href={ url } target="_blank" onClick={ ::this.handleUrlClick }>Visit { title }</a>
               </div>
             }
             <div className="ProjectContent_mediaWrapper">

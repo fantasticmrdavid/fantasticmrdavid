@@ -6,6 +6,8 @@ export default class Image extends Component {
     e.preventDefault();
     const { title, url, orientation, showPopup } = this.props;
     showPopup({ title: title, url: url, orientation: orientation });
+
+    ga('send', 'event', 'Media Image Click', title);
   }
   render () {
     const { title, thumbnail, url, showPopup } = this.props;

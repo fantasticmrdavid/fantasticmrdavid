@@ -1,6 +1,6 @@
 import './styles.css';
 import React, { Component } from 'react';
-import Icon from '../../Icon';
+import SocialLink from './SocialLink';
 
 export default class ContactMedia extends Component {
   componentDidMount () {
@@ -9,7 +9,7 @@ export default class ContactMedia extends Component {
   }
 
   render () {
-    const { loading } = this.props;
+    const { socialLinks, loading } = this.props;
 
     return <div className={ `ContactMedia u-${loading && 'loading'}` }>
             <div className="ContactMedia_shutter u-top" />
@@ -17,11 +17,7 @@ export default class ContactMedia extends Component {
             <div className="ContactMedia_content">
               <div className="ContactMedia_email"><a href="mailto:fantasticmrdavid@gmail.com">fantasticmrdavid@gmail.com</a></div>
               <div className="ContactMedia_social">
-                <a href="https://au.linkedin.com/in/fantasticmrdavid" target="_blank" title="LinkedIn"><i className="fa fa-linkedIn-square"></i></a>
-                <a href="https://github.com/fantasticmrdavid/" target="_blank" title="Github"><i className="fa fa-github"></i></a>
-                <a href="https://www.redbubble.com/people/misterdavid/" target="_blank" title="Redbubble">
-                  <Icon icon="redbubble" />
-                </a>
+                { socialLinks.map( (l, i) => <SocialLink { ...l} key={`SocialLink_${i}`}/> ) }
               </div>
             </div>
           </div>;

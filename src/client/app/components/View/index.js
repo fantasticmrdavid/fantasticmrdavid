@@ -21,11 +21,14 @@ export default class View extends Component {
 
   updateLocation (newLocation) {
     const { currentLocation } = this.state;
+    let updatedLocation = currentLocation !== newLocation ? newLocation : "home";
 
     this.startMediaLoading();
     this.setState({
-      currentLocation: currentLocation !== newLocation ? newLocation : "home",
+      currentLocation: updatedLocation,
     });
+
+    ga('send', 'event', 'Top Menu Navigate', updatedLocation);
   }
 
   startMediaLoading() {
@@ -72,7 +75,12 @@ export default class View extends Component {
                   showPopup={ ::this.showPopup }
                 />
               }
-              { currentLocation === "contact" && <ContactMedia loading={ mediaLoading } stopMediaLoading={ ::this.stopMediaLoading } /> }
+              { currentLocation === "contact" &&
+                <ContactMedia
+                  socialLinks={ store.socialLinks }
+                  loading={ mediaLoading }
+                  stopMediaLoading={ ::this.stopMediaLoading }
+                /> }
             </section>
           </div>;
   }
