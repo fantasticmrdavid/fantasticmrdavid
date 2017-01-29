@@ -29,9 +29,7 @@ export default class LogoMenu extends Component {
             <h1 className="LogoMenu_title">
               Fantastic Mr David
             </h1>
-            <a className="LogoMenu_startCta">
-              <i className="fa fa-angle-down" />
-            </a>
+
             <nav className="LogoMenu_nav">
               { menu.map((item, i) => { return <MenuLink
                   key={`MenuLink_${i}`}
@@ -40,10 +38,15 @@ export default class LogoMenu extends Component {
                   updateLocation={ updateLocation } />; })
               }
             </nav>
+            
             <div className="LogoMenu_subtitle">
               <h2><i className="fa fa-cog" /> Art + Engineering</h2>
               <Blinker />
             </div>
+
+            <a className="LogoMenu_startCta">
+              <i className="fa fa-angle-down" />
+            </a>
           </div>;
   }
 }

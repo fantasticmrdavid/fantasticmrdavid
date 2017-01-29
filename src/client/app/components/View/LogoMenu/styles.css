@@ -10,7 +10,6 @@
   cursor: pointer;
 
   @media (max-width: $l-w-small) {
-    justify-content: center;
     min-height: 0px;
     padding: 1.5em 0;
 
@@ -21,8 +20,12 @@
 }
 
 .LogoMenu_title {
-  padding: 0 2rem;
+  padding: 0 4rem 0 2rem;
   font-size: 2rem;
+
+  @media (max-width: $l-w-small) {
+    font-size: 1.8rem;
+  }
 }
 
 .LogoMenu_startCta {
@@ -41,8 +44,10 @@
   z-index: 1;
   transition: 0.3s;
 
-  @media (max-width: $l-w-large) {
-    display: none;
+  @media (max-width: $l-w-small) {
+    .u-active & {
+      display: none;
+    }
   }
 
   @media (min-width: $l-w-medium) {
@@ -82,10 +87,6 @@
   width: 100%;
   padding: 0 2rem;
   margin-top: 0.25em;
-
-  @media (max-width: $l-w-small) {
-    justify-content: center;
-  }
 
   i {
     opacity: 0.5;
