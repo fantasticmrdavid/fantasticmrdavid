@@ -33,6 +33,8 @@ export default class AboutMedia extends Component {
                 <li>Webpack</li>
                 <li>React</li>
                 <li>PostCSS</li>
+                <li>Github</li>
+                <li>Codeship</li>
                 <li>AWS</li>
               </ul>
               <br />
