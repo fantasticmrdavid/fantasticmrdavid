@@ -124,13 +124,12 @@
   }
 }
 
-.ProjectTile_title {
+.ProjectTile_content {
   position: absolute;
   bottom: 0px;
   right: 0px;
   color: $c-text-primary;
   font-weight: 300;
-  font-size: 1.25rem;
   text-transform: uppercase;
   padding: 1em 2em;
   background: $c-dark-charcoal;
@@ -152,4 +151,14 @@
     cursor: default;
     opacity: 1;
   }
+}
+
+.ProjectTile_title {
+  font-size: 1.25rem;
+}
+
+.ProjectTile_tagline {
+  padding: 0.25em 0;
+  font-size: 0.9rem;
+  text-transform: capitalize;
 }

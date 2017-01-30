@@ -22,7 +22,7 @@ export default class Project extends Component {
   }
 
   render () {
-    const { title, target, images, updateCurrent, current } = this.props;
+    const { title, tagline, target, images, updateCurrent, current } = this.props;
 
     let bgOffStyle = { backgroundImage: `url(${!!images && images.tileOff})` };
     let bgOnStyle = { backgroundImage: `url(${!!images && images.tileOn})` };
@@ -31,7 +31,10 @@ export default class Project extends Component {
             <a className="ProjectTile" data-target={ target } onClick={ ::this.handleTileClick }>
               <div className="ProjectTile_bg u-off" style={ bgOffStyle }/>
               <div className="ProjectTile_bg u-on" style={ bgOnStyle }/>
-              <div className="ProjectTile_title">{ title }</div>
+              <div className="ProjectTile_content">
+                <div className="ProjectTile_title">{ title }</div>
+                <div className="ProjectTile_tagline">{ tagline }</div>
+              </div>
               <div className="ProjectTile_close">X</div>
             </a>
             <Content { ...this.props } />

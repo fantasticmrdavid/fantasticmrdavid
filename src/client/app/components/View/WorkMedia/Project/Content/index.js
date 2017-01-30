@@ -29,13 +29,6 @@ export default class Content extends Component {
               </section>
             }
 
-            { !!role &&
-              <section className="ProjectContent_role">
-                <div className="ProjectContent_label">Role</div>
-                <div className="ProjectContent_copy">{ role }</div>
-              </section>
-            }
-
             <section className="ProjectContent_technologies">
               <div className="ProjectContent_label">Technologies</div>
               <div className="ProjectContent_copy">{ technologies }</div>
