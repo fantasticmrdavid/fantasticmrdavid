@@ -74,7 +74,7 @@ export var store = {
           thumbnail: "/public/assets/images/projects/legoFlinders/legoFlinders_preview.jpg",
           url: "/public/assets/images/projects/legoFlinders/legoFlinders_full.jpg",
           orientation: "landscape",
-          title: "LEGO FLinders St art print",
+          title: "LEGO Flinders St art print",
         },
       ],
     },
