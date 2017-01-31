@@ -34,7 +34,6 @@
   position: relative;
   display: flex;
   width: 60%;
-  transition: 1s;
 
   @media (max-width: $l-w-small) {
     width: 100%;
