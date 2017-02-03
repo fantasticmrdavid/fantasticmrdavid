@@ -6,6 +6,8 @@ var APP_DIR = path.resolve(__dirname, 'src/client/app');
 
 var PROD = (process.env.NODE_ENV === 'production');
 
+var ExtractTextPlugin = require("extract-text-webpack-plugin");
+
 var config = {
   entry: APP_DIR + '/index.js',
   output: {
@@ -21,22 +23,24 @@ var config = {
       },
       {
         test: /\.css$/,
-        loaders: [
+        loader: ExtractTextPlugin.extract(
           'style-loader',
-          'css-loader?importLoaders=1',
-          'postcss-loader'
-        ]
+          'css-loader?importLoaders=1!postcss-loader'
+        )
       }
     ]
   },
-  plugins: PROD ? [
-    new webpack.DefinePlugin({
-      'process.env': {
-        NODE_ENV: JSON.stringify('production')
-      }
-    }),
-    new webpack.optimize.UglifyJsPlugin()
-  ] : [],
+  plugins: [
+    new ExtractTextPlugin("../css/styles.css")
+  ].concat(PROD ? [
+      new webpack.DefinePlugin({
+        'process.env': {
+          NODE_ENV: JSON.stringify('production')
+        }
+      }),
+      new webpack.optimize.UglifyJsPlugin()
+    ] : []
+  )
 };
 
 module.exports = config;
