@@ -1,5 +1,3 @@
-@import "../../../styles/variables.css";
-
 .AboutMedia {
   display: flex;
   flex-direction: row-reverse;

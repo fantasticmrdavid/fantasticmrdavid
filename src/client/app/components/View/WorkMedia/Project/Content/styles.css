@@ -1,5 +1,3 @@
-@import "../../../../../styles/variables.css";
-
 .ProjectContent {
   display: flex;
   flex-direction: column;
