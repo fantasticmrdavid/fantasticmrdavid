@@ -1,44 +1,27 @@
 import React, { Component } from 'react';
 import "./styles.css";
-import MenuLink from "./MenuLink";
+import menu from './menu';
+import MenuLinkContainer from "../../../containers/MenuLink";
 import Blinker from "../../Blinker";
 
 export default class LogoMenu extends Component {
-  constructor (props) {
-    super(props);
-
-    this.state = {
-      active: false,
-    };
-  }
-
-  toggleActive (e) {
-    let state = this.state;
-
-    this.setState({
-      ...state,
-      active: !state.active,
-    });
+  boundToggleActive () {
+    const { active, toggleActive } = this.props;
+    toggleActive(active);
   }
 
   render () {
-    const { menu, currentLocation, updateLocation } = this.props;
-    let { active } = this.state;
+    const { active, toggleActive } = this.props;
 
-    return <div className={`LogoMenu ${!!active && 'u-active'}`} onClick={ ::this.toggleActive }>
+    return <div className={`LogoMenu ${!!active && 'u-active'}`} onClick={ ::this.boundToggleActive }>
             <h1 className="LogoMenu_title">
               Fantastic Mr David
             </h1>
 
             <nav className="LogoMenu_nav">
-              { menu.map((item, i) => { return <MenuLink
-                  key={`MenuLink_${i}`}
-                  { ...item }
-                  current={ currentLocation === item.target }
-                  updateLocation={ updateLocation } />; })
-              }
+              { menu.map((item, i) => { return <MenuLinkContainer { ...item } key={`MenuLink_${i}`} />; }) }
             </nav>
-            
+
             <div className="LogoMenu_subtitle">
               <h2><i className="fa fa-cog" /> Art + Engineering</h2>
               <Blinker />
