@@ -2,30 +2,19 @@ import React, { Component } from 'react';
 import './styles.css';
 
 export default class Popup extends Component {
-  constructor (props) {
-    super(props);
-
-    this.state = { loading: true };
-  }
-
-  componentDidMount () {
-    setTimeout( () => { this.setState({ loading: false }) });
-  }
-
-  close (e) {
+  handleClose (e) {
     e.preventDefault();
-    let { hideAction } = this.props;
-
-    hideAction();
+    
+    const { close } = this.props;
+    close(e);
   }
   render () {
-    const { title, url, orientation, active } = this.props;
-    let { loading } = this.state;
+    const { title, url, orientation, active, loading } = this.props;
 
     return <div className={`Popup u-${ !!loading && 'loading' } u-${ !!active && 'active' }`}>
-              <div className="Lightbox" onClick={ ::this.close } />
+              <div className="Lightbox" onClick={ ::this.handleClose } />
               <div className="Popup_dialog">
-                <div className="Popup_close" onClick={ ::this.close }>X</div>
+                <div className="Popup_close" onClick={ ::this.handleClose }>X</div>
                 { !!url && <img className={ `u-${orientation}` } src={ url } alt={ title } /> }
               </div>
             </div>

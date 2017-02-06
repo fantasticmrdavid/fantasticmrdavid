@@ -6,28 +6,23 @@ export default class Project extends Component {
   handleTileClick (e) {
     e.preventDefault();
 
-    const { target, updateCurrent } = this.props;
-    let newCurrent = this.isCurrent() ? undefined : target;
+    const { target, isCurrent, updateCurrent } = this.props;
+    let newCurrent = !!isCurrent ? undefined : target;
     updateCurrent(newCurrent);
   }
 
-  isCurrent () {
-    const { target, current } = this.props;
-    return current === target;
-  }
-
   isOtherCurrent () {
-    const { current } = this.props;
-    return this.isCurrent() ? false : !!current;
+    const { current, isCurrent } = this.props;
+    return !!isCurrent ? false : !!current;
   }
 
   render () {
-    const { title, tagline, target, images, updateCurrent, current } = this.props;
+    const { title, tagline, target, images, isCurrent, updateCurrent } = this.props;
 
     let bgOffStyle = { backgroundImage: `url(${!!images && images.tileOff})` };
     let bgOnStyle = { backgroundImage: `url(${!!images && images.tileOn})` };
 
-    return <div className={ `Project u-${target} u-${ this.isCurrent() && 'current'} u-${ this.isOtherCurrent() && 'otherCurrent' }` }>
+    return <div className={ `Project u-${target} u-${ !!isCurrent && 'current'} u-${ this.isOtherCurrent() && 'otherCurrent' }` }>
             <a className="ProjectTile" data-target={ target } onClick={ ::this.handleTileClick }>
               <div className="ProjectTile_bg u-off" style={ bgOffStyle }/>
               <div className="ProjectTile_bg u-on" style={ bgOnStyle }/>
@@ -37,7 +32,7 @@ export default class Project extends Component {
               </div>
               <div className="ProjectTile_close">X</div>
             </a>
-            <Content { ...this.props } />
+            <Content { ...this.props } updateCurrent={ updateCurrent }  />
           </div>;
   }
 }

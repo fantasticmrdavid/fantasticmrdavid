@@ -6,7 +6,7 @@ import Work from "./Work";
 import Contact from "./Contact";
 
 export default (props) => {
-  const { current, location } = props;
+  const { location } = props;
   if (!location) return null;
 
   return <div className="LocationContent">

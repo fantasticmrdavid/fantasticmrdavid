@@ -9,32 +9,23 @@ const HOME_IMAGES = [
 ];
 
 export default class HomeMedia extends Component {
-  constructor (props) {
-    super(props);
-
-    this.state = {
-      image: "",
-    }
-  }
-
   componentWillMount () {
+    const { updateImage } = this.props;
     let image = HOME_IMAGES[Math.floor(Math.random() * HOME_IMAGES.length)];
-    this.setState({ image: image });
+    updateImage(image);
   }
 
   componentDidMount () {
-    const { stopMediaLoading } = this.props;
-    const { image } = this.state;
+    const { image, stopLoading } = this.props;
     let bg = new Image;
     bg.onload = () => {
-      stopMediaLoading();
+      stopLoading();
     };
     bg.src = image.src;
   }
 
   render () {
-    const { loading } = this.props;
-    const { image } = this.state;
+    const { loading, image } = this.props;
     let bgStyle = { backgroundImage: `url(${image.src})` };
     return <div className={ `HomeMedia u-${loading && 'loading'}` } style={ bgStyle } />
   }

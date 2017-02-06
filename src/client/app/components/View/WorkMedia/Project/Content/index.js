@@ -17,11 +17,11 @@ export default class Content extends Component {
             technologies,
             description,
             media,
-            current,
+            isCurrent,
             updateCurrent,
             showPopup } = this.props;
 
-    return <div className={ `ProjectContent u-${target} u-${ current && 'current'}` }>
+    return <div className={ `ProjectContent u-${target} u-${ !!isCurrent && 'current'}` }>
             { !!products &&
               <section className="ProjectContent_products">
                 <div className="ProjectContent_label">Products</div>

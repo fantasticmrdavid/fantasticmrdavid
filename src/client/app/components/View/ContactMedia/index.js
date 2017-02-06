@@ -1,15 +1,11 @@
 import './styles.css';
 import React, { Component } from 'react';
 import SocialLink from './SocialLink';
+import socialLinks from './socialLinks';
 
 export default class ContactMedia extends Component {
-  componentDidMount () {
-      const { stopMediaLoading } = this.props;
-      setTimeout(stopMediaLoading);
-  }
-
   render () {
-    const { socialLinks, loading } = this.props;
+    const { loading } = this.props;
 
     return <div className={ `ContactMedia u-${loading && 'loading'}` }>
             <div className="ContactMedia_shutter u-top" />

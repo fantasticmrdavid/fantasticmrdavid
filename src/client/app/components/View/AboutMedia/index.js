@@ -3,11 +3,6 @@ import React, { Component } from 'react';
 import Cube from '../../Cube';
 
 export default class AboutMedia extends Component {
-  componentDidMount () {
-      const { stopMediaLoading } = this.props;
-      setTimeout(stopMediaLoading);
-  }
-
   render () {
     const { loading } = this.props;
     return <div className={ `AboutMedia u-${loading && 'loading'}` }>
@@ -32,6 +27,7 @@ export default class AboutMedia extends Component {
                 <li>Node.js</li>
                 <li>Webpack</li>
                 <li>React</li>
+                <li>Redux</li>
                 <li>PostCSS</li>
                 <li>Github</li>
                 <li>Codeship</li>
