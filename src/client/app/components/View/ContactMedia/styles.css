@@ -9,10 +9,6 @@
     max-height: 40vh;
     padding: 3em 0;
   }
-
-  &.u-loading {
-    opacity: 0;
-  }
 }
 
 .ContactMedia_content {
@@ -85,9 +81,10 @@
   right: 0px;
   z-index: 16;
   width: 100%;
-  height: 50%;
   transition: 0.3s;
   background: black;
+  animation: shutterClose 0.3s ease 1;
+  animation-fill-mode: forwards;
 
   &.u-top {
     top: 0px;
@@ -96,8 +93,9 @@
   &.u-bottom {
     bottom: 0px;
   }
+}
 
-  .u-loading & {
-    height: 0%;
-  }
+@keyframes shutterClose {
+  0% { height: 0%; opacity: 0; }
+  100% { height: 50%; opacity: 1; }
 }

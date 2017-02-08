@@ -25,7 +25,7 @@ export default class View extends Component {
               { currentLocation === "home" && <HomeMediaContainer /> }
               { currentLocation === "about" && <AboutMedia loading={ loading } /> }
               { currentLocation === "work" && <WorkMediaContainer /> }
-              { currentLocation === "contact" && <ContactMedia loading={ loading } /> }
+              { currentLocation === "contact" && <ContactMedia /> }
             </section>
           </div>;
   }
