@@ -11,4 +11,14 @@
   &.u-loading {
     opacity: 0;
   }
+
+  &:not(.u-loading) {
+    animation: fadeIn 1s ease 1;
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
