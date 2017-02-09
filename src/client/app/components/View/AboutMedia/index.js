@@ -1,6 +1,7 @@
 import './styles.css';
 import React, { Component } from 'react';
 import Cube from '../../Cube';
+import Icon from '../../Icon';
 
 export default class AboutMedia extends Component {
   render () {
@@ -22,17 +23,32 @@ export default class AboutMedia extends Component {
 
               <h2>About this site</h2>
               fantasticmrdavid.com.au was built with:
-              <ul>
-                <li>ES6</li>
-                <li>Node.js</li>
-                <li>Webpack</li>
-                <li>React</li>
-                <li>Redux</li>
-                <li>PostCSS</li>
-                <li>Github</li>
-                <li>Codeship</li>
-                <li>AWS</li>
-              </ul>
+              <div className="AboutMedia_siteSpecs">
+                <div className="AboutMedia_siteSpecsSection">
+                  <h3>Environment</h3>
+                  <ul>
+                    <li>ES6</li>
+                    <li>Node.js</li>
+                    <li>Webpack</li>
+                  </ul>
+                </div>
+                <div className="AboutMedia_siteSpecsSection">
+                  <h3>Architecture</h3>
+                  <ul>
+                    <li>React</li>
+                    <li>Redux</li>
+                    <li>PostCSS</li>
+                  </ul>
+                </div>
+                <div className="AboutMedia_siteSpecsSection">
+                  <h3>Deployment</h3>
+                  <ul>
+                    <li>Github</li>
+                    <li>Codeship</li>
+                    <li>AWS</li>
+                  </ul>
+                </div>
+              </div>
               <br />
               <a className="u-cta" href="https://github.com/fantasticmrdavid/fantasticmrdavid" target="_blank">
               Visit the Github repository

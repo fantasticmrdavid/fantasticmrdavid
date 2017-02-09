@@ -68,3 +68,16 @@
     padding-left: 1em;
   }
 }
+
+.AboutMedia_siteSpecs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.AboutMedia_siteSpecsSection {
+  padding: 1em 2em;
+
+  h3 {
+    color: white;
+  }
+}
