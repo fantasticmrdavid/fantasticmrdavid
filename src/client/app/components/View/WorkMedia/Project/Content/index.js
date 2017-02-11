@@ -46,7 +46,7 @@ export default class Content extends Component {
             }
             <div className="ProjectContent_mediaWrapper">
               {
-                !!media && media.map( (m, i) => { return <ProjectMedia {...m} showPopup={ showPopup } key={ `ProjectMedia_${i}` } /> } )
+                !!media && media.map( (m, i) => { return <ProjectMedia {...m} showPopup={ showPopup } key={ `ProjectMedia_${i}` } />; } )
               }
             </div>
           </div>;

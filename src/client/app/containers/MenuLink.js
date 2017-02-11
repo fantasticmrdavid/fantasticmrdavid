@@ -8,17 +8,17 @@ const mapStateToProps = (state, ownProps) => {
     target: ownProps.target,
     current: ownProps.target === state.currentLocation,
   };
-}
+};
 
 const mapDispatchToProps = (dispatch) => {
   return {
     updateLocation: (target) => {
       dispatch(startMediaLoading());
       dispatch(updateLocation(target));
-      setTimeout( () => { dispatch(stopMediaLoading()) } );
+      setTimeout( () => dispatch(stopMediaLoading()) );
     },
-  }
-}
+  };
+};
 
 const MenuLinkContainer = connect(
   mapStateToProps,

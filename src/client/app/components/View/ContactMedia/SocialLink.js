@@ -13,6 +13,7 @@ export default class SocialLink extends Component {
             { !!fa ?
               <i className={`fa fa-${icon}`}></i>
               : <Icon icon={ icon } />
-}           </a>
+            }
+            </a>;
   }
 }

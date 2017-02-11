@@ -19,6 +19,6 @@ export default class Desktop extends Component {
             </div>
             <div className="ProjectMedia_desktopStand u-stroke" />
             <div className="ProjectMedia_desktopBase u-stroke" />
-          </div>
+          </div>;
   }
 }

@@ -7,7 +7,7 @@ const mapStateToProps = (state) => {
     loading: state.loading.media || state.loading.images,
     current: state.workMedia.location,
   };
-}
+};
 
 const mapDispatchToProps = (dispatch) => {
   return {
@@ -22,7 +22,7 @@ const mapDispatchToProps = (dispatch) => {
       dispatch(stopMediaLoading());
     },
   };
-}
+};
 
 const WorkMediaContainer = connect(
   mapStateToProps,

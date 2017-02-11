@@ -6,10 +6,10 @@ const workMedia = (state = {}, action) => {
       return {
         ...state,
         location: action.newLocation,
-      }
+      };
     default:
-      return state
+      return state;
   };
-}
+};
 
 export default workMedia;

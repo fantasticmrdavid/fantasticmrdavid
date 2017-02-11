@@ -6,15 +6,15 @@ const mapStateToProps = (state) => {
   return {
     active: state.logoMenu.active,
   };
-}
+};
 
 const mapDispatchToProps = (dispatch) => {
   return {
     toggleActive: (active) => {
       !!active ? dispatch(deactivateLogoMenu()) : dispatch(activateLogoMenu());
-    }
+    },
   };
-}
+};
 
 const LogoMenuContainer = connect(
   mapStateToProps,

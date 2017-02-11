@@ -19,4 +19,4 @@ export default {
   workMedia: {
     location: undefined,
   },
-}
+};

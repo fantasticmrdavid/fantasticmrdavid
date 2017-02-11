@@ -6,15 +6,15 @@ const logoMenu = (state = {}, action) => {
       return {
         ...state,
         active: true,
-      }
+      };
     case DEACTIVATE_LOGO_MENU:
       return {
         ...state,
         active: false,
-      }
+      };
     default:
-      return state
+      return state;
   }
-}
+};
 
 export default logoMenu;

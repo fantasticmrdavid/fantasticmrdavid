@@ -10,4 +10,4 @@ module.exports = {
     require('precss')({ /* ...options */ }),
     require('autoprefixer')({ /* ...options */ })
   ],
-}
+};

@@ -4,7 +4,7 @@ import './styles.css';
 export default class Popup extends Component {
   handleClose (e) {
     e.preventDefault();
-    
+
     const { close } = this.props;
     close(e);
   }
@@ -17,6 +17,6 @@ export default class Popup extends Component {
                 <div className="Popup_close" onClick={ ::this.handleClose }>X</div>
                 { !!url && <img className={ `u-${orientation}` } src={ url } alt={ title } /> }
               </div>
-            </div>
+            </div>;
   }
 }

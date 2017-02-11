@@ -6,10 +6,10 @@ const homeMedia = (state = {}, action) => {
       return {
         ...state,
         image: action.image,
-      }
+      };
     default:
-      return state
+      return state;
   };
-}
+};
 
 export default homeMedia;

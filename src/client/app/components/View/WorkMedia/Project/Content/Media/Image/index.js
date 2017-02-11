@@ -17,6 +17,6 @@ export default class Image extends Component {
             <div className="ProjectMedia_imageFrame u-stroke" onClick={ ::this.handleClick }>
               <img className="u-stroke" src={ thumbnail } alt={ title } />
             </div>
-          </div>
+          </div>;
   }
 }

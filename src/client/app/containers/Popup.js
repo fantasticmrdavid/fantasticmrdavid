@@ -7,16 +7,12 @@ const mapStateToProps = (state) => {
     ...state.popup,
     active: state.popup.active,
     loading: state.loading.popup,
-  }
-}
+  };
+};
 
 const mapDispatchToProps = (dispatch) => {
-  return {
-    close: () => {
-      dispatch(hidePopup());
-    }
-  }
-}
+  return { close: () => dispatch(hidePopup()) };
+};
 
 const PopupContainer = connect(
   mapStateToProps,

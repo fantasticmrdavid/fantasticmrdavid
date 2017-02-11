@@ -13,6 +13,6 @@ export default class ProjectMedia extends Component {
             { platform === 'mobile' && <Mobile { ...this.props } /> }
             { platform === 'desktop' && <Desktop { ...this.props } /> }
             { type === 'image' && <Image { ...this.props } /> }
-          </div>
+          </div>;
   }
 };

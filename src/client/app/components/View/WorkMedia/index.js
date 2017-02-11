@@ -40,7 +40,7 @@ export default class WorkMedia extends Component {
 
             <div className="WorkMedia_projectContainer">
               {
-                projects.map((p, i) => { return <ProjectContainer { ...p } key={`Project_${i}`} /> })
+                projects.map((p, i) => { return <ProjectContainer { ...p } key={`Project_${i}`} />; })
               }
             </div>
           </div>;

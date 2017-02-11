@@ -20,6 +20,6 @@ export default class Mobile extends Component {
               <div className="ProjectMedia_mobileUpButton u-stroke" />
               <div className="ProjectMedia_mobileDownButton u-stroke" />
             </div>
-          </div>
+          </div>;
   }
 }

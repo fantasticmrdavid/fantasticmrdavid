@@ -7,17 +7,17 @@ const popup = (state = {}, action) => {
         ...state,
         ...action.popup,
         active: true,
-      }
+      };
     case HIDE_POPUP:
       return {
         ...state,
         title: undefined,
         url: undefined,
         active: false,
-      }
+      };
     default:
-      return state
+      return state;
   }
-}
+};
 
 export default popup;

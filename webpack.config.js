@@ -15,6 +15,9 @@ var config = {
     filename: 'bundle.js'
   },
   module: {
+    preLoaders: [
+        { test: /\.js$/, loader: 'eslint', exclude: /node_modules/ }
+    ],
     loaders: [
       {
         test: /\.js$/,
@@ -29,6 +32,10 @@ var config = {
         )
       }
     ]
+  },
+  eslint: {
+    failOnWarning: false,
+    failOnError: true
   },
   plugins: [
     new ExtractTextPlugin("../css/styles.css")

@@ -27,6 +27,6 @@ export default class HomeMedia extends Component {
   render () {
     const { loading, image } = this.props;
     let bgStyle = { backgroundImage: `url(${image.src})` };
-    return <div className={ `HomeMedia u-${loading && 'loading'}` } style={ bgStyle } />
+    return <div className={ `HomeMedia u-${loading && 'loading'}` } style={ bgStyle } />;
   }
 }

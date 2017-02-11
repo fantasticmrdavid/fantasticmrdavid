@@ -9,7 +9,7 @@ const mapStateToProps = (state) => {
     firstLoad: state.loading.firstLoad,
     popup: state.popup,
   };
-}
+};
 
 const mapDispatchToProps = (dispatch, ownProps) => {
   return {
@@ -21,9 +21,9 @@ const mapDispatchToProps = (dispatch, ownProps) => {
       dispatch(updateLocation(updateLocation));
 
       ga('send', 'event', 'Top Menu Navigate', updatedLocation);
-    }
-  }
-}
+    },
+  };
+};
 
 const ViewContainer = connect(
   mapStateToProps,

@@ -7,7 +7,7 @@ const mapStateToProps = (state) => {
     image: state.homeMedia.image,
     loading: state.loading.media,
   };
-}
+};
 
 const mapDispatchToProps = (dispatch) => {
   return {
@@ -17,8 +17,8 @@ const mapDispatchToProps = (dispatch) => {
     stopLoading: () => {
       dispatch(stopMediaLoading());
     },
-  }
-}
+  };
+};
 
 const HomeMediaContainer = connect(
   mapStateToProps,

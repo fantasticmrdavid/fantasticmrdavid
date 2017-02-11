@@ -14,4 +14,4 @@ export default (props) => {
   const { icon } = props;
 
   if (icon === "redbubble") return <Redbubble />;
-}
+};

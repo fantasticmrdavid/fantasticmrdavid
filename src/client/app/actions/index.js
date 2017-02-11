@@ -70,7 +70,7 @@ export function updateHomeMediaImage(image) {
   return {
     type: UPDATE_HOME_MEDIA_IMAGE,
     image,
-  }
+  };
 }
 
 export function updateWorkMediaLocation(newLocation) {

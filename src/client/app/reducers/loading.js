@@ -13,36 +13,36 @@ const loading = (state = {}, action) => {
       return {
         ...state,
         media: true,
-      }
+      };
     case STOP_MEDIA_LOADING:
       return {
         ...state,
         media: false,
         firstLoad: false,
-      }
+      };
     case START_IMAGES_LOADING:
       return {
         ...state,
         images: true,
-      }
+      };
     case STOP_IMAGES_LOADING:
       return {
         ...state,
         images: false,
-      }
+      };
     case START_POPUP_LOADING:
       return {
         ...state,
         popup: true,
-      }
+      };
     case STOP_POPUP_LOADING:
       return {
         ...state,
         popup: false,
-      }
+      };
     default:
-      return state
+      return state;
   }
-}
+};
 
 export default loading;

@@ -11,5 +11,5 @@ export default () => {
             <div className="left" />
             <div className="right" />
           </div>
-        </div>
-}
+        </div>;
+};

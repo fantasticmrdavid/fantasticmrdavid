@@ -54,6 +54,6 @@ export default class AboutMedia extends Component {
               Visit the Github repository
               </a>
             </div>
-          </div>
+          </div>;
   }
 }
