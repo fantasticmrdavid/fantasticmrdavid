@@ -21,6 +21,8 @@ export default class Content extends Component {
             updateCurrent,
             showPopup } = this.props;
 
+    let descriptionMarkup = { __html: description };
+
     return <div className={ `ProjectContent u-${target} u-${ !!isCurrent && 'current'}` }>
             { !!products &&
               <section className="ProjectContent_products">
@@ -36,7 +38,7 @@ export default class Content extends Component {
 
             <section className="ProjectContent_description">
               <div className="ProjectContent_label">Description</div>
-              <div className="ProjectContent_copy">{ description }</div>
+              <div className="ProjectContent_copy" dangerouslySetInnerHTML={ descriptionMarkup }></div>
             </section>
             {
               !!url &&

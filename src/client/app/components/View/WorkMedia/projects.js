@@ -10,7 +10,7 @@ export default [
     url: "https://www.sitepoint.com",
     products: "Company media website, Premium platform, forums",
     technologies: "HTML, CSS, ES6, React, Redux, Node.js, MobX, RoR, PHP",
-    description: "As Front-End engineer I worked within an Agile development team to maintain and upgrade the company Articles WordPress and Premium RoR platforms. The revised articles site featured a new homepage and template designs with server-side rendered front-end components. We completely renovated the Premium members platform library design as well as shifted front-end components from Rails to React and Redux.",
+    description: "SitePoint is a hub built by developers for developers with the goal of sharing knowledge and educating others on incredible Internet things. Spanning articles, courses, books, screencasts, and a huge forum community, they are a leading source for the latest news on all things web development.<br /><br />As Front-End engineer I worked within an Agile development team to maintain and upgrade the company Articles WordPress and Premium RoR platforms. The revised articles site featured a new homepage and template designs with server-side rendered front-end components. We completely renovated the Premium members platform library design as well as shifted front-end components from Rails to React and Redux.",
     media: [
       {
         type: "website",
@@ -73,7 +73,7 @@ export default [
     },
     url: "https://generalassemb.ly",
     technologies: "HTML, CSS, JavaScript, PHP",
-    description: "I currently teach the Front End Web Development (FEWD) part time course at General Assembly's Melbourne campus. Throughout the 10 week course, students learn HTML, CSS, JavaScript, and fundamental programming skills to build their own website project. It has been immensely rewarding with students moving on to roles ranging from Junior Developer to Project Manager.",
+    description: "Starting out as a co-working space, General Assembly has grown into a pioneer in education and career transformation, specializing in today’s most in-demand skills. They are a leading source for training, staffing, and career transitions, fostering a flourishing community of professionals pursuing careers they love.<br /><br />I currently teach the Front End Web Development (FEWD) part time course at General Assembly's Melbourne campus. Throughout the 10 week course, students learn HTML, CSS, JavaScript, and fundamental programming skills to build their own website project. It has been immensely rewarding with students moving on to roles ranging from Junior Developer to Project Manager.",
   },
   {
     title: "Tramsformation",
