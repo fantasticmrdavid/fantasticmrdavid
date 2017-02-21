@@ -3,7 +3,7 @@ export default {
   homeMedia: {
     image: {
       name: "legoFlinders",
-      src: "/public/assets/images/legoFlinders.jpg",
+      src: "/assets/images/legoFlinders.jpg",
     },
   },
   loading: {

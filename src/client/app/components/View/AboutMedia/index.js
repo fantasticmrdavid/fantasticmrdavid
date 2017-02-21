@@ -10,7 +10,7 @@ export default class AboutMedia extends Component {
             <div className="AboutMedia_bg">
               <Cube />
             </div>
-            <img className="AboutMedia_profile" src="/public/assets/images/profile.jpg" alt="Me" />
+            <img className="AboutMedia_profile" src="/assets/images/profile.jpg" alt="Me" />
             <div className="AboutMedia_content">
               <p>Hi! I'm David, and I like making things.<br />
               Since I was a kid I've been passionate about building and creating. I've always enjoyed the journey of formulating and executing an idea to achieve a goal whether it's solving a complex problem, creating some ambitious new artwork, or both.</p>

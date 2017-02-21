@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 const HOME_IMAGES = [
   {
     name: "legoFlinders",
-    src: "/public/assets/images/legoFlinders.jpg",
+    src: "/assets/images/legoFlinders.jpg",
   },
 ];
 
