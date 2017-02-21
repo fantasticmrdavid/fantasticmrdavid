@@ -5,7 +5,12 @@ import MenuLinkContainer from "../../../containers/MenuLink";
 import Blinker from "../../Blinker";
 
 export default class LogoMenu extends Component {
-  boundToggleActive () {
+  constructor () {
+    super();
+    this.boundToggleActive = this.localToggleActive.bind(this);
+  }
+
+  localToggleActive () {
     const { active, toggleActive } = this.props;
     toggleActive(active);
   }
@@ -13,7 +18,7 @@ export default class LogoMenu extends Component {
   render () {
     const { active, toggleActive } = this.props;
 
-    return <div className={`LogoMenu ${!!active && 'u-active'}`} onClick={ ::this.boundToggleActive }>
+    return <div className={`LogoMenu ${!!active && 'u-active'}`} onClick={ this.boundToggleActive }>
             <h1 className="LogoMenu_title">
               Fantastic Mr David
             </h1>

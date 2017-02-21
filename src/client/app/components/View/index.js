@@ -11,7 +11,6 @@ export default class View extends Component {
   render () {
     const { currentLocation, loading, firstLoad } = this.props;
     let firstMediaLoading = loading && firstLoad;
-console.log("TEST");
     return <div className={`View u-${ firstMediaLoading && 'firstMediaLoading' }`}>
             <PopupContainer />
             <section className="View_control">

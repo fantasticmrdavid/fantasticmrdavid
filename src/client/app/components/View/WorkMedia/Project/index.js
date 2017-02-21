@@ -3,6 +3,11 @@ import './styles.css';
 import Content from './Content';
 
 export default class Project extends Component {
+  constructor () {
+    super();
+    this.boundHandleTileClick = this.handleTileClick.bind(this);
+  }
+
   handleTileClick (e) {
     e.preventDefault();
 
@@ -23,7 +28,7 @@ export default class Project extends Component {
     let bgOnStyle = { backgroundImage: `url(${!!images && images.tileOn})` };
 
     return <div className={ `Project u-${target} u-${ !!isCurrent && 'current'} u-${ this.isOtherCurrent() && 'otherCurrent' }` }>
-            <a className="ProjectTile" data-target={ target } onClick={ ::this.handleTileClick }>
+            <a className="ProjectTile" data-target={ target } onClick={ this.boundHandleTileClick }>
               <div className="ProjectTile_bg u-off" style={ bgOffStyle }/>
               <div className="ProjectTile_bg u-on" style={ bgOnStyle }/>
               <div className="ProjectTile_content">

@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import './styles.css';
 
 export default class Mobile extends Component {
+  constructor () {
+    super();
+    this.boundHandleClick = this.handleClick.bind(this);
+  }
+
   handleClick () {
     const { title } = this.props;
     ga('send', 'event', 'Media Mobile Website click', title);
@@ -14,7 +19,7 @@ export default class Mobile extends Component {
     return <div className="ProjectMedia_mobile">
             <div className="ProjectMedia_mobileOuterFrame u-stroke">
               <div className="ProjectMedia_mobileScreen u-stroke">
-                <a href={ url } target="_blank"><img src={ thumbnail } alt={ title } onClick={ ::this.handleClick } /></a>
+                <a href={ url } target="_blank"><img src={ thumbnail } alt={ title } onClick={ this.boundHandleClick } /></a>
               </div>
               <div className="ProjectMedia_mobileHomeButton u-stroke" />
               <div className="ProjectMedia_mobileUpButton u-stroke" />
