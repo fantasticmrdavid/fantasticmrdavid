@@ -1,10 +1,10 @@
 import {
-  UPDATE_HOME_MEDIA_IMAGE,
+  HOME_MEDIA_IMAGE_UPDATED,
 } from '../constants';
 
-export function updateHomeMediaImage(image) {
+export function homeMediaImageUpdated(image) {
   return {
-    type: UPDATE_HOME_MEDIA_IMAGE,
+    type: HOME_MEDIA_IMAGE_UPDATED,
     image,
   };
 }

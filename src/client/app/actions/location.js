@@ -1,8 +1,8 @@
-import { UPDATE_LOCATION } from '../constants';
+import { LOCATION_UPDATED } from '../constants';
 
-export function updateLocation(newLocation) {
+export function locationUpdated(newLocation) {
   return {
-    type: UPDATE_LOCATION,
+    type: LOCATION_UPDATED,
     newLocation,
   };
 }

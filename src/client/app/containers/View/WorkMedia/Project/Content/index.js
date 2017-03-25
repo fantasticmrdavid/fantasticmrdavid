@@ -3,59 +3,59 @@ import './styles.css';
 import ProjectMedia from './Media';
 
 export default class Content extends Component {
-  constructor () {
+  constructor() {
     super();
     this.boundHandleUrlClick = this.handleUrlClick.bind(this);
   }
 
-  handleUrlClick () {
+  handleUrlClick() {
     const { title } = this.props;
     ga('send', 'event', 'Project URL Click', title);
   }
 
-  render () {
+  render() {
     const { title,
             target,
             url,
             products,
-            role,
             technologies,
             description,
             media,
             isCurrent,
-            updateCurrent,
             showPopup } = this.props;
 
-    let descriptionMarkup = { __html: description };
+    const descriptionMarkup = { __html: description };
 
-    return <div className={ `ProjectContent u-${target} u-${ !!isCurrent && 'current'}` }>
-            { !!products &&
-              <section className="ProjectContent_products">
-                <div className="ProjectContent_label">Products</div>
-                <div className="ProjectContent_copy">{ products }</div>
-              </section>
-            }
+    return (
+      <div className={`ProjectContent u-${target} u-${!!isCurrent && 'current'}`}>
+        { !!products &&
+          <section className="ProjectContent_products">
+            <div className="ProjectContent_label">Products</div>
+            <div className="ProjectContent_copy">{ products }</div>
+          </section>
+        }
 
-            <section className="ProjectContent_technologies">
-              <div className="ProjectContent_label">Technologies</div>
-              <div className="ProjectContent_copy">{ technologies }</div>
-            </section>
+        <section className="ProjectContent_technologies">
+          <div className="ProjectContent_label">Technologies</div>
+          <div className="ProjectContent_copy">{ technologies }</div>
+        </section>
 
-            <section className="ProjectContent_description">
-              <div className="ProjectContent_label">Description</div>
-              <div className="ProjectContent_copy" dangerouslySetInnerHTML={ descriptionMarkup }></div>
-            </section>
-            {
-              !!url &&
-              <div className="ProjectContent_url">
-                <a className="u-cta" href={ url } target="_blank" onClick={ this.boundHandleUrlClick }>Visit { title }</a>
-              </div>
-            }
-            <div className="ProjectContent_mediaWrapper">
-              {
-                !!media && media.map( (m, i) => { return <ProjectMedia {...m} showPopup={ showPopup } key={ `ProjectMedia_${i}` } />; } )
-              }
-            </div>
-          </div>;
+        <section className="ProjectContent_description">
+          <div className="ProjectContent_label">Description</div>
+          <div className="ProjectContent_copy" dangerouslySetInnerHTML={descriptionMarkup} />
+        </section>
+        {
+          !!url &&
+          <div className="ProjectContent_url">
+            <a className="u-cta" href={url} target="_blank" rel="noopener noreferrer" onClick={this.boundHandleUrlClick}>Visit { title }</a>
+          </div>
+        }
+        <div className="ProjectContent_mediaWrapper">
+          {
+            !!media && media.map((m) => { return <ProjectMedia {...m} showPopup={showPopup} key={`ProjectMedia_${m.slug}`} />; })
+          }
+        </div>
+      </div>
+    );
   }
 }

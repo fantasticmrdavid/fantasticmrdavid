@@ -1,32 +1,32 @@
 import {
-  START_MEDIA_LOADING,
-  STOP_MEDIA_LOADING,
-  START_IMAGES_LOADING,
-  STOP_IMAGES_LOADING,
-  START_POPUP_LOADING,
-  STOP_POPUP_LOADING,
+  MEDIA_LOADING_STARTED,
+  MEDIA_LOADING_STOPPED,
+  IMAGES_LOADING_STARTED,
+  IMAGES_LOADING_STOPPED,
+  POPUP_LOADING_STARTED,
+  POPUP_LOADING_STOPPED,
 } from '../constants';
 
-export function startMediaLoading() {
-  return { type: START_MEDIA_LOADING };
+export function mediaLoadingStarted() {
+  return { type: MEDIA_LOADING_STARTED };
 }
 
-export function stopMediaLoading() {
-  return { type: STOP_MEDIA_LOADING };
+export function mediaLoadingStopped() {
+  return { type: MEDIA_LOADING_STOPPED };
 }
 
-export function startImagesLoading() {
-  return { type: START_IMAGES_LOADING };
+export function imagesLoadingStarted() {
+  return { type: IMAGES_LOADING_STARTED };
 }
 
-export function stopImagesLoading() {
-  return { type: STOP_IMAGES_LOADING };
+export function imagesLoadingStopped() {
+  return { type: IMAGES_LOADING_STOPPED };
 }
 
-export function startPopupLoading() {
-  return { type: START_POPUP_LOADING };
+export function popupLoadingStarted() {
+  return { type: POPUP_LOADING_STARTED };
 }
 
-export function stopPopupLoading() {
-  return { type: STOP_POPUP_LOADING };
+export function popupLoadingStopped() {
+  return { type: POPUP_LOADING_STOPPED };
 }

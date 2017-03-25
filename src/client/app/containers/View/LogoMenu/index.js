@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { activateLogoMenu, deactivateLogoMenu } from '../../../actions';
 import MenuLink from './MenuLink';
-import Blinker from "../../../components/Blinker";
+import Blinker from '../../../components/Blinker';
 import menu from './menu';
-import "./styles.css";
+import './styles.css';
 
 class LogoMenu extends Component {
   constructor() {
@@ -18,26 +18,28 @@ class LogoMenu extends Component {
   }
 
   render() {
-    const { active, toggleActive } = this.props;
+    const { active } = this.props;
 
-    return <div className={`LogoMenu ${!!active && 'u-active'}`} onClick={ this.boundToggleActive }>
-            <h1 className="LogoMenu_title">
-              Fantastic Mr David
-            </h1>
+    return (
+      <div className={`LogoMenu ${!!active && 'u-active'}`} onClick={this.boundToggleActive}>
+        <h1 className="LogoMenu_title">
+          Fantastic Mr David
+        </h1>
 
-            <nav className="LogoMenu_nav">
-              { menu.map((item, i) => { return <MenuLink { ...item } key={`MenuLink_${i}`} />; }) }
-            </nav>
+        <nav className="LogoMenu_nav">
+          { menu.map((item) => { return <MenuLink {...item} key={`MenuLink_${item.target}`} />; }) }
+        </nav>
 
-            <div className="LogoMenu_subtitle">
-              <h2><i className="fa fa-cog" /> Art + Engineering</h2>
-              <Blinker />
-            </div>
+        <div className="LogoMenu_subtitle">
+          <h2><i className="fa fa-cog" /> Art + Engineering</h2>
+          <Blinker />
+        </div>
 
-            <a className="LogoMenu_startCta">
-              <i className="fa fa-angle-down" />
-            </a>
-          </div>;
+        <a className="LogoMenu_startCta">
+          <i className="fa fa-angle-down" />
+        </a>
+      </div>
+    );
   }
 }
 
@@ -50,7 +52,7 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     toggleActive: (active) => {
-      !!active ? dispatch(deactivateLogoMenu()) : dispatch(activateLogoMenu());
+      return !!active ? dispatch(deactivateLogoMenu()) : dispatch(activateLogoMenu());
     },
   };
 };

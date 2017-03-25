@@ -1,10 +1,10 @@
 import {
-  UPDATE_WORK_MEDIA_LOCATION,
+  WORK_MEDIA_LOCATION_UPDATED,
 } from '../constants';
 
-export function updateWorkMediaLocation(newLocation) {
+export function workMediaLocationUpdated(newLocation) {
   return {
-    type: UPDATE_WORK_MEDIA_LOCATION,
+    type: WORK_MEDIA_LOCATION_UPDATED,
     newLocation,
   };
 }

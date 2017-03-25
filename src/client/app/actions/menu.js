@@ -1,16 +1,16 @@
 import {
-  ACTIVATE_LOGO_MENU,
-  DEACTIVATE_LOGO_MENU,
+  LOGO_MENU_ACTIVATED,
+  LOGO_MENU_DEACTIVATED,
 } from '../constants';
 
 export function activateLogoMenu() {
   return {
-    type: ACTIVATE_LOGO_MENU,
+    type: LOGO_MENU_ACTIVATED,
   };
 }
 
 export function deactivateLogoMenu() {
   return {
-    type: DEACTIVATE_LOGO_MENU,
+    type: LOGO_MENU_DEACTIVATED,
   };
 }

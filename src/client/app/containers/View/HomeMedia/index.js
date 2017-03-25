@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { updateHomeMediaImage, stopMediaLoading } from '../../../actions';
+import { homeMediaImageUpdated, mediaLoadingStopped } from '../../../actions';
 import './styles.css';
 
 const HOME_IMAGES = [
   {
-    name: "legoFlinders",
-    src: "/assets/images/legoFlinders.jpg",
+    name: 'legoFlinders',
+    src: '/assets/images/legoFlinders.jpg',
   },
 ];
 
@@ -19,11 +19,13 @@ class HomeMedia extends Component {
 
   componentDidMount() {
     const { image, stopLoading } = this.props;
-    let bg = new Image;
+    const bg = new Image();
     bg.onload = () => {
       stopLoading();
     };
     bg.src = image.src;
+
+    return bg;
   }
 
   render() {
@@ -43,10 +45,10 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     updateImage: (image) => {
-      !!image && dispatch(updateHomeMediaImage(image));
+      dispatch(homeMediaImageUpdated(image));
     },
     stopLoading: () => {
-      dispatch(stopMediaLoading());
+      dispatch(mediaLoadingStopped());
     },
   };
 };

@@ -1,4 +1,4 @@
-import { ACTIVATE_LOGO_MENU, DEACTIVATE_LOGO_MENU } from '../constants';
+import { LOGO_MENU_ACTIVATED, LOGO_MENU_DEACTIVATED } from '../constants';
 import { createReducer } from '../helpers/reducers';
 
 const initialState = {
@@ -6,13 +6,13 @@ const initialState = {
 };
 
 const reducers = {
-  [ACTIVATE_LOGO_MENU]: (state) => {
+  [LOGO_MENU_ACTIVATED]: (state) => {
     return {
       ...state,
       active: true,
     };
   },
-  [DEACTIVATE_LOGO_MENU]: (state) => {
+  [LOGO_MENU_DEACTIVATED]: (state) => {
     return {
       ...state,
       active: false,

@@ -1,10 +1,10 @@
 import {
-  START_MEDIA_LOADING,
-  STOP_MEDIA_LOADING,
-  START_IMAGES_LOADING,
-  STOP_IMAGES_LOADING,
-  START_POPUP_LOADING,
-  STOP_POPUP_LOADING,
+  MEDIA_LOADING_STARTED,
+  MEDIA_LOADING_STOPPED,
+  IMAGES_LOADING_STARTED,
+  IMAGES_LOADING_STOPPED,
+  POPUP_LOADING_STARTED,
+  POPUP_LOADING_STOPPED,
 } from '../constants';
 import { createReducer } from '../helpers/reducers';
 
@@ -16,38 +16,38 @@ const initialState = {
 };
 
 const reducers = {
-  [START_MEDIA_LOADING]: (state) => {
+  [MEDIA_LOADING_STARTED]: (state) => {
     return {
       ...state,
       media: true,
     };
   },
-  [STOP_MEDIA_LOADING]: (state) => {
+  [MEDIA_LOADING_STOPPED]: (state) => {
     return {
       ...state,
       media: false,
       firstLoad: false,
     };
   },
-  [START_IMAGES_LOADING]: (state) => {
+  [IMAGES_LOADING_STARTED]: (state) => {
     return {
       ...state,
       images: true,
     };
   },
-  [STOP_IMAGES_LOADING]: (state) => {
+  [IMAGES_LOADING_STOPPED]: (state) => {
     return {
       ...state,
       images: false,
     };
   },
-  [START_POPUP_LOADING]: (state) => {
+  [POPUP_LOADING_STARTED]: (state) => {
     return {
       ...state,
       popup: true,
     };
   },
-  [STOP_POPUP_LOADING]: (state) => {
+  [POPUP_LOADING_STOPPED]: (state) => {
     return {
       ...state,
       popup: false,
