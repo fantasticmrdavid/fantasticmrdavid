@@ -1,19 +1,19 @@
 import { combineReducers } from 'redux';
 
-import currentLocation from './currentLocation';
 import homeMedia from './homeMedia';
 import loading from './loading';
+import location from './location';
 import logoMenu from './logoMenu';
 import popup from './popup';
 import workMedia from './workMedia';
 
-const app = combineReducers({
-  currentLocation,
+const reducers = combineReducers({
   homeMedia,
   loading,
+  location,
   logoMenu,
   popup,
   workMedia,
 });
 
-export default app;
+export default reducers;

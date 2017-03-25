@@ -30,7 +30,7 @@ const mapStateToProps = (state, ownProps) => {
   return {
     label: ownProps.label,
     target: ownProps.target,
-    current: ownProps.target === state.currentLocation,
+    current: ownProps.target === state.location.current,
   };
 };
 

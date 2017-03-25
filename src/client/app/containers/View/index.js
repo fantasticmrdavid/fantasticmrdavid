@@ -11,7 +11,7 @@ import './styles.css';
 
 class View extends Component {
   render() {
-    const { currentLocation, loading, firstLoad } = this.props;
+    const { location, loading, firstLoad } = this.props;
     let firstMediaLoading = loading && firstLoad;
     return (
       <div className={`View u-${firstMediaLoading && 'firstMediaLoading'}`}>
@@ -20,14 +20,14 @@ class View extends Component {
           <LogoMenu />
         </section>
 
-        <section className={`View_media u-${currentLocation}`}>
+        <section className={`View_media u-${location}`}>
           <div className="View_mediaShutter u-top" />
           <div className="View_mediaShutter u-bottom" />
           <div className="View_mediaLoadingMessage">Hello!</div>
-          { currentLocation === "home" && <HomeMedia /> }
-          { currentLocation === "about" && <AboutMedia loading={ loading } /> }
-          { currentLocation === "work" && <WorkMedia /> }
-          { currentLocation === "contact" && <ContactMedia /> }
+          { location === "home" && <HomeMedia /> }
+          { location === "about" && <AboutMedia loading={loading} /> }
+          { location === "work" && <WorkMedia /> }
+          { location === "contact" && <ContactMedia /> }
         </section>
       </div>
     );
@@ -36,7 +36,7 @@ class View extends Component {
 
 const mapStateToProps = (state) => {
   return {
-    currentLocation: state.currentLocation,
+    location: state.location.current,
     loading: state.loading.media,
     firstLoad: state.loading.firstLoad,
     popup: state.popup,
@@ -46,8 +46,8 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch, ownProps) => {
   return {
     updateLocation: (newLocation) => {
-      const { currentLocation } = ownProps;
-      let updatedLocation = currentLocation !== newLocation ? newLocation : "home";
+      const { location } = ownProps;
+      const updatedLocation = location !== newLocation ? newLocation : "home";
 
       dispatch(startMediaLoading);
       dispatch(updateLocation(updateLocation));

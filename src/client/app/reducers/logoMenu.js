@@ -1,20 +1,23 @@
-import { ACTIVATE_LOGO_MENU, DEACTIVATE_LOGO_MENU } from '../actions';
+import { ACTIVATE_LOGO_MENU, DEACTIVATE_LOGO_MENU } from '../constants';
+import { createReducer } from '../helpers/reducers';
 
-const logoMenu = (state = {}, action) => {
-  switch (action.type) {
-    case ACTIVATE_LOGO_MENU:
-      return {
-        ...state,
-        active: true,
-      };
-    case DEACTIVATE_LOGO_MENU:
-      return {
-        ...state,
-        active: false,
-      };
-    default:
-      return state;
-  }
+const initialState = {
+  active: false,
 };
 
-export default logoMenu;
+const reducers = {
+  [ACTIVATE_LOGO_MENU]: (state) => {
+    return {
+      ...state,
+      active: true,
+    };
+  },
+  [DEACTIVATE_LOGO_MENU]: (state) => {
+    return {
+      ...state,
+      active: false,
+    };
+  },
+};
+
+export default createReducer(initialState, reducers);
