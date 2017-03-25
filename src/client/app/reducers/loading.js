@@ -5,44 +5,54 @@ import {
   STOP_IMAGES_LOADING,
   START_POPUP_LOADING,
   STOP_POPUP_LOADING,
-} from '../actions';
+} from '../constants';
+import { createReducer } from '../helpers/reducers';
 
-const loading = (state = {}, action) => {
-  switch (action.type) {
-    case START_MEDIA_LOADING:
-      return {
-        ...state,
-        media: true,
-      };
-    case STOP_MEDIA_LOADING:
-      return {
-        ...state,
-        media: false,
-        firstLoad: false,
-      };
-    case START_IMAGES_LOADING:
-      return {
-        ...state,
-        images: true,
-      };
-    case STOP_IMAGES_LOADING:
-      return {
-        ...state,
-        images: false,
-      };
-    case START_POPUP_LOADING:
-      return {
-        ...state,
-        popup: true,
-      };
-    case STOP_POPUP_LOADING:
-      return {
-        ...state,
-        popup: false,
-      };
-    default:
-      return state;
-  }
+const initialState = {
+  firstLoad: true,
+  images: false,
+  media: true,
+  popup: false,
 };
 
-export default loading;
+const reducers = {
+  [START_MEDIA_LOADING]: (state) => {
+    return {
+      ...state,
+      media: true,
+    };
+  },
+  [STOP_MEDIA_LOADING]: (state) => {
+    return {
+      ...state,
+      media: false,
+      firstLoad: false,
+    };
+  },
+  [START_IMAGES_LOADING]: (state) => {
+    return {
+      ...state,
+      images: true,
+    };
+  },
+  [STOP_IMAGES_LOADING]: (state) => {
+    return {
+      ...state,
+      images: false,
+    };
+  },
+  [START_POPUP_LOADING]: (state) => {
+    return {
+      ...state,
+      popup: true,
+    };
+  },
+  [STOP_POPUP_LOADING]: (state) => {
+    return {
+      ...state,
+      popup: false,
+    };
+  },
+};
+
+export default createReducer(initialState, reducers);

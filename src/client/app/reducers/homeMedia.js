@@ -1,15 +1,20 @@
-import { UPDATE_HOME_MEDIA_IMAGE } from '../actions';
+import { UPDATE_HOME_MEDIA_IMAGE } from '../constants';
+import { createReducer } from '../helpers/reducers';
 
-const homeMedia = (state = {}, action) => {
-  switch (action.type) {
-    case UPDATE_HOME_MEDIA_IMAGE:
-      return {
-        ...state,
-        image: action.image,
-      };
-    default:
-      return state;
-  };
+const initialState = {
+  image: {
+    name: "legoFlinders",
+    src: "/assets/images/legoFlinders.jpg",
+  },
 };
 
-export default homeMedia;
+const reducers = {
+  [UPDATE_HOME_MEDIA_IMAGE]: (state, action) => {
+    return {
+      ...state,
+      image: action.image,
+    };
+  },
+};
+
+export default createReducer(initialState, reducers);

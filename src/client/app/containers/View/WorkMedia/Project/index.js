@@ -1,14 +1,23 @@
 import React, { Component } from 'react';
-import './styles.css';
+import { connect } from 'react-redux';
+import {
+  updateWorkMediaLocation,
+  startMediaLoading,
+  stopMediaLoading,
+  showPopup,
+  startPopupLoading,
+  stopPopupLoading,
+} from '../../../../actions';
 import Content from './Content';
+import './styles.css';
 
-export default class Project extends Component {
-  constructor () {
+class Project extends Component {
+  constructor() {
     super();
     this.boundHandleTileClick = this.handleTileClick.bind(this);
   }
 
-  handleTileClick (e) {
+  handleTileClick(e) {
     e.preventDefault();
 
     const { target, isCurrent, updateCurrent } = this.props;
@@ -16,12 +25,12 @@ export default class Project extends Component {
     updateCurrent(newCurrent);
   }
 
-  isOtherCurrent () {
+  isOtherCurrent() {
     const { current, isCurrent } = this.props;
     return !!isCurrent ? false : !!current;
   }
 
-  render () {
+  render() {
     const { title, tagline, target, images, isCurrent, updateCurrent } = this.props;
 
     let bgOffStyle = { backgroundImage: `url(${!!images && images.tileOff})` };
@@ -41,3 +50,31 @@ export default class Project extends Component {
           </div>;
   }
 }
+
+const mapStateToProps = (state, ownProps) => {
+  return {
+    ...ownProps,
+    current: state.workMedia.location,
+    isCurrent: state.workMedia.location === ownProps.target,
+  };
+};
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+    updateCurrent: (target) => {
+      dispatch(startMediaLoading());
+      dispatch(updateWorkMediaLocation(target));
+      setTimeout( () => dispatch(stopMediaLoading()) );
+    },
+    showPopup: (popup) => {
+      dispatch(startPopupLoading());
+      dispatch(showPopup(popup));
+      setTimeout( () => dispatch(stopPopupLoading()) );
+    },
+  };
+};
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Project);

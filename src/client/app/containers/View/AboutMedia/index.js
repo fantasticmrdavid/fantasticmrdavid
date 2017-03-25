@@ -1,7 +1,7 @@
 import './styles.css';
 import React, { Component } from 'react';
-import Cube from '../../Cube';
-import Icon from '../../Icon';
+import Cube from '../../../components/Cube';
+import Icon from '../../../components/Icon';
 
 export default class AboutMedia extends Component {
   render () {

@@ -1,15 +1,15 @@
-import { UPDATE_WORK_MEDIA_LOCATION } from '../constants';
+import { UPDATE_LOCATION } from '../constants';
 import { createReducer } from '../helpers/reducers';
 
 const initialState = {
-  location: undefined,
+  current: "home",
 };
 
 const reducers = {
-  [UPDATE_WORK_MEDIA_LOCATION]: (state, action) => {
+  [UPDATE_LOCATION]: (state, action) => {
     return {
       ...state,
-      location: action.newLocation,
+      current: action.newLocation,
     };
   },
 };
