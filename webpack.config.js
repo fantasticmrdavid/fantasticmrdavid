@@ -4,7 +4,17 @@ var path = require('path');
 var BUILD_DIR = path.resolve(__dirname, 'public');
 var APP_DIR = path.resolve(__dirname, 'src/client/app');
 
-var PROD = (process.env.NODE_ENV === 'production');
+const env = process.env.NODE_ENV ? process.env.NODE_ENV : false;
+
+var preLoaders = env === "development" ? [{ test: /\.js$/, loader: 'eslint', exclude: /node_modules/ }] : [];
+
+var plugins = [
+  new webpack.DefinePlugin({
+    'process.env': {
+      NODE_ENV: JSON.stringify(env)
+    }
+  })
+];
 
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
@@ -15,9 +25,7 @@ var config = {
     filename: 'bundle.js'
   },
   module: {
-    preLoaders: [
-        { test: /\.js$/, loader: 'eslint', exclude: /node_modules/ }
-    ],
+    preLoaders: preLoaders,
     loaders: [
       {
         test: /\.js$/,
@@ -39,15 +47,7 @@ var config = {
   },
   plugins: [
     new ExtractTextPlugin("../css/styles.css")
-  ].concat(PROD ? [
-      new webpack.DefinePlugin({
-        'process.env': {
-          NODE_ENV: JSON.stringify('production')
-        }
-      }),
-      new webpack.optimize.UglifyJsPlugin()
-    ] : []
-  )
+  ].concat(plugins)
 };
 
 module.exports = config;
