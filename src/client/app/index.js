@@ -4,9 +4,9 @@ import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import app from './reducers';
 import initialState from './initialState';
-import './styles';
+import View from "./containers/View";
 import './helpers';
-import ViewContainer from "./containers/View";
+import './styles';
 
 let store = createStore(
   app,
@@ -16,7 +16,7 @@ let store = createStore(
 
 class App extends React.Component {
   render () {
-    return <ViewContainer />;
+    return <View />;
   }
 }
 
