@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 
 export default class ImagePreloader extends Component {
-  constructor (props) {
+  constructor(props) {
     super(props);
 
     const { images } = props;
@@ -14,30 +14,30 @@ export default class ImagePreloader extends Component {
     this.loaders = [];
   }
 
-  componentWillMount () {
+  componentWillMount() {
     const { images, completedAction } = this.props;
 
     images.map((i) => {
-      let image = new Image;
+      const image = new Image();
 
       image.onload = () => {
-        let { completed } = this.state;
+        const { completed } = this.state;
         this.setState({
-          completed: parseInt(completed) + 1,
+          completed: parseInt(completed, 10) + 1,
         });
-        this.checkCompleted() && completedAction();
+        if (this.checkCompleted()) completedAction();
       };
       image.src = i;
       this.loaders.push(image);
     });
   }
 
-  checkCompleted () {
+  checkCompleted() {
     const { count, completed } = this.state;
     return count === completed;
   }
 
-  render () {
+  render() {
     return null;
   }
 }

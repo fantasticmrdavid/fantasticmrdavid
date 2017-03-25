@@ -1,6 +1,6 @@
-import './styles.css';
 import React from 'react';
+import './styles.css';
 
 export default () => {
-  return <div className="Blinker"></div>;
+  return <div className="Blinker" />;
 };

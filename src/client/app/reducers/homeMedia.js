@@ -1,15 +1,15 @@
-import { UPDATE_HOME_MEDIA_IMAGE } from '../constants';
+import { HOME_MEDIA_IMAGE_UPDATED } from '../constants';
 import { createReducer } from '../helpers/reducers';
 
 const initialState = {
   image: {
-    name: "legoFlinders",
-    src: "/assets/images/legoFlinders.jpg",
+    name: 'legoFlinders',
+    src: '/assets/images/legoFlinders.jpg',
   },
 };
 
 const reducers = {
-  [UPDATE_HOME_MEDIA_IMAGE]: (state, action) => {
+  [HOME_MEDIA_IMAGE_UPDATED]: (state, action) => {
     return {
       ...state,
       image: action.image,

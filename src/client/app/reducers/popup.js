@@ -1,4 +1,4 @@
-import { SHOW_POPUP, HIDE_POPUP } from '../constants';
+import { POPUP_SHOWED, POPUP_HIDDEN } from '../constants';
 import { createReducer } from '../helpers/reducers';
 
 const initialState = {
@@ -6,14 +6,14 @@ const initialState = {
 };
 
 const reducers = {
-  [SHOW_POPUP]: (state, action) => {
+  [POPUP_SHOWED]: (state, action) => {
     return {
       ...state,
       ...action.popup,
       active: true,
     };
   },
-  [HIDE_POPUP]: (state) => {
+  [POPUP_HIDDEN]: (state) => {
     return {
       ...state,
       title: undefined,

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { updateLocation, startMediaLoading, stopMediaLoading } from '../../../../actions';
-import LocationContent from "./LocationContent";
-import "./styles.css";
+import { locationUpdated, mediaLoadingStarted, mediaLoadingStopped } from '../../../../actions';
+import LocationContent from './LocationContent';
+import './styles.css';
 
 class MenuLink extends Component {
   constructor() {
@@ -14,15 +14,17 @@ class MenuLink extends Component {
     const { target, current, updateLocation } = this.props;
     e.preventDefault();
     e.stopPropagation();
-    updateLocation(current ? "home" : target);
+    updateLocation(current ? 'home' : target);
   }
 
-  render () {
+  render() {
     const { label, target, current } = this.props;
-    return <div className={`MenuLink ${ current && "u-current" }`} onClick={ this.boundHandleNavClick }>
-              <div className={`MenuLink_label u-${target}`} data-target={ target } onClick={ this.boundHandleNavClick }>{ label }</div>
-              <LocationContent location={ target } />
-            </div>;
+    return (
+      <div className={`MenuLink ${current && 'u-current'}`} onClick={this.boundHandleNavClick}>
+        <div className={`MenuLink_label u-${target}`} data-target={target} onClick={this.boundHandleNavClick}>{ label }</div>
+        <LocationContent location={target} />
+      </div>
+    );
   }
 }
 
@@ -37,9 +39,9 @@ const mapStateToProps = (state, ownProps) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     updateLocation: (target) => {
-      dispatch(startMediaLoading());
-      dispatch(updateLocation(target));
-      setTimeout( () => dispatch(stopMediaLoading()) );
+      dispatch(mediaLoadingStarted());
+      dispatch(locationUpdated(target));
+      setTimeout(() => dispatch(mediaLoadingStopped()));
     },
   };
 };

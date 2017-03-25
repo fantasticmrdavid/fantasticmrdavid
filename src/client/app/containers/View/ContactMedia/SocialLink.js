@@ -1,24 +1,26 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import Icon from '../../../components/Icon';
 
 export default class SocialLink extends Component {
-  constructor () {
+  constructor() {
     super();
     this.boundHandleClick = this.handleClick.bind(this);
   }
 
-  handleClick () {
+  handleClick() {
     const { title } = this.props;
     ga('send', 'event', 'Social link click', title);
   }
 
-  render () {
+  render() {
     const { title, href, icon, fa } = this.props;
-    return <a href={ href } target="_blank" title={ title } onClick={ this.boundHandleClick }>
-            { !!fa ?
-              <i className={`fa fa-${icon}`}></i>
-              : <Icon icon={ icon } />
-            }
-            </a>;
+    return (
+      <a href={href} target="_blank" rel="noopener noreferrer" title={title} onClick={this.boundHandleClick}>
+        { !!fa ?
+          <i className={`fa fa-${icon}`} />
+          : <Icon icon={icon} />
+        }
+      </a>
+    );
   }
 }

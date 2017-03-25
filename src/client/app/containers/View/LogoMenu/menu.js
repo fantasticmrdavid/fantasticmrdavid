@@ -1,14 +1,14 @@
 export default [
   {
-    label: "About",
-    target: "about",
+    label: 'About',
+    target: 'about',
   },
   {
-    label: "Latest Work",
-    target: "work",
+    label: 'Latest Work',
+    target: 'work',
   },
   {
-    label: "Contact",
-    target: "contact",
+    label: 'Contact',
+    target: 'contact',
   },
 ];

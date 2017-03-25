@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { updateWorkMediaLocation, stopMediaLoading, startImagesLoading, stopImagesLoading } from '../../../actions';
+import { workMediaLocationUpdated, mediaLoadingStopped, imagesLoadingStarted, imagesLoadingStopped } from '../../../actions';
 import projects from './projects';
 import Project from './Project';
 import Spinner from '../../../components/Spinner';
@@ -13,17 +13,12 @@ class WorkMedia extends Component {
     startImagesLoading();
   }
 
-  updateCurrent(newCurrent) {
-    this.setState({ current: newCurrent });
-    ga('send', 'event', 'Work Navigate', newCurrent);
-  }
-
   getImages() {
     let images = [];
 
     projects.map((p) => {
       if (!!p.images) {
-        let newImages = Object.keys(p.images).map(function(key) { return p.images[key]; });
+        const newImages = Object.keys(p.images).map((key) => { return p.images[key]; });
         images = [...images, ...newImages];
       }
     });
@@ -31,21 +26,28 @@ class WorkMedia extends Component {
     return images;
   }
 
+  updateCurrent(newCurrent) {
+    this.setState({ current: newCurrent });
+    ga('send', 'event', 'Work Navigate', newCurrent);
+  }
+
   render() {
-    const { current, loading, stopLoading } = this.props;
+    const { loading, stopLoading } = this.props;
 
-    return <div className={`WorkMedia u-${loading && 'loading'}`}>
-            <div className="WorkMedia_loadingContainer">
-              <ImagePreloader images={this.getImages()} completedAction={stopLoading} />
-              { loading && <Spinner /> }
-            </div>
+    return (
+      <div className={`WorkMedia u-${loading && 'loading'}`}>
+        <div className="WorkMedia_loadingContainer">
+          <ImagePreloader images={this.getImages()} completedAction={stopLoading} />
+          { loading && <Spinner /> }
+        </div>
 
-            <div className="WorkMedia_projectContainer">
-              {
-                projects.map((p, i) => { return <Project {...p} key={`Project_${i}`} />; })
-              }
-            </div>
-          </div>;
+        <div className="WorkMedia_projectContainer">
+          {
+            projects.map((p) => { return <Project {...p} key={`Project_${p.target}`} />; })
+          }
+        </div>
+      </div>
+    );
   }
 }
 
@@ -60,14 +62,14 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     updateLocation: (target) => {
-      dispatch(updateWorkMediaLocation(target));
+      dispatch(workMediaLocationUpdated(target));
     },
     startImagesLoading: () => {
-      dispatch(startImagesLoading());
+      dispatch(imagesLoadingStarted());
     },
     stopLoading: () => {
-      dispatch(stopImagesLoading());
-      dispatch(stopMediaLoading());
+      dispatch(imagesLoadingStopped());
+      dispatch(mediaLoadingStopped());
     },
   };
 };

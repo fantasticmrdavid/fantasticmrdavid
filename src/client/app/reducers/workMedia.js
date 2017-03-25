@@ -1,4 +1,4 @@
-import { UPDATE_WORK_MEDIA_LOCATION } from '../constants';
+import { WORK_MEDIA_LOCATION_UPDATED } from '../constants';
 import { createReducer } from '../helpers/reducers';
 
 const initialState = {
@@ -6,12 +6,10 @@ const initialState = {
 };
 
 const reducers = {
-  [UPDATE_WORK_MEDIA_LOCATION]: (state, action) => {
-    return {
-      ...state,
-      location: action.newLocation,
-    };
-  },
+  [WORK_MEDIA_LOCATION_UPDATED]: (state, action) => ({
+    ...state,
+    location: action.newLocation,
+  }),
 };
 
 export default createReducer(initialState, reducers);

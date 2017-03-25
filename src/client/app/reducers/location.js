@@ -1,12 +1,12 @@
-import { UPDATE_LOCATION } from '../constants';
+import { LOCATION_UPDATED } from '../constants';
 import { createReducer } from '../helpers/reducers';
 
 const initialState = {
-  current: "home",
+  current: 'home',
 };
 
 const reducers = {
-  [UPDATE_LOCATION]: (state, action) => {
+  [LOCATION_UPDATED]: (state, action) => {
     return {
       ...state,
       current: action.newLocation,

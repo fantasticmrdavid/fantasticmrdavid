@@ -1,15 +1,15 @@
 import {
-  SHOW_POPUP,
-  HIDE_POPUP,
+  POPUP_SHOWED,
+  POPUP_HIDDEN,
 } from '../constants';
 
 export function showPopup(popup) {
   return {
-    type: SHOW_POPUP,
+    type: POPUP_SHOWED,
     popup,
   };
 }
 
 export function hidePopup() {
-  return { type: HIDE_POPUP };
+  return { type: POPUP_HIDDEN };
 }

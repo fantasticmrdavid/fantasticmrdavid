@@ -1,18 +1,17 @@
-import React, { Component } from 'react';
-import './styles.css';
+import React from 'react';
 import Mobile from './Mobile';
 import Desktop from './Desktop';
 import Image from './Image';
+import './styles.css';
 
-export default class ProjectMedia extends Component {
-  render () {
-    const { title, type, platform = null, thumbnail, url } = this.props;
-    const bgStyle = { backgroundImage: `url(${thumbnail})`};
+export default (props) => {
+  const { type, platform = null } = props;
 
-    return <div className={`ProjectMedia u-${type} u-${platform}`}>
-            { platform === 'mobile' && <Mobile { ...this.props } /> }
-            { platform === 'desktop' && <Desktop { ...this.props } /> }
-            { type === 'image' && <Image { ...this.props } /> }
-          </div>;
-  }
+  return (
+    <div className={`ProjectMedia u-${type} u-${platform}`}>
+      { platform === 'mobile' && <Mobile {...props} /> }
+      { platform === 'desktop' && <Desktop {...props} /> }
+      { type === 'image' && <Image {...props} /> }
+    </div>
+  );
 };
