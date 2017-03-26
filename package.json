@@ -4,7 +4,7 @@
   "description": "Fantastic Mr David's amazing electronic website (for computers)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "./node_modules/.bin/eslint -c .eslintrc.json src/**/*.js",
     "dev": "set NODE_ENV=development&& webpack -d --watch",
     "build": "webpack -p --progress --colors"
   },
