@@ -18,6 +18,9 @@
     "url": "https://github.com/fantasticmrdavid/fantasticmrdavid/issues"
   },
   "homepage": "https://github.com/fantasticmrdavid/fantasticmrdavid#readme",
+  "engines": {
+    "node": "7.7.4"
+  },
   "dependencies": {
     "autoprefixer": "6.7.0",
     "babel-core": "6.22.0",

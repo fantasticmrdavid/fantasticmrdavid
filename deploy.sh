@@ -3,7 +3,7 @@ if ! type "yarn" > /dev/null; then
   npm i -g yarn
 fi
 
-yarn run build
+yarn build
 
 mkdir deploy
 cp -R ./public/* ./deploy/
