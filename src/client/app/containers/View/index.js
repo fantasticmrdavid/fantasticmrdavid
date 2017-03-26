@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { locationUpdated, mediaLoadingStarted } from '../../actions';
+import { locationUpdated } from '../../actions';
 import LogoMenu from './LogoMenu';
 import HomeMedia from './HomeMedia';
 import AboutMedia from './AboutMedia';
@@ -44,7 +44,6 @@ const mapDispatchToProps = (dispatch, ownProps) => ({
     const { location } = ownProps;
     const updatedLocation = location !== newLocation ? newLocation : 'home';
 
-    dispatch(mediaLoadingStarted);
     dispatch(locationUpdated(updatedLocation));
 
     ga('send', 'event', 'Top Menu Navigate', updatedLocation);

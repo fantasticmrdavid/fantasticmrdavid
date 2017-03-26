@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { workMediaLocationUpdated, mediaLoadingStopped, imagesLoadingStarted, imagesLoadingStopped } from '../../../actions';
+import { mediaLoadingStopped, imagesLoadingStarted, imagesLoadingStopped } from '../../../actions';
 import projects from './projects';
 import Project from './Project';
 import Spinner from '../../../components/Spinner';
@@ -61,9 +61,6 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    updateLocation: (target) => {
-      dispatch(workMediaLocationUpdated(target));
-    },
     startImagesLoading: () => {
       dispatch(imagesLoadingStarted());
     },
