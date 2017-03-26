@@ -2,11 +2,16 @@ import {
   POPUP_SHOWED,
   POPUP_HIDDEN,
 } from '../constants';
+import { popupLoadingStarted, popupLoadingStopped } from './loading';
 
 export function showPopup(popup) {
-  return {
-    type: POPUP_SHOWED,
-    popup,
+  return (dispatch) => {
+    dispatch(popupLoadingStarted());
+    dispatch({
+      type: POPUP_SHOWED,
+      popup,
+    });
+    setTimeout(() => dispatch(popupLoadingStopped()));
   };
 }
 

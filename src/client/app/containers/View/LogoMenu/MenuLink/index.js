@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { locationUpdated, mediaLoadingStarted, mediaLoadingStopped } from '../../../../actions';
+import { locationUpdated } from '../../../../actions';
 import LocationContent from './LocationContent';
 import './styles.css';
 
@@ -39,9 +39,7 @@ const mapStateToProps = (state, ownProps) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     updateLocation: (target) => {
-      dispatch(mediaLoadingStarted());
       dispatch(locationUpdated(target));
-      setTimeout(() => dispatch(mediaLoadingStopped()));
     },
   };
 };

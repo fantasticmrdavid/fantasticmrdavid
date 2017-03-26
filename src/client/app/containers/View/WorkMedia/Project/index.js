@@ -1,13 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import {
-  workMediaLocationUpdated,
-  mediaLoadingStarted,
-  mediaLoadingStopped,
-  showPopup,
-  popupLoadingStarted,
-  popupLoadingStopped,
-} from '../../../../actions';
+import { workMediaLocationUpdated, showPopup } from '../../../../actions';
 import Content from './Content';
 import './styles.css';
 
@@ -64,14 +57,10 @@ const mapStateToProps = (state, ownProps) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     updateCurrent: (target) => {
-      dispatch(mediaLoadingStarted());
       dispatch(workMediaLocationUpdated(target));
-      setTimeout(() => dispatch(mediaLoadingStopped()));
     },
     showPopup: (popup) => {
-      dispatch(popupLoadingStarted());
       dispatch(showPopup(popup));
-      setTimeout(() => dispatch(popupLoadingStopped()));
     },
   };
 };
