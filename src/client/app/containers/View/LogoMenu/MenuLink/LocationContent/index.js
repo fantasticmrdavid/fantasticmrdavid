@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
 import About from './About';
 import Work from './Work';
 import Contact from './Contact';
 import './styles.css';
 
-export default (props) => {
+const LocationContent = (props) => {
   const { location } = props;
   if (!location) return null;
 
@@ -16,3 +16,9 @@ export default (props) => {
     </div>
   );
 };
+
+LocationContent.propTypes = {
+  location: PropTypes.string.isRequired,
+};
+
+export default LocationContent;

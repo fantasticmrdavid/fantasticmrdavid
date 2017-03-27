@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
 
 const Redbubble = () => {
   return (
@@ -10,9 +10,15 @@ const Redbubble = () => {
   );
 };
 
-export default (props) => {
+const Icon = (props) => {
   const { icon } = props;
 
   if (icon === 'redbubble') return <Redbubble />;
   return <i className={`fa fa-${icon}`} />;
 };
+
+Icon.propTypes = {
+  icon: PropTypes.string.isRequired,
+};
+
+export default Icon;

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { homeMediaImageUpdated, mediaLoadingStopped } from '../../../actions';
 import './styles.css';
@@ -53,7 +53,14 @@ const mapDispatchToProps = (dispatch) => {
   };
 };
 
+HomeMedia.propTypes = {
+  updateImage: PropTypes.func.isRequired,
+  stopLoading: PropTypes.func.isRequired,
+  loading: PropTypes.bool,
+  image: PropTypes.object,
+};
+
 export default connect(
   mapStateToProps,
-  mapDispatchToProps
+  mapDispatchToProps,
 )(HomeMedia);

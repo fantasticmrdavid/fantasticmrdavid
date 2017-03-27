@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import './styles.css';
 import ProjectMedia from './Media';
 
@@ -59,3 +59,15 @@ export default class Content extends Component {
     );
   }
 }
+
+Content.propTypes = {
+  showPopup: PropTypes.func,
+  isCurrent: PropTypes.bool,
+  title: PropTypes.string.isRequired,
+  target: PropTypes.string.isRequired,
+  url: PropTypes.string,
+  products: PropTypes.string,
+  technologies: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  media: PropTypes.array,
+};

@@ -3,13 +3,13 @@ import {
   LOGO_MENU_DEACTIVATED,
 } from '../constants';
 
-export function activateLogoMenu() {
+export function logoMenuActivated() {
   return {
     type: LOGO_MENU_ACTIVATED,
   };
 }
 
-export function deactivateLogoMenu() {
+export function logoMenuDeactivated() {
   return {
     type: LOGO_MENU_DEACTIVATED,
   };

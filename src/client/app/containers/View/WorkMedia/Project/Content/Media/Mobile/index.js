@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import './styles.css';
 
 export default class Mobile extends Component {
@@ -29,3 +29,9 @@ export default class Mobile extends Component {
     );
   }
 }
+
+Mobile.propTypes = {
+  title: PropTypes.string.isRequired,
+  thumbnail: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
+};

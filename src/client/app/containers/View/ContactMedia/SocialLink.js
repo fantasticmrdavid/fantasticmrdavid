@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import Icon from '../../../components/Icon';
 
 export default class SocialLink extends Component {
@@ -24,3 +24,10 @@ export default class SocialLink extends Component {
     );
   }
 }
+
+SocialLink.propTypes = {
+  title: PropTypes.string.isRequired,
+  href: PropTypes.string.isRequired,
+  icon: PropTypes.string.isRequired,
+  fa: PropTypes.bool,
+};

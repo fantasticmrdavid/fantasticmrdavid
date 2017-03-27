@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
-import { activateLogoMenu, deactivateLogoMenu } from '../../../actions';
+import { logoMenuActivated, logoMenuDeactivated } from '../../../actions';
 import MenuLink from './MenuLink';
 import Blinker from '../../../components/Blinker';
 import menu from './menu';
@@ -52,12 +52,17 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     toggleActive: (active) => {
-      return !!active ? dispatch(deactivateLogoMenu()) : dispatch(activateLogoMenu());
+      return !!active ? dispatch(logoMenuDeactivated()) : dispatch(logoMenuActivated());
     },
   };
 };
 
+LogoMenu.propTypes = {
+  toggleActive: PropTypes.func.isRequired,
+  active: PropTypes.bool,
+};
+
 export default connect(
   mapStateToProps,
-  mapDispatchToProps
+  mapDispatchToProps,
 )(LogoMenu);

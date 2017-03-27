@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import './styles.css';
 
 export default class Image extends Component {
@@ -27,3 +27,11 @@ export default class Image extends Component {
     );
   }
 }
+
+Image.propTypes = {
+  showPopup: PropTypes.func.isRequired,
+  title: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
+  orientation: PropTypes.string.isRequired,
+  thumbnail: PropTypes.string.isRequired,
+};

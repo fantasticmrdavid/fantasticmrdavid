@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
 import Mobile from './Mobile';
 import Desktop from './Desktop';
 import Image from './Image';
 import './styles.css';
 
-export default (props) => {
+const Media = (props) => {
   const { type, platform = null } = props;
 
   return (
@@ -15,3 +15,10 @@ export default (props) => {
     </div>
   );
 };
+
+Media.propTypes = {
+  type: PropTypes.string,
+  platform: PropTypes.string,
+};
+
+export default Media;

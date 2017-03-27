@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { locationUpdated } from '../../actions';
 import LogoMenu from './LogoMenu';
@@ -32,25 +32,35 @@ const View = (props) => {
   );
 };
 
-const mapStateToProps = (state) => ({
-  location: state.location.current,
-  loading: state.loading.media,
-  firstLoad: state.loading.firstLoad,
-  popup: state.popup,
-});
+const mapStateToProps = (state) => {
+  return {
+    location: state.location.current,
+    loading: state.loading.media,
+    firstLoad: state.loading.firstLoad,
+    popup: state.popup,
+  };
+};
 
-const mapDispatchToProps = (dispatch, ownProps) => ({
-  updateLocation: (newLocation) => {
-    const { location } = ownProps;
-    const updatedLocation = location !== newLocation ? newLocation : 'home';
+const mapDispatchToProps = (dispatch, ownProps) => {
+  return {
+    updateLocation: (newLocation) => {
+      const { location } = ownProps;
+      const updatedLocation = location !== newLocation ? newLocation : 'home';
 
-    dispatch(locationUpdated(updatedLocation));
+      dispatch(locationUpdated(updatedLocation));
 
-    ga('send', 'event', 'Top Menu Navigate', updatedLocation);
-  },
-});
+      ga('send', 'event', 'Top Menu Navigate', updatedLocation);
+    },
+  };
+};
+
+View.propTypes = {
+  location: PropTypes.string.isRequired,
+  loading: PropTypes.bool,
+  firstLoad: PropTypes.bool,
+};
 
 export default connect(
   mapStateToProps,
-  mapDispatchToProps
+  mapDispatchToProps,
 )(View);

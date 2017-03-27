@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
-import { hidePopup } from '../../actions';
+import { popupHidden } from '../../actions';
 import './styles.css';
 
 class Popup extends Component {
@@ -39,10 +39,19 @@ const mapStateToProps = (state) => {
 };
 
 const mapDispatchToProps = (dispatch) => {
-  return { close: () => dispatch(hidePopup()) };
+  return { close: () => dispatch(popupHidden()) };
+};
+
+Popup.propTypes = {
+  close: PropTypes.func.isRequired,
+  title: PropTypes.string,
+  url: PropTypes.string,
+  orientation: PropTypes.string,
+  active: PropTypes.bool,
+  loading: PropTypes.bool,
 };
 
 export default connect(
   mapStateToProps,
-  mapDispatchToProps
+  mapDispatchToProps,
 )(Popup);

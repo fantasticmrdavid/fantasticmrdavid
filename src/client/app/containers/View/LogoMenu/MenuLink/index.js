@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { locationUpdated } from '../../../../actions';
 import LocationContent from './LocationContent';
@@ -44,7 +44,14 @@ const mapDispatchToProps = (dispatch) => {
   };
 };
 
+MenuLink.propTypes = {
+  updateLocation: PropTypes.func.isRequired,
+  target: PropTypes.string.isRequired,
+  current: PropTypes.bool,
+  label: PropTypes.string,
+};
+
 export default connect(
   mapStateToProps,
-  mapDispatchToProps
+  mapDispatchToProps,
 )(MenuLink);

@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
-import { workMediaLocationUpdated, showPopup } from '../../../../actions';
+import { workMediaLocationUpdated, popupShowed } from '../../../../actions';
 import Content from './Content';
 import './styles.css';
 
@@ -24,7 +24,7 @@ class Project extends Component {
   }
 
   render() {
-    const { title, tagline, target, images, isCurrent, updateCurrent } = this.props;
+    const { title, tagline, target, images, isCurrent, updateCurrent, showPopup } = this.props;
 
     const bgOffStyle = { backgroundImage: `url(${!!images && images.tileOff})` };
     const bgOnStyle = { backgroundImage: `url(${!!images && images.tileOn})` };
@@ -40,7 +40,7 @@ class Project extends Component {
           </div>
           <div className="ProjectTile_close">X</div>
         </a>
-        <Content {...this.props} updateCurrent={updateCurrent} />
+        <Content {...this.props} updateCurrent={updateCurrent} showPopup={showPopup} />
       </div>
     );
   }
@@ -60,12 +60,23 @@ const mapDispatchToProps = (dispatch) => {
       dispatch(workMediaLocationUpdated(target));
     },
     showPopup: (popup) => {
-      dispatch(showPopup(popup));
+      dispatch(popupShowed(popup));
     },
   };
 };
 
+Project.propTypes = {
+  updateCurrent: PropTypes.func.isRequired,
+  showPopup: PropTypes.func,
+  isCurrent: PropTypes.bool,
+  current: PropTypes.string,
+  target: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  tagline: PropTypes.string.isRequired,
+  images: PropTypes.object,
+};
+
 export default connect(
   mapStateToProps,
-  mapDispatchToProps
+  mapDispatchToProps,
 )(Project);

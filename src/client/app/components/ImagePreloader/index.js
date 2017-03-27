@@ -1,4 +1,4 @@
-import { Component } from 'react';
+import { Component, PropTypes } from 'react';
 
 export default class ImagePreloader extends Component {
   constructor(props) {
@@ -29,6 +29,8 @@ export default class ImagePreloader extends Component {
       };
       image.src = i;
       this.loaders.push(image);
+
+      return i;
     });
   }
 
@@ -41,3 +43,8 @@ export default class ImagePreloader extends Component {
     return null;
   }
 }
+
+ImagePreloader.propTypes = {
+  images: PropTypes.array.isRequired,
+  completedAction: PropTypes.func,
+};

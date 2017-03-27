@@ -4,7 +4,7 @@ import {
 } from '../constants';
 import { popupLoadingStarted, popupLoadingStopped } from './loading';
 
-export function showPopup(popup) {
+export function popupShowed(popup) {
   return (dispatch) => {
     dispatch(popupLoadingStarted());
     dispatch({
@@ -15,6 +15,6 @@ export function showPopup(popup) {
   };
 }
 
-export function hidePopup() {
+export function popupHidden() {
   return { type: POPUP_HIDDEN };
 }

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { mediaLoadingStopped, imagesLoadingStarted, imagesLoadingStopped } from '../../../actions';
 import projects from './projects';
@@ -21,6 +21,8 @@ class WorkMedia extends Component {
         const newImages = Object.keys(p.images).map((key) => { return p.images[key]; });
         images = [...images, ...newImages];
       }
+
+      return p;
     });
 
     return images;
@@ -71,7 +73,13 @@ const mapDispatchToProps = (dispatch) => {
   };
 };
 
+WorkMedia.propTypes = {
+  startImagesLoading: PropTypes.func.isRequired,
+  stopLoading: PropTypes.func.isRequired,
+  loading: PropTypes.bool,
+};
+
 export default connect(
   mapStateToProps,
-  mapDispatchToProps
+  mapDispatchToProps,
 )(WorkMedia);

@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
 import Cube from '../../../components/Cube';
 import './styles.css';
 
-export default (props) => {
+const AboutMedia = (props) => {
   const { loading } = props;
   return (
     <div className={`AboutMedia u-${loading && 'loading'}`}>
@@ -71,3 +71,9 @@ export default (props) => {
     </div>
   );
 };
+
+AboutMedia.propTypes = {
+  loading: PropTypes.bool,
+};
+
+export default AboutMedia;

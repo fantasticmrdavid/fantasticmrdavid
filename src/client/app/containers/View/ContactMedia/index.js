@@ -11,7 +11,10 @@ export default () => {
       <div className="ContactMedia_content">
         <div className="ContactMedia_email"><a href="mailto:fantasticmrdavid@gmail.com">fantasticmrdavid@gmail.com</a></div>
         <div className="ContactMedia_social">
-          { socialLinks.map((l) => <SocialLink {...l} key={`SocialLink_${l.title}`} />) }
+          { socialLinks.map((l) => {
+            return <SocialLink {...l} key={`SocialLink_${l.title}`} />;
+          })
+          }
         </div>
       </div>
     </div>
