@@ -1,5 +1,5 @@
 var path = require('path');
-var cssVars = require(path.resolve(__dirname, 'config/css_variables'));
+var cssVars = require(path.resolve(__dirname, 'src/client/app/styles/css_variables'));
 
 module.exports = {
   plugins: [
