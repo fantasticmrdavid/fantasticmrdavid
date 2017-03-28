@@ -13,5 +13,5 @@ module.exports = {
   'c-border-color': '#aaa',
 
   'ff-heading': "'Josefin Slab', Courier, 'Trebuchet MS', 'Times New Roman', serif",
-  'ff-copy': "'Nunito Sans', Helvetica, 'Trebuchet MS', Arial, sans-serif"
+  'ff-copy': "'Nunito Sans', Helvetica, 'Trebuchet MS', Arial, sans-serif",
 };

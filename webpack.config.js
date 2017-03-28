@@ -45,6 +45,12 @@ var config = {
     failOnWarning: false,
     failOnError: true
   },
+  resolve: {
+    alias: {
+      'react': 'react-lite',
+      'react-dom': 'react-lite'
+    }
+  },
   plugins: [
     new ExtractTextPlugin("../css/styles.css")
   ].concat(plugins)
