@@ -1,21 +1,11 @@
 var webpack = require('webpack');
 var path = require('path');
+var BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 var BUILD_DIR = path.resolve(__dirname, 'public');
 var APP_DIR = path.resolve(__dirname, 'src/client/app');
 
 const env = process.env.NODE_ENV ? process.env.NODE_ENV : false;
-
-var preLoaders = env === "development" ? [{ test: /\.js$/, loader: 'eslint', exclude: /node_modules/ }] : [];
-
-var plugins = [
-  new webpack.DefinePlugin({
-    'process.env': {
-      NODE_ENV: JSON.stringify(env)
-    }
-  })
-];
-
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 var config = {
@@ -25,25 +15,43 @@ var config = {
     filename: 'bundle.js'
   },
   module: {
-    preLoaders: preLoaders,
-    loaders: [
+    rules: [
       {
         test: /\.js$/,
         include: APP_DIR,
-        loader: 'babel'
+        loader: 'babel-loader'
+      },
+      {
+        test: /\.js$/,
+        enforce: "pre",
+        exclude: /node_modules/,
+        loader: [
+          {
+            loader: 'eslint-loader',
+            options: {
+                failOnWarning: false,
+                failOnError: false
+            }
+          }
+        ]
       },
       {
         test: /\.css$/,
-        loader: ExtractTextPlugin.extract(
-          'style-loader',
-          'css-loader?importLoaders=1!postcss-loader'
-        )
+        use: ExtractTextPlugin.extract({
+          fallback: 'style-loader',
+          use: [
+            {
+              loader: 'css-loader',
+              query: {
+                importLoaders: 1,
+                minimize: true,
+              }
+            },
+            'postcss-loader'
+          ]
+        })
       }
     ]
-  },
-  eslint: {
-    failOnWarning: false,
-    failOnError: true
   },
   resolve: {
     alias: {
@@ -51,9 +59,19 @@ var config = {
       'react-dom': 'react-lite'
     }
   },
+  devtool: "source-map",
   plugins: [
-    new ExtractTextPlugin("../css/styles.css")
-  ].concat(plugins)
+    new ExtractTextPlugin("../css/styles.css"),
+    new webpack.DefinePlugin({
+      'process.env': {
+        NODE_ENV: JSON.stringify(env)
+      }
+    }),
+    new webpack.LoaderOptionsPlugin({
+      sourceMap: false,
+      minimize: true,
+    })
+  ]
 };
 
 module.exports = config;
