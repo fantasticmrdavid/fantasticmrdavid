@@ -55,6 +55,7 @@
   "devDependencies": {
     "compression": "1.6.2",
     "express": "4.15.2",
+    "morgan": "1.8.1",
     "webpack-bundle-analyzer": "2.3.1"
   }
 }

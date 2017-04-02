@@ -3,6 +3,9 @@ const path = require('path');
 const port = process.env.PORT || 8080;
 const app = express();
 var compression = require('compression');
+var morgan = require('morgan');
+
+app.use(morgan('dev'));
 
 // compress all responses
 app.use(compression());
