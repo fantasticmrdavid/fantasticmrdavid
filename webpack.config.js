@@ -12,7 +12,8 @@ var config = {
   entry: APP_DIR + '/index.js',
   output: {
     path: BUILD_DIR + '/assets/js/',
-    filename: 'bundle.js'
+    filename: '[name]-bundle.js',
+    chunkFilename: '[name]-chunk.js'
   },
   module: {
     rules: [
@@ -70,7 +71,16 @@ var config = {
     new webpack.LoaderOptionsPlugin({
       sourceMap: false,
       minimize: true,
-    })
+    }),
+    new webpack.optimize.CommonsChunkPlugin({
+      name: 'node-static',
+      filename: 'node-static.js',
+      minChunks(module, count) {
+          var context = module.context;
+          return context && context.indexOf('node_modules') >= 0;
+      },
+    }),
+    new webpack.optimize.CommonsChunkPlugin({ name: 'manifest' })
     // new BundleAnalyzerPlugin({
     //     analyzerMode: 'static'
     // })
