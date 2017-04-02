@@ -1,6 +1,6 @@
 var webpack = require('webpack');
 var path = require('path');
-var BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+// var BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 var BUILD_DIR = path.resolve(__dirname, 'public');
 var APP_DIR = path.resolve(__dirname, 'src/client/app');
@@ -71,6 +71,9 @@ var config = {
       sourceMap: false,
       minimize: true,
     })
+    // new BundleAnalyzerPlugin({
+    //     analyzerMode: 'static'
+    // })
   ]
 };
 

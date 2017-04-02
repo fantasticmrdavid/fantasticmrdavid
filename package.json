@@ -6,6 +6,7 @@
   "scripts": {
     "analyse": "webpack --json | webpack-bundle-size-analyzer",
     "test": "./node_modules/.bin/eslint -c .eslintrc.json src/**/*.js",
+    "server": "node server.js",
     "dev": "set NODE_ENV=development&& webpack -d --watch",
     "build": "webpack -p --progress --colors"
   },
@@ -52,7 +53,8 @@
     "webpack": "2.2.1"
   },
   "devDependencies": {
-    "http-server": "0.9.0",
+    "compression": "1.6.2",
+    "express": "4.15.2",
     "webpack-bundle-analyzer": "2.3.1"
   }
 }
