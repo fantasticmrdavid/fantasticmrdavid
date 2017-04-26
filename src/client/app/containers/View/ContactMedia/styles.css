@@ -1,6 +1,7 @@
 .ContactMedia {
   position: relative;
   opacity: 1;
+  min-height: 100vh;
   height: 100%;
   width: 100%;
   background: $c-light-grey;
