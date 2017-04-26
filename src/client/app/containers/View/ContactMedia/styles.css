@@ -6,7 +6,7 @@
   background: $c-light-grey;
 
   @media (max-width: $l-w-small) {
-    max-height: 40vh;
+    height: 100vh;
     padding: 3em 0;
   }
 }
