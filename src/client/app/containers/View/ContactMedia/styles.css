@@ -12,7 +12,7 @@
   }
 }
 
-.ContactMedia_content {
+.content {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -27,7 +27,7 @@
   font-size: 1.5em;
 }
 
-.ContactMedia_email a {
+.email a {
   font-family: $ff-heading;
   color: $c-light-grey;
   text-decoration: none;
@@ -40,7 +40,7 @@
   }
 }
 
-.ContactMedia_social {
+.social {
   display: flex;
   justify-content: center;
   margin-top: 0.25em;
@@ -58,12 +58,38 @@
       }
     }
   }
+}
 
+.shutter {
+  position: absolute;
+  right: 0px;
+  z-index: 16;
+  width: 100%;
+  transition: 0.3s;
+  background: black;
+  animation: shutterClose 0.3s ease 1;
+  animation-fill-mode: forwards;
+
+  &.top {
+    top: 0px;
+  }
+
+  &.bottom {
+    bottom: 0px;
+  }
+}
+
+@keyframes shutterClose {
+  0% { height: 0%; opacity: 0; }
+  100% { height: 50%; opacity: 1; }
+}
+
+:global {
   svg {
     width: 1em;
     height: 1em;
     margin: 0 3px;
-
+    
     .u-fill {
       fill: $c-light-grey;
       transition: 0.3s;
@@ -75,28 +101,4 @@
       }
     }
   }
-}
-
-.ContactMedia_shutter {
-  position: absolute;
-  right: 0px;
-  z-index: 16;
-  width: 100%;
-  transition: 0.3s;
-  background: black;
-  animation: shutterClose 0.3s ease 1;
-  animation-fill-mode: forwards;
-
-  &.u-top {
-    top: 0px;
-  }
-
-  &.u-bottom {
-    bottom: 0px;
-  }
-}
-
-@keyframes shutterClose {
-  0% { height: 0%; opacity: 0; }
-  100% { height: 50%; opacity: 1; }
 }

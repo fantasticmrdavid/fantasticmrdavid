@@ -7,7 +7,7 @@
     "analyse": "webpack --json | webpack-bundle-size-analyzer",
     "test": "./node_modules/.bin/eslint -c .eslintrc.json src/**/*.js",
     "server": "node server.js",
-    "dev": "set NODE_ENV=development&& webpack -d --watch",
+    "start": "set NODE_ENV=development&& webpack -d --watch",
     "build": "webpack -p --progress --colors"
   },
   "author": "",

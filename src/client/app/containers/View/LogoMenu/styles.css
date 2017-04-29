@@ -11,13 +11,13 @@
     min-height: 0px;
     padding: 1.5em 0;
 
-    &.u-active {
+    &.active {
       padding-bottom: 0px;
     }
   }
 }
 
-.LogoMenu_title {
+.title {
   padding: 0 4rem 0 2rem;
   font-size: 2rem;
 
@@ -26,7 +26,7 @@
   }
 }
 
-.LogoMenu_startCta {
+.startCta {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -43,7 +43,7 @@
   transition: 0.3s;
 
   @media (max-width: $l-w-small) {
-    .u-active & {
+    .active & {
       display: none;
     }
   }
@@ -54,13 +54,13 @@
     }
   }
 
-  .u-active & {
+  .active & {
     opacity: 0;
     z-index: -1;
   }
 }
 
-.LogoMenu_nav {
+.nav {
   flex-wrap: wrap;
   font-size: 1.5rem;
   width: 100%;
@@ -70,7 +70,7 @@
   overflow: hidden;
   background-color: #444;
 
-  .LogoMenu.u-active & {
+  .LogoMenu.active & {
     margin: 0.5rem 0;
     max-height: 1000px;
     border-top: 1px solid #333;
@@ -79,7 +79,7 @@
   }
 }
 
-.LogoMenu_subtitle {
+.subtitle {
   display: flex;
   position: relative;
   font-size: 1rem;
@@ -92,7 +92,7 @@
     transition: 0.6s;
   }
 
-  .LogoMenu.u-active & {
+  .LogoMenu.active & {
     i {
       transform: rotate(150deg);
     }

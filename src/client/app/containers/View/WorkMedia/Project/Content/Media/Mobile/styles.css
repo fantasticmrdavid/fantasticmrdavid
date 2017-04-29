@@ -1,4 +1,4 @@
-.ProjectMedia_mobileOuterFrame {
+.outerFrame {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -7,14 +7,14 @@
   padding: 20px 7px 30px;
 }
 
-.ProjectMedia_mobileScreen {
+.screen {
   img {
     width: 100px;
     height: auto;
   }
 }
 
-.ProjectMedia_mobileHomeButton {
+.homeButton {
   position: absolute;
   align-self: center;
   bottom: 5px;
@@ -24,18 +24,22 @@
   left: calc(50% - 10px);
 }
 
-.ProjectMedia_mobileUpButton {
+.upButton {
   position: absolute;
   top: 30px;
-  right: -2px;
+  right: -3px;
   width: 1px;
   height: 20px;
 }
 
-.ProjectMedia_mobileDownButton {
+.downButton {
   position: absolute;
   top: 60px;
-  right: -2px;
+  right: -3px;
   width: 1px;
   height: 20px;
+}
+
+.stroke {
+  composes: stroke from "../styles.css";
 }

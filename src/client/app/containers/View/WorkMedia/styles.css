@@ -20,7 +20,7 @@
   background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
 }
 
-.WorkMedia_loadingContainer {
+.loadingContainer {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -34,23 +34,24 @@
   min-height: 100%;
   width: 100%;
 
-  .u-loading & {
+  .loading & {
     opacity: 1;
     max-height: 0px;
   }
 }
 
-.WorkMedia_projectContainer {
+.projectContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;
+  width: 100%;
   min-height: 100%;
   transition: 1s;
   opacity: 1;
 
-  .u-loading & {
+  .loading & {
     opacity: 0;
   }
 }

@@ -7,37 +7,15 @@
   flex: 1;
   perspective: 1200px;
 
-  &.u-otherCurrent {
+  &.otherCurrent {
     max-height: 0px;
     overflow: hidden;
   }
 
-  &.u-current {
+  &.current {
     height: 100%;
     max-height: none;
     overflow-x: hidden;
-  }
-}
-
-.ProjectTile_close {
-  position: absolute;
-  bottom: -35px;
-  right: 1em;
-  color: white;
-  font-size: 1.4rem;
-  opacity: 0;
-  cursor: pointer;
-  transition: 0.3s;
-  z-index: 2;
-
-  .Project.u-current & {
-    opacity: 1;
-  }
-
-  @media (min-width: $l-w-medium) {
-    &:hover {
-      color: tomato;
-    }
   }
 }
 
@@ -54,109 +32,138 @@
   transition: 0.5s;
   transform: rotateY(20deg);
 
-  .Project:nth-child(even) & {
-    right: 20px;
-    transform: rotateY(-20deg);
-  }
-
-  .WorkMedia.u-loading & {
+  &.parentLoading {
     transform: rotateY(180deg);
   }
 
-  .Project:hover & {
-    right: 0px;
-    transform: rotateY(0deg);
-    z-index: 12;
+  .Project:nth-child(even) & {
+    right: 20px;
+
+    &:not(.parentLoading) {
+      transform: rotateY(-20deg);
+    }
   }
 
-  .Project.u-current & {
+  .Project.current & {
     height: 4rem;
     right: 0px;
-    transform: rotateY(0deg);
     z-index: 12;
-  }
-}
-
-.ProjectTile_bg {
-  position: absolute;
-  background-size: cover;
-  background-position: center center;
-  height: 100%;
-  width: 100%;
-  cursor: pointer;
-  transition: 0.3s;
-
-  &.u-off {
-    opacity: 1;
-  }
-
-  &.u-on {
-    opacity: 0;
-  }
-
-  .Project:hover & {
-    &.u-off {
-      opacity: 0;
-    }
-
-    &.u-on {
-      opacity: 1;
-    }
-
-    .u-tramsformation & {
-      background-position-x: left;
-    }
-  }
-
-  .Project.u-current & {
     opacity: 1;
 
-    .u-sitepoint& {
+    &:not(.parentLoading) {
+      transform: rotateY(0deg);
+    }
+
+    .sitepoint& {
       background-position-y: top;
     }
 
-    .u-ga&,
-    .u-tramsformation& {
+    .ga&,
+    .tramsformation& {
       background-position-y: 30%;
     }
   }
-}
 
-.ProjectTile_content {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  color: $c-text-primary;
-  font-weight: 300;
-  text-transform: uppercase;
-  padding: 1em 2em;
-  background: $c-dark-charcoal;
-  opacity: 0.9;
-  transition: 0.3s;
+  .Project:hover & {
+    right: 0px;
+    z-index: 12;
 
-  .Project:nth-child(even) & {
-    right: auto;
-    left: 0px;
+    &:not(.parentLoading) {
+      transform: rotateY(0deg);
+    }
   }
 
-  .Project.u-current & {
+  .bg {
+    position: absolute;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
     width: 100%;
-    color: white;
-    border-bottom: 1px solid #333;
-    right: 0;
-    left: -0.25em;
-    bottom: -3.85rem;
-    cursor: default;
-    opacity: 1;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &.off {
+      opacity: 1;
+    }
+
+    &.on {
+      opacity: 0;
+    }
+
+    .Project.current &,
+    .Project:hover & {
+      &.off {
+        opacity: 0;
+      }
+
+      &.on {
+        opacity: 1;
+      }
+
+      .tramsformation & {
+        background-position-x: left;
+      }
+    }
   }
-}
 
-.ProjectTile_title {
-  font-size: 1.25rem;
-}
+  .content {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    color: $c-text-primary;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 1em 2em;
+    background: $c-dark-charcoal;
+    opacity: 0.9;
+    transition: 0.3s;
 
-.ProjectTile_tagline {
-  padding: 0.25em 0;
-  font-size: 0.9rem;
-  text-transform: capitalize;
+    .Project:nth-child(even) & {
+      right: auto;
+      left: 0px;
+    }
+
+    .Project.current & {
+      width: 100%;
+      color: white;
+      border-bottom: 1px solid #333;
+      right: 0;
+      left: -0.25em;
+      bottom: -3.85rem;
+      cursor: default;
+      opacity: 1;
+    }
+  }
+
+  .title {
+    font-size: 1.25rem;
+  }
+
+  .tagline {
+    padding: 0.25em 0;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+  }
+
+  .close {
+    position: absolute;
+    bottom: -35px;
+    right: 1em;
+    color: white;
+    font-size: 1.4rem;
+    opacity: 0;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 2;
+
+    .Project.current & {
+      opacity: 1;
+    }
+
+    @media (min-width: $l-w-medium) {
+      &:hover {
+        color: tomato;
+      }
+    }
+  }
 }

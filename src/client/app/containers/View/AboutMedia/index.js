@@ -1,16 +1,16 @@
 import React, { PropTypes } from 'react';
 import Cube from '../../../components/Cube';
-import './styles.css';
+import styles from './styles.css';
 
 const AboutMedia = (props) => {
   const { loading } = props;
   return (
-    <div className={`AboutMedia u-${loading && 'loading'}`}>
-      <div className="AboutMedia_bg">
-        <Cube />
+    <div className={`${styles.AboutMedia} ${loading && styles.loading}`}>
+      <div className={styles.bg}>
+        <Cube loading={loading} />
       </div>
-      <img className="AboutMedia_profile" src="/assets/images/profile.jpg" alt="Me" />
-      <div className="AboutMedia_content">
+      <img className={styles.profile} src="/assets/images/profile.jpg" alt="Me" />
+      <div className={styles.content}>
         <p>Hi! I'm David, and I like making things.<br />
         Since I was a kid I've been passionate about building and creating.
         I've always enjoyed the journey of formulating and executing an idea
@@ -37,8 +37,8 @@ const AboutMedia = (props) => {
 
         <h2>About this site</h2>
         fantasticmrdavid.com.au was built with:
-        <div className="AboutMedia_siteSpecs">
-          <div className="AboutMedia_siteSpecsSection">
+        <div className={styles.siteSpecs}>
+          <div className={styles.siteSpecsSection}>
             <h3>Environment</h3>
             <ul>
               <li>ES6</li>
@@ -46,15 +46,15 @@ const AboutMedia = (props) => {
               <li>Webpack</li>
             </ul>
           </div>
-          <div className="AboutMedia_siteSpecsSection">
+          <div className={styles.siteSpecsSection}>
             <h3>Architecture</h3>
             <ul>
               <li>React</li>
               <li>Redux</li>
-              <li>PostCSS</li>
+              <li>CSS-Modules</li>
             </ul>
           </div>
-          <div className="AboutMedia_siteSpecsSection">
+          <div className={styles.siteSpecsSection}>
             <h3>Deployment</h3>
             <ul>
               <li>Github</li>
@@ -64,7 +64,7 @@ const AboutMedia = (props) => {
           </div>
         </div>
         <br />
-        <a className="u-cta" href="https://github.com/fantasticmrdavid/fantasticmrdavid" target="_blank" rel="noopener noreferrer">
+        <a className="cta" href="https://github.com/fantasticmrdavid/fantasticmrdavid" target="_blank" rel="noopener noreferrer">
         Visit the Github repository
         </a>
       </div>

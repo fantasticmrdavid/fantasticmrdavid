@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { popupHidden } from '../../actions';
-import './styles.css';
+import styles from './styles.css';
 
 class Popup extends Component {
   constructor() {
@@ -19,11 +19,11 @@ class Popup extends Component {
     const { title, url, orientation, active, loading } = this.props;
 
     return (
-      <div className={`Popup u-${!!loading && 'loading'} u-${!!active && 'active'}`}>
-        <div className="Lightbox" onClick={this.boundHandleClose} />
-        <div className="Popup_dialog">
-          <div className="Popup_close" onClick={this.boundHandleClose}>X</div>
-          { !!url && <img className={`u-${orientation}`} src={url} alt={title} /> }
+      <div className={`${styles.Popup} ${!!loading && styles.loading} ${!!active && styles.active}`}>
+        <div className={styles.Lightbox} onClick={this.boundHandleClose} />
+        <div className={styles.dialog}>
+          <div className={styles.close} onClick={this.boundHandleClose}>X</div>
+          { !!url && <img className={styles[orientation]} src={url} alt={title} /> }
         </div>
       </div>
     );

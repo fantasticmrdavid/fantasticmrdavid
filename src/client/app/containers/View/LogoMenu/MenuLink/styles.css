@@ -7,13 +7,13 @@ $c_contact: #cc750c;
   position: relative;
   color: inherit;
 
-  &.u-current {
+  &.current {
     transition: 0s;
   }
 
   @media (min-width: $l-w-medium) {
-    &:not(.u-current) {
-      .MenuLink_label:hover {
+    &:not(.current) {
+      .label:hover {
         padding-left: 60px;
         background: #555;
       }
@@ -21,30 +21,30 @@ $c_contact: #cc750c;
   }
 }
 
-.MenuLink_label {
+.label {
   position: relative;
   padding: 0.75rem 0;
   transition: 0.5s;
 
-  .LogoMenu.u-active & {
+  .menuActive & {
     padding: 0.75rem 2rem;
   }
 
-  .MenuLink.u-current & {
+  .current & {
     background: $c-light-grey;
     color: black;
     font-size: 2rem;
     font-weight: 600;
 
-    &.u-about {
+    &.about {
       background: $c_about;
     }
 
-    &.u-work {
+    &.work {
       background: $c_work;
     }
 
-    &.u-contact {
+    &.contact {
       background: $c_contact;
     }
   }
@@ -60,20 +60,20 @@ $c_contact: #cc750c;
     background: #222;
   }
 
-  .MenuLink:not(.u-current):hover & {
+  .MenuLink:not(.current):hover & {
     &:before {
       width: 15px;
     }
 
-    &.u-about:before {
+    &.about:before {
       background: $c_about;
     }
 
-    &.u-work:before {
+    &.work:before {
       background: $c_work;
     }
 
-    &.u-contact:before {
+    &.contact:before {
       background: $c_contact;
     }
   }

@@ -1,17 +1,24 @@
-import React from 'react';
-import './styles.css';
+import React, { PropTypes } from 'react';
+import styles from './styles.css';
 
-export default () => {
+const Cube = (props) => {
+  const { loading } = props;
   return (
-    <div className="Cube_container">
-      <div className="Cube">
-        <div className="front" />
-        <div className="back" />
-        <div className="top" />
-        <div className="bottom" />
-        <div className="left" />
-        <div className="right" />
+    <div className={`${styles.Cube_container} ${!!loading && styles.loading}`}>
+      <div className={styles.Cube}>
+        <div className={styles.front} />
+        <div className={styles.back} />
+        <div className={styles.top} />
+        <div className={styles.bottom} />
+        <div className={styles.left} />
+        <div className={styles.right} />
       </div>
     </div>
   );
 };
+
+Cube.propTypes = {
+  loading: PropTypes.bool,
+};
+
+export default Cube;

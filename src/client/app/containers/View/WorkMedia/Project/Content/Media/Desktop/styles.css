@@ -1,4 +1,4 @@
-.ProjectMedia_desktop {
+.Desktop {
   position: relative;
   display: flex;
   align-items: center;
@@ -6,29 +6,29 @@
   margin-bottom: 20px;
 }
 
-.ProjectMedia_desktopOuterFrame {
+.outerFrame {
   padding: 10px 10px 20px;
+  margin-bottom: -1px;
 }
 
-.ProjectMedia_desktopScreen {
+.screen {
   img {
     width: 300px;
     height: auto;
   }
 }
 
-.ProjectMedia_desktopStand {
+.stand {
   width: 80px;
   min-height: 20px;
-
-  &.u-stroke {
-    border-top: 0px;
-    border-bottom: 0px;
-  }
+  margin-bottom: -1px;
 }
 
-.ProjectMedia_desktopBase {
-  border-top-width: 0px;
+.base {
   width: 200px;
   min-height: 5px;
+}
+
+.stroke {
+  composes: stroke from "../styles.css";
 }

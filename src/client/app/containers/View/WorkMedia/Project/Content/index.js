@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import './styles.css';
+import styles from './styles.css';
 import ProjectMedia from './Media';
 
 export default class Content extends Component {
@@ -27,30 +27,30 @@ export default class Content extends Component {
     const descriptionMarkup = { __html: description };
 
     return (
-      <div className={`ProjectContent u-${target} u-${!!isCurrent && 'current'}`}>
+      <div className={`${styles.ProjectContent} ${styles[target]} ${!!isCurrent && styles.current}`}>
         { !!products &&
-          <section className="ProjectContent_products">
-            <div className="ProjectContent_label">Products</div>
-            <div className="ProjectContent_copy">{ products }</div>
+          <section className={styles.products}>
+            <div className={styles.label}>Products</div>
+            <div className={styles.copy}>{ products }</div>
           </section>
         }
 
-        <section className="ProjectContent_technologies">
-          <div className="ProjectContent_label">Technologies</div>
-          <div className="ProjectContent_copy">{ technologies }</div>
+        <section className={styles.technologies}>
+          <div className={styles.label}>Technologies</div>
+          <div className={styles.copy}>{ technologies }</div>
         </section>
 
-        <section className="ProjectContent_description">
-          <div className="ProjectContent_label">Description</div>
-          <div className="ProjectContent_copy" dangerouslySetInnerHTML={descriptionMarkup} />
+        <section className={styles.description}>
+          <div className={styles.label}>Description</div>
+          <div className={styles.copy} dangerouslySetInnerHTML={descriptionMarkup} />
         </section>
         {
           !!url &&
-          <div className="ProjectContent_url">
-            <a className="u-cta" href={url} target="_blank" rel="noopener noreferrer" onClick={this.boundHandleUrlClick}>Visit { title }</a>
+          <div className={styles.url}>
+            <a className="cta" href={url} target="_blank" rel="noopener noreferrer" onClick={this.boundHandleUrlClick}>Visit { title }</a>
           </div>
         }
-        <div className="ProjectContent_mediaWrapper">
+        <div className={styles.mediaWrapper}>
           {
             !!media && media.map((m) => { return <ProjectMedia {...m} showPopup={showPopup} key={`ProjectMedia_${m.slug}`} />; })
           }

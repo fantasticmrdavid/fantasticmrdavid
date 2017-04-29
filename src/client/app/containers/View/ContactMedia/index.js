@@ -1,16 +1,16 @@
 import React from 'react';
 import SocialLink from './SocialLink';
 import socialLinks from './socialLinks';
-import './styles.css';
+import styles from './styles.css';
 
 export default () => {
   return (
-    <div className={'ContactMedia'}>
-      <div className="ContactMedia_shutter u-top" />
-      <div className="ContactMedia_shutter u-bottom" />
-      <div className="ContactMedia_content">
-        <div className="ContactMedia_email"><a href="mailto:fantasticmrdavid@gmail.com">fantasticmrdavid@gmail.com</a></div>
-        <div className="ContactMedia_social">
+    <div className={styles.ContactMedia}>
+      <div className={`${styles.shutter} ${styles.top}`} />
+      <div className={`${styles.shutter} ${styles.bottom}`} />
+      <div className={styles.content}>
+        <div className={styles.email}><a href="mailto:fantasticmrdavid@gmail.com">fantasticmrdavid@gmail.com</a></div>
+        <div className={styles.social}>
           { socialLinks.map((l) => {
             return <SocialLink {...l} key={`SocialLink_${l.title}`} />;
           })

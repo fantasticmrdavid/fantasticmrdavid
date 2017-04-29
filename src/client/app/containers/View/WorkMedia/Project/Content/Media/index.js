@@ -1,14 +1,15 @@
 import React, { PropTypes } from 'react';
+import { connect } from 'react-redux';
 import Mobile from './Mobile';
 import Desktop from './Desktop';
 import Image from './Image';
-import './styles.css';
+import styles from './styles.css';
 
 const Media = (props) => {
-  const { type, platform = null } = props;
+  const { type, platform = null, loading } = props;
 
   return (
-    <div className={`ProjectMedia u-${type} u-${platform}`}>
+    <div className={`{styles.ProjectMedia} ${styles[type]} ${styles[platform]} ${!!loading && styles.loading}`}>
       { platform === 'mobile' && <Mobile {...props} /> }
       { platform === 'desktop' && <Desktop {...props} /> }
       { type === 'image' && <Image {...props} /> }
@@ -16,9 +17,18 @@ const Media = (props) => {
   );
 };
 
+const mapStateToProps = (state) => {
+  return {
+    loading: state.loading.media,
+  };
+};
+
 Media.propTypes = {
   type: PropTypes.string,
   platform: PropTypes.string,
+  loading: PropTypes.bool,
 };
 
-export default Media;
+export default connect(
+  mapStateToProps,
+)(Media);

@@ -7,7 +7,7 @@
   transition: 0.5s;
   transform: scale(2);
 
-  .u-loading & {
+  &.loading {
     transform: scale(8);
   }
 }

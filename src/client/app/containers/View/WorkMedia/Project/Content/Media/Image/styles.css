@@ -1,12 +1,16 @@
-.ProjectMedia_image {
+.Image {
   position: relative;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.ProjectMedia_imageFrame {
+.frame {
   padding: 10px 10px;
   margin-bottom: 20px;
   cursor: pointer;
+}
+
+.stroke {
+  composes: stroke from "../styles.css";
 }

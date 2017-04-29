@@ -15,22 +15,22 @@
     margin-bottom: 1rem;
   }
 
-  .Project.u-current & {
+  &.current {
     max-height: 2500px;
     opacity: 1;
     overflow: auto;
   }
 }
 
-.ProjectContent_label {
+.label {
   color: white;
 }
 
-.ProjectContent_url {
+.url {
   text-align: right;
 }
 
-.ProjectContent_mediaWrapper {
+.mediaWrapper {
   margin: 2em 0;
   display: flex;
   flex-wrap: wrap;

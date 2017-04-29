@@ -5,7 +5,7 @@ import projects from './projects';
 import Project from './Project';
 import Spinner from '../../../components/Spinner';
 import ImagePreloader from '../../../components/ImagePreloader';
-import './styles.css';
+import styles from './styles.css';
 
 class WorkMedia extends Component {
   componentWillMount() {
@@ -37,13 +37,13 @@ class WorkMedia extends Component {
     const { loading, stopLoading } = this.props;
 
     return (
-      <div className={`WorkMedia u-${loading && 'loading'}`}>
-        <div className="WorkMedia_loadingContainer">
+      <div className={`${styles.WorkMedia} ${loading && styles.loading}`}>
+        <div className={styles.loadingContainer}>
           <ImagePreloader images={this.getImages()} completedAction={stopLoading} />
           { loading && <Spinner /> }
         </div>
 
-        <div className="WorkMedia_projectContainer">
+        <div className={styles.projectContainer}>
           {
             projects.map((p) => { return <Project {...p} key={`Project_${p.target}`} />; })
           }

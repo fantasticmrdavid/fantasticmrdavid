@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { homeMediaImageUpdated, mediaLoadingStopped } from '../../../actions';
-import './styles.css';
+import styles from './styles.css';
 
 const HOME_IMAGES = [
   {
@@ -31,7 +31,7 @@ class HomeMedia extends Component {
   render() {
     const { loading, image } = this.props;
     const bgStyle = { backgroundImage: `url(${image.src})` };
-    return <div className={`HomeMedia u-${loading && 'loading'}`} style={bgStyle} />;
+    return <div className={`${styles.HomeMedia} ${loading && styles.loading}`} style={bgStyle} />;
   }
 }
 

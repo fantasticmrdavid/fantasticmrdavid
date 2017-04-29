@@ -4,4 +4,4 @@
 - Node.js
 - Webpack
 - React
-- PostCSS
+- CSS-Modules + PostCSS

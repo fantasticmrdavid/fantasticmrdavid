@@ -7,22 +7,22 @@ import AboutMedia from './AboutMedia';
 import WorkMedia from './WorkMedia';
 import ContactMedia from './ContactMedia';
 import Popup from '../Popup';
-import './styles.css';
+import styles from './styles.css';
 
 const View = (props) => {
   const { location, loading, firstLoad } = props;
   const firstMediaLoading = loading && firstLoad;
   return (
-    <div className={`View u-${firstMediaLoading && 'firstMediaLoading'}`}>
+    <div className={`${styles.View} ${firstMediaLoading && styles.firstMediaLoading}`}>
       <Popup />
-      <section className="View_control">
+      <section className={styles.control}>
         <LogoMenu />
       </section>
 
-      <section className={`View_media u-${location}`}>
-        <div className="View_mediaShutter u-top" />
-        <div className="View_mediaShutter u-bottom" />
-        <div className="View_mediaLoadingMessage">Hello!</div>
+      <section className={`${styles.media} ${styles[location]}`}>
+        <div className={`${styles.mediaShutter} ${styles.top}`} />
+        <div className={`${styles.mediaShutter} ${styles.bottom}`} />
+        <div className={styles.mediaLoadingMessage}>Hello!</div>
         { location === 'home' && <HomeMedia /> }
         { location === 'about' && <AboutMedia loading={loading} /> }
         { location === 'work' && <WorkMedia /> }

@@ -7,6 +7,14 @@ var APP_DIR = path.resolve(__dirname, 'src/client/app');
 
 const env = process.env.NODE_ENV ? process.env.NODE_ENV : false;
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
+var resolve = env === 'production'
+  ? {
+      alias: {
+      'react': 'react-lite',
+      'react-dom': 'react-lite'
+    }
+  }
+  : {};
 
 var config = {
   entry: APP_DIR + '/index.js',
@@ -44,8 +52,10 @@ var config = {
             {
               loader: 'css-loader',
               query: {
+                modules: true,
                 importLoaders: 1,
-                minimize: true,
+                localIdentName: '[name]__[local]___[hash:base64:5]',
+                minimize: true
               }
             },
             'postcss-loader'
@@ -54,22 +64,17 @@ var config = {
       }
     ]
   },
-  resolve: {
-    alias: {
-      'react': 'react-lite',
-      'react-dom': 'react-lite'
-    }
-  },
+  resolve: resolve,
   devtool: "source-map",
   plugins: [
-    new ExtractTextPlugin("../css/styles.css"),
+    new ExtractTextPlugin("assets/css/styles.css"),
     new webpack.DefinePlugin({
       'process.env': {
         NODE_ENV: JSON.stringify(env)
       }
     }),
     new webpack.LoaderOptionsPlugin({
-      sourceMap: false,
+      sourceMap: env !== 'production',
       minimize: true,
     }),
     new webpack.optimize.CommonsChunkPlugin({

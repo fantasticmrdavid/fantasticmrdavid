@@ -2,7 +2,7 @@ import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { workMediaLocationUpdated, popupShowed } from '../../../../actions';
 import Content from './Content';
-import './styles.css';
+import styles from './styles.css';
 
 class Project extends Component {
   constructor() {
@@ -24,21 +24,40 @@ class Project extends Component {
   }
 
   render() {
-    const { title, tagline, target, images, isCurrent, updateCurrent, showPopup } = this.props;
+    const {
+      title,
+      tagline,
+      target,
+      images,
+      parentLoading,
+      isCurrent,
+      updateCurrent,
+      showPopup,
+    } = this.props;
 
     const bgOffStyle = { backgroundImage: `url(${!!images && images.tileOff})` };
     const bgOnStyle = { backgroundImage: `url(${!!images && images.tileOn})` };
 
     return (
-      <div className={`Project u-${target} u-${!!isCurrent && 'current'} u-${this.isOtherCurrent() && 'otherCurrent'}`}>
-        <a className="ProjectTile" data-target={target} onClick={this.boundHandleTileClick}>
-          <div className="ProjectTile_bg u-off" style={bgOffStyle} />
-          <div className="ProjectTile_bg u-on" style={bgOnStyle} />
-          <div className="ProjectTile_content">
-            <div className="ProjectTile_title">{title}</div>
-            <div className="ProjectTile_tagline">{tagline}</div>
+      <div
+        className={
+          `${styles.Project} ${styles[target]}
+          ${!!isCurrent && styles.current}
+          ${this.isOtherCurrent() && styles.otherCurrent}`
+        }
+      >
+        <a
+          className={`${styles.ProjectTile} ${parentLoading && styles.parentLoading}`}
+          data-target={target}
+          onClick={this.boundHandleTileClick}
+        >
+          <div className={`${styles.bg} ${styles.off}`} style={bgOffStyle} />
+          <div className={`${styles.bg} ${styles.on}`} style={bgOnStyle} />
+          <div className={styles.content}>
+            <div className={styles.title}>{title}</div>
+            <div className={styles.tagline}>{tagline}</div>
           </div>
-          <div className="ProjectTile_close">X</div>
+          <div className={styles.close}>X</div>
         </a>
         <Content {...this.props} updateCurrent={updateCurrent} showPopup={showPopup} />
       </div>
@@ -49,6 +68,7 @@ class Project extends Component {
 const mapStateToProps = (state, ownProps) => {
   return {
     ...ownProps,
+    parentLoading: state.loading.media,
     current: state.workMedia.location,
     isCurrent: state.workMedia.location === ownProps.target,
   };
@@ -68,6 +88,7 @@ const mapDispatchToProps = (dispatch) => {
 Project.propTypes = {
   updateCurrent: PropTypes.func.isRequired,
   showPopup: PropTypes.func,
+  parentLoading: PropTypes.bool,
   isCurrent: PropTypes.bool,
   current: PropTypes.string,
   target: PropTypes.string.isRequired,

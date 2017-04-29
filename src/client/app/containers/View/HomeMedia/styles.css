@@ -8,11 +8,11 @@
   opacity: 1;
   transition: 1s;
 
-  &.u-loading {
+  &.loading {
     opacity: 0;
   }
 
-  &:not(.u-loading) {
+  &:not(.loading) {
     animation: fadeIn 1s ease 1;
     animation-fill-mode: forwards;
   }

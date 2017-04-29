@@ -10,7 +10,7 @@
   }
 }
 
-.View_control {
+.control {
   width: 40%;
   display: flex;
   justify-content: center;
@@ -28,7 +28,7 @@
   }
 }
 
-.View_media {
+.media {
   position: relative;
   display: flex;
   width: 60%;
@@ -37,12 +37,12 @@
     width: 100%;
   }
 
-  &.u-work {
+  &.work {
     height: 100vh;  /* IE */
   }
 }
 
-.View_mediaShutter {
+.mediaShutter {
   position: absolute;
   right: 0px;
   z-index: 16;
@@ -51,20 +51,20 @@
   transition: 0.3s;
   background: black;
 
-  &.u-top {
+  &.top {
     top: 0px;
   }
 
-  &.u-bottom {
+  &.bottom {
     bottom: 0px;
   }
 
-  .u-firstMediaLoading & {
+  .firstMediaLoading & {
     height: 50%;
   }
 }
 
-.View_mediaLoadingMessage {
+.mediaLoadingMessage {
   font-family: $ff-heading;
   position: absolute;
   width: 100%;
@@ -79,7 +79,7 @@
   z-index: 17;
   display: none;
 
-  .u-firstMediaLoading & {
+  .firstMediaLoading & {
     display: flex;
   }
 }

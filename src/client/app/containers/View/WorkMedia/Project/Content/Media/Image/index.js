@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import './styles.css';
+import styles from './styles.css';
 
 export default class Image extends Component {
   constructor() {
@@ -19,9 +19,9 @@ export default class Image extends Component {
     const { title, thumbnail } = this.props;
 
     return (
-      <div className="ProjectMedia_image">
-        <div className="ProjectMedia_imageFrame u-stroke" onClick={this.boundHandleClick}>
-          <img className="u-stroke" src={thumbnail} alt={title} />
+      <div className="Image">
+        <div className={`${styles.frame} ${styles.stroke}`} onClick={this.boundHandleClick}>
+          <img className={styles.stroke} src={thumbnail} alt={title} />
         </div>
       </div>
     );

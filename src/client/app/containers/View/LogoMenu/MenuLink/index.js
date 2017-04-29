@@ -2,7 +2,7 @@ import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { locationUpdated } from '../../../../actions';
 import LocationContent from './LocationContent';
-import './styles.css';
+import styles from './styles.css';
 
 class MenuLink extends Component {
   constructor() {
@@ -18,11 +18,11 @@ class MenuLink extends Component {
   }
 
   render() {
-    const { label, target, current } = this.props;
+    const { label, target, current, menuActive } = this.props;
     return (
-      <div className={`MenuLink ${current && 'u-current'}`} onClick={this.boundHandleNavClick}>
-        <div className={`MenuLink_label u-${target}`} data-target={target} onClick={this.boundHandleNavClick}>{ label }</div>
-        <LocationContent location={target} />
+      <div className={`${styles.MenuLink} ${current && styles.current} ${menuActive && styles.menuActive}`} onClick={this.boundHandleNavClick}>
+        <div className={`${styles.label} ${styles[target]}`} data-target={target} onClick={this.boundHandleNavClick}>{ label }</div>
+        <LocationContent location={target} current={current} />
       </div>
     );
   }
@@ -48,6 +48,7 @@ MenuLink.propTypes = {
   updateLocation: PropTypes.func.isRequired,
   target: PropTypes.string.isRequired,
   current: PropTypes.bool,
+  menuActive: PropTypes.bool,
   label: PropTypes.string,
 };
 

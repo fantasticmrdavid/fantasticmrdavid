@@ -11,7 +11,7 @@
   opacity: 1;
   transition: 1s;
 
-  &.u-loading {
+  &.loading {
     opacity: 0;
   }
 
@@ -22,7 +22,7 @@
   }
 }
 
-.AboutMedia_bg {
+.bg {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -31,7 +31,7 @@
   overflow: hidden;
 }
 
-.AboutMedia_profile {
+.profile {
   width: 100px;
   height: auto;
   z-index: 1;
@@ -41,7 +41,7 @@
   }
 }
 
-.AboutMedia_content {
+.content {
   flex: 1;
   font-size: 0.9rem;
   font-weight: 300;
@@ -69,12 +69,12 @@
   }
 }
 
-.AboutMedia_siteSpecs {
+.siteSpecs {
   display: flex;
   flex-wrap: wrap;
 }
 
-.AboutMedia_siteSpecsSection {
+.siteSpecsSection {
   padding: 1em 2em;
 
   h3 {

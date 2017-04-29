@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import './styles.css';
+import styles from './styles.css';
 
 export default class Desktop extends Component {
   constructor() {
@@ -16,14 +16,14 @@ export default class Desktop extends Component {
     const { title, thumbnail, url } = this.props;
 
     return (
-      <div className="ProjectMedia_desktop">
-        <div className="ProjectMedia_desktopOuterFrame u-stroke">
-          <div className="ProjectMedia_desktopScreen u-stroke">
+      <div className={styles.Desktop}>
+        <div className={`${styles.outerFrame} ${styles.stroke}`}>
+          <div className={`${styles.screen} ${styles.stroke}`}>
             <a href={url} target="_blank" rel="noopener noreferrer"><img src={thumbnail} alt={title} onClick={this.boundHandleClick} /></a>
           </div>
         </div>
-        <div className="ProjectMedia_desktopStand u-stroke" />
-        <div className="ProjectMedia_desktopBase u-stroke" />
+        <div className={`${styles.stand} ${styles.stroke}`} />
+        <div className={`${styles.base} ${styles.stroke}`} />
       </div>
     );
   }
