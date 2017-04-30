@@ -56,7 +56,7 @@ export default [
     },
     products: 'Artwork, prints',
     technologies: 'LEGO Digital Designer, Photoshop, POV-Ray',
-    description: 'The combination of visiting Brickvention, unfulfilled childhood LEGO dreams, and a love for the great city that is Melbourne sparked off this project. The LDD model took a year to complete, over 43,000 parts, and many visits to the actual location. It was then converted and rendered in POV-Ray before adding final Melbournian touch ups in Photoshop.',
+    description: 'The combination of visiting <a href="http://www.brickventures.org.au/brickvention" target="_blank">Brickvention</a>, unfulfilled childhood LEGO dreams, and a love for the great city that is Melbourne left a nagging itch that my creative brain couldn\'t ignore. The LDD model took a year to complete, over 43,000 parts, and many visits to the actual location. It was then converted and rendered in POV-Ray before adding final Melbournian touch ups in Photoshop.',
     media: [
       {
         type: 'image',

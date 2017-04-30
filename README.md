@@ -1,6 +1,6 @@
-#David's amazing website
+# David's amazing website
 
-##Build Stack:
+## Build Stack:
 - Node.js
 - Webpack
 - React

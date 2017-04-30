@@ -67,7 +67,7 @@ var config = {
   resolve: resolve,
   devtool: "source-map",
   plugins: [
-    new ExtractTextPlugin("assets/css/styles.css"),
+    new ExtractTextPlugin("../css/styles.css"),
     new webpack.DefinePlugin({
       'process.env': {
         NODE_ENV: JSON.stringify(env)

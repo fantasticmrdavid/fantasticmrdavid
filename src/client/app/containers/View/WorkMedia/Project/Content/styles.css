@@ -26,6 +26,18 @@
   color: white;
 }
 
+.copy {
+  a {
+    color: $c-text-primary;
+    text-decoration: none;
+    transition: 0.3s;
+
+    &:hover {
+      color: white;
+    }
+  }
+}
+
 .url {
   text-align: right;
 }
