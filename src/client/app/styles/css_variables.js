@@ -7,6 +7,7 @@ module.exports = {
   'l-w-small': '568px',
   'l-w-medium': '768px',
   'l-w-large': '1000px',
+  'l-w-xlarge': '1600px',
 
   'c-text-primary': '#aaa',
 
