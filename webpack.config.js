@@ -1,14 +1,15 @@
-var webpack = require('webpack');
-var path = require('path');
+const webpack = require('webpack');
+const path = require('path');
 // var BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
-var BUILD_DIR = path.resolve(__dirname, 'public');
-var APP_DIR = path.resolve(__dirname, 'src/client/app');
+const BUILD_DIR = path.resolve(__dirname, 'public');
+const APP_DIR = path.resolve(__dirname, 'src/client/app');
 
 const env = process.env.NODE_ENV ? process.env.NODE_ENV : false;
-var ExtractTextPlugin = require("extract-text-webpack-plugin");
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-var config = {
+const config = {
   entry: APP_DIR + '/index.js',
   output: {
     path: BUILD_DIR,
@@ -60,11 +61,29 @@ var config = {
             'postcss-loader'
           ]
         })
+      },
+      {
+        test: /\.html$/,
+        use: [
+          {
+            loader: 'html-loader',
+            options: {
+              minimize: true
+            },
+          },
+        ],
       }
     ]
   },
   devtool: "source-map",
   plugins: [
+    new HtmlWebpackPlugin({
+      template: 'src/client/app/index.html',
+      inject: false,
+        minify: {
+            collapseWhitespace: true
+        },
+    }),
     new ExtractTextPlugin("assets/css/styles.css"),
     new webpack.DefinePlugin({
       'process.env': {
