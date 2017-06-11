@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
-import { locationUpdated } from '../../../../actions';
+import { locationUpdated } from 'actions';
 import LocationContent from './LocationContent';
 import styles from './styles.css';
 

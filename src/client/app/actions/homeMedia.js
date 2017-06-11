@@ -1,6 +1,6 @@
 import {
   HOME_MEDIA_IMAGE_UPDATED,
-} from '../constants';
+} from 'constants';
 
 export function homeMediaImageUpdated(image) {
   return {

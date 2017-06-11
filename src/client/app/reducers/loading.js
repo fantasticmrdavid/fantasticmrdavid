@@ -5,8 +5,8 @@ import {
   IMAGES_LOADING_STOPPED,
   POPUP_LOADING_STARTED,
   POPUP_LOADING_STOPPED,
-} from '../constants';
-import { createReducer } from '../helpers/reducers';
+} from 'constants';
+import { createReducer } from 'helpers/reducers';
 
 const initialState = {
   firstLoad: true,

@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-import Cube from '../../../components/Cube';
+import Cube from 'components/Cube';
 import styles from './styles.css';
 
 const AboutMedia = (props) => {

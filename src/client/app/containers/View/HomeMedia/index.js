@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
-import { homeMediaImageUpdated, mediaLoadingStopped } from '../../../actions';
+import { homeMediaImageUpdated, mediaLoadingStopped } from 'actions';
 import styles from './styles.css';
 
 const HOME_IMAGES = [

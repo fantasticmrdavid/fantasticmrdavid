@@ -1,5 +1,5 @@
-import { POPUP_SHOWED, POPUP_HIDDEN } from '../constants';
-import { createReducer } from '../helpers/reducers';
+import { POPUP_SHOWED, POPUP_HIDDEN } from 'constants';
+import { createReducer } from 'helpers/reducers';
 
 const initialState = {
   popup: undefined,

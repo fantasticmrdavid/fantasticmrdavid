@@ -1,5 +1,5 @@
-import { LOCATION_UPDATED } from '../constants';
-import { createReducer } from '../helpers/reducers';
+import { LOCATION_UPDATED } from 'constants';
+import { createReducer } from 'helpers/reducers';
 
 const initialState = {
   current: 'home',

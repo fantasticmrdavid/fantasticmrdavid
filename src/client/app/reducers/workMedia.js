@@ -1,5 +1,5 @@
-import { WORK_MEDIA_LOCATION_UPDATED } from '../constants';
-import { createReducer } from '../helpers/reducers';
+import { WORK_MEDIA_LOCATION_UPDATED } from 'constants';
+import { createReducer } from 'helpers/reducers';
 
 const initialState = {
   location: undefined,

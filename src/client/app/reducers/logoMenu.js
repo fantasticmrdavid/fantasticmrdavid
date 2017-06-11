@@ -1,5 +1,5 @@
-import { LOGO_MENU_ACTIVATED, LOGO_MENU_DEACTIVATED } from '../constants';
-import { createReducer } from '../helpers/reducers';
+import { LOGO_MENU_ACTIVATED, LOGO_MENU_DEACTIVATED } from 'constants';
+import { createReducer } from 'helpers/reducers';
 
 const initialState = {
   active: false,

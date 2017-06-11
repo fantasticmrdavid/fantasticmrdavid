@@ -1,10 +1,10 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
-import { mediaLoadingStopped, imagesLoadingStarted, imagesLoadingStopped } from '../../../actions';
+import { mediaLoadingStopped, imagesLoadingStarted, imagesLoadingStopped } from 'actions';
+import Spinner from 'components/Spinner';
+import ImagePreloader from 'components/ImagePreloader';
 import projects from './projects';
 import Project from './Project';
-import Spinner from '../../../components/Spinner';
-import ImagePreloader from '../../../components/ImagePreloader';
 import styles from './styles.css';
 
 class WorkMedia extends Component {

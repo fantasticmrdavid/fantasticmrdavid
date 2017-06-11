@@ -5,7 +5,7 @@ import {
   IMAGES_LOADING_STOPPED,
   POPUP_LOADING_STARTED,
   POPUP_LOADING_STOPPED,
-} from '../constants';
+} from 'constants';
 
 export function mediaLoadingStarted() {
   return { type: MEDIA_LOADING_STARTED };

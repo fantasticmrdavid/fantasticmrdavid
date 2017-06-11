@@ -1,5 +1,5 @@
-import { HOME_MEDIA_IMAGE_UPDATED } from '../constants';
-import { createReducer } from '../helpers/reducers';
+import { HOME_MEDIA_IMAGE_UPDATED } from 'constants';
+import { createReducer } from 'helpers/reducers';
 
 const initialState = {
   image: {

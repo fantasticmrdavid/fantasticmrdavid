@@ -1,12 +1,12 @@
 import React, { PropTypes } from 'react';
 import { connect } from 'react-redux';
-import { locationUpdated } from '../../actions';
+import { locationUpdated } from 'actions';
+import Popup from 'containers/Popup';
 import LogoMenu from './LogoMenu';
 import HomeMedia from './HomeMedia';
 import AboutMedia from './AboutMedia';
 import WorkMedia from './WorkMedia';
 import ContactMedia from './ContactMedia';
-import Popup from '../Popup';
 import styles from './styles.css';
 
 const View = (props) => {

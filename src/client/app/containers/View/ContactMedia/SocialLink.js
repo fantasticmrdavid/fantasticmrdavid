@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import Icon from '../../../components/Icon';
+import Icon from 'components/Icon';
 
 export default class SocialLink extends Component {
   constructor() {

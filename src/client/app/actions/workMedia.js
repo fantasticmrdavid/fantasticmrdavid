@@ -1,6 +1,6 @@
 import {
   WORK_MEDIA_LOCATION_UPDATED,
-} from '../constants';
+} from 'constants';
 import { mediaLoadingStarted, mediaLoadingStopped } from './loading';
 
 export function workMediaLocationUpdated(newLocation) {

@@ -1,8 +1,8 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
-import { logoMenuActivated, logoMenuDeactivated } from '../../../actions';
+import { logoMenuActivated, logoMenuDeactivated } from 'actions';
+import Blinker from 'components/Blinker';
 import MenuLink from './MenuLink';
-import Blinker from '../../../components/Blinker';
 import menu from './menu';
 import styles from './styles.css';
 
