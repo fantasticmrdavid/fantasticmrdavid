@@ -1,9 +1,8 @@
 const webpack = require('webpack');
 const path = require('path');
-// var BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
-const BUILD_DIR = path.resolve(__dirname, 'public');
-const APP_DIR = path.resolve(__dirname, 'src/client/app');
+const BUILD_DIR = path.resolve(__dirname, '../public');
+const APP_DIR = path.resolve(__dirname, '../src/client/app');
 
 const env = process.env.NODE_ENV ? process.env.NODE_ENV : false;
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
@@ -75,7 +74,6 @@ const config = {
       }
     ]
   },
-  devtool: "source-map",
   plugins: [
     new HtmlWebpackPlugin({
       template: 'src/client/app/index.html',
@@ -91,7 +89,7 @@ const config = {
       }
     }),
     new webpack.LoaderOptionsPlugin({
-      sourceMap: env !== 'production',
+      sourceMap: false,
       minimize: true,
     }),
     new webpack.optimize.CommonsChunkPlugin({
@@ -103,9 +101,6 @@ const config = {
       },
     }),
     new webpack.optimize.CommonsChunkPlugin({ name: 'manifest' })
-    // new BundleAnalyzerPlugin({
-    //     analyzerMode: 'static'
-    // })
   ]
 };
 

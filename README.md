@@ -3,5 +3,5 @@
 ## Build Stack:
 - Node.js
 - Webpack
-- React
+- React + Redux
 - CSS-Modules + PostCSS
