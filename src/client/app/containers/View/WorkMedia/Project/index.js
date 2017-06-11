@@ -68,7 +68,7 @@ class Project extends Component {
 const mapStateToProps = (state, ownProps) => {
   return {
     ...ownProps,
-    parentLoading: state.loading.media,
+    parentLoading: state.loading.media || state.loading.images,
     current: state.workMedia.location,
     isCurrent: state.workMedia.location === ownProps.target,
   };

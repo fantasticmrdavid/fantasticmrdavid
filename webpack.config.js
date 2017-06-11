@@ -7,21 +7,20 @@ var APP_DIR = path.resolve(__dirname, 'src/client/app');
 
 const env = process.env.NODE_ENV ? process.env.NODE_ENV : false;
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
-var resolve = env === 'production'
-  ? {
-      alias: {
-      'react': 'react-lite',
-      'react-dom': 'react-lite'
-    }
-  }
-  : {};
 
 var config = {
   entry: APP_DIR + '/index.js',
   output: {
-    path: BUILD_DIR + '/assets/js/',
-    filename: '[name]-bundle.js',
+    path: BUILD_DIR,
+    filename: 'assets/js/[name]-bundle.js',
     chunkFilename: '[name]-chunk.js'
+  },
+  resolve: {
+    modules: [APP_DIR, 'node_modules'],
+    alias: {
+      // https://github.com/webpack/webpack/issues/4666
+      constants: `${APP_DIR}/constants`,
+    }
   },
   module: {
     rules: [
@@ -64,10 +63,9 @@ var config = {
       }
     ]
   },
-  resolve: resolve,
   devtool: "source-map",
   plugins: [
-    new ExtractTextPlugin("../css/styles.css"),
+    new ExtractTextPlugin("assets/css/styles.css"),
     new webpack.DefinePlugin({
       'process.env': {
         NODE_ENV: JSON.stringify(env)
@@ -79,7 +77,7 @@ var config = {
     }),
     new webpack.optimize.CommonsChunkPlugin({
       name: 'node-static',
-      filename: 'node-static.js',
+      filename: 'assets/js/node-static.js',
       minChunks(module, count) {
           var context = module.context;
           return context && context.indexOf('node_modules') >= 0;
