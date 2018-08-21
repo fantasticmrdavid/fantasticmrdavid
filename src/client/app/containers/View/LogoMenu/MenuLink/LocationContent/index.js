@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import About from './About';
 import Work from './Work';
 import Contact from './Contact';
