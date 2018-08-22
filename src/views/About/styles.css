@@ -81,3 +81,14 @@
     color: white;
   }
 }
+
+.link {
+  color: $c-text-primary;
+  text-decoration: none;
+  transition: 0.3s;
+
+  &:hover {
+    color: white;
+    border-bottom: 1px solid tomato;
+  }
+}
