@@ -78,7 +78,7 @@ export default [
     },
     url: 'https://generalassemb.ly',
     technologies: 'HTML, CSS, JavaScript, PHP',
-    description: 'Starting out as a co-working space, General Assembly has grown into a pioneer in education and career transformation, specializing in today’s most in-demand skills. They are a leading source for training, staffing, and career transitions, fostering a flourishing community of professionals pursuing careers they love.<br /><br />I currently teach the Front End Web Development (FEWD) part time course at General Assembly\'s Melbourne campus. Throughout the 10 week course, students learn HTML, CSS, JavaScript, and fundamental programming skills to build their own website project. It has been immensely rewarding with students moving on to roles ranging from Junior Developer to Project Manager.',
+    description: 'Starting out as a co-working space, General Assembly has grown into a pioneer in education and career transformation, specializing in today’s most in-demand skills. They are a leading source for training, staffing, and career transitions, fostering a flourishing community of professionals pursuing careers they love.<br /><br />I taught the Front End Web Development (FEWD) part time course at General Assembly\'s Melbourne campus. Throughout the 10 week course, students learnt HTML, CSS, JavaScript, and fundamental programming skills to build their own website project. It was immensely rewarding with students moving on to roles ranging from Junior Developer to Project Manager.',
   },
   {
     title: 'Tramsformation',
@@ -124,6 +124,14 @@ export default [
         orientation: 'portrait',
         title: 'Tramsformer transformation',
         slug: 'tramsformation_transform',
+      },
+      {
+        type: 'image',
+        thumbnail: '/assets/images/projects/tramsformation/tramsformation_model_altmode_preview.jpg',
+        url: '/assets/images/projects/tramsformation/tramsformation_model_altmode_full.jpg',
+        orientation: 'landscape',
+        title: 'Tramsformer model tram mode',
+        slug: 'tramsformation_model_altmode',
       },
       {
         type: 'image',

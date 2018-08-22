@@ -14,31 +14,30 @@ const AboutMedia = (props) => {
       <div className={styles.content}>
         <p>
           Hi! I'm David, and I like making things.<br />
-          Since I was a kid I've been passionate about building and creating.
-          I've always enjoyed the journey of taking an idea from conception and
+          Since childhood I've been passionate about building and creating.
+          I've always enjoyed the journey of taking an idea from concept and
           making it reality whether it's solving a complex problem, creating some
           ambitious new artwork, or both.
         </p>
 
         <h2>Engineer</h2>
         <p>
-          I've been building web projects for over 10 years, starting from
+          I've been building web projects for over a decade, starting from
           when I was in high school and needed a simple HTML page to display my
           artwork. From there I moved on to become a Full-Stack LAMP Developer
           working on vendor-side and agency projects, and then to
-          Front-End Engineer specialising in HTML5, CSS3, ES6 and React. I
-          enjoy learning new languages and technologies to build even more
-          scalable and robust applications.
+          lead Front-End and UX Engineer specialising in HTML5, CSS3, ES6 and React. I
+          love learning about new technologies to develop better and more effective
+          product solutions.
         </p>
 
         <h2>Artist</h2>
         <p>
-          Maybe it was the cartoons and comics growing up, but drawing has been
-          my happy place for as long as I can remember.
-          While web building keeps the problem solving part of my brain busy,
+          Drawing has been my happy place for as long as I can remember.
+          While building web apps keeps the problem solving part of my brain busy,
           illustration and artwork have allowed me to stretch my creative boundaries.
-          In my after hours I have drawn comics, produced character concepts, made 3D
-          prints, and anything else I feel like making at the time.
+          In my after hours I have drawn comics, exhibited artwork, made 3D
+          prints, and <a className={styles.link} href="https://www.youtube.com/watch?v=7xk4LmZ6hwc" target="_blank" rel="noopener noreferrer">anything else I feel like making at the time</a>.
         </p>
 
         <h2>About this site</h2>
