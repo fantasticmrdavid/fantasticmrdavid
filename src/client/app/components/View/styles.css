@@ -51,17 +51,19 @@
   transition: 0.3s;
   background: black;
 
-  &.top {
-    top: 0px;
-  }
-
-  &.bottom {
-    bottom: 0px;
-  }
-
   .firstMediaLoading & {
     height: 50%;
   }
+}
+
+.mediaShutterTop {
+  composes: mediaShutter;
+  top: 0px;
+}
+
+.mediaShutterBottom {
+  composes: mediaShutter;
+  bottom: 0px;
 }
 
 .mediaLoadingMessage {

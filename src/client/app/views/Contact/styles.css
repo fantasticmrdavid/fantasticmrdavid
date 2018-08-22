@@ -69,14 +69,16 @@
   background: black;
   animation: shutterClose 0.3s ease 1;
   animation-fill-mode: forwards;
+}
 
-  &.top {
-    top: 0px;
-  }
+.shutterTop {
+  composes: shutter;
+  top: 0px;
+}
 
-  &.bottom {
-    bottom: 0px;
-  }
+.shutterBottom {
+  composes: shutter;
+  bottom: 0px;
 }
 
 @keyframes shutterClose {

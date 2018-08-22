@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import ProjectMediaContainer from 'containers/ProjectMediaContainer';
 import styles from './styles.css';
-import ProjectMedia from './Media';
 
 export default class Content extends Component {
   constructor() {
@@ -53,7 +53,7 @@ export default class Content extends Component {
         }
         <div className={styles.mediaWrapper}>
           {
-            !!media && media.map((m) => { return <ProjectMedia {...m} showPopup={showPopup} key={`ProjectMedia_${m.slug}`} />; })
+            !!media && media.map(m => <ProjectMediaContainer {...m} showPopup={showPopup} key={`ProjectMedia_${m.slug}`} />)
           }
         </div>
       </div>

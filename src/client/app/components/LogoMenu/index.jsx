@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { connect } from 'react-redux';
-import { logoMenuActivated, logoMenuDeactivated } from 'actions';
 import Blinker from 'components/Blinker';
-import MenuLink from './MenuLink';
+import MenuLinkContainer from 'containers/MenuLinkContainer';
 import menu from './menu';
 import styles from './styles.css';
 
@@ -20,7 +18,6 @@ class LogoMenu extends Component {
 
   render() {
     const { active } = this.props;
-
     return (
       <div className={`${styles.LogoMenu} ${!!active && styles.active}`} onClick={this.boundToggleActive}>
         <h1 className={styles.title}>
@@ -28,7 +25,7 @@ class LogoMenu extends Component {
         </h1>
 
         <nav className={styles.nav}>
-          { menu.map((item) => { return <MenuLink {...item} menuActive={!!active} key={`MenuLink_${item.target}`} />; }) }
+          { menu.map((item) => { return <MenuLinkContainer {...item} menuActive={!!active} key={`MenuLink_${item.target}`} />; }) }
         </nav>
 
         <div className={styles.subtitle}>
@@ -44,26 +41,9 @@ class LogoMenu extends Component {
   }
 }
 
-const mapStateToProps = (state) => {
-  return {
-    active: state.logoMenu.active,
-  };
-};
-
-const mapDispatchToProps = (dispatch) => {
-  return {
-    toggleActive: (active) => {
-      return !!active ? dispatch(logoMenuDeactivated()) : dispatch(logoMenuActivated());
-    },
-  };
-};
-
 LogoMenu.propTypes = {
   toggleActive: PropTypes.func.isRequired,
   active: PropTypes.bool,
 };
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(LogoMenu);
+export default LogoMenu;

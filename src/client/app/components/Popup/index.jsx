@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { connect } from 'react-redux';
-import { popupHidden } from 'actions';
 import styles from './styles.css';
 
 class Popup extends Component {
@@ -31,18 +29,6 @@ class Popup extends Component {
   }
 }
 
-const mapStateToProps = (state) => {
-  return {
-    ...state.popup,
-    active: state.popup.active,
-    loading: state.loading.popup,
-  };
-};
-
-const mapDispatchToProps = (dispatch) => {
-  return { close: () => dispatch(popupHidden()) };
-};
-
 Popup.propTypes = {
   close: PropTypes.func.isRequired,
   title: PropTypes.string,
@@ -52,7 +38,4 @@ Popup.propTypes = {
   loading: PropTypes.bool,
 };
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(Popup);
+export default Popup;

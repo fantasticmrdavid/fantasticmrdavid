@@ -11,7 +11,7 @@ const HOME_IMAGES = [
   },
 ];
 
-class HomeMedia extends Component {
+class Home extends Component {
   componentWillMount() {
     const { updateImage } = this.props;
     const image = HOME_IMAGES[Math.floor(Math.random() * HOME_IMAGES.length)];
@@ -54,7 +54,7 @@ const mapDispatchToProps = (dispatch) => {
   };
 };
 
-HomeMedia.propTypes = {
+Home.propTypes = {
   updateImage: PropTypes.func.isRequired,
   stopLoading: PropTypes.func.isRequired,
   loading: PropTypes.bool,
@@ -64,4 +64,4 @@ HomeMedia.propTypes = {
 export default connect(
   mapStateToProps,
   mapDispatchToProps,
-)(HomeMedia);
+)(Home);

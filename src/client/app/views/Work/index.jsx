@@ -4,8 +4,8 @@ import { connect } from 'react-redux';
 import { mediaLoadingStopped, imagesLoadingStarted, imagesLoadingStopped } from 'actions';
 import Spinner from 'components/Spinner';
 import ImagePreloader from 'components/ImagePreloader';
+import ProjectContainer from 'containers/ProjectContainer';
 import projects from './projects';
-import Project from './Project';
 import styles from './styles.css';
 
 class WorkMedia extends Component {
@@ -46,7 +46,7 @@ class WorkMedia extends Component {
 
         <div className={styles.projectContainer}>
           {
-            projects.map((p) => { return <Project {...p} key={`Project_${p.target}`} />; })
+            projects.map((p) => { return <ProjectContainer {...p} key={`Project_${p.target}`} />; })
           }
         </div>
       </div>

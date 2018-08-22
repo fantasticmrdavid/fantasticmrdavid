@@ -6,8 +6,8 @@ import styles from './styles.css';
 export default () => {
   return (
     <div className={styles.ContactMedia}>
-      <div className={`${styles.shutter} ${styles.top}`} />
-      <div className={`${styles.shutter} ${styles.bottom}`} />
+      <div className={styles.shutterTop} />
+      <div className={styles.shutterBottom} />
       <div className={styles.content}>
         <div className={styles.email}><a href="mailto:fantasticmrdavid@gmail.com">fantasticmrdavid@gmail.com</a></div>
         <div className={styles.social}>

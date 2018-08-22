@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { connect } from 'react-redux';
-import { locationUpdated } from 'actions';
 import LocationContent from './LocationContent';
 import styles from './styles.css';
 
@@ -29,22 +27,6 @@ class MenuLink extends Component {
   }
 }
 
-const mapStateToProps = (state, ownProps) => {
-  return {
-    label: ownProps.label,
-    target: ownProps.target,
-    current: ownProps.target === state.location.current,
-  };
-};
-
-const mapDispatchToProps = (dispatch) => {
-  return {
-    updateLocation: (target) => {
-      dispatch(locationUpdated(target));
-    },
-  };
-};
-
 MenuLink.propTypes = {
   updateLocation: PropTypes.func.isRequired,
   target: PropTypes.string.isRequired,
@@ -53,7 +35,4 @@ MenuLink.propTypes = {
   label: PropTypes.string,
 };
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(MenuLink);
+export default MenuLink;

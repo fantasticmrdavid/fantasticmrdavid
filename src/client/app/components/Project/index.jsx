@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { connect } from 'react-redux';
-import { workMediaLocationUpdated, popupShowed } from 'actions';
 import Content from './Content';
 import styles from './styles.css';
 
@@ -66,26 +64,6 @@ class Project extends Component {
   }
 }
 
-const mapStateToProps = (state, ownProps) => {
-  return {
-    ...ownProps,
-    parentLoading: state.loading.media || state.loading.images,
-    current: state.workMedia.location,
-    isCurrent: state.workMedia.location === ownProps.target,
-  };
-};
-
-const mapDispatchToProps = (dispatch) => {
-  return {
-    updateCurrent: (target) => {
-      dispatch(workMediaLocationUpdated(target));
-    },
-    showPopup: (popup) => {
-      dispatch(popupShowed(popup));
-    },
-  };
-};
-
 Project.propTypes = {
   updateCurrent: PropTypes.func.isRequired,
   showPopup: PropTypes.func,
@@ -98,7 +76,4 @@ Project.propTypes = {
   images: PropTypes.object,
 };
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(Project);
+export default Project;
