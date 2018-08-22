@@ -3,7 +3,7 @@ const path = require('path');
 // var BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 const BUILD_DIR = path.resolve(__dirname, '../public');
-const APP_DIR = path.resolve(__dirname, '../src/client/app');
+const APP_DIR = path.resolve(__dirname, '../src');
 
 const env = process.env.NODE_ENV ? process.env.NODE_ENV : false;
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
@@ -79,7 +79,7 @@ const config = {
   devtool: "source-map",
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'src/client/app/index.html',
+      template: 'src/index.html',
       inject: false,
     }),
     new ExtractTextPlugin("assets/css/styles.css"),

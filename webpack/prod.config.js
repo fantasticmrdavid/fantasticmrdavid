@@ -2,14 +2,14 @@ const webpack = require('webpack');
 const path = require('path');
 
 const BUILD_DIR = path.resolve(__dirname, '../public');
-const APP_DIR = path.resolve(__dirname, '../src/client/app');
+const APP_DIR = path.resolve(__dirname, '../src');
 
 const env = process.env.NODE_ENV ? process.env.NODE_ENV : false;
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const config = {
-  entry: APP_DIR + '/index.js',
+  entry: APP_DIR + '/index.jsx',
   output: {
     path: BUILD_DIR,
     filename: 'assets/js/[name]-bundle.js',
@@ -17,6 +17,7 @@ const config = {
   },
   resolve: {
     modules: [APP_DIR, 'node_modules'],
+    extensions: ['.js', '.jsx'],
     alias: {
       // https://github.com/webpack/webpack/issues/4666
       constants: `${APP_DIR}/constants`,
@@ -25,12 +26,12 @@ const config = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         include: APP_DIR,
         loader: 'babel-loader'
       },
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         enforce: "pre",
         exclude: /node_modules/,
         loader: [
@@ -76,7 +77,7 @@ const config = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'src/client/app/index.html',
+      template: 'src/index.html',
       inject: false,
         minify: {
             collapseWhitespace: true
