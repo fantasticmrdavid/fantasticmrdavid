@@ -30,5 +30,8 @@
 }
 
 .stroke {
-  composes: stroke from "../styles.css";
+  display: flex;
+  border: 1px solid $c-border-color;
+  max-height: 600px;
+  transition: 0.3s;
 }
