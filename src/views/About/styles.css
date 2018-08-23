@@ -85,6 +85,7 @@
 .link {
   color: $c-text-primary;
   text-decoration: none;
+  border-bottom: 1px solid color($c-text-primary alpha(80%));
   transition: 0.3s;
 
   &:hover {

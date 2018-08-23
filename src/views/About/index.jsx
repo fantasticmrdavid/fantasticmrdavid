@@ -36,8 +36,8 @@ const AboutMedia = (props) => {
           Drawing has been my happy place for as long as I can remember.
           While building web apps keeps the problem solving part of my brain busy,
           illustration and artwork have allowed me to stretch my creative boundaries.
-          In my after hours I have drawn comics, exhibited artwork, made 3D
-          prints, and <a className={styles.link} href="https://www.youtube.com/watch?v=7xk4LmZ6hwc" target="_blank" rel="noopener noreferrer">anything else I feel like making at the time</a>.
+          In my after hours I have drawn comics, exhibited artwork, produced 3D
+          prints, and made <a className={styles.link} href="https://www.youtube.com/watch?v=7xk4LmZ6hwc" target="_blank" rel="noopener noreferrer">other random things</a> simply because they were too much fun.
         </p>
 
         <h2>About this site</h2>
