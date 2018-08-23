@@ -17,10 +17,10 @@ export default class Image extends Component {
   }
 
   render() {
-    const { title, thumbnail } = this.props;
+    const { noSiblings, title, thumbnail } = this.props;
 
     return (
-      <div className="Image">
+      <div className={noSiblings ? styles.imageSingle : styles.image}>
         <div className={`${styles.frame} ${styles.stroke}`} onClick={this.boundHandleClick}>
           <img className={styles.stroke} src={thumbnail} alt={title} />
         </div>
@@ -30,9 +30,10 @@ export default class Image extends Component {
 }
 
 Image.propTypes = {
+  noSiblings: PropTypes.bool,
+  orientation: PropTypes.string.isRequired,
   showPopup: PropTypes.func.isRequired,
+  thumbnail: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   url: PropTypes.string.isRequired,
-  orientation: PropTypes.string.isRequired,
-  thumbnail: PropTypes.string.isRequired,
 };

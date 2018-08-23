@@ -1,8 +1,11 @@
-.Image {
+.image {
   position: relative;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  align-self: center;
+}
+
+.imageSingle {
+  composes: image;
+  align-self: auto;
 }
 
 .frame {
@@ -12,5 +15,8 @@
 }
 
 .stroke {
-  composes: stroke from "../styles.css";
+  display: flex;
+  border: 1px solid $c-border-color;
+  max-height: 600px;
+  transition: 0.3s;
 }
