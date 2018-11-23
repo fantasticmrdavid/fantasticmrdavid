@@ -116,7 +116,7 @@ const config = {
       theme_color: '#d12b2b',
       icons: [
         {
-          src: 'assets/images/pwa_icon.png',
+          src: 'public/assets/images/pwa_icon.png',
           sizes: [96, 128, 192, 256, 384, 512] // multiple sizes
         }
         // {
