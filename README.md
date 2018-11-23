@@ -5,3 +5,4 @@
 - Webpack
 - React + Redux
 - CSS-Modules + PostCSS
+- Jest

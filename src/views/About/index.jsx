@@ -60,6 +60,13 @@ const AboutMedia = (props) => {
             </ul>
           </div>
           <div className={styles.siteSpecsSection}>
+            <h3>Testing/QA</h3>
+            <ul>
+              <li>ESLint</li>
+              <li>Jest</li>
+            </ul>
+          </div>
+          <div className={styles.siteSpecsSection}>
             <h3>Deployment</h3>
             <ul>
               <li>Github</li>
