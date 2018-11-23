@@ -46,16 +46,16 @@
   margin-top: 0.25em;
   text-align: center;
   width: 100%;
+}
 
-  i {
-    color: $c-light-grey;
-    margin: 0 3px;
-    transition: 0.3s;
+.icon {
+  color: $c-light-grey;
+  margin: 0 3px;
+  transition: 0.3s;
 
-    @media (min-width: $l-w-medium) {
-      &:hover {
-        color: white;
-      }
+  @media (min-width: $l-w-medium) {
+    &:hover {
+      color: white;
     }
   }
 }

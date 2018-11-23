@@ -87,13 +87,15 @@
   padding: 0 2rem;
   margin-top: 0.25em;
 
-  i {
+  .icon {
+    position: relative;
+    left: -0.25em;
     opacity: 0.5;
     transition: 0.6s;
   }
 
   .LogoMenu.active & {
-    i {
+    .icon {
       transform: rotate(150deg);
     }
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Redbubble = () => {
   return (
@@ -15,11 +16,14 @@ const Icon = (props) => {
   const { icon } = props;
 
   if (icon === 'redbubble') return <Redbubble />;
-  return <i className={`fa fa-${icon}`} />;
+  return <FontAwesomeIcon icon={icon} {...props} />;
 };
 
 Icon.propTypes = {
-  icon: PropTypes.string.isRequired,
+  icon: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.object,
+  ]).isRequired,
 };
 
 export default Icon;

@@ -1,21 +1,20 @@
+import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
 export default [
   {
     title: 'LinkedIn',
     href: 'https://au.linkedin.com/in/fantasticmrdavid',
-    icon: 'linkedin-square',
-    fa: true,
+    icon: faLinkedin,
   },
   {
     title: 'Github',
     href: 'https://github.com/fantasticmrdavid/',
-    icon: 'github',
-    fa: true,
+    icon: faGithub,
   },
   {
     title: 'Instagram',
     href: 'https://www.instagram.com/misterdavidsan/',
-    icon: 'instagram',
-    fa: true,
+    icon: faInstagram,
   },
   {
     title: 'Redbubble',

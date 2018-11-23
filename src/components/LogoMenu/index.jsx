@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import { faAngleDown, faCog } from '@fortawesome/free-solid-svg-icons';
 import Blinker from 'components/Blinker';
+import Icon from 'components/Icon';
 import MenuLinkContainer from 'containers/MenuLinkContainer';
 import menu from './menu';
 import styles from './styles.css';
@@ -29,12 +31,12 @@ class LogoMenu extends Component {
         </nav>
 
         <div className={styles.subtitle}>
-          <h2><i className="fa fa-cog" /> Art + Engineering</h2>
+          <h2><Icon className={styles.icon} icon={faCog} />Art + Engineering</h2>
           <Blinker />
         </div>
 
         <a className={styles.startCta}>
-          <i className="fa fa-angle-down" />
+          <Icon icon={faAngleDown} />
         </a>
       </div>
     );

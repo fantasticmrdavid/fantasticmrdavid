@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Icon from 'components/Icon';
+import styles from './styles.css';
 
 export default class SocialLink extends Component {
   constructor() {
@@ -14,13 +15,10 @@ export default class SocialLink extends Component {
   }
 
   render() {
-    const { title, href, icon, fa } = this.props;
+    const { title, href, icon } = this.props;
     return (
       <a href={href} target="_blank" rel="noopener noreferrer" title={title} onClick={this.boundHandleClick}>
-        { !!fa ?
-          <i className={`fa fa-${icon}`} />
-          : <Icon icon={icon} />
-        }
+        <Icon className={styles.icon} icon={icon} />
       </a>
     );
   }
@@ -29,6 +27,8 @@ export default class SocialLink extends Component {
 SocialLink.propTypes = {
   title: PropTypes.string.isRequired,
   href: PropTypes.string.isRequired,
-  icon: PropTypes.string.isRequired,
-  fa: PropTypes.bool,
+  icon: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.object,
+  ]).isRequired,
 };
