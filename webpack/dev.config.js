@@ -9,6 +9,7 @@ const env = process.env.NODE_ENV ? process.env.NODE_ENV : false;
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ServiceWorkerWebpackPlugin = require('serviceworker-webpack-plugin');
+const WebpackPwaManifest = require('webpack-pwa-manifest');
 
 process.traceDeprecation = true;
 
@@ -106,6 +107,24 @@ const config = {
     new webpack.optimize.CommonsChunkPlugin({ name: 'manifest' }),
     new ServiceWorkerWebpackPlugin({
       entry: path.join(APP_DIR, 'sw.js'),
+    }),
+    new WebpackPwaManifest({
+      filename: 'manifest.json',
+      name: 'Fantastic Mr David',
+      short_name: 'Fantastic Mr David',
+      description: 'A super amazing portfolio of stuffs!',
+      background_color: '#000',
+      theme_color: '#d12b2b'
+      // icons: [ // TODO
+      //   {
+      //     src: path.resolve('src/assets/icon.png'),
+      //     sizes: [96, 128, 192, 256, 384, 512] // multiple sizes
+      //   },
+      //   {
+      //     src: path.resolve('src/assets/large-icon.png'),
+      //     size: '1024x1024' // you can also use the specifications pattern
+      //   }
+      // ]
     })
     // new BundleAnalyzerPlugin({
     //     analyzerMode: 'static'

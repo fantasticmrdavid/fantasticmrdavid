@@ -1,0 +1,9 @@
+{
+  "name": "Fantastic Mr David",
+  "short_name": "Fantastic Mr David",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "A super amazing portfolio of stuffs!",
+  "background_color": "#000"
+}
