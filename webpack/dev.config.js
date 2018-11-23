@@ -8,6 +8,7 @@ const APP_DIR = path.resolve(__dirname, '../src');
 const env = process.env.NODE_ENV ? process.env.NODE_ENV : false;
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const ServiceWorkerWebpackPlugin = require('serviceworker-webpack-plugin');
 
 process.traceDeprecation = true;
 
@@ -102,7 +103,10 @@ const config = {
           return context && context.indexOf('node_modules') >= 0;
       },
     }),
-    new webpack.optimize.CommonsChunkPlugin({ name: 'manifest' })
+    new webpack.optimize.CommonsChunkPlugin({ name: 'manifest' }),
+    new ServiceWorkerWebpackPlugin({
+      entry: path.join(APP_DIR, 'sw.js'),
+    })
     // new BundleAnalyzerPlugin({
     //     analyzerMode: 'static'
     // })
