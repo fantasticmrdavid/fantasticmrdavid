@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import runtime from 'serviceworker-webpack-plugin/lib/runtime';
 import ViewContainer from 'containers/ViewContainer';
+import { LoadFonts } from 'helpers/fonts';
 import store from './store';
 import './helpers';
 import './styles';
@@ -17,3 +18,4 @@ render(
 );
 
 if ('serviceWorker' in navigator) runtime.register();
+LoadFonts();
