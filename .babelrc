@@ -1,5 +1,5 @@
 {
-  "presets" : [
+  "presets": [
     [
       "env",
       {
@@ -8,5 +8,16 @@
     ],
     "react",
     "stage-2"
-  ]
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        [
+          "env"
+        ],
+        "react",
+        "stage-2"
+      ]
+    }
+  }
 }

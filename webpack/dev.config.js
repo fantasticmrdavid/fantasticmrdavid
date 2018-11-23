@@ -9,6 +9,8 @@ const env = process.env.NODE_ENV ? process.env.NODE_ENV : false;
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
+process.traceDeprecation = true;
+
 const config = {
   entry: APP_DIR + '/index.jsx',
   output: {
