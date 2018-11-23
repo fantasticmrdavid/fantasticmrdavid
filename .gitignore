@@ -4,4 +4,5 @@ public/*.html
 public/*.js
 public/assets/js
 public/assets/css
+public/icon_*.png
 npm-debug.log
