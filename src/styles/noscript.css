@@ -112,6 +112,10 @@ html {
   flex-direction: column;
 }
 
+.contactSection .content {
+  line-height: 1.5;
+}
+
 .copy {
   flex: 1;
 }
@@ -153,6 +157,20 @@ html {
 .siteSpecsSection ul {
   list-style: disc;
   padding-left: 1em;
+}
+
+.social {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.fa {
+  color: #ccc;
+  transition: 0.3s;
+}
+
+.social a:hover .fa {
+  color: magenta;
 }
 
 .blinker {
@@ -235,6 +253,12 @@ html {
 @media only screen and (min-width: 1024px) {
   .workSection .content {
     flex-direction: row;
+  }
+
+  .contactSection .content {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1;
   }
 
   .sliderContainer {
