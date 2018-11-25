@@ -1,0 +1,155 @@
+/* NOTE ONLY VANILLA CSS ALLOWED */
+
+html {
+  font-family: 'Josefin Slab', Courier, "Trebuchet MS", 'Times New Roman', serif;
+  color: #ccc;
+  padding: 1em 2em;
+  background: black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerToggle:not(:checked) ~ label .blinker {
+  display: none;
+}
+
+.header img {
+  position: relative;
+  width: 128px;
+  height: 128px;
+  top: 20px;
+}
+
+.title {
+  font-size: 2rem;
+  padding: 1em 0;
+}
+
+.section {
+  position: relative;
+  margin: 1em 0;
+  overflow: hidden;
+}
+
+.navToggle {
+  display: inline-block;
+  position: absolute;
+  margin-right: 0.5em;
+  opacity: 0;
+}
+
+.navToggle:checked ~ label .heading {
+  font-size: 1.2rem;
+  border-bottom: 1px solid white;
+  color: cyan;
+  border-bottom-color: cyan;
+}
+
+.navToggle:checked ~ label .workHeading {
+  border-bottom-color: transparent;
+}
+
+.workHeading {
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.workHeading:hover {
+  color: white;
+  border-bottom: 1px solid cyan;
+}
+
+.navToggle ~ label .heading:before {
+  content: "+";
+  margin-right: 0.5em;
+}
+
+.navToggle:checked ~ label .heading:before {
+  content: "-";
+}
+
+.navToggle:checked ~ .content {
+  opacity: 1;
+  max-height: 1000px;
+}
+
+.workSection .navToggle:checked ~ .content {
+  margin-bottom: 1.5em;
+}
+
+.heading {
+  transition: 0.3s;
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  line-height: 1.5;
+  margin: 0.5em 0;
+}
+
+.heading:hover {
+  color: white;
+}
+
+.content {
+  padding: 0 1em;
+  opacity: 0;
+  transition: 0.3s;
+  max-height: 0px;
+  overflow: hidden;
+}
+
+.subheading {
+  margin: 0.5em 0;
+}
+
+.subsubheading {
+  margin: 0.5em 0;
+}
+
+.workSubheading {
+  color: white;
+}
+
+.p {
+  margin: 0.5em 0 1em;
+}
+
+.link {
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.link:hover {
+  color: magenta;
+}
+
+.siteSpecs {
+  display: flex;
+}
+
+.siteSpecsSection {
+  padding: 1em 2em;
+}
+
+.siteSpecsSection ul {
+  list-style: disc;
+  padding-left: 1em;
+}
+
+.blinker {
+  position: relative;
+  display: inline-block;
+  width: 0.5rem;
+  margin-left: 0.15rem;
+  animation: blink 1s step-end infinite;
+  border-bottom: 2px solid #ccc;
+}
+
+@keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}

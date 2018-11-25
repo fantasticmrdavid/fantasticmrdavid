@@ -75,7 +75,7 @@ const AboutMedia = (props) => {
             </ul>
           </div>
         </div>
-        <br />
+        <p>Switch off JavaScript to enable the noscript version.</p>
         <a className="cta" href="https://github.com/fantasticmrdavid/fantasticmrdavid" target="_blank" rel="noopener noreferrer">
         Visit the Github repository
         </a>
