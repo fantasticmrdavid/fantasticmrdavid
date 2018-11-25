@@ -74,10 +74,17 @@ html {
 .navToggle:checked ~ .content {
   opacity: 1;
   max-height: 1000px;
+  padding-bottom: 1em;
+  border-bottom: 1px solid cyan;
+}
+
+.navToggle:checked ~ .content.u-noBottomBorder {
+  border-bottom: 1px solid black;
 }
 
 .workSection .navToggle:checked ~ .content {
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid black;
 }
 
 .heading {
@@ -98,6 +105,15 @@ html {
   transition: 0.3s;
   max-height: 0px;
   overflow: hidden;
+}
+
+.workSection .content {
+  display: flex;
+  flex-direction: column;
+}
+
+.copy {
+  flex: 1;
 }
 
 .subheading {
@@ -152,4 +168,77 @@ html {
   0% { opacity: 1.0; }
   50% { opacity: 0.0; }
   100% { opacity: 1.0; }
+}
+
+.sliderContainer {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+  min-height: 360px;
+  margin-bottom: 2.5em;
+}
+
+.sliderContainer.u-single {
+  margin-bottom: 0;
+}
+
+.slider {
+  display: flex;
+}
+
+.galleryImage {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.galleryImage.u-cover {
+  background-size: cover;
+  border-radius: 0.5em;
+}
+
+.sliderButton {
+  position: relative;
+  bottom: -1.75em;
+  width: 0.75em;
+  height: 0.75em;
+  margin: 0 0.25em;
+  cursor: pointer;
+  background: white;
+  transition: 0.3s;
+  border: 3px solid black;
+}
+
+.sliderControl {
+  opacity: 0;
+}
+
+.sliderControl:checked ~label .sliderButton {
+  background: cyan;
+  border-color: cyan;
+}
+
+.sliderControl:checked ~.galleryImage {
+  opacity: 1;
+}
+
+@media only screen and (min-width: 1024px) {
+  .workSection .content {
+    flex-direction: row;
+  }
+
+  .sliderContainer {
+    width: 480px;
+    margin-left: 1em;
+  }
 }
