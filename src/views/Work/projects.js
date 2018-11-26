@@ -88,7 +88,6 @@ export default [
       tileOff: '/assets/images/projects/tramsformation_off.jpg',
       tileOn: '/assets/images/projects/tramsformation_on.jpg',
     },
-    url: 'http://tramsformer.com.au',
     products: '3D Models, artwork, website, transformable toy',
     technologies: 'HTML, CSS, jQuery, PHP, MySQL, Photoshop, 3DS Max, 3D printing',
     description: 'A personal project that started with a failed art competition entry. Featuring a website with shop, 3D models, T-shirts, prints and a 3D printed transformable figure. I have so much respect for the engineering in those old 80\'s toys.',
