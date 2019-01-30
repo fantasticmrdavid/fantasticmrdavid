@@ -1,3 +1,10 @@
+.stroke {
+  display: flex;
+  border: 1px solid $c-border-color;
+  max-height: 600px;
+  transition: 0.3s;
+}
+
 .image {
   position: relative;
   align-self: center;
@@ -9,14 +16,8 @@
 }
 
 .frame {
+  composes: stroke;
   padding: 10px 10px;
   margin-bottom: 20px;
   cursor: pointer;
-}
-
-.stroke {
-  display: flex;
-  border: 1px solid $c-border-color;
-  max-height: 600px;
-  transition: 0.3s;
 }

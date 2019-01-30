@@ -39,6 +39,14 @@ export default [
       {
         type: 'website',
         platform: 'desktop',
+        thumbnail: '/assets/images/projects/kindynow/cnm_desktop_preview.jpg',
+        url: 'https://childcarenearme.com',
+        title: 'Childcare Near Me desktop site',
+        slug: 'cnm_desktop_preview',
+      },
+      {
+        type: 'website',
+        platform: 'desktop',
         thumbnail: '/assets/images/projects/kindynow/kn_desktop_preview.jpg',
         url: 'https://www.kindynow.com',
         title: 'KindyNow desktop site',

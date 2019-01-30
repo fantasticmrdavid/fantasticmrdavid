@@ -21,7 +21,7 @@ export default class Image extends Component {
 
     return (
       <div className={noSiblings ? styles.imageSingle : styles.image}>
-        <div className={`${styles.frame} ${styles.stroke}`} onClick={this.boundHandleClick}>
+        <div className={styles.frame} onClick={this.boundHandleClick}>
           <img className={styles.stroke} src={thumbnail} alt={title} />
         </div>
       </div>

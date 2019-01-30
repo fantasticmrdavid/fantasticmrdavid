@@ -18,13 +18,13 @@ export default class Mobile extends Component {
 
     return (
       <div>
-        <div className={`${styles.outerFrame} ${styles.stroke}`}>
-          <div className={`${styles.screen} ${styles.stroke}`}>
+        <div className={styles.outerFrame}>
+          <div className={styles.screen}>
             <a href={url} target="_blank" rel="noopener noreferrer"><img src={thumbnail} alt={title} onClick={this.boundHandleClick} /></a>
           </div>
-          <div className={`${styles.homeButton} ${styles.stroke}`} />
-          <div className={`${styles.upButton} ${styles.stroke}`} />
-          <div className={`${styles.downButton} ${styles.stroke}`} />
+          <div className={styles.homeButton} />
+          <div className={styles.upButton} />
+          <div className={styles.downButton} />
         </div>
       </div>
     );

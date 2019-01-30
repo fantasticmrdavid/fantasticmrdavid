@@ -1,3 +1,10 @@
+.stroke {
+  display: flex;
+  border: 1px solid $c-border-color;
+  max-height: 600px;
+  transition: 0.3s;
+}
+
 .Desktop {
   position: relative;
   display: flex;
@@ -7,31 +14,30 @@
 }
 
 .outerFrame {
+  composes: stroke;
   padding: 10px 10px 20px;
   margin-bottom: -1px;
 }
 
 .screen {
+  composes: stroke;
+  max-height: 150px;
   img {
     width: 300px;
     height: auto;
+    object-fit: cover;
   }
 }
 
 .stand {
+  composes: stroke;
   width: 80px;
   min-height: 20px;
   margin-bottom: -1px;
 }
 
 .base {
+  composes: stroke;
   width: 200px;
   min-height: 5px;
-}
-
-.stroke {
-  display: flex;
-  border: 1px solid $c-border-color;
-  max-height: 600px;
-  transition: 0.3s;
 }
