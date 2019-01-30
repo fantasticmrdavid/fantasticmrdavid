@@ -1,5 +1,52 @@
 export default [
   {
+    title: 'KindyNow',
+    tagline: 'Lead Front-End Engineer',
+    target: 'kindynow',
+    images: {
+      tileOff: '/assets/images/projects/kindynow_off.jpg',
+      tileOn: '/assets/images/projects/kindynow_on.jpg',
+    },
+    url: 'https://www.kindynow.com',
+    products: 'Child care search platform, Centre management platform, Mobile app, Admin platform',
+    technologies: 'HTML, CSS, ES6, SSR React, React-Native, Redux, TypeScript, Node.js, Jest, Enzyme, AWS, CircleCI',
+    description: 'KindyNow provides Australia\'s leading app and web service for helping parents find daycare for their children. As Lead Front-End engineer I architected and developed the company\'s flagship web assets, including a new child care search platform (Childcare Near Me), a rebuild of their existing booking management app (KindyNow), and admin tools for internal management of centres and bookings.<br /><br />I also managed and trained junior engineers, collaborated with the marketing team to prioritise and build features to maximise conversion goals, and provided guidance on UX and product strategy.',
+    media: [
+      {
+        type: 'website',
+        platform: 'mobile',
+        thumbnail: '/assets/images/projects/kindynow/cnm_mobile_preview.jpg',
+        url: 'https://childcarenearme.com.au',
+        title: 'Childcare Near Me mobile site',
+        slug: 'cnm_mobile_preview',
+      },
+      {
+        type: 'website',
+        platform: 'desktop',
+        thumbnail: '/assets/images/projects/kindynow/cnm_search_preview.jpg',
+        url: 'https://childcarenearme.com.au',
+        title: 'Childcare Near Me search',
+        slug: 'cnm_search_preview',
+      },
+      {
+        type: 'website',
+        platform: 'mobile',
+        thumbnail: '/assets/images/projects/kindynow/kn_app_preview.jpg',
+        url: 'https://www.kindynow.com',
+        title: 'KindyNow Mobile App',
+        slug: 'kn_app_preview',
+      },
+      {
+        type: 'website',
+        platform: 'desktop',
+        thumbnail: '/assets/images/projects/kindynow/kn_desktop_preview.jpg',
+        url: 'https://www.kindynow.com',
+        title: 'KindyNow desktop site',
+        slug: 'kn_desktop_preview',
+      },
+    ],
+  },
+  {
     title: 'SitePoint',
     tagline: 'Front-End Engineer',
     target: 'sitepoint',
