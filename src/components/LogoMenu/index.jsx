@@ -23,7 +23,7 @@ class LogoMenu extends Component {
     return (
       <div className={`${styles.LogoMenu} ${!!active && styles.active}`} onClick={this.boundToggleActive}>
         <h1 className={styles.title}>
-          Fantastic Mr David
+          Fantastic Mr David!
         </h1>
 
         <nav className={styles.nav}>
