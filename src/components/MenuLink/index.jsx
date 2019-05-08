@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
+import * as styles from './styles';
 import LocationContent from './LocationContent';
-import styles from './styles.css';
 
 class MenuLink extends PureComponent {
   constructor() {
@@ -18,11 +18,21 @@ class MenuLink extends PureComponent {
 
   render() {
     const { label, target, current, menuActive } = this.props;
+    const {
+      Link,
+      Label,
+    } = styles;
+
     return (
-      <div className={`${styles.MenuLink} ${current && styles.current} ${menuActive && styles.menuActive}`} onClick={this.boundHandleNavClick}>
-        <div className={`${styles.label} ${styles[target]}`} data-target={target} onClick={this.boundHandleNavClick}>{ label }</div>
+      <Link>
+        <Label
+          current={current}
+          menuActive={menuActive}
+          target={target}
+          onClick={this.boundHandleNavClick}
+        >{ label }</Label>
         <LocationContent location={target} current={current} />
-      </div>
+      </Link>
     );
   }
 }
