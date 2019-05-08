@@ -1,6 +1,9 @@
 import React from 'react';
-import styles from './styles.css';
+import * as styles from './styles';
 
-export default () => {
-  return <div className={styles.Blinker} />;
+const Blinker = () => {
+  const { Cursor } = styles;
+  return <Cursor />;
 };
+
+export default Blinker;
