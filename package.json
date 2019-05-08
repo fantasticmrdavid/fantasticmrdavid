@@ -45,6 +45,7 @@
     "fontfaceobserver": "2.0.13",
     "html-loader": "0.5.5",
     "html-webpack-plugin": "2.28.0",
+    "polished": "3.3.0",
     "postcss-loader": "2.1.6",
     "postcss-simple-vars": "5.0.1",
     "postcss-smart-import": "0.7.6",
