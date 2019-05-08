@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import Content from './Content';
 import styles from './styles.css';
 
-class Project extends Component {
+class Project extends PureComponent {
   constructor() {
     super();
     this.boundHandleTileClick = this.handleTileClick.bind(this);

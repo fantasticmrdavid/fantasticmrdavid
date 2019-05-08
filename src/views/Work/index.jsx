@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { mediaLoadingStopped, imagesLoadingStarted, imagesLoadingStopped } from 'actions';
@@ -8,7 +8,7 @@ import ProjectContainer from 'containers/ProjectContainer';
 import projects from './projects';
 import styles from './styles.css';
 
-class WorkMedia extends Component {
+class WorkMedia extends PureComponent {
   componentWillMount() {
     const { startImagesLoading } = this.props;
     startImagesLoading();

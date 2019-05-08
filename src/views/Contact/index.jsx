@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import TerminalText from 'components/TerminalText';
 import { scrollToElement } from 'helpers/dom';
 import SocialLink from './SocialLink';
 import socialLinks from './socialLinks';
 import styles from './styles.css';
 
-export default class extends Component {
+export default class extends PureComponent {
   componentDidMount() {
     scrollToElement('emailLink');
   }

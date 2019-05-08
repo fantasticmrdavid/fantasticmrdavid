@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { homeMediaImageUpdated, mediaLoadingStopped } from 'actions';
@@ -11,7 +11,7 @@ const HOME_IMAGES = [
   },
 ];
 
-class Home extends Component {
+class Home extends PureComponent {
   componentWillMount() {
     const { updateImage } = this.props;
     const image = HOME_IMAGES[Math.floor(Math.random() * HOME_IMAGES.length)];

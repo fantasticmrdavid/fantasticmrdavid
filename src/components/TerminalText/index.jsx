@@ -1,11 +1,11 @@
-import React, { Component, Fragment } from 'react';
+import React, { PureComponent, Fragment } from 'react';
 import PropTypes from 'prop-types';
 import Blinker from 'components/Blinker';
 
 const LETTER_INTERVAL = 30;
 const COMPLETE_DELAY_INTERVAL = 2000;
 
-class TerminalText extends Component {
+class TerminalText extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {

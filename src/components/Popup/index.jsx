@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import styles from './styles.css';
 
-class Popup extends Component {
+class Popup extends PureComponent {
   constructor() {
     super();
     this.boundHandleClose = this.handleClose.bind(this);

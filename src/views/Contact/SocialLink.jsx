@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import Icon from 'components/Icon';
 import styles from './styles.css';
 
-export default class SocialLink extends Component {
+export default class SocialLink extends PureComponent {
   constructor() {
     super();
     this.boundHandleClick = this.handleClick.bind(this);

@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import ProjectMediaContainer from 'containers/ProjectMediaContainer';
 import styles from './styles.css';
 
-export default class Content extends Component {
+export default class Content extends PureComponent {
   constructor() {
     super();
     this.boundHandleUrlClick = this.handleUrlClick.bind(this);

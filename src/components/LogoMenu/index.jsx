@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { faAngleDown, faCog } from '@fortawesome/free-solid-svg-icons';
 import Blinker from 'components/Blinker';
@@ -7,7 +7,7 @@ import MenuLinkContainer from 'containers/MenuLinkContainer';
 import menu from './menu';
 import styles from './styles.css';
 
-class LogoMenu extends Component {
+class LogoMenu extends PureComponent {
   constructor() {
     super();
     this.boundToggleActive = this.localToggleActive.bind(this);

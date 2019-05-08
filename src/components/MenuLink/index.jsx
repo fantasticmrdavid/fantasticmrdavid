@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import LocationContent from './LocationContent';
 import styles from './styles.css';
 
-class MenuLink extends Component {
+class MenuLink extends PureComponent {
   constructor() {
     super();
     this.boundHandleNavClick = this.handleNavClick.bind(this);

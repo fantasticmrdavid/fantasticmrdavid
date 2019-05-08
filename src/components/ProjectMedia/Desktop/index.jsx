@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import styles from './styles.css';
 
-export default class Desktop extends Component {
+export default class Desktop extends PureComponent {
   constructor() {
     super();
     this.boundHandleClick = this.handleClick.bind(this);
