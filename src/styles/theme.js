@@ -9,6 +9,7 @@ const theme = {
 
   colorTextPrimary: '#aaa',
   colorBorder: '#aaa',
+  colorSidebar: '#232323',
 
   fontHeading: "'Josefin Slab', Courier, 'Trebuchet MS', 'Times New Roman', serif",
   fontBody: "'Nunito Sans', Helvetica, 'Trebuchet MS', Arial, sans-serif",
