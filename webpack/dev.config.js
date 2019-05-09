@@ -15,6 +15,7 @@ process.traceDeprecation = true;
 
 const config = {
   entry: APP_DIR + '/index.jsx',
+  mode: 'development',
   output: {
     path: BUILD_DIR,
     filename: 'assets/js/[name]-bundle.js',

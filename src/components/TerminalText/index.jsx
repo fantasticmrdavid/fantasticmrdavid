@@ -92,7 +92,8 @@ class TerminalText extends PureComponent {
       <Fragment>
         {text}{currentLine}
         {blinker && <Blinker solid={!complete && !paused} />}
-      </Fragment>);
+      </Fragment>
+    );
   }
 }
 

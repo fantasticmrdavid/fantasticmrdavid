@@ -12,6 +12,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const config = {
   entry: APP_DIR + '/index.jsx',
+  mode: 'production',
   output: {
     path: BUILD_DIR,
     filename: 'assets/js/[name]-bundle.js',
