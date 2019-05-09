@@ -1,7 +1,6 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
-import Icon from 'components/Icon';
-import styles from './styles.css';
+import * as styles from './styles';
 
 export default class SocialLink extends PureComponent {
   constructor() {
@@ -16,9 +15,10 @@ export default class SocialLink extends PureComponent {
 
   render() {
     const { title, href, icon } = this.props;
+    const { Icon } = styles;
     return (
       <a href={href} target="_blank" rel="noopener noreferrer" title={title} onClick={this.boundHandleClick}>
-        <Icon className={styles.icon} icon={icon} />
+        <Icon icon={icon} />
       </a>
     );
   }

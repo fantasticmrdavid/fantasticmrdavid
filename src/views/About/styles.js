@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import theme from 'styles/theme';
 import { transparentize } from 'polished';
 import { media } from 'styles/utils';
-import componentLink from 'components/Link';
+import ComponentLink from 'components/Link';
 
 export const Container = styled.div`
   display: flex;
@@ -85,7 +85,7 @@ export const SpecsSection = styled.div`
   }
 `;
 
-export const SleeperLink = styled(componentLink)`
+export const SleeperLink = styled(ComponentLink)`
   color: ${theme.colorTextPrimary};
   border-bottom: ${`1px solid ${transparentize(0.8, theme.colorTextPrimary)}`};
 

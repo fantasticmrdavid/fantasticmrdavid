@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import theme from 'styles/theme';
 import { media } from 'styles/utils';
-import componentLink from 'components/Link';
+import ComponentLink from 'components/Link';
 
 export const Container = styled.div`
   display: flex;
@@ -41,7 +41,7 @@ export const Copy = styled.div`
   }
 `;
 
-export const Link = styled(componentLink)`
+export const Link = styled(ComponentLink)`
 `;
 
 export const LinkWrapper = styled.div`
