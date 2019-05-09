@@ -1,6 +1,7 @@
 import React from 'react';
-import styles from './styles.css';
+import * as styles from './styles';
 
 export default () => {
-  return <div className={styles.Spinner} />;
+  const { Spinner } = styles;
+  return <Spinner />;
 };
