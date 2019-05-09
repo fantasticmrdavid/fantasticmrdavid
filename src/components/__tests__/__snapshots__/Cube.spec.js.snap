@@ -2,28 +2,28 @@
 
 exports[`Component -> Cube should render the Cube in completed state without throwing an error 1`] = `
 <div
-  className="Cube_container false"
+  className="styles__Container-sc-1pkazdd-0 kLgLvx"
 >
   <div
-    className="Cube"
+    className="styles__Polygon-sc-1pkazdd-1 cOAgyo"
   >
     <div
-      className="front"
+      className="styles__Side-sc-1pkazdd-2 sc-EHOje igWgTe"
     />
     <div
-      className="back"
+      className="styles__Side-sc-1pkazdd-2 sc-bdVaJa YbtAZ"
     />
     <div
-      className="top"
+      className="styles__Side-sc-1pkazdd-2 sc-bxivhb fMiokd"
     />
     <div
-      className="bottom"
+      className="styles__Side-sc-1pkazdd-2 sc-ifAKCX jTzMbf"
     />
     <div
-      className="left"
+      className="styles__Side-sc-1pkazdd-2 sc-htpNat bbNfRH"
     />
     <div
-      className="right"
+      className="styles__Side-sc-1pkazdd-2 sc-bwzfXH bMXNAR"
     />
   </div>
 </div>
@@ -31,28 +31,28 @@ exports[`Component -> Cube should render the Cube in completed state without thr
 
 exports[`Component -> Cube should render the Cube in loading state without throwing an error 1`] = `
 <div
-  className="Cube_container loading"
+  className="styles__Container-sc-1pkazdd-0 efwEYC"
 >
   <div
-    className="Cube"
+    className="styles__Polygon-sc-1pkazdd-1 cOAgyo"
   >
     <div
-      className="front"
+      className="styles__Side-sc-1pkazdd-2 sc-EHOje igWgTe"
     />
     <div
-      className="back"
+      className="styles__Side-sc-1pkazdd-2 sc-bdVaJa YbtAZ"
     />
     <div
-      className="top"
+      className="styles__Side-sc-1pkazdd-2 sc-bxivhb fMiokd"
     />
     <div
-      className="bottom"
+      className="styles__Side-sc-1pkazdd-2 sc-ifAKCX jTzMbf"
     />
     <div
-      className="left"
+      className="styles__Side-sc-1pkazdd-2 sc-htpNat bbNfRH"
     />
     <div
-      className="right"
+      className="styles__Side-sc-1pkazdd-2 sc-bwzfXH bMXNAR"
     />
   </div>
 </div>

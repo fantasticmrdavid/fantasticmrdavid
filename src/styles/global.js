@@ -7,6 +7,7 @@ const GlobalStyles = createGlobalStyle`
   ${reset}
   body {
     font-family: ${theme.fontBody};
+    color: ${theme.colorCharcoal};
   }
   svg {
     width: 1em;

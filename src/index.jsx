@@ -6,7 +6,6 @@ import ViewContainer from 'containers/ViewContainer';
 import { LoadFonts } from 'helpers/fonts';
 import store from './store';
 import './helpers';
-import './styles';
 
 const App = () => <ViewContainer />;
 
