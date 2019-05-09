@@ -5,6 +5,7 @@ const theme = {
   colorDarkGrey: '#555',
   colorCharcoal: '#333',
   colorDarkCharcoal: '#111',
+  colorRed: 'tomato',
 
   colorTextPrimary: '#aaa',
   colorBorder: '#aaa',
