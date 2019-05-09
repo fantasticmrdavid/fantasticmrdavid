@@ -4,5 +4,5 @@
 - Node.js
 - Webpack
 - React + Redux
-- CSS-Modules + PostCSS
+- Styled-Components
 - Jest

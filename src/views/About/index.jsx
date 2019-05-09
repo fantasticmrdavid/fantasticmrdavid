@@ -62,7 +62,7 @@ const AboutMedia = ({ loading }) => {
             <ul>
               <li>React</li>
               <li>Redux</li>
-              <li>CSS-Modules</li>
+              <li>Styled-Components</li>
             </ul>
           </SpecsSection>
           <SpecsSection>
