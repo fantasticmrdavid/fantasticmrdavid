@@ -37,7 +37,7 @@ export const Tile = styled.a`
   }};
   border: ${`2px solid ${theme.colorBlack}`};
   box-shadow: ${theme.dropShadow};
-  transition: 0.3s;
+  transition: 0.5s;
   transform: ${(props) => {
     const { current, parentLoading } = props;
     if (current && !parentLoading) return 'rotateY(0deg)';
