@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
-import styles from './styles.css';
+import * as styles from './styles';
 
 export default class Image extends PureComponent {
   constructor() {
@@ -18,13 +18,18 @@ export default class Image extends PureComponent {
 
   render() {
     const { noSiblings, title, thumbnail } = this.props;
+    const {
+      Container,
+      Frame,
+      Content,
+    } = styles;
 
     return (
-      <div className={noSiblings ? styles.imageSingle : styles.image}>
-        <div className={styles.frame} onClick={this.boundHandleClick}>
-          <img className={styles.stroke} src={thumbnail} alt={title} />
-        </div>
-      </div>
+      <Container noSiblings={noSiblings}>
+        <Frame onClick={this.boundHandleClick}>
+          <Content src={thumbnail} alt={title} />
+        </Frame>
+      </Container>
     );
   }
 }

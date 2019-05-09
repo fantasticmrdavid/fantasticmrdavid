@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
-import styles from './styles.css';
+import * as styles from './styles';
 
 export default class Desktop extends PureComponent {
   constructor() {
@@ -15,19 +15,27 @@ export default class Desktop extends PureComponent {
 
   render() {
     const { title, thumbnail, url } = this.props;
+    const {
+      Container,
+      OuterFrame,
+      Screen,
+      Image,
+      Stand,
+      Base,
+    } = styles;
 
     return (
-      <div className={styles.Desktop}>
-        <div className={styles.outerFrame}>
+      <Container>
+        <OuterFrame>
           <a href={url} target="_blank" rel="noopener noreferrer">
-            <div className={styles.screen}>
-              <img src={thumbnail} alt={title} onClick={this.boundHandleClick} />
-            </div>
+            <Screen>
+              <Image src={thumbnail} alt={title} onClick={this.boundHandleClick} />
+            </Screen>
           </a>
-        </div>
-        <div className={styles.stand} />
-        <div className={styles.base} />
-      </div>
+        </OuterFrame>
+        <Stand />
+        <Base />
+      </Container>
     );
   }
 }
