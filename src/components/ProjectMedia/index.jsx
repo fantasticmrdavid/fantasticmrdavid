@@ -10,6 +10,7 @@ const ProjectMedia = (props) => {
   if (platform === 'mobile') return <Mobile {...props} />;
   if (platform === 'desktop') return <Desktop {...props} />;
   if (type === 'image') return <Image {...props} />;
+
   return null;
 };
 

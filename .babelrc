@@ -1,13 +1,12 @@
 {
   "presets": [
     [
-      "env",
+      "@babel/env",
       {
         "modules": false
       }
     ],
-    "react",
-    "stage-2"
+    "@babel/react"
   ],
   "plugins": [
     "babel-plugin-styled-components"
@@ -16,10 +15,9 @@
     "test": {
       "presets": [
         [
-          "env"
+          "@babel/env",
         ],
-        "react",
-        "stage-2"
+        "@babel/react"
       ]
     }
   }

@@ -6,7 +6,7 @@ const colorAbout = '#3fa44e';
 const colorWork = '#967fd1';
 const colorContact = '#cc750c';
 
-export const Link = styled.div`
+export const Container = styled.div`
   display: block;
   position: relative;
   color: inherit;
@@ -52,7 +52,8 @@ export const Label = styled.div`
 
       &:before {
         width: ${props => (props.current ? '0px' : '15px')};
-        background-color: ${(props) => {
+        background-color: ${/* eslint-disable */
+          (props) => {
           const { current, target } = props;
           if (!current) {
             if (target === 'about') return colorAbout;
@@ -61,7 +62,7 @@ export const Label = styled.div`
             return undefined;
           }
           return theme.colorDarkCharcoal;
-        }};
+        }/* eslint-enable */};
       }
     }
   `};

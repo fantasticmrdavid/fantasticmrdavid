@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Cube from 'components/Cube';
+import Link from 'components/Link';
 import * as styles from './styles';
 
 const AboutMedia = ({ loading }) => {
@@ -19,7 +20,8 @@ const AboutMedia = ({ loading }) => {
       <ProfilePhoto src="/assets/images/profile.jpg" alt="Me" />
       <Content>
         <p>
-          Hi! I'm David, and I like making things.<br />
+          Hi! I'm David, and I like making things.
+          <br />
           Since childhood I've been passionate about building and creating.
           I've always enjoyed the journey of taking an idea from concept and
           making it reality whether it's solving a complex problem, creating some
@@ -82,9 +84,9 @@ const AboutMedia = ({ loading }) => {
           </SpecsSection>
         </SiteSpecs>
         <p>Disable JavaScript to enable the noscript version!</p>
-        <a className="cta" href="https://github.com/fantasticmrdavid/fantasticmrdavid" target="_blank" rel="noopener noreferrer">
-        Visit the Github repository
-        </a>
+        <Link href="https://github.com/fantasticmrdavid/fantasticmrdavid" target="_blank" rel="noopener noreferrer">
+          Visit the Github repository
+        </Link>
       </Content>
     </Container>
   );

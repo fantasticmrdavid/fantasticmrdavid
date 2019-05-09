@@ -10,7 +10,12 @@ export default class Image extends PureComponent {
 
   handleClick(e) {
     e.preventDefault();
-    const { title, url, orientation, showPopup } = this.props;
+    const {
+      title,
+      url,
+      orientation,
+      showPopup,
+    } = this.props;
     showPopup({ title, url, orientation });
 
     ga('send', 'event', 'Media Image Click', title);

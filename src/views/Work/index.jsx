@@ -29,11 +29,6 @@ class WorkMedia extends PureComponent {
     return images;
   }
 
-  updateCurrent(newCurrent) {
-    this.setState({ current: newCurrent });
-    ga('send', 'event', 'Work Navigate', newCurrent);
-  }
-
   render() {
     const { loading, stopLoading } = this.props;
     const {

@@ -2,28 +2,28 @@
 
 exports[`Component -> Cube should render the Cube in completed state without throwing an error 1`] = `
 <div
-  className="styles__Container-sc-1pkazdd-0 kLgLvx"
+  className="styles__Container-sc-1pkazdd-0 jVfvcu"
 >
   <div
-    className="styles__Polygon-sc-1pkazdd-1 cOAgyo"
+    className="styles__Polygon-sc-1pkazdd-1 zMFrP"
   >
     <div
-      className="styles__Side-sc-1pkazdd-2 sc-EHOje igWgTe"
+      className="styles__Side-sc-1pkazdd-2 styles__Front-sc-1pkazdd-8 blCuPy"
     />
     <div
-      className="styles__Side-sc-1pkazdd-2 sc-bdVaJa YbtAZ"
+      className="styles__Side-sc-1pkazdd-2 styles__Back-sc-1pkazdd-3 jnvSYB"
     />
     <div
-      className="styles__Side-sc-1pkazdd-2 sc-bxivhb fMiokd"
+      className="styles__Side-sc-1pkazdd-2 styles__Top-sc-1pkazdd-6 hflpUn"
     />
     <div
-      className="styles__Side-sc-1pkazdd-2 sc-ifAKCX jTzMbf"
+      className="styles__Side-sc-1pkazdd-2 styles__Bottom-sc-1pkazdd-7 jKyixU"
     />
     <div
-      className="styles__Side-sc-1pkazdd-2 sc-htpNat bbNfRH"
+      className="styles__Side-sc-1pkazdd-2 styles__Left-sc-1pkazdd-5 hBXBnl"
     />
     <div
-      className="styles__Side-sc-1pkazdd-2 sc-bwzfXH bMXNAR"
+      className="styles__Side-sc-1pkazdd-2 styles__Right-sc-1pkazdd-4 hWkjVJ"
     />
   </div>
 </div>
@@ -31,28 +31,28 @@ exports[`Component -> Cube should render the Cube in completed state without thr
 
 exports[`Component -> Cube should render the Cube in loading state without throwing an error 1`] = `
 <div
-  className="styles__Container-sc-1pkazdd-0 efwEYC"
+  className="styles__Container-sc-1pkazdd-0 HluQT"
 >
   <div
-    className="styles__Polygon-sc-1pkazdd-1 cOAgyo"
+    className="styles__Polygon-sc-1pkazdd-1 zMFrP"
   >
     <div
-      className="styles__Side-sc-1pkazdd-2 sc-EHOje igWgTe"
+      className="styles__Side-sc-1pkazdd-2 styles__Front-sc-1pkazdd-8 blCuPy"
     />
     <div
-      className="styles__Side-sc-1pkazdd-2 sc-bdVaJa YbtAZ"
+      className="styles__Side-sc-1pkazdd-2 styles__Back-sc-1pkazdd-3 jnvSYB"
     />
     <div
-      className="styles__Side-sc-1pkazdd-2 sc-bxivhb fMiokd"
+      className="styles__Side-sc-1pkazdd-2 styles__Top-sc-1pkazdd-6 hflpUn"
     />
     <div
-      className="styles__Side-sc-1pkazdd-2 sc-ifAKCX jTzMbf"
+      className="styles__Side-sc-1pkazdd-2 styles__Bottom-sc-1pkazdd-7 jKyixU"
     />
     <div
-      className="styles__Side-sc-1pkazdd-2 sc-htpNat bbNfRH"
+      className="styles__Side-sc-1pkazdd-2 styles__Left-sc-1pkazdd-5 hBXBnl"
     />
     <div
-      className="styles__Side-sc-1pkazdd-2 sc-bwzfXH bMXNAR"
+      className="styles__Side-sc-1pkazdd-2 styles__Right-sc-1pkazdd-4 hWkjVJ"
     />
   </div>
 </div>

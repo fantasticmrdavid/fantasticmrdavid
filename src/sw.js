@@ -1,3 +1,4 @@
+/* eslint-disable */
 const DEBUG = false;
 
 const { assets } = global.serviceWorkerOption;
@@ -76,7 +77,7 @@ self.addEventListener('message', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
-  const request = event.request;
+  const { request } = event;
 
   // Ignore not GET request.
   if (request.method !== 'GET') {
@@ -157,3 +158,5 @@ self.addEventListener('fetch', (event) => {
 
   event.respondWith(resource);
 });
+
+/* eslint-enable */
