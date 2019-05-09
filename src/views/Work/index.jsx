@@ -6,7 +6,7 @@ import Spinner from 'components/Spinner';
 import ImagePreloader from 'components/ImagePreloader';
 import ProjectContainer from 'containers/ProjectContainer';
 import projects from './projects';
-import styles from './styles.css';
+import * as styles from './styles';
 
 class WorkMedia extends PureComponent {
   componentWillMount() {
@@ -36,20 +36,25 @@ class WorkMedia extends PureComponent {
 
   render() {
     const { loading, stopLoading } = this.props;
+    const {
+      Container,
+      LoadingContainer,
+      ProjectListContainer,
+    } = styles;
 
     return (
-      <div className={`${styles.WorkMedia} ${loading && styles.loading}`}>
-        <div className={styles.loadingContainer}>
+      <Container>
+        <LoadingContainer loading={loading}>
           <ImagePreloader images={this.getImages()} completedAction={stopLoading} />
           { loading && <Spinner /> }
-        </div>
+        </LoadingContainer>
 
-        <div className={styles.projectContainer}>
+        <ProjectListContainer loading={loading}>
           {
             projects.map((p) => { return <ProjectContainer {...p} key={`Project_${p.target}`} />; })
           }
-        </div>
-      </div>
+        </ProjectListContainer>
+      </Container>
     );
   }
 }

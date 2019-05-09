@@ -21,12 +21,13 @@ export default class Mobile extends PureComponent {
       HomeButton,
       UpButton,
       DownButton,
+      Image,
     } = styles;
 
     return (
       <OuterFrame>
         <Screen>
-          <a href={url} target="_blank" rel="noopener noreferrer"><img src={thumbnail} alt={title} onClick={this.boundHandleClick} /></a>
+          <a href={url} target="_blank" rel="noopener noreferrer"><Image src={thumbnail} alt={title} onClick={this.boundHandleClick} /></a>
         </Screen>
         <HomeButton />
         <UpButton />

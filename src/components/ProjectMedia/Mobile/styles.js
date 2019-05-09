@@ -8,6 +8,7 @@ export const OuterFrame = styled(Stroke)`
   align-items: center;
   border-radius: 8px;
   padding: 20px 7px 30px;
+  max-height: 160px;
 `;
 
 export const Screen = styled(Stroke)`
