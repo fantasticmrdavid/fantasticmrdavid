@@ -1,7 +1,7 @@
-import { Component } from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
-export default class ImagePreloader extends Component {
+export default class ImagePreloader extends PureComponent {
   constructor(props) {
     super(props);
 

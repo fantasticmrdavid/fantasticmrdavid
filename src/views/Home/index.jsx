@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { homeMediaImageUpdated, mediaLoadingStopped } from 'actions';
-import styles from './styles.css';
+import * as styles from './styles';
 
 const HOME_IMAGES = [
   {
@@ -11,7 +11,7 @@ const HOME_IMAGES = [
   },
 ];
 
-class Home extends Component {
+class Home extends PureComponent {
   componentWillMount() {
     const { updateImage } = this.props;
     const image = HOME_IMAGES[Math.floor(Math.random() * HOME_IMAGES.length)];
@@ -31,8 +31,8 @@ class Home extends Component {
 
   render() {
     const { loading, image } = this.props;
-    const bgStyle = { backgroundImage: `url(${image.src})` };
-    return <div className={`${styles.HomeMedia} ${loading && styles.loading}`} style={bgStyle} />;
+    const { Container } = styles;
+    return <Container loading={loading} imgSrc={image.src} />;
   }
 }
 

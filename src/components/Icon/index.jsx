@@ -13,13 +13,14 @@ const Redbubble = () => {
 };
 
 const Icon = (props) => {
-  const { icon } = props;
+  const { className, icon } = props;
 
   if (icon === 'redbubble') return <Redbubble />;
-  return <FontAwesomeIcon icon={icon} {...props} />;
+  return <FontAwesomeIcon icon={icon} className={className} />;
 };
 
 Icon.propTypes = {
+  className: PropTypes.string,
   icon: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.object,

@@ -1,20 +1,30 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './styles.css';
+import * as styles from './styles';
 
-const Cube = (props) => {
-  const { loading } = props;
+const Cube = ({ loading }) => {
+  const {
+    Container,
+    Polygon,
+    Front,
+    Back,
+    Left,
+    Right,
+    Top,
+    Bottom,
+  } = styles;
+
   return (
-    <div className={`${styles.Cube_container} ${!!loading && styles.loading}`}>
-      <div className={styles.Cube}>
-        <div className={styles.front} />
-        <div className={styles.back} />
-        <div className={styles.top} />
-        <div className={styles.bottom} />
-        <div className={styles.left} />
-        <div className={styles.right} />
-      </div>
-    </div>
+    <Container loading={loading}>
+      <Polygon>
+        <Front />
+        <Back />
+        <Top />
+        <Bottom />
+        <Left />
+        <Right />
+      </Polygon>
+    </Container>
   );
 };
 

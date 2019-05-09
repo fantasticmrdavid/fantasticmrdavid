@@ -6,9 +6,10 @@ import ViewContainer from 'containers/ViewContainer';
 import { LoadFonts } from 'helpers/fonts';
 import store from './store';
 import './helpers';
-import './styles';
 
 const App = () => <ViewContainer />;
+
+const { NODE_ENV } = process.env;
 
 render(
   <Provider store={store}>
@@ -17,5 +18,5 @@ render(
   document.getElementById('app'),
 );
 
-if ('serviceWorker' in navigator) runtime.register();
+if (NODE_ENV === 'production' && 'serviceWorker' in navigator) runtime.register();
 LoadFonts();

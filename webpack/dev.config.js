@@ -6,7 +6,6 @@ const BUILD_DIR = path.resolve(__dirname, '../public');
 const APP_DIR = path.resolve(__dirname, '../src');
 
 const env = process.env.NODE_ENV ? process.env.NODE_ENV : false;
-const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ServiceWorkerWebpackPlugin = require('serviceworker-webpack-plugin');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
@@ -51,24 +50,6 @@ const config = {
         ]
       },
       {
-        test: /\.css$/,
-        use: ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: [
-            {
-              loader: 'css-loader',
-              query: {
-                modules: true,
-                importLoaders: 1,
-                localIdentName: '[name]__[local]___[hash:base64:5]',
-                minimize: true
-              }
-            },
-            'postcss-loader'
-          ]
-        })
-      },
-      {
         test: /\.html$/,
         use: [
           {
@@ -87,7 +68,6 @@ const config = {
       template: 'src/index.html',
       inject: false,
     }),
-    new ExtractTextPlugin("assets/css/styles.css"),
     new webpack.DefinePlugin({
       'process.env': {
         NODE_ENV: JSON.stringify(env)

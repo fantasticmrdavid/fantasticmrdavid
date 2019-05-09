@@ -3,18 +3,20 @@ import PropTypes from 'prop-types';
 import About from './About';
 import Work from './Work';
 import Contact from './Contact';
-import styles from './styles.css';
+import * as styles from './styles';
 
 const LocationContent = (props) => {
   const { location, current } = props;
+  const { Content } = styles;
+
   if (!location) return null;
 
   return (
-    <div className={`${styles.LocationContent} ${!!current && styles.current}`}>
+    <Content current={current}>
       { location === 'about' && <About /> }
       { location === 'work' && <Work /> }
       { location === 'contact' && <Contact /> }
-    </div>
+    </Content>
   );
 };
 

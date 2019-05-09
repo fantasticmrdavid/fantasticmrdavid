@@ -1,13 +1,12 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { faAngleDown, faCog } from '@fortawesome/free-solid-svg-icons';
 import Blinker from 'components/Blinker';
-import Icon from 'components/Icon';
 import MenuLinkContainer from 'containers/MenuLinkContainer';
 import menu from './menu';
-import styles from './styles.css';
+import * as styles from './styles';
 
-class LogoMenu extends Component {
+class LogoMenu extends PureComponent {
   constructor() {
     super();
     this.boundToggleActive = this.localToggleActive.bind(this);
@@ -20,25 +19,33 @@ class LogoMenu extends Component {
 
   render() {
     const { active } = this.props;
+    const {
+      Container,
+      Title,
+      Nav,
+      Subtitle,
+      Cta,
+      CogIcon,
+      Icon,
+    } = styles;
+
     return (
-      <div className={`${styles.LogoMenu} ${!!active && styles.active}`} onClick={this.boundToggleActive}>
-        <h1 className={styles.title}>
-          Fantastic Mr David
-        </h1>
+      <Container active={active} onClick={this.boundToggleActive}>
+        <Title>Fantastic Mr David</Title>
 
-        <nav className={styles.nav}>
+        <Nav active={active}>
           { menu.map((item) => { return <MenuLinkContainer {...item} menuActive={!!active} key={`MenuLink_${item.target}`} />; }) }
-        </nav>
+        </Nav>
 
-        <div className={styles.subtitle}>
-          <h2><Icon className={styles.icon} icon={faCog} />Art + Engineering</h2>
+        <Subtitle active={active}>
+          <h2><CogIcon active={active} icon={faCog} />Art + Engineering</h2>
           <Blinker />
-        </div>
+        </Subtitle>
 
-        <a className={styles.startCta}>
+        <Cta active={active}>
           <Icon icon={faAngleDown} />
-        </a>
-      </div>
+        </Cta>
+      </Container>
     );
   }
 }

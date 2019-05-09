@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import Content from './Content';
-import styles from './styles.css';
+import * as styles from './styles';
 
-class Project extends Component {
+class Project extends PureComponent {
   constructor() {
     super();
     this.boundHandleTileClick = this.handleTileClick.bind(this);
@@ -34,32 +34,44 @@ class Project extends Component {
       showPopup,
     } = this.props;
 
-    const bgOffStyle = { backgroundImage: `url(${!!images && images.tileOff})` };
-    const bgOnStyle = { backgroundImage: `url(${!!images && images.tileOn})` };
+    const {
+      Container,
+      Tile,
+      Image,
+      TileContent,
+      Title,
+      Tagline,
+      Close,
+    } = styles;
+
+    const otherCurrent = this.isOtherCurrent();
 
     return (
-      <div
-        className={
-          `${styles.Project} ${styles[target]}
-          ${!!isCurrent && styles.current}
-          ${this.isOtherCurrent() && styles.otherCurrent}`
-        }
+      <Container
+        current={isCurrent}
+        otherCurrent={otherCurrent}
       >
-        <a
-          className={`${styles.ProjectTile} ${parentLoading && styles.parentLoading}`}
-          data-target={target}
+        <Tile
+          current={isCurrent}
+          parentLoading={parentLoading}
+          target={target}
+          otherCurrent={otherCurrent}
           onClick={this.boundHandleTileClick}
         >
-          <div className={`${styles.bg} ${styles.off}`} style={bgOffStyle} />
-          <div className={`${styles.bg} ${styles.on}`} style={bgOnStyle} />
-          <div className={styles.content}>
-            <div className={styles.title}>{title}</div>
-            <div className={styles.tagline}>{tagline}</div>
-          </div>
-          <div className={styles.close}>X</div>
-        </a>
+          <Image
+            current={isCurrent}
+            target={target}
+            srcOn={images.tileOn}
+            srcOff={images.tileOff}
+          />
+          <TileContent current={isCurrent}>
+            <Title>{title}</Title>
+            <Tagline>{tagline}</Tagline>
+          </TileContent>
+          <Close current={isCurrent}>X</Close>
+        </Tile>
         <Content {...this.props} updateCurrent={updateCurrent} showPopup={showPopup} />
-      </div>
+      </Container>
     );
   }
 }
