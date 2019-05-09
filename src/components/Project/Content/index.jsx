@@ -40,11 +40,13 @@ export default class Content extends PureComponent {
 
     return (
       <Container current={isCurrent}>
-        { !!products &&
-          <Section>
-            <Label>Products</Label>
-            <Copy>{ products }</Copy>
-          </Section>
+        { !!products
+          && (
+            <Section>
+              <Label>Products</Label>
+              <Copy>{ products }</Copy>
+            </Section>
+          )
         }
 
         <Section>
@@ -57,10 +59,12 @@ export default class Content extends PureComponent {
           <Copy dangerouslySetInnerHTML={descriptionMarkup} />
         </Section>
         {
-          !!url &&
-          <LinkWrapper>
-            <Link href={url} target="_blank" rel="noopener noreferrer" onClick={this.boundHandleUrlClick}>Visit { title }</Link>
-          </LinkWrapper>
+          !!url
+          && (
+            <LinkWrapper>
+              <Link href={url} target="_blank" rel="noopener noreferrer" onClick={this.boundHandleUrlClick}>Visit { title }</Link>
+            </LinkWrapper>
+          )
         }
         <MediaWrapper>
           {

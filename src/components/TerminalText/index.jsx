@@ -55,14 +55,14 @@ class TerminalText extends PureComponent {
 
     const nextChar = letters[index];
 
-    return this.setState(index < letters.length ?
-    {
-      text: nextChar === '\n' ? <Fragment>{text}{currentLine}<br /></Fragment> : <Fragment>{text}</Fragment>,
-      currentLine: nextChar === '\n' ? '' : `${currentLine}${nextChar}`,
-      index: index + 1,
-    } : {
-      complete: true,
-    });
+    return this.setState(index < letters.length
+      ? {
+        text: nextChar === '\n' ? <Fragment>{text}{currentLine}<br /></Fragment> : <Fragment>{text}</Fragment>,
+        currentLine: nextChar === '\n' ? '' : `${currentLine}${nextChar}`,
+        index: index + 1,
+      } : {
+        complete: true,
+      });
   }
 
   pauseTypewriter() {

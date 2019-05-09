@@ -18,7 +18,7 @@ const config = {
   output: {
     path: BUILD_DIR,
     filename: 'assets/js/[name]-bundle.js',
-    chunkFilename: '[name]-chunk.js'
+    chunkFilename: 'assets/js/[name]-chunk.js',
   },
   resolve: {
     modules: [APP_DIR, 'node_modules'],
@@ -73,19 +73,6 @@ const config = {
         NODE_ENV: JSON.stringify(env)
       }
     }),
-    new webpack.LoaderOptionsPlugin({
-      sourceMap: true,
-      minimize: false,
-    }),
-    new webpack.optimize.CommonsChunkPlugin({
-      name: 'node-static',
-      filename: 'assets/js/node-static.js',
-      minChunks(module, count) {
-          var context = module.context;
-          return context && context.indexOf('node_modules') >= 0;
-      },
-    }),
-    new webpack.optimize.CommonsChunkPlugin({ name: 'manifest' }),
     new ServiceWorkerWebpackPlugin({
       entry: path.join(APP_DIR, 'sw.js'),
     }),
@@ -105,11 +92,23 @@ const config = {
     }),
     new CopyWebpackPlugin([
       { from: `${APP_DIR}/styles/noscript.css`, to: 'assets/css/noscript.css' }
-    ])
+    ]),
     // new BundleAnalyzerPlugin({
     //     analyzerMode: 'static'
     // })
-  ]
+  ],
+  optimization: {
+    runtimeChunk: 'single',
+    splitChunks: {
+      cacheGroups: {
+        vendor: {
+          test: /[\\/]node_modules[\\/]/,
+          name: 'vendor',
+          chunks: 'all',
+        },
+      },
+    },
+  },
 };
 
 module.exports = config;

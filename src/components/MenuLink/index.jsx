@@ -17,22 +17,30 @@ class MenuLink extends PureComponent {
   }
 
   render() {
-    const { label, target, current, menuActive } = this.props;
     const {
-      Link,
+      label,
+      target,
+      current,
+      menuActive,
+    } = this.props;
+
+    const {
+      Container,
       Label,
     } = styles;
 
     return (
-      <Link>
+      <Container>
         <Label
           current={current}
           menuActive={menuActive}
           target={target}
           onClick={this.boundHandleNavClick}
-        >{ label }</Label>
+        >
+          { label }
+        </Label>
         <LocationContent location={target} current={current} />
-      </Link>
+      </Container>
     );
   }
 }

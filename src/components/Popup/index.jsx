@@ -14,8 +14,16 @@ class Popup extends PureComponent {
     const { close } = this.props;
     close(e);
   }
+
   render() {
-    const { title, url, orientation, active, loading } = this.props;
+    const {
+      title,
+      url,
+      orientation,
+      active,
+      loading,
+    } = this.props;
+
     const {
       Container,
       Lightbox,
