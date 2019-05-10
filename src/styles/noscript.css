@@ -5,6 +5,12 @@ html {
   color: #ccc;
   padding: 1em 2em;
   background: black;
+  line-height: 1;
+}
+
+ul, ol {
+  list-style-type: none;
+  margin: 0;
 }
 
 .header {
@@ -54,6 +60,7 @@ html {
 
 .workHeading {
   display: inline-block;
+  font-size: 1rem;
   transition: 0.3s;
 }
 
@@ -88,11 +95,13 @@ html {
 }
 
 .heading {
+  font-size: 1rem;
+  font-weight: 500;
   transition: 0.3s;
   cursor: pointer;
   border-bottom: 1px solid transparent;
   line-height: 1.5;
-  margin: 0.5em 0;
+  margin: 0 0 1em;
 }
 
 .heading:hover {
@@ -121,6 +130,7 @@ html {
 }
 
 .subheading {
+  font-weight: 500;
   margin: 0.5em 0;
 }
 
@@ -129,6 +139,8 @@ html {
 }
 
 .workSubheading {
+  font-size: 1rem;
+  margin: 0.5em 0;
   color: white;
 }
 
