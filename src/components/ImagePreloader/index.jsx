@@ -1,14 +1,12 @@
-import { PureComponent } from 'react';
+import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
+import * as styles from './styles';
 
 export default class ImagePreloader extends PureComponent {
   constructor(props) {
     super(props);
 
-    const { images } = props;
-
     this.state = {
-      count: images.length,
       completed: 0,
     };
 
@@ -36,12 +34,20 @@ export default class ImagePreloader extends PureComponent {
   }
 
   checkCompleted() {
-    const { count, completed } = this.state;
-    return count === completed;
+    const { images } = this.props;
+    const { completed } = this.state;
+    return images.length === completed;
   }
 
   render() {
-    return null;
+    const { images } = this.props;
+    const { completed } = this.state;
+    const { Container } = styles;
+    return (
+      <Container completed={completed === images.length}>
+        {completed / images.length * 100}%
+      </Container>
+    );
   }
 }
 

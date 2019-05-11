@@ -21,6 +21,11 @@ const Bar = styled.div`
   height: 4em;
 `;
 
+export const Container = styled.div`
+  position: relative;
+  height: 160px;
+`;
+
 export const Spinner = styled(Bar)`
   position: relative;
   font-size: 11px;

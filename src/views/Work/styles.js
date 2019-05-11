@@ -27,6 +27,7 @@ export const Container = styled.div`
 export const LoadingContainer = styled.div`
   position: absolute;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   top: 0px;
@@ -38,6 +39,10 @@ export const LoadingContainer = styled.div`
   min-height: 100%;
   max-height: ${props => (props.loading ? '0px' : undefined)};
   width: 100%;
+`;
+
+export const SpinnerPlaceholder = styled.div`
+  height: 160px;
 `;
 
 export const ProjectListContainer = styled.div`
