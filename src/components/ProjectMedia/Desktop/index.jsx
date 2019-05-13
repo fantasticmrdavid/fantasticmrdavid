@@ -43,5 +43,5 @@ export default class Desktop extends PureComponent {
 Desktop.propTypes = {
   title: PropTypes.string.isRequired,
   thumbnail: PropTypes.string.isRequired,
-  url: PropTypes.string.isRequired,
+  url: PropTypes.string,
 };

@@ -40,5 +40,5 @@ export default class Mobile extends PureComponent {
 Mobile.propTypes = {
   title: PropTypes.string.isRequired,
   thumbnail: PropTypes.string.isRequired,
-  url: PropTypes.string.isRequired,
+  url: PropTypes.string,
 };
