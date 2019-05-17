@@ -38,11 +38,13 @@ class WorkMedia extends PureComponent {
       SpinnerPlaceholder,
     } = styles;
 
+    const images = this.getImages();
+
     return (
       <Container>
         <LoadingContainer loading={loading}>
           { loading ? <Spinner /> : <SpinnerPlaceholder /> }
-          <ImagePreloader images={this.getImages()} completedAction={stopLoading} />
+          { images.length > 0 && <ImagePreloader images={images} completedAction={stopLoading} /> }
         </LoadingContainer>
 
         <ProjectListContainer loading={loading}>
