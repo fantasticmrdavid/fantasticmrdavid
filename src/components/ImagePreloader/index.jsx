@@ -1,57 +1,62 @@
-import React, { PureComponent } from 'react';
+import React, {
+  memo,
+  useCallback,
+  useEffect,
+  useReducer,
+} from 'react';
 import PropTypes from 'prop-types';
 import * as styles from './styles';
 
-export default class ImagePreloader extends PureComponent {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      completed: 0,
-    };
-
-    this.loaders = [];
+const reducer = (state, action) => {
+  switch (action.type) {
+    case 'incrementCompleted':
+      return {
+        ...state,
+        completedCount: parseInt(state.completedCount, 10) + 1,
+      };
+    case 'completeLoading':
+      return {
+        ...state,
+        completed: true,
+      };
+    default: throw new Error();
   }
+};
 
-  componentWillMount() {
-    const { images, completedAction } = this.props;
-
-    images.map((i) => {
+const ImagePreloader = memo(
+  ({ images, completedAction }) => {
+    const [state, dispatch] = useReducer(reducer, {
+      completedCount: 0,
+      completed: false,
+    });
+    const initImage = useCallback((src) => {
       const image = new Image();
 
       image.onload = () => {
-        const { completed } = this.state;
-        this.setState({
-          completed: parseInt(completed, 10) + 1,
-        });
-        if (this.checkCompleted()) completedAction();
+        if (!state.completed) dispatch({ type: 'incrementCompleted' });
       };
-      image.src = i;
-      this.loaders.push(image);
+      image.src = src;
+    }, [state.completedCount]);
 
-      return i;
-    });
-  }
+    images.map(i => useEffect(() => initImage(i), [i]));
 
-  checkCompleted() {
-    const { images } = this.props;
-    const { completed } = this.state;
-    return images.length === completed;
-  }
+    if (!state.completed && state.completedCount === images.length) {
+      completedAction();
+      dispatch({ type: 'completeLoading' });
+    }
 
-  render() {
-    const { images } = this.props;
-    const { completed } = this.state;
     const { Container } = styles;
     return (
-      <Container completed={completed === images.length}>
-        {completed / images.length * 100}%
+      <Container completed={state.completed}>
+        {state.completedCount / images.length * 100}%
       </Container>
     );
-  }
-}
+  },
+);
 
 ImagePreloader.propTypes = {
   images: PropTypes.array.isRequired,
   completedAction: PropTypes.func,
 };
+
+export default ImagePreloader;
