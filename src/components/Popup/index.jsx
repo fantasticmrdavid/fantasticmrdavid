@@ -1,28 +1,22 @@
-import React, { PureComponent } from 'react';
+import React, { memo } from 'react';
 import PropTypes from 'prop-types';
 import * as styles from './styles';
 
-class Popup extends PureComponent {
-  constructor() {
-    super();
-    this.boundHandleClose = this.handleClose.bind(this);
-  }
-
-  handleClose(e) {
-    e.preventDefault();
-
-    const { close } = this.props;
-    close(e);
-  }
-
-  render() {
+const Popup = memo(
+  (props) => {
     const {
+      active,
+      close,
+      loading,
+      orientation,
       title,
       url,
-      orientation,
-      active,
-      loading,
-    } = this.props;
+    } = props;
+
+    const handleClose = (e) => {
+      e.preventDefault();
+      close(e);
+    };
 
     const {
       Container,
@@ -37,15 +31,15 @@ class Popup extends PureComponent {
 
     return (
       <Container loading={loading} active={active}>
-        <Lightbox onClick={this.boundHandleClose} />
+        <Lightbox onClick={handleClose} />
         <Dialog>
-          <Close onClick={this.boundHandleClose}>X</Close>
+          <Close onClick={handleClose}>X</Close>
           { !!url && <Image src={url} alt={title} /> }
         </Dialog>
       </Container>
     );
-  }
-}
+  },
+);
 
 Popup.propTypes = {
   close: PropTypes.func.isRequired,
