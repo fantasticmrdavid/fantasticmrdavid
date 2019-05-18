@@ -1,29 +1,12 @@
-import React, { PureComponent } from 'react';
+import React, { memo, useCallback } from 'react';
 import PropTypes from 'prop-types';
 import Content from './Content';
 import * as styles from './styles';
 
-class Project extends PureComponent {
-  constructor() {
-    super();
-    this.boundHandleTileClick = this.handleTileClick.bind(this);
-  }
-
-  handleTileClick(e) {
-    e.preventDefault();
-
-    const { target, isCurrent, updateCurrent } = this.props;
-    const newCurrent = !!isCurrent ? undefined : target;
-    updateCurrent(newCurrent);
-  }
-
-  isOtherCurrent() {
-    const { current, isCurrent } = this.props;
-    return !!isCurrent ? false : !!current;
-  }
-
-  render() {
+const Project = memo(
+  (props) => {
     const {
+      current,
       title,
       tagline,
       target,
@@ -32,7 +15,15 @@ class Project extends PureComponent {
       isCurrent,
       updateCurrent,
       showPopup,
-    } = this.props;
+    } = props;
+
+    const handleTileClick = useCallback((e) => {
+      e.preventDefault();
+      const newCurrent = !!isCurrent ? undefined : target;
+      updateCurrent(newCurrent);
+    }, [isCurrent, target]);
+
+    const isOtherCurrent = !!isCurrent ? false : !!current;
 
     const {
       Container,
@@ -44,19 +35,17 @@ class Project extends PureComponent {
       Close,
     } = styles;
 
-    const otherCurrent = this.isOtherCurrent();
-
     return (
       <Container
         current={isCurrent}
-        otherCurrent={otherCurrent}
+        otherCurrent={isOtherCurrent}
       >
         <Tile
           current={isCurrent}
           parentLoading={parentLoading}
           target={target}
-          otherCurrent={otherCurrent}
-          onClick={this.boundHandleTileClick}
+          otherCurrent={isOtherCurrent}
+          onClick={handleTileClick}
         >
           <Image
             current={isCurrent}
@@ -70,11 +59,11 @@ class Project extends PureComponent {
           </TileContent>
           <Close current={isCurrent}>X</Close>
         </Tile>
-        <Content {...this.props} updateCurrent={updateCurrent} showPopup={showPopup} />
+        <Content {...props} updateCurrent={updateCurrent} showPopup={showPopup} />
       </Container>
     );
-  }
-}
+  },
+);
 
 Project.propTypes = {
   updateCurrent: PropTypes.func.isRequired,

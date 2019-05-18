@@ -1,43 +1,37 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import * as styles from './styles';
 
-export default class Image extends PureComponent {
-  constructor() {
-    super();
-    this.boundHandleClick = this.handleClick.bind(this);
-  }
+const Image = (props) => {
+  const {
+    noSiblings,
+    thumbnail,
+    title,
+    url,
+    orientation,
+    showPopup,
+  } = props;
 
-  handleClick(e) {
+  const handleClick = (e) => {
     e.preventDefault();
-    const {
-      title,
-      url,
-      orientation,
-      showPopup,
-    } = this.props;
     showPopup({ title, url, orientation });
-
     ga('send', 'event', 'Media Image Click', title);
-  }
+  };
 
-  render() {
-    const { noSiblings, title, thumbnail } = this.props;
-    const {
-      Container,
-      Frame,
-      Content,
-    } = styles;
+  const {
+    Container,
+    Frame,
+    Content,
+  } = styles;
 
-    return (
-      <Container noSiblings={noSiblings}>
-        <Frame onClick={this.boundHandleClick}>
-          <Content src={thumbnail} alt={title} />
-        </Frame>
-      </Container>
-    );
-  }
-}
+  return (
+    <Container noSiblings={noSiblings}>
+      <Frame onClick={handleClick}>
+        <Content src={thumbnail} alt={title} />
+      </Frame>
+    </Container>
+  );
+};
 
 Image.propTypes = {
   noSiblings: PropTypes.bool,
@@ -47,3 +41,5 @@ Image.propTypes = {
   title: PropTypes.string.isRequired,
   url: PropTypes.string.isRequired,
 };
+
+export default Image;

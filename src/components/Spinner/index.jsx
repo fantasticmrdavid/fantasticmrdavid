@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { memo } from 'react';
 import * as styles from './styles';
 
-export default () => {
+export default memo(() => {
   const { Container, Spinner } = styles;
   return <Container><Spinner /></Container>;
-};
+});

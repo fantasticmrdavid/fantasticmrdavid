@@ -21,7 +21,7 @@ export const Lightbox = styled.div`
   left: 0px;
   width: 100%;
   height: 100%;
-  background: ${transparentize(0.75, theme.colorBlack)};
+  background: ${transparentize(0.3, theme.colorBlack)};
 `;
 
 export const Dialog = styled.div`
