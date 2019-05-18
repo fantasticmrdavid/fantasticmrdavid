@@ -1,20 +1,10 @@
-import React, { PureComponent } from 'react';
+import React, { memo, useCallback } from 'react';
 import PropTypes from 'prop-types';
 import ProjectMediaContainer from 'containers/ProjectMediaContainer';
 import * as styles from './styles';
 
-export default class Content extends PureComponent {
-  constructor() {
-    super();
-    this.boundHandleUrlClick = this.handleUrlClick.bind(this);
-  }
-
-  handleUrlClick() {
-    const { title } = this.props;
-    ga('send', 'event', 'Project URL Click', title);
-  }
-
-  render() {
+const Content = memo(
+  (props) => {
     const {
       title,
       url,
@@ -24,7 +14,9 @@ export default class Content extends PureComponent {
       media,
       isCurrent,
       showPopup,
-    } = this.props;
+    } = props;
+
+    const handleUrlClick = useCallback(() => ga('send', 'event', 'Project URL Click', title), title);
 
     const {
       Container,
@@ -62,7 +54,7 @@ export default class Content extends PureComponent {
           !!url
           && (
             <LinkWrapper>
-              <Link href={url} target="_blank" rel="noopener noreferrer" onClick={this.boundHandleUrlClick}>Visit { title }</Link>
+              <Link href={url} target="_blank" rel="noopener noreferrer" onClick={handleUrlClick}>Visit { title }</Link>
             </LinkWrapper>
           )
         }
@@ -73,8 +65,8 @@ export default class Content extends PureComponent {
         </MediaWrapper>
       </Container>
     );
-  }
-}
+  },
+);
 
 Content.propTypes = {
   showPopup: PropTypes.func,
@@ -86,3 +78,5 @@ Content.propTypes = {
   description: PropTypes.string.isRequired,
   media: PropTypes.array,
 };
+
+export default Content;
