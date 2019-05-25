@@ -1,5 +1,5 @@
 NODE_ENV="production"
-npm install
+npm ci
 npm run build
 mkdir deploy
 cp -R ./public/* ./deploy/
