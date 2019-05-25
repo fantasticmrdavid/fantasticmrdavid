@@ -24,9 +24,6 @@
     "url": "https://github.com/fantasticmrdavid/fantasticmrdavid/issues"
   },
   "homepage": "https://github.com/fantasticmrdavid/fantasticmrdavid#readme",
-  "engines": {
-    "node": "8.9.4"
-  },
   "dependencies": {
     "@babel/core": "7.4.4",
     "@fortawesome/fontawesome-svg-core": "1.2.8",
