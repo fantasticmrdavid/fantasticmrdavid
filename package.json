@@ -24,9 +24,6 @@
     "url": "https://github.com/fantasticmrdavid/fantasticmrdavid/issues"
   },
   "homepage": "https://github.com/fantasticmrdavid/fantasticmrdavid#readme",
-  "engines": {
-    "node": "8.9.4"
-  },
   "dependencies": {
     "@babel/core": "7.4.4",
     "@fortawesome/fontawesome-svg-core": "1.2.8",
@@ -74,7 +71,7 @@
     "react-test-renderer": "16.8.6",
     "webpack": "4.31.0",
     "webpack-cli": "3.3.2",
-    "webpack-bundle-analyzer": "2.13.1",
+    "webpack-bundle-analyzer": "3.3.2",
     "webpack-pwa-manifest": "4.0.0"
   }
 }
