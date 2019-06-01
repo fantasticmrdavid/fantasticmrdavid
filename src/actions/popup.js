@@ -5,7 +5,7 @@ import {
 import { popupLoadingStarted, popupLoadingStopped } from './loading';
 
 export function popupShowed(popup) {
-  return (dispatch) => {
+  return dispatch => {
     dispatch(popupLoadingStarted());
     dispatch({
       type: POPUP_SHOWED,

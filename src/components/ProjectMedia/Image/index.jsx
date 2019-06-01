@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import * as styles from './styles';
 
-const Image = (props) => {
+const Image = props => {
   const {
     noSiblings,
     thumbnail,
@@ -12,7 +12,7 @@ const Image = (props) => {
     showPopup,
   } = props;
 
-  const handleClick = (e) => {
+  const handleClick = e => {
     e.preventDefault();
     showPopup({ title, url, orientation });
     ga('send', 'event', 'Media Image Click', title);

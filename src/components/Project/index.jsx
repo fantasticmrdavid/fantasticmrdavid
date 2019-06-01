@@ -4,7 +4,7 @@ import Content from './Content';
 import * as styles from './styles';
 
 const Project = memo(
-  (props) => {
+  props => {
     const {
       current,
       title,
@@ -17,7 +17,7 @@ const Project = memo(
       showPopup,
     } = props;
 
-    const handleTileClick = useCallback((e) => {
+    const handleTileClick = useCallback(e => {
       e.preventDefault();
       const newCurrent = !!isCurrent ? undefined : target;
       updateCurrent(newCurrent);

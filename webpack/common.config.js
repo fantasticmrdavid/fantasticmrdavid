@@ -18,7 +18,7 @@ module.exports = {
   },
   resolve: {
     modules: [APP_DIR, 'node_modules'],
-    extensions: ['.js', '.jsx'],
+    extensions: ['.ts', '.tsx', '.js', '.jsx'],
     alias: {
       // https://github.com/webpack/webpack/issues/4666
       constants: `${APP_DIR}/constants`,
@@ -27,12 +27,16 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.(ts|tsx)$/,
+        loader: "ts-loader",
+      },
+      {
         test: /\.(js|jsx)$/,
         include: APP_DIR,
         loader: 'babel-loader'
       },
       {
-        test: /\.(js|jsx)$/,
+        test: /\.(ts|tsx|js|jsx)$/,
         enforce: "pre",
         exclude: /node_modules/,
         loader: [

@@ -16,38 +16,38 @@ const initialState = {
 };
 
 const reducers = {
-  [MEDIA_LOADING_STARTED]: (state) => {
+  [MEDIA_LOADING_STARTED]: state => {
     return {
       ...state,
       media: true,
     };
   },
-  [MEDIA_LOADING_STOPPED]: (state) => {
+  [MEDIA_LOADING_STOPPED]: state => {
     return {
       ...state,
       media: false,
       firstLoad: false,
     };
   },
-  [IMAGES_LOADING_STARTED]: (state) => {
+  [IMAGES_LOADING_STARTED]: state => {
     return {
       ...state,
       images: true,
     };
   },
-  [IMAGES_LOADING_STOPPED]: (state) => {
+  [IMAGES_LOADING_STOPPED]: state => {
     return {
       ...state,
       images: false,
     };
   },
-  [POPUP_LOADING_STARTED]: (state) => {
+  [POPUP_LOADING_STARTED]: state => {
     return {
       ...state,
       popup: true,
     };
   },
-  [POPUP_LOADING_STOPPED]: (state) => {
+  [POPUP_LOADING_STOPPED]: state => {
     return {
       ...state,
       popup: false,

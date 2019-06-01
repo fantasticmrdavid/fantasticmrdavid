@@ -4,7 +4,7 @@ import Mobile from './Mobile';
 import Desktop from './Desktop';
 import Image from './Image';
 
-const ProjectMedia = (props) => {
+const ProjectMedia = props => {
   const { type, platform = null } = props;
 
   if (platform === 'mobile') return <Mobile {...props} />;

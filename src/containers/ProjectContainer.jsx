@@ -14,12 +14,12 @@ const mapStateToProps = (state, ownProps) => {
   };
 };
 
-const mapDispatchToProps = (dispatch) => {
+const mapDispatchToProps = dispatch => {
   return {
-    updateCurrent: (target) => {
+    updateCurrent: target => {
       dispatch(workMediaLocationUpdated(target));
     },
-    showPopup: (popup) => {
+    showPopup: popup => {
       dispatch(popupShowed(popup));
     },
   };

@@ -36,16 +36,16 @@ class Home extends PureComponent {
   }
 }
 
-const mapStateToProps = (state) => {
+const mapStateToProps = state => {
   return {
     image: state.homeMedia.image,
     loading: state.loading.media,
   };
 };
 
-const mapDispatchToProps = (dispatch) => {
+const mapDispatchToProps = dispatch => {
   return {
-    updateImage: (image) => {
+    updateImage: image => {
       dispatch(homeMediaImageUpdated(image));
     },
     stopLoading: () => {

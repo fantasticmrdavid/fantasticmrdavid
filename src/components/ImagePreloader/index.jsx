@@ -29,7 +29,7 @@ const ImagePreloader = memo(
       completedCount: 0,
       completed: false,
     });
-    const initImage = useCallback((src) => {
+    const initImage = useCallback(src => {
       const image = new Image();
 
       image.onload = () => {

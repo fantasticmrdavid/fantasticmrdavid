@@ -12,7 +12,7 @@ const Redbubble = () => {
   );
 };
 
-const Icon = (props) => {
+const Icon = props => {
   const { className, icon } = props;
 
   if (icon === 'redbubble') return <Redbubble />;

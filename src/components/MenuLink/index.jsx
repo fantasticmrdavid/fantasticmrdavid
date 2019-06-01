@@ -4,7 +4,7 @@ import * as styles from './styles';
 import LocationContent from './LocationContent';
 
 const MenuLink = memo(
-  (props) => {
+  props => {
     const {
       label,
       target,
@@ -13,7 +13,7 @@ const MenuLink = memo(
       updateLocation,
     } = props;
 
-    const handleNavClick = (e) => {
+    const handleNavClick = e => {
       e.preventDefault();
       e.stopPropagation();
       updateLocation(current ? 'home' : target);

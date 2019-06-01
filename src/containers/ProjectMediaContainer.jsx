@@ -4,7 +4,7 @@ import ProjectMedia from 'components/ProjectMedia';
 
 const ProjectMediaContainer = props => <ProjectMedia {...props} />;
 
-const mapStateToProps = (state) => {
+const mapStateToProps = state => {
   return {
     loading: state.loading.media,
   };

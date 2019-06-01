@@ -13,9 +13,9 @@ const mapStateToProps = (state, ownProps) => {
   };
 };
 
-const mapDispatchToProps = (dispatch) => {
+const mapDispatchToProps = dispatch => {
   return {
-    updateLocation: (target) => {
+    updateLocation: target => {
       dispatch(locationUpdated(target));
     },
   };

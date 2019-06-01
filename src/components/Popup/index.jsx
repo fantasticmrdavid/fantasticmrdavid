@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import * as styles from './styles';
 
 const Popup = memo(
-  (props) => {
+  props => {
     const {
       active,
       close,
@@ -13,7 +13,7 @@ const Popup = memo(
       url,
     } = props;
 
-    const handleClose = (e) => {
+    const handleClose = e => {
       e.preventDefault();
       close(e);
     };

@@ -11,7 +11,7 @@ export const Container = styled.div`
   overflow: ${props => (props.otherCurrent ? 'hidden' : undefined)};
   width: 100%;
   height: ${props => (props.current ? '100%' : undefined)};
-  max-height: ${(props) => {
+  max-height: ${props => {
     const { current, otherCurrent } = props;
     if (otherCurrent) return '0px';
     if (current) return 'none';
@@ -27,7 +27,7 @@ export const Tile = styled.a`
   top: 0px;
   right: ${props => (props.current ? '0px' : '-20px')};
   background-color: ${theme.colorCharcoal};
-  background-position-y: ${(props) => {
+  background-position-y: ${props => {
     const { current, target } = props;
     if (current) {
       if (target === 'sitepoint') return 'top';
@@ -38,7 +38,7 @@ export const Tile = styled.a`
   border: ${`2px solid ${theme.colorBlack}`};
   box-shadow: ${theme.dropShadow};
   transition: 0.5s;
-  transform: ${(props) => {
+  transform: ${props => {
     const { current, parentLoading } = props;
     if (current && !parentLoading) return 'rotateY(0deg)';
     if (!parentLoading) return 'rotateY(20deg)';

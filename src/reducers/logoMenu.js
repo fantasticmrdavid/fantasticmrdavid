@@ -6,13 +6,13 @@ const initialState = {
 };
 
 const reducers = {
-  [LOGO_MENU_ACTIVATED]: (state) => {
+  [LOGO_MENU_ACTIVATED]: state => {
     return {
       ...state,
       active: true,
     };
   },
-  [LOGO_MENU_DEACTIVATED]: (state) => {
+  [LOGO_MENU_DEACTIVATED]: state => {
     return {
       ...state,
       active: false,

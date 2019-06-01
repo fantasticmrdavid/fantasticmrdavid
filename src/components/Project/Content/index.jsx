@@ -4,7 +4,7 @@ import ProjectMediaContainer from 'containers/ProjectMediaContainer';
 import * as styles from './styles';
 
 const Content = memo(
-  (props) => {
+  props => {
     const {
       title,
       url,

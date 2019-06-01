@@ -23,7 +23,7 @@ const LogoMenu = ({ active, toggleActive }) => {
       <Title>Fantastic Mr David</Title>
 
       <Nav active={active}>
-        { menu.map((item) => { return <MenuLinkContainer {...item} menuActive={!!active} key={`MenuLink_${item.target}`} />; }) }
+        { menu.map(item => { return <MenuLinkContainer {...item} menuActive={!!active} key={`MenuLink_${item.target}`} />; }) }
       </Nav>
 
       <Subtitle active={active}>

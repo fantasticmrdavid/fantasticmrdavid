@@ -17,9 +17,9 @@ class WorkMedia extends PureComponent {
   getImages() {
     let images = [];
 
-    projects.map((p) => {
+    projects.map(p => {
       if (!!p.images) {
-        const newImages = Object.keys(p.images).map((key) => { return p.images[key]; });
+        const newImages = Object.keys(p.images).map(key => { return p.images[key]; });
         images = [...images, ...newImages];
       }
 
@@ -49,7 +49,7 @@ class WorkMedia extends PureComponent {
 
         <ProjectListContainer loading={loading}>
           {
-            projects.map((p) => { return <ProjectContainer {...p} key={`Project_${p.target}`} />; })
+            projects.map(p => { return <ProjectContainer {...p} key={`Project_${p.target}`} />; })
           }
         </ProjectListContainer>
       </Container>
@@ -58,14 +58,14 @@ class WorkMedia extends PureComponent {
 }
 
 
-const mapStateToProps = (state) => {
+const mapStateToProps = state => {
   return {
     loading: state.loading.media || state.loading.images,
     current: state.workMedia.location,
   };
 };
 
-const mapDispatchToProps = (dispatch) => {
+const mapDispatchToProps = dispatch => {
   return {
     startImagesLoading: () => {
       dispatch(imagesLoadingStarted());

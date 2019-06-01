@@ -5,15 +5,15 @@ import { logoMenuActivated, logoMenuDeactivated } from 'actions';
 
 const LogoMenuContainer = props => <LogoMenu {...props} />;
 
-const mapStateToProps = (state) => {
+const mapStateToProps = state => {
   return {
     active: state.logoMenu.active,
   };
 };
 
-const mapDispatchToProps = (dispatch) => {
+const mapDispatchToProps = dispatch => {
   return {
-    toggleActive: (active) => {
+    toggleActive: active => {
       return !!active ? dispatch(logoMenuDeactivated()) : dispatch(logoMenuActivated());
     },
   };

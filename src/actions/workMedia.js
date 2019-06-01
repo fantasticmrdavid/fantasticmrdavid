@@ -4,7 +4,7 @@ import {
 import { mediaLoadingStarted, mediaLoadingStopped } from './loading';
 
 export function workMediaLocationUpdated(newLocation) {
-  return (dispatch) => {
+  return dispatch => {
     dispatch(mediaLoadingStarted());
     dispatch({
       type: WORK_MEDIA_LOCATION_UPDATED,

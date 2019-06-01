@@ -6,7 +6,7 @@ import Popup from 'components/Popup';
 
 const PopupContainer = props => <Popup {...props} />;
 
-const mapStateToProps = (state) => {
+const mapStateToProps = state => {
   return {
     ...state.popup,
     active: state.popup.active,
@@ -14,7 +14,7 @@ const mapStateToProps = (state) => {
   };
 };
 
-const mapDispatchToProps = (dispatch) => {
+const mapDispatchToProps = dispatch => {
   return { close: () => dispatch(popupHidden()) };
 };
 

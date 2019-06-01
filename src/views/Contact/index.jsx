@@ -28,7 +28,7 @@ export default class extends PureComponent {
             <a href="mailto:fantasticmrdavid@gmail.com"><TerminalText blinker>fantasticmrdavid@gmail.com</TerminalText></a>
           </Email>
           <Social>
-            { socialLinks.map((l) => {
+            { socialLinks.map(l => {
               return <SocialLink {...l} key={`SocialLink_${l.title}`} />;
             })
             }

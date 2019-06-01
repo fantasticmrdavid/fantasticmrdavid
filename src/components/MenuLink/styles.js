@@ -24,7 +24,7 @@ export const Label = styled.div`
   font-size: ${props => (props.current ? '2rem' : undefined)};
   font-weight: ${props => (props.current ? 600 : undefined)};
   cursor: pointer;
-  background-color: ${(props) => {
+  background-color: ${props => {
     const { current, target } = props;
     if (current) {
       if (target === 'about') return colorAbout;
@@ -53,7 +53,7 @@ export const Label = styled.div`
       &:before {
         width: ${props => (props.current ? '0px' : '15px')};
         background-color: ${/* eslint-disable */
-          (props) => {
+          props => {
           const { current, target } = props;
           if (!current) {
             if (target === 'about') return colorAbout;

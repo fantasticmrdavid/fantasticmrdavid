@@ -6,7 +6,7 @@ import View from 'components/View';
 
 const ViewContainer = props => <View {...props} />;
 
-const mapStateToProps = (state) => {
+const mapStateToProps = state => {
   return {
     location: state.location.current,
     loading: state.loading.media,
@@ -17,7 +17,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch, ownProps) => {
   return {
-    updateLocation: (newLocation) => {
+    updateLocation: newLocation => {
       const { location } = ownProps;
       const updatedLocation = location !== newLocation ? newLocation : 'home';
 

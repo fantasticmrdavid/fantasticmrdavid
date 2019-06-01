@@ -13,7 +13,7 @@ const reducers = {
       active: true,
     };
   },
-  [POPUP_HIDDEN]: (state) => {
+  [POPUP_HIDDEN]: state => {
     return {
       ...state,
       title: undefined,
