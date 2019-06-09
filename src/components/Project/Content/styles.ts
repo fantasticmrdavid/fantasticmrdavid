@@ -3,7 +3,11 @@ import theme from 'styles/theme';
 import { media } from 'styles/utils';
 import ComponentLink from 'components/Link';
 
-export const Container = styled.div`
+interface ContainerProps {
+  current: boolean,
+}
+
+export const Container = styled.div<ContainerProps>`
   display: flex;
   flex-direction: column;
   font-size: 0.9rem;

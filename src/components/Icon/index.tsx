@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Redbubble = () => {
@@ -12,19 +11,14 @@ const Redbubble = () => {
   );
 };
 
-const Icon = props => {
+export interface Props {
+  className?: string,
+  icon: string | any,
+}
+
+export default (props: Props) => {
   const { className, icon } = props;
 
   if (icon === 'redbubble') return <Redbubble />;
   return <FontAwesomeIcon icon={icon} className={className} />;
 };
-
-Icon.propTypes = {
-  className: PropTypes.string,
-  icon: PropTypes.oneOfType([
-    PropTypes.string,
-    PropTypes.object,
-  ]).isRequired,
-};
-
-export default Icon;

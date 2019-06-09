@@ -2,6 +2,18 @@ import styled from 'styled-components';
 import theme from 'styles/theme';
 import { media } from 'styles/utils';
 
+interface MediaProps {
+  location: string,
+}
+
+interface ShutterProps {
+  firstMediaLoading: boolean,
+}
+
+interface MediaLoadingMessageProps {
+  firstMediaLoading: boolean,
+}
+
 export const Container = styled.div`
   display: block;
   justify-content: center;
@@ -32,7 +44,7 @@ export const Control = styled.section`
   `};
 `;
 
-export const Media = styled.section`
+export const Media = styled.section<MediaProps>`
   position: relative;
   display: flex;
   width: 100%;
@@ -43,7 +55,7 @@ export const Media = styled.section`
   `}
 `;
 
-const Shutter = styled.div`
+const Shutter = styled.div<ShutterProps>`
   position: absolute;
   right: 0px;
   z-index: 16;
@@ -61,7 +73,7 @@ export const ShutterBottom = styled(Shutter)`
   bottom: 0px;
 `;
 
-export const MediaLoadingMessage = styled.div`
+export const MediaLoadingMessage = styled.div<MediaLoadingMessageProps>`
   display: ${props => (props.firstMediaLoading ? 'flex' : 'none')};
   position: absolute;
   width: 100%;

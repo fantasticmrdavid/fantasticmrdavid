@@ -1,8 +1,11 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import * as styles from './styles';
 
-const Cube = ({ loading }) => {
+interface Props {
+  loading: boolean,
+}
+
+export default ({ loading }: Props) => {
   const {
     Container,
     Polygon,
@@ -27,9 +30,3 @@ const Cube = ({ loading }) => {
     </Container>
   );
 };
-
-Cube.propTypes = {
-  loading: PropTypes.bool,
-};
-
-export default Cube;

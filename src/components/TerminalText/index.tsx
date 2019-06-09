@@ -1,17 +1,41 @@
-import React, { PureComponent, Fragment } from 'react';
-import PropTypes from 'prop-types';
+import React, { Fragment, PureComponent, ReactElement } from 'react';
 import Blinker from 'components/Blinker';
 
 const LETTER_INTERVAL = 30;
 const COMPLETE_DELAY_INTERVAL = 2000;
 
-class TerminalText extends PureComponent {
-  constructor(props) {
+interface Props {
+  children?: string | undefined,
+  blinker: boolean,
+  onComplete: (...args: any[]) => any,
+  speed: number,
+}
+
+type State = {
+  text: ReactElement,
+  index: number,
+  letters: string[],
+  currentLine: string,
+  complete: boolean,
+  paused: boolean,
+}
+
+class TerminalText extends PureComponent<Props, State> {
+  boundAddChar: () => void;
+
+  boundPauseTypewriter: () => void;
+
+  boundStartTypewriter: () => void;
+
+  typewriter: number | undefined;
+
+  constructor(props: Props) {
     super(props);
+    const { children } = props;
     this.state = {
       text: <Fragment />,
       index: 0,
-      letters: props.children.split(''),
+      letters: children ? children.split('') : [],
       currentLine: '',
       complete: false,
       paused: false,
@@ -23,13 +47,8 @@ class TerminalText extends PureComponent {
     this.boundStartTypewriter();
   }
 
-  componentDidMount() {
-    this._isMounted = true;
-  }
-
   componentWillUnmount() {
     this.boundPauseTypewriter();
-    this._isMounted = false;
   }
 
   addChar() {
@@ -55,14 +74,15 @@ class TerminalText extends PureComponent {
 
     const nextChar = letters[index];
 
-    return this.setState(index < letters.length
-      ? {
+    if (index < letters.length) {
+      this.setState({
         text: nextChar === '\n' ? <Fragment>{text}{currentLine}<br /></Fragment> : <Fragment>{text}</Fragment>,
         currentLine: nextChar === '\n' ? '' : `${currentLine}${nextChar}`,
         index: index + 1,
-      } : {
-        complete: true,
       });
+    } else {
+      this.setState({ complete: true });
+    }
   }
 
   pauseTypewriter() {
@@ -73,7 +93,7 @@ class TerminalText extends PureComponent {
   startTypewriter() {
     const { speed } = this.props;
     const { paused } = this.state;
-    this.typewriter = setInterval(() => {
+    this.typewriter = window.setInterval(() => {
       this.boundAddChar();
     }, speed || LETTER_INTERVAL);
     if (paused) this.setState({ paused: false });
@@ -81,9 +101,7 @@ class TerminalText extends PureComponent {
 
   render() {
     const {
-      complete,
       currentLine,
-      paused,
       text,
     } = this.state;
     const { blinker } = this.props;
@@ -91,17 +109,10 @@ class TerminalText extends PureComponent {
     return (
       <Fragment>
         {text}{currentLine}
-        {blinker && <Blinker solid={!complete && !paused} />}
+        {blinker && <Blinker />}
       </Fragment>
     );
   }
 }
-
-TerminalText.propTypes = {
-  children: PropTypes.node.isRequired,
-  blinker: PropTypes.bool,
-  onComplete: PropTypes.func,
-  speed: PropTypes.number,
-};
 
 export default TerminalText;

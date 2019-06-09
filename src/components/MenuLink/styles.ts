@@ -6,6 +6,12 @@ const colorAbout = '#3fa44e';
 const colorWork = '#967fd1';
 const colorContact = '#cc750c';
 
+interface LabelProps {
+  current: boolean,
+  menuActive: boolean,
+  target: string,
+}
+
 export const Container = styled.div`
   display: block;
   position: relative;
@@ -16,7 +22,7 @@ export const Container = styled.div`
   }
 `;
 
-export const Label = styled.div`
+export const Label = styled.div<LabelProps>`
   position: relative;
   padding: ${props => (props.menuActive ? '0.75rem 2rem' : '0.75rem 0')};
   transition: 0.5s;
@@ -47,13 +53,13 @@ export const Label = styled.div`
 
   ${media.medium`
     &:hover {
-      padding-left: ${props => (!props.current ? '60px' : undefined)};
-      background-color: ${props => (!props.current ? theme.colorDarkGrey : undefined)};
+      padding-left: ${(props: { current: boolean }) => (!props.current ? '60px' : undefined)};
+      background-color: ${(props: { current: boolean }) => (!props.current ? theme.colorDarkGrey : undefined)};
 
       &:before {
-        width: ${props => (props.current ? '0px' : '15px')};
+        width: ${(props: { current: boolean }) => (props.current ? '0px' : '15px')};
         background-color: ${/* eslint-disable */
-          props => {
+          (props: { current: boolean, target: string }) => {
           const { current, target } = props;
           if (!current) {
             if (target === 'about') return colorAbout;

@@ -1,5 +1,9 @@
 import styled, { css, keyframes } from 'styled-components';
 
+interface ContainerProps {
+  loading: boolean,
+}
+
 const spin = keyframes`
   from { transform: rotateX(15deg) rotateY(15deg); }
   to { transform: rotateX(-60deg) rotateY(60deg); }
@@ -12,7 +16,7 @@ export const Container = styled.div`
   perspective: 800px;
   perspective-origin: 50% 150px;
   transition: 0.5s;
-  transform: ${css`scale(${props => (props.loading ? 8 : 2)})`};
+  transform: ${css`scale(${(props: ContainerProps) => (props.loading ? 8 : 2)})`};
 `;
 
 export const Polygon = styled.div`

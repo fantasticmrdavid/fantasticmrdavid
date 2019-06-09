@@ -24,7 +24,7 @@ const config = merge(common, {
   devtool: 'inline-source-map',
   plugins: [
     new BundleAnalyzerPlugin({
-        analyzerMode: 'static'
+        openAnalyzer: false,
     }),
   ],
 });

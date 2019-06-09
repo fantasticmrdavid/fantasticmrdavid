@@ -1,9 +1,17 @@
-import React, { memo } from 'react';
-import PropTypes from 'prop-types';
+import React, { memo, SyntheticEvent } from 'react';
 import * as styles from './styles';
 
-const Popup = memo(
-  props => {
+interface Props {
+  active: boolean,
+  close: (...args: any[]) => any,
+  loading: boolean,
+  orientation: string,
+  title: string,
+  url: string,
+}
+
+export default memo(
+  (props: Props) => {
     const {
       active,
       close,
@@ -13,7 +21,7 @@ const Popup = memo(
       url,
     } = props;
 
-    const handleClose = e => {
+    const handleClose = (e: SyntheticEvent) => {
       e.preventDefault();
       close(e);
     };
@@ -40,14 +48,3 @@ const Popup = memo(
     );
   },
 );
-
-Popup.propTypes = {
-  close: PropTypes.func.isRequired,
-  title: PropTypes.string,
-  url: PropTypes.string,
-  orientation: PropTypes.string,
-  active: PropTypes.bool,
-  loading: PropTypes.bool,
-};
-
-export default Popup;

@@ -1,10 +1,17 @@
-import React, { memo } from 'react';
-import PropTypes from 'prop-types';
+import React, { memo, SyntheticEvent } from 'react';
 import * as styles from './styles';
 import LocationContent from './LocationContent';
 
-const MenuLink = memo(
-  props => {
+interface Props {
+  updateLocation: (...args: any[]) => any,
+  target: string,
+  current: boolean,
+  menuActive: boolean,
+  label: string,
+}
+
+export default memo(
+  (props: Props) => {
     const {
       label,
       target,
@@ -13,7 +20,7 @@ const MenuLink = memo(
       updateLocation,
     } = props;
 
-    const handleNavClick = e => {
+    const handleNavClick = (e:SyntheticEvent) => {
       e.preventDefault();
       e.stopPropagation();
       updateLocation(current ? 'home' : target);
@@ -39,13 +46,3 @@ const MenuLink = memo(
     );
   },
 );
-
-MenuLink.propTypes = {
-  updateLocation: PropTypes.func.isRequired,
-  target: PropTypes.string.isRequired,
-  current: PropTypes.bool,
-  menuActive: PropTypes.bool,
-  label: PropTypes.string,
-};
-
-export default MenuLink;

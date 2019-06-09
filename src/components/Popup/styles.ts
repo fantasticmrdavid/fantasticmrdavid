@@ -3,7 +3,12 @@ import { transparentize } from 'polished';
 import theme from 'styles/theme';
 import { media } from 'styles/utils';
 
-export const Container = styled.div`
+interface ContainerProps {
+  loading: boolean,
+  active: boolean,
+}
+
+export const Container = styled.div<ContainerProps>`
   position: fixed;
   width: 100%;
   height: 100%;

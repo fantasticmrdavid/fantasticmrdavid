@@ -1,12 +1,16 @@
 import React, { memo } from 'react';
-import PropTypes from 'prop-types';
 import About from './About';
 import Work from './Work';
 import Contact from './Contact';
 import * as styles from './styles';
 
-const LocationContent = memo(
-  ({ location, current }) => {
+interface Props {
+  current: boolean,
+  location: string,
+}
+
+export default memo(
+  ({ location, current }: Props) => {
     const { Content } = styles;
 
     if (!location) return null;
@@ -20,10 +24,3 @@ const LocationContent = memo(
     );
   },
 );
-
-LocationContent.propTypes = {
-  location: PropTypes.string.isRequired,
-  current: PropTypes.bool,
-};
-
-export default LocationContent;

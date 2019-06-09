@@ -1,8 +1,18 @@
-import React from 'react';
+import React, { SyntheticEvent } from 'react';
 import PropTypes from 'prop-types';
+import ReactGA from 'react-ga';
 import * as styles from './styles';
 
-const Image = props => {
+export interface Props {
+  noSiblings: boolean,
+  orientation: string,
+  showPopup: (...args: any[]) => any,
+  title: string,
+  thumbnail: string,
+  url?: string | undefined,
+}
+
+const Image = (props: Props) => {
   const {
     noSiblings,
     thumbnail,
@@ -12,10 +22,14 @@ const Image = props => {
     showPopup,
   } = props;
 
-  const handleClick = e => {
+  const handleClick = (e: SyntheticEvent) => {
     e.preventDefault();
     showPopup({ title, url, orientation });
-    ga('send', 'event', 'Media Image Click', title);
+    ReactGA.event({
+      category: 'Project',
+      action: 'Media Image Clicked',
+      label: title,
+    });
   };
 
   const {

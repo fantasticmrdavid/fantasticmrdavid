@@ -1,10 +1,23 @@
 import React, { memo, useCallback } from 'react';
-import PropTypes from 'prop-types';
+import ReactGA from 'react-ga';
 import ProjectMediaContainer from 'containers/ProjectMediaContainer';
 import * as styles from './styles';
 
-const Content = memo(
-  props => {
+interface Props {
+  title: string,
+  url?: string,
+  products: string,
+  technologies: string,
+  description: string,
+  media?: {
+    slug: string,
+  }[],
+  isCurrent: boolean,
+  showPopup: (...args: any[]) => any,
+}
+
+export default memo(
+  (props: Props) => {
     const {
       title,
       url,
@@ -16,7 +29,11 @@ const Content = memo(
       showPopup,
     } = props;
 
-    const handleUrlClick = useCallback(() => ga('send', 'event', 'Project URL Click', title), title);
+    const handleUrlClick = useCallback(() => ReactGA.event({
+      category: 'Project',
+      action: 'Project URL Click',
+      label: title,
+    }), [title]);
 
     const {
       Container,
@@ -60,23 +77,12 @@ const Content = memo(
         }
         <MediaWrapper>
           {
-            !!media && media.map(m => <ProjectMediaContainer {...m} showPopup={showPopup} noSiblings={media.length === 1} key={`ProjectMedia_${m.slug}`} />)
+            !!media && media.map(m => (
+              <ProjectMediaContainer {...m} showPopup={showPopup} noSiblings={media.length === 1} key={`ProjectMedia_${m.slug}`} />
+            ))
           }
         </MediaWrapper>
       </Container>
     );
   },
 );
-
-Content.propTypes = {
-  showPopup: PropTypes.func,
-  isCurrent: PropTypes.bool,
-  title: PropTypes.string.isRequired,
-  url: PropTypes.string,
-  products: PropTypes.string,
-  technologies: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  media: PropTypes.array,
-};
-
-export default Content;

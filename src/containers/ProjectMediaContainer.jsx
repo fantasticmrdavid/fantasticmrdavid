@@ -1,8 +1,5 @@
-import React from 'react';
 import { connect } from 'react-redux';
 import ProjectMedia from 'components/ProjectMedia';
-
-const ProjectMediaContainer = props => <ProjectMedia {...props} />;
 
 const mapStateToProps = state => {
   return {
@@ -10,6 +7,4 @@ const mapStateToProps = state => {
   };
 };
 
-export default connect(
-  mapStateToProps,
-)(ProjectMediaContainer);
+export default connect(mapStateToProps)(ProjectMedia);

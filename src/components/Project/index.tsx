@@ -1,10 +1,27 @@
 import React, { memo, useCallback } from 'react';
-import PropTypes from 'prop-types';
 import Content from './Content';
 import * as styles from './styles';
 
-const Project = memo(
-  props => {
+interface Props {
+  current: string,
+  description: string,
+  products: string,
+  title: string,
+  tagline: string,
+  target: string,
+  technologies: string,
+  images: {
+    tileOn: string,
+    tileOff: string,
+  },
+  parentLoading: boolean,
+  isCurrent: boolean,
+  updateCurrent: (target: string | undefined) => void,
+  showPopup: (...args: any[]) => any,
+}
+
+export default memo(
+  (props: Props) => {
     const {
       current,
       title,
@@ -59,22 +76,8 @@ const Project = memo(
           </TileContent>
           <Close current={isCurrent}>X</Close>
         </Tile>
-        <Content {...props} updateCurrent={updateCurrent} showPopup={showPopup} />
+        <Content {...props} showPopup={showPopup} />
       </Container>
     );
   },
 );
-
-Project.propTypes = {
-  updateCurrent: PropTypes.func.isRequired,
-  showPopup: PropTypes.func,
-  parentLoading: PropTypes.bool,
-  isCurrent: PropTypes.bool,
-  current: PropTypes.string,
-  target: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-  tagline: PropTypes.string.isRequired,
-  images: PropTypes.object,
-};
-
-export default Project;

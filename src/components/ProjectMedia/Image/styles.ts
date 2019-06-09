@@ -2,7 +2,11 @@ import styled from 'styled-components';
 import theme from 'styles/theme';
 import Stroke from '../Stroke';
 
-export const Container = styled.div`
+interface ContainerProps {
+  noSiblings: boolean,
+}
+
+export const Container = styled.div<ContainerProps>`
   position: relative;
   align-self: ${props => (props.noSiblings ? 'auto' : 'center')};
 `;

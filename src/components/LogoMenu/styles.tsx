@@ -1,9 +1,30 @@
+import React from 'react';
 import styled from 'styled-components';
 import theme from 'styles/theme';
 import { media } from 'styles/utils';
-import IconComponent from 'components/Icon';
+import IconComponent, { Props as IconComponentProps } from 'components/Icon';
 
-export const Container = styled.nav`
+interface ContainerProps {
+  active: boolean,
+}
+
+interface CtaProps {
+  active: boolean,
+}
+
+interface NavProps {
+  active: boolean,
+}
+
+interface SubtitleProps {
+  active: boolean,
+}
+
+interface IconProps {
+  active?: boolean,
+}
+
+export const Container = styled.nav<ContainerProps>`
   position: relative;
   font-family: ${theme.fontHeading};
   display: flex;
@@ -29,7 +50,7 @@ export const Title = styled.h1`
   `};
 `;
 
-export const Cta = styled.a`
+export const Cta = styled.a<CtaProps>`
   position: absolute;
   display: ${props => (props.active ? 'none' : 'flex')};
   justify-content: center;
@@ -57,7 +78,7 @@ export const Cta = styled.a`
   `};
 `;
 
-export const Nav = styled.nav`
+export const Nav = styled.nav<NavProps>`
   flex-wrap: wrap;
   font-size: 1.5rem;
   width: 100%;
@@ -71,7 +92,7 @@ export const Nav = styled.nav`
   border-bottom: ${props => (props.active ? '1px solid #333' : undefined)};
 `;
 
-export const Subtitle = styled.div`
+export const Subtitle = styled.div<SubtitleProps>`
   display: ${props => (props.active ? 'none' : 'flex')};
   position: relative;
   font-size: 1rem;
@@ -84,7 +105,7 @@ export const Subtitle = styled.div`
   `};
 `;
 
-export const Icon = styled(IconComponent)`
+export const Icon = styled(({ active, ...rest }: IconProps & IconComponentProps) => <IconComponent {...rest} />)`
   position: relative;
   transition: 0.6s;
   transform: ${props => (props.active ? 'rotate(150deg)' : undefined)};

@@ -4,15 +4,23 @@ import React, {
   useEffect,
   useReducer,
 } from 'react';
-import PropTypes from 'prop-types';
 import * as styles from './styles';
 
-const reducer = (state, action) => {
+type State = {
+  completed: boolean,
+  completedCount: number,
+}
+
+type Action = {
+  type: string,
+}
+
+const reducer = (state: State, action: Action) => {
   switch (action.type) {
     case 'incrementCompleted':
       return {
         ...state,
-        completedCount: parseInt(state.completedCount, 10) + 1,
+        completedCount: state.completedCount + 1,
       };
     case 'completeLoading':
       return {
@@ -23,8 +31,13 @@ const reducer = (state, action) => {
   }
 };
 
-const ImagePreloader = memo(
-  ({ images, completedAction }) => {
+interface Props {
+  images: string[],
+  completedAction?: (...args: any[]) => any,
+}
+
+export default memo(
+  ({ images, completedAction }: Props) => {
     const [state, dispatch] = useReducer(reducer, {
       completedCount: 0,
       completed: false,
@@ -41,7 +54,7 @@ const ImagePreloader = memo(
     images.map(i => useEffect(() => initImage(i), [i]));
 
     if (!state.completed && state.completedCount === images.length) {
-      completedAction();
+      if (completedAction) completedAction();
       dispatch({ type: 'completeLoading' });
     }
 
@@ -53,10 +66,3 @@ const ImagePreloader = memo(
     );
   },
 );
-
-ImagePreloader.propTypes = {
-  images: PropTypes.array.isRequired,
-  completedAction: PropTypes.func,
-};
-
-export default ImagePreloader;

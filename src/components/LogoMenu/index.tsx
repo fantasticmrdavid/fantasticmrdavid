@@ -1,12 +1,16 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { faAngleDown, faCog } from '@fortawesome/free-solid-svg-icons';
 import Blinker from 'components/Blinker';
 import MenuLinkContainer from 'containers/MenuLinkContainer';
 import menu from './menu';
 import * as styles from './styles';
 
-const LogoMenu = ({ active, toggleActive }) => {
+interface Props {
+  active: boolean,
+  toggleActive: (...args: any[]) => any,
+}
+
+export default ({ active, toggleActive }: Props) => {
   const handleClick = () => toggleActive(active);
   const {
     Container,
@@ -37,10 +41,3 @@ const LogoMenu = ({ active, toggleActive }) => {
     </Container>
   );
 };
-
-LogoMenu.propTypes = {
-  toggleActive: PropTypes.func.isRequired,
-  active: PropTypes.bool,
-};
-
-export default LogoMenu;

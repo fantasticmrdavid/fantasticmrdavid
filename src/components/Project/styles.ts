@@ -2,7 +2,33 @@ import styled from 'styled-components';
 import theme from 'styles/theme';
 import { media } from 'styles/utils';
 
-export const Container = styled.div`
+interface ContainerProps {
+  otherCurrent: boolean,
+  current: boolean,
+}
+
+interface TileProps {
+  otherCurrent: boolean,
+  current: boolean,
+  parentLoading: boolean,
+}
+
+interface ImageProps {
+  current: boolean,
+  srcOn: string,
+  srcOff: string,
+  target: string,
+}
+
+interface TileContentProps {
+  current: boolean,
+}
+
+interface CloseProps {
+  current: boolean,
+}
+
+export const Container = styled.div<ContainerProps>`
   position: relative;
   box-sizing: border-box;
   display: flex;
@@ -19,7 +45,7 @@ export const Container = styled.div`
   }}
 `;
 
-export const Tile = styled.a`
+export const Tile = styled.a<TileProps>`
   position: absolute;
   box-sizing: border-box;
   width: 100%;
@@ -59,7 +85,7 @@ export const Tile = styled.a`
   }
 `;
 
-export const Image = styled.div`
+export const Image = styled.div<ImageProps>`
   position: absolute;
   background-image: ${props => (props.current ? `url(${props.srcOn})` : `url(${props.srcOff})`)};
   background-size: cover;
@@ -76,7 +102,7 @@ export const Image = styled.div`
   }
 `;
 
-export const TileContent = styled.div`
+export const TileContent = styled.div<TileContentProps>`
   position: absolute;
   width: ${props => (props.current ? '100%' : undefined)};
   bottom: ${props => (props.current ? '-3.85rem' : '0px')};
@@ -108,7 +134,7 @@ export const Tagline = styled.div`
   text-transform: capitalize;
 `;
 
-export const Close = styled.div`
+export const Close = styled.div<CloseProps>`
   position: absolute;
   bottom: -35px;
   right: 1em;

@@ -1,9 +1,19 @@
 import React, { useCallback } from 'react';
-import PropTypes from 'prop-types';
+import ReactGA from 'react-ga';
 import * as styles from './styles';
 
-const Mobile = ({ title, thumbnail, url }) => {
-  const handleClick = useCallback(() => ga('send', 'event', 'Media Mobile Website click', title), [title]);
+export interface Props {
+  title: string,
+  thumbnail: string,
+  url?: string | undefined,
+}
+
+export default ({ title, thumbnail, url }: Props) => {
+  const handleClick = useCallback(() => ReactGA.event({
+    category: 'Project',
+    action: 'Media Mobile Website click',
+    label: title,
+  }), [title]);
 
   const {
     OuterFrame,
@@ -27,11 +37,3 @@ const Mobile = ({ title, thumbnail, url }) => {
     </OuterFrame>
   );
 };
-
-Mobile.propTypes = {
-  title: PropTypes.string.isRequired,
-  thumbnail: PropTypes.string.isRequired,
-  url: PropTypes.string,
-};
-
-export default Mobile;

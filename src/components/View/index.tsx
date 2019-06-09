@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import PropTypes from 'prop-types';
 import PopupContainer from 'containers/PopupContainer';
 import LogoMenuContainer from 'containers/LogoMenuContainer';
 import Home from 'views/Home';
@@ -9,7 +8,13 @@ import Contact from 'views/Contact';
 import GlobalStyles from 'styles/global';
 import * as styles from './styles';
 
-const View = ({ location, loading, firstLoad }) => {
+interface Props {
+  location: string,
+  loading: boolean,
+  firstLoad: boolean,
+}
+
+export default ({ location, loading, firstLoad }: Props) => {
   const {
     Container,
     Control,
@@ -41,11 +46,3 @@ const View = ({ location, loading, firstLoad }) => {
     </Fragment>
   );
 };
-
-View.propTypes = {
-  location: PropTypes.string.isRequired,
-  loading: PropTypes.bool,
-  firstLoad: PropTypes.bool,
-};
-
-export default View;

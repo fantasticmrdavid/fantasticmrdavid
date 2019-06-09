@@ -2,7 +2,11 @@ import styled from 'styled-components';
 import theme from 'styles/theme';
 import { media } from 'styles/utils';
 
-export const Content = styled.div`
+interface ContentProps {
+  current: boolean,
+}
+
+export const Content = styled.div<ContentProps>`
   display: none;
   font-size: 1.1rem;
   font-weight: 300;
