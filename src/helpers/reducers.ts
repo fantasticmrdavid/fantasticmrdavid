@@ -1,5 +1,5 @@
-export const createReducer = (initialState, reducers) => {
-  return (state, action = {}) => {
+export const createReducer = (initialState: any, reducers: any) => {
+  return (state: any, action: any = {}) => {
     if (typeof state === 'undefined') {
       return initialState;
     }
