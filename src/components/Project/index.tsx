@@ -2,7 +2,7 @@ import React, { memo, useCallback } from 'react';
 import Content from './Content';
 import * as styles from './styles';
 
-interface Props {
+export interface Props {
   current: string,
   description: string,
   products: string,

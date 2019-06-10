@@ -18,11 +18,7 @@ module.exports = {
   },
   resolve: {
     modules: [APP_DIR, 'node_modules'],
-    extensions: ['.ts', '.tsx', '.js', '.jsx'],
-    alias: {
-      // https://github.com/webpack/webpack/issues/4666
-      constants: `${APP_DIR}/constants`,
-    }
+    extensions: ['.ts', '.tsx', '.js', '.jsx']
   },
   module: {
     rules: [

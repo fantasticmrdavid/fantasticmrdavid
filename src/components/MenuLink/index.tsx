@@ -2,7 +2,7 @@ import React, { memo, SyntheticEvent } from 'react';
 import * as styles from './styles';
 import LocationContent from './LocationContent';
 
-interface Props {
+export interface Props {
   updateLocation: (...args: any[]) => any,
   target: string,
   current: boolean,

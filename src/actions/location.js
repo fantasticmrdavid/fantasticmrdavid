@@ -1,4 +1,4 @@
-import { LOCATION_UPDATED } from 'constants';
+import { LOCATION_UPDATED } from 'reducers/location';
 import { mediaLoadingStarted, mediaLoadingStopped } from './loading';
 
 export function locationUpdated(newLocation) {

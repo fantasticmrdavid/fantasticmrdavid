@@ -1,6 +1,6 @@
 import {
   HOME_MEDIA_IMAGE_UPDATED,
-} from 'constants';
+} from 'reducers/homeMedia';
 
 export function homeMediaImageUpdated(image) {
   return {

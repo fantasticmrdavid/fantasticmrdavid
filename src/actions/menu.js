@@ -1,7 +1,7 @@
 import {
   LOGO_MENU_ACTIVATED,
   LOGO_MENU_DEACTIVATED,
-} from 'constants';
+} from 'reducers/logoMenu';
 
 export function logoMenuActivated() {
   return {

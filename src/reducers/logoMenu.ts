@@ -1,23 +1,26 @@
-import { POPUP_SHOWED, POPUP_HIDDEN } from 'constants';
 import { createReducer } from 'helpers/reducers';
 
+export const LOGO_MENU_ACTIVATED = 'LOGO_MENU_ACTIVATED';
+export const LOGO_MENU_DEACTIVATED = 'LOGO_MENU_DEACTIVATED';
+
+export interface State {
+  active: boolean,
+}
+
 const initialState = {
-  popup: undefined,
+  active: false,
 };
 
 const reducers = {
-  [POPUP_SHOWED]: (state, action) => {
+  [LOGO_MENU_ACTIVATED]: (state: State) => {
     return {
       ...state,
-      ...action.popup,
       active: true,
     };
   },
-  [POPUP_HIDDEN]: state => {
+  [LOGO_MENU_DEACTIVATED]: (state: State) => {
     return {
       ...state,
-      title: undefined,
-      url: undefined,
       active: false,
     };
   },

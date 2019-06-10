@@ -8,7 +8,7 @@ import Contact from 'views/Contact';
 import GlobalStyles from 'styles/global';
 import * as styles from './styles';
 
-interface Props {
+export interface Props {
   location: string,
   loading: boolean,
   firstLoad: boolean,
