@@ -4,7 +4,7 @@ import Cube from 'components/Cube';
 
 describe('Component -> Cube', () => {
   it('should render the Cube in loading state without throwing an error', () => {
-    expect(renderer.create(<Cube loading={true} />)).toMatchSnapshot();
+    expect(renderer.create(<Cube loading />)).toMatchSnapshot();
   });
 
   it('should render the Cube in completed state without throwing an error', () => {
