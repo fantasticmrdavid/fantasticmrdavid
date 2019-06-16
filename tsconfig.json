@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./",
+    "jsx": "react",
+		"target": "esnext",
+		"moduleResolution": "node",
+		"allowJs": true,
+		"strict": true,
+		"isolatedModules": true,
+		"esModuleInterop": true,
+    "sourceMap": true,
+		"paths": {
+			"styles/*": ["src/styles/*"]
+		}
+	},
+	"include": [
+		"src"
+	]
+}

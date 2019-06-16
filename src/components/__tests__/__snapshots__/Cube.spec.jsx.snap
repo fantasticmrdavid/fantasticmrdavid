@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component -> Cube should render the Cube in completed state without throwing an error 1`] = `
+<div
+  className="sc-bdVaJa icotuC"
+>
+  <div
+    className="sc-bwzfXH jOBIKd"
+  >
+    <div
+      className="sc-htpNat sc-htoDjs hNjvOJ"
+    />
+    <div
+      className="sc-htpNat sc-bxivhb jfthid"
+    />
+    <div
+      className="sc-htpNat sc-bZQynM iirLgx"
+    />
+    <div
+      className="sc-htpNat sc-gzVnrw eTbUSW"
+    />
+    <div
+      className="sc-htpNat sc-EHOje gDpdYG"
+    />
+    <div
+      className="sc-htpNat sc-ifAKCX flCTJu"
+    />
+  </div>
+</div>
+`;
+
+exports[`Component -> Cube should render the Cube in loading state without throwing an error 1`] = `
+<div
+  className="sc-bdVaJa gsvWti"
+>
+  <div
+    className="sc-bwzfXH jOBIKd"
+  >
+    <div
+      className="sc-htpNat sc-htoDjs hNjvOJ"
+    />
+    <div
+      className="sc-htpNat sc-bxivhb jfthid"
+    />
+    <div
+      className="sc-htpNat sc-bZQynM iirLgx"
+    />
+    <div
+      className="sc-htpNat sc-gzVnrw eTbUSW"
+    />
+    <div
+      className="sc-htpNat sc-EHOje gDpdYG"
+    />
+    <div
+      className="sc-htpNat sc-ifAKCX flCTJu"
+    />
+  </div>
+</div>
+`;

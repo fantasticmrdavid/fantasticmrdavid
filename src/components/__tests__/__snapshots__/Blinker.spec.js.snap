@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Component -> Blinker should render the Blinker without throwing an error 1`] = `
-<div
-  className="styles__Cursor-sc-12n3825-0 Sphwy"
-/>
-`;

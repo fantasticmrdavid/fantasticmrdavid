@@ -1,5 +1,5 @@
 const merge = require('webpack-merge');
-const common = require('./common.js');
+const common = require('./common.config.js');
 
 const config = merge(common, {
   mode: 'production',
@@ -11,13 +11,14 @@ const config = merge(common, {
           {
             loader: 'html-loader',
             options: {
-              minimize: true
+              minimize: true,
             },
           },
         ],
       }
     ]
   },
+  devtool: 'source-map',
 });
 
 module.exports = config;

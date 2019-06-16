@@ -1,5 +1,5 @@
 const merge = require('webpack-merge');
-const common = require('./common.js');
+const common = require('./common.config.js');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 process.traceDeprecation = true;
@@ -14,17 +14,17 @@ const config = merge(common, {
           {
             loader: 'html-loader',
             options: {
-              minimize: false
+              minimize: false,
             },
           },
         ],
       },
     ],
   },
-  devtool: "source-map",
+  devtool: 'inline-source-map',
   plugins: [
     new BundleAnalyzerPlugin({
-        analyzerMode: 'static'
+        openAnalyzer: false,
     }),
   ],
 });
