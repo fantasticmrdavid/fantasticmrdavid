@@ -1,10 +1,13 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Cube from 'components/Cube';
 import Link from 'components/Link';
 import * as styles from './styles';
 
-const AboutMedia = ({ loading }) => {
+interface Props {
+  loading: boolean,
+}
+
+export default ({ loading }: Props) => {
   const {
     Container,
     Bg,
@@ -94,9 +97,3 @@ const AboutMedia = ({ loading }) => {
     </Container>
   );
 };
-
-AboutMedia.propTypes = {
-  loading: PropTypes.bool,
-};
-
-export default AboutMedia;

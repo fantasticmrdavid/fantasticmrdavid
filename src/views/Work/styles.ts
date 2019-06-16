@@ -2,6 +2,14 @@ import styled from 'styled-components';
 import theme from 'styles/theme';
 import { transparentize } from 'polished';
 
+interface LoadingContainerProps {
+  loading: boolean,
+}
+
+interface ProjectListContainerProps {
+  loading: boolean,
+}
+
 export const Container = styled.div`
   position: relative;
   display: flex;
@@ -24,7 +32,7 @@ export const Container = styled.div`
   background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
 `;
 
-export const LoadingContainer = styled.div`
+export const LoadingContainer = styled.div<LoadingContainerProps>`
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -45,7 +53,7 @@ export const SpinnerPlaceholder = styled.div`
   height: 160px;
 `;
 
-export const ProjectListContainer = styled.div`
+export const ProjectListContainer = styled.div<ProjectListContainerProps>`
   display: flex;
   flex-direction: column;
   justify-content: center;

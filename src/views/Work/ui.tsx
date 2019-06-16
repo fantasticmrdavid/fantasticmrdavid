@@ -1,25 +1,29 @@
 import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
-import { connect } from 'react-redux';
-import { mediaLoadingStopped, imagesLoadingStarted, imagesLoadingStopped } from 'actions';
 import Spinner from 'components/Spinner';
 import ImagePreloader from 'components/ImagePreloader';
 import ProjectContainer from 'containers/ProjectContainer';
-import projects from './projects';
+import projects, { Project } from 'data/projects';
 import * as styles from './styles';
 
-class WorkMedia extends PureComponent {
-  componentWillMount() {
-    const { startImagesLoading } = this.props;
+interface Props {
+  startImagesLoading: () => void,
+  stopLoading: () => void,
+  loading: boolean,
+}
+
+export default class WorkMedia extends PureComponent<Props> {
+  constructor(props: Props) {
+    super(props);
+    const { startImagesLoading } = props;
     startImagesLoading();
   }
 
   getImages() {
-    let images = [];
+    let images: string[] = [];
 
-    projects.map(p => {
+    projects.map((p: Project) => {
       if (!!p.images) {
-        const newImages = Object.keys(p.images).map(key => { return p.images[key]; });
+        const newImages = (Object.keys(p.images)).map((key: string) => p.images[key]);
         images = [...images, ...newImages];
       }
 
@@ -56,34 +60,3 @@ class WorkMedia extends PureComponent {
     );
   }
 }
-
-
-const mapStateToProps = state => {
-  return {
-    loading: state.loading.media || state.loading.images,
-    current: state.workMedia.location,
-  };
-};
-
-const mapDispatchToProps = dispatch => {
-  return {
-    startImagesLoading: () => {
-      dispatch(imagesLoadingStarted());
-    },
-    stopLoading: () => {
-      dispatch(imagesLoadingStopped());
-      dispatch(mediaLoadingStopped());
-    },
-  };
-};
-
-WorkMedia.propTypes = {
-  startImagesLoading: PropTypes.func.isRequired,
-  stopLoading: PropTypes.func.isRequired,
-  loading: PropTypes.bool,
-};
-
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(WorkMedia);

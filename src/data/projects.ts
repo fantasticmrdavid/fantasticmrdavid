@@ -1,3 +1,19 @@
+export type Project = {
+  title: string,
+  tagline: string,
+  target: string,
+  images: {
+    [key: string]: string
+    tileOn: string,
+    tileOff: string,
+  },
+  url?: string,
+  products?: string,
+  technologies: string,
+  description: string,
+  media?: any[],
+}
+
 export default [
   {
     title: 'KindyNow',

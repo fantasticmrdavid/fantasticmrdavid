@@ -1,7 +1,12 @@
 import styled from 'styled-components';
 import theme from 'styles/theme';
 
-export const Container = styled.div`
+interface ContainerProps {
+  imgSrc: string,
+  loading: boolean,
+}
+
+export const Container = styled.div<ContainerProps>`
   background-image: ${props => `url(${props.imgSrc})`};
   background-color: ${theme.colorLightGrey};
   background-position: center center;

@@ -5,7 +5,7 @@ import SocialLink from './SocialLink';
 import socialLinks from './socialLinks';
 import * as styles from './styles';
 
-export default class extends PureComponent {
+export default class Contact extends PureComponent {
   componentDidMount() {
     scrollToElement('emailLink');
   }
@@ -28,10 +28,7 @@ export default class extends PureComponent {
             <a href="mailto:fantasticmrdavid@gmail.com"><TerminalText blinker>fantasticmrdavid@gmail.com</TerminalText></a>
           </Email>
           <Social>
-            { socialLinks.map(l => {
-              return <SocialLink {...l} key={`SocialLink_${l.title}`} />;
-            })
-            }
+            { socialLinks.map(l => <SocialLink {...l} key={`SocialLink_${l.title}`} />) }
           </Social>
         </Content>
       </Container>

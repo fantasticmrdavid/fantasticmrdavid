@@ -7,8 +7,8 @@ const COMPLETE_DELAY_INTERVAL = 2000;
 interface Props {
   children?: string | undefined,
   blinker: boolean,
-  onComplete: (...args: any[]) => any,
-  speed: number,
+  onComplete?: (...args: any[]) => any,
+  speed?: number,
 }
 
 type State = {

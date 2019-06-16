@@ -4,7 +4,11 @@ import { transparentize } from 'polished';
 import { media } from 'styles/utils';
 import ComponentLink from 'components/Link';
 
-export const Container = styled.div`
+interface ContainerProps {
+  loading: boolean,
+}
+
+export const Container = styled.div<ContainerProps>`
   display: flex;
   flex-direction: column;
   align-items: center;
