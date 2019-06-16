@@ -76,6 +76,7 @@ export default ({ loading }: Props) => {
           <SpecsSection>
             <h3>Testing/QA</h3>
             <ul>
+              <li>TypeScript</li>
               <li>ESLint</li>
               <li>Jest</li>
             </ul>
