@@ -5,4 +5,5 @@
 - Webpack
 - React + Redux
 - Styled-Components
+- TypeScript
 - Jest
