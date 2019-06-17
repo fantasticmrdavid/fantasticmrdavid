@@ -1,5 +1,4 @@
 import React, { SyntheticEvent } from 'react';
-import PropTypes from 'prop-types';
 import ReactGA from 'react-ga';
 import * as styles from './styles';
 
@@ -12,7 +11,7 @@ export interface Props {
   url?: string | undefined,
 }
 
-const Image = (props: Props) => {
+export default (props: Props) => {
   const {
     noSiblings,
     thumbnail,
@@ -46,14 +45,3 @@ const Image = (props: Props) => {
     </Container>
   );
 };
-
-Image.propTypes = {
-  noSiblings: PropTypes.bool,
-  orientation: PropTypes.string.isRequired,
-  showPopup: PropTypes.func.isRequired,
-  thumbnail: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-  url: PropTypes.string.isRequired,
-};
-
-export default Image;
