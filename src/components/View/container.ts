@@ -1,8 +1,8 @@
 import { Dispatch } from 'redux';
 import { connect } from 'react-redux';
 import ReactGA from 'react-ga';
-import { locationUpdated } from 'actions';
 import { AppState } from 'reducers';
+import { locationUpdated } from './actions';
 import Ui, { Props as UiProps } from './ui';
 
 type StateProps = {
