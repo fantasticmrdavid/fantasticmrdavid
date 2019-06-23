@@ -1,7 +1,11 @@
 import { Dispatch } from 'redux';
 import { connect } from 'react-redux';
-import { mediaLoadingStopped, imagesLoadingStarted, imagesLoadingStopped } from 'actions';
 import { AppState } from 'reducers';
+import {
+  mediaLoadingStopped,
+  imagesLoadingStarted,
+  imagesLoadingStopped,
+} from './actions';
 import Ui from './ui';
 
 type StateProps = {

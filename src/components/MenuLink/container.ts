@@ -1,8 +1,8 @@
 import { Dispatch } from 'redux';
 import { connect } from 'react-redux';
-import { locationUpdated } from 'actions';
 import { AppState } from 'reducers';
-import MenuLink, { Props as UiProps } from 'components/MenuLink';
+import { locationUpdated } from './actions';
+import Ui, { Props as UiProps } from './ui';
 
 type StateProps = {
   current: boolean,
@@ -30,4 +30,4 @@ const mapDispatchToProps = (dispatch: Dispatch<any>) => {
 export default connect<StateProps, DispatchProps, UiProps, AppState>(
   mapStateToProps,
   mapDispatchToProps,
-)(MenuLink);
+)(Ui);

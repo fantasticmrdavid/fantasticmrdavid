@@ -1,8 +1,8 @@
 import { Dispatch } from 'redux';
 import { connect } from 'react-redux';
-import { popupHidden } from 'actions';
 import { AppState } from 'reducers';
-import Popup from 'components/Popup';
+import { popupHidden } from './actions';
+import Ui from './ui';
 
 type StateProps = {
   active: boolean,
@@ -28,4 +28,4 @@ const mapDispatchToProps = (dispatch: Dispatch<any>) => {
 export default connect<StateProps, DispatchProps, {}, AppState>(
   mapStateToProps,
   mapDispatchToProps,
-)(Popup);
+)(Ui);

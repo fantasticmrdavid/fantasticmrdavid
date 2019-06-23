@@ -17,7 +17,6 @@ export interface Props {
   parentLoading: boolean,
   isCurrent: boolean,
   updateCurrent: (target: string | undefined) => void,
-  showPopup: (...args: any[]) => any,
 }
 
 export default memo(
@@ -31,7 +30,6 @@ export default memo(
       parentLoading,
       isCurrent,
       updateCurrent,
-      showPopup,
     } = props;
 
     const handleTileClick = useCallback(e => {
@@ -76,7 +74,7 @@ export default memo(
           </TileContent>
           <Close current={isCurrent}>X</Close>
         </Tile>
-        <Content {...props} showPopup={showPopup} />
+        <Content {...props} />
       </Container>
     );
   },

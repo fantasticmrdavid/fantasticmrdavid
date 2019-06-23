@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
-import PopupContainer from 'containers/PopupContainer';
-import LogoMenuContainer from 'containers/LogoMenuContainer';
+import LogoMenu from 'components/LogoMenu';
+import Popup from 'components/Popup';
 import Home from 'views/Home';
 import About from 'views/About';
 import Work from 'views/Work';
@@ -28,9 +28,9 @@ export default ({ location, loading, firstLoad }: Props) => {
     <Fragment>
       <GlobalStyles />
       <Container>
-        <PopupContainer />
+        <Popup />
         <Control>
-          <LogoMenuContainer />
+          <LogoMenu />
         </Control>
 
         <Media location={location}>
