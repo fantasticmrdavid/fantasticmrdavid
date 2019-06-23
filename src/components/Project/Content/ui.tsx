@@ -1,9 +1,9 @@
 import React, { memo, useCallback } from 'react';
 import ReactGA from 'react-ga';
-import ProjectMediaContainer from 'containers/ProjectMediaContainer';
+import ProjectMedia from 'components/ProjectMedia';
 import * as styles from './styles';
 
-interface Props {
+export interface Props {
   title: string,
   url?: string,
   products: string,
@@ -13,7 +13,6 @@ interface Props {
     slug: string,
   }[],
   isCurrent: boolean,
-  showPopup: (...args: any[]) => any,
 }
 
 export default memo(
@@ -26,7 +25,6 @@ export default memo(
       description,
       media,
       isCurrent,
-      showPopup,
     } = props;
 
     const handleUrlClick = useCallback(() => ReactGA.event({
@@ -78,7 +76,7 @@ export default memo(
         <MediaWrapper>
           {
             !!media && media.map(m => (
-              <ProjectMediaContainer {...m} showPopup={showPopup} noSiblings={media.length === 1} key={`ProjectMedia_${m.slug}`} />
+              <ProjectMedia {...m} noSiblings={media.length === 1} key={`ProjectMedia_${m.slug}`} />
             ))
           }
         </MediaWrapper>

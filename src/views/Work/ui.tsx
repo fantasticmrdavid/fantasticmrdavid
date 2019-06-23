@@ -1,8 +1,8 @@
 import React, { PureComponent } from 'react';
 import Spinner from 'components/Spinner';
 import ImagePreloader from 'components/ImagePreloader';
-import ProjectContainer from 'containers/ProjectContainer';
-import projects, { Project } from 'data/projects';
+import Project from 'components/Project';
+import projects, { Project as ProjectProps } from 'data/projects';
 import * as styles from './styles';
 
 interface Props {
@@ -21,7 +21,7 @@ export default class WorkMedia extends PureComponent<Props> {
   getImages() {
     let images: string[] = [];
 
-    projects.map((p: Project) => {
+    projects.map((p: ProjectProps) => {
       if (!!p.images) {
         const newImages = (Object.keys(p.images)).map((key: string) => p.images[key]);
         images = [...images, ...newImages];
@@ -53,7 +53,7 @@ export default class WorkMedia extends PureComponent<Props> {
 
         <ProjectListContainer loading={loading}>
           {
-            projects.map(p => { return <ProjectContainer {...p} key={`Project_${p.target}`} />; })
+            projects.map(p => { return <Project {...p} key={`Project_${p.target}`} />; })
           }
         </ProjectListContainer>
       </Container>

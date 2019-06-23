@@ -1,8 +1,8 @@
 import { Dispatch } from 'redux';
 import { connect } from 'react-redux';
-import { workMediaLocationUpdated, popupShowed } from 'actions';
 import { AppState } from 'reducers';
-import Project, { Props as UiProps } from 'components/Project';
+import { workMediaLocationUpdated } from './actions';
+import Ui, { Props as UiProps } from './ui';
 
 type StateProps = {
   current: boolean,
@@ -12,7 +12,6 @@ type StateProps = {
 
 type DispatchProps = {
   updateCurrent: (target: string) => void,
-  showPopup: (popup: any) => void,
 }
 
 const mapStateToProps = (state: AppState, ownProps: UiProps) => {
@@ -29,13 +28,10 @@ const mapDispatchToProps = (dispatch: Dispatch<any>) => {
     updateCurrent: (target: string) => {
       dispatch(workMediaLocationUpdated(target));
     },
-    showPopup: (popup: any) => {
-      dispatch(popupShowed(popup));
-    },
   };
 };
 
 export default connect<StateProps, DispatchProps, UiProps, AppState>(
   mapStateToProps,
   mapDispatchToProps,
-)(Project);
+)(Ui);

@@ -1,7 +1,7 @@
 import React from 'react';
 import { faAngleDown, faCog } from '@fortawesome/free-solid-svg-icons';
 import Blinker from 'components/Blinker';
-import MenuLinkContainer from 'containers/MenuLinkContainer';
+import MenuLink from 'components/MenuLink';
 import menu from './menu';
 import * as styles from './styles';
 
@@ -27,7 +27,7 @@ export default ({ active, toggleActive }: Props) => {
       <Title>Fantastic Mr David</Title>
 
       <Nav active={active}>
-        { menu.map(item => { return <MenuLinkContainer {...item} menuActive={!!active} key={`MenuLink_${item.target}`} />; }) }
+        { menu.map(item => { return <MenuLink {...item} menuActive={!!active} key={`MenuLink_${item.target}`} />; }) }
       </Nav>
 
       <Subtitle active={active}>

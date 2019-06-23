@@ -1,8 +1,8 @@
 import { Dispatch } from 'redux';
 import { connect } from 'react-redux';
-import LogoMenu from 'components/LogoMenu';
-import { logoMenuActivated, logoMenuDeactivated } from 'actions';
 import { AppState } from 'reducers';
+import Ui from './ui';
+import { logoMenuActivated, logoMenuDeactivated } from './actions';
 
 type StateProps = {
   active: boolean,
@@ -29,4 +29,4 @@ const mapDispatchToProps = (dispatch: Dispatch<any>) => {
 export default connect<StateProps, DispatchProps, {}, AppState>(
   mapStateToProps,
   mapDispatchToProps,
-)(LogoMenu);
+)(Ui);

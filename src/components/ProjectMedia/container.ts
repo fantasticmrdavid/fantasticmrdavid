@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import { AppState } from 'reducers';
-import ProjectMedia from 'components/ProjectMedia';
+import Ui from './ui';
 
 type StateProps = {
   loading: boolean,
@@ -12,4 +12,4 @@ const mapStateToProps = (state: AppState) => {
   };
 };
 
-export default connect<StateProps>(mapStateToProps)(ProjectMedia);
+export default connect<StateProps>(mapStateToProps)(Ui);

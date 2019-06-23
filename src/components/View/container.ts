@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import ReactGA from 'react-ga';
 import { locationUpdated } from 'actions';
 import { AppState } from 'reducers';
-import View, { Props as UiProps } from 'components/View';
+import Ui, { Props as UiProps } from './ui';
 
 type StateProps = {
   location: string,
@@ -45,4 +45,4 @@ const mapDispatchToProps = (dispatch: Dispatch<any>, ownProps: UiProps) => {
 export default connect<StateProps, DispatchProps, UiProps, AppState>(
   mapStateToProps,
   mapDispatchToProps,
-)(View);
+)(Ui);
