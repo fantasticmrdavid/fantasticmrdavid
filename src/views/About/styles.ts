@@ -1,6 +1,7 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import theme from 'styles/theme';
 import { transparentize } from 'polished';
+import { fadeIn } from 'styles/animations';
 import { media } from 'styles/utils';
 import ComponentLink from 'components/Link';
 
@@ -20,6 +21,8 @@ export const Container = styled.div<ContainerProps>`
   color: ${theme.colorTextPrimary};
   opacity: ${props => (props.loading ? 0 : 1)};
   transition: 1s;
+  animation: ${css`${fadeIn} 1s ease 1`};
+  animation-fill-mode: forwards;
 
   ${media.small`
     padding: 4em 2em;

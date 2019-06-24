@@ -1,4 +1,5 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+import { fadeIn } from 'styles/animations';
 import theme from 'styles/theme';
 
 interface ContainerProps {
@@ -16,4 +17,6 @@ export const Container = styled.div<ContainerProps>`
   height: 100vh;
   opacity: ${props => (props.loading ? 0 : 1)};
   transition: 1s;
+  animation: ${css`${fadeIn} 1s ease 1`};
+  animation-fill-mode: forwards;
 `;
