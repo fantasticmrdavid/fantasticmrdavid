@@ -7,7 +7,7 @@ export interface State {
 }
 
 const initialState = {
-  current: 'home',
+  current: undefined,
 };
 
 const reducers = {
