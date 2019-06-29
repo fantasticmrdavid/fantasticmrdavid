@@ -1,9 +1,8 @@
-import React from 'react';
+import React, { memo } from 'react';
 import * as styles from './styles';
 
-const Blinker = () => {
-  const { Cursor } = styles;
-  return <Cursor />;
-};
+const { Cursor } = styles;
+
+const Blinker = memo(() => <Cursor />);
 
 export default Blinker;

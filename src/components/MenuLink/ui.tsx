@@ -11,6 +11,11 @@ export interface Props {
   label: string,
 }
 
+const {
+  Container,
+  Label,
+} = styles;
+
 export default memo(
   (props: Props & RouteComponentProps) => {
     const {
@@ -28,11 +33,6 @@ export default memo(
       updateLocation(current ? 'home' : target);
       history.push(`/${current ? '' : target}`);
     };
-
-    const {
-      Container,
-      Label,
-    } = styles;
 
     return (
       <Container>

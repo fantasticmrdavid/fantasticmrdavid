@@ -58,7 +58,7 @@ export const Media = styled.section<MediaProps>`
 const Shutter = styled.div<ShutterProps>`
   position: absolute;
   right: 0px;
-  z-index: 16;
+  z-index: 18;
   width: 100%;
   height: ${props => (props.firstMediaLoading ? '50%' : '0%')};
   transition: 0.3s;
@@ -86,5 +86,5 @@ export const MediaLoadingMessage = styled.div<MediaLoadingMessageProps>`
   font-size: 2.5rem;
   font-weight: 700;
   color: ${theme.colorWhite};
-  z-index: 17;
+  z-index: 18;
 `;

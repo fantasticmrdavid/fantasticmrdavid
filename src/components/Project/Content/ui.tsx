@@ -15,6 +15,16 @@ export interface Props {
   isCurrent: boolean,
 }
 
+const {
+  Container,
+  Section,
+  Label,
+  Copy,
+  Link,
+  LinkWrapper,
+  MediaWrapper,
+} = styles;
+
 export default memo(
   (props: Props) => {
     const {
@@ -32,16 +42,6 @@ export default memo(
       action: 'Project URL Click',
       label: title,
     }), [title]);
-
-    const {
-      Container,
-      Section,
-      Label,
-      Copy,
-      Link,
-      LinkWrapper,
-      MediaWrapper,
-    } = styles;
 
     const descriptionMarkup = { __html: description };
 

@@ -2,33 +2,32 @@ import { connect } from 'react-redux';
 import { Dispatch } from 'redux';
 import { AppState } from 'reducers';
 import { HOME_IMAGES } from 'data/homeImages';
-import { homeMediaImageUpdated } from './actions';
+import { mediaLoadingStopped } from './actions';
 import Ui from './ui';
 
+type Image = {
+  name: string,
+  src: string,
+}
+
 type StateProps = {
-  image: {
-    name: string,
-    src: string,
-  },
-  loading: boolean,
+  images: Image[],
 }
 
 type DispatchProps = {
-  updateImage: () => void,
+  stopLoading: () => void,
 }
 
-const mapStateToProps = (state: AppState) => {
+const mapStateToProps = () => {
   return {
-    image: state.homeMedia.image,
-    loading: state.loading.media,
+    images: HOME_IMAGES,
   };
 };
 
 const mapDispatchToProps = (dispatch: Dispatch<any>) => {
   return {
-    updateImage: () => {
-      const image = HOME_IMAGES[Math.floor(Math.random() * HOME_IMAGES.length)];
-      dispatch(homeMediaImageUpdated(image));
+    stopLoading: () => {
+      dispatch(mediaLoadingStopped());
     },
   };
 };

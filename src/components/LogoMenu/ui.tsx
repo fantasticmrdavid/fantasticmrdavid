@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import { faAngleDown, faCog } from '@fortawesome/free-solid-svg-icons';
 import Blinker from 'components/Blinker';
 import MenuLink from 'components/MenuLink';
@@ -7,37 +7,48 @@ import * as styles from './styles';
 
 interface Props {
   active: boolean,
+  location?: string,
   toggleActive: (...args: any[]) => any,
 }
 
-export default ({ active, toggleActive }: Props) => {
-  const handleClick = () => toggleActive(active);
-  const {
-    Container,
-    Title,
-    Nav,
-    Subtitle,
-    Cta,
-    CogIcon,
-    Icon,
-  } = styles;
+const {
+  Container,
+  Title,
+  Nav,
+  Subtitle,
+  Cta,
+  CogIcon,
+  Icon,
+} = styles;
 
-  return (
-    <Container active={active} onClick={handleClick}>
-      <Title>Fantastic Mr David</Title>
+export default memo(
+  ({ active, location, toggleActive }: Props) => {
+    const handleClick = () => toggleActive(active);
 
-      <Nav active={active}>
-        { menu.map(item => { return <MenuLink {...item} menuActive={!!active} key={`MenuLink_${item.target}`} />; }) }
-      </Nav>
+    return (
+      <Container active={active} onClick={handleClick}>
+        <Title>Fantastic Mr David</Title>
 
-      <Subtitle active={active}>
-        <h2><CogIcon active={active} icon={faCog} />Art + Engineering</h2>
-        <Blinker />
-      </Subtitle>
+        <Nav active={active}>
+          { menu.map(item => (
+            <MenuLink
+              {...item}
+              menuActive={!!active}
+              key={`MenuLink_${item.target}`}
+              current={location === item.target}
+            />
+          )) }
+        </Nav>
 
-      <Cta active={active}>
-        <Icon icon={faAngleDown} />
-      </Cta>
-    </Container>
-  );
-};
+        <Subtitle active={active}>
+          <h2><CogIcon active={active} icon={faCog} />Art + Engineering</h2>
+          <Blinker />
+        </Subtitle>
+
+        <Cta active={active}>
+          <Icon icon={faAngleDown} />
+        </Cta>
+      </Container>
+    );
+  },
+);

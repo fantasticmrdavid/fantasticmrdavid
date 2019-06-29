@@ -10,6 +10,15 @@ interface Props {
   url: string,
 }
 
+const {
+  Container,
+  Lightbox,
+  Dialog,
+  Close,
+  Landscape,
+  Portrait,
+} = styles;
+
 export default memo(
   (props: Props) => {
     const {
@@ -25,15 +34,6 @@ export default memo(
       e.preventDefault();
       close(e);
     };
-
-    const {
-      Container,
-      Lightbox,
-      Dialog,
-      Close,
-      Landscape,
-      Portrait,
-    } = styles;
 
     const Image = orientation === 'landscape' ? Landscape : Portrait;
 

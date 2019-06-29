@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Redbubble = () => {
@@ -16,9 +16,9 @@ export interface Props {
   icon: string | any,
 }
 
-export default (props: Props) => {
-  const { className, icon } = props;
-
-  if (icon === 'redbubble') return <Redbubble />;
-  return <FontAwesomeIcon icon={icon} className={className} />;
-};
+export default memo(
+  ({ className, icon }: Props) => {
+    if (icon === 'redbubble') return <Redbubble />;
+    return <FontAwesomeIcon icon={icon} className={className} />;
+  },
+);

@@ -9,10 +9,10 @@ interface Props {
   location: string,
 }
 
+const { Content } = styles;
+
 export default memo(
   ({ location, current }: Props) => {
-    const { Content } = styles;
-
     if (!location) return null;
 
     return (

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import Cube from 'components/Cube';
 import Link from 'components/Link';
 import * as styles from './styles';
@@ -7,17 +7,18 @@ interface Props {
   loading: boolean,
 }
 
-export default ({ loading }: Props) => {
-  const {
-    Container,
-    Bg,
-    ProfilePhoto,
-    Content,
-    SleeperLink,
-    SiteSpecs,
-    SpecsSection,
-  } = styles;
-  return (
+const {
+  Container,
+  Bg,
+  ProfilePhoto,
+  Content,
+  SleeperLink,
+  SiteSpecs,
+  SpecsSection,
+} = styles;
+
+export default memo(
+  ({ loading }: Props) => (
     <Container loading={loading}>
       <Bg><Cube loading={loading} /></Bg>
       <ProfilePhoto src="/assets/images/profile.jpg" alt="Me" />
@@ -96,5 +97,5 @@ export default ({ loading }: Props) => {
         </Link>
       </Content>
     </Container>
-  );
-};
+  ),
+);
