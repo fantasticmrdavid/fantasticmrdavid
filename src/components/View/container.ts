@@ -16,12 +16,18 @@ type DispatchProps = {
   updateLocation: (newLocation: string) => void,
 }
 
-const mapStateToProps = (state: AppState) => {
+type ContainerProps = {
+  location?: string,
+}
+
+const mapStateToProps = (state: AppState, ownProps: ContainerProps) => {
+  const { loading, popup } = state;
+  const { location } = ownProps;
   return {
-    location: state.location.current,
-    loading: state.loading.media,
-    firstLoad: state.loading.firstLoad,
-    popup: state.popup,
+    location: state.location.current || location,
+    loading: !location && loading.media,
+    firstLoad: !location && loading.firstLoad,
+    popup,
   };
 };
 
@@ -42,7 +48,7 @@ const mapDispatchToProps = (dispatch: Dispatch<any>, ownProps: UiProps) => {
   };
 };
 
-export default connect<StateProps, DispatchProps, UiProps, AppState>(
+export default connect<StateProps, DispatchProps, ContainerProps, AppState>(
   mapStateToProps,
   mapDispatchToProps,
 )(Ui);

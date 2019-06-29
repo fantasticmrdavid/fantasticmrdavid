@@ -1,4 +1,5 @@
 import React, { memo, SyntheticEvent } from 'react';
+import { RouteComponentProps } from 'react-router-dom';
 import * as styles from './styles';
 import LocationContent from './LocationContent';
 
@@ -11,11 +12,12 @@ export interface Props {
 }
 
 export default memo(
-  (props: Props) => {
+  (props: Props & RouteComponentProps) => {
     const {
       label,
       target,
       current,
+      history,
       menuActive,
       updateLocation,
     } = props;
@@ -24,6 +26,7 @@ export default memo(
       e.preventDefault();
       e.stopPropagation();
       updateLocation(current ? 'home' : target);
+      history.push(`/${current ? '' : target}`);
     };
 
     const {

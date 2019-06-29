@@ -1,6 +1,7 @@
 import { Dispatch } from 'redux';
 import { connect } from 'react-redux';
 import { AppState } from 'reducers';
+import { withRouter, RouteComponentProps } from 'react-router-dom';
 import { locationUpdated } from './actions';
 import Ui, { Props as UiProps } from './ui';
 
@@ -11,6 +12,8 @@ type StateProps = {
 type DispatchProps = {
   updateLocation: (target: string) => void,
 }
+
+type ContainerProps = UiProps & RouteComponentProps;
 
 const mapStateToProps = (state: AppState, ownProps: UiProps) => {
   const { target } = ownProps;
@@ -30,4 +33,4 @@ const mapDispatchToProps = (dispatch: Dispatch<any>) => {
 export default connect<StateProps, DispatchProps, UiProps, AppState>(
   mapStateToProps,
   mapDispatchToProps,
-)(Ui);
+)(withRouter<ContainerProps>(Ui));
