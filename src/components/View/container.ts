@@ -25,8 +25,8 @@ const mapStateToProps = (state: AppState, ownProps: ContainerProps) => {
   const { location } = ownProps;
   return {
     location: state.location.current || location,
-    loading: !location && loading.media,
-    firstLoad: !location && loading.firstLoad,
+    loading: loading.media,
+    firstLoad: loading.firstLoad,
     popup,
   };
 };

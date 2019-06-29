@@ -11,6 +11,13 @@ interface Props {
   loading: boolean,
 }
 
+const {
+  Container,
+  LoadingContainer,
+  ProjectListContainer,
+  SpinnerPlaceholder,
+} = styles;
+
 export default class WorkMedia extends PureComponent<Props> {
   constructor(props: Props) {
     super(props);
@@ -35,13 +42,6 @@ export default class WorkMedia extends PureComponent<Props> {
 
   render() {
     const { loading, stopLoading } = this.props;
-    const {
-      Container,
-      LoadingContainer,
-      ProjectListContainer,
-      SpinnerPlaceholder,
-    } = styles;
-
     const images = this.getImages();
 
     return (

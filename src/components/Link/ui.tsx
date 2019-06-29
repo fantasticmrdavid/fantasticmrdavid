@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import * as styles from './styles';
 
 interface Props {
@@ -9,7 +9,6 @@ interface Props {
   rel?: string,
 }
 
-export default (props: Props) => {
-  const { Link } = styles;
-  return <Link {...props} />;
-};
+const { Link } = styles;
+
+export default memo((props: Props) => <Link {...props} />);

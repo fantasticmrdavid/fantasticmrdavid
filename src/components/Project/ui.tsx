@@ -19,6 +19,16 @@ export interface Props {
   updateCurrent: (target: string | undefined) => void,
 }
 
+const {
+  Container,
+  Tile,
+  Image,
+  TileContent,
+  Title,
+  Tagline,
+  Close,
+} = styles;
+
 export default memo(
   (props: Props) => {
     const {
@@ -39,16 +49,6 @@ export default memo(
     }, [isCurrent, target]);
 
     const isOtherCurrent = !!isCurrent ? false : !!current;
-
-    const {
-      Container,
-      Tile,
-      Image,
-      TileContent,
-      Title,
-      Tagline,
-      Close,
-    } = styles;
 
     return (
       <Container

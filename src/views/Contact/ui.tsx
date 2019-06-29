@@ -5,20 +5,21 @@ import SocialLink from './SocialLink';
 import socialLinks from './socialLinks';
 import * as styles from './styles';
 
+const {
+  Container,
+  ShutterTop,
+  ShutterBottom,
+  Content,
+  Email,
+  Social,
+} = styles;
+
 export default class Contact extends PureComponent {
   componentDidMount() {
     scrollToElement('emailLink');
   }
 
   render() {
-    const {
-      Container,
-      ShutterTop,
-      ShutterBottom,
-      Content,
-      Email,
-      Social,
-    } = styles;
     return (
       <Container>
         <ShutterTop />

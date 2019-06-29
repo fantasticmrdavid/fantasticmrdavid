@@ -16,9 +16,9 @@ type DispatchProps = {
 type ContainerProps = UiProps & RouteComponentProps;
 
 const mapStateToProps = (state: AppState, ownProps: UiProps) => {
-  const { target } = ownProps;
+  const { current, target } = ownProps;
   return {
-    current: target === state.location.current,
+    current: current || target === state.location.current,
   };
 };
 

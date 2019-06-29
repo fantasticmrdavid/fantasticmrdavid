@@ -36,6 +36,8 @@ interface Props {
   completedAction?: (...args: any[]) => any,
 }
 
+const { Container } = styles;
+
 export default memo(
   ({ images, completedAction }: Props) => {
     const [state, dispatch] = useReducer(reducer, {
@@ -58,7 +60,6 @@ export default memo(
       dispatch({ type: 'completeLoading' });
     }
 
-    const { Container } = styles;
     return (
       <Container completed={state.completed}>
         {state.completedCount / images.length * 100}%

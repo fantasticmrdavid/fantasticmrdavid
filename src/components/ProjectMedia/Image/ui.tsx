@@ -1,4 +1,4 @@
-import React, { SyntheticEvent } from 'react';
+import React, { memo, SyntheticEvent } from 'react';
 import ReactGA from 'react-ga';
 import * as styles from './styles';
 
@@ -11,37 +11,39 @@ export interface Props {
   url?: string | undefined,
 }
 
-export default (props: Props) => {
-  const {
-    noSiblings,
-    thumbnail,
-    title,
-    url,
-    orientation,
-    showPopup,
-  } = props;
+const {
+  Container,
+  Frame,
+  Content,
+} = styles;
 
-  const handleClick = (e: SyntheticEvent) => {
-    e.preventDefault();
-    showPopup({ title, url, orientation });
-    ReactGA.event({
-      category: 'Project',
-      action: 'Media Image Clicked',
-      label: title,
-    });
-  };
+export default memo(
+  (props: Props) => {
+    const {
+      noSiblings,
+      thumbnail,
+      title,
+      url,
+      orientation,
+      showPopup,
+    } = props;
 
-  const {
-    Container,
-    Frame,
-    Content,
-  } = styles;
+    const handleClick = (e: SyntheticEvent) => {
+      e.preventDefault();
+      showPopup({ title, url, orientation });
+      ReactGA.event({
+        category: 'Project',
+        action: 'Media Image Clicked',
+        label: title,
+      });
+    };
 
-  return (
-    <Container noSiblings={noSiblings}>
-      <Frame onClick={handleClick}>
-        <Content src={thumbnail} alt={title} />
-      </Frame>
-    </Container>
-  );
-};
+    return (
+      <Container noSiblings={noSiblings}>
+        <Frame onClick={handleClick}>
+          <Content src={thumbnail} alt={title} />
+        </Frame>
+      </Container>
+    );
+  },
+);
