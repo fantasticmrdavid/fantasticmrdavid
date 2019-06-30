@@ -52,7 +52,7 @@ export const Left = styled(Side)`
 `;
 
 export const Top = styled(Side)`
-  transform: rotateX(-90deg) translateY(-150px);
+  transform: rotateX(-90deg) translateY(-152px);
   transform-origin: top center;
 `;
 

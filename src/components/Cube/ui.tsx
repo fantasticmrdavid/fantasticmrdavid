@@ -1,4 +1,5 @@
 import React, { memo } from 'react';
+import BorderTracer from 'components/BorderTracer';
 import * as styles from './styles';
 
 interface Props {
@@ -20,12 +21,12 @@ export default memo(
   ({ loading }: Props) => (
     <Container loading={loading}>
       <Polygon>
-        <Front />
-        <Back />
+        <Front><BorderTracer direction="left" /></Front>
+        <Back><BorderTracer /></Back>
         <Top />
-        <Bottom />
-        <Left />
-        <Right />
+        <Bottom><BorderTracer /></Bottom>
+        <Left><BorderTracer direction="left" /></Left>
+        <Right><BorderTracer /></Right>
       </Polygon>
     </Container>
   ),
