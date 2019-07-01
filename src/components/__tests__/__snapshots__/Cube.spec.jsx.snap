@@ -2,58 +2,102 @@
 
 exports[`Component -> Cube should render the Cube in completed state without throwing an error 1`] = `
 <div
-  className="sc-bdVaJa icotuC"
+  className="styles__Container-sc-1pwogyu-0 fkagAV"
 >
   <div
-    className="sc-bwzfXH jOBIKd"
+    className="styles__Polygon-sc-1pwogyu-1 dCIqjj"
   >
     <div
-      className="sc-htpNat sc-htoDjs hNjvOJ"
+      className="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 hZHsMX"
+    >
+      <div
+        className="styles__Tracer-sc-18vfsm6-0 cVcktX"
+        direction="left"
+      />
+    </div>
+    <div
+      className="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 hLVrnA"
+    >
+      <div
+        className="styles__Tracer-sc-18vfsm6-0 kWITRq"
+      />
+    </div>
+    <div
+      className="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 QCabo"
     />
     <div
-      className="sc-htpNat sc-bxivhb jfthid"
-    />
+      className="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 cwSPhK"
+    >
+      <div
+        className="styles__Tracer-sc-18vfsm6-0 kWITRq"
+      />
+    </div>
     <div
-      className="sc-htpNat sc-bZQynM iirLgx"
-    />
+      className="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 dzatai"
+    >
+      <div
+        className="styles__Tracer-sc-18vfsm6-0 cVcktX"
+        direction="left"
+      />
+    </div>
     <div
-      className="sc-htpNat sc-gzVnrw eTbUSW"
-    />
-    <div
-      className="sc-htpNat sc-EHOje gDpdYG"
-    />
-    <div
-      className="sc-htpNat sc-ifAKCX flCTJu"
-    />
+      className="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 eWSCFi"
+    >
+      <div
+        className="styles__Tracer-sc-18vfsm6-0 kWITRq"
+      />
+    </div>
   </div>
 </div>
 `;
 
 exports[`Component -> Cube should render the Cube in loading state without throwing an error 1`] = `
 <div
-  className="sc-bdVaJa gsvWti"
+  className="styles__Container-sc-1pwogyu-0 irMsJv"
 >
   <div
-    className="sc-bwzfXH jOBIKd"
+    className="styles__Polygon-sc-1pwogyu-1 dCIqjj"
   >
     <div
-      className="sc-htpNat sc-htoDjs hNjvOJ"
+      className="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 hZHsMX"
+    >
+      <div
+        className="styles__Tracer-sc-18vfsm6-0 cVcktX"
+        direction="left"
+      />
+    </div>
+    <div
+      className="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 hLVrnA"
+    >
+      <div
+        className="styles__Tracer-sc-18vfsm6-0 kWITRq"
+      />
+    </div>
+    <div
+      className="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 QCabo"
     />
     <div
-      className="sc-htpNat sc-bxivhb jfthid"
-    />
+      className="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 cwSPhK"
+    >
+      <div
+        className="styles__Tracer-sc-18vfsm6-0 kWITRq"
+      />
+    </div>
     <div
-      className="sc-htpNat sc-bZQynM iirLgx"
-    />
+      className="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 dzatai"
+    >
+      <div
+        className="styles__Tracer-sc-18vfsm6-0 cVcktX"
+        direction="left"
+      />
+    </div>
     <div
-      className="sc-htpNat sc-gzVnrw eTbUSW"
-    />
-    <div
-      className="sc-htpNat sc-EHOje gDpdYG"
-    />
-    <div
-      className="sc-htpNat sc-ifAKCX flCTJu"
-    />
+      className="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 eWSCFi"
+    >
+      <div
+        className="styles__Tracer-sc-18vfsm6-0 kWITRq"
+      />
+    </div>
   </div>
 </div>
 `;

@@ -5,9 +5,10 @@ interface Props {
   direction?: string,
 }
 
+const { Tracer } = styles;
+
 export default memo(
   ({ direction }: Props) => {
-    const { Tracer } = styles;
     return <Tracer direction={direction} />;
   },
 );

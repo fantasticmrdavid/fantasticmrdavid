@@ -2,6 +2,6 @@
 
 exports[`Component -> Blinker should render the Blinker without throwing an error 1`] = `
 <div
-  className="sc-bdVaJa fhjChs"
+  className="styles__Cursor-cbfjlf-0 kPyiRo"
 />
 `;
