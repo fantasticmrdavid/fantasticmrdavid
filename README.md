@@ -6,4 +6,4 @@
 - React + Redux
 - Styled-Components
 - TypeScript
-- Jest
+- Jest + Enzyme

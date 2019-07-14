@@ -70,6 +70,8 @@
     "babel-preset-stage-2": "6.24.1",
     "compression": "1.7.4",
     "copy-webpack-plugin": "5.0.3",
+    "enzyme": "3.10.0",
+    "enzyme-adapter-react-16": "1.14.0",
     "eslint": "5.16.0",
     "eslint-config-airbnb-typescript": "4.0.0",
     "eslint-loader": "2.2.1",

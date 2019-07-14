@@ -80,6 +80,7 @@ export default memo(
               <li>TypeScript</li>
               <li>ESLint</li>
               <li>Jest</li>
+              <li>Enzyme</li>
             </ul>
           </SpecsSection>
           <SpecsSection>
