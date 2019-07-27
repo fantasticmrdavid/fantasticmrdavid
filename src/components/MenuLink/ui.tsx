@@ -27,7 +27,7 @@ export default memo(
       updateLocation,
     } = props;
 
-    const handleNavClick = (e:SyntheticEvent) => {
+    const handleNavClick = (e: SyntheticEvent) => {
       e.preventDefault();
       e.stopPropagation();
       updateLocation(current ? 'home' : target);
