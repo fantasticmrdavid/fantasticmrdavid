@@ -18,4 +18,5 @@ module.exports = {
     '^styles(.*)$': '<rootDir>/src/styles$1',
   },
   setupFiles: ['<rootDir>/src/setupTests.js'],
+  snapshotSerializers: ["enzyme-to-json/serializer"]
 };

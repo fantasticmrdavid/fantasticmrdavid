@@ -1,7 +1,691 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Component -> Popup should render the closed Popup UI without throwing an error 1`] = `ReactWrapper {}`;
+exports[`Component -> Popup should render the closed Popup UI without throwing an error 1`] = `
+<Memo()
+  active={false}
+  close={[MockFunction]}
+  loading={false}
+  orientation="landscape"
+  title="Popup Test"
+  url="/about"
+>
+  <styles__Container
+    active={false}
+    loading={false}
+  >
+    <StyledComponent
+      active={false}
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "styles__Container-hsnn8o-0",
+            "isStatic": false,
+            "lastClassName": "jYwInk",
+            "rules": Array [
+              "position:fixed;width:100%;height:100%;z-index:",
+              [Function],
+              ";display:flex;justify-content:center;align-items:center;transition:0.5s;opacity:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "styles__Container",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "styles__Container-hsnn8o-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      loading={false}
+    >
+      <div
+        className="styles__Container-hsnn8o-0 jYwInk"
+      >
+        <styles__Lightbox
+          onClick={[Function]}
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "styles__Lightbox-hsnn8o-1",
+                  "isStatic": true,
+                  "lastClassName": "ksCHkr",
+                  "rules": Array [
+                    "position:absolute;top:0px;left:0px;width:100%;height:100%;background:",
+                    "rgba(0,0,0,0.7)",
+                    ";",
+                  ],
+                },
+                "displayName": "styles__Lightbox",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "styles__Lightbox-hsnn8o-1",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            onClick={[Function]}
+          >
+            <div
+              className="styles__Lightbox-hsnn8o-1 ksCHkr"
+              onClick={[Function]}
+            />
+          </StyledComponent>
+        </styles__Lightbox>
+        <styles__Dialog>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "styles__Dialog-hsnn8o-2",
+                  "isStatic": true,
+                  "lastClassName": "gyNTYq",
+                  "rules": Array [
+                    "position:relative;border:",
+                    "1px solid #333",
+                    ";box-shadow:",
+                    "7px 7px 5px rgba(0, 0, 0, 0.2)",
+                    ";max-width:90%;max-height:90%;transition:0.5s;",
+                  ],
+                },
+                "displayName": "styles__Dialog",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "styles__Dialog-hsnn8o-2",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="styles__Dialog-hsnn8o-2 gyNTYq"
+            >
+              <styles__Close
+                onClick={[Function]}
+              >
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "styles__Close-hsnn8o-5",
+                        "isStatic": true,
+                        "lastClassName": "hcTcxP",
+                        "rules": Array [
+                          "position:absolute;top:0px;right:0px;padding:0.5em;color:white;background-color:",
+                          "rgba(0,0,0,0.2)",
+                          ";font-size:1.4rem;cursor:pointer;transition:0.3s;z-index:2;",
+                          "@media (min-width:",
+                          "35.5",
+                          "em){",
+                          "
+    right: -1em;
+    padding: 0;
+  ",
+                          "}",
+                          ";",
+                          "@media (min-width:",
+                          "48",
+                          "em){",
+                          "
+    &:hover {
+      color: tomato;
+    }
+  ",
+                          "}",
+                          ";",
+                        ],
+                      },
+                      "displayName": "styles__Close",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "styles__Close-hsnn8o-5",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  onClick={[Function]}
+                >
+                  <div
+                    className="styles__Close-hsnn8o-5 hcTcxP"
+                    onClick={[Function]}
+                  >
+                    X
+                  </div>
+                </StyledComponent>
+              </styles__Close>
+              <styles__Landscape
+                alt="Popup Test"
+                src="/about"
+              >
+                <StyledComponent
+                  alt="Popup Test"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "styles__Landscape-hsnn8o-3",
+                        "isStatic": true,
+                        "lastClassName": "linvvc",
+                        "rules": Array [
+                          "width:1000px;max-width:90vw;height:auto;",
+                          "@media (min-width:",
+                          "100",
+                          "em){",
+                          "
+    width: 95vw;
+    max-width: 1600px;
+  ",
+                          "}",
+                        ],
+                      },
+                      "displayName": "styles__Landscape",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "styles__Landscape-hsnn8o-3",
+                      "target": "img",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  src="/about"
+                >
+                  <img
+                    alt="Popup Test"
+                    className="styles__Landscape-hsnn8o-3 linvvc"
+                    src="/about"
+                  />
+                </StyledComponent>
+              </styles__Landscape>
+            </div>
+          </StyledComponent>
+        </styles__Dialog>
+      </div>
+    </StyledComponent>
+  </styles__Container>
+</Memo()>
+`;
 
-exports[`Component -> Popup should render the loading Popup UI without throwing an error 1`] = `ReactWrapper {}`;
+exports[`Component -> Popup should render the loading Popup UI without throwing an error 1`] = `
+<Memo()
+  active={true}
+  close={[MockFunction]}
+  loading={true}
+  orientation="landscape"
+  title="Popup Test"
+  url="/about"
+>
+  <styles__Container
+    active={true}
+    loading={true}
+  >
+    <StyledComponent
+      active={true}
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "styles__Container-hsnn8o-0",
+            "isStatic": false,
+            "lastClassName": "jYwInk",
+            "rules": Array [
+              "position:fixed;width:100%;height:100%;z-index:",
+              [Function],
+              ";display:flex;justify-content:center;align-items:center;transition:0.5s;opacity:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "styles__Container",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "styles__Container-hsnn8o-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      loading={true}
+    >
+      <div
+        className="styles__Container-hsnn8o-0 jYwInk"
+      >
+        <styles__Lightbox
+          onClick={[Function]}
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "styles__Lightbox-hsnn8o-1",
+                  "isStatic": true,
+                  "lastClassName": "ksCHkr",
+                  "rules": Array [
+                    "position:absolute;top:0px;left:0px;width:100%;height:100%;background:",
+                    "rgba(0,0,0,0.7)",
+                    ";",
+                  ],
+                },
+                "displayName": "styles__Lightbox",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "styles__Lightbox-hsnn8o-1",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            onClick={[Function]}
+          >
+            <div
+              className="styles__Lightbox-hsnn8o-1 ksCHkr"
+              onClick={[Function]}
+            />
+          </StyledComponent>
+        </styles__Lightbox>
+        <styles__Dialog>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "styles__Dialog-hsnn8o-2",
+                  "isStatic": true,
+                  "lastClassName": "gyNTYq",
+                  "rules": Array [
+                    "position:relative;border:",
+                    "1px solid #333",
+                    ";box-shadow:",
+                    "7px 7px 5px rgba(0, 0, 0, 0.2)",
+                    ";max-width:90%;max-height:90%;transition:0.5s;",
+                  ],
+                },
+                "displayName": "styles__Dialog",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "styles__Dialog-hsnn8o-2",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="styles__Dialog-hsnn8o-2 gyNTYq"
+            >
+              <styles__Close
+                onClick={[Function]}
+              >
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "styles__Close-hsnn8o-5",
+                        "isStatic": true,
+                        "lastClassName": "hcTcxP",
+                        "rules": Array [
+                          "position:absolute;top:0px;right:0px;padding:0.5em;color:white;background-color:",
+                          "rgba(0,0,0,0.2)",
+                          ";font-size:1.4rem;cursor:pointer;transition:0.3s;z-index:2;",
+                          "@media (min-width:",
+                          "35.5",
+                          "em){",
+                          "
+    right: -1em;
+    padding: 0;
+  ",
+                          "}",
+                          ";",
+                          "@media (min-width:",
+                          "48",
+                          "em){",
+                          "
+    &:hover {
+      color: tomato;
+    }
+  ",
+                          "}",
+                          ";",
+                        ],
+                      },
+                      "displayName": "styles__Close",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "styles__Close-hsnn8o-5",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  onClick={[Function]}
+                >
+                  <div
+                    className="styles__Close-hsnn8o-5 hcTcxP"
+                    onClick={[Function]}
+                  >
+                    X
+                  </div>
+                </StyledComponent>
+              </styles__Close>
+              <styles__Landscape
+                alt="Popup Test"
+                src="/about"
+              >
+                <StyledComponent
+                  alt="Popup Test"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "styles__Landscape-hsnn8o-3",
+                        "isStatic": true,
+                        "lastClassName": "linvvc",
+                        "rules": Array [
+                          "width:1000px;max-width:90vw;height:auto;",
+                          "@media (min-width:",
+                          "100",
+                          "em){",
+                          "
+    width: 95vw;
+    max-width: 1600px;
+  ",
+                          "}",
+                        ],
+                      },
+                      "displayName": "styles__Landscape",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "styles__Landscape-hsnn8o-3",
+                      "target": "img",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  src="/about"
+                >
+                  <img
+                    alt="Popup Test"
+                    className="styles__Landscape-hsnn8o-3 linvvc"
+                    src="/about"
+                  />
+                </StyledComponent>
+              </styles__Landscape>
+            </div>
+          </StyledComponent>
+        </styles__Dialog>
+      </div>
+    </StyledComponent>
+  </styles__Container>
+</Memo()>
+`;
 
-exports[`Component -> Popup should render the open Popup UI without throwing an error 1`] = `ReactWrapper {}`;
+exports[`Component -> Popup should render the open Popup UI without throwing an error 1`] = `
+<Memo()
+  active={true}
+  close={[MockFunction]}
+  loading={false}
+  orientation="landscape"
+  title="Popup Test"
+  url="/about"
+>
+  <styles__Container
+    active={true}
+    loading={false}
+  >
+    <StyledComponent
+      active={true}
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "styles__Container-hsnn8o-0",
+            "isStatic": false,
+            "lastClassName": "hBnaWl",
+            "rules": Array [
+              "position:fixed;width:100%;height:100%;z-index:",
+              [Function],
+              ";display:flex;justify-content:center;align-items:center;transition:0.5s;opacity:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "styles__Container",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "styles__Container-hsnn8o-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      loading={false}
+    >
+      <div
+        className="styles__Container-hsnn8o-0 hBnaWl"
+      >
+        <styles__Lightbox
+          onClick={[Function]}
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "styles__Lightbox-hsnn8o-1",
+                  "isStatic": true,
+                  "lastClassName": "ksCHkr",
+                  "rules": Array [
+                    "position:absolute;top:0px;left:0px;width:100%;height:100%;background:",
+                    "rgba(0,0,0,0.7)",
+                    ";",
+                  ],
+                },
+                "displayName": "styles__Lightbox",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "styles__Lightbox-hsnn8o-1",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            onClick={[Function]}
+          >
+            <div
+              className="styles__Lightbox-hsnn8o-1 ksCHkr"
+              onClick={[Function]}
+            />
+          </StyledComponent>
+        </styles__Lightbox>
+        <styles__Dialog>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "styles__Dialog-hsnn8o-2",
+                  "isStatic": true,
+                  "lastClassName": "gyNTYq",
+                  "rules": Array [
+                    "position:relative;border:",
+                    "1px solid #333",
+                    ";box-shadow:",
+                    "7px 7px 5px rgba(0, 0, 0, 0.2)",
+                    ";max-width:90%;max-height:90%;transition:0.5s;",
+                  ],
+                },
+                "displayName": "styles__Dialog",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "styles__Dialog-hsnn8o-2",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="styles__Dialog-hsnn8o-2 gyNTYq"
+            >
+              <styles__Close
+                onClick={[Function]}
+              >
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "styles__Close-hsnn8o-5",
+                        "isStatic": true,
+                        "lastClassName": "hcTcxP",
+                        "rules": Array [
+                          "position:absolute;top:0px;right:0px;padding:0.5em;color:white;background-color:",
+                          "rgba(0,0,0,0.2)",
+                          ";font-size:1.4rem;cursor:pointer;transition:0.3s;z-index:2;",
+                          "@media (min-width:",
+                          "35.5",
+                          "em){",
+                          "
+    right: -1em;
+    padding: 0;
+  ",
+                          "}",
+                          ";",
+                          "@media (min-width:",
+                          "48",
+                          "em){",
+                          "
+    &:hover {
+      color: tomato;
+    }
+  ",
+                          "}",
+                          ";",
+                        ],
+                      },
+                      "displayName": "styles__Close",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "styles__Close-hsnn8o-5",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  onClick={[Function]}
+                >
+                  <div
+                    className="styles__Close-hsnn8o-5 hcTcxP"
+                    onClick={[Function]}
+                  >
+                    X
+                  </div>
+                </StyledComponent>
+              </styles__Close>
+              <styles__Landscape
+                alt="Popup Test"
+                src="/about"
+              >
+                <StyledComponent
+                  alt="Popup Test"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "styles__Landscape-hsnn8o-3",
+                        "isStatic": true,
+                        "lastClassName": "linvvc",
+                        "rules": Array [
+                          "width:1000px;max-width:90vw;height:auto;",
+                          "@media (min-width:",
+                          "100",
+                          "em){",
+                          "
+    width: 95vw;
+    max-width: 1600px;
+  ",
+                          "}",
+                        ],
+                      },
+                      "displayName": "styles__Landscape",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "styles__Landscape-hsnn8o-3",
+                      "target": "img",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  src="/about"
+                >
+                  <img
+                    alt="Popup Test"
+                    className="styles__Landscape-hsnn8o-3 linvvc"
+                    src="/about"
+                  />
+                </StyledComponent>
+              </styles__Landscape>
+            </div>
+          </StyledComponent>
+        </styles__Dialog>
+      </div>
+    </StyledComponent>
+  </styles__Container>
+</Memo()>
+`;
