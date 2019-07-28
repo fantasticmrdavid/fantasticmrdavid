@@ -1,4 +1,4 @@
-import React, { memo, useCallback } from 'react';
+import React, { memo, useCallback, SyntheticEvent } from 'react';
 import Content from './Content';
 import * as styles from './styles';
 
@@ -42,7 +42,7 @@ export default memo(
       updateCurrent,
     } = props;
 
-    const handleTileClick = useCallback(e => {
+    const handleTileClick = useCallback((e: SyntheticEvent) => {
       e.preventDefault();
       const newCurrent = !!isCurrent ? undefined : target;
       updateCurrent(newCurrent);
