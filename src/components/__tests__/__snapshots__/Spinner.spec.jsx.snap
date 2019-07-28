@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component -> Spinner should render the Spinner without throwing an error 1`] = `
+<div
+  className="styles__Container-sc-12l0t9s-1 dqthrM"
+>
+  <div
+    className="styles__Bar-sc-12l0t9s-0 styles__Spinner-sc-12l0t9s-2 lbkoAF"
+  />
+</div>
+`;

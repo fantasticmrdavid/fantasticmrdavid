@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component -> TerminalText should render the TerminalText with a component without throwing an error 1`] = `
+<TerminalText
+  blinker={true}
+  onComplete={[MockFunction]}
+  speed={5}
+>
+  <Memo()>
+    <styles__Cursor>
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "styles__Cursor-cbfjlf-0",
+              "isStatic": true,
+              "lastClassName": "kPyiRo",
+              "rules": Array [
+                "position:relative;display:inline-block;width:0.5rem;margin-left:0.15rem;animation:",
+                Keyframes {
+                  "id": "sc-keyframes-kFBPLh",
+                  "inject": [Function],
+                  "name": "kFBPLh",
+                  "rules": Array [
+                    "@-webkit-keyframes kFBPLh{0%{opacity:1.0;}50%{opacity:0.0;}100%{opacity:1.0;}}",
+                    "@keyframes kFBPLh{0%{opacity:1.0;}50%{opacity:0.0;}100%{opacity:1.0;}}",
+                  ],
+                  "toString": [Function],
+                },
+                " 1s step-end infinite",
+                ";border-bottom:2px solid ",
+                "#aaa",
+                ";",
+              ],
+            },
+            "displayName": "styles__Cursor",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "styles__Cursor-cbfjlf-0",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+      >
+        <div
+          className="styles__Cursor-cbfjlf-0 kPyiRo"
+        />
+      </StyledComponent>
+    </styles__Cursor>
+  </Memo()>
+</TerminalText>
+`;
+
+exports[`Component -> TerminalText should render the TerminalText with a string without throwing an error 1`] = `
+<TerminalText
+  blinker={true}
+  onComplete={[MockFunction]}
+  speed={5}
+>
+  <Memo()>
+    <styles__Cursor>
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "styles__Cursor-cbfjlf-0",
+              "isStatic": true,
+              "lastClassName": "kPyiRo",
+              "rules": Array [
+                "position:relative;display:inline-block;width:0.5rem;margin-left:0.15rem;animation:",
+                Keyframes {
+                  "id": "sc-keyframes-kFBPLh",
+                  "inject": [Function],
+                  "name": "kFBPLh",
+                  "rules": Array [
+                    "@-webkit-keyframes kFBPLh{0%{opacity:1.0;}50%{opacity:0.0;}100%{opacity:1.0;}}",
+                    "@keyframes kFBPLh{0%{opacity:1.0;}50%{opacity:0.0;}100%{opacity:1.0;}}",
+                  ],
+                  "toString": [Function],
+                },
+                " 1s step-end infinite",
+                ";border-bottom:2px solid ",
+                "#aaa",
+                ";",
+              ],
+            },
+            "displayName": "styles__Cursor",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "styles__Cursor-cbfjlf-0",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+      >
+        <div
+          className="styles__Cursor-cbfjlf-0 kPyiRo"
+        />
+      </StyledComponent>
+    </styles__Cursor>
+  </Memo()>
+</TerminalText>
+`;

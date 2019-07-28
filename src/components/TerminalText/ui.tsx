@@ -35,7 +35,7 @@ class TerminalText extends PureComponent<Props, State> {
     this.state = {
       text: <Fragment />,
       index: 0,
-      letters: children ? children.split('') : [],
+      letters: children && typeof children === 'string' ? children.split('') : [],
       currentLine: '',
       complete: false,
       paused: false,
