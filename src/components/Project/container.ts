@@ -15,11 +15,12 @@ type DispatchProps = {
 }
 
 const mapStateToProps = (state: AppState, ownProps: UiProps) => {
+  const { loading, workMedia } = state;
   return {
     ...ownProps,
-    current: state.workMedia.location,
-    isCurrent: state.workMedia.location === ownProps.target,
-    parentLoading: state.loading.media || state.loading.images,
+    current: workMedia.location,
+    isCurrent: workMedia.location === ownProps.target,
+    parentLoading: loading.media || loading.images,
   };
 };
 
