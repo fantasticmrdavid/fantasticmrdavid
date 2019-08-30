@@ -57,7 +57,7 @@ exports[`Component -> MenuLink should render the "about" MenuLink UI without thr
                 "componentStyle": ComponentStyle {
                   "componentId": "styles__Label-sc-1w8m3j0-1",
                   "isStatic": false,
-                  "lastClassName": "efNHFY",
+                  "lastClassName": "dcJTwn",
                   "rules": Array [
                     "position:relative;padding:",
                     [Function],
@@ -72,9 +72,7 @@ exports[`Component -> MenuLink should render the "about" MenuLink UI without thr
                     ";&:before{position:absolute;top:0px;left:0px;content:\\"\\";height:100%;transition:0.3s;background-color:",
                     "#555",
                     ";}",
-                    "@media (min-width:",
-                    "48",
-                    "em){",
+                    "@media (hover:hover){",
                     "
     &:hover {
       padding-left: ",
@@ -114,7 +112,7 @@ exports[`Component -> MenuLink should render the "about" MenuLink UI without thr
             target="about"
           >
             <div
-              className="styles__Label-sc-1w8m3j0-1 efNHFY"
+              className="styles__Label-sc-1w8m3j0-1 dcJTwn"
               onClick={[Function]}
               target="about"
             >
@@ -246,7 +244,7 @@ exports[`Component -> MenuLink should render the "contact" MenuLink UI without t
                 "componentStyle": ComponentStyle {
                   "componentId": "styles__Label-sc-1w8m3j0-1",
                   "isStatic": false,
-                  "lastClassName": "iVnQDp",
+                  "lastClassName": "eIGLXT",
                   "rules": Array [
                     "position:relative;padding:",
                     [Function],
@@ -261,9 +259,7 @@ exports[`Component -> MenuLink should render the "contact" MenuLink UI without t
                     ";&:before{position:absolute;top:0px;left:0px;content:\\"\\";height:100%;transition:0.3s;background-color:",
                     "#555",
                     ";}",
-                    "@media (min-width:",
-                    "48",
-                    "em){",
+                    "@media (hover:hover){",
                     "
     &:hover {
       padding-left: ",
@@ -303,7 +299,7 @@ exports[`Component -> MenuLink should render the "contact" MenuLink UI without t
             target="contact"
           >
             <div
-              className="styles__Label-sc-1w8m3j0-1 iVnQDp"
+              className="styles__Label-sc-1w8m3j0-1 eIGLXT"
               onClick={[Function]}
               target="contact"
             >
@@ -435,7 +431,7 @@ exports[`Component -> MenuLink should render the "work" MenuLink UI without thro
                 "componentStyle": ComponentStyle {
                   "componentId": "styles__Label-sc-1w8m3j0-1",
                   "isStatic": false,
-                  "lastClassName": "cNGGvr",
+                  "lastClassName": "SLhrz",
                   "rules": Array [
                     "position:relative;padding:",
                     [Function],
@@ -450,9 +446,7 @@ exports[`Component -> MenuLink should render the "work" MenuLink UI without thro
                     ";&:before{position:absolute;top:0px;left:0px;content:\\"\\";height:100%;transition:0.3s;background-color:",
                     "#555",
                     ";}",
-                    "@media (min-width:",
-                    "48",
-                    "em){",
+                    "@media (hover:hover){",
                     "
     &:hover {
       padding-left: ",
@@ -492,7 +486,7 @@ exports[`Component -> MenuLink should render the "work" MenuLink UI without thro
             target="work"
           >
             <div
-              className="styles__Label-sc-1w8m3j0-1 cNGGvr"
+              className="styles__Label-sc-1w8m3j0-1 SLhrz"
               onClick={[Function]}
               target="work"
             >

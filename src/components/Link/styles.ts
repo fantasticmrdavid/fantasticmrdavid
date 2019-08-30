@@ -8,7 +8,7 @@ export const Link = styled.a`
   border-bottom: ${`1px solid ${theme.colorWhite}`};
   transition: 0.3s;
 
-  ${media.medium`
+  ${media.hover`
     &:hover {
       border-bottom-color: ${theme.colorRed};
     }

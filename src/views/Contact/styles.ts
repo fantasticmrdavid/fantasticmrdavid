@@ -45,7 +45,7 @@ export const Email = styled.div`
     text-decoration: none;
     transition: 0.3s;
 
-    ${media.medium`
+    ${media.hover`
       &:hover {
         color: white;
       }
@@ -66,7 +66,7 @@ export const Icon = styled(ComponentIcon)`
   margin: 0 3px;
   transition: 0.3s;
 
-  ${media.medium`
+  ${media.hover`
     &:hover {
       color: ${theme.colorWhite};
     }

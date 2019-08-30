@@ -51,7 +51,7 @@ export const Label = styled.div<LabelProps>`
     background-color: ${theme.colorDarkGrey};
   }
 
-  ${media.medium`
+  ${media.hover`
     &:hover {
       padding-left: ${(props: { current: boolean }) => (!props.current ? '60px' : undefined)};
       background-color: ${(props: { current: boolean }) => (!props.current ? theme.colorDarkGrey : undefined)};

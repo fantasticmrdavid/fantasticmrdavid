@@ -16,5 +16,10 @@ export const media = Object.keys(widthSizes).reduce(
     }`;
     /* eslint-enable */
     return accumulator;
-  }, {} as any,
+  }, {
+    hover: (literals: TemplateStringsArray, ...args: any[]) => css`
+    @media (hover: hover) {
+      ${css(literals, ...args)}
+    }`,
+  } as any,
 ) as Record<keyof typeof widthSizes, (l: TemplateStringsArray, ...args: any[]) => string>;

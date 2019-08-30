@@ -2,6 +2,7 @@
 import { createGlobalStyle } from 'styled-components';
 import theme from './theme';
 import reset from './reset';
+import { media } from 'styles/utils';
 
 const GlobalStyles = createGlobalStyle`
   ${reset}
@@ -19,11 +20,13 @@ const GlobalStyles = createGlobalStyle`
       transition: 0.3s;
     }
 
-    &:hover {
-      .u-fill {
-        fill: ${theme.colorWhite};
+    ${media.hover`
+      &:hover {
+        .u-fill {
+          fill: ${theme.colorWhite};
+        }
       }
-    }
+    `}
   }
 `;
 

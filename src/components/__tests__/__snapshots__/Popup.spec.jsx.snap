@@ -128,7 +128,7 @@ exports[`Component -> Popup should render the closed Popup UI without throwing a
                       "componentStyle": ComponentStyle {
                         "componentId": "styles__Close-hsnn8o-5",
                         "isStatic": true,
-                        "lastClassName": "hcTcxP",
+                        "lastClassName": "esqoOc",
                         "rules": Array [
                           "position:absolute;top:0px;right:0px;padding:0.5em;color:white;background-color:",
                           "rgba(0,0,0,0.2)",
@@ -142,9 +142,7 @@ exports[`Component -> Popup should render the closed Popup UI without throwing a
   ",
                           "}",
                           ";",
-                          "@media (min-width:",
-                          "48",
-                          "em){",
+                          "@media (hover:hover){",
                           "
     &:hover {
       color: tomato;
@@ -168,7 +166,7 @@ exports[`Component -> Popup should render the closed Popup UI without throwing a
                   onClick={[Function]}
                 >
                   <div
-                    className="styles__Close-hsnn8o-5 hcTcxP"
+                    className="styles__Close-hsnn8o-5 esqoOc"
                     onClick={[Function]}
                   >
                     X
@@ -358,7 +356,7 @@ exports[`Component -> Popup should render the loading Popup UI without throwing 
                       "componentStyle": ComponentStyle {
                         "componentId": "styles__Close-hsnn8o-5",
                         "isStatic": true,
-                        "lastClassName": "hcTcxP",
+                        "lastClassName": "esqoOc",
                         "rules": Array [
                           "position:absolute;top:0px;right:0px;padding:0.5em;color:white;background-color:",
                           "rgba(0,0,0,0.2)",
@@ -372,9 +370,7 @@ exports[`Component -> Popup should render the loading Popup UI without throwing 
   ",
                           "}",
                           ";",
-                          "@media (min-width:",
-                          "48",
-                          "em){",
+                          "@media (hover:hover){",
                           "
     &:hover {
       color: tomato;
@@ -398,7 +394,7 @@ exports[`Component -> Popup should render the loading Popup UI without throwing 
                   onClick={[Function]}
                 >
                   <div
-                    className="styles__Close-hsnn8o-5 hcTcxP"
+                    className="styles__Close-hsnn8o-5 esqoOc"
                     onClick={[Function]}
                   >
                     X
@@ -588,7 +584,7 @@ exports[`Component -> Popup should render the open Popup UI without throwing an 
                       "componentStyle": ComponentStyle {
                         "componentId": "styles__Close-hsnn8o-5",
                         "isStatic": true,
-                        "lastClassName": "hcTcxP",
+                        "lastClassName": "esqoOc",
                         "rules": Array [
                           "position:absolute;top:0px;right:0px;padding:0.5em;color:white;background-color:",
                           "rgba(0,0,0,0.2)",
@@ -602,9 +598,7 @@ exports[`Component -> Popup should render the open Popup UI without throwing an 
   ",
                           "}",
                           ";",
-                          "@media (min-width:",
-                          "48",
-                          "em){",
+                          "@media (hover:hover){",
                           "
     &:hover {
       color: tomato;
@@ -628,7 +622,7 @@ exports[`Component -> Popup should render the open Popup UI without throwing an 
                   onClick={[Function]}
                 >
                   <div
-                    className="styles__Close-hsnn8o-5 hcTcxP"
+                    className="styles__Close-hsnn8o-5 esqoOc"
                     onClick={[Function]}
                   >
                     X

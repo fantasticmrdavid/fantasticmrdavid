@@ -71,7 +71,7 @@ export const Cta = styled.a<CtaProps>`
     display: flex;
   `};
 
-  ${media.medium`
+  ${media.hover`
     &:hover {
       background: ${theme.colorCharcoal};
     }

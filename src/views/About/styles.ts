@@ -96,7 +96,7 @@ export const SleeperLink = styled(ComponentLink)`
   color: ${theme.colorTextPrimary};
   border-bottom: ${`1px solid ${transparentize(0.8, theme.colorTextPrimary)}`};
 
-  ${media.medium`
+  ${media.hover`
     &:hover {
       color: ${theme.colorWhite};
     }

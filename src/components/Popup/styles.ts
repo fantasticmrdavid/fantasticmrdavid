@@ -78,7 +78,7 @@ export const Close = styled.div`
     padding: 0;
   `};
 
-  ${media.medium`
+  ${media.hover`
     &:hover {
       color: tomato;
     }

@@ -78,11 +78,13 @@ export const Tile = styled.a<TileProps>`
     transform: ${props => (!props.current && !props.parentLoading ? 'rotateY(-20deg)' : undefined)};
   }
 
-  ${Container}:hover & {
-    right: 0px;
-    z-index: 12;
-    transform: ${props => (!props.parentLoading ? 'rotateY(0deg)' : undefined)};
-  }
+  ${media.hover`
+    ${Container}:hover & {
+      right: 0px;
+      z-index: 12;
+      transform: ${(props: TileProps) => (!props.parentLoading ? 'rotateY(0deg)' : undefined)};
+    }
+  `}
 `;
 
 export const Image = styled.div<ImageProps>`
@@ -145,7 +147,7 @@ export const Close = styled.div<CloseProps>`
   transition: 0.3s;
   z-index: 2;
 
-  ${media.medium`
+  ${media.hover`
     &:hover {
       color: ${theme.colorRed};
     }
