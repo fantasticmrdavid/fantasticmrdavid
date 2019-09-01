@@ -1,0 +1,2215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`View -> About should render the About view (loading) without throwing an error 1`] = `
+<Memo()
+  loading={true}
+>
+  <styles__Container
+    loading={true}
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "styles__Container-qm8p7s-0",
+            "isStatic": false,
+            "lastClassName": "nccxK",
+            "rules": Array [
+              "display:flex;flex-direction:column;align-items:center;justify-content:center;box-sizing:border-box;min-height:100%;padding:2em;background-color:",
+              "#111",
+              ";color:",
+              "#aaa",
+              ";opacity:",
+              [Function],
+              ";transition:1s;animation:",
+              Keyframes {
+                "id": "sc-keyframes-bcCCNc",
+                "inject": [Function],
+                "name": "bcCCNc",
+                "rules": Array [
+                  "@-webkit-keyframes bcCCNc{0%{opacity:0;}100%{opacity:1;}}",
+                  "@keyframes bcCCNc{0%{opacity:0;}100%{opacity:1;}}",
+                ],
+                "toString": [Function],
+              },
+              " 1s ease 1",
+              ";animation-fill-mode:forwards;",
+              "@media (min-width:",
+              "35.5",
+              "em){",
+              "
+    padding: 4em 2em;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+  ",
+              "}",
+            ],
+          },
+          "displayName": "styles__Container",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "styles__Container-qm8p7s-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      loading={true}
+    >
+      <div
+        className="styles__Container-qm8p7s-0 nccxK"
+      >
+        <styles__Bg>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "styles__Bg-qm8p7s-1",
+                  "isStatic": true,
+                  "lastClassName": "fxwiUF",
+                  "rules": Array [
+                    "position:absolute;top:0px;right:0px;width:100%;height:100%;overflow:hidden;",
+                  ],
+                },
+                "displayName": "styles__Bg",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "styles__Bg-qm8p7s-1",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="styles__Bg-qm8p7s-1 fxwiUF"
+            >
+              <Memo()
+                loading={true}
+              >
+                <styles__Container
+                  loading={true}
+                >
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "styles__Container-sc-1pwogyu-0",
+                          "isStatic": false,
+                          "lastClassName": "irMsJv",
+                          "rules": Array [
+                            "position:absolute;bottom:0px;right:0px;perspective:800px;perspective-origin:50% 150px;transition:0.5s;transform:",
+                            "scale(",
+                            [Function],
+                            ")",
+                            ";",
+                          ],
+                        },
+                        "displayName": "styles__Container",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "styles__Container-sc-1pwogyu-0",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    loading={true}
+                  >
+                    <div
+                      className="styles__Container-sc-1pwogyu-0 irMsJv"
+                    >
+                      <styles__Polygon>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "styles__Polygon-sc-1pwogyu-1",
+                                "isStatic": true,
+                                "lastClassName": "dCIqjj",
+                                "rules": Array [
+                                  "position:absolute;bottom:225px;right:-100px;width:300px;transform-style:preserve-3d;animation:",
+                                  Keyframes {
+                                    "id": "sc-keyframes-fAwMGd",
+                                    "inject": [Function],
+                                    "name": "fAwMGd",
+                                    "rules": Array [
+                                      "@-webkit-keyframes fAwMGd{from{-webkit-transform:rotateX(15deg) rotateY(15deg);-ms-transform:rotateX(15deg) rotateY(15deg);transform:rotateX(15deg) rotateY(15deg);}to{-webkit-transform:rotateX(-60deg) rotateY(60deg);-ms-transform:rotateX(-60deg) rotateY(60deg);transform:rotateX(-60deg) rotateY(60deg);}}",
+                                      "@keyframes fAwMGd{from{-webkit-transform:rotateX(15deg) rotateY(15deg);-ms-transform:rotateX(15deg) rotateY(15deg);transform:rotateX(15deg) rotateY(15deg);}to{-webkit-transform:rotateX(-60deg) rotateY(60deg);-ms-transform:rotateX(-60deg) rotateY(60deg);transform:rotateX(-60deg) rotateY(60deg);}}",
+                                    ],
+                                    "toString": [Function],
+                                  },
+                                  " 0.6s normal linear",
+                                  ";animation-fill-mode:forwards;",
+                                ],
+                              },
+                              "displayName": "styles__Polygon",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "styles__Polygon-sc-1pwogyu-1",
+                              "target": "div",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <div
+                            className="styles__Polygon-sc-1pwogyu-1 dCIqjj"
+                          >
+                            <styles__Front>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "styles__Front-sc-1pwogyu-8",
+                                      "isStatic": true,
+                                      "lastClassName": "hZHsMX",
+                                      "rules": Array [
+                                        "position:absolute;width:300px;height:300px;background:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);",
+                                        "transform:translateZ(150px);",
+                                      ],
+                                    },
+                                    "displayName": "styles__Front",
+                                    "foldedComponentIds": Array [
+                                      "styles__Side-sc-1pwogyu-2",
+                                    ],
+                                    "render": [Function],
+                                    "styledComponentId": "styles__Front-sc-1pwogyu-8",
+                                    "target": "div",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <div
+                                  className="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 hZHsMX"
+                                >
+                                  <Memo()
+                                    direction="left"
+                                  >
+                                    <styles__Tracer
+                                      direction="left"
+                                    >
+                                      <StyledComponent
+                                        direction="left"
+                                        forwardedComponent={
+                                          Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "attrs": Array [],
+                                            "componentStyle": ComponentStyle {
+                                              "componentId": "styles__Tracer-sc-18vfsm6-0",
+                                              "isStatic": false,
+                                              "lastClassName": "kWITRq",
+                                              "rules": Array [
+                                                "position:absolute;top:-1px;left:50%;opacity:0;width:50px;height:2px;z-index:1;background:red;animation:",
+                                                [Function],
+                                                ";animation-fill-mode:forwards;",
+                                              ],
+                                            },
+                                            "displayName": "styles__Tracer",
+                                            "foldedComponentIds": Array [],
+                                            "render": [Function],
+                                            "styledComponentId": "styles__Tracer-sc-18vfsm6-0",
+                                            "target": "div",
+                                            "toString": [Function],
+                                            "warnTooManyClasses": [Function],
+                                            "withComponent": [Function],
+                                          }
+                                        }
+                                        forwardedRef={null}
+                                      >
+                                        <div
+                                          className="styles__Tracer-sc-18vfsm6-0 cVcktX"
+                                          direction="left"
+                                        />
+                                      </StyledComponent>
+                                    </styles__Tracer>
+                                  </Memo()>
+                                </div>
+                              </StyledComponent>
+                            </styles__Front>
+                            <styles__Back>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "styles__Back-sc-1pwogyu-3",
+                                      "isStatic": true,
+                                      "lastClassName": "hLVrnA",
+                                      "rules": Array [
+                                        "position:absolute;width:300px;height:300px;background:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);",
+                                        "transform:translateZ(-150px) rotateY(180deg);",
+                                      ],
+                                    },
+                                    "displayName": "styles__Back",
+                                    "foldedComponentIds": Array [
+                                      "styles__Side-sc-1pwogyu-2",
+                                    ],
+                                    "render": [Function],
+                                    "styledComponentId": "styles__Back-sc-1pwogyu-3",
+                                    "target": "div",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <div
+                                  className="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 hLVrnA"
+                                >
+                                  <Memo()>
+                                    <styles__Tracer>
+                                      <StyledComponent
+                                        forwardedComponent={
+                                          Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "attrs": Array [],
+                                            "componentStyle": ComponentStyle {
+                                              "componentId": "styles__Tracer-sc-18vfsm6-0",
+                                              "isStatic": false,
+                                              "lastClassName": "kWITRq",
+                                              "rules": Array [
+                                                "position:absolute;top:-1px;left:50%;opacity:0;width:50px;height:2px;z-index:1;background:red;animation:",
+                                                [Function],
+                                                ";animation-fill-mode:forwards;",
+                                              ],
+                                            },
+                                            "displayName": "styles__Tracer",
+                                            "foldedComponentIds": Array [],
+                                            "render": [Function],
+                                            "styledComponentId": "styles__Tracer-sc-18vfsm6-0",
+                                            "target": "div",
+                                            "toString": [Function],
+                                            "warnTooManyClasses": [Function],
+                                            "withComponent": [Function],
+                                          }
+                                        }
+                                        forwardedRef={null}
+                                      >
+                                        <div
+                                          className="styles__Tracer-sc-18vfsm6-0 kWITRq"
+                                        />
+                                      </StyledComponent>
+                                    </styles__Tracer>
+                                  </Memo()>
+                                </div>
+                              </StyledComponent>
+                            </styles__Back>
+                            <styles__Top>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "styles__Top-sc-1pwogyu-6",
+                                      "isStatic": true,
+                                      "lastClassName": "QCabo",
+                                      "rules": Array [
+                                        "position:absolute;width:300px;height:300px;background:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);",
+                                        "transform:rotateX(-90deg) translateY(-152px);transform-origin:top center;",
+                                      ],
+                                    },
+                                    "displayName": "styles__Top",
+                                    "foldedComponentIds": Array [
+                                      "styles__Side-sc-1pwogyu-2",
+                                    ],
+                                    "render": [Function],
+                                    "styledComponentId": "styles__Top-sc-1pwogyu-6",
+                                    "target": "div",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <div
+                                  className="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 QCabo"
+                                />
+                              </StyledComponent>
+                            </styles__Top>
+                            <styles__Bottom>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "styles__Bottom-sc-1pwogyu-7",
+                                      "isStatic": true,
+                                      "lastClassName": "cwSPhK",
+                                      "rules": Array [
+                                        "position:absolute;width:300px;height:300px;background:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);",
+                                        "transform:rotateX(90deg) translateY(150px);transform-origin:bottom center;",
+                                      ],
+                                    },
+                                    "displayName": "styles__Bottom",
+                                    "foldedComponentIds": Array [
+                                      "styles__Side-sc-1pwogyu-2",
+                                    ],
+                                    "render": [Function],
+                                    "styledComponentId": "styles__Bottom-sc-1pwogyu-7",
+                                    "target": "div",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <div
+                                  className="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 cwSPhK"
+                                >
+                                  <Memo()>
+                                    <styles__Tracer>
+                                      <StyledComponent
+                                        forwardedComponent={
+                                          Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "attrs": Array [],
+                                            "componentStyle": ComponentStyle {
+                                              "componentId": "styles__Tracer-sc-18vfsm6-0",
+                                              "isStatic": false,
+                                              "lastClassName": "kWITRq",
+                                              "rules": Array [
+                                                "position:absolute;top:-1px;left:50%;opacity:0;width:50px;height:2px;z-index:1;background:red;animation:",
+                                                [Function],
+                                                ";animation-fill-mode:forwards;",
+                                              ],
+                                            },
+                                            "displayName": "styles__Tracer",
+                                            "foldedComponentIds": Array [],
+                                            "render": [Function],
+                                            "styledComponentId": "styles__Tracer-sc-18vfsm6-0",
+                                            "target": "div",
+                                            "toString": [Function],
+                                            "warnTooManyClasses": [Function],
+                                            "withComponent": [Function],
+                                          }
+                                        }
+                                        forwardedRef={null}
+                                      >
+                                        <div
+                                          className="styles__Tracer-sc-18vfsm6-0 kWITRq"
+                                        />
+                                      </StyledComponent>
+                                    </styles__Tracer>
+                                  </Memo()>
+                                </div>
+                              </StyledComponent>
+                            </styles__Bottom>
+                            <styles__Left>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "styles__Left-sc-1pwogyu-5",
+                                      "isStatic": true,
+                                      "lastClassName": "dzatai",
+                                      "rules": Array [
+                                        "position:absolute;width:300px;height:300px;background:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);",
+                                        "transform:rotateY(270deg) translateX(-150px);transform-origin:center left;",
+                                      ],
+                                    },
+                                    "displayName": "styles__Left",
+                                    "foldedComponentIds": Array [
+                                      "styles__Side-sc-1pwogyu-2",
+                                    ],
+                                    "render": [Function],
+                                    "styledComponentId": "styles__Left-sc-1pwogyu-5",
+                                    "target": "div",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <div
+                                  className="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 dzatai"
+                                >
+                                  <Memo()
+                                    direction="left"
+                                  >
+                                    <styles__Tracer
+                                      direction="left"
+                                    >
+                                      <StyledComponent
+                                        direction="left"
+                                        forwardedComponent={
+                                          Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "attrs": Array [],
+                                            "componentStyle": ComponentStyle {
+                                              "componentId": "styles__Tracer-sc-18vfsm6-0",
+                                              "isStatic": false,
+                                              "lastClassName": "kWITRq",
+                                              "rules": Array [
+                                                "position:absolute;top:-1px;left:50%;opacity:0;width:50px;height:2px;z-index:1;background:red;animation:",
+                                                [Function],
+                                                ";animation-fill-mode:forwards;",
+                                              ],
+                                            },
+                                            "displayName": "styles__Tracer",
+                                            "foldedComponentIds": Array [],
+                                            "render": [Function],
+                                            "styledComponentId": "styles__Tracer-sc-18vfsm6-0",
+                                            "target": "div",
+                                            "toString": [Function],
+                                            "warnTooManyClasses": [Function],
+                                            "withComponent": [Function],
+                                          }
+                                        }
+                                        forwardedRef={null}
+                                      >
+                                        <div
+                                          className="styles__Tracer-sc-18vfsm6-0 cVcktX"
+                                          direction="left"
+                                        />
+                                      </StyledComponent>
+                                    </styles__Tracer>
+                                  </Memo()>
+                                </div>
+                              </StyledComponent>
+                            </styles__Left>
+                            <styles__Right>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "styles__Right-sc-1pwogyu-4",
+                                      "isStatic": true,
+                                      "lastClassName": "eWSCFi",
+                                      "rules": Array [
+                                        "position:absolute;width:300px;height:300px;background:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);",
+                                        "transform:rotateY(-270deg) translateX(150px);transform-origin:top right;",
+                                      ],
+                                    },
+                                    "displayName": "styles__Right",
+                                    "foldedComponentIds": Array [
+                                      "styles__Side-sc-1pwogyu-2",
+                                    ],
+                                    "render": [Function],
+                                    "styledComponentId": "styles__Right-sc-1pwogyu-4",
+                                    "target": "div",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <div
+                                  className="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 eWSCFi"
+                                >
+                                  <Memo()>
+                                    <styles__Tracer>
+                                      <StyledComponent
+                                        forwardedComponent={
+                                          Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "attrs": Array [],
+                                            "componentStyle": ComponentStyle {
+                                              "componentId": "styles__Tracer-sc-18vfsm6-0",
+                                              "isStatic": false,
+                                              "lastClassName": "kWITRq",
+                                              "rules": Array [
+                                                "position:absolute;top:-1px;left:50%;opacity:0;width:50px;height:2px;z-index:1;background:red;animation:",
+                                                [Function],
+                                                ";animation-fill-mode:forwards;",
+                                              ],
+                                            },
+                                            "displayName": "styles__Tracer",
+                                            "foldedComponentIds": Array [],
+                                            "render": [Function],
+                                            "styledComponentId": "styles__Tracer-sc-18vfsm6-0",
+                                            "target": "div",
+                                            "toString": [Function],
+                                            "warnTooManyClasses": [Function],
+                                            "withComponent": [Function],
+                                          }
+                                        }
+                                        forwardedRef={null}
+                                      >
+                                        <div
+                                          className="styles__Tracer-sc-18vfsm6-0 kWITRq"
+                                        />
+                                      </StyledComponent>
+                                    </styles__Tracer>
+                                  </Memo()>
+                                </div>
+                              </StyledComponent>
+                            </styles__Right>
+                          </div>
+                        </StyledComponent>
+                      </styles__Polygon>
+                    </div>
+                  </StyledComponent>
+                </styles__Container>
+              </Memo()>
+            </div>
+          </StyledComponent>
+        </styles__Bg>
+        <styles__ProfilePhoto
+          alt="Me"
+          src="/assets/images/profile.jpg"
+        >
+          <StyledComponent
+            alt="Me"
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "styles__ProfilePhoto-qm8p7s-2",
+                  "isStatic": true,
+                  "lastClassName": "bobYfB",
+                  "rules": Array [
+                    "width:100px;height:auto;margin-bottom:1em;z-index:1;",
+                    "@media (min-width:",
+                    "35.5",
+                    "em){",
+                    "
+    margin-bottom: 0;
+  ",
+                    "}",
+                    ";",
+                  ],
+                },
+                "displayName": "styles__ProfilePhoto",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "styles__ProfilePhoto-qm8p7s-2",
+                "target": "img",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            src="/assets/images/profile.jpg"
+          >
+            <img
+              alt="Me"
+              className="styles__ProfilePhoto-qm8p7s-2 bobYfB"
+              src="/assets/images/profile.jpg"
+            />
+          </StyledComponent>
+        </styles__ProfilePhoto>
+        <styles__Content>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "styles__Content-qm8p7s-3",
+                  "isStatic": true,
+                  "lastClassName": "ihbVpw",
+                  "rules": Array [
+                    "flex:1;font-size:0.9rem;font-weight:300;line-height:1.3;max-width:100%;padding-right:0px;z-index:1;",
+                    "@media (min-width:",
+                    "35.5",
+                    "em){",
+                    "
+    padding-right: 1em;
+    max-width: 900px;
+  ",
+                    "}",
+                    " h2{color:",
+                    "#fff",
+                    ";}p{margin-bottom:1em;}ul{list-style:disc;padding-left:1em;}",
+                  ],
+                },
+                "displayName": "styles__Content",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "styles__Content-qm8p7s-3",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="styles__Content-qm8p7s-3 ihbVpw"
+            >
+              <p>
+                Hi! I'm David, and I like making things.
+                <br />
+                <br />
+                Since childhood I've been passionate about building and creating. I've always enjoyed the journey of taking an idea from concept and making it reality whether it's solving a complex problem, creating some ambitious new artwork, or both.
+                <br />
+                <br />
+                I firmly believe that by empowering people with problem solving technology and empathy we can build a better world together.
+              </p>
+              <h2>
+                Engineer
+              </h2>
+              <p>
+                I've been building web projects for over a decade, starting from when I was in high school and needed a simple HTML page to display my artwork. From there I moved on to become a Full-Stack LAMP Developer working on vendor-side and agency projects alike, and then to lead Front-End and UX Engineering specialising in HTML5, CSS3, ES6 JavaScript and React. I love learning about new technologies to develop better and more effective ways to solve problems and get things done.
+              </p>
+              <h2>
+                Artist
+              </h2>
+              <p>
+                Drawing has been my happy place for as long as I can remember. While building software keeps the puzzle solving part of my brain busy, illustration and artwork have allowed me to stretch my creative boundaries. In my after hours I have drawn comics, exhibited artwork, produced 3D prints, and made 
+                <styles__SleeperLink
+                  href="https://www.youtube.com/watch?v=7xk4LmZ6hwc"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "compare": null,
+                        "componentStyle": ComponentStyle {
+                          "componentId": "styles__SleeperLink-qm8p7s-6",
+                          "isStatic": true,
+                          "lastClassName": "djGoPX",
+                          "rules": Array [
+                            "color:",
+                            "#aaa",
+                            ";border-bottom:",
+                            "1px solid rgba(170,170,170,0.2)",
+                            ";",
+                            "@media (hover:hover){",
+                            "
+    &:hover {
+      color: ",
+                            "#fff",
+                            ";
+    }
+  ",
+                            "}",
+                            ";",
+                          ],
+                        },
+                        "displayName": "styles__SleeperLink",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "styles__SleeperLink-qm8p7s-6",
+                        "target": Object {
+                          "$$typeof": Symbol(react.memo),
+                          "compare": null,
+                          "type": [Function],
+                        },
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    href="https://www.youtube.com/watch?v=7xk4LmZ6hwc"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <Memo()
+                      className="styles__SleeperLink-qm8p7s-6 djGoPX"
+                      href="https://www.youtube.com/watch?v=7xk4LmZ6hwc"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <styles__Link
+                        className="styles__SleeperLink-qm8p7s-6 djGoPX"
+                        href="https://www.youtube.com/watch?v=7xk4LmZ6hwc"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        <StyledComponent
+                          className="styles__SleeperLink-qm8p7s-6 djGoPX"
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "styles__Link-sc-1rd8ebj-0",
+                                "isStatic": true,
+                                "lastClassName": "jONwCq",
+                                "rules": Array [
+                                  "color:",
+                                  "#fff",
+                                  ";text-decoration:none;border-bottom:",
+                                  "1px solid #fff",
+                                  ";transition:0.3s;",
+                                  "@media (hover:hover){",
+                                  "
+    &:hover {
+      border-bottom-color: ",
+                                  "tomato",
+                                  ";
+    }
+  ",
+                                  "}",
+                                  ";",
+                                ],
+                              },
+                              "displayName": "styles__Link",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "styles__Link-sc-1rd8ebj-0",
+                              "target": "a",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                          href="https://www.youtube.com/watch?v=7xk4LmZ6hwc"
+                          rel="noopener noreferrer"
+                          target="_blank"
+                        >
+                          <a
+                            className="styles__SleeperLink-qm8p7s-6 djGoPX styles__Link-sc-1rd8ebj-0 jONwCq"
+                            href="https://www.youtube.com/watch?v=7xk4LmZ6hwc"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                          >
+                            other random things
+                          </a>
+                        </StyledComponent>
+                      </styles__Link>
+                    </Memo()>
+                  </StyledComponent>
+                </styles__SleeperLink>
+                 simply because they were too much fun.
+              </p>
+              <h2>
+                About this site
+              </h2>
+              fantasticmrdavid.com.au was built with:
+              <styles__SiteSpecs>
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "styles__SiteSpecs-qm8p7s-4",
+                        "isStatic": true,
+                        "lastClassName": "cZoKls",
+                        "rules": Array [
+                          "display:flex;flex-wrap:wrap;",
+                        ],
+                      },
+                      "displayName": "styles__SiteSpecs",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "styles__SiteSpecs-qm8p7s-4",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className="styles__SiteSpecs-qm8p7s-4 cZoKls"
+                  >
+                    <styles__SpecsSection>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "styles__SpecsSection-qm8p7s-5",
+                              "isStatic": true,
+                              "lastClassName": "kzOUAH",
+                              "rules": Array [
+                                "padding:1em 2em;h3{color:",
+                                "#fff",
+                                ";}",
+                              ],
+                            },
+                            "displayName": "styles__SpecsSection",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "styles__SpecsSection-qm8p7s-5",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <div
+                          className="styles__SpecsSection-qm8p7s-5 kzOUAH"
+                        >
+                          <h3>
+                            Environment
+                          </h3>
+                          <ul>
+                            <li>
+                              ES6
+                            </li>
+                            <li>
+                              Node.js
+                            </li>
+                            <li>
+                              Webpack
+                            </li>
+                          </ul>
+                        </div>
+                      </StyledComponent>
+                    </styles__SpecsSection>
+                    <styles__SpecsSection>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "styles__SpecsSection-qm8p7s-5",
+                              "isStatic": true,
+                              "lastClassName": "kzOUAH",
+                              "rules": Array [
+                                "padding:1em 2em;h3{color:",
+                                "#fff",
+                                ";}",
+                              ],
+                            },
+                            "displayName": "styles__SpecsSection",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "styles__SpecsSection-qm8p7s-5",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <div
+                          className="styles__SpecsSection-qm8p7s-5 kzOUAH"
+                        >
+                          <h3>
+                            Architecture
+                          </h3>
+                          <ul>
+                            <li>
+                              React
+                            </li>
+                            <li>
+                              Redux
+                            </li>
+                            <li>
+                              Styled-Components
+                            </li>
+                          </ul>
+                        </div>
+                      </StyledComponent>
+                    </styles__SpecsSection>
+                    <styles__SpecsSection>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "styles__SpecsSection-qm8p7s-5",
+                              "isStatic": true,
+                              "lastClassName": "kzOUAH",
+                              "rules": Array [
+                                "padding:1em 2em;h3{color:",
+                                "#fff",
+                                ";}",
+                              ],
+                            },
+                            "displayName": "styles__SpecsSection",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "styles__SpecsSection-qm8p7s-5",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <div
+                          className="styles__SpecsSection-qm8p7s-5 kzOUAH"
+                        >
+                          <h3>
+                            Testing/QA
+                          </h3>
+                          <ul>
+                            <li>
+                              TypeScript
+                            </li>
+                            <li>
+                              ESLint
+                            </li>
+                            <li>
+                              Jest
+                            </li>
+                            <li>
+                              Enzyme
+                            </li>
+                          </ul>
+                        </div>
+                      </StyledComponent>
+                    </styles__SpecsSection>
+                    <styles__SpecsSection>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "styles__SpecsSection-qm8p7s-5",
+                              "isStatic": true,
+                              "lastClassName": "kzOUAH",
+                              "rules": Array [
+                                "padding:1em 2em;h3{color:",
+                                "#fff",
+                                ";}",
+                              ],
+                            },
+                            "displayName": "styles__SpecsSection",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "styles__SpecsSection-qm8p7s-5",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <div
+                          className="styles__SpecsSection-qm8p7s-5 kzOUAH"
+                        >
+                          <h3>
+                            Deployment
+                          </h3>
+                          <ul>
+                            <li>
+                              Github
+                            </li>
+                            <li>
+                              Codeship
+                            </li>
+                            <li>
+                              AWS
+                            </li>
+                          </ul>
+                        </div>
+                      </StyledComponent>
+                    </styles__SpecsSection>
+                  </div>
+                </StyledComponent>
+              </styles__SiteSpecs>
+              <p>
+                Disable JavaScript to enable the noscript version!
+              </p>
+              <Memo()
+                href="https://github.com/fantasticmrdavid/fantasticmrdavid"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <styles__Link
+                  href="https://github.com/fantasticmrdavid/fantasticmrdavid"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "styles__Link-sc-1rd8ebj-0",
+                          "isStatic": true,
+                          "lastClassName": "jONwCq",
+                          "rules": Array [
+                            "color:",
+                            "#fff",
+                            ";text-decoration:none;border-bottom:",
+                            "1px solid #fff",
+                            ";transition:0.3s;",
+                            "@media (hover:hover){",
+                            "
+    &:hover {
+      border-bottom-color: ",
+                            "tomato",
+                            ";
+    }
+  ",
+                            "}",
+                            ";",
+                          ],
+                        },
+                        "displayName": "styles__Link",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "styles__Link-sc-1rd8ebj-0",
+                        "target": "a",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    href="https://github.com/fantasticmrdavid/fantasticmrdavid"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <a
+                      className="styles__Link-sc-1rd8ebj-0 jONwCq"
+                      href="https://github.com/fantasticmrdavid/fantasticmrdavid"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Visit the Github repository
+                    </a>
+                  </StyledComponent>
+                </styles__Link>
+              </Memo()>
+            </div>
+          </StyledComponent>
+        </styles__Content>
+      </div>
+    </StyledComponent>
+  </styles__Container>
+</Memo()>
+`;
+
+exports[`View -> About should render the About view (not loading) without throwing an error 1`] = `
+<Memo()>
+  <styles__Container>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "styles__Container-qm8p7s-0",
+            "isStatic": false,
+            "lastClassName": "jdYUFF",
+            "rules": Array [
+              "display:flex;flex-direction:column;align-items:center;justify-content:center;box-sizing:border-box;min-height:100%;padding:2em;background-color:",
+              "#111",
+              ";color:",
+              "#aaa",
+              ";opacity:",
+              [Function],
+              ";transition:1s;animation:",
+              Keyframes {
+                "id": "sc-keyframes-bcCCNc",
+                "inject": [Function],
+                "name": "bcCCNc",
+                "rules": Array [
+                  "@-webkit-keyframes bcCCNc{0%{opacity:0;}100%{opacity:1;}}",
+                  "@keyframes bcCCNc{0%{opacity:0;}100%{opacity:1;}}",
+                ],
+                "toString": [Function],
+              },
+              " 1s ease 1",
+              ";animation-fill-mode:forwards;",
+              "@media (min-width:",
+              "35.5",
+              "em){",
+              "
+    padding: 4em 2em;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+  ",
+              "}",
+            ],
+          },
+          "displayName": "styles__Container",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "styles__Container-qm8p7s-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="styles__Container-qm8p7s-0 jdYUFF"
+      >
+        <styles__Bg>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "styles__Bg-qm8p7s-1",
+                  "isStatic": true,
+                  "lastClassName": "fxwiUF",
+                  "rules": Array [
+                    "position:absolute;top:0px;right:0px;width:100%;height:100%;overflow:hidden;",
+                  ],
+                },
+                "displayName": "styles__Bg",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "styles__Bg-qm8p7s-1",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="styles__Bg-qm8p7s-1 fxwiUF"
+            >
+              <Memo()>
+                <styles__Container>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "styles__Container-sc-1pwogyu-0",
+                          "isStatic": false,
+                          "lastClassName": "fkagAV",
+                          "rules": Array [
+                            "position:absolute;bottom:0px;right:0px;perspective:800px;perspective-origin:50% 150px;transition:0.5s;transform:",
+                            "scale(",
+                            [Function],
+                            ")",
+                            ";",
+                          ],
+                        },
+                        "displayName": "styles__Container",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "styles__Container-sc-1pwogyu-0",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="styles__Container-sc-1pwogyu-0 fkagAV"
+                    >
+                      <styles__Polygon>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "styles__Polygon-sc-1pwogyu-1",
+                                "isStatic": true,
+                                "lastClassName": "dCIqjj",
+                                "rules": Array [
+                                  "position:absolute;bottom:225px;right:-100px;width:300px;transform-style:preserve-3d;animation:",
+                                  Keyframes {
+                                    "id": "sc-keyframes-fAwMGd",
+                                    "inject": [Function],
+                                    "name": "fAwMGd",
+                                    "rules": Array [
+                                      "@-webkit-keyframes fAwMGd{from{-webkit-transform:rotateX(15deg) rotateY(15deg);-ms-transform:rotateX(15deg) rotateY(15deg);transform:rotateX(15deg) rotateY(15deg);}to{-webkit-transform:rotateX(-60deg) rotateY(60deg);-ms-transform:rotateX(-60deg) rotateY(60deg);transform:rotateX(-60deg) rotateY(60deg);}}",
+                                      "@keyframes fAwMGd{from{-webkit-transform:rotateX(15deg) rotateY(15deg);-ms-transform:rotateX(15deg) rotateY(15deg);transform:rotateX(15deg) rotateY(15deg);}to{-webkit-transform:rotateX(-60deg) rotateY(60deg);-ms-transform:rotateX(-60deg) rotateY(60deg);transform:rotateX(-60deg) rotateY(60deg);}}",
+                                    ],
+                                    "toString": [Function],
+                                  },
+                                  " 0.6s normal linear",
+                                  ";animation-fill-mode:forwards;",
+                                ],
+                              },
+                              "displayName": "styles__Polygon",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "styles__Polygon-sc-1pwogyu-1",
+                              "target": "div",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <div
+                            className="styles__Polygon-sc-1pwogyu-1 dCIqjj"
+                          >
+                            <styles__Front>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "styles__Front-sc-1pwogyu-8",
+                                      "isStatic": true,
+                                      "lastClassName": "hZHsMX",
+                                      "rules": Array [
+                                        "position:absolute;width:300px;height:300px;background:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);",
+                                        "transform:translateZ(150px);",
+                                      ],
+                                    },
+                                    "displayName": "styles__Front",
+                                    "foldedComponentIds": Array [
+                                      "styles__Side-sc-1pwogyu-2",
+                                    ],
+                                    "render": [Function],
+                                    "styledComponentId": "styles__Front-sc-1pwogyu-8",
+                                    "target": "div",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <div
+                                  className="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 hZHsMX"
+                                >
+                                  <Memo()
+                                    direction="left"
+                                  >
+                                    <styles__Tracer
+                                      direction="left"
+                                    >
+                                      <StyledComponent
+                                        direction="left"
+                                        forwardedComponent={
+                                          Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "attrs": Array [],
+                                            "componentStyle": ComponentStyle {
+                                              "componentId": "styles__Tracer-sc-18vfsm6-0",
+                                              "isStatic": false,
+                                              "lastClassName": "kWITRq",
+                                              "rules": Array [
+                                                "position:absolute;top:-1px;left:50%;opacity:0;width:50px;height:2px;z-index:1;background:red;animation:",
+                                                [Function],
+                                                ";animation-fill-mode:forwards;",
+                                              ],
+                                            },
+                                            "displayName": "styles__Tracer",
+                                            "foldedComponentIds": Array [],
+                                            "render": [Function],
+                                            "styledComponentId": "styles__Tracer-sc-18vfsm6-0",
+                                            "target": "div",
+                                            "toString": [Function],
+                                            "warnTooManyClasses": [Function],
+                                            "withComponent": [Function],
+                                          }
+                                        }
+                                        forwardedRef={null}
+                                      >
+                                        <div
+                                          className="styles__Tracer-sc-18vfsm6-0 cVcktX"
+                                          direction="left"
+                                        />
+                                      </StyledComponent>
+                                    </styles__Tracer>
+                                  </Memo()>
+                                </div>
+                              </StyledComponent>
+                            </styles__Front>
+                            <styles__Back>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "styles__Back-sc-1pwogyu-3",
+                                      "isStatic": true,
+                                      "lastClassName": "hLVrnA",
+                                      "rules": Array [
+                                        "position:absolute;width:300px;height:300px;background:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);",
+                                        "transform:translateZ(-150px) rotateY(180deg);",
+                                      ],
+                                    },
+                                    "displayName": "styles__Back",
+                                    "foldedComponentIds": Array [
+                                      "styles__Side-sc-1pwogyu-2",
+                                    ],
+                                    "render": [Function],
+                                    "styledComponentId": "styles__Back-sc-1pwogyu-3",
+                                    "target": "div",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <div
+                                  className="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 hLVrnA"
+                                >
+                                  <Memo()>
+                                    <styles__Tracer>
+                                      <StyledComponent
+                                        forwardedComponent={
+                                          Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "attrs": Array [],
+                                            "componentStyle": ComponentStyle {
+                                              "componentId": "styles__Tracer-sc-18vfsm6-0",
+                                              "isStatic": false,
+                                              "lastClassName": "kWITRq",
+                                              "rules": Array [
+                                                "position:absolute;top:-1px;left:50%;opacity:0;width:50px;height:2px;z-index:1;background:red;animation:",
+                                                [Function],
+                                                ";animation-fill-mode:forwards;",
+                                              ],
+                                            },
+                                            "displayName": "styles__Tracer",
+                                            "foldedComponentIds": Array [],
+                                            "render": [Function],
+                                            "styledComponentId": "styles__Tracer-sc-18vfsm6-0",
+                                            "target": "div",
+                                            "toString": [Function],
+                                            "warnTooManyClasses": [Function],
+                                            "withComponent": [Function],
+                                          }
+                                        }
+                                        forwardedRef={null}
+                                      >
+                                        <div
+                                          className="styles__Tracer-sc-18vfsm6-0 kWITRq"
+                                        />
+                                      </StyledComponent>
+                                    </styles__Tracer>
+                                  </Memo()>
+                                </div>
+                              </StyledComponent>
+                            </styles__Back>
+                            <styles__Top>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "styles__Top-sc-1pwogyu-6",
+                                      "isStatic": true,
+                                      "lastClassName": "QCabo",
+                                      "rules": Array [
+                                        "position:absolute;width:300px;height:300px;background:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);",
+                                        "transform:rotateX(-90deg) translateY(-152px);transform-origin:top center;",
+                                      ],
+                                    },
+                                    "displayName": "styles__Top",
+                                    "foldedComponentIds": Array [
+                                      "styles__Side-sc-1pwogyu-2",
+                                    ],
+                                    "render": [Function],
+                                    "styledComponentId": "styles__Top-sc-1pwogyu-6",
+                                    "target": "div",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <div
+                                  className="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 QCabo"
+                                />
+                              </StyledComponent>
+                            </styles__Top>
+                            <styles__Bottom>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "styles__Bottom-sc-1pwogyu-7",
+                                      "isStatic": true,
+                                      "lastClassName": "cwSPhK",
+                                      "rules": Array [
+                                        "position:absolute;width:300px;height:300px;background:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);",
+                                        "transform:rotateX(90deg) translateY(150px);transform-origin:bottom center;",
+                                      ],
+                                    },
+                                    "displayName": "styles__Bottom",
+                                    "foldedComponentIds": Array [
+                                      "styles__Side-sc-1pwogyu-2",
+                                    ],
+                                    "render": [Function],
+                                    "styledComponentId": "styles__Bottom-sc-1pwogyu-7",
+                                    "target": "div",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <div
+                                  className="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 cwSPhK"
+                                >
+                                  <Memo()>
+                                    <styles__Tracer>
+                                      <StyledComponent
+                                        forwardedComponent={
+                                          Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "attrs": Array [],
+                                            "componentStyle": ComponentStyle {
+                                              "componentId": "styles__Tracer-sc-18vfsm6-0",
+                                              "isStatic": false,
+                                              "lastClassName": "kWITRq",
+                                              "rules": Array [
+                                                "position:absolute;top:-1px;left:50%;opacity:0;width:50px;height:2px;z-index:1;background:red;animation:",
+                                                [Function],
+                                                ";animation-fill-mode:forwards;",
+                                              ],
+                                            },
+                                            "displayName": "styles__Tracer",
+                                            "foldedComponentIds": Array [],
+                                            "render": [Function],
+                                            "styledComponentId": "styles__Tracer-sc-18vfsm6-0",
+                                            "target": "div",
+                                            "toString": [Function],
+                                            "warnTooManyClasses": [Function],
+                                            "withComponent": [Function],
+                                          }
+                                        }
+                                        forwardedRef={null}
+                                      >
+                                        <div
+                                          className="styles__Tracer-sc-18vfsm6-0 kWITRq"
+                                        />
+                                      </StyledComponent>
+                                    </styles__Tracer>
+                                  </Memo()>
+                                </div>
+                              </StyledComponent>
+                            </styles__Bottom>
+                            <styles__Left>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "styles__Left-sc-1pwogyu-5",
+                                      "isStatic": true,
+                                      "lastClassName": "dzatai",
+                                      "rules": Array [
+                                        "position:absolute;width:300px;height:300px;background:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);",
+                                        "transform:rotateY(270deg) translateX(-150px);transform-origin:center left;",
+                                      ],
+                                    },
+                                    "displayName": "styles__Left",
+                                    "foldedComponentIds": Array [
+                                      "styles__Side-sc-1pwogyu-2",
+                                    ],
+                                    "render": [Function],
+                                    "styledComponentId": "styles__Left-sc-1pwogyu-5",
+                                    "target": "div",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <div
+                                  className="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 dzatai"
+                                >
+                                  <Memo()
+                                    direction="left"
+                                  >
+                                    <styles__Tracer
+                                      direction="left"
+                                    >
+                                      <StyledComponent
+                                        direction="left"
+                                        forwardedComponent={
+                                          Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "attrs": Array [],
+                                            "componentStyle": ComponentStyle {
+                                              "componentId": "styles__Tracer-sc-18vfsm6-0",
+                                              "isStatic": false,
+                                              "lastClassName": "kWITRq",
+                                              "rules": Array [
+                                                "position:absolute;top:-1px;left:50%;opacity:0;width:50px;height:2px;z-index:1;background:red;animation:",
+                                                [Function],
+                                                ";animation-fill-mode:forwards;",
+                                              ],
+                                            },
+                                            "displayName": "styles__Tracer",
+                                            "foldedComponentIds": Array [],
+                                            "render": [Function],
+                                            "styledComponentId": "styles__Tracer-sc-18vfsm6-0",
+                                            "target": "div",
+                                            "toString": [Function],
+                                            "warnTooManyClasses": [Function],
+                                            "withComponent": [Function],
+                                          }
+                                        }
+                                        forwardedRef={null}
+                                      >
+                                        <div
+                                          className="styles__Tracer-sc-18vfsm6-0 cVcktX"
+                                          direction="left"
+                                        />
+                                      </StyledComponent>
+                                    </styles__Tracer>
+                                  </Memo()>
+                                </div>
+                              </StyledComponent>
+                            </styles__Left>
+                            <styles__Right>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "styles__Right-sc-1pwogyu-4",
+                                      "isStatic": true,
+                                      "lastClassName": "eWSCFi",
+                                      "rules": Array [
+                                        "position:absolute;width:300px;height:300px;background:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);",
+                                        "transform:rotateY(-270deg) translateX(150px);transform-origin:top right;",
+                                      ],
+                                    },
+                                    "displayName": "styles__Right",
+                                    "foldedComponentIds": Array [
+                                      "styles__Side-sc-1pwogyu-2",
+                                    ],
+                                    "render": [Function],
+                                    "styledComponentId": "styles__Right-sc-1pwogyu-4",
+                                    "target": "div",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <div
+                                  className="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 eWSCFi"
+                                >
+                                  <Memo()>
+                                    <styles__Tracer>
+                                      <StyledComponent
+                                        forwardedComponent={
+                                          Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "attrs": Array [],
+                                            "componentStyle": ComponentStyle {
+                                              "componentId": "styles__Tracer-sc-18vfsm6-0",
+                                              "isStatic": false,
+                                              "lastClassName": "kWITRq",
+                                              "rules": Array [
+                                                "position:absolute;top:-1px;left:50%;opacity:0;width:50px;height:2px;z-index:1;background:red;animation:",
+                                                [Function],
+                                                ";animation-fill-mode:forwards;",
+                                              ],
+                                            },
+                                            "displayName": "styles__Tracer",
+                                            "foldedComponentIds": Array [],
+                                            "render": [Function],
+                                            "styledComponentId": "styles__Tracer-sc-18vfsm6-0",
+                                            "target": "div",
+                                            "toString": [Function],
+                                            "warnTooManyClasses": [Function],
+                                            "withComponent": [Function],
+                                          }
+                                        }
+                                        forwardedRef={null}
+                                      >
+                                        <div
+                                          className="styles__Tracer-sc-18vfsm6-0 kWITRq"
+                                        />
+                                      </StyledComponent>
+                                    </styles__Tracer>
+                                  </Memo()>
+                                </div>
+                              </StyledComponent>
+                            </styles__Right>
+                          </div>
+                        </StyledComponent>
+                      </styles__Polygon>
+                    </div>
+                  </StyledComponent>
+                </styles__Container>
+              </Memo()>
+            </div>
+          </StyledComponent>
+        </styles__Bg>
+        <styles__ProfilePhoto
+          alt="Me"
+          src="/assets/images/profile.jpg"
+        >
+          <StyledComponent
+            alt="Me"
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "styles__ProfilePhoto-qm8p7s-2",
+                  "isStatic": true,
+                  "lastClassName": "bobYfB",
+                  "rules": Array [
+                    "width:100px;height:auto;margin-bottom:1em;z-index:1;",
+                    "@media (min-width:",
+                    "35.5",
+                    "em){",
+                    "
+    margin-bottom: 0;
+  ",
+                    "}",
+                    ";",
+                  ],
+                },
+                "displayName": "styles__ProfilePhoto",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "styles__ProfilePhoto-qm8p7s-2",
+                "target": "img",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            src="/assets/images/profile.jpg"
+          >
+            <img
+              alt="Me"
+              className="styles__ProfilePhoto-qm8p7s-2 bobYfB"
+              src="/assets/images/profile.jpg"
+            />
+          </StyledComponent>
+        </styles__ProfilePhoto>
+        <styles__Content>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "styles__Content-qm8p7s-3",
+                  "isStatic": true,
+                  "lastClassName": "ihbVpw",
+                  "rules": Array [
+                    "flex:1;font-size:0.9rem;font-weight:300;line-height:1.3;max-width:100%;padding-right:0px;z-index:1;",
+                    "@media (min-width:",
+                    "35.5",
+                    "em){",
+                    "
+    padding-right: 1em;
+    max-width: 900px;
+  ",
+                    "}",
+                    " h2{color:",
+                    "#fff",
+                    ";}p{margin-bottom:1em;}ul{list-style:disc;padding-left:1em;}",
+                  ],
+                },
+                "displayName": "styles__Content",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "styles__Content-qm8p7s-3",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="styles__Content-qm8p7s-3 ihbVpw"
+            >
+              <p>
+                Hi! I'm David, and I like making things.
+                <br />
+                <br />
+                Since childhood I've been passionate about building and creating. I've always enjoyed the journey of taking an idea from concept and making it reality whether it's solving a complex problem, creating some ambitious new artwork, or both.
+                <br />
+                <br />
+                I firmly believe that by empowering people with problem solving technology and empathy we can build a better world together.
+              </p>
+              <h2>
+                Engineer
+              </h2>
+              <p>
+                I've been building web projects for over a decade, starting from when I was in high school and needed a simple HTML page to display my artwork. From there I moved on to become a Full-Stack LAMP Developer working on vendor-side and agency projects alike, and then to lead Front-End and UX Engineering specialising in HTML5, CSS3, ES6 JavaScript and React. I love learning about new technologies to develop better and more effective ways to solve problems and get things done.
+              </p>
+              <h2>
+                Artist
+              </h2>
+              <p>
+                Drawing has been my happy place for as long as I can remember. While building software keeps the puzzle solving part of my brain busy, illustration and artwork have allowed me to stretch my creative boundaries. In my after hours I have drawn comics, exhibited artwork, produced 3D prints, and made 
+                <styles__SleeperLink
+                  href="https://www.youtube.com/watch?v=7xk4LmZ6hwc"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "compare": null,
+                        "componentStyle": ComponentStyle {
+                          "componentId": "styles__SleeperLink-qm8p7s-6",
+                          "isStatic": true,
+                          "lastClassName": "djGoPX",
+                          "rules": Array [
+                            "color:",
+                            "#aaa",
+                            ";border-bottom:",
+                            "1px solid rgba(170,170,170,0.2)",
+                            ";",
+                            "@media (hover:hover){",
+                            "
+    &:hover {
+      color: ",
+                            "#fff",
+                            ";
+    }
+  ",
+                            "}",
+                            ";",
+                          ],
+                        },
+                        "displayName": "styles__SleeperLink",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "styles__SleeperLink-qm8p7s-6",
+                        "target": Object {
+                          "$$typeof": Symbol(react.memo),
+                          "compare": null,
+                          "type": [Function],
+                        },
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    href="https://www.youtube.com/watch?v=7xk4LmZ6hwc"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <Memo()
+                      className="styles__SleeperLink-qm8p7s-6 djGoPX"
+                      href="https://www.youtube.com/watch?v=7xk4LmZ6hwc"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <styles__Link
+                        className="styles__SleeperLink-qm8p7s-6 djGoPX"
+                        href="https://www.youtube.com/watch?v=7xk4LmZ6hwc"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        <StyledComponent
+                          className="styles__SleeperLink-qm8p7s-6 djGoPX"
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "styles__Link-sc-1rd8ebj-0",
+                                "isStatic": true,
+                                "lastClassName": "jONwCq",
+                                "rules": Array [
+                                  "color:",
+                                  "#fff",
+                                  ";text-decoration:none;border-bottom:",
+                                  "1px solid #fff",
+                                  ";transition:0.3s;",
+                                  "@media (hover:hover){",
+                                  "
+    &:hover {
+      border-bottom-color: ",
+                                  "tomato",
+                                  ";
+    }
+  ",
+                                  "}",
+                                  ";",
+                                ],
+                              },
+                              "displayName": "styles__Link",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "styles__Link-sc-1rd8ebj-0",
+                              "target": "a",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                          href="https://www.youtube.com/watch?v=7xk4LmZ6hwc"
+                          rel="noopener noreferrer"
+                          target="_blank"
+                        >
+                          <a
+                            className="styles__SleeperLink-qm8p7s-6 djGoPX styles__Link-sc-1rd8ebj-0 jONwCq"
+                            href="https://www.youtube.com/watch?v=7xk4LmZ6hwc"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                          >
+                            other random things
+                          </a>
+                        </StyledComponent>
+                      </styles__Link>
+                    </Memo()>
+                  </StyledComponent>
+                </styles__SleeperLink>
+                 simply because they were too much fun.
+              </p>
+              <h2>
+                About this site
+              </h2>
+              fantasticmrdavid.com.au was built with:
+              <styles__SiteSpecs>
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "styles__SiteSpecs-qm8p7s-4",
+                        "isStatic": true,
+                        "lastClassName": "cZoKls",
+                        "rules": Array [
+                          "display:flex;flex-wrap:wrap;",
+                        ],
+                      },
+                      "displayName": "styles__SiteSpecs",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "styles__SiteSpecs-qm8p7s-4",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className="styles__SiteSpecs-qm8p7s-4 cZoKls"
+                  >
+                    <styles__SpecsSection>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "styles__SpecsSection-qm8p7s-5",
+                              "isStatic": true,
+                              "lastClassName": "kzOUAH",
+                              "rules": Array [
+                                "padding:1em 2em;h3{color:",
+                                "#fff",
+                                ";}",
+                              ],
+                            },
+                            "displayName": "styles__SpecsSection",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "styles__SpecsSection-qm8p7s-5",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <div
+                          className="styles__SpecsSection-qm8p7s-5 kzOUAH"
+                        >
+                          <h3>
+                            Environment
+                          </h3>
+                          <ul>
+                            <li>
+                              ES6
+                            </li>
+                            <li>
+                              Node.js
+                            </li>
+                            <li>
+                              Webpack
+                            </li>
+                          </ul>
+                        </div>
+                      </StyledComponent>
+                    </styles__SpecsSection>
+                    <styles__SpecsSection>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "styles__SpecsSection-qm8p7s-5",
+                              "isStatic": true,
+                              "lastClassName": "kzOUAH",
+                              "rules": Array [
+                                "padding:1em 2em;h3{color:",
+                                "#fff",
+                                ";}",
+                              ],
+                            },
+                            "displayName": "styles__SpecsSection",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "styles__SpecsSection-qm8p7s-5",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <div
+                          className="styles__SpecsSection-qm8p7s-5 kzOUAH"
+                        >
+                          <h3>
+                            Architecture
+                          </h3>
+                          <ul>
+                            <li>
+                              React
+                            </li>
+                            <li>
+                              Redux
+                            </li>
+                            <li>
+                              Styled-Components
+                            </li>
+                          </ul>
+                        </div>
+                      </StyledComponent>
+                    </styles__SpecsSection>
+                    <styles__SpecsSection>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "styles__SpecsSection-qm8p7s-5",
+                              "isStatic": true,
+                              "lastClassName": "kzOUAH",
+                              "rules": Array [
+                                "padding:1em 2em;h3{color:",
+                                "#fff",
+                                ";}",
+                              ],
+                            },
+                            "displayName": "styles__SpecsSection",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "styles__SpecsSection-qm8p7s-5",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <div
+                          className="styles__SpecsSection-qm8p7s-5 kzOUAH"
+                        >
+                          <h3>
+                            Testing/QA
+                          </h3>
+                          <ul>
+                            <li>
+                              TypeScript
+                            </li>
+                            <li>
+                              ESLint
+                            </li>
+                            <li>
+                              Jest
+                            </li>
+                            <li>
+                              Enzyme
+                            </li>
+                          </ul>
+                        </div>
+                      </StyledComponent>
+                    </styles__SpecsSection>
+                    <styles__SpecsSection>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "styles__SpecsSection-qm8p7s-5",
+                              "isStatic": true,
+                              "lastClassName": "kzOUAH",
+                              "rules": Array [
+                                "padding:1em 2em;h3{color:",
+                                "#fff",
+                                ";}",
+                              ],
+                            },
+                            "displayName": "styles__SpecsSection",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "styles__SpecsSection-qm8p7s-5",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <div
+                          className="styles__SpecsSection-qm8p7s-5 kzOUAH"
+                        >
+                          <h3>
+                            Deployment
+                          </h3>
+                          <ul>
+                            <li>
+                              Github
+                            </li>
+                            <li>
+                              Codeship
+                            </li>
+                            <li>
+                              AWS
+                            </li>
+                          </ul>
+                        </div>
+                      </StyledComponent>
+                    </styles__SpecsSection>
+                  </div>
+                </StyledComponent>
+              </styles__SiteSpecs>
+              <p>
+                Disable JavaScript to enable the noscript version!
+              </p>
+              <Memo()
+                href="https://github.com/fantasticmrdavid/fantasticmrdavid"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <styles__Link
+                  href="https://github.com/fantasticmrdavid/fantasticmrdavid"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "styles__Link-sc-1rd8ebj-0",
+                          "isStatic": true,
+                          "lastClassName": "jONwCq",
+                          "rules": Array [
+                            "color:",
+                            "#fff",
+                            ";text-decoration:none;border-bottom:",
+                            "1px solid #fff",
+                            ";transition:0.3s;",
+                            "@media (hover:hover){",
+                            "
+    &:hover {
+      border-bottom-color: ",
+                            "tomato",
+                            ";
+    }
+  ",
+                            "}",
+                            ";",
+                          ],
+                        },
+                        "displayName": "styles__Link",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "styles__Link-sc-1rd8ebj-0",
+                        "target": "a",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    href="https://github.com/fantasticmrdavid/fantasticmrdavid"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <a
+                      className="styles__Link-sc-1rd8ebj-0 jONwCq"
+                      href="https://github.com/fantasticmrdavid/fantasticmrdavid"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Visit the Github repository
+                    </a>
+                  </StyledComponent>
+                </styles__Link>
+              </Memo()>
+            </div>
+          </StyledComponent>
+        </styles__Content>
+      </div>
+    </StyledComponent>
+  </styles__Container>
+</Memo()>
+`;
