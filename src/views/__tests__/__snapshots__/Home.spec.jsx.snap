@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`View -> Home should render the Home UI (loading) without throwing an error 1`] = `
+<Memo()
+  image={
+    Object {
+      "name": "test",
+      "src": "testImage/url.jpg",
+    }
+  }
+  loading={true}
+  updateImage={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <styles__Container
+    imgSrc="testImage/url.jpg"
+    loading={true}
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "styles__Container-sc-19v7chj-0",
+            "isStatic": false,
+            "lastClassName": "iQwMyk",
+            "rules": Array [
+              "background-image:",
+              [Function],
+              ";background-color:",
+              "#aaa",
+              ";background-position:center center;background-repeat:no-repeat;background-size:cover;width:100%;height:100vh;opacity:",
+              [Function],
+              ";transition:1s;animation:",
+              Keyframes {
+                "id": "sc-keyframes-bcCCNc",
+                "inject": [Function],
+                "name": "bcCCNc",
+                "rules": Array [
+                  "@-webkit-keyframes bcCCNc{0%{opacity:0;}100%{opacity:1;}}",
+                  "@keyframes bcCCNc{0%{opacity:0;}100%{opacity:1;}}",
+                ],
+                "toString": [Function],
+              },
+              " 1s ease 1",
+              ";animation-fill-mode:forwards;",
+            ],
+          },
+          "displayName": "styles__Container",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "styles__Container-sc-19v7chj-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      imgSrc="testImage/url.jpg"
+      loading={true}
+    >
+      <div
+        className="styles__Container-sc-19v7chj-0 iQwMyk"
+      />
+    </StyledComponent>
+  </styles__Container>
+</Memo()>
+`;
+
+exports[`View -> Home should render the Home UI (not loading) without throwing an error 1`] = `
+<Memo()
+  image={
+    Object {
+      "name": "test",
+      "src": "testImage/url.jpg",
+    }
+  }
+  loading={false}
+  updateImage={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <styles__Container
+    imgSrc="testImage/url.jpg"
+    loading={false}
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "styles__Container-sc-19v7chj-0",
+            "isStatic": false,
+            "lastClassName": "eMBmUy",
+            "rules": Array [
+              "background-image:",
+              [Function],
+              ";background-color:",
+              "#aaa",
+              ";background-position:center center;background-repeat:no-repeat;background-size:cover;width:100%;height:100vh;opacity:",
+              [Function],
+              ";transition:1s;animation:",
+              Keyframes {
+                "id": "sc-keyframes-bcCCNc",
+                "inject": [Function],
+                "name": "bcCCNc",
+                "rules": Array [
+                  "@-webkit-keyframes bcCCNc{0%{opacity:0;}100%{opacity:1;}}",
+                  "@keyframes bcCCNc{0%{opacity:0;}100%{opacity:1;}}",
+                ],
+                "toString": [Function],
+              },
+              " 1s ease 1",
+              ";animation-fill-mode:forwards;",
+            ],
+          },
+          "displayName": "styles__Container",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "styles__Container-sc-19v7chj-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      imgSrc="testImage/url.jpg"
+      loading={false}
+    >
+      <div
+        className="styles__Container-sc-19v7chj-0 eMBmUy"
+      />
+    </StyledComponent>
+  </styles__Container>
+</Memo()>
+`;
+
+exports[`View -> Home should render the Home view with Initializer without throwing an error 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(_default)>
+    <_default
+      images={
+        Array [
+          Object {
+            "name": "legoFlinders",
+            "src": "/assets/images/legoFlinders.jpg",
+          },
+        ]
+      }
+      stopLoading={[Function]}
+    />
+  </Connect(_default)>
+  <Connect(Component)>
+    <Memo()
+      image={
+        Object {
+          "name": "legoFlinders",
+          "src": "/assets/images/legoFlinders.jpg",
+        }
+      }
+      loading={true}
+      updateImage={[Function]}
+    >
+      <styles__Container
+        imgSrc="/assets/images/legoFlinders.jpg"
+        loading={true}
+      >
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "styles__Container-sc-19v7chj-0",
+                "isStatic": false,
+                "lastClassName": "jJzRKo",
+                "rules": Array [
+                  "background-image:",
+                  [Function],
+                  ";background-color:",
+                  "#aaa",
+                  ";background-position:center center;background-repeat:no-repeat;background-size:cover;width:100%;height:100vh;opacity:",
+                  [Function],
+                  ";transition:1s;animation:",
+                  Keyframes {
+                    "id": "sc-keyframes-bcCCNc",
+                    "inject": [Function],
+                    "name": "bcCCNc",
+                    "rules": Array [
+                      "@-webkit-keyframes bcCCNc{0%{opacity:0;}100%{opacity:1;}}",
+                      "@keyframes bcCCNc{0%{opacity:0;}100%{opacity:1;}}",
+                    ],
+                    "toString": [Function],
+                  },
+                  " 1s ease 1",
+                  ";animation-fill-mode:forwards;",
+                ],
+              },
+              "displayName": "styles__Container",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "styles__Container-sc-19v7chj-0",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          imgSrc="/assets/images/legoFlinders.jpg"
+          loading={true}
+        >
+          <div
+            className="styles__Container-sc-19v7chj-0 jJzRKo"
+          />
+        </StyledComponent>
+      </styles__Container>
+    </Memo()>
+  </Connect(Component)>
+</Provider>
+`;
