@@ -1,0 +1,1890 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Router -> Client should render the Client without throwing an error 1`] = `
+<_default>
+  <Provider
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+  >
+    <Connect(_default)>
+      <_default
+        images={
+          Array [
+            Object {
+              "name": "legoFlinders",
+              "src": "/assets/images/legoFlinders.jpg",
+            },
+          ]
+        }
+        stopLoading={[Function]}
+      />
+    </Connect(_default)>
+    <BrowserRouter>
+      <Router
+        history={
+          Object {
+            "action": "POP",
+            "block": [Function],
+            "createHref": [Function],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "length": 1,
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            },
+            "push": [Function],
+            "replace": [Function],
+          }
+        }
+      >
+        <Routes>
+          <Switch>
+            <Route
+              computedMatch={
+                Object {
+                  "isExact": true,
+                  "params": Object {},
+                  "path": "/",
+                  "url": "/",
+                }
+              }
+              exact={true}
+              location={
+                Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                }
+              }
+              path="/"
+              render={[Function]}
+            >
+              <Connect(Component)
+                location="home"
+              >
+                <Memo()
+                  firstLoad={true}
+                  loading={true}
+                  location="home"
+                  popup={
+                    Object {
+                      "active": false,
+                      "popup": undefined,
+                      "title": null,
+                      "url": null,
+                    }
+                  }
+                  updateLocation={[Function]}
+                >
+                  <GlobalStyleComponent />
+                  <styles__Container>
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "styles__Container-sc-1jpprl2-0",
+                            "isStatic": true,
+                            "lastClassName": "lceywo",
+                            "rules": Array [
+                              "display:block;justify-content:center;align-items:stretch;min-height:100%;background-color:",
+                              "#111",
+                              ";",
+                              "@media (min-width:",
+                              "35.5",
+                              "em){",
+                              "
+    display: flex;
+  ",
+                              "}",
+                            ],
+                          },
+                          "displayName": "styles__Container",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "styles__Container-sc-1jpprl2-0",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <div
+                        className="styles__Container-sc-1jpprl2-0 lceywo"
+                      >
+                        <Connect(Component)>
+                          <Memo()
+                            active={false}
+                            close={[Function]}
+                            loading={false}
+                            title={null}
+                            url={null}
+                          >
+                            <styles__Container
+                              active={false}
+                              loading={false}
+                            >
+                              <StyledComponent
+                                active={false}
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "styles__Container-hsnn8o-0",
+                                      "isStatic": false,
+                                      "lastClassName": "jYwInk",
+                                      "rules": Array [
+                                        "position:fixed;width:100%;height:100%;z-index:",
+                                        [Function],
+                                        ";display:flex;justify-content:center;align-items:center;transition:0.5s;opacity:",
+                                        [Function],
+                                        ";",
+                                      ],
+                                    },
+                                    "displayName": "styles__Container",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "styles__Container-hsnn8o-0",
+                                    "target": "div",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                loading={false}
+                              >
+                                <div
+                                  className="styles__Container-hsnn8o-0 jYwInk"
+                                >
+                                  <styles__Lightbox
+                                    onClick={[Function]}
+                                  >
+                                    <StyledComponent
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "styles__Lightbox-hsnn8o-1",
+                                            "isStatic": true,
+                                            "lastClassName": "ksCHkr",
+                                            "rules": Array [
+                                              "position:absolute;top:0px;left:0px;width:100%;height:100%;background:",
+                                              "rgba(0,0,0,0.7)",
+                                              ";",
+                                            ],
+                                          },
+                                          "displayName": "styles__Lightbox",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "styles__Lightbox-hsnn8o-1",
+                                          "target": "div",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      onClick={[Function]}
+                                    >
+                                      <div
+                                        className="styles__Lightbox-hsnn8o-1 ksCHkr"
+                                        onClick={[Function]}
+                                      />
+                                    </StyledComponent>
+                                  </styles__Lightbox>
+                                  <styles__Dialog>
+                                    <StyledComponent
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "styles__Dialog-hsnn8o-2",
+                                            "isStatic": true,
+                                            "lastClassName": "gyNTYq",
+                                            "rules": Array [
+                                              "position:relative;border:",
+                                              "1px solid #333",
+                                              ";box-shadow:",
+                                              "7px 7px 5px rgba(0, 0, 0, 0.2)",
+                                              ";max-width:90%;max-height:90%;transition:0.5s;",
+                                            ],
+                                          },
+                                          "displayName": "styles__Dialog",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "styles__Dialog-hsnn8o-2",
+                                          "target": "div",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                    >
+                                      <div
+                                        className="styles__Dialog-hsnn8o-2 gyNTYq"
+                                      >
+                                        <styles__Close
+                                          onClick={[Function]}
+                                        >
+                                          <StyledComponent
+                                            forwardedComponent={
+                                              Object {
+                                                "$$typeof": Symbol(react.forward_ref),
+                                                "attrs": Array [],
+                                                "componentStyle": ComponentStyle {
+                                                  "componentId": "styles__Close-hsnn8o-5",
+                                                  "isStatic": true,
+                                                  "lastClassName": "esqoOc",
+                                                  "rules": Array [
+                                                    "position:absolute;top:0px;right:0px;padding:0.5em;color:white;background-color:",
+                                                    "rgba(0,0,0,0.2)",
+                                                    ";font-size:1.4rem;cursor:pointer;transition:0.3s;z-index:2;",
+                                                    "@media (min-width:",
+                                                    "35.5",
+                                                    "em){",
+                                                    "
+    right: -1em;
+    padding: 0;
+  ",
+                                                    "}",
+                                                    ";",
+                                                    "@media (hover:hover){",
+                                                    "
+    &:hover {
+      color: tomato;
+    }
+  ",
+                                                    "}",
+                                                    ";",
+                                                  ],
+                                                },
+                                                "displayName": "styles__Close",
+                                                "foldedComponentIds": Array [],
+                                                "render": [Function],
+                                                "styledComponentId": "styles__Close-hsnn8o-5",
+                                                "target": "div",
+                                                "toString": [Function],
+                                                "warnTooManyClasses": [Function],
+                                                "withComponent": [Function],
+                                              }
+                                            }
+                                            forwardedRef={null}
+                                            onClick={[Function]}
+                                          >
+                                            <div
+                                              className="styles__Close-hsnn8o-5 esqoOc"
+                                              onClick={[Function]}
+                                            >
+                                              X
+                                            </div>
+                                          </StyledComponent>
+                                        </styles__Close>
+                                      </div>
+                                    </StyledComponent>
+                                  </styles__Dialog>
+                                </div>
+                              </StyledComponent>
+                            </styles__Container>
+                          </Memo()>
+                        </Connect(Component)>
+                        <styles__Control>
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "styles__Control-sc-1jpprl2-1",
+                                  "isStatic": true,
+                                  "lastClassName": "kKksil",
+                                  "rules": Array [
+                                    "width:100%;display:flex;justify-content:center;align-items:stretch;background:",
+                                    "#232323",
+                                    ";color:",
+                                    "#aaa",
+                                    ";transition:0.3s;",
+                                    "@media (min-width:",
+                                    "35.5",
+                                    "em){",
+                                    "
+    width: 40%;
+  ",
+                                    "}",
+                                    ";",
+                                    "@media (min-width:",
+                                    "48",
+                                    "em){",
+                                    "
+    min-height: 100vh;
+  ",
+                                    "}",
+                                    ";",
+                                  ],
+                                },
+                                "displayName": "styles__Control",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "styles__Control-sc-1jpprl2-1",
+                                "target": "section",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                          >
+                            <section
+                              className="styles__Control-sc-1jpprl2-1 kKksil"
+                            >
+                              <Connect(Component)
+                                location="home"
+                              >
+                                <Memo()
+                                  active={false}
+                                  location="home"
+                                  toggleActive={[Function]}
+                                >
+                                  <styles__Container
+                                    active={false}
+                                    onClick={[Function]}
+                                  >
+                                    <StyledComponent
+                                      active={false}
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "styles__Container-deyoui-0",
+                                            "isStatic": false,
+                                            "lastClassName": "yOcCB",
+                                            "rules": Array [
+                                              "position:relative;font-family:",
+                                              "'Josefin Slab', Courier, 'Trebuchet MS', 'Times New Roman', serif",
+                                              ";display:flex;flex-wrap:wrap;align-content:center;cursor:pointer;min-height:0px;padding:1.5em 0;padding-bottom:",
+                                              [Function],
+                                              ";",
+                                              "@media (min-width:",
+                                              "35.5",
+                                              "em){",
+                                              "
+    min-height: 100%;
+    padding: 0;
+  ",
+                                              "}",
+                                              ";",
+                                            ],
+                                          },
+                                          "displayName": "styles__Container",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "styles__Container-deyoui-0",
+                                          "target": "nav",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      onClick={[Function]}
+                                    >
+                                      <nav
+                                        className="styles__Container-deyoui-0 yOcCB"
+                                        onClick={[Function]}
+                                      >
+                                        <styles__Title>
+                                          <StyledComponent
+                                            forwardedComponent={
+                                              Object {
+                                                "$$typeof": Symbol(react.forward_ref),
+                                                "attrs": Array [],
+                                                "componentStyle": ComponentStyle {
+                                                  "componentId": "styles__Title-deyoui-1",
+                                                  "isStatic": true,
+                                                  "lastClassName": "DBYBh",
+                                                  "rules": Array [
+                                                    "padding:0 4rem 0 2rem;font-size:1.8rem;",
+                                                    "@media (min-width:",
+                                                    "35.5",
+                                                    "em){",
+                                                    "
+    font-size: 2rem;
+  ",
+                                                    "}",
+                                                    ";",
+                                                  ],
+                                                },
+                                                "displayName": "styles__Title",
+                                                "foldedComponentIds": Array [],
+                                                "render": [Function],
+                                                "styledComponentId": "styles__Title-deyoui-1",
+                                                "target": "h1",
+                                                "toString": [Function],
+                                                "warnTooManyClasses": [Function],
+                                                "withComponent": [Function],
+                                              }
+                                            }
+                                            forwardedRef={null}
+                                          >
+                                            <h1
+                                              className="styles__Title-deyoui-1 DBYBh"
+                                            >
+                                              Fantastic Mr David
+                                            </h1>
+                                          </StyledComponent>
+                                        </styles__Title>
+                                        <styles__Nav
+                                          active={false}
+                                        >
+                                          <StyledComponent
+                                            active={false}
+                                            forwardedComponent={
+                                              Object {
+                                                "$$typeof": Symbol(react.forward_ref),
+                                                "attrs": Array [],
+                                                "componentStyle": ComponentStyle {
+                                                  "componentId": "styles__Nav-deyoui-3",
+                                                  "isStatic": false,
+                                                  "lastClassName": "eXYOcG",
+                                                  "rules": Array [
+                                                    "flex-wrap:wrap;font-size:1.5rem;width:100%;margin:",
+                                                    [Function],
+                                                    ";max-height:",
+                                                    [Function],
+                                                    ";transition:0.5s;opacity:",
+                                                    [Function],
+                                                    ";overflow:hidden;background-color:#444;border-top:",
+                                                    [Function],
+                                                    ";border-bottom:",
+                                                    [Function],
+                                                    ";",
+                                                  ],
+                                                },
+                                                "displayName": "styles__Nav",
+                                                "foldedComponentIds": Array [],
+                                                "render": [Function],
+                                                "styledComponentId": "styles__Nav-deyoui-3",
+                                                "target": "nav",
+                                                "toString": [Function],
+                                                "warnTooManyClasses": [Function],
+                                                "withComponent": [Function],
+                                              }
+                                            }
+                                            forwardedRef={null}
+                                          >
+                                            <nav
+                                              className="styles__Nav-deyoui-3 eXYOcG"
+                                            >
+                                              <Connect(withRouter(undefined))
+                                                current={false}
+                                                key="MenuLink_about"
+                                                label="About"
+                                                menuActive={false}
+                                                target="about"
+                                              >
+                                                <withRouter(undefined)
+                                                  current={false}
+                                                  label="About"
+                                                  menuActive={false}
+                                                  target="about"
+                                                  updateLocation={[Function]}
+                                                >
+                                                  <Memo()
+                                                    current={false}
+                                                    history={
+                                                      Object {
+                                                        "action": "POP",
+                                                        "block": [Function],
+                                                        "createHref": [Function],
+                                                        "go": [Function],
+                                                        "goBack": [Function],
+                                                        "goForward": [Function],
+                                                        "length": 1,
+                                                        "listen": [Function],
+                                                        "location": Object {
+                                                          "hash": "",
+                                                          "pathname": "/",
+                                                          "search": "",
+                                                          "state": undefined,
+                                                        },
+                                                        "push": [Function],
+                                                        "replace": [Function],
+                                                      }
+                                                    }
+                                                    label="About"
+                                                    location={
+                                                      Object {
+                                                        "hash": "",
+                                                        "pathname": "/",
+                                                        "search": "",
+                                                        "state": undefined,
+                                                      }
+                                                    }
+                                                    match={
+                                                      Object {
+                                                        "isExact": true,
+                                                        "params": Object {},
+                                                        "path": "/",
+                                                        "url": "/",
+                                                      }
+                                                    }
+                                                    menuActive={false}
+                                                    target="about"
+                                                    updateLocation={[Function]}
+                                                  >
+                                                    <styles__Container>
+                                                      <StyledComponent
+                                                        forwardedComponent={
+                                                          Object {
+                                                            "$$typeof": Symbol(react.forward_ref),
+                                                            "attrs": Array [],
+                                                            "componentStyle": ComponentStyle {
+                                                              "componentId": "styles__Container-sc-1w8m3j0-0",
+                                                              "isStatic": true,
+                                                              "lastClassName": "dmrGVg",
+                                                              "rules": Array [
+                                                                "display:block;position:relative;color:inherit;&.current{transition:0s;}",
+                                                              ],
+                                                            },
+                                                            "displayName": "styles__Container",
+                                                            "foldedComponentIds": Array [],
+                                                            "render": [Function],
+                                                            "styledComponentId": "styles__Container-sc-1w8m3j0-0",
+                                                            "target": "div",
+                                                            "toString": [Function],
+                                                            "warnTooManyClasses": [Function],
+                                                            "withComponent": [Function],
+                                                          }
+                                                        }
+                                                        forwardedRef={null}
+                                                      >
+                                                        <div
+                                                          className="styles__Container-sc-1w8m3j0-0 dmrGVg"
+                                                        >
+                                                          <styles__Label
+                                                            current={false}
+                                                            menuActive={false}
+                                                            onClick={[Function]}
+                                                            target="about"
+                                                          >
+                                                            <StyledComponent
+                                                              current={false}
+                                                              forwardedComponent={
+                                                                Object {
+                                                                  "$$typeof": Symbol(react.forward_ref),
+                                                                  "attrs": Array [],
+                                                                  "componentStyle": ComponentStyle {
+                                                                    "componentId": "styles__Label-sc-1w8m3j0-1",
+                                                                    "isStatic": false,
+                                                                    "lastClassName": "oFPLn",
+                                                                    "rules": Array [
+                                                                      "position:relative;padding:",
+                                                                      [Function],
+                                                                      ";transition:0.5s;color:",
+                                                                      [Function],
+                                                                      ";font-size:",
+                                                                      [Function],
+                                                                      ";font-weight:",
+                                                                      [Function],
+                                                                      ";cursor:pointer;background-color:",
+                                                                      [Function],
+                                                                      ";&:before{position:absolute;top:0px;left:0px;content:\\"\\";height:100%;transition:0.3s;background-color:",
+                                                                      "#555",
+                                                                      ";}",
+                                                                      "@media (hover:hover){",
+                                                                      "
+    &:hover {
+      padding-left: ",
+                                                                      [Function],
+                                                                      ";
+      background-color: ",
+                                                                      [Function],
+                                                                      ";
+
+      &:before {
+        width: ",
+                                                                      [Function],
+                                                                      ";
+        background-color: ",
+                                                                      [Function],
+                                                                      ";
+      }
+    }
+  ",
+                                                                      "}",
+                                                                      ";",
+                                                                    ],
+                                                                  },
+                                                                  "displayName": "styles__Label",
+                                                                  "foldedComponentIds": Array [],
+                                                                  "render": [Function],
+                                                                  "styledComponentId": "styles__Label-sc-1w8m3j0-1",
+                                                                  "target": "div",
+                                                                  "toString": [Function],
+                                                                  "warnTooManyClasses": [Function],
+                                                                  "withComponent": [Function],
+                                                                }
+                                                              }
+                                                              forwardedRef={null}
+                                                              menuActive={false}
+                                                              onClick={[Function]}
+                                                              target="about"
+                                                            >
+                                                              <div
+                                                                className="styles__Label-sc-1w8m3j0-1 fxEqad"
+                                                                onClick={[Function]}
+                                                                target="about"
+                                                              >
+                                                                About
+                                                              </div>
+                                                            </StyledComponent>
+                                                          </styles__Label>
+                                                          <Memo()
+                                                            current={false}
+                                                            location="about"
+                                                          >
+                                                            <styles__Content
+                                                              current={false}
+                                                            >
+                                                              <StyledComponent
+                                                                current={false}
+                                                                forwardedComponent={
+                                                                  Object {
+                                                                    "$$typeof": Symbol(react.forward_ref),
+                                                                    "attrs": Array [],
+                                                                    "componentStyle": ComponentStyle {
+                                                                      "componentId": "styles__Content-xptth5-0",
+                                                                      "isStatic": false,
+                                                                      "lastClassName": "iheHWk",
+                                                                      "rules": Array [
+                                                                        "display:none;font-size:1.1rem;font-weight:300;line-height:1.3;max-height:",
+                                                                        [Function],
+                                                                        ";padding:",
+                                                                        [Function],
+                                                                        ";color:",
+                                                                        [Function],
+                                                                        ";background-color:",
+                                                                        [Function],
+                                                                        ";overflow:hidden;transition:0.6s;",
+                                                                        "@media (min-width:",
+                                                                        "35.5",
+                                                                        "em){",
+                                                                        "
+    display: block;
+  ",
+                                                                        "}",
+                                                                        ";",
+                                                                      ],
+                                                                    },
+                                                                    "displayName": "styles__Content",
+                                                                    "foldedComponentIds": Array [],
+                                                                    "render": [Function],
+                                                                    "styledComponentId": "styles__Content-xptth5-0",
+                                                                    "target": "div",
+                                                                    "toString": [Function],
+                                                                    "warnTooManyClasses": [Function],
+                                                                    "withComponent": [Function],
+                                                                  }
+                                                                }
+                                                                forwardedRef={null}
+                                                              >
+                                                                <div
+                                                                  className="styles__Content-xptth5-0 iheHWk"
+                                                                >
+                                                                  <_default>
+                                                                    <div>
+                                                                      Meet the captain of the ship.
+                                                                    </div>
+                                                                  </_default>
+                                                                </div>
+                                                              </StyledComponent>
+                                                            </styles__Content>
+                                                          </Memo()>
+                                                        </div>
+                                                      </StyledComponent>
+                                                    </styles__Container>
+                                                  </Memo()>
+                                                </withRouter(undefined)>
+                                              </Connect(withRouter(undefined))>
+                                              <Connect(withRouter(undefined))
+                                                current={false}
+                                                key="MenuLink_work"
+                                                label="Latest Work"
+                                                menuActive={false}
+                                                target="work"
+                                              >
+                                                <withRouter(undefined)
+                                                  current={false}
+                                                  label="Latest Work"
+                                                  menuActive={false}
+                                                  target="work"
+                                                  updateLocation={[Function]}
+                                                >
+                                                  <Memo()
+                                                    current={false}
+                                                    history={
+                                                      Object {
+                                                        "action": "POP",
+                                                        "block": [Function],
+                                                        "createHref": [Function],
+                                                        "go": [Function],
+                                                        "goBack": [Function],
+                                                        "goForward": [Function],
+                                                        "length": 1,
+                                                        "listen": [Function],
+                                                        "location": Object {
+                                                          "hash": "",
+                                                          "pathname": "/",
+                                                          "search": "",
+                                                          "state": undefined,
+                                                        },
+                                                        "push": [Function],
+                                                        "replace": [Function],
+                                                      }
+                                                    }
+                                                    label="Latest Work"
+                                                    location={
+                                                      Object {
+                                                        "hash": "",
+                                                        "pathname": "/",
+                                                        "search": "",
+                                                        "state": undefined,
+                                                      }
+                                                    }
+                                                    match={
+                                                      Object {
+                                                        "isExact": true,
+                                                        "params": Object {},
+                                                        "path": "/",
+                                                        "url": "/",
+                                                      }
+                                                    }
+                                                    menuActive={false}
+                                                    target="work"
+                                                    updateLocation={[Function]}
+                                                  >
+                                                    <styles__Container>
+                                                      <StyledComponent
+                                                        forwardedComponent={
+                                                          Object {
+                                                            "$$typeof": Symbol(react.forward_ref),
+                                                            "attrs": Array [],
+                                                            "componentStyle": ComponentStyle {
+                                                              "componentId": "styles__Container-sc-1w8m3j0-0",
+                                                              "isStatic": true,
+                                                              "lastClassName": "dmrGVg",
+                                                              "rules": Array [
+                                                                "display:block;position:relative;color:inherit;&.current{transition:0s;}",
+                                                              ],
+                                                            },
+                                                            "displayName": "styles__Container",
+                                                            "foldedComponentIds": Array [],
+                                                            "render": [Function],
+                                                            "styledComponentId": "styles__Container-sc-1w8m3j0-0",
+                                                            "target": "div",
+                                                            "toString": [Function],
+                                                            "warnTooManyClasses": [Function],
+                                                            "withComponent": [Function],
+                                                          }
+                                                        }
+                                                        forwardedRef={null}
+                                                      >
+                                                        <div
+                                                          className="styles__Container-sc-1w8m3j0-0 dmrGVg"
+                                                        >
+                                                          <styles__Label
+                                                            current={false}
+                                                            menuActive={false}
+                                                            onClick={[Function]}
+                                                            target="work"
+                                                          >
+                                                            <StyledComponent
+                                                              current={false}
+                                                              forwardedComponent={
+                                                                Object {
+                                                                  "$$typeof": Symbol(react.forward_ref),
+                                                                  "attrs": Array [],
+                                                                  "componentStyle": ComponentStyle {
+                                                                    "componentId": "styles__Label-sc-1w8m3j0-1",
+                                                                    "isStatic": false,
+                                                                    "lastClassName": "oFPLn",
+                                                                    "rules": Array [
+                                                                      "position:relative;padding:",
+                                                                      [Function],
+                                                                      ";transition:0.5s;color:",
+                                                                      [Function],
+                                                                      ";font-size:",
+                                                                      [Function],
+                                                                      ";font-weight:",
+                                                                      [Function],
+                                                                      ";cursor:pointer;background-color:",
+                                                                      [Function],
+                                                                      ";&:before{position:absolute;top:0px;left:0px;content:\\"\\";height:100%;transition:0.3s;background-color:",
+                                                                      "#555",
+                                                                      ";}",
+                                                                      "@media (hover:hover){",
+                                                                      "
+    &:hover {
+      padding-left: ",
+                                                                      [Function],
+                                                                      ";
+      background-color: ",
+                                                                      [Function],
+                                                                      ";
+
+      &:before {
+        width: ",
+                                                                      [Function],
+                                                                      ";
+        background-color: ",
+                                                                      [Function],
+                                                                      ";
+      }
+    }
+  ",
+                                                                      "}",
+                                                                      ";",
+                                                                    ],
+                                                                  },
+                                                                  "displayName": "styles__Label",
+                                                                  "foldedComponentIds": Array [],
+                                                                  "render": [Function],
+                                                                  "styledComponentId": "styles__Label-sc-1w8m3j0-1",
+                                                                  "target": "div",
+                                                                  "toString": [Function],
+                                                                  "warnTooManyClasses": [Function],
+                                                                  "withComponent": [Function],
+                                                                }
+                                                              }
+                                                              forwardedRef={null}
+                                                              menuActive={false}
+                                                              onClick={[Function]}
+                                                              target="work"
+                                                            >
+                                                              <div
+                                                                className="styles__Label-sc-1w8m3j0-1 kLVSUR"
+                                                                onClick={[Function]}
+                                                                target="work"
+                                                              >
+                                                                Latest Work
+                                                              </div>
+                                                            </StyledComponent>
+                                                          </styles__Label>
+                                                          <Memo()
+                                                            current={false}
+                                                            location="work"
+                                                          >
+                                                            <styles__Content
+                                                              current={false}
+                                                            >
+                                                              <StyledComponent
+                                                                current={false}
+                                                                forwardedComponent={
+                                                                  Object {
+                                                                    "$$typeof": Symbol(react.forward_ref),
+                                                                    "attrs": Array [],
+                                                                    "componentStyle": ComponentStyle {
+                                                                      "componentId": "styles__Content-xptth5-0",
+                                                                      "isStatic": false,
+                                                                      "lastClassName": "iheHWk",
+                                                                      "rules": Array [
+                                                                        "display:none;font-size:1.1rem;font-weight:300;line-height:1.3;max-height:",
+                                                                        [Function],
+                                                                        ";padding:",
+                                                                        [Function],
+                                                                        ";color:",
+                                                                        [Function],
+                                                                        ";background-color:",
+                                                                        [Function],
+                                                                        ";overflow:hidden;transition:0.6s;",
+                                                                        "@media (min-width:",
+                                                                        "35.5",
+                                                                        "em){",
+                                                                        "
+    display: block;
+  ",
+                                                                        "}",
+                                                                        ";",
+                                                                      ],
+                                                                    },
+                                                                    "displayName": "styles__Content",
+                                                                    "foldedComponentIds": Array [],
+                                                                    "render": [Function],
+                                                                    "styledComponentId": "styles__Content-xptth5-0",
+                                                                    "target": "div",
+                                                                    "toString": [Function],
+                                                                    "warnTooManyClasses": [Function],
+                                                                    "withComponent": [Function],
+                                                                  }
+                                                                }
+                                                                forwardedRef={null}
+                                                              >
+                                                                <div
+                                                                  className="styles__Content-xptth5-0 iheHWk"
+                                                                >
+                                                                  <_default>
+                                                                    <div>
+                                                                      Some things I've been working on.
+                                                                    </div>
+                                                                  </_default>
+                                                                </div>
+                                                              </StyledComponent>
+                                                            </styles__Content>
+                                                          </Memo()>
+                                                        </div>
+                                                      </StyledComponent>
+                                                    </styles__Container>
+                                                  </Memo()>
+                                                </withRouter(undefined)>
+                                              </Connect(withRouter(undefined))>
+                                              <Connect(withRouter(undefined))
+                                                current={false}
+                                                key="MenuLink_contact"
+                                                label="Contact"
+                                                menuActive={false}
+                                                target="contact"
+                                              >
+                                                <withRouter(undefined)
+                                                  current={false}
+                                                  label="Contact"
+                                                  menuActive={false}
+                                                  target="contact"
+                                                  updateLocation={[Function]}
+                                                >
+                                                  <Memo()
+                                                    current={false}
+                                                    history={
+                                                      Object {
+                                                        "action": "POP",
+                                                        "block": [Function],
+                                                        "createHref": [Function],
+                                                        "go": [Function],
+                                                        "goBack": [Function],
+                                                        "goForward": [Function],
+                                                        "length": 1,
+                                                        "listen": [Function],
+                                                        "location": Object {
+                                                          "hash": "",
+                                                          "pathname": "/",
+                                                          "search": "",
+                                                          "state": undefined,
+                                                        },
+                                                        "push": [Function],
+                                                        "replace": [Function],
+                                                      }
+                                                    }
+                                                    label="Contact"
+                                                    location={
+                                                      Object {
+                                                        "hash": "",
+                                                        "pathname": "/",
+                                                        "search": "",
+                                                        "state": undefined,
+                                                      }
+                                                    }
+                                                    match={
+                                                      Object {
+                                                        "isExact": true,
+                                                        "params": Object {},
+                                                        "path": "/",
+                                                        "url": "/",
+                                                      }
+                                                    }
+                                                    menuActive={false}
+                                                    target="contact"
+                                                    updateLocation={[Function]}
+                                                  >
+                                                    <styles__Container>
+                                                      <StyledComponent
+                                                        forwardedComponent={
+                                                          Object {
+                                                            "$$typeof": Symbol(react.forward_ref),
+                                                            "attrs": Array [],
+                                                            "componentStyle": ComponentStyle {
+                                                              "componentId": "styles__Container-sc-1w8m3j0-0",
+                                                              "isStatic": true,
+                                                              "lastClassName": "dmrGVg",
+                                                              "rules": Array [
+                                                                "display:block;position:relative;color:inherit;&.current{transition:0s;}",
+                                                              ],
+                                                            },
+                                                            "displayName": "styles__Container",
+                                                            "foldedComponentIds": Array [],
+                                                            "render": [Function],
+                                                            "styledComponentId": "styles__Container-sc-1w8m3j0-0",
+                                                            "target": "div",
+                                                            "toString": [Function],
+                                                            "warnTooManyClasses": [Function],
+                                                            "withComponent": [Function],
+                                                          }
+                                                        }
+                                                        forwardedRef={null}
+                                                      >
+                                                        <div
+                                                          className="styles__Container-sc-1w8m3j0-0 dmrGVg"
+                                                        >
+                                                          <styles__Label
+                                                            current={false}
+                                                            menuActive={false}
+                                                            onClick={[Function]}
+                                                            target="contact"
+                                                          >
+                                                            <StyledComponent
+                                                              current={false}
+                                                              forwardedComponent={
+                                                                Object {
+                                                                  "$$typeof": Symbol(react.forward_ref),
+                                                                  "attrs": Array [],
+                                                                  "componentStyle": ComponentStyle {
+                                                                    "componentId": "styles__Label-sc-1w8m3j0-1",
+                                                                    "isStatic": false,
+                                                                    "lastClassName": "oFPLn",
+                                                                    "rules": Array [
+                                                                      "position:relative;padding:",
+                                                                      [Function],
+                                                                      ";transition:0.5s;color:",
+                                                                      [Function],
+                                                                      ";font-size:",
+                                                                      [Function],
+                                                                      ";font-weight:",
+                                                                      [Function],
+                                                                      ";cursor:pointer;background-color:",
+                                                                      [Function],
+                                                                      ";&:before{position:absolute;top:0px;left:0px;content:\\"\\";height:100%;transition:0.3s;background-color:",
+                                                                      "#555",
+                                                                      ";}",
+                                                                      "@media (hover:hover){",
+                                                                      "
+    &:hover {
+      padding-left: ",
+                                                                      [Function],
+                                                                      ";
+      background-color: ",
+                                                                      [Function],
+                                                                      ";
+
+      &:before {
+        width: ",
+                                                                      [Function],
+                                                                      ";
+        background-color: ",
+                                                                      [Function],
+                                                                      ";
+      }
+    }
+  ",
+                                                                      "}",
+                                                                      ";",
+                                                                    ],
+                                                                  },
+                                                                  "displayName": "styles__Label",
+                                                                  "foldedComponentIds": Array [],
+                                                                  "render": [Function],
+                                                                  "styledComponentId": "styles__Label-sc-1w8m3j0-1",
+                                                                  "target": "div",
+                                                                  "toString": [Function],
+                                                                  "warnTooManyClasses": [Function],
+                                                                  "withComponent": [Function],
+                                                                }
+                                                              }
+                                                              forwardedRef={null}
+                                                              menuActive={false}
+                                                              onClick={[Function]}
+                                                              target="contact"
+                                                            >
+                                                              <div
+                                                                className="styles__Label-sc-1w8m3j0-1 oFPLn"
+                                                                onClick={[Function]}
+                                                                target="contact"
+                                                              >
+                                                                Contact
+                                                              </div>
+                                                            </StyledComponent>
+                                                          </styles__Label>
+                                                          <Memo()
+                                                            current={false}
+                                                            location="contact"
+                                                          >
+                                                            <styles__Content
+                                                              current={false}
+                                                            >
+                                                              <StyledComponent
+                                                                current={false}
+                                                                forwardedComponent={
+                                                                  Object {
+                                                                    "$$typeof": Symbol(react.forward_ref),
+                                                                    "attrs": Array [],
+                                                                    "componentStyle": ComponentStyle {
+                                                                      "componentId": "styles__Content-xptth5-0",
+                                                                      "isStatic": false,
+                                                                      "lastClassName": "iheHWk",
+                                                                      "rules": Array [
+                                                                        "display:none;font-size:1.1rem;font-weight:300;line-height:1.3;max-height:",
+                                                                        [Function],
+                                                                        ";padding:",
+                                                                        [Function],
+                                                                        ";color:",
+                                                                        [Function],
+                                                                        ";background-color:",
+                                                                        [Function],
+                                                                        ";overflow:hidden;transition:0.6s;",
+                                                                        "@media (min-width:",
+                                                                        "35.5",
+                                                                        "em){",
+                                                                        "
+    display: block;
+  ",
+                                                                        "}",
+                                                                        ";",
+                                                                      ],
+                                                                    },
+                                                                    "displayName": "styles__Content",
+                                                                    "foldedComponentIds": Array [],
+                                                                    "render": [Function],
+                                                                    "styledComponentId": "styles__Content-xptth5-0",
+                                                                    "target": "div",
+                                                                    "toString": [Function],
+                                                                    "warnTooManyClasses": [Function],
+                                                                    "withComponent": [Function],
+                                                                  }
+                                                                }
+                                                                forwardedRef={null}
+                                                              >
+                                                                <div
+                                                                  className="styles__Content-xptth5-0 iheHWk"
+                                                                >
+                                                                  <_default>
+                                                                    <div>
+                                                                      For relaxing times, make it Suntory time.
+                                                                    </div>
+                                                                  </_default>
+                                                                </div>
+                                                              </StyledComponent>
+                                                            </styles__Content>
+                                                          </Memo()>
+                                                        </div>
+                                                      </StyledComponent>
+                                                    </styles__Container>
+                                                  </Memo()>
+                                                </withRouter(undefined)>
+                                              </Connect(withRouter(undefined))>
+                                            </nav>
+                                          </StyledComponent>
+                                        </styles__Nav>
+                                        <styles__Subtitle
+                                          active={false}
+                                        >
+                                          <StyledComponent
+                                            active={false}
+                                            forwardedComponent={
+                                              Object {
+                                                "$$typeof": Symbol(react.forward_ref),
+                                                "attrs": Array [],
+                                                "componentStyle": ComponentStyle {
+                                                  "componentId": "styles__Subtitle-deyoui-4",
+                                                  "isStatic": false,
+                                                  "lastClassName": "liXseV",
+                                                  "rules": Array [
+                                                    "display:",
+                                                    [Function],
+                                                    ";position:relative;font-size:1rem;width:100%;padding:0 2rem;margin-top:0.25em;",
+                                                    "@media (min-width:",
+                                                    "35.5",
+                                                    "em){",
+                                                    "
+    display: flex;
+  ",
+                                                    "}",
+                                                    ";",
+                                                  ],
+                                                },
+                                                "displayName": "styles__Subtitle",
+                                                "foldedComponentIds": Array [],
+                                                "render": [Function],
+                                                "styledComponentId": "styles__Subtitle-deyoui-4",
+                                                "target": "div",
+                                                "toString": [Function],
+                                                "warnTooManyClasses": [Function],
+                                                "withComponent": [Function],
+                                              }
+                                            }
+                                            forwardedRef={null}
+                                          >
+                                            <div
+                                              className="styles__Subtitle-deyoui-4 liXseV"
+                                            >
+                                              <h2>
+                                                <styles__CogIcon
+                                                  active={false}
+                                                  icon={
+                                                    Object {
+                                                      "icon": Array [
+                                                        512,
+                                                        512,
+                                                        Array [],
+                                                        "f013",
+                                                        "M444.788 291.1l42.616 24.599c4.867 2.809 7.126 8.618 5.459 13.985-11.07 35.642-29.97 67.842-54.689 94.586a12.016 12.016 0 0 1-14.832 2.254l-42.584-24.595a191.577 191.577 0 0 1-60.759 35.13v49.182a12.01 12.01 0 0 1-9.377 11.718c-34.956 7.85-72.499 8.256-109.219.007-5.49-1.233-9.403-6.096-9.403-11.723v-49.184a191.555 191.555 0 0 1-60.759-35.13l-42.584 24.595a12.016 12.016 0 0 1-14.832-2.254c-24.718-26.744-43.619-58.944-54.689-94.586-1.667-5.366.592-11.175 5.459-13.985L67.212 291.1a193.48 193.48 0 0 1 0-70.199l-42.616-24.599c-4.867-2.809-7.126-8.618-5.459-13.985 11.07-35.642 29.97-67.842 54.689-94.586a12.016 12.016 0 0 1 14.832-2.254l42.584 24.595a191.577 191.577 0 0 1 60.759-35.13V25.759a12.01 12.01 0 0 1 9.377-11.718c34.956-7.85 72.499-8.256 109.219-.007 5.49 1.233 9.403 6.096 9.403 11.723v49.184a191.555 191.555 0 0 1 60.759 35.13l42.584-24.595a12.016 12.016 0 0 1 14.832 2.254c24.718 26.744 43.619 58.944 54.689 94.586 1.667 5.366-.592 11.175-5.459 13.985L444.788 220.9a193.485 193.485 0 0 1 0 70.2zM336 256c0-44.112-35.888-80-80-80s-80 35.888-80 80 35.888 80 80 80 80-35.888 80-80z",
+                                                      ],
+                                                      "iconName": "cog",
+                                                      "prefix": "fas",
+                                                    }
+                                                  }
+                                                >
+                                                  <StyledComponent
+                                                    active={false}
+                                                    forwardedComponent={
+                                                      Object {
+                                                        "$$typeof": Symbol(react.forward_ref),
+                                                        "attrs": Array [],
+                                                        "componentStyle": ComponentStyle {
+                                                          "componentId": "styles__CogIcon-deyoui-6",
+                                                          "isStatic": false,
+                                                          "lastClassName": "hwIDmi",
+                                                          "rules": Array [
+                                                            "position:relative;transition:0.6s;transform:",
+                                                            [Function],
+                                                            ";",
+                                                            "left:-0.25em;opacity:0.5;",
+                                                          ],
+                                                        },
+                                                        "displayName": "styles__CogIcon",
+                                                        "foldedComponentIds": Array [
+                                                          "styles__Icon-deyoui-5",
+                                                        ],
+                                                        "render": [Function],
+                                                        "styledComponentId": "styles__CogIcon-deyoui-6",
+                                                        "target": [Function],
+                                                        "toString": [Function],
+                                                        "warnTooManyClasses": [Function],
+                                                        "withComponent": [Function],
+                                                      }
+                                                    }
+                                                    forwardedRef={null}
+                                                    icon={
+                                                      Object {
+                                                        "icon": Array [
+                                                          512,
+                                                          512,
+                                                          Array [],
+                                                          "f013",
+                                                          "M444.788 291.1l42.616 24.599c4.867 2.809 7.126 8.618 5.459 13.985-11.07 35.642-29.97 67.842-54.689 94.586a12.016 12.016 0 0 1-14.832 2.254l-42.584-24.595a191.577 191.577 0 0 1-60.759 35.13v49.182a12.01 12.01 0 0 1-9.377 11.718c-34.956 7.85-72.499 8.256-109.219.007-5.49-1.233-9.403-6.096-9.403-11.723v-49.184a191.555 191.555 0 0 1-60.759-35.13l-42.584 24.595a12.016 12.016 0 0 1-14.832-2.254c-24.718-26.744-43.619-58.944-54.689-94.586-1.667-5.366.592-11.175 5.459-13.985L67.212 291.1a193.48 193.48 0 0 1 0-70.199l-42.616-24.599c-4.867-2.809-7.126-8.618-5.459-13.985 11.07-35.642 29.97-67.842 54.689-94.586a12.016 12.016 0 0 1 14.832-2.254l42.584 24.595a191.577 191.577 0 0 1 60.759-35.13V25.759a12.01 12.01 0 0 1 9.377-11.718c34.956-7.85 72.499-8.256 109.219-.007 5.49 1.233 9.403 6.096 9.403 11.723v49.184a191.555 191.555 0 0 1 60.759 35.13l42.584-24.595a12.016 12.016 0 0 1 14.832 2.254c24.718 26.744 43.619 58.944 54.689 94.586 1.667 5.366-.592 11.175-5.459 13.985L444.788 220.9a193.485 193.485 0 0 1 0 70.2zM336 256c0-44.112-35.888-80-80-80s-80 35.888-80 80 35.888 80 80 80 80-35.888 80-80z",
+                                                        ],
+                                                        "iconName": "cog",
+                                                        "prefix": "fas",
+                                                      }
+                                                    }
+                                                  >
+                                                    <Component
+                                                      active={false}
+                                                      className="styles__Icon-deyoui-5 styles__CogIcon-deyoui-6 hwIDmi"
+                                                      icon={
+                                                        Object {
+                                                          "icon": Array [
+                                                            512,
+                                                            512,
+                                                            Array [],
+                                                            "f013",
+                                                            "M444.788 291.1l42.616 24.599c4.867 2.809 7.126 8.618 5.459 13.985-11.07 35.642-29.97 67.842-54.689 94.586a12.016 12.016 0 0 1-14.832 2.254l-42.584-24.595a191.577 191.577 0 0 1-60.759 35.13v49.182a12.01 12.01 0 0 1-9.377 11.718c-34.956 7.85-72.499 8.256-109.219.007-5.49-1.233-9.403-6.096-9.403-11.723v-49.184a191.555 191.555 0 0 1-60.759-35.13l-42.584 24.595a12.016 12.016 0 0 1-14.832-2.254c-24.718-26.744-43.619-58.944-54.689-94.586-1.667-5.366.592-11.175 5.459-13.985L67.212 291.1a193.48 193.48 0 0 1 0-70.199l-42.616-24.599c-4.867-2.809-7.126-8.618-5.459-13.985 11.07-35.642 29.97-67.842 54.689-94.586a12.016 12.016 0 0 1 14.832-2.254l42.584 24.595a191.577 191.577 0 0 1 60.759-35.13V25.759a12.01 12.01 0 0 1 9.377-11.718c34.956-7.85 72.499-8.256 109.219-.007 5.49 1.233 9.403 6.096 9.403 11.723v49.184a191.555 191.555 0 0 1 60.759 35.13l42.584-24.595a12.016 12.016 0 0 1 14.832 2.254c24.718 26.744 43.619 58.944 54.689 94.586 1.667 5.366-.592 11.175-5.459 13.985L444.788 220.9a193.485 193.485 0 0 1 0 70.2zM336 256c0-44.112-35.888-80-80-80s-80 35.888-80 80 35.888 80 80 80 80-35.888 80-80z",
+                                                          ],
+                                                          "iconName": "cog",
+                                                          "prefix": "fas",
+                                                        }
+                                                      }
+                                                    >
+                                                      <Memo()
+                                                        className="styles__Icon-deyoui-5 styles__CogIcon-deyoui-6 hwIDmi"
+                                                        icon={
+                                                          Object {
+                                                            "icon": Array [
+                                                              512,
+                                                              512,
+                                                              Array [],
+                                                              "f013",
+                                                              "M444.788 291.1l42.616 24.599c4.867 2.809 7.126 8.618 5.459 13.985-11.07 35.642-29.97 67.842-54.689 94.586a12.016 12.016 0 0 1-14.832 2.254l-42.584-24.595a191.577 191.577 0 0 1-60.759 35.13v49.182a12.01 12.01 0 0 1-9.377 11.718c-34.956 7.85-72.499 8.256-109.219.007-5.49-1.233-9.403-6.096-9.403-11.723v-49.184a191.555 191.555 0 0 1-60.759-35.13l-42.584 24.595a12.016 12.016 0 0 1-14.832-2.254c-24.718-26.744-43.619-58.944-54.689-94.586-1.667-5.366.592-11.175 5.459-13.985L67.212 291.1a193.48 193.48 0 0 1 0-70.199l-42.616-24.599c-4.867-2.809-7.126-8.618-5.459-13.985 11.07-35.642 29.97-67.842 54.689-94.586a12.016 12.016 0 0 1 14.832-2.254l42.584 24.595a191.577 191.577 0 0 1 60.759-35.13V25.759a12.01 12.01 0 0 1 9.377-11.718c34.956-7.85 72.499-8.256 109.219-.007 5.49 1.233 9.403 6.096 9.403 11.723v49.184a191.555 191.555 0 0 1 60.759 35.13l42.584-24.595a12.016 12.016 0 0 1 14.832 2.254c24.718 26.744 43.619 58.944 54.689 94.586 1.667 5.366-.592 11.175-5.459 13.985L444.788 220.9a193.485 193.485 0 0 1 0 70.2zM336 256c0-44.112-35.888-80-80-80s-80 35.888-80 80 35.888 80 80 80 80-35.888 80-80z",
+                                                            ],
+                                                            "iconName": "cog",
+                                                            "prefix": "fas",
+                                                          }
+                                                        }
+                                                      >
+                                                        <FontAwesomeIcon
+                                                          border={false}
+                                                          className="styles__Icon-deyoui-5 styles__CogIcon-deyoui-6 hwIDmi"
+                                                          fixedWidth={false}
+                                                          flip={null}
+                                                          icon={
+                                                            Object {
+                                                              "icon": Array [
+                                                                512,
+                                                                512,
+                                                                Array [],
+                                                                "f013",
+                                                                "M444.788 291.1l42.616 24.599c4.867 2.809 7.126 8.618 5.459 13.985-11.07 35.642-29.97 67.842-54.689 94.586a12.016 12.016 0 0 1-14.832 2.254l-42.584-24.595a191.577 191.577 0 0 1-60.759 35.13v49.182a12.01 12.01 0 0 1-9.377 11.718c-34.956 7.85-72.499 8.256-109.219.007-5.49-1.233-9.403-6.096-9.403-11.723v-49.184a191.555 191.555 0 0 1-60.759-35.13l-42.584 24.595a12.016 12.016 0 0 1-14.832-2.254c-24.718-26.744-43.619-58.944-54.689-94.586-1.667-5.366.592-11.175 5.459-13.985L67.212 291.1a193.48 193.48 0 0 1 0-70.199l-42.616-24.599c-4.867-2.809-7.126-8.618-5.459-13.985 11.07-35.642 29.97-67.842 54.689-94.586a12.016 12.016 0 0 1 14.832-2.254l42.584 24.595a191.577 191.577 0 0 1 60.759-35.13V25.759a12.01 12.01 0 0 1 9.377-11.718c34.956-7.85 72.499-8.256 109.219-.007 5.49 1.233 9.403 6.096 9.403 11.723v49.184a191.555 191.555 0 0 1 60.759 35.13l42.584-24.595a12.016 12.016 0 0 1 14.832 2.254c24.718 26.744 43.619 58.944 54.689 94.586 1.667 5.366-.592 11.175-5.459 13.985L444.788 220.9a193.485 193.485 0 0 1 0 70.2zM336 256c0-44.112-35.888-80-80-80s-80 35.888-80 80 35.888 80 80 80 80-35.888 80-80z",
+                                                              ],
+                                                              "iconName": "cog",
+                                                              "prefix": "fas",
+                                                            }
+                                                          }
+                                                          inverse={false}
+                                                          listItem={false}
+                                                          mask={null}
+                                                          pull={null}
+                                                          pulse={false}
+                                                          rotation={null}
+                                                          size={null}
+                                                          spin={false}
+                                                          symbol={false}
+                                                          title=""
+                                                          transform={null}
+                                                        >
+                                                          <svg
+                                                            aria-hidden="true"
+                                                            className="svg-inline--fa fa-cog fa-w-16 styles__Icon-deyoui-5 styles__CogIcon-deyoui-6 hwIDmi"
+                                                            data-icon="cog"
+                                                            data-prefix="fas"
+                                                            role="img"
+                                                            style={Object {}}
+                                                            viewBox="0 0 512 512"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                          >
+                                                            <path
+                                                              d="M444.788 291.1l42.616 24.599c4.867 2.809 7.126 8.618 5.459 13.985-11.07 35.642-29.97 67.842-54.689 94.586a12.016 12.016 0 0 1-14.832 2.254l-42.584-24.595a191.577 191.577 0 0 1-60.759 35.13v49.182a12.01 12.01 0 0 1-9.377 11.718c-34.956 7.85-72.499 8.256-109.219.007-5.49-1.233-9.403-6.096-9.403-11.723v-49.184a191.555 191.555 0 0 1-60.759-35.13l-42.584 24.595a12.016 12.016 0 0 1-14.832-2.254c-24.718-26.744-43.619-58.944-54.689-94.586-1.667-5.366.592-11.175 5.459-13.985L67.212 291.1a193.48 193.48 0 0 1 0-70.199l-42.616-24.599c-4.867-2.809-7.126-8.618-5.459-13.985 11.07-35.642 29.97-67.842 54.689-94.586a12.016 12.016 0 0 1 14.832-2.254l42.584 24.595a191.577 191.577 0 0 1 60.759-35.13V25.759a12.01 12.01 0 0 1 9.377-11.718c34.956-7.85 72.499-8.256 109.219-.007 5.49 1.233 9.403 6.096 9.403 11.723v49.184a191.555 191.555 0 0 1 60.759 35.13l42.584-24.595a12.016 12.016 0 0 1 14.832 2.254c24.718 26.744 43.619 58.944 54.689 94.586 1.667 5.366-.592 11.175-5.459 13.985L444.788 220.9a193.485 193.485 0 0 1 0 70.2zM336 256c0-44.112-35.888-80-80-80s-80 35.888-80 80 35.888 80 80 80 80-35.888 80-80z"
+                                                              fill="currentColor"
+                                                              style={Object {}}
+                                                            />
+                                                          </svg>
+                                                        </FontAwesomeIcon>
+                                                      </Memo()>
+                                                    </Component>
+                                                  </StyledComponent>
+                                                </styles__CogIcon>
+                                                Art + Engineering
+                                              </h2>
+                                              <Memo()>
+                                                <styles__Cursor>
+                                                  <StyledComponent
+                                                    forwardedComponent={
+                                                      Object {
+                                                        "$$typeof": Symbol(react.forward_ref),
+                                                        "attrs": Array [],
+                                                        "componentStyle": ComponentStyle {
+                                                          "componentId": "styles__Cursor-cbfjlf-0",
+                                                          "isStatic": true,
+                                                          "lastClassName": "kPyiRo",
+                                                          "rules": Array [
+                                                            "position:relative;display:inline-block;width:0.5rem;margin-left:0.15rem;animation:",
+                                                            Keyframes {
+                                                              "id": "sc-keyframes-kFBPLh",
+                                                              "inject": [Function],
+                                                              "name": "kFBPLh",
+                                                              "rules": Array [
+                                                                "@-webkit-keyframes kFBPLh{0%{opacity:1.0;}50%{opacity:0.0;}100%{opacity:1.0;}}",
+                                                                "@keyframes kFBPLh{0%{opacity:1.0;}50%{opacity:0.0;}100%{opacity:1.0;}}",
+                                                              ],
+                                                              "toString": [Function],
+                                                            },
+                                                            " 1s step-end infinite",
+                                                            ";border-bottom:2px solid ",
+                                                            "#aaa",
+                                                            ";",
+                                                          ],
+                                                        },
+                                                        "displayName": "styles__Cursor",
+                                                        "foldedComponentIds": Array [],
+                                                        "render": [Function],
+                                                        "styledComponentId": "styles__Cursor-cbfjlf-0",
+                                                        "target": "div",
+                                                        "toString": [Function],
+                                                        "warnTooManyClasses": [Function],
+                                                        "withComponent": [Function],
+                                                      }
+                                                    }
+                                                    forwardedRef={null}
+                                                  >
+                                                    <div
+                                                      className="styles__Cursor-cbfjlf-0 kPyiRo"
+                                                    />
+                                                  </StyledComponent>
+                                                </styles__Cursor>
+                                              </Memo()>
+                                            </div>
+                                          </StyledComponent>
+                                        </styles__Subtitle>
+                                        <styles__Cta
+                                          active={false}
+                                        >
+                                          <StyledComponent
+                                            active={false}
+                                            forwardedComponent={
+                                              Object {
+                                                "$$typeof": Symbol(react.forward_ref),
+                                                "attrs": Array [],
+                                                "componentStyle": ComponentStyle {
+                                                  "componentId": "styles__Cta-deyoui-2",
+                                                  "isStatic": false,
+                                                  "lastClassName": "eUKTAC",
+                                                  "rules": Array [
+                                                    "position:absolute;display:",
+                                                    [Function],
+                                                    ";justify-content:center;align-items:center;top:calc(50% - 25px);right:2rem;border-radius:50%;border:",
+                                                    "2px solid #555",
+                                                    ";font-size:2rem;color:",
+                                                    "#555",
+                                                    ";width:50px;height:50px;z-index:",
+                                                    [Function],
+                                                    ";opacity:",
+                                                    [Function],
+                                                    ";transition:0.3s;",
+                                                    "@media (min-width:",
+                                                    "35.5",
+                                                    "em){",
+                                                    "
+    display: flex;
+  ",
+                                                    "}",
+                                                    ";",
+                                                    "@media (hover:hover){",
+                                                    "
+    &:hover {
+      background: ",
+                                                    "#333",
+                                                    ";
+    }
+  ",
+                                                    "}",
+                                                    ";",
+                                                  ],
+                                                },
+                                                "displayName": "styles__Cta",
+                                                "foldedComponentIds": Array [],
+                                                "render": [Function],
+                                                "styledComponentId": "styles__Cta-deyoui-2",
+                                                "target": "a",
+                                                "toString": [Function],
+                                                "warnTooManyClasses": [Function],
+                                                "withComponent": [Function],
+                                              }
+                                            }
+                                            forwardedRef={null}
+                                          >
+                                            <a
+                                              className="styles__Cta-deyoui-2 eUKTAC"
+                                            >
+                                              <styles__Icon
+                                                icon={
+                                                  Object {
+                                                    "icon": Array [
+                                                      320,
+                                                      512,
+                                                      Array [],
+                                                      "f107",
+                                                      "M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z",
+                                                    ],
+                                                    "iconName": "angle-down",
+                                                    "prefix": "fas",
+                                                  }
+                                                }
+                                              >
+                                                <StyledComponent
+                                                  forwardedComponent={
+                                                    Object {
+                                                      "$$typeof": Symbol(react.forward_ref),
+                                                      "attrs": Array [],
+                                                      "componentStyle": ComponentStyle {
+                                                        "componentId": "styles__Icon-deyoui-5",
+                                                        "isStatic": false,
+                                                        "lastClassName": "eLGiAq",
+                                                        "rules": Array [
+                                                          "position:relative;transition:0.6s;transform:",
+                                                          [Function],
+                                                          ";",
+                                                        ],
+                                                      },
+                                                      "displayName": "styles__Icon",
+                                                      "foldedComponentIds": Array [],
+                                                      "render": [Function],
+                                                      "styledComponentId": "styles__Icon-deyoui-5",
+                                                      "target": [Function],
+                                                      "toString": [Function],
+                                                      "warnTooManyClasses": [Function],
+                                                      "withComponent": [Function],
+                                                    }
+                                                  }
+                                                  forwardedRef={null}
+                                                  icon={
+                                                    Object {
+                                                      "icon": Array [
+                                                        320,
+                                                        512,
+                                                        Array [],
+                                                        "f107",
+                                                        "M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z",
+                                                      ],
+                                                      "iconName": "angle-down",
+                                                      "prefix": "fas",
+                                                    }
+                                                  }
+                                                >
+                                                  <Component
+                                                    className="styles__Icon-deyoui-5 eLGiAq"
+                                                    icon={
+                                                      Object {
+                                                        "icon": Array [
+                                                          320,
+                                                          512,
+                                                          Array [],
+                                                          "f107",
+                                                          "M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z",
+                                                        ],
+                                                        "iconName": "angle-down",
+                                                        "prefix": "fas",
+                                                      }
+                                                    }
+                                                  >
+                                                    <Memo()
+                                                      className="styles__Icon-deyoui-5 eLGiAq"
+                                                      icon={
+                                                        Object {
+                                                          "icon": Array [
+                                                            320,
+                                                            512,
+                                                            Array [],
+                                                            "f107",
+                                                            "M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z",
+                                                          ],
+                                                          "iconName": "angle-down",
+                                                          "prefix": "fas",
+                                                        }
+                                                      }
+                                                    >
+                                                      <FontAwesomeIcon
+                                                        border={false}
+                                                        className="styles__Icon-deyoui-5 eLGiAq"
+                                                        fixedWidth={false}
+                                                        flip={null}
+                                                        icon={
+                                                          Object {
+                                                            "icon": Array [
+                                                              320,
+                                                              512,
+                                                              Array [],
+                                                              "f107",
+                                                              "M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z",
+                                                            ],
+                                                            "iconName": "angle-down",
+                                                            "prefix": "fas",
+                                                          }
+                                                        }
+                                                        inverse={false}
+                                                        listItem={false}
+                                                        mask={null}
+                                                        pull={null}
+                                                        pulse={false}
+                                                        rotation={null}
+                                                        size={null}
+                                                        spin={false}
+                                                        symbol={false}
+                                                        title=""
+                                                        transform={null}
+                                                      >
+                                                        <svg
+                                                          aria-hidden="true"
+                                                          className="svg-inline--fa fa-angle-down fa-w-10 styles__Icon-deyoui-5 eLGiAq"
+                                                          data-icon="angle-down"
+                                                          data-prefix="fas"
+                                                          role="img"
+                                                          style={Object {}}
+                                                          viewBox="0 0 320 512"
+                                                          xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                          <path
+                                                            d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"
+                                                            fill="currentColor"
+                                                            style={Object {}}
+                                                          />
+                                                        </svg>
+                                                      </FontAwesomeIcon>
+                                                    </Memo()>
+                                                  </Component>
+                                                </StyledComponent>
+                                              </styles__Icon>
+                                            </a>
+                                          </StyledComponent>
+                                        </styles__Cta>
+                                      </nav>
+                                    </StyledComponent>
+                                  </styles__Container>
+                                </Memo()>
+                              </Connect(Component)>
+                            </section>
+                          </StyledComponent>
+                        </styles__Control>
+                        <styles__Media
+                          location="home"
+                        >
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "styles__Media-sc-1jpprl2-2",
+                                  "isStatic": false,
+                                  "lastClassName": "fuwkzu",
+                                  "rules": Array [
+                                    "position:relative;display:flex;width:100%;height:",
+                                    [Function],
+                                    ";",
+                                    "@media (min-width:",
+                                    "35.5",
+                                    "em){",
+                                    "
+    width: 60%;
+  ",
+                                    "}",
+                                  ],
+                                },
+                                "displayName": "styles__Media",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "styles__Media-sc-1jpprl2-2",
+                                "target": "section",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                            location="home"
+                          >
+                            <section
+                              className="styles__Media-sc-1jpprl2-2 fuwkzu"
+                            >
+                              <styles__ShutterTop
+                                firstMediaLoading={true}
+                              >
+                                <StyledComponent
+                                  firstMediaLoading={true}
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "styles__ShutterTop-sc-1jpprl2-4",
+                                        "isStatic": false,
+                                        "lastClassName": "gzWzVm",
+                                        "rules": Array [
+                                          "position:absolute;right:0px;z-index:18;width:100%;height:",
+                                          [Function],
+                                          ";transition:0.3s;background:",
+                                          "#000",
+                                          ";",
+                                          "top:0px;",
+                                        ],
+                                      },
+                                      "displayName": "styles__ShutterTop",
+                                      "foldedComponentIds": Array [
+                                        "styles__Shutter-sc-1jpprl2-3",
+                                      ],
+                                      "render": [Function],
+                                      "styledComponentId": "styles__ShutterTop-sc-1jpprl2-4",
+                                      "target": "div",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                >
+                                  <div
+                                    className="styles__Shutter-sc-1jpprl2-3 styles__ShutterTop-sc-1jpprl2-4 gzWzVm"
+                                  />
+                                </StyledComponent>
+                              </styles__ShutterTop>
+                              <styles__ShutterBottom
+                                firstMediaLoading={true}
+                              >
+                                <StyledComponent
+                                  firstMediaLoading={true}
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "styles__ShutterBottom-sc-1jpprl2-5",
+                                        "isStatic": false,
+                                        "lastClassName": "hOzyRd",
+                                        "rules": Array [
+                                          "position:absolute;right:0px;z-index:18;width:100%;height:",
+                                          [Function],
+                                          ";transition:0.3s;background:",
+                                          "#000",
+                                          ";",
+                                          "bottom:0px;",
+                                        ],
+                                      },
+                                      "displayName": "styles__ShutterBottom",
+                                      "foldedComponentIds": Array [
+                                        "styles__Shutter-sc-1jpprl2-3",
+                                      ],
+                                      "render": [Function],
+                                      "styledComponentId": "styles__ShutterBottom-sc-1jpprl2-5",
+                                      "target": "div",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                >
+                                  <div
+                                    className="styles__Shutter-sc-1jpprl2-3 styles__ShutterBottom-sc-1jpprl2-5 hOzyRd"
+                                  />
+                                </StyledComponent>
+                              </styles__ShutterBottom>
+                              <styles__MediaLoadingMessage
+                                firstMediaLoading={true}
+                              >
+                                <StyledComponent
+                                  firstMediaLoading={true}
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "styles__MediaLoadingMessage-sc-1jpprl2-6",
+                                        "isStatic": false,
+                                        "lastClassName": "eQocly",
+                                        "rules": Array [
+                                          "display:",
+                                          [Function],
+                                          ";position:absolute;width:100%;height:100%;top:0px;right:0px;justify-content:center;align-items:center;font-family:",
+                                          "'Josefin Slab', Courier, 'Trebuchet MS', 'Times New Roman', serif",
+                                          ";font-size:2.5rem;font-weight:700;color:",
+                                          "#fff",
+                                          ";z-index:18;",
+                                        ],
+                                      },
+                                      "displayName": "styles__MediaLoadingMessage",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "styles__MediaLoadingMessage-sc-1jpprl2-6",
+                                      "target": "div",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                >
+                                  <div
+                                    className="styles__MediaLoadingMessage-sc-1jpprl2-6 eQocly"
+                                  >
+                                    Hello!
+                                  </div>
+                                </StyledComponent>
+                              </styles__MediaLoadingMessage>
+                              <Connect(Component)>
+                                <Memo()
+                                  image={
+                                    Object {
+                                      "name": "legoFlinders",
+                                      "src": "/assets/images/legoFlinders.jpg",
+                                    }
+                                  }
+                                  loading={true}
+                                  updateImage={[Function]}
+                                >
+                                  <styles__Container
+                                    imgSrc="/assets/images/legoFlinders.jpg"
+                                    loading={true}
+                                  >
+                                    <StyledComponent
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "styles__Container-sc-19v7chj-0",
+                                            "isStatic": false,
+                                            "lastClassName": "jJzRKo",
+                                            "rules": Array [
+                                              "background-image:",
+                                              [Function],
+                                              ";background-color:",
+                                              "#aaa",
+                                              ";background-position:center center;background-repeat:no-repeat;background-size:cover;width:100%;height:100vh;opacity:",
+                                              [Function],
+                                              ";transition:1s;animation:",
+                                              Keyframes {
+                                                "id": "sc-keyframes-bcCCNc",
+                                                "inject": [Function],
+                                                "name": "bcCCNc",
+                                                "rules": Array [
+                                                  "@-webkit-keyframes bcCCNc{0%{opacity:0;}100%{opacity:1;}}",
+                                                  "@keyframes bcCCNc{0%{opacity:0;}100%{opacity:1;}}",
+                                                ],
+                                                "toString": [Function],
+                                              },
+                                              " 1s ease 1",
+                                              ";animation-fill-mode:forwards;",
+                                            ],
+                                          },
+                                          "displayName": "styles__Container",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "styles__Container-sc-19v7chj-0",
+                                          "target": "div",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      imgSrc="/assets/images/legoFlinders.jpg"
+                                      loading={true}
+                                    >
+                                      <div
+                                        className="styles__Container-sc-19v7chj-0 jJzRKo"
+                                      />
+                                    </StyledComponent>
+                                  </styles__Container>
+                                </Memo()>
+                              </Connect(Component)>
+                            </section>
+                          </StyledComponent>
+                        </styles__Media>
+                      </div>
+                    </StyledComponent>
+                  </styles__Container>
+                </Memo()>
+              </Connect(Component)>
+            </Route>
+          </Switch>
+        </Routes>
+      </Router>
+    </BrowserRouter>
+  </Provider>
+</_default>
+`;
