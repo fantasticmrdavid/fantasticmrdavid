@@ -1,23 +1,16 @@
 import React, { memo, useCallback, SyntheticEvent } from 'react';
+import { Project as ProjectProps } from 'data/projects';
 import Content from './Content';
 import * as styles from './styles';
 
-export interface Props {
+export type Props = {
   current: string,
-  description: string,
-  products: string,
-  title: string,
-  tagline: string,
-  target: string,
-  technologies: string,
-  images: {
-    tileOn: string,
-    tileOff: string,
-  },
   parentLoading: boolean,
   isCurrent: boolean,
+  nextProject: ProjectProps,
+  previousProject: ProjectProps,
   updateCurrent: (target: string | undefined) => void,
-}
+} & ProjectProps;
 
 const {
   Container,

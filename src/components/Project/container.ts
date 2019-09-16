@@ -1,12 +1,15 @@
 import { Dispatch } from 'redux';
 import { connect } from 'react-redux';
 import { AppState } from 'reducers';
+import projects, { Project as ProjectProps } from 'data/projects';
 import { workMediaLocationUpdated } from './actions';
 import Ui, { Props as UiProps } from './ui';
 
 type StateProps = {
   current: boolean,
   isCurrent: boolean,
+  nextProject: ProjectProps,
+  previousProject: ProjectProps,
   parentLoading: boolean,
 }
 
@@ -16,10 +19,16 @@ type DispatchProps = {
 
 const mapStateToProps = (state: AppState, ownProps: UiProps) => {
   const { loading, workMedia } = state;
+  const currentIndex = projects.findIndex((p: ProjectProps) => p.target === ownProps.target);
+  const isLast = currentIndex === projects.length - 1;
+  const isFirst = currentIndex === 0;
+
   return {
     ...ownProps,
     current: workMedia.location,
     isCurrent: workMedia.location === ownProps.target,
+    nextProject: projects[isLast ? 0 : currentIndex + 1],
+    previousProject: projects[isFirst ? projects.length - 1 : currentIndex - 1],
     parentLoading: loading.media || loading.images,
   };
 };

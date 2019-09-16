@@ -7,6 +7,13 @@ interface ContainerProps {
   current: boolean,
 }
 
+export const ActionsContainer = styled.div`
+  display: flex;
+  width: calc(100% + 5em);
+  margin: 1em -2.5em 0;
+  min-height: 60px;
+`;
+
 export const Container = styled.div<ContainerProps>`
   display: flex;
   flex-direction: column;
@@ -15,7 +22,7 @@ export const Container = styled.div<ContainerProps>`
   line-height: 1.3;
   margin-top: 5em;
   max-height: ${props => (props.current ? '2500px' : '0px')};
-  padding: 5em 2.5em;
+  padding: 5em 2.5em 0;
   transition: 1s;
   background: ${theme.colorDarkCharcoal};
   opacity: ${props => (props.current ? 1 : 0)};
@@ -56,5 +63,6 @@ export const MediaWrapper = styled.div`
   margin: 2em 0;
   display: flex;
   flex-wrap: wrap;
+  flex: 1;
   justify-content: space-around;
 `;

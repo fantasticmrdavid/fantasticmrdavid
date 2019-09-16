@@ -53,7 +53,7 @@ export default class WorkMedia extends PureComponent<Props> {
 
         <ProjectListContainer loading={loading}>
           {
-            projects.map(p => { return <Project {...p} key={`Project_${p.target}`} />; })
+            projects.map(p => <Project {...p} key={`Project_${p.target}`} />)
           }
         </ProjectListContainer>
       </Container>

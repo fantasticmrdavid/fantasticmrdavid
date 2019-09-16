@@ -1,21 +1,19 @@
 import React, { memo, useCallback } from 'react';
 import ReactGA from 'react-ga';
 import ProjectMedia from 'components/ProjectMedia';
+import { Project as ProjectProps } from 'data/projects';
+import Action from '../Action';
 import * as styles from './styles';
 
-export interface Props {
-  title: string,
-  url?: string,
-  products: string,
-  technologies: string,
-  description: string,
-  media?: {
-    slug: string,
-  }[],
+export type Props = {
   isCurrent: boolean,
-}
+  nextProject: ProjectProps,
+  previousProject: ProjectProps,
+  updateCurrent: (target: string | undefined) => void,
+} & ProjectProps;
 
 const {
+  ActionsContainer,
   Container,
   Section,
   Label,
@@ -34,7 +32,10 @@ export default memo(
       technologies,
       description,
       media,
+      nextProject,
+      previousProject,
       isCurrent,
+      updateCurrent,
     } = props;
 
     const handleUrlClick = useCallback(() => ReactGA.event({
@@ -47,6 +48,7 @@ export default memo(
 
     return (
       <Container current={isCurrent}>
+        { isCurrent && <div id="projectContentTop" /> }
         { !!products
           && (
             <Section>
@@ -80,6 +82,10 @@ export default memo(
             ))
           }
         </MediaWrapper>
+        <ActionsContainer>
+          <Action label="Previous" type="back" project={previousProject} updateCurrent={updateCurrent} />
+          <Action label="Next" type="next" project={nextProject} updateCurrent={updateCurrent} />
+        </ActionsContainer>
       </Container>
     );
   },
