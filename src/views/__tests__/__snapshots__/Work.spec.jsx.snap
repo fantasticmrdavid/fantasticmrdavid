@@ -1582,9 +1582,9 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                           "componentStyle": ComponentStyle {
                                             "componentId": "styles__MediaWrapper-sc-1mvvfhb-7",
                                             "isStatic": true,
-                                            "lastClassName": "dtOvsq",
+                                            "lastClassName": "etguDa",
                                             "rules": Array [
-                                              "margin:2em 0;display:flex;flex-wrap:wrap;flex:1;justify-content:space-around;",
+                                              "margin:2em 0;display:flex;flex-wrap:wrap;flex:none;justify-content:space-around;",
                                             ],
                                           },
                                           "displayName": "styles__MediaWrapper",
@@ -1600,7 +1600,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                       forwardedRef={null}
                                     >
                                       <div
-                                        className="styles__MediaWrapper-sc-1mvvfhb-7 dtOvsq"
+                                        className="styles__MediaWrapper-sc-1mvvfhb-7 etguDa"
                                       >
                                         <Connect(Component)
                                           key="ProjectMedia_cnm_mobile_preview"
@@ -2913,6 +2913,37 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                       </div>
                                     </StyledComponent>
                                   </styles__MediaWrapper>
+                                  <styles__Spacer>
+                                    <StyledComponent
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "styles__Spacer-sc-1mvvfhb-8",
+                                            "isStatic": true,
+                                            "lastClassName": "cXwdbC",
+                                            "rules": Array [
+                                              "flex:1;",
+                                            ],
+                                          },
+                                          "displayName": "styles__Spacer",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "styles__Spacer-sc-1mvvfhb-8",
+                                          "target": "div",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                    >
+                                      <div
+                                        className="styles__Spacer-sc-1mvvfhb-8 cXwdbC"
+                                      />
+                                    </StyledComponent>
+                                  </styles__Spacer>
                                   <styles__ActionsContainer>
                                     <StyledComponent
                                       forwardedComponent={
@@ -4977,9 +5008,9 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                           "componentStyle": ComponentStyle {
                                             "componentId": "styles__MediaWrapper-sc-1mvvfhb-7",
                                             "isStatic": true,
-                                            "lastClassName": "dtOvsq",
+                                            "lastClassName": "etguDa",
                                             "rules": Array [
-                                              "margin:2em 0;display:flex;flex-wrap:wrap;flex:1;justify-content:space-around;",
+                                              "margin:2em 0;display:flex;flex-wrap:wrap;flex:none;justify-content:space-around;",
                                             ],
                                           },
                                           "displayName": "styles__MediaWrapper",
@@ -4995,7 +5026,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                       forwardedRef={null}
                                     >
                                       <div
-                                        className="styles__MediaWrapper-sc-1mvvfhb-7 dtOvsq"
+                                        className="styles__MediaWrapper-sc-1mvvfhb-7 etguDa"
                                       >
                                         <Connect(Component)
                                           key="ProjectMedia_sitepoint_mobile_preview"
@@ -6048,6 +6079,37 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                       </div>
                                     </StyledComponent>
                                   </styles__MediaWrapper>
+                                  <styles__Spacer>
+                                    <StyledComponent
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "styles__Spacer-sc-1mvvfhb-8",
+                                            "isStatic": true,
+                                            "lastClassName": "cXwdbC",
+                                            "rules": Array [
+                                              "flex:1;",
+                                            ],
+                                          },
+                                          "displayName": "styles__Spacer",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "styles__Spacer-sc-1mvvfhb-8",
+                                          "target": "div",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                    >
+                                      <div
+                                        className="styles__Spacer-sc-1mvvfhb-8 cXwdbC"
+                                      />
+                                    </StyledComponent>
+                                  </styles__Spacer>
                                   <styles__ActionsContainer>
                                     <StyledComponent
                                       forwardedComponent={
@@ -7828,9 +7890,9 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                           "componentStyle": ComponentStyle {
                                             "componentId": "styles__MediaWrapper-sc-1mvvfhb-7",
                                             "isStatic": true,
-                                            "lastClassName": "dtOvsq",
+                                            "lastClassName": "etguDa",
                                             "rules": Array [
-                                              "margin:2em 0;display:flex;flex-wrap:wrap;flex:1;justify-content:space-around;",
+                                              "margin:2em 0;display:flex;flex-wrap:wrap;flex:none;justify-content:space-around;",
                                             ],
                                           },
                                           "displayName": "styles__MediaWrapper",
@@ -7846,7 +7908,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                       forwardedRef={null}
                                     >
                                       <div
-                                        className="styles__MediaWrapper-sc-1mvvfhb-7 dtOvsq"
+                                        className="styles__MediaWrapper-sc-1mvvfhb-7 etguDa"
                                       >
                                         <Connect(Component)
                                           key="ProjectMedia_legoFlinders"
@@ -8017,6 +8079,37 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                       </div>
                                     </StyledComponent>
                                   </styles__MediaWrapper>
+                                  <styles__Spacer>
+                                    <StyledComponent
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "styles__Spacer-sc-1mvvfhb-8",
+                                            "isStatic": true,
+                                            "lastClassName": "cXwdbC",
+                                            "rules": Array [
+                                              "flex:1;",
+                                            ],
+                                          },
+                                          "displayName": "styles__Spacer",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "styles__Spacer-sc-1mvvfhb-8",
+                                          "target": "div",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                    >
+                                      <div
+                                        className="styles__Spacer-sc-1mvvfhb-8 cXwdbC"
+                                      />
+                                    </StyledComponent>
+                                  </styles__Spacer>
                                   <styles__ActionsContainer>
                                     <StyledComponent
                                       forwardedComponent={
@@ -9820,9 +9913,9 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                           "componentStyle": ComponentStyle {
                                             "componentId": "styles__MediaWrapper-sc-1mvvfhb-7",
                                             "isStatic": true,
-                                            "lastClassName": "dtOvsq",
+                                            "lastClassName": "etguDa",
                                             "rules": Array [
-                                              "margin:2em 0;display:flex;flex-wrap:wrap;flex:1;justify-content:space-around;",
+                                              "margin:2em 0;display:flex;flex-wrap:wrap;flex:none;justify-content:space-around;",
                                             ],
                                           },
                                           "displayName": "styles__MediaWrapper",
@@ -9838,10 +9931,41 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                       forwardedRef={null}
                                     >
                                       <div
-                                        className="styles__MediaWrapper-sc-1mvvfhb-7 dtOvsq"
+                                        className="styles__MediaWrapper-sc-1mvvfhb-7 etguDa"
                                       />
                                     </StyledComponent>
                                   </styles__MediaWrapper>
+                                  <styles__Spacer>
+                                    <StyledComponent
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "styles__Spacer-sc-1mvvfhb-8",
+                                            "isStatic": true,
+                                            "lastClassName": "cXwdbC",
+                                            "rules": Array [
+                                              "flex:1;",
+                                            ],
+                                          },
+                                          "displayName": "styles__Spacer",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "styles__Spacer-sc-1mvvfhb-8",
+                                          "target": "div",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                    >
+                                      <div
+                                        className="styles__Spacer-sc-1mvvfhb-8 cXwdbC"
+                                      />
+                                    </StyledComponent>
+                                  </styles__Spacer>
                                   <styles__ActionsContainer>
                                     <StyledComponent
                                       forwardedComponent={
@@ -11757,9 +11881,9 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                           "componentStyle": ComponentStyle {
                                             "componentId": "styles__MediaWrapper-sc-1mvvfhb-7",
                                             "isStatic": true,
-                                            "lastClassName": "dtOvsq",
+                                            "lastClassName": "etguDa",
                                             "rules": Array [
-                                              "margin:2em 0;display:flex;flex-wrap:wrap;flex:1;justify-content:space-around;",
+                                              "margin:2em 0;display:flex;flex-wrap:wrap;flex:none;justify-content:space-around;",
                                             ],
                                           },
                                           "displayName": "styles__MediaWrapper",
@@ -11775,7 +11899,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                       forwardedRef={null}
                                     >
                                       <div
-                                        className="styles__MediaWrapper-sc-1mvvfhb-7 dtOvsq"
+                                        className="styles__MediaWrapper-sc-1mvvfhb-7 etguDa"
                                       >
                                         <Connect(Component)
                                           key="ProjectMedia_tramsformation_print"
@@ -12960,6 +13084,37 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                       </div>
                                     </StyledComponent>
                                   </styles__MediaWrapper>
+                                  <styles__Spacer>
+                                    <StyledComponent
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "styles__Spacer-sc-1mvvfhb-8",
+                                            "isStatic": true,
+                                            "lastClassName": "cXwdbC",
+                                            "rules": Array [
+                                              "flex:1;",
+                                            ],
+                                          },
+                                          "displayName": "styles__Spacer",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "styles__Spacer-sc-1mvvfhb-8",
+                                          "target": "div",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                    >
+                                      <div
+                                        className="styles__Spacer-sc-1mvvfhb-8 cXwdbC"
+                                      />
+                                    </StyledComponent>
+                                  </styles__Spacer>
                                   <styles__ActionsContainer>
                                     <StyledComponent
                                       forwardedComponent={
@@ -15303,9 +15458,9 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                           "componentStyle": ComponentStyle {
                                             "componentId": "styles__MediaWrapper-sc-1mvvfhb-7",
                                             "isStatic": true,
-                                            "lastClassName": "dtOvsq",
+                                            "lastClassName": "etguDa",
                                             "rules": Array [
-                                              "margin:2em 0;display:flex;flex-wrap:wrap;flex:1;justify-content:space-around;",
+                                              "margin:2em 0;display:flex;flex-wrap:wrap;flex:none;justify-content:space-around;",
                                             ],
                                           },
                                           "displayName": "styles__MediaWrapper",
@@ -15321,7 +15476,7 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                       forwardedRef={null}
                                     >
                                       <div
-                                        className="styles__MediaWrapper-sc-1mvvfhb-7 dtOvsq"
+                                        className="styles__MediaWrapper-sc-1mvvfhb-7 etguDa"
                                       >
                                         <Connect(Component)
                                           key="ProjectMedia_cnm_mobile_preview"
@@ -16634,6 +16789,37 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                       </div>
                                     </StyledComponent>
                                   </styles__MediaWrapper>
+                                  <styles__Spacer>
+                                    <StyledComponent
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "styles__Spacer-sc-1mvvfhb-8",
+                                            "isStatic": true,
+                                            "lastClassName": "cXwdbC",
+                                            "rules": Array [
+                                              "flex:1;",
+                                            ],
+                                          },
+                                          "displayName": "styles__Spacer",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "styles__Spacer-sc-1mvvfhb-8",
+                                          "target": "div",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                    >
+                                      <div
+                                        className="styles__Spacer-sc-1mvvfhb-8 cXwdbC"
+                                      />
+                                    </StyledComponent>
+                                  </styles__Spacer>
                                   <styles__ActionsContainer>
                                     <StyledComponent
                                       forwardedComponent={
@@ -18698,9 +18884,9 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                           "componentStyle": ComponentStyle {
                                             "componentId": "styles__MediaWrapper-sc-1mvvfhb-7",
                                             "isStatic": true,
-                                            "lastClassName": "dtOvsq",
+                                            "lastClassName": "etguDa",
                                             "rules": Array [
-                                              "margin:2em 0;display:flex;flex-wrap:wrap;flex:1;justify-content:space-around;",
+                                              "margin:2em 0;display:flex;flex-wrap:wrap;flex:none;justify-content:space-around;",
                                             ],
                                           },
                                           "displayName": "styles__MediaWrapper",
@@ -18716,7 +18902,7 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                       forwardedRef={null}
                                     >
                                       <div
-                                        className="styles__MediaWrapper-sc-1mvvfhb-7 dtOvsq"
+                                        className="styles__MediaWrapper-sc-1mvvfhb-7 etguDa"
                                       >
                                         <Connect(Component)
                                           key="ProjectMedia_sitepoint_mobile_preview"
@@ -19769,6 +19955,37 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                       </div>
                                     </StyledComponent>
                                   </styles__MediaWrapper>
+                                  <styles__Spacer>
+                                    <StyledComponent
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "styles__Spacer-sc-1mvvfhb-8",
+                                            "isStatic": true,
+                                            "lastClassName": "cXwdbC",
+                                            "rules": Array [
+                                              "flex:1;",
+                                            ],
+                                          },
+                                          "displayName": "styles__Spacer",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "styles__Spacer-sc-1mvvfhb-8",
+                                          "target": "div",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                    >
+                                      <div
+                                        className="styles__Spacer-sc-1mvvfhb-8 cXwdbC"
+                                      />
+                                    </StyledComponent>
+                                  </styles__Spacer>
                                   <styles__ActionsContainer>
                                     <StyledComponent
                                       forwardedComponent={
@@ -21549,9 +21766,9 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                           "componentStyle": ComponentStyle {
                                             "componentId": "styles__MediaWrapper-sc-1mvvfhb-7",
                                             "isStatic": true,
-                                            "lastClassName": "dtOvsq",
+                                            "lastClassName": "etguDa",
                                             "rules": Array [
-                                              "margin:2em 0;display:flex;flex-wrap:wrap;flex:1;justify-content:space-around;",
+                                              "margin:2em 0;display:flex;flex-wrap:wrap;flex:none;justify-content:space-around;",
                                             ],
                                           },
                                           "displayName": "styles__MediaWrapper",
@@ -21567,7 +21784,7 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                       forwardedRef={null}
                                     >
                                       <div
-                                        className="styles__MediaWrapper-sc-1mvvfhb-7 dtOvsq"
+                                        className="styles__MediaWrapper-sc-1mvvfhb-7 etguDa"
                                       >
                                         <Connect(Component)
                                           key="ProjectMedia_legoFlinders"
@@ -21738,6 +21955,37 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                       </div>
                                     </StyledComponent>
                                   </styles__MediaWrapper>
+                                  <styles__Spacer>
+                                    <StyledComponent
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "styles__Spacer-sc-1mvvfhb-8",
+                                            "isStatic": true,
+                                            "lastClassName": "cXwdbC",
+                                            "rules": Array [
+                                              "flex:1;",
+                                            ],
+                                          },
+                                          "displayName": "styles__Spacer",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "styles__Spacer-sc-1mvvfhb-8",
+                                          "target": "div",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                    >
+                                      <div
+                                        className="styles__Spacer-sc-1mvvfhb-8 cXwdbC"
+                                      />
+                                    </StyledComponent>
+                                  </styles__Spacer>
                                   <styles__ActionsContainer>
                                     <StyledComponent
                                       forwardedComponent={
@@ -23541,9 +23789,9 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                           "componentStyle": ComponentStyle {
                                             "componentId": "styles__MediaWrapper-sc-1mvvfhb-7",
                                             "isStatic": true,
-                                            "lastClassName": "dtOvsq",
+                                            "lastClassName": "etguDa",
                                             "rules": Array [
-                                              "margin:2em 0;display:flex;flex-wrap:wrap;flex:1;justify-content:space-around;",
+                                              "margin:2em 0;display:flex;flex-wrap:wrap;flex:none;justify-content:space-around;",
                                             ],
                                           },
                                           "displayName": "styles__MediaWrapper",
@@ -23559,10 +23807,41 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                       forwardedRef={null}
                                     >
                                       <div
-                                        className="styles__MediaWrapper-sc-1mvvfhb-7 dtOvsq"
+                                        className="styles__MediaWrapper-sc-1mvvfhb-7 etguDa"
                                       />
                                     </StyledComponent>
                                   </styles__MediaWrapper>
+                                  <styles__Spacer>
+                                    <StyledComponent
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "styles__Spacer-sc-1mvvfhb-8",
+                                            "isStatic": true,
+                                            "lastClassName": "cXwdbC",
+                                            "rules": Array [
+                                              "flex:1;",
+                                            ],
+                                          },
+                                          "displayName": "styles__Spacer",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "styles__Spacer-sc-1mvvfhb-8",
+                                          "target": "div",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                    >
+                                      <div
+                                        className="styles__Spacer-sc-1mvvfhb-8 cXwdbC"
+                                      />
+                                    </StyledComponent>
+                                  </styles__Spacer>
                                   <styles__ActionsContainer>
                                     <StyledComponent
                                       forwardedComponent={
@@ -25478,9 +25757,9 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                           "componentStyle": ComponentStyle {
                                             "componentId": "styles__MediaWrapper-sc-1mvvfhb-7",
                                             "isStatic": true,
-                                            "lastClassName": "dtOvsq",
+                                            "lastClassName": "etguDa",
                                             "rules": Array [
-                                              "margin:2em 0;display:flex;flex-wrap:wrap;flex:1;justify-content:space-around;",
+                                              "margin:2em 0;display:flex;flex-wrap:wrap;flex:none;justify-content:space-around;",
                                             ],
                                           },
                                           "displayName": "styles__MediaWrapper",
@@ -25496,7 +25775,7 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                       forwardedRef={null}
                                     >
                                       <div
-                                        className="styles__MediaWrapper-sc-1mvvfhb-7 dtOvsq"
+                                        className="styles__MediaWrapper-sc-1mvvfhb-7 etguDa"
                                       >
                                         <Connect(Component)
                                           key="ProjectMedia_tramsformation_print"
@@ -26681,6 +26960,37 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                       </div>
                                     </StyledComponent>
                                   </styles__MediaWrapper>
+                                  <styles__Spacer>
+                                    <StyledComponent
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "styles__Spacer-sc-1mvvfhb-8",
+                                            "isStatic": true,
+                                            "lastClassName": "cXwdbC",
+                                            "rules": Array [
+                                              "flex:1;",
+                                            ],
+                                          },
+                                          "displayName": "styles__Spacer",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "styles__Spacer-sc-1mvvfhb-8",
+                                          "target": "div",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                    >
+                                      <div
+                                        className="styles__Spacer-sc-1mvvfhb-8 cXwdbC"
+                                      />
+                                    </StyledComponent>
+                                  </styles__Spacer>
                                   <styles__ActionsContainer>
                                     <StyledComponent
                                       forwardedComponent={
@@ -29093,9 +29403,9 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                             "componentStyle": ComponentStyle {
                                               "componentId": "styles__MediaWrapper-sc-1mvvfhb-7",
                                               "isStatic": true,
-                                              "lastClassName": "dtOvsq",
+                                              "lastClassName": "etguDa",
                                               "rules": Array [
-                                                "margin:2em 0;display:flex;flex-wrap:wrap;flex:1;justify-content:space-around;",
+                                                "margin:2em 0;display:flex;flex-wrap:wrap;flex:none;justify-content:space-around;",
                                               ],
                                             },
                                             "displayName": "styles__MediaWrapper",
@@ -29111,7 +29421,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                         forwardedRef={null}
                                       >
                                         <div
-                                          className="styles__MediaWrapper-sc-1mvvfhb-7 dtOvsq"
+                                          className="styles__MediaWrapper-sc-1mvvfhb-7 etguDa"
                                         >
                                           <Connect(Component)
                                             key="ProjectMedia_cnm_mobile_preview"
@@ -30424,6 +30734,37 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                         </div>
                                       </StyledComponent>
                                     </styles__MediaWrapper>
+                                    <styles__Spacer>
+                                      <StyledComponent
+                                        forwardedComponent={
+                                          Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "attrs": Array [],
+                                            "componentStyle": ComponentStyle {
+                                              "componentId": "styles__Spacer-sc-1mvvfhb-8",
+                                              "isStatic": true,
+                                              "lastClassName": "cXwdbC",
+                                              "rules": Array [
+                                                "flex:1;",
+                                              ],
+                                            },
+                                            "displayName": "styles__Spacer",
+                                            "foldedComponentIds": Array [],
+                                            "render": [Function],
+                                            "styledComponentId": "styles__Spacer-sc-1mvvfhb-8",
+                                            "target": "div",
+                                            "toString": [Function],
+                                            "warnTooManyClasses": [Function],
+                                            "withComponent": [Function],
+                                          }
+                                        }
+                                        forwardedRef={null}
+                                      >
+                                        <div
+                                          className="styles__Spacer-sc-1mvvfhb-8 cXwdbC"
+                                        />
+                                      </StyledComponent>
+                                    </styles__Spacer>
                                     <styles__ActionsContainer>
                                       <StyledComponent
                                         forwardedComponent={
@@ -32488,9 +32829,9 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                             "componentStyle": ComponentStyle {
                                               "componentId": "styles__MediaWrapper-sc-1mvvfhb-7",
                                               "isStatic": true,
-                                              "lastClassName": "dtOvsq",
+                                              "lastClassName": "etguDa",
                                               "rules": Array [
-                                                "margin:2em 0;display:flex;flex-wrap:wrap;flex:1;justify-content:space-around;",
+                                                "margin:2em 0;display:flex;flex-wrap:wrap;flex:none;justify-content:space-around;",
                                               ],
                                             },
                                             "displayName": "styles__MediaWrapper",
@@ -32506,7 +32847,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                         forwardedRef={null}
                                       >
                                         <div
-                                          className="styles__MediaWrapper-sc-1mvvfhb-7 dtOvsq"
+                                          className="styles__MediaWrapper-sc-1mvvfhb-7 etguDa"
                                         >
                                           <Connect(Component)
                                             key="ProjectMedia_sitepoint_mobile_preview"
@@ -33559,6 +33900,37 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                         </div>
                                       </StyledComponent>
                                     </styles__MediaWrapper>
+                                    <styles__Spacer>
+                                      <StyledComponent
+                                        forwardedComponent={
+                                          Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "attrs": Array [],
+                                            "componentStyle": ComponentStyle {
+                                              "componentId": "styles__Spacer-sc-1mvvfhb-8",
+                                              "isStatic": true,
+                                              "lastClassName": "cXwdbC",
+                                              "rules": Array [
+                                                "flex:1;",
+                                              ],
+                                            },
+                                            "displayName": "styles__Spacer",
+                                            "foldedComponentIds": Array [],
+                                            "render": [Function],
+                                            "styledComponentId": "styles__Spacer-sc-1mvvfhb-8",
+                                            "target": "div",
+                                            "toString": [Function],
+                                            "warnTooManyClasses": [Function],
+                                            "withComponent": [Function],
+                                          }
+                                        }
+                                        forwardedRef={null}
+                                      >
+                                        <div
+                                          className="styles__Spacer-sc-1mvvfhb-8 cXwdbC"
+                                        />
+                                      </StyledComponent>
+                                    </styles__Spacer>
                                     <styles__ActionsContainer>
                                       <StyledComponent
                                         forwardedComponent={
@@ -35339,9 +35711,9 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                             "componentStyle": ComponentStyle {
                                               "componentId": "styles__MediaWrapper-sc-1mvvfhb-7",
                                               "isStatic": true,
-                                              "lastClassName": "dtOvsq",
+                                              "lastClassName": "etguDa",
                                               "rules": Array [
-                                                "margin:2em 0;display:flex;flex-wrap:wrap;flex:1;justify-content:space-around;",
+                                                "margin:2em 0;display:flex;flex-wrap:wrap;flex:none;justify-content:space-around;",
                                               ],
                                             },
                                             "displayName": "styles__MediaWrapper",
@@ -35357,7 +35729,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                         forwardedRef={null}
                                       >
                                         <div
-                                          className="styles__MediaWrapper-sc-1mvvfhb-7 dtOvsq"
+                                          className="styles__MediaWrapper-sc-1mvvfhb-7 etguDa"
                                         >
                                           <Connect(Component)
                                             key="ProjectMedia_legoFlinders"
@@ -35528,6 +35900,37 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                         </div>
                                       </StyledComponent>
                                     </styles__MediaWrapper>
+                                    <styles__Spacer>
+                                      <StyledComponent
+                                        forwardedComponent={
+                                          Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "attrs": Array [],
+                                            "componentStyle": ComponentStyle {
+                                              "componentId": "styles__Spacer-sc-1mvvfhb-8",
+                                              "isStatic": true,
+                                              "lastClassName": "cXwdbC",
+                                              "rules": Array [
+                                                "flex:1;",
+                                              ],
+                                            },
+                                            "displayName": "styles__Spacer",
+                                            "foldedComponentIds": Array [],
+                                            "render": [Function],
+                                            "styledComponentId": "styles__Spacer-sc-1mvvfhb-8",
+                                            "target": "div",
+                                            "toString": [Function],
+                                            "warnTooManyClasses": [Function],
+                                            "withComponent": [Function],
+                                          }
+                                        }
+                                        forwardedRef={null}
+                                      >
+                                        <div
+                                          className="styles__Spacer-sc-1mvvfhb-8 cXwdbC"
+                                        />
+                                      </StyledComponent>
+                                    </styles__Spacer>
                                     <styles__ActionsContainer>
                                       <StyledComponent
                                         forwardedComponent={
@@ -37331,9 +37734,9 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                             "componentStyle": ComponentStyle {
                                               "componentId": "styles__MediaWrapper-sc-1mvvfhb-7",
                                               "isStatic": true,
-                                              "lastClassName": "dtOvsq",
+                                              "lastClassName": "etguDa",
                                               "rules": Array [
-                                                "margin:2em 0;display:flex;flex-wrap:wrap;flex:1;justify-content:space-around;",
+                                                "margin:2em 0;display:flex;flex-wrap:wrap;flex:none;justify-content:space-around;",
                                               ],
                                             },
                                             "displayName": "styles__MediaWrapper",
@@ -37349,10 +37752,41 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                         forwardedRef={null}
                                       >
                                         <div
-                                          className="styles__MediaWrapper-sc-1mvvfhb-7 dtOvsq"
+                                          className="styles__MediaWrapper-sc-1mvvfhb-7 etguDa"
                                         />
                                       </StyledComponent>
                                     </styles__MediaWrapper>
+                                    <styles__Spacer>
+                                      <StyledComponent
+                                        forwardedComponent={
+                                          Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "attrs": Array [],
+                                            "componentStyle": ComponentStyle {
+                                              "componentId": "styles__Spacer-sc-1mvvfhb-8",
+                                              "isStatic": true,
+                                              "lastClassName": "cXwdbC",
+                                              "rules": Array [
+                                                "flex:1;",
+                                              ],
+                                            },
+                                            "displayName": "styles__Spacer",
+                                            "foldedComponentIds": Array [],
+                                            "render": [Function],
+                                            "styledComponentId": "styles__Spacer-sc-1mvvfhb-8",
+                                            "target": "div",
+                                            "toString": [Function],
+                                            "warnTooManyClasses": [Function],
+                                            "withComponent": [Function],
+                                          }
+                                        }
+                                        forwardedRef={null}
+                                      >
+                                        <div
+                                          className="styles__Spacer-sc-1mvvfhb-8 cXwdbC"
+                                        />
+                                      </StyledComponent>
+                                    </styles__Spacer>
                                     <styles__ActionsContainer>
                                       <StyledComponent
                                         forwardedComponent={
@@ -39268,9 +39702,9 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                             "componentStyle": ComponentStyle {
                                               "componentId": "styles__MediaWrapper-sc-1mvvfhb-7",
                                               "isStatic": true,
-                                              "lastClassName": "dtOvsq",
+                                              "lastClassName": "etguDa",
                                               "rules": Array [
-                                                "margin:2em 0;display:flex;flex-wrap:wrap;flex:1;justify-content:space-around;",
+                                                "margin:2em 0;display:flex;flex-wrap:wrap;flex:none;justify-content:space-around;",
                                               ],
                                             },
                                             "displayName": "styles__MediaWrapper",
@@ -39286,7 +39720,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                         forwardedRef={null}
                                       >
                                         <div
-                                          className="styles__MediaWrapper-sc-1mvvfhb-7 dtOvsq"
+                                          className="styles__MediaWrapper-sc-1mvvfhb-7 etguDa"
                                         >
                                           <Connect(Component)
                                             key="ProjectMedia_tramsformation_print"
@@ -40471,6 +40905,37 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                         </div>
                                       </StyledComponent>
                                     </styles__MediaWrapper>
+                                    <styles__Spacer>
+                                      <StyledComponent
+                                        forwardedComponent={
+                                          Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "attrs": Array [],
+                                            "componentStyle": ComponentStyle {
+                                              "componentId": "styles__Spacer-sc-1mvvfhb-8",
+                                              "isStatic": true,
+                                              "lastClassName": "cXwdbC",
+                                              "rules": Array [
+                                                "flex:1;",
+                                              ],
+                                            },
+                                            "displayName": "styles__Spacer",
+                                            "foldedComponentIds": Array [],
+                                            "render": [Function],
+                                            "styledComponentId": "styles__Spacer-sc-1mvvfhb-8",
+                                            "target": "div",
+                                            "toString": [Function],
+                                            "warnTooManyClasses": [Function],
+                                            "withComponent": [Function],
+                                          }
+                                        }
+                                        forwardedRef={null}
+                                      >
+                                        <div
+                                          className="styles__Spacer-sc-1mvvfhb-8 cXwdbC"
+                                        />
+                                      </StyledComponent>
+                                    </styles__Spacer>
                                     <styles__ActionsContainer>
                                       <StyledComponent
                                         forwardedComponent={

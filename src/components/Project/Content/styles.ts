@@ -63,6 +63,10 @@ export const MediaWrapper = styled.div`
   margin: 2em 0;
   display: flex;
   flex-wrap: wrap;
-  flex: 1;
+  flex: none;
   justify-content: space-around;
+`;
+
+export const Spacer = styled.div`
+  flex: 1;
 `;

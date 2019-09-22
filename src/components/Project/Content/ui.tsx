@@ -21,6 +21,7 @@ const {
   Link,
   LinkWrapper,
   MediaWrapper,
+  Spacer,
 } = styles;
 
 export default memo(
@@ -82,6 +83,7 @@ export default memo(
             ))
           }
         </MediaWrapper>
+        <Spacer />
         <ActionsContainer>
           <Action label="Previous" type="back" project={previousProject} updateCurrent={updateCurrent} />
           <Action label="Next" type="next" project={nextProject} updateCurrent={updateCurrent} />
