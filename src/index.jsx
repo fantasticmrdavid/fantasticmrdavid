@@ -1,3 +1,4 @@
+import 'core-js/stable';
 import React from 'react';
 import { render } from 'react-dom';
 import runtime from 'serviceworker-webpack-plugin/lib/runtime';
