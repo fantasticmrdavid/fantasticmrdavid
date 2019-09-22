@@ -792,20 +792,6 @@ exports[`Component -> Project -> Tramsformation should render the Project UI (cu
     media={
       Array [
         Object {
-          "platform": "mobile",
-          "slug": "tramsformation_mobile",
-          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_mobile_preview.jpg",
-          "title": "Tramsformation mobile site",
-          "type": "website",
-        },
-        Object {
-          "platform": "desktop",
-          "slug": "tramsformation_desktop",
-          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_desktop_preview.jpg",
-          "title": "Tramsformation desktop site",
-          "type": "website",
-        },
-        Object {
           "orientation": "portrait",
           "slug": "tramsformation_print",
           "thumbnail": "/assets/images/projects/tramsformation/tramsformation_print_preview.jpg",
@@ -822,6 +808,14 @@ exports[`Component -> Project -> Tramsformation should render the Project UI (cu
           "url": "/assets/images/projects/tramsformation/tramsformation_transform_full.jpg",
         },
         Object {
+          "orientation": "portrait",
+          "slug": "tramsformation_model",
+          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_model_preview.jpg",
+          "title": "Tramsformer model",
+          "type": "image",
+          "url": "/assets/images/projects/tramsformation/tramsformation_model_full.jpg",
+        },
+        Object {
           "orientation": "landscape",
           "slug": "tramsformation_model_altmode",
           "thumbnail": "/assets/images/projects/tramsformation/tramsformation_model_altmode_preview.jpg",
@@ -830,12 +824,18 @@ exports[`Component -> Project -> Tramsformation should render the Project UI (cu
           "url": "/assets/images/projects/tramsformation/tramsformation_model_altmode_full.jpg",
         },
         Object {
-          "orientation": "portrait",
-          "slug": "tramsformation_model",
-          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_model_preview.jpg",
-          "title": "Tramsformer model",
-          "type": "image",
-          "url": "/assets/images/projects/tramsformation/tramsformation_model_full.jpg",
+          "platform": "mobile",
+          "slug": "tramsformation_mobile",
+          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_mobile_preview.jpg",
+          "title": "Tramsformation mobile site",
+          "type": "website",
+        },
+        Object {
+          "platform": "desktop",
+          "slug": "tramsformation_desktop",
+          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_desktop_preview.jpg",
+          "title": "Tramsformation desktop site",
+          "type": "website",
         },
       ]
     }
@@ -931,20 +931,6 @@ exports[`Component -> Project -> Tramsformation should render the Project UI (no
     media={
       Array [
         Object {
-          "platform": "mobile",
-          "slug": "tramsformation_mobile",
-          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_mobile_preview.jpg",
-          "title": "Tramsformation mobile site",
-          "type": "website",
-        },
-        Object {
-          "platform": "desktop",
-          "slug": "tramsformation_desktop",
-          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_desktop_preview.jpg",
-          "title": "Tramsformation desktop site",
-          "type": "website",
-        },
-        Object {
           "orientation": "portrait",
           "slug": "tramsformation_print",
           "thumbnail": "/assets/images/projects/tramsformation/tramsformation_print_preview.jpg",
@@ -961,6 +947,14 @@ exports[`Component -> Project -> Tramsformation should render the Project UI (no
           "url": "/assets/images/projects/tramsformation/tramsformation_transform_full.jpg",
         },
         Object {
+          "orientation": "portrait",
+          "slug": "tramsformation_model",
+          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_model_preview.jpg",
+          "title": "Tramsformer model",
+          "type": "image",
+          "url": "/assets/images/projects/tramsformation/tramsformation_model_full.jpg",
+        },
+        Object {
           "orientation": "landscape",
           "slug": "tramsformation_model_altmode",
           "thumbnail": "/assets/images/projects/tramsformation/tramsformation_model_altmode_preview.jpg",
@@ -969,12 +963,18 @@ exports[`Component -> Project -> Tramsformation should render the Project UI (no
           "url": "/assets/images/projects/tramsformation/tramsformation_model_altmode_full.jpg",
         },
         Object {
-          "orientation": "portrait",
-          "slug": "tramsformation_model",
-          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_model_preview.jpg",
-          "title": "Tramsformer model",
-          "type": "image",
-          "url": "/assets/images/projects/tramsformation/tramsformation_model_full.jpg",
+          "platform": "mobile",
+          "slug": "tramsformation_mobile",
+          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_mobile_preview.jpg",
+          "title": "Tramsformation mobile site",
+          "type": "website",
+        },
+        Object {
+          "platform": "desktop",
+          "slug": "tramsformation_desktop",
+          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_desktop_preview.jpg",
+          "title": "Tramsformation desktop site",
+          "type": "website",
         },
       ]
     }
