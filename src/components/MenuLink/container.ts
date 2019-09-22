@@ -33,4 +33,4 @@ const mapDispatchToProps = (dispatch: Dispatch<any>) => {
 export default connect<StateProps, DispatchProps, UiProps, AppState>(
   mapStateToProps,
   mapDispatchToProps,
-)(withRouter<ContainerProps>(Ui));
+)(withRouter(Ui));
