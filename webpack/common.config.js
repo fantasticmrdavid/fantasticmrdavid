@@ -40,6 +40,10 @@ module.exports = {
       },
     ]
   },
+  devServer: {
+    contentBase: BUILD_DIR,
+    compress: true
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: 'src/index.html',
