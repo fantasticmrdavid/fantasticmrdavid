@@ -10,15 +10,15 @@ type StateProps = {
   loading: boolean,
   firstLoad: boolean,
   popup: any,
-}
+};
 
 type DispatchProps = {
   updateLocation: (newLocation: string) => void,
-}
+};
 
 type ContainerProps = {
   location?: string,
-}
+};
 
 const mapStateToProps = (state: AppState, ownProps: ContainerProps) => {
   const { loading, popup } = state;

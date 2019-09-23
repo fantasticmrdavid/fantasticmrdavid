@@ -11,11 +11,11 @@ type StateProps = {
     src: string,
   },
   loading: boolean,
-}
+};
 
 type DispatchProps = {
   updateImage: () => void,
-}
+};
 
 const mapStateToProps = (state: AppState) => {
   return {

@@ -6,11 +6,11 @@ import { logoMenuActivated, logoMenuDeactivated } from './actions';
 
 type StateProps = {
   active: boolean,
-}
+};
 
 type DispatchProps = {
   toggleActive: (active: boolean) => void,
-}
+};
 
 const mapStateToProps = (state: AppState) => {
   return {

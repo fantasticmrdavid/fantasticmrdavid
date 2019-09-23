@@ -1,4 +1,4 @@
-import React, { Fragment, memo } from 'react';
+import React, { memo } from 'react';
 import LogoMenu from 'components/LogoMenu';
 import Popup from 'components/Popup';
 import Home from 'views/Home';
@@ -27,7 +27,7 @@ export default memo(
   ({ location, loading, firstLoad }: Props) => {
     const firstMediaLoading = loading && firstLoad;
     return (
-      <Fragment>
+      <>
         <GlobalStyles />
         <Container>
           <Popup />
@@ -45,7 +45,7 @@ export default memo(
             { location === 'contact' && <Contact /> }
           </Media>
         </Container>
-      </Fragment>
+      </>
     );
   },
 );

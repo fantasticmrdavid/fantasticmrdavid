@@ -12,7 +12,7 @@ export type Project = {
   technologies: string,
   description: string,
   media?: any[],
-}
+};
 
 export default [
   {

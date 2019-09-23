@@ -7,11 +7,11 @@ import Ui from './ui';
 type StateProps = {
   active: boolean,
   loading: boolean,
-}
+};
 
 type DispatchProps = {
   close: () => void;
-}
+};
 
 const mapStateToProps = (state: AppState) => {
   return {

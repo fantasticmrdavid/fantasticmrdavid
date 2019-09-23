@@ -6,6 +6,7 @@ exports[`Component -> TerminalText should render the TerminalText with a compone
   onComplete={[MockFunction]}
   speed={5}
 >
+  <div />
   <Memo()>
     <styles__Cursor>
       <StyledComponent
@@ -62,6 +63,7 @@ exports[`Component -> TerminalText should render the TerminalText with a string 
   onComplete={[MockFunction]}
   speed={5}
 >
+  <div />
   <Memo()>
     <styles__Cursor>
       <StyledComponent

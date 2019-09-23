@@ -1,4 +1,4 @@
-import React, { Fragment, PureComponent, ReactElement } from 'react';
+import React, { PureComponent, ReactElement } from 'react';
 import Blinker from 'components/Blinker';
 
 const LETTER_INTERVAL = 30;
@@ -18,7 +18,7 @@ type State = {
   currentLine: string,
   complete: boolean,
   paused: boolean,
-}
+};
 
 class TerminalText extends PureComponent<Props, State> {
   boundAddChar: () => void;
@@ -33,7 +33,7 @@ class TerminalText extends PureComponent<Props, State> {
     super(props);
     const { children } = props;
     this.state = {
-      text: <Fragment />,
+      text: <div />,
       index: 0,
       letters: children && typeof children === 'string' ? children.split('') : [],
       currentLine: '',
@@ -76,7 +76,7 @@ class TerminalText extends PureComponent<Props, State> {
 
     if (index < letters.length) {
       this.setState({
-        text: nextChar === '\n' ? <Fragment>{text}{currentLine}<br /></Fragment> : <Fragment>{text}</Fragment>,
+        text: nextChar === '\n' ? <>{text}{currentLine}<br /></> : <>{text}</>,
         currentLine: nextChar === '\n' ? '' : `${currentLine}${nextChar}`,
         index: index + 1,
       });
@@ -107,10 +107,10 @@ class TerminalText extends PureComponent<Props, State> {
     const { blinker } = this.props;
 
     return (
-      <Fragment>
+      <>
         {text}{currentLine}
         {blinker && <Blinker />}
-      </Fragment>
+      </>
     );
   }
 }

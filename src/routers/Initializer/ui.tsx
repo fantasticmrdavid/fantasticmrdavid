@@ -1,7 +1,7 @@
 type Image = {
   name: string,
   src: string,
-}
+};
 
 interface Props {
   images: Image[],

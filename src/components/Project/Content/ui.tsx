@@ -50,15 +50,12 @@ export default memo(
     return (
       <Container current={isCurrent}>
         { isCurrent && <div id="projectContentTop" /> }
-        { !!products
-          && (
-            <Section>
-              <Label>Products</Label>
-              <Copy>{ products }</Copy>
-            </Section>
-          )
-        }
-
+        { !!products && (
+          <Section>
+            <Label>Products</Label>
+            <Copy>{ products }</Copy>
+          </Section>
+        )}
         <Section>
           <Label>Technologies</Label>
           <Copy>{ technologies }</Copy>

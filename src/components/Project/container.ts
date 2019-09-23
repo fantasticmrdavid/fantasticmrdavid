@@ -11,11 +11,11 @@ type StateProps = {
   nextProject: ProjectProps,
   previousProject: ProjectProps,
   parentLoading: boolean,
-}
+};
 
 type DispatchProps = {
   updateCurrent: (target: string) => void,
-}
+};
 
 const mapStateToProps = (state: AppState, ownProps: UiProps) => {
   const { loading, workMedia } = state;

@@ -7,11 +7,11 @@ import Ui, { Props as UiProps } from './ui';
 
 type StateProps = {
   current: boolean,
-}
+};
 
 type DispatchProps = {
   updateLocation: (target: string) => void,
-}
+};
 
 type ContainerProps = UiProps & RouteComponentProps;
 

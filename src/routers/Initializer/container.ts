@@ -8,15 +8,15 @@ import Ui from './ui';
 type Image = {
   name: string,
   src: string,
-}
+};
 
 type StateProps = {
   images: Image[],
-}
+};
 
 type DispatchProps = {
   stopLoading: () => void,
-}
+};
 
 const mapStateToProps = () => {
   return {

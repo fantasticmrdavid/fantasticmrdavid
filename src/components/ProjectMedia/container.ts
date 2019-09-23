@@ -4,7 +4,7 @@ import Ui from './ui';
 
 type StateProps = {
   loading: boolean,
-}
+};
 
 const mapStateToProps = (state: AppState) => {
   return {

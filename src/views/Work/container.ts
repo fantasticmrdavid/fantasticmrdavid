@@ -11,12 +11,12 @@ import Ui from './ui';
 type StateProps = {
   current: string,
   loading: boolean,
-}
+};
 
 type DispatchProps = {
   startImagesLoading: () => void,
   stopLoading: () => void,
-}
+};
 
 const mapStateToProps = (state: AppState) => {
   return {

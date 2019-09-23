@@ -5,7 +5,7 @@ export const HOME_MEDIA_IMAGE_UPDATED = 'HOME_MEDIA_IMAGE_UPDATED';
 type Image = {
   name: string,
   src: string,
-}
+};
 
 export interface State {
   image: Image,

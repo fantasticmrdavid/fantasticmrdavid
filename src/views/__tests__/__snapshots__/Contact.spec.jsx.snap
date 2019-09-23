@@ -220,6 +220,7 @@ exports[`View -> Contact should render the Contact view without throwing an erro
                       <TerminalText
                         blinker={true}
                       >
+                        <div />
                         <Memo()>
                           <styles__Cursor>
                             <StyledComponent

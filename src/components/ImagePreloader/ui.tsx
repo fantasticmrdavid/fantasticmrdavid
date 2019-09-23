@@ -9,11 +9,11 @@ import * as styles from './styles';
 type State = {
   completed: boolean,
   completedCount: number,
-}
+};
 
 type Action = {
   type: string,
-}
+};
 
 const reducer = (state: State, action: Action) => {
   switch (action.type) {
@@ -62,7 +62,7 @@ export default memo(
 
     return (
       <Container completed={state.completed}>
-        {state.completedCount / images.length * 100}%
+        {(state.completedCount / images.length) * 100}%
       </Container>
     );
   },
