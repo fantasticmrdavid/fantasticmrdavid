@@ -42,7 +42,8 @@ module.exports = {
   },
   devServer: {
     contentBase: BUILD_DIR,
-    compress: true
+    compress: true,
+    historyApiFallback: true
   },
   plugins: [
     new HtmlWebpackPlugin({

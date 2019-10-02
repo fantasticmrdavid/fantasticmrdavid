@@ -75,17 +75,22 @@ export const Content = styled.div`
 
   ul {
     list-style: disc;
-    padding-left: 1em;
+    margin-top: 0.25em;
+    padding-left: 1.2em;
   }
 `;
 
 export const SiteSpecs = styled.div`
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  ${media.large`
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  `}
 `;
 
 export const SpecsSection = styled.div`
-  padding: 1em 2em;
+  padding: 1em 0;
 
   h3 {
     color: ${theme.colorWhite};
