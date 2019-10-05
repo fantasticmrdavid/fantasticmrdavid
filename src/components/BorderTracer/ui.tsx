@@ -3,12 +3,13 @@ import * as styles from './styles';
 
 interface Props {
   direction?: string,
+  cycleColor?: boolean,
 }
 
 const { Tracer } = styles;
 
 export default memo(
-  ({ direction }: Props) => {
-    return <Tracer direction={direction} />;
+  ({ direction, cycleColor }: Props) => {
+    return <Tracer direction={direction} cycleColor={cycleColor} />;
   },
 );

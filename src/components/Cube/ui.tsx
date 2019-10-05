@@ -21,12 +21,12 @@ export default memo(
   ({ loading }: Props) => (
     <Container loading={loading}>
       <Polygon>
-        <Front><BorderTracer direction="left" /></Front>
-        <Back><BorderTracer /></Back>
+        <Front><BorderTracer direction="left" cycleColor /></Front>
+        <Back><BorderTracer cycleColor /></Back>
         <Top />
-        <Bottom><BorderTracer /></Bottom>
-        <Left><BorderTracer direction="left" /></Left>
-        <Right><BorderTracer /></Right>
+        <Bottom><BorderTracer cycleColor /></Bottom>
+        <Left><BorderTracer direction="left" cycleColor /></Left>
+        <Right><BorderTracer cycleColor /></Right>
       </Polygon>
     </Container>
   ),

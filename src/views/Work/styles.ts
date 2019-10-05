@@ -1,6 +1,21 @@
-import styled from 'styled-components';
+import styled, { css, keyframes } from 'styled-components';
 import theme from 'styles/theme';
 import { transparentize } from 'polished';
+
+const colors = [
+  '#269',
+  '#195905',
+];
+
+const cycleColors = keyframes`
+  ${colors.map((c: string, i: number) => `
+    ${i * (100 / colors.length)}% {
+      background-color: ${c};
+    }`)}
+    100% {
+      background-color: ${colors[0]};
+    }
+`;
 
 interface LoadingContainerProps {
   loading: boolean,
@@ -23,13 +38,14 @@ export const Container = styled.div`
   overflow: hidden;
   transition: 1s;
 
-  background-color: #269;
   background-image: linear-gradient(white 2px, transparent 2px),
   linear-gradient(90deg, white 2px, transparent 2px),
   linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
   linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
   background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
   background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+
+  animation: ${css`${cycleColors} 150s normal infinite`};
 `;
 
 export const LoadingContainer = styled.div<LoadingContainerProps>`

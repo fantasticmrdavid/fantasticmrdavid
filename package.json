@@ -9,7 +9,7 @@
     "build-dev": "set NODE_ENV=development&& webpack --config ./webpack/dev.config.js -d --progress --colors",
     "check-types": "tsc",
     "clean": "rm -rf node_modules",
-    "jest": "set NODE_ENV=test&& jest --no-cache --colors --update-snapshot",
+    "jest": "NODE_ENV=test&& jest --no-cache --colors --update-snapshot",
     "lint": "./node_modules/.bin/eslint -c .eslintrc.json src/**/*.js  src/**/*.jsx",
     "start": "set NODE_ENV=development&& webpack-dev-server --config ./webpack/dev.config.js --colors",
     "test": "chmod +x ./test.sh; ./test.sh"

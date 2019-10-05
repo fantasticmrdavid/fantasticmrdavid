@@ -181,9 +181,21 @@ exports[`View -> About should render the About view (loading) without throwing a
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Front-sc-1pwogyu-8",
                                       "isStatic": true,
-                                      "lastClassName": "hZHsMX",
+                                      "lastClassName": "deBIOm",
                                       "rules": Array [
-                                        "position:absolute;width:300px;height:300px;background:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);",
+                                        "position:absolute;width:300px;height:300px;animation:",
+                                        Keyframes {
+                                          "id": "sc-keyframes-jqnGwL",
+                                          "inject": [Function],
+                                          "name": "jqnGwL",
+                                          "rules": Array [
+                                            "@-webkit-keyframes jqnGwL{0%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}33.333333333333336%{background-color:rgba(66,33,99,0.1);border:1px solid rgba(66,33,99,0.2);}66.66666666666667%{background-color:rgba(0,0,255,0.1);border:1px solid rgba(0,0,255,0.2);}100%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}}",
+                                            "@keyframes jqnGwL{0%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}33.333333333333336%{background-color:rgba(66,33,99,0.1);border:1px solid rgba(66,33,99,0.2);}66.66666666666667%{background-color:rgba(0,0,255,0.1);border:1px solid rgba(0,0,255,0.2);}100%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}}",
+                                          ],
+                                          "toString": [Function],
+                                        },
+                                        " 45s normal infinite",
+                                        ";",
                                         "transform:translateZ(150px);",
                                       ],
                                     },
@@ -202,15 +214,18 @@ exports[`View -> About should render the About view (loading) without throwing a
                                 forwardedRef={null}
                               >
                                 <div
-                                  className="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 hZHsMX"
+                                  className="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 deBIOm"
                                 >
                                   <Memo()
+                                    cycleColor={true}
                                     direction="left"
                                   >
                                     <styles__Tracer
+                                      cycleColor={true}
                                       direction="left"
                                     >
                                       <StyledComponent
+                                        cycleColor={true}
                                         direction="left"
                                         forwardedComponent={
                                           Object {
@@ -219,7 +234,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                                             "componentStyle": ComponentStyle {
                                               "componentId": "styles__Tracer-sc-18vfsm6-0",
                                               "isStatic": false,
-                                              "lastClassName": "kWITRq",
+                                              "lastClassName": "lKbcB",
                                               "rules": Array [
                                                 "position:absolute;top:-1px;left:50%;opacity:0;width:50px;height:2px;z-index:1;background:red;animation:",
                                                 [Function],
@@ -239,7 +254,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                                         forwardedRef={null}
                                       >
                                         <div
-                                          className="styles__Tracer-sc-18vfsm6-0 cVcktX"
+                                          className="styles__Tracer-sc-18vfsm6-0 hNwUQp"
                                           direction="left"
                                         />
                                       </StyledComponent>
@@ -257,9 +272,21 @@ exports[`View -> About should render the About view (loading) without throwing a
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Back-sc-1pwogyu-3",
                                       "isStatic": true,
-                                      "lastClassName": "hLVrnA",
+                                      "lastClassName": "gCcrQb",
                                       "rules": Array [
-                                        "position:absolute;width:300px;height:300px;background:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);",
+                                        "position:absolute;width:300px;height:300px;animation:",
+                                        Keyframes {
+                                          "id": "sc-keyframes-jqnGwL",
+                                          "inject": [Function],
+                                          "name": "jqnGwL",
+                                          "rules": Array [
+                                            "@-webkit-keyframes jqnGwL{0%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}33.333333333333336%{background-color:rgba(66,33,99,0.1);border:1px solid rgba(66,33,99,0.2);}66.66666666666667%{background-color:rgba(0,0,255,0.1);border:1px solid rgba(0,0,255,0.2);}100%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}}",
+                                            "@keyframes jqnGwL{0%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}33.333333333333336%{background-color:rgba(66,33,99,0.1);border:1px solid rgba(66,33,99,0.2);}66.66666666666667%{background-color:rgba(0,0,255,0.1);border:1px solid rgba(0,0,255,0.2);}100%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}}",
+                                          ],
+                                          "toString": [Function],
+                                        },
+                                        " 45s normal infinite",
+                                        ";",
                                         "transform:translateZ(-150px) rotateY(180deg);",
                                       ],
                                     },
@@ -278,11 +305,16 @@ exports[`View -> About should render the About view (loading) without throwing a
                                 forwardedRef={null}
                               >
                                 <div
-                                  className="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 hLVrnA"
+                                  className="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 gCcrQb"
                                 >
-                                  <Memo()>
-                                    <styles__Tracer>
+                                  <Memo()
+                                    cycleColor={true}
+                                  >
+                                    <styles__Tracer
+                                      cycleColor={true}
+                                    >
                                       <StyledComponent
+                                        cycleColor={true}
                                         forwardedComponent={
                                           Object {
                                             "$$typeof": Symbol(react.forward_ref),
@@ -290,7 +322,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                                             "componentStyle": ComponentStyle {
                                               "componentId": "styles__Tracer-sc-18vfsm6-0",
                                               "isStatic": false,
-                                              "lastClassName": "kWITRq",
+                                              "lastClassName": "lKbcB",
                                               "rules": Array [
                                                 "position:absolute;top:-1px;left:50%;opacity:0;width:50px;height:2px;z-index:1;background:red;animation:",
                                                 [Function],
@@ -310,7 +342,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                                         forwardedRef={null}
                                       >
                                         <div
-                                          className="styles__Tracer-sc-18vfsm6-0 kWITRq"
+                                          className="styles__Tracer-sc-18vfsm6-0 lKbcB"
                                         />
                                       </StyledComponent>
                                     </styles__Tracer>
@@ -327,9 +359,21 @@ exports[`View -> About should render the About view (loading) without throwing a
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Top-sc-1pwogyu-6",
                                       "isStatic": true,
-                                      "lastClassName": "QCabo",
+                                      "lastClassName": "eLxrDv",
                                       "rules": Array [
-                                        "position:absolute;width:300px;height:300px;background:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);",
+                                        "position:absolute;width:300px;height:300px;animation:",
+                                        Keyframes {
+                                          "id": "sc-keyframes-jqnGwL",
+                                          "inject": [Function],
+                                          "name": "jqnGwL",
+                                          "rules": Array [
+                                            "@-webkit-keyframes jqnGwL{0%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}33.333333333333336%{background-color:rgba(66,33,99,0.1);border:1px solid rgba(66,33,99,0.2);}66.66666666666667%{background-color:rgba(0,0,255,0.1);border:1px solid rgba(0,0,255,0.2);}100%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}}",
+                                            "@keyframes jqnGwL{0%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}33.333333333333336%{background-color:rgba(66,33,99,0.1);border:1px solid rgba(66,33,99,0.2);}66.66666666666667%{background-color:rgba(0,0,255,0.1);border:1px solid rgba(0,0,255,0.2);}100%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}}",
+                                          ],
+                                          "toString": [Function],
+                                        },
+                                        " 45s normal infinite",
+                                        ";",
                                         "transform:rotateX(-90deg) translateY(-152px);transform-origin:top center;",
                                       ],
                                     },
@@ -348,7 +392,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                                 forwardedRef={null}
                               >
                                 <div
-                                  className="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 QCabo"
+                                  className="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 eLxrDv"
                                 />
                               </StyledComponent>
                             </styles__Top>
@@ -361,9 +405,21 @@ exports[`View -> About should render the About view (loading) without throwing a
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Bottom-sc-1pwogyu-7",
                                       "isStatic": true,
-                                      "lastClassName": "cwSPhK",
+                                      "lastClassName": "cpagcj",
                                       "rules": Array [
-                                        "position:absolute;width:300px;height:300px;background:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);",
+                                        "position:absolute;width:300px;height:300px;animation:",
+                                        Keyframes {
+                                          "id": "sc-keyframes-jqnGwL",
+                                          "inject": [Function],
+                                          "name": "jqnGwL",
+                                          "rules": Array [
+                                            "@-webkit-keyframes jqnGwL{0%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}33.333333333333336%{background-color:rgba(66,33,99,0.1);border:1px solid rgba(66,33,99,0.2);}66.66666666666667%{background-color:rgba(0,0,255,0.1);border:1px solid rgba(0,0,255,0.2);}100%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}}",
+                                            "@keyframes jqnGwL{0%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}33.333333333333336%{background-color:rgba(66,33,99,0.1);border:1px solid rgba(66,33,99,0.2);}66.66666666666667%{background-color:rgba(0,0,255,0.1);border:1px solid rgba(0,0,255,0.2);}100%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}}",
+                                          ],
+                                          "toString": [Function],
+                                        },
+                                        " 45s normal infinite",
+                                        ";",
                                         "transform:rotateX(90deg) translateY(150px);transform-origin:bottom center;",
                                       ],
                                     },
@@ -382,11 +438,16 @@ exports[`View -> About should render the About view (loading) without throwing a
                                 forwardedRef={null}
                               >
                                 <div
-                                  className="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 cwSPhK"
+                                  className="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 cpagcj"
                                 >
-                                  <Memo()>
-                                    <styles__Tracer>
+                                  <Memo()
+                                    cycleColor={true}
+                                  >
+                                    <styles__Tracer
+                                      cycleColor={true}
+                                    >
                                       <StyledComponent
+                                        cycleColor={true}
                                         forwardedComponent={
                                           Object {
                                             "$$typeof": Symbol(react.forward_ref),
@@ -394,7 +455,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                                             "componentStyle": ComponentStyle {
                                               "componentId": "styles__Tracer-sc-18vfsm6-0",
                                               "isStatic": false,
-                                              "lastClassName": "kWITRq",
+                                              "lastClassName": "lKbcB",
                                               "rules": Array [
                                                 "position:absolute;top:-1px;left:50%;opacity:0;width:50px;height:2px;z-index:1;background:red;animation:",
                                                 [Function],
@@ -414,7 +475,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                                         forwardedRef={null}
                                       >
                                         <div
-                                          className="styles__Tracer-sc-18vfsm6-0 kWITRq"
+                                          className="styles__Tracer-sc-18vfsm6-0 lKbcB"
                                         />
                                       </StyledComponent>
                                     </styles__Tracer>
@@ -431,9 +492,21 @@ exports[`View -> About should render the About view (loading) without throwing a
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Left-sc-1pwogyu-5",
                                       "isStatic": true,
-                                      "lastClassName": "dzatai",
+                                      "lastClassName": "iDSTJS",
                                       "rules": Array [
-                                        "position:absolute;width:300px;height:300px;background:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);",
+                                        "position:absolute;width:300px;height:300px;animation:",
+                                        Keyframes {
+                                          "id": "sc-keyframes-jqnGwL",
+                                          "inject": [Function],
+                                          "name": "jqnGwL",
+                                          "rules": Array [
+                                            "@-webkit-keyframes jqnGwL{0%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}33.333333333333336%{background-color:rgba(66,33,99,0.1);border:1px solid rgba(66,33,99,0.2);}66.66666666666667%{background-color:rgba(0,0,255,0.1);border:1px solid rgba(0,0,255,0.2);}100%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}}",
+                                            "@keyframes jqnGwL{0%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}33.333333333333336%{background-color:rgba(66,33,99,0.1);border:1px solid rgba(66,33,99,0.2);}66.66666666666667%{background-color:rgba(0,0,255,0.1);border:1px solid rgba(0,0,255,0.2);}100%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}}",
+                                          ],
+                                          "toString": [Function],
+                                        },
+                                        " 45s normal infinite",
+                                        ";",
                                         "transform:rotateY(270deg) translateX(-150px);transform-origin:center left;",
                                       ],
                                     },
@@ -452,15 +525,18 @@ exports[`View -> About should render the About view (loading) without throwing a
                                 forwardedRef={null}
                               >
                                 <div
-                                  className="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 dzatai"
+                                  className="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 iDSTJS"
                                 >
                                   <Memo()
+                                    cycleColor={true}
                                     direction="left"
                                   >
                                     <styles__Tracer
+                                      cycleColor={true}
                                       direction="left"
                                     >
                                       <StyledComponent
+                                        cycleColor={true}
                                         direction="left"
                                         forwardedComponent={
                                           Object {
@@ -469,7 +545,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                                             "componentStyle": ComponentStyle {
                                               "componentId": "styles__Tracer-sc-18vfsm6-0",
                                               "isStatic": false,
-                                              "lastClassName": "kWITRq",
+                                              "lastClassName": "lKbcB",
                                               "rules": Array [
                                                 "position:absolute;top:-1px;left:50%;opacity:0;width:50px;height:2px;z-index:1;background:red;animation:",
                                                 [Function],
@@ -489,7 +565,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                                         forwardedRef={null}
                                       >
                                         <div
-                                          className="styles__Tracer-sc-18vfsm6-0 cVcktX"
+                                          className="styles__Tracer-sc-18vfsm6-0 hNwUQp"
                                           direction="left"
                                         />
                                       </StyledComponent>
@@ -507,9 +583,21 @@ exports[`View -> About should render the About view (loading) without throwing a
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Right-sc-1pwogyu-4",
                                       "isStatic": true,
-                                      "lastClassName": "eWSCFi",
+                                      "lastClassName": "fTRfub",
                                       "rules": Array [
-                                        "position:absolute;width:300px;height:300px;background:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);",
+                                        "position:absolute;width:300px;height:300px;animation:",
+                                        Keyframes {
+                                          "id": "sc-keyframes-jqnGwL",
+                                          "inject": [Function],
+                                          "name": "jqnGwL",
+                                          "rules": Array [
+                                            "@-webkit-keyframes jqnGwL{0%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}33.333333333333336%{background-color:rgba(66,33,99,0.1);border:1px solid rgba(66,33,99,0.2);}66.66666666666667%{background-color:rgba(0,0,255,0.1);border:1px solid rgba(0,0,255,0.2);}100%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}}",
+                                            "@keyframes jqnGwL{0%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}33.333333333333336%{background-color:rgba(66,33,99,0.1);border:1px solid rgba(66,33,99,0.2);}66.66666666666667%{background-color:rgba(0,0,255,0.1);border:1px solid rgba(0,0,255,0.2);}100%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}}",
+                                          ],
+                                          "toString": [Function],
+                                        },
+                                        " 45s normal infinite",
+                                        ";",
                                         "transform:rotateY(-270deg) translateX(150px);transform-origin:top right;",
                                       ],
                                     },
@@ -528,11 +616,16 @@ exports[`View -> About should render the About view (loading) without throwing a
                                 forwardedRef={null}
                               >
                                 <div
-                                  className="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 eWSCFi"
+                                  className="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 fTRfub"
                                 >
-                                  <Memo()>
-                                    <styles__Tracer>
+                                  <Memo()
+                                    cycleColor={true}
+                                  >
+                                    <styles__Tracer
+                                      cycleColor={true}
+                                    >
                                       <StyledComponent
+                                        cycleColor={true}
                                         forwardedComponent={
                                           Object {
                                             "$$typeof": Symbol(react.forward_ref),
@@ -540,7 +633,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                                             "componentStyle": ComponentStyle {
                                               "componentId": "styles__Tracer-sc-18vfsm6-0",
                                               "isStatic": false,
-                                              "lastClassName": "kWITRq",
+                                              "lastClassName": "lKbcB",
                                               "rules": Array [
                                                 "position:absolute;top:-1px;left:50%;opacity:0;width:50px;height:2px;z-index:1;background:red;animation:",
                                                 [Function],
@@ -560,7 +653,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                                         forwardedRef={null}
                                       >
                                         <div
-                                          className="styles__Tracer-sc-18vfsm6-0 kWITRq"
+                                          className="styles__Tracer-sc-18vfsm6-0 lKbcB"
                                         />
                                       </StyledComponent>
                                     </styles__Tracer>
@@ -633,7 +726,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                 "componentStyle": ComponentStyle {
                   "componentId": "styles__Content-qm8p7s-3",
                   "isStatic": true,
-                  "lastClassName": "ihbVpw",
+                  "lastClassName": "dDnc",
                   "rules": Array [
                     "flex:1;font-size:0.9rem;font-weight:300;line-height:1.3;max-width:100%;padding-right:0px;z-index:1;",
                     "@media (min-width:",
@@ -646,7 +739,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                     "}",
                     " h2{color:",
                     "#fff",
-                    ";}p{margin-bottom:1em;}ul{list-style:disc;padding-left:1em;}",
+                    ";}p{margin-bottom:1em;}ul{list-style:disc;margin-top:0.25em;padding-left:1.2em;}",
                   ],
                 },
                 "displayName": "styles__Content",
@@ -662,7 +755,7 @@ exports[`View -> About should render the About view (loading) without throwing a
             forwardedRef={null}
           >
             <div
-              className="styles__Content-qm8p7s-3 ihbVpw"
+              className="styles__Content-qm8p7s-3 dDnc"
             >
               <p>
                 Hi! I'm David, and I like making things.
@@ -819,9 +912,16 @@ exports[`View -> About should render the About view (loading) without throwing a
                       "componentStyle": ComponentStyle {
                         "componentId": "styles__SiteSpecs-qm8p7s-4",
                         "isStatic": true,
-                        "lastClassName": "cZoKls",
+                        "lastClassName": "kvjtmC",
                         "rules": Array [
-                          "display:flex;flex-wrap:wrap;",
+                          "display:grid;grid-template-columns:1fr 1fr;",
+                          "@media (min-width:",
+                          "62.5",
+                          "em){",
+                          "
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  ",
+                          "}",
                         ],
                       },
                       "displayName": "styles__SiteSpecs",
@@ -837,7 +937,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                   forwardedRef={null}
                 >
                   <div
-                    className="styles__SiteSpecs-qm8p7s-4 cZoKls"
+                    className="styles__SiteSpecs-qm8p7s-4 kvjtmC"
                   >
                     <styles__SpecsSection>
                       <StyledComponent
@@ -848,9 +948,9 @@ exports[`View -> About should render the About view (loading) without throwing a
                             "componentStyle": ComponentStyle {
                               "componentId": "styles__SpecsSection-qm8p7s-5",
                               "isStatic": true,
-                              "lastClassName": "kzOUAH",
+                              "lastClassName": "leMdoy",
                               "rules": Array [
-                                "padding:1em 2em;h3{color:",
+                                "padding:1em 0;h3{color:",
                                 "#fff",
                                 ";}",
                               ],
@@ -868,7 +968,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                         forwardedRef={null}
                       >
                         <div
-                          className="styles__SpecsSection-qm8p7s-5 kzOUAH"
+                          className="styles__SpecsSection-qm8p7s-5 leMdoy"
                         >
                           <h3>
                             Environment
@@ -896,9 +996,9 @@ exports[`View -> About should render the About view (loading) without throwing a
                             "componentStyle": ComponentStyle {
                               "componentId": "styles__SpecsSection-qm8p7s-5",
                               "isStatic": true,
-                              "lastClassName": "kzOUAH",
+                              "lastClassName": "leMdoy",
                               "rules": Array [
-                                "padding:1em 2em;h3{color:",
+                                "padding:1em 0;h3{color:",
                                 "#fff",
                                 ";}",
                               ],
@@ -916,7 +1016,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                         forwardedRef={null}
                       >
                         <div
-                          className="styles__SpecsSection-qm8p7s-5 kzOUAH"
+                          className="styles__SpecsSection-qm8p7s-5 leMdoy"
                         >
                           <h3>
                             Architecture
@@ -944,9 +1044,9 @@ exports[`View -> About should render the About view (loading) without throwing a
                             "componentStyle": ComponentStyle {
                               "componentId": "styles__SpecsSection-qm8p7s-5",
                               "isStatic": true,
-                              "lastClassName": "kzOUAH",
+                              "lastClassName": "leMdoy",
                               "rules": Array [
-                                "padding:1em 2em;h3{color:",
+                                "padding:1em 0;h3{color:",
                                 "#fff",
                                 ";}",
                               ],
@@ -964,7 +1064,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                         forwardedRef={null}
                       >
                         <div
-                          className="styles__SpecsSection-qm8p7s-5 kzOUAH"
+                          className="styles__SpecsSection-qm8p7s-5 leMdoy"
                         >
                           <h3>
                             Testing/QA
@@ -995,9 +1095,9 @@ exports[`View -> About should render the About view (loading) without throwing a
                             "componentStyle": ComponentStyle {
                               "componentId": "styles__SpecsSection-qm8p7s-5",
                               "isStatic": true,
-                              "lastClassName": "kzOUAH",
+                              "lastClassName": "leMdoy",
                               "rules": Array [
-                                "padding:1em 2em;h3{color:",
+                                "padding:1em 0;h3{color:",
                                 "#fff",
                                 ";}",
                               ],
@@ -1015,7 +1115,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                         forwardedRef={null}
                       >
                         <div
-                          className="styles__SpecsSection-qm8p7s-5 kzOUAH"
+                          className="styles__SpecsSection-qm8p7s-5 leMdoy"
                         >
                           <h3>
                             Deployment
@@ -1283,9 +1383,21 @@ exports[`View -> About should render the About view (not loading) without throwi
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Front-sc-1pwogyu-8",
                                       "isStatic": true,
-                                      "lastClassName": "hZHsMX",
+                                      "lastClassName": "deBIOm",
                                       "rules": Array [
-                                        "position:absolute;width:300px;height:300px;background:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);",
+                                        "position:absolute;width:300px;height:300px;animation:",
+                                        Keyframes {
+                                          "id": "sc-keyframes-jqnGwL",
+                                          "inject": [Function],
+                                          "name": "jqnGwL",
+                                          "rules": Array [
+                                            "@-webkit-keyframes jqnGwL{0%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}33.333333333333336%{background-color:rgba(66,33,99,0.1);border:1px solid rgba(66,33,99,0.2);}66.66666666666667%{background-color:rgba(0,0,255,0.1);border:1px solid rgba(0,0,255,0.2);}100%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}}",
+                                            "@keyframes jqnGwL{0%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}33.333333333333336%{background-color:rgba(66,33,99,0.1);border:1px solid rgba(66,33,99,0.2);}66.66666666666667%{background-color:rgba(0,0,255,0.1);border:1px solid rgba(0,0,255,0.2);}100%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}}",
+                                          ],
+                                          "toString": [Function],
+                                        },
+                                        " 45s normal infinite",
+                                        ";",
                                         "transform:translateZ(150px);",
                                       ],
                                     },
@@ -1304,15 +1416,18 @@ exports[`View -> About should render the About view (not loading) without throwi
                                 forwardedRef={null}
                               >
                                 <div
-                                  className="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 hZHsMX"
+                                  className="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 deBIOm"
                                 >
                                   <Memo()
+                                    cycleColor={true}
                                     direction="left"
                                   >
                                     <styles__Tracer
+                                      cycleColor={true}
                                       direction="left"
                                     >
                                       <StyledComponent
+                                        cycleColor={true}
                                         direction="left"
                                         forwardedComponent={
                                           Object {
@@ -1321,7 +1436,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                                             "componentStyle": ComponentStyle {
                                               "componentId": "styles__Tracer-sc-18vfsm6-0",
                                               "isStatic": false,
-                                              "lastClassName": "kWITRq",
+                                              "lastClassName": "lKbcB",
                                               "rules": Array [
                                                 "position:absolute;top:-1px;left:50%;opacity:0;width:50px;height:2px;z-index:1;background:red;animation:",
                                                 [Function],
@@ -1341,7 +1456,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                                         forwardedRef={null}
                                       >
                                         <div
-                                          className="styles__Tracer-sc-18vfsm6-0 cVcktX"
+                                          className="styles__Tracer-sc-18vfsm6-0 hNwUQp"
                                           direction="left"
                                         />
                                       </StyledComponent>
@@ -1359,9 +1474,21 @@ exports[`View -> About should render the About view (not loading) without throwi
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Back-sc-1pwogyu-3",
                                       "isStatic": true,
-                                      "lastClassName": "hLVrnA",
+                                      "lastClassName": "gCcrQb",
                                       "rules": Array [
-                                        "position:absolute;width:300px;height:300px;background:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);",
+                                        "position:absolute;width:300px;height:300px;animation:",
+                                        Keyframes {
+                                          "id": "sc-keyframes-jqnGwL",
+                                          "inject": [Function],
+                                          "name": "jqnGwL",
+                                          "rules": Array [
+                                            "@-webkit-keyframes jqnGwL{0%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}33.333333333333336%{background-color:rgba(66,33,99,0.1);border:1px solid rgba(66,33,99,0.2);}66.66666666666667%{background-color:rgba(0,0,255,0.1);border:1px solid rgba(0,0,255,0.2);}100%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}}",
+                                            "@keyframes jqnGwL{0%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}33.333333333333336%{background-color:rgba(66,33,99,0.1);border:1px solid rgba(66,33,99,0.2);}66.66666666666667%{background-color:rgba(0,0,255,0.1);border:1px solid rgba(0,0,255,0.2);}100%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}}",
+                                          ],
+                                          "toString": [Function],
+                                        },
+                                        " 45s normal infinite",
+                                        ";",
                                         "transform:translateZ(-150px) rotateY(180deg);",
                                       ],
                                     },
@@ -1380,11 +1507,16 @@ exports[`View -> About should render the About view (not loading) without throwi
                                 forwardedRef={null}
                               >
                                 <div
-                                  className="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 hLVrnA"
+                                  className="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 gCcrQb"
                                 >
-                                  <Memo()>
-                                    <styles__Tracer>
+                                  <Memo()
+                                    cycleColor={true}
+                                  >
+                                    <styles__Tracer
+                                      cycleColor={true}
+                                    >
                                       <StyledComponent
+                                        cycleColor={true}
                                         forwardedComponent={
                                           Object {
                                             "$$typeof": Symbol(react.forward_ref),
@@ -1392,7 +1524,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                                             "componentStyle": ComponentStyle {
                                               "componentId": "styles__Tracer-sc-18vfsm6-0",
                                               "isStatic": false,
-                                              "lastClassName": "kWITRq",
+                                              "lastClassName": "lKbcB",
                                               "rules": Array [
                                                 "position:absolute;top:-1px;left:50%;opacity:0;width:50px;height:2px;z-index:1;background:red;animation:",
                                                 [Function],
@@ -1412,7 +1544,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                                         forwardedRef={null}
                                       >
                                         <div
-                                          className="styles__Tracer-sc-18vfsm6-0 kWITRq"
+                                          className="styles__Tracer-sc-18vfsm6-0 lKbcB"
                                         />
                                       </StyledComponent>
                                     </styles__Tracer>
@@ -1429,9 +1561,21 @@ exports[`View -> About should render the About view (not loading) without throwi
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Top-sc-1pwogyu-6",
                                       "isStatic": true,
-                                      "lastClassName": "QCabo",
+                                      "lastClassName": "eLxrDv",
                                       "rules": Array [
-                                        "position:absolute;width:300px;height:300px;background:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);",
+                                        "position:absolute;width:300px;height:300px;animation:",
+                                        Keyframes {
+                                          "id": "sc-keyframes-jqnGwL",
+                                          "inject": [Function],
+                                          "name": "jqnGwL",
+                                          "rules": Array [
+                                            "@-webkit-keyframes jqnGwL{0%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}33.333333333333336%{background-color:rgba(66,33,99,0.1);border:1px solid rgba(66,33,99,0.2);}66.66666666666667%{background-color:rgba(0,0,255,0.1);border:1px solid rgba(0,0,255,0.2);}100%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}}",
+                                            "@keyframes jqnGwL{0%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}33.333333333333336%{background-color:rgba(66,33,99,0.1);border:1px solid rgba(66,33,99,0.2);}66.66666666666667%{background-color:rgba(0,0,255,0.1);border:1px solid rgba(0,0,255,0.2);}100%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}}",
+                                          ],
+                                          "toString": [Function],
+                                        },
+                                        " 45s normal infinite",
+                                        ";",
                                         "transform:rotateX(-90deg) translateY(-152px);transform-origin:top center;",
                                       ],
                                     },
@@ -1450,7 +1594,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                                 forwardedRef={null}
                               >
                                 <div
-                                  className="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 QCabo"
+                                  className="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 eLxrDv"
                                 />
                               </StyledComponent>
                             </styles__Top>
@@ -1463,9 +1607,21 @@ exports[`View -> About should render the About view (not loading) without throwi
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Bottom-sc-1pwogyu-7",
                                       "isStatic": true,
-                                      "lastClassName": "cwSPhK",
+                                      "lastClassName": "cpagcj",
                                       "rules": Array [
-                                        "position:absolute;width:300px;height:300px;background:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);",
+                                        "position:absolute;width:300px;height:300px;animation:",
+                                        Keyframes {
+                                          "id": "sc-keyframes-jqnGwL",
+                                          "inject": [Function],
+                                          "name": "jqnGwL",
+                                          "rules": Array [
+                                            "@-webkit-keyframes jqnGwL{0%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}33.333333333333336%{background-color:rgba(66,33,99,0.1);border:1px solid rgba(66,33,99,0.2);}66.66666666666667%{background-color:rgba(0,0,255,0.1);border:1px solid rgba(0,0,255,0.2);}100%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}}",
+                                            "@keyframes jqnGwL{0%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}33.333333333333336%{background-color:rgba(66,33,99,0.1);border:1px solid rgba(66,33,99,0.2);}66.66666666666667%{background-color:rgba(0,0,255,0.1);border:1px solid rgba(0,0,255,0.2);}100%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}}",
+                                          ],
+                                          "toString": [Function],
+                                        },
+                                        " 45s normal infinite",
+                                        ";",
                                         "transform:rotateX(90deg) translateY(150px);transform-origin:bottom center;",
                                       ],
                                     },
@@ -1484,11 +1640,16 @@ exports[`View -> About should render the About view (not loading) without throwi
                                 forwardedRef={null}
                               >
                                 <div
-                                  className="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 cwSPhK"
+                                  className="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 cpagcj"
                                 >
-                                  <Memo()>
-                                    <styles__Tracer>
+                                  <Memo()
+                                    cycleColor={true}
+                                  >
+                                    <styles__Tracer
+                                      cycleColor={true}
+                                    >
                                       <StyledComponent
+                                        cycleColor={true}
                                         forwardedComponent={
                                           Object {
                                             "$$typeof": Symbol(react.forward_ref),
@@ -1496,7 +1657,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                                             "componentStyle": ComponentStyle {
                                               "componentId": "styles__Tracer-sc-18vfsm6-0",
                                               "isStatic": false,
-                                              "lastClassName": "kWITRq",
+                                              "lastClassName": "lKbcB",
                                               "rules": Array [
                                                 "position:absolute;top:-1px;left:50%;opacity:0;width:50px;height:2px;z-index:1;background:red;animation:",
                                                 [Function],
@@ -1516,7 +1677,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                                         forwardedRef={null}
                                       >
                                         <div
-                                          className="styles__Tracer-sc-18vfsm6-0 kWITRq"
+                                          className="styles__Tracer-sc-18vfsm6-0 lKbcB"
                                         />
                                       </StyledComponent>
                                     </styles__Tracer>
@@ -1533,9 +1694,21 @@ exports[`View -> About should render the About view (not loading) without throwi
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Left-sc-1pwogyu-5",
                                       "isStatic": true,
-                                      "lastClassName": "dzatai",
+                                      "lastClassName": "iDSTJS",
                                       "rules": Array [
-                                        "position:absolute;width:300px;height:300px;background:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);",
+                                        "position:absolute;width:300px;height:300px;animation:",
+                                        Keyframes {
+                                          "id": "sc-keyframes-jqnGwL",
+                                          "inject": [Function],
+                                          "name": "jqnGwL",
+                                          "rules": Array [
+                                            "@-webkit-keyframes jqnGwL{0%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}33.333333333333336%{background-color:rgba(66,33,99,0.1);border:1px solid rgba(66,33,99,0.2);}66.66666666666667%{background-color:rgba(0,0,255,0.1);border:1px solid rgba(0,0,255,0.2);}100%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}}",
+                                            "@keyframes jqnGwL{0%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}33.333333333333336%{background-color:rgba(66,33,99,0.1);border:1px solid rgba(66,33,99,0.2);}66.66666666666667%{background-color:rgba(0,0,255,0.1);border:1px solid rgba(0,0,255,0.2);}100%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}}",
+                                          ],
+                                          "toString": [Function],
+                                        },
+                                        " 45s normal infinite",
+                                        ";",
                                         "transform:rotateY(270deg) translateX(-150px);transform-origin:center left;",
                                       ],
                                     },
@@ -1554,15 +1727,18 @@ exports[`View -> About should render the About view (not loading) without throwi
                                 forwardedRef={null}
                               >
                                 <div
-                                  className="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 dzatai"
+                                  className="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 iDSTJS"
                                 >
                                   <Memo()
+                                    cycleColor={true}
                                     direction="left"
                                   >
                                     <styles__Tracer
+                                      cycleColor={true}
                                       direction="left"
                                     >
                                       <StyledComponent
+                                        cycleColor={true}
                                         direction="left"
                                         forwardedComponent={
                                           Object {
@@ -1571,7 +1747,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                                             "componentStyle": ComponentStyle {
                                               "componentId": "styles__Tracer-sc-18vfsm6-0",
                                               "isStatic": false,
-                                              "lastClassName": "kWITRq",
+                                              "lastClassName": "lKbcB",
                                               "rules": Array [
                                                 "position:absolute;top:-1px;left:50%;opacity:0;width:50px;height:2px;z-index:1;background:red;animation:",
                                                 [Function],
@@ -1591,7 +1767,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                                         forwardedRef={null}
                                       >
                                         <div
-                                          className="styles__Tracer-sc-18vfsm6-0 cVcktX"
+                                          className="styles__Tracer-sc-18vfsm6-0 hNwUQp"
                                           direction="left"
                                         />
                                       </StyledComponent>
@@ -1609,9 +1785,21 @@ exports[`View -> About should render the About view (not loading) without throwi
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Right-sc-1pwogyu-4",
                                       "isStatic": true,
-                                      "lastClassName": "eWSCFi",
+                                      "lastClassName": "fTRfub",
                                       "rules": Array [
-                                        "position:absolute;width:300px;height:300px;background:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);",
+                                        "position:absolute;width:300px;height:300px;animation:",
+                                        Keyframes {
+                                          "id": "sc-keyframes-jqnGwL",
+                                          "inject": [Function],
+                                          "name": "jqnGwL",
+                                          "rules": Array [
+                                            "@-webkit-keyframes jqnGwL{0%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}33.333333333333336%{background-color:rgba(66,33,99,0.1);border:1px solid rgba(66,33,99,0.2);}66.66666666666667%{background-color:rgba(0,0,255,0.1);border:1px solid rgba(0,0,255,0.2);}100%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}}",
+                                            "@keyframes jqnGwL{0%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}33.333333333333336%{background-color:rgba(66,33,99,0.1);border:1px solid rgba(66,33,99,0.2);}66.66666666666667%{background-color:rgba(0,0,255,0.1);border:1px solid rgba(0,0,255,0.2);}100%{background-color:rgba(209,43,43,0.1);border:1px solid rgba(209,43,43,0.2);}}",
+                                          ],
+                                          "toString": [Function],
+                                        },
+                                        " 45s normal infinite",
+                                        ";",
                                         "transform:rotateY(-270deg) translateX(150px);transform-origin:top right;",
                                       ],
                                     },
@@ -1630,11 +1818,16 @@ exports[`View -> About should render the About view (not loading) without throwi
                                 forwardedRef={null}
                               >
                                 <div
-                                  className="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 eWSCFi"
+                                  className="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 fTRfub"
                                 >
-                                  <Memo()>
-                                    <styles__Tracer>
+                                  <Memo()
+                                    cycleColor={true}
+                                  >
+                                    <styles__Tracer
+                                      cycleColor={true}
+                                    >
                                       <StyledComponent
+                                        cycleColor={true}
                                         forwardedComponent={
                                           Object {
                                             "$$typeof": Symbol(react.forward_ref),
@@ -1642,7 +1835,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                                             "componentStyle": ComponentStyle {
                                               "componentId": "styles__Tracer-sc-18vfsm6-0",
                                               "isStatic": false,
-                                              "lastClassName": "kWITRq",
+                                              "lastClassName": "lKbcB",
                                               "rules": Array [
                                                 "position:absolute;top:-1px;left:50%;opacity:0;width:50px;height:2px;z-index:1;background:red;animation:",
                                                 [Function],
@@ -1662,7 +1855,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                                         forwardedRef={null}
                                       >
                                         <div
-                                          className="styles__Tracer-sc-18vfsm6-0 kWITRq"
+                                          className="styles__Tracer-sc-18vfsm6-0 lKbcB"
                                         />
                                       </StyledComponent>
                                     </styles__Tracer>
@@ -1735,7 +1928,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                 "componentStyle": ComponentStyle {
                   "componentId": "styles__Content-qm8p7s-3",
                   "isStatic": true,
-                  "lastClassName": "ihbVpw",
+                  "lastClassName": "dDnc",
                   "rules": Array [
                     "flex:1;font-size:0.9rem;font-weight:300;line-height:1.3;max-width:100%;padding-right:0px;z-index:1;",
                     "@media (min-width:",
@@ -1748,7 +1941,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                     "}",
                     " h2{color:",
                     "#fff",
-                    ";}p{margin-bottom:1em;}ul{list-style:disc;padding-left:1em;}",
+                    ";}p{margin-bottom:1em;}ul{list-style:disc;margin-top:0.25em;padding-left:1.2em;}",
                   ],
                 },
                 "displayName": "styles__Content",
@@ -1764,7 +1957,7 @@ exports[`View -> About should render the About view (not loading) without throwi
             forwardedRef={null}
           >
             <div
-              className="styles__Content-qm8p7s-3 ihbVpw"
+              className="styles__Content-qm8p7s-3 dDnc"
             >
               <p>
                 Hi! I'm David, and I like making things.
@@ -1921,9 +2114,16 @@ exports[`View -> About should render the About view (not loading) without throwi
                       "componentStyle": ComponentStyle {
                         "componentId": "styles__SiteSpecs-qm8p7s-4",
                         "isStatic": true,
-                        "lastClassName": "cZoKls",
+                        "lastClassName": "kvjtmC",
                         "rules": Array [
-                          "display:flex;flex-wrap:wrap;",
+                          "display:grid;grid-template-columns:1fr 1fr;",
+                          "@media (min-width:",
+                          "62.5",
+                          "em){",
+                          "
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  ",
+                          "}",
                         ],
                       },
                       "displayName": "styles__SiteSpecs",
@@ -1939,7 +2139,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                   forwardedRef={null}
                 >
                   <div
-                    className="styles__SiteSpecs-qm8p7s-4 cZoKls"
+                    className="styles__SiteSpecs-qm8p7s-4 kvjtmC"
                   >
                     <styles__SpecsSection>
                       <StyledComponent
@@ -1950,9 +2150,9 @@ exports[`View -> About should render the About view (not loading) without throwi
                             "componentStyle": ComponentStyle {
                               "componentId": "styles__SpecsSection-qm8p7s-5",
                               "isStatic": true,
-                              "lastClassName": "kzOUAH",
+                              "lastClassName": "leMdoy",
                               "rules": Array [
-                                "padding:1em 2em;h3{color:",
+                                "padding:1em 0;h3{color:",
                                 "#fff",
                                 ";}",
                               ],
@@ -1970,7 +2170,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                         forwardedRef={null}
                       >
                         <div
-                          className="styles__SpecsSection-qm8p7s-5 kzOUAH"
+                          className="styles__SpecsSection-qm8p7s-5 leMdoy"
                         >
                           <h3>
                             Environment
@@ -1998,9 +2198,9 @@ exports[`View -> About should render the About view (not loading) without throwi
                             "componentStyle": ComponentStyle {
                               "componentId": "styles__SpecsSection-qm8p7s-5",
                               "isStatic": true,
-                              "lastClassName": "kzOUAH",
+                              "lastClassName": "leMdoy",
                               "rules": Array [
-                                "padding:1em 2em;h3{color:",
+                                "padding:1em 0;h3{color:",
                                 "#fff",
                                 ";}",
                               ],
@@ -2018,7 +2218,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                         forwardedRef={null}
                       >
                         <div
-                          className="styles__SpecsSection-qm8p7s-5 kzOUAH"
+                          className="styles__SpecsSection-qm8p7s-5 leMdoy"
                         >
                           <h3>
                             Architecture
@@ -2046,9 +2246,9 @@ exports[`View -> About should render the About view (not loading) without throwi
                             "componentStyle": ComponentStyle {
                               "componentId": "styles__SpecsSection-qm8p7s-5",
                               "isStatic": true,
-                              "lastClassName": "kzOUAH",
+                              "lastClassName": "leMdoy",
                               "rules": Array [
-                                "padding:1em 2em;h3{color:",
+                                "padding:1em 0;h3{color:",
                                 "#fff",
                                 ";}",
                               ],
@@ -2066,7 +2266,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                         forwardedRef={null}
                       >
                         <div
-                          className="styles__SpecsSection-qm8p7s-5 kzOUAH"
+                          className="styles__SpecsSection-qm8p7s-5 leMdoy"
                         >
                           <h3>
                             Testing/QA
@@ -2097,9 +2297,9 @@ exports[`View -> About should render the About view (not loading) without throwi
                             "componentStyle": ComponentStyle {
                               "componentId": "styles__SpecsSection-qm8p7s-5",
                               "isStatic": true,
-                              "lastClassName": "kzOUAH",
+                              "lastClassName": "leMdoy",
                               "rules": Array [
-                                "padding:1em 2em;h3{color:",
+                                "padding:1em 0;h3{color:",
                                 "#fff",
                                 ";}",
                               ],
@@ -2117,7 +2317,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                         forwardedRef={null}
                       >
                         <div
-                          className="styles__SpecsSection-qm8p7s-5 kzOUAH"
+                          className="styles__SpecsSection-qm8p7s-5 leMdoy"
                         >
                           <h3>
                             Deployment

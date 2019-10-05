@@ -8,43 +8,43 @@ exports[`Component -> Cube should render the Cube in completed state without thr
     className="styles__Polygon-sc-1pwogyu-1 dCIqjj"
   >
     <div
-      className="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 hZHsMX"
+      className="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 deBIOm"
     >
       <div
-        className="styles__Tracer-sc-18vfsm6-0 cVcktX"
+        className="styles__Tracer-sc-18vfsm6-0 hNwUQp"
         direction="left"
       />
     </div>
     <div
-      className="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 hLVrnA"
+      className="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 gCcrQb"
     >
       <div
-        className="styles__Tracer-sc-18vfsm6-0 kWITRq"
+        className="styles__Tracer-sc-18vfsm6-0 lKbcB"
       />
     </div>
     <div
-      className="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 QCabo"
+      className="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 eLxrDv"
     />
     <div
-      className="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 cwSPhK"
+      className="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 cpagcj"
     >
       <div
-        className="styles__Tracer-sc-18vfsm6-0 kWITRq"
+        className="styles__Tracer-sc-18vfsm6-0 lKbcB"
       />
     </div>
     <div
-      className="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 dzatai"
+      className="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 iDSTJS"
     >
       <div
-        className="styles__Tracer-sc-18vfsm6-0 cVcktX"
+        className="styles__Tracer-sc-18vfsm6-0 hNwUQp"
         direction="left"
       />
     </div>
     <div
-      className="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 eWSCFi"
+      className="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 fTRfub"
     >
       <div
-        className="styles__Tracer-sc-18vfsm6-0 kWITRq"
+        className="styles__Tracer-sc-18vfsm6-0 lKbcB"
       />
     </div>
   </div>
@@ -59,43 +59,43 @@ exports[`Component -> Cube should render the Cube in loading state without throw
     className="styles__Polygon-sc-1pwogyu-1 dCIqjj"
   >
     <div
-      className="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 hZHsMX"
+      className="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 deBIOm"
     >
       <div
-        className="styles__Tracer-sc-18vfsm6-0 cVcktX"
+        className="styles__Tracer-sc-18vfsm6-0 hNwUQp"
         direction="left"
       />
     </div>
     <div
-      className="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 hLVrnA"
+      className="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 gCcrQb"
     >
       <div
-        className="styles__Tracer-sc-18vfsm6-0 kWITRq"
+        className="styles__Tracer-sc-18vfsm6-0 lKbcB"
       />
     </div>
     <div
-      className="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 QCabo"
+      className="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 eLxrDv"
     />
     <div
-      className="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 cwSPhK"
+      className="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 cpagcj"
     >
       <div
-        className="styles__Tracer-sc-18vfsm6-0 kWITRq"
+        className="styles__Tracer-sc-18vfsm6-0 lKbcB"
       />
     </div>
     <div
-      className="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 dzatai"
+      className="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 iDSTJS"
     >
       <div
-        className="styles__Tracer-sc-18vfsm6-0 cVcktX"
+        className="styles__Tracer-sc-18vfsm6-0 hNwUQp"
         direction="left"
       />
     </div>
     <div
-      className="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 eWSCFi"
+      className="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 fTRfub"
     >
       <div
-        className="styles__Tracer-sc-18vfsm6-0 kWITRq"
+        className="styles__Tracer-sc-18vfsm6-0 lKbcB"
       />
     </div>
   </div>

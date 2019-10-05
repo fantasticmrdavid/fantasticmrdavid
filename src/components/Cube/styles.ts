@@ -1,4 +1,11 @@
 import styled, { css, keyframes } from 'styled-components';
+import { transparentize } from 'polished';
+
+const cubeColors = [
+  'rgb(209, 43, 43)',
+  'rgb(66, 33, 99)',
+  'rgb(0, 0, 255)',
+];
 
 interface ContainerProps {
   loading: boolean,
@@ -7,6 +14,18 @@ interface ContainerProps {
 const spin = keyframes`
   from { transform: rotateX(15deg) rotateY(15deg); }
   to { transform: rotateX(-60deg) rotateY(60deg); }
+`;
+
+const cycleColor = keyframes`
+  ${cubeColors.map((c: string, i: number) => `
+    ${i * (100 / cubeColors.length)}% {
+      background-color: ${transparentize(0.9, c)};
+      border: ${`1px solid ${transparentize(0.8, c)}`};
+    }`)}
+    100% {
+      background-color: ${transparentize(0.9, cubeColors[0])};
+      border: ${`1px solid ${transparentize(0.8, cubeColors[0])}`};
+    }
 `;
 
 export const Container = styled.div`
@@ -33,8 +52,7 @@ const Side = styled.div`
   position: absolute;
   width: 300px;
   height: 300px;
-  background: rgba(209, 43, 43, 0.1);
-  border: 1px solid rgba(209, 43, 43, 0.2);
+  animation: ${css`${cycleColor} 45s normal infinite`};
 `;
 
 export const Back = styled(Side)`
