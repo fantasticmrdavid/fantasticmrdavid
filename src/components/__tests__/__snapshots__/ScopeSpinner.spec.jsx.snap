@@ -5,7 +5,7 @@ exports[`Component -> ScopeSpinner should render the ScopeSpinner without throwi
   className="styles__Container-sc-5fp6d1-0 gaARso"
 >
   <div
-    className="styles__Container-sc-1pex0aj-0 iPixZz"
+    className="styles__Container-sc-1pex0aj-0 bOPkvx"
     size={210}
     speed={2.5}
   >
@@ -21,7 +21,7 @@ exports[`Component -> ScopeSpinner should render the ScopeSpinner without throwi
     </div>
   </div>
   <div
-    className="styles__Container-sc-1pex0aj-0 bBZVEC"
+    className="styles__Container-sc-1pex0aj-0 jorQVX"
     size={200}
     speed={2.5}
   >
@@ -37,7 +37,7 @@ exports[`Component -> ScopeSpinner should render the ScopeSpinner without throwi
     </div>
   </div>
   <div
-    className="styles__Container-sc-1pex0aj-0 iXnjYc"
+    className="styles__Container-sc-1pex0aj-0 bwchZd"
     size={150}
     speed={1}
   >
@@ -53,7 +53,7 @@ exports[`Component -> ScopeSpinner should render the ScopeSpinner without throwi
     </div>
   </div>
   <div
-    className="styles__Container-sc-1pex0aj-0 iUEZIG"
+    className="styles__Container-sc-1pex0aj-0 kezFzV"
     size={150}
     speed={1}
   >
@@ -69,7 +69,7 @@ exports[`Component -> ScopeSpinner should render the ScopeSpinner without throwi
     </div>
   </div>
   <div
-    className="styles__Container-sc-1pex0aj-0 cwGLCp"
+    className="styles__Container-sc-1pex0aj-0 kvkRhx"
     size={120}
     speed={1}
   >
@@ -85,7 +85,7 @@ exports[`Component -> ScopeSpinner should render the ScopeSpinner without throwi
     </div>
   </div>
   <div
-    className="styles__Container-sc-1pex0aj-0 fPKfuu"
+    className="styles__Container-sc-1pex0aj-0 hkbAPM"
     size={100}
     speed={0.5}
   >
@@ -101,7 +101,7 @@ exports[`Component -> ScopeSpinner should render the ScopeSpinner without throwi
     </div>
   </div>
   <div
-    className="styles__Container-sc-1pex0aj-0 fPKfuu"
+    className="styles__Container-sc-1pex0aj-0 hkbAPM"
     size={100}
     speed={0.5}
   >

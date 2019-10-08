@@ -142,6 +142,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                       >
                         <Memo()
                           key="ring_0"
+                          maxScale={1.1}
                           maxSlice={90}
                           minSlice={65}
                           rotateDirection="cc"
@@ -150,6 +151,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                           strokeWidth={12}
                         >
                           <styles__Container
+                            maxScale={1.1}
                             rotateDirection="cc"
                             size={210}
                             speed={2.5}
@@ -162,7 +164,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                   "componentStyle": ComponentStyle {
                                     "componentId": "styles__Container-sc-1pex0aj-0",
                                     "isStatic": false,
-                                    "lastClassName": "fPKfuu",
+                                    "lastClassName": "hkbAPM",
                                     "rules": Array [
                                       "position:absolute;box-sizing:border-box;top:",
                                       [Function],
@@ -188,12 +190,13 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                 }
                               }
                               forwardedRef={null}
+                              maxScale={1.1}
                               rotateDirection="cc"
                               size={210}
                               speed={2.5}
                             >
                               <div
-                                className="styles__Container-sc-1pex0aj-0 iPixZz"
+                                className="styles__Container-sc-1pex0aj-0 bOPkvx"
                                 size={210}
                                 speed={2.5}
                               >
@@ -289,6 +292,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                         </Memo()>
                         <Memo()
                           key="ring_1"
+                          maxScale={1.1}
                           maxSlice={100}
                           minSlice={100}
                           size={200}
@@ -296,6 +300,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                           strokeWidth={4}
                         >
                           <styles__Container
+                            maxScale={1.1}
                             rotateDirection="c"
                             size={200}
                             speed={2.5}
@@ -308,7 +313,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                   "componentStyle": ComponentStyle {
                                     "componentId": "styles__Container-sc-1pex0aj-0",
                                     "isStatic": false,
-                                    "lastClassName": "fPKfuu",
+                                    "lastClassName": "hkbAPM",
                                     "rules": Array [
                                       "position:absolute;box-sizing:border-box;top:",
                                       [Function],
@@ -334,12 +339,13 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                 }
                               }
                               forwardedRef={null}
+                              maxScale={1.1}
                               rotateDirection="c"
                               size={200}
                               speed={2.5}
                             >
                               <div
-                                className="styles__Container-sc-1pex0aj-0 bBZVEC"
+                                className="styles__Container-sc-1pex0aj-0 jorQVX"
                                 size={200}
                                 speed={2.5}
                               >
@@ -435,6 +441,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                         </Memo()>
                         <Memo()
                           key="ring_2"
+                          maxScale={1.2}
                           maxSlice={90}
                           minSlice={55}
                           rotateDirection="cc"
@@ -443,6 +450,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                           strokeWidth={10}
                         >
                           <styles__Container
+                            maxScale={1.2}
                             rotateDirection="cc"
                             size={150}
                             speed={1}
@@ -455,7 +463,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                   "componentStyle": ComponentStyle {
                                     "componentId": "styles__Container-sc-1pex0aj-0",
                                     "isStatic": false,
-                                    "lastClassName": "fPKfuu",
+                                    "lastClassName": "hkbAPM",
                                     "rules": Array [
                                       "position:absolute;box-sizing:border-box;top:",
                                       [Function],
@@ -481,12 +489,13 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                 }
                               }
                               forwardedRef={null}
+                              maxScale={1.2}
                               rotateDirection="cc"
                               size={150}
                               speed={1}
                             >
                               <div
-                                className="styles__Container-sc-1pex0aj-0 iXnjYc"
+                                className="styles__Container-sc-1pex0aj-0 bwchZd"
                                 size={150}
                                 speed={1}
                               >
@@ -582,6 +591,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                         </Memo()>
                         <Memo()
                           key="ring_3"
+                          maxScale={1.2}
                           maxSlice={100}
                           minSlice={100}
                           size={150}
@@ -589,6 +599,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                           strokeWidth={2}
                         >
                           <styles__Container
+                            maxScale={1.2}
                             rotateDirection="c"
                             size={150}
                             speed={1}
@@ -601,7 +612,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                   "componentStyle": ComponentStyle {
                                     "componentId": "styles__Container-sc-1pex0aj-0",
                                     "isStatic": false,
-                                    "lastClassName": "fPKfuu",
+                                    "lastClassName": "hkbAPM",
                                     "rules": Array [
                                       "position:absolute;box-sizing:border-box;top:",
                                       [Function],
@@ -627,12 +638,13 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                 }
                               }
                               forwardedRef={null}
+                              maxScale={1.2}
                               rotateDirection="c"
                               size={150}
                               speed={1}
                             >
                               <div
-                                className="styles__Container-sc-1pex0aj-0 iUEZIG"
+                                className="styles__Container-sc-1pex0aj-0 kezFzV"
                                 size={150}
                                 speed={1}
                               >
@@ -736,6 +748,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                           strokeWidth={20}
                         >
                           <styles__Container
+                            maxScale={1}
                             rotateDirection="cc"
                             size={120}
                             speed={1}
@@ -748,7 +761,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                   "componentStyle": ComponentStyle {
                                     "componentId": "styles__Container-sc-1pex0aj-0",
                                     "isStatic": false,
-                                    "lastClassName": "fPKfuu",
+                                    "lastClassName": "hkbAPM",
                                     "rules": Array [
                                       "position:absolute;box-sizing:border-box;top:",
                                       [Function],
@@ -774,12 +787,13 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                 }
                               }
                               forwardedRef={null}
+                              maxScale={1}
                               rotateDirection="cc"
                               size={120}
                               speed={1}
                             >
                               <div
-                                className="styles__Container-sc-1pex0aj-0 cwGLCp"
+                                className="styles__Container-sc-1pex0aj-0 kvkRhx"
                                 size={120}
                                 speed={1}
                               >
@@ -875,6 +889,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                         </Memo()>
                         <Memo()
                           key="ring_5"
+                          maxScale={1.5}
                           maxSlice={90}
                           minSlice={70}
                           rotateDirection="cc"
@@ -883,6 +898,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                           strokeWidth={3}
                         >
                           <styles__Container
+                            maxScale={1.5}
                             rotateDirection="cc"
                             size={100}
                             speed={0.5}
@@ -895,7 +911,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                   "componentStyle": ComponentStyle {
                                     "componentId": "styles__Container-sc-1pex0aj-0",
                                     "isStatic": false,
-                                    "lastClassName": "fPKfuu",
+                                    "lastClassName": "hkbAPM",
                                     "rules": Array [
                                       "position:absolute;box-sizing:border-box;top:",
                                       [Function],
@@ -921,12 +937,13 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                 }
                               }
                               forwardedRef={null}
+                              maxScale={1.5}
                               rotateDirection="cc"
                               size={100}
                               speed={0.5}
                             >
                               <div
-                                className="styles__Container-sc-1pex0aj-0 fPKfuu"
+                                className="styles__Container-sc-1pex0aj-0 hkbAPM"
                                 size={100}
                                 speed={0.5}
                               >
@@ -1022,6 +1039,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                         </Memo()>
                         <Memo()
                           key="ring_6"
+                          maxScale={1.5}
                           maxSlice={30}
                           minSlice={30}
                           rotateDirection="cc"
@@ -1030,6 +1048,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                           strokeWidth={8}
                         >
                           <styles__Container
+                            maxScale={1.5}
                             rotateDirection="cc"
                             size={100}
                             speed={0.5}
@@ -1042,7 +1061,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                   "componentStyle": ComponentStyle {
                                     "componentId": "styles__Container-sc-1pex0aj-0",
                                     "isStatic": false,
-                                    "lastClassName": "fPKfuu",
+                                    "lastClassName": "hkbAPM",
                                     "rules": Array [
                                       "position:absolute;box-sizing:border-box;top:",
                                       [Function],
@@ -1068,12 +1087,13 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                 }
                               }
                               forwardedRef={null}
+                              maxScale={1.5}
                               rotateDirection="cc"
                               size={100}
                               speed={0.5}
                             >
                               <div
-                                className="styles__Container-sc-1pex0aj-0 fPKfuu"
+                                className="styles__Container-sc-1pex0aj-0 hkbAPM"
                                 size={100}
                                 speed={0.5}
                               >
@@ -28950,6 +28970,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                         >
                           <Memo()
                             key="ring_0"
+                            maxScale={1.1}
                             maxSlice={90}
                             minSlice={65}
                             rotateDirection="cc"
@@ -28958,6 +28979,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                             strokeWidth={12}
                           >
                             <styles__Container
+                              maxScale={1.1}
                               rotateDirection="cc"
                               size={210}
                               speed={2.5}
@@ -28970,7 +28992,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Container-sc-1pex0aj-0",
                                       "isStatic": false,
-                                      "lastClassName": "fPKfuu",
+                                      "lastClassName": "hkbAPM",
                                       "rules": Array [
                                         "position:absolute;box-sizing:border-box;top:",
                                         [Function],
@@ -28996,12 +29018,13 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                   }
                                 }
                                 forwardedRef={null}
+                                maxScale={1.1}
                                 rotateDirection="cc"
                                 size={210}
                                 speed={2.5}
                               >
                                 <div
-                                  className="styles__Container-sc-1pex0aj-0 iPixZz"
+                                  className="styles__Container-sc-1pex0aj-0 bOPkvx"
                                   size={210}
                                   speed={2.5}
                                 >
@@ -29097,6 +29120,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                           </Memo()>
                           <Memo()
                             key="ring_1"
+                            maxScale={1.1}
                             maxSlice={100}
                             minSlice={100}
                             size={200}
@@ -29104,6 +29128,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                             strokeWidth={4}
                           >
                             <styles__Container
+                              maxScale={1.1}
                               rotateDirection="c"
                               size={200}
                               speed={2.5}
@@ -29116,7 +29141,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Container-sc-1pex0aj-0",
                                       "isStatic": false,
-                                      "lastClassName": "fPKfuu",
+                                      "lastClassName": "hkbAPM",
                                       "rules": Array [
                                         "position:absolute;box-sizing:border-box;top:",
                                         [Function],
@@ -29142,12 +29167,13 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                   }
                                 }
                                 forwardedRef={null}
+                                maxScale={1.1}
                                 rotateDirection="c"
                                 size={200}
                                 speed={2.5}
                               >
                                 <div
-                                  className="styles__Container-sc-1pex0aj-0 bBZVEC"
+                                  className="styles__Container-sc-1pex0aj-0 jorQVX"
                                   size={200}
                                   speed={2.5}
                                 >
@@ -29243,6 +29269,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                           </Memo()>
                           <Memo()
                             key="ring_2"
+                            maxScale={1.2}
                             maxSlice={90}
                             minSlice={55}
                             rotateDirection="cc"
@@ -29251,6 +29278,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                             strokeWidth={10}
                           >
                             <styles__Container
+                              maxScale={1.2}
                               rotateDirection="cc"
                               size={150}
                               speed={1}
@@ -29263,7 +29291,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Container-sc-1pex0aj-0",
                                       "isStatic": false,
-                                      "lastClassName": "fPKfuu",
+                                      "lastClassName": "hkbAPM",
                                       "rules": Array [
                                         "position:absolute;box-sizing:border-box;top:",
                                         [Function],
@@ -29289,12 +29317,13 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                   }
                                 }
                                 forwardedRef={null}
+                                maxScale={1.2}
                                 rotateDirection="cc"
                                 size={150}
                                 speed={1}
                               >
                                 <div
-                                  className="styles__Container-sc-1pex0aj-0 iXnjYc"
+                                  className="styles__Container-sc-1pex0aj-0 bwchZd"
                                   size={150}
                                   speed={1}
                                 >
@@ -29390,6 +29419,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                           </Memo()>
                           <Memo()
                             key="ring_3"
+                            maxScale={1.2}
                             maxSlice={100}
                             minSlice={100}
                             size={150}
@@ -29397,6 +29427,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                             strokeWidth={2}
                           >
                             <styles__Container
+                              maxScale={1.2}
                               rotateDirection="c"
                               size={150}
                               speed={1}
@@ -29409,7 +29440,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Container-sc-1pex0aj-0",
                                       "isStatic": false,
-                                      "lastClassName": "fPKfuu",
+                                      "lastClassName": "hkbAPM",
                                       "rules": Array [
                                         "position:absolute;box-sizing:border-box;top:",
                                         [Function],
@@ -29435,12 +29466,13 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                   }
                                 }
                                 forwardedRef={null}
+                                maxScale={1.2}
                                 rotateDirection="c"
                                 size={150}
                                 speed={1}
                               >
                                 <div
-                                  className="styles__Container-sc-1pex0aj-0 iUEZIG"
+                                  className="styles__Container-sc-1pex0aj-0 kezFzV"
                                   size={150}
                                   speed={1}
                                 >
@@ -29544,6 +29576,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                             strokeWidth={20}
                           >
                             <styles__Container
+                              maxScale={1}
                               rotateDirection="cc"
                               size={120}
                               speed={1}
@@ -29556,7 +29589,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Container-sc-1pex0aj-0",
                                       "isStatic": false,
-                                      "lastClassName": "fPKfuu",
+                                      "lastClassName": "hkbAPM",
                                       "rules": Array [
                                         "position:absolute;box-sizing:border-box;top:",
                                         [Function],
@@ -29582,12 +29615,13 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                   }
                                 }
                                 forwardedRef={null}
+                                maxScale={1}
                                 rotateDirection="cc"
                                 size={120}
                                 speed={1}
                               >
                                 <div
-                                  className="styles__Container-sc-1pex0aj-0 cwGLCp"
+                                  className="styles__Container-sc-1pex0aj-0 kvkRhx"
                                   size={120}
                                   speed={1}
                                 >
@@ -29683,6 +29717,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                           </Memo()>
                           <Memo()
                             key="ring_5"
+                            maxScale={1.5}
                             maxSlice={90}
                             minSlice={70}
                             rotateDirection="cc"
@@ -29691,6 +29726,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                             strokeWidth={3}
                           >
                             <styles__Container
+                              maxScale={1.5}
                               rotateDirection="cc"
                               size={100}
                               speed={0.5}
@@ -29703,7 +29739,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Container-sc-1pex0aj-0",
                                       "isStatic": false,
-                                      "lastClassName": "fPKfuu",
+                                      "lastClassName": "hkbAPM",
                                       "rules": Array [
                                         "position:absolute;box-sizing:border-box;top:",
                                         [Function],
@@ -29729,12 +29765,13 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                   }
                                 }
                                 forwardedRef={null}
+                                maxScale={1.5}
                                 rotateDirection="cc"
                                 size={100}
                                 speed={0.5}
                               >
                                 <div
-                                  className="styles__Container-sc-1pex0aj-0 fPKfuu"
+                                  className="styles__Container-sc-1pex0aj-0 hkbAPM"
                                   size={100}
                                   speed={0.5}
                                 >
@@ -29830,6 +29867,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                           </Memo()>
                           <Memo()
                             key="ring_6"
+                            maxScale={1.5}
                             maxSlice={30}
                             minSlice={30}
                             rotateDirection="cc"
@@ -29838,6 +29876,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                             strokeWidth={8}
                           >
                             <styles__Container
+                              maxScale={1.5}
                               rotateDirection="cc"
                               size={100}
                               speed={0.5}
@@ -29850,7 +29889,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Container-sc-1pex0aj-0",
                                       "isStatic": false,
-                                      "lastClassName": "fPKfuu",
+                                      "lastClassName": "hkbAPM",
                                       "rules": Array [
                                         "position:absolute;box-sizing:border-box;top:",
                                         [Function],
@@ -29876,12 +29915,13 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                   }
                                 }
                                 forwardedRef={null}
+                                maxScale={1.5}
                                 rotateDirection="cc"
                                 size={100}
                                 speed={0.5}
                               >
                                 <div
-                                  className="styles__Container-sc-1pex0aj-0 fPKfuu"
+                                  className="styles__Container-sc-1pex0aj-0 hkbAPM"
                                   size={100}
                                   speed={0.5}
                                 >

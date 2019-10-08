@@ -13,6 +13,7 @@ const RingList = [
     strokeWidth: 12,
     minSlice: 65,
     maxSlice: 90,
+    maxScale: 1.1,
     speed: 2.5,
   },
   {
@@ -20,6 +21,7 @@ const RingList = [
     strokeWidth: 4,
     minSlice: 100,
     maxSlice: 100,
+    maxScale: 1.1,
     speed: 2.5,
   },
   {
@@ -28,6 +30,7 @@ const RingList = [
     rotateDirection: 'cc',
     minSlice: 55,
     maxSlice: 90,
+    maxScale: 1.2,
     speed: 1,
   },
   {
@@ -35,6 +38,7 @@ const RingList = [
     strokeWidth: 2,
     minSlice: 100,
     maxSlice: 100,
+    maxScale: 1.2,
     speed: 1,
   },
   {
@@ -51,6 +55,7 @@ const RingList = [
     rotateDirection: 'cc',
     minSlice: 70,
     maxSlice: 90,
+    maxScale: 1.5,
     speed: 0.5,
   },
   {
@@ -59,6 +64,7 @@ const RingList = [
     rotateDirection: 'cc',
     minSlice: 30,
     maxSlice: 30,
+    maxScale: 1.5,
     speed: 0.5,
   },
 ];

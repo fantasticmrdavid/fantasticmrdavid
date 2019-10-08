@@ -1,29 +1,5 @@
 import styled, { css, keyframes } from 'styled-components';
 
-export const rotateCycle = keyframes`
-  0% {
-    transform: rotateZ(-120deg);
-  }
-  50% {
-    transform: rotateZ(120deg);
-  }
-  100% {
-    transform: rotateZ(-120deg);
-  }
-`;
-
-export const rotateCycleCC = keyframes`
-  0% {
-    transform: rotateZ(120deg);
-  }
-  50% {
-    transform: rotateZ(-120deg);
-  }
-  100% {
-    transform: rotateZ(120deg);
-  }
-`;
-
 export const resizeCycle = (min: number, max: number) => keyframes`
   0% {
     width: ${min}%;
@@ -36,7 +12,20 @@ export const resizeCycle = (min: number, max: number) => keyframes`
   }
 `;
 
+export const containerCycle = (max: number, direction: string) => keyframes`
+  0% {
+    transform: rotateZ(${direction === 'cc' ? '-120deg' : '120deg'}) scale(1);
+  }
+  50% {
+    transform: rotateZ(${direction === 'cc' ? '720deg' : '-720deg'}) scale(${max});
+  }
+  100% {
+    transform: rotateZ(${direction === 'cc' ? '-120deg' : '120deg'}) scale(1);
+  }
+`;
+
 type ContainerProps = {
+  maxScale: number,
   rotateDirection: string,
   size: number,
   speed: number,
@@ -60,7 +49,7 @@ export const Container = styled.div<ContainerProps>`
   left: ${props => `calc(50% - ${props.size / 2}px)`};
   width: ${props => `${props.size}px`};
   height: ${props => `${props.size}px`};
-  animation: ${props => css`${props.rotateDirection === 'cc' ? rotateCycleCC : rotateCycle} ${props.speed * 2}s normal infinite`};
+  animation: ${props => css`${containerCycle(props.maxScale, props.rotateDirection)} ${props.speed * 2}s normal infinite`};
 `;
 
 export const Ring = styled.div<RingProps>`

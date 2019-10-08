@@ -13,11 +13,13 @@ interface Props {
   strokeWidth: number,
   minSlice: number,
   maxSlice: number,
+  maxScale?: number,
   speed: number,
 }
 
 export default memo(
   ({
+    maxScale = 1,
     minSlice,
     maxSlice,
     size,
@@ -25,7 +27,7 @@ export default memo(
     strokeWidth,
     speed,
   }: Props) => (
-    <Container size={size} rotateDirection={rotateDirection} speed={speed}>
+    <Container size={size} rotateDirection={rotateDirection} speed={speed} maxScale={maxScale}>
       <Mask minSlice={minSlice} maxSlice={maxSlice} speed={speed}>
         <Ring size={size} strokeWidth={strokeWidth} />
       </Mask>
