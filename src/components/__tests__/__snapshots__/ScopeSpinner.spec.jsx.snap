@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component -> ScopeSpinner should render the ScopeSpinner without throwing an error 1`] = `
+<div
+  className="styles__Container-sc-5fp6d1-0 gaARso"
+>
+  <div
+    className="styles__Container-sc-1pex0aj-0 iPixZz"
+    size={210}
+    speed={2.5}
+  >
+    <div
+      className="styles__Mask-sc-1pex0aj-2 YWAdm"
+      speed={2.5}
+    >
+      <div
+        className="styles__Ring-sc-1pex0aj-1 hZttlr"
+        size={210}
+        strokeWidth={12}
+      />
+    </div>
+  </div>
+  <div
+    className="styles__Container-sc-1pex0aj-0 bBZVEC"
+    size={200}
+    speed={2.5}
+  >
+    <div
+      className="styles__Mask-sc-1pex0aj-2 bFOSlo"
+      speed={2.5}
+    >
+      <div
+        className="styles__Ring-sc-1pex0aj-1 iiWvvC"
+        size={200}
+        strokeWidth={4}
+      />
+    </div>
+  </div>
+  <div
+    className="styles__Container-sc-1pex0aj-0 iXnjYc"
+    size={150}
+    speed={1}
+  >
+    <div
+      className="styles__Mask-sc-1pex0aj-2 ldFsQu"
+      speed={1}
+    >
+      <div
+        className="styles__Ring-sc-1pex0aj-1 cjwfle"
+        size={150}
+        strokeWidth={10}
+      />
+    </div>
+  </div>
+  <div
+    className="styles__Container-sc-1pex0aj-0 iUEZIG"
+    size={150}
+    speed={1}
+  >
+    <div
+      className="styles__Mask-sc-1pex0aj-2 iptFWs"
+      speed={1}
+    >
+      <div
+        className="styles__Ring-sc-1pex0aj-1 jPFpay"
+        size={150}
+        strokeWidth={2}
+      />
+    </div>
+  </div>
+  <div
+    className="styles__Container-sc-1pex0aj-0 cwGLCp"
+    size={120}
+    speed={1}
+  >
+    <div
+      className="styles__Mask-sc-1pex0aj-2 fvXegV"
+      speed={1}
+    >
+      <div
+        className="styles__Ring-sc-1pex0aj-1 XldDq"
+        size={120}
+        strokeWidth={20}
+      />
+    </div>
+  </div>
+  <div
+    className="styles__Container-sc-1pex0aj-0 fPKfuu"
+    size={100}
+    speed={0.5}
+  >
+    <div
+      className="styles__Mask-sc-1pex0aj-2 cVhCxa"
+      speed={0.5}
+    >
+      <div
+        className="styles__Ring-sc-1pex0aj-1 blYFTr"
+        size={100}
+        strokeWidth={3}
+      />
+    </div>
+  </div>
+  <div
+    className="styles__Container-sc-1pex0aj-0 fPKfuu"
+    size={100}
+    speed={0.5}
+  >
+    <div
+      className="styles__Mask-sc-1pex0aj-2 duOTjR"
+      speed={0.5}
+    >
+      <div
+        className="styles__Ring-sc-1pex0aj-1 gyDhAj"
+        size={100}
+        strokeWidth={8}
+      />
+    </div>
+  </div>
+</div>
+`;

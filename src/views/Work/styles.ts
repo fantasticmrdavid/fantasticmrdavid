@@ -66,7 +66,7 @@ export const LoadingContainer = styled.div<LoadingContainerProps>`
 `;
 
 export const SpinnerPlaceholder = styled.div`
-  height: 160px;
+  height: 0px;
 `;
 
 export const ProjectListContainer = styled.div<ProjectListContainerProps>`

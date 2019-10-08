@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import Spinner from 'components/Spinner';
+import ScopeSpinner from 'components/ScopeSpinner';
 import ImagePreloader from 'components/ImagePreloader';
 import Project from 'components/Project';
 import projects, { Project as ProjectProps } from 'data/projects';
@@ -47,7 +47,7 @@ export default class WorkMedia extends PureComponent<Props> {
     return (
       <Container>
         <LoadingContainer loading={loading}>
-          { loading ? <Spinner /> : <SpinnerPlaceholder /> }
+          { loading ? <ScopeSpinner /> : <SpinnerPlaceholder /> }
           { images.length > 0 && <ImagePreloader images={images} completedAction={stopLoading} /> }
         </LoadingContainer>
 
