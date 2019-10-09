@@ -8,9 +8,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ServiceWorkerWebpackPlugin = require('serviceworker-webpack-plugin');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
-  entry: APP_DIR + '/index.jsx',
+  entry: `${APP_DIR}/index.jsx`,
   output: {
     path: BUILD_DIR,
     filename: 'assets/js/[name]-bundle.js',
@@ -24,7 +25,7 @@ module.exports = {
     rules: [
       {
         test: /\.(ts|tsx|js|jsx)$/,
-        enforce: "pre",
+        enforce: 'pre',
         exclude: /node_modules/,
         loader: [
           'babel-loader',
@@ -32,8 +33,8 @@ module.exports = {
           {
             loader: 'eslint-loader',
             options: {
-                failOnWarning: false,
-                failOnError: false
+              failOnWarning: false,
+              failOnError: false
             }
           }
         ]
@@ -43,21 +44,26 @@ module.exports = {
   devServer: {
     contentBase: BUILD_DIR,
     compress: true,
-    historyApiFallback: true
+    historyApiFallback: true,
   },
   plugins: [
+    new CleanWebpackPlugin({ verbose: true }),
     new HtmlWebpackPlugin({
       template: 'src/index.html',
       inject: false,
     }),
     new webpack.DefinePlugin({
       'process.env': {
-        NODE_ENV: JSON.stringify(env)
+        NODE_ENV: JSON.stringify(env),
       }
     }),
     new ServiceWorkerWebpackPlugin({
       entry: path.join(APP_DIR, 'sw.js'),
     }),
+    new CopyWebpackPlugin([
+      { from: `${APP_DIR}/styles/noscript.css`, to: 'assets/css/noscript.css' },
+      { from: `${APP_DIR}/assets/`, to: 'assets/' },
+    ]),
     new WebpackPwaManifest({
       filename: 'manifest.json',
       name: 'Fantastic Mr David',
@@ -67,14 +73,11 @@ module.exports = {
       theme_color: '#d12b2b',
       icons: [
         {
-          src: 'public/assets/images/pwa_icon.png',
+          src: `${APP_DIR}/assets/images/pwa_icon.png`,
           sizes: [96, 128, 192, 256, 384, 512] // multiple sizes
-        }
-      ]
+        },
+      ],
     }),
-    new CopyWebpackPlugin([
-      { from: `${APP_DIR}/styles/noscript.css`, to: 'assets/css/noscript.css' }
-    ]),
   ],
   optimization: {
     runtimeChunk: 'single',

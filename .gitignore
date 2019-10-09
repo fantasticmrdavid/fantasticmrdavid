@@ -1,8 +1,4 @@
 .DS_Store
 node_modules/
-public/*.html
-public/*.js
-public/assets/js
-public/assets/css
-public/icon_*.png
+public/
 npm-debug.log
