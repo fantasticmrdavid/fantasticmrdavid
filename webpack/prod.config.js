@@ -15,8 +15,8 @@ const config = merge(common, {
             },
           },
         ],
-      }
-    ]
+      },
+    ],
   },
   devtool: 'source-map',
 });

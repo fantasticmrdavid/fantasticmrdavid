@@ -10,7 +10,11 @@
 		"esModuleInterop": true,
 		"sourceMap": true,
 		"paths": {
-			"styles/*": ["src/styles/*"]
+			"styles/*": ["src/styles/*"],
+			"components/*": ["src/components/*"],
+			"data/*": ["src/data/*"],
+			"helpers/*": ["src/helpers/*"],
+			"reducers/*": ["src/reducers/*"]
 		}
 	},
 	"include": [

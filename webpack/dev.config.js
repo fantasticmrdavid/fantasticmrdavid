@@ -1,6 +1,6 @@
 const merge = require('webpack-merge');
+const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const common = require('./common.config.js');
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 process.traceDeprecation = true;
 
@@ -24,7 +24,7 @@ const config = merge(common, {
   devtool: 'inline-source-map',
   plugins: [
     new BundleAnalyzerPlugin({
-        openAnalyzer: false,
+      openAnalyzer: false,
     }),
   ],
 });
