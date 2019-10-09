@@ -46,9 +46,9 @@ exports[`Component -> ScopeSpinner should render the ScopeSpinner without throwi
       speed={1}
     >
       <div
-        className="styles__Ring-sc-1pex0aj-1 cjwfle"
+        className="styles__Ring-sc-1pex0aj-1 bzTeyI"
         size={150}
-        strokeWidth={10}
+        strokeWidth={6}
       />
     </div>
   </div>
@@ -114,6 +114,678 @@ exports[`Component -> ScopeSpinner should render the ScopeSpinner without throwi
         size={100}
         strokeWidth={8}
       />
+    </div>
+  </div>
+  <div
+    className="styles__Container-sc-1b97u4l-0 fkWKr"
+    size={145}
+    speed={4}
+  >
+    <div
+      className="styles__Mask-sc-1b97u4l-2 cVnJrP"
+      speed={4}
+    >
+      <div
+        className="styles__Ring-sc-1b97u4l-1 dHrMl"
+        size={145}
+      >
+        <div
+          className="styles__Tick-sc-1b97u4l-3 deZZdn"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 cFBzmd"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 jvTPtE"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 htVyHt"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 ctTkMW"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 eknrni"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 hKlQPO"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 fPdaht"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 ekYkNV"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 jXCXCx"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 iHHflf"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 liZzih"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 ifsagV"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 dDZska"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 gnWGHU"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 lkBZOO"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 dgbPlw"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 cgHWqU"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 UiEIf"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 kiBfoA"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 ilZHzO"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 hsXALi"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 cndSDj"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 eleVNC"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 frVOYx"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 jtBkoi"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 kQJAvV"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 fTXpEJ"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 gniwgA"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 kSPMrv"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 fiVVZn"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 kjebbm"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 ynsdB"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 jIfzeJ"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 fUloFZ"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 ctPfVa"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 cOhfTp"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 cMCqEV"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 lvbQP"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 eWGhhY"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 iSqofz"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 fwfgSt"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 keuDoB"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 eQuTUI"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 kmOjbA"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 gnAJeo"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 gUWCjb"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 iGnSPh"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 hdWJPG"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 bApGQG"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 koWZRd"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 bZLKzA"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 eNEbou"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 cByoNZ"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 iPOTom"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 aWEWG"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 ioGtpv"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 bvmpNr"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 giyMcY"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 gxmtrI"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 jGRoej"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 dShRqi"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 jIwtCu"
+        >
+          ■
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 kEjpSz"
+        >
+          ■
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="styles__Container-sc-1b97u4l-0 ivKwmS"
+    size={130}
+    speed={4}
+  >
+    <div
+      className="styles__Mask-sc-1b97u4l-2 gvOCjf"
+      speed={4}
+    >
+      <div
+        className="styles__Ring-sc-1b97u4l-1 eScgLx"
+        size={130}
+      >
+        <div
+          className="styles__Tick-sc-1b97u4l-3 deZZdn"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 cFBzmd"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 jvTPtE"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 htVyHt"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 ctTkMW"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 eknrni"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 hKlQPO"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 fPdaht"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 ekYkNV"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 jXCXCx"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 iHHflf"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 liZzih"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 ifsagV"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 dDZska"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 gnWGHU"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 lkBZOO"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 dgbPlw"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 cgHWqU"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 UiEIf"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 kiBfoA"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 ilZHzO"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 hsXALi"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 cndSDj"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 eleVNC"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 frVOYx"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 jtBkoi"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 kQJAvV"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 fTXpEJ"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 gniwgA"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 kSPMrv"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 fiVVZn"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 kjebbm"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 ynsdB"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 jIfzeJ"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 fUloFZ"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 ctPfVa"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 cOhfTp"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 cMCqEV"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 lvbQP"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 eWGhhY"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 iSqofz"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 fwfgSt"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 keuDoB"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 eQuTUI"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 kmOjbA"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 gnAJeo"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 gUWCjb"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 iGnSPh"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 hdWJPG"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 bApGQG"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 koWZRd"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 bZLKzA"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 eNEbou"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 cByoNZ"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 iPOTom"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 aWEWG"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 ioGtpv"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 bvmpNr"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 giyMcY"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 gxmtrI"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 jGRoej"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 dShRqi"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 jIwtCu"
+        >
+          |
+        </div>
+        <div
+          className="styles__Tick-sc-1b97u4l-3 kEjpSz"
+        >
+          |
+        </div>
+      </div>
     </div>
   </div>
 </div>
