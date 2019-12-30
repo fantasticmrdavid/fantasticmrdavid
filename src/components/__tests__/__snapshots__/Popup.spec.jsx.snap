@@ -9,12 +9,8 @@ exports[`Component -> Popup should render the closed Popup UI without throwing a
   title="Popup Test"
   url="/about"
 >
-  <styles__Container
-    active={false}
-    loading={false}
-  >
+  <styles__Container>
     <StyledComponent
-      active={false}
       forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
@@ -35,16 +31,15 @@ exports[`Component -> Popup should render the closed Popup UI without throwing a
           "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "styles__Container-hsnn8o-0",
-          "target": "div",
+          "target": "section",
           "toString": [Function],
           "warnTooManyClasses": [Function],
           "withComponent": [Function],
         }
       }
       forwardedRef={null}
-      loading={false}
     >
-      <div
+      <section
         className="styles__Container-hsnn8o-0 jYwInk"
       >
         <styles__Lightbox
@@ -57,7 +52,7 @@ exports[`Component -> Popup should render the closed Popup UI without throwing a
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "styles__Lightbox-hsnn8o-1",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "ksCHkr",
                   "rules": Array [
                     "position:absolute;top:0px;left:0px;width:100%;height:100%;background:",
@@ -92,7 +87,7 @@ exports[`Component -> Popup should render the closed Popup UI without throwing a
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "styles__Dialog-hsnn8o-2",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "gyNTYq",
                   "rules": Array [
                     "position:relative;border:",
@@ -127,7 +122,7 @@ exports[`Component -> Popup should render the closed Popup UI without throwing a
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
                         "componentId": "styles__Close-hsnn8o-5",
-                        "isStatic": true,
+                        "isStatic": false,
                         "lastClassName": "esqoOc",
                         "rules": Array [
                           "position:absolute;top:0px;right:0px;padding:0.5em;color:white;background-color:",
@@ -185,7 +180,7 @@ exports[`Component -> Popup should render the closed Popup UI without throwing a
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
                         "componentId": "styles__Landscape-hsnn8o-3",
-                        "isStatic": true,
+                        "isStatic": false,
                         "lastClassName": "linvvc",
                         "rules": Array [
                           "width:1000px;max-width:90vw;height:auto;",
@@ -222,7 +217,7 @@ exports[`Component -> Popup should render the closed Popup UI without throwing a
             </div>
           </StyledComponent>
         </styles__Dialog>
-      </div>
+      </section>
     </StyledComponent>
   </styles__Container>
 </Memo()>
@@ -237,12 +232,8 @@ exports[`Component -> Popup should render the loading Popup UI without throwing 
   title="Popup Test"
   url="/about"
 >
-  <styles__Container
-    active={true}
-    loading={true}
-  >
+  <styles__Container>
     <StyledComponent
-      active={true}
       forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
@@ -263,16 +254,15 @@ exports[`Component -> Popup should render the loading Popup UI without throwing 
           "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "styles__Container-hsnn8o-0",
-          "target": "div",
+          "target": "section",
           "toString": [Function],
           "warnTooManyClasses": [Function],
           "withComponent": [Function],
         }
       }
       forwardedRef={null}
-      loading={true}
     >
-      <div
+      <section
         className="styles__Container-hsnn8o-0 jYwInk"
       >
         <styles__Lightbox
@@ -285,7 +275,7 @@ exports[`Component -> Popup should render the loading Popup UI without throwing 
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "styles__Lightbox-hsnn8o-1",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "ksCHkr",
                   "rules": Array [
                     "position:absolute;top:0px;left:0px;width:100%;height:100%;background:",
@@ -320,7 +310,7 @@ exports[`Component -> Popup should render the loading Popup UI without throwing 
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "styles__Dialog-hsnn8o-2",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "gyNTYq",
                   "rules": Array [
                     "position:relative;border:",
@@ -355,7 +345,7 @@ exports[`Component -> Popup should render the loading Popup UI without throwing 
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
                         "componentId": "styles__Close-hsnn8o-5",
-                        "isStatic": true,
+                        "isStatic": false,
                         "lastClassName": "esqoOc",
                         "rules": Array [
                           "position:absolute;top:0px;right:0px;padding:0.5em;color:white;background-color:",
@@ -413,7 +403,7 @@ exports[`Component -> Popup should render the loading Popup UI without throwing 
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
                         "componentId": "styles__Landscape-hsnn8o-3",
-                        "isStatic": true,
+                        "isStatic": false,
                         "lastClassName": "linvvc",
                         "rules": Array [
                           "width:1000px;max-width:90vw;height:auto;",
@@ -450,7 +440,7 @@ exports[`Component -> Popup should render the loading Popup UI without throwing 
             </div>
           </StyledComponent>
         </styles__Dialog>
-      </div>
+      </section>
     </StyledComponent>
   </styles__Container>
 </Memo()>
@@ -465,12 +455,8 @@ exports[`Component -> Popup should render the open Popup UI without throwing an 
   title="Popup Test"
   url="/about"
 >
-  <styles__Container
-    active={true}
-    loading={false}
-  >
+  <styles__Container>
     <StyledComponent
-      active={true}
       forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
@@ -478,7 +464,7 @@ exports[`Component -> Popup should render the open Popup UI without throwing an 
           "componentStyle": ComponentStyle {
             "componentId": "styles__Container-hsnn8o-0",
             "isStatic": false,
-            "lastClassName": "hBnaWl",
+            "lastClassName": "jYwInk",
             "rules": Array [
               "position:fixed;width:100%;height:100%;z-index:",
               [Function],
@@ -491,17 +477,16 @@ exports[`Component -> Popup should render the open Popup UI without throwing an 
           "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "styles__Container-hsnn8o-0",
-          "target": "div",
+          "target": "section",
           "toString": [Function],
           "warnTooManyClasses": [Function],
           "withComponent": [Function],
         }
       }
       forwardedRef={null}
-      loading={false}
     >
-      <div
-        className="styles__Container-hsnn8o-0 hBnaWl"
+      <section
+        className="styles__Container-hsnn8o-0 jYwInk"
       >
         <styles__Lightbox
           onClick={[Function]}
@@ -513,7 +498,7 @@ exports[`Component -> Popup should render the open Popup UI without throwing an 
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "styles__Lightbox-hsnn8o-1",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "ksCHkr",
                   "rules": Array [
                     "position:absolute;top:0px;left:0px;width:100%;height:100%;background:",
@@ -548,7 +533,7 @@ exports[`Component -> Popup should render the open Popup UI without throwing an 
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "styles__Dialog-hsnn8o-2",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "gyNTYq",
                   "rules": Array [
                     "position:relative;border:",
@@ -583,7 +568,7 @@ exports[`Component -> Popup should render the open Popup UI without throwing an 
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
                         "componentId": "styles__Close-hsnn8o-5",
-                        "isStatic": true,
+                        "isStatic": false,
                         "lastClassName": "esqoOc",
                         "rules": Array [
                           "position:absolute;top:0px;right:0px;padding:0.5em;color:white;background-color:",
@@ -641,7 +626,7 @@ exports[`Component -> Popup should render the open Popup UI without throwing an 
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
                         "componentId": "styles__Landscape-hsnn8o-3",
-                        "isStatic": true,
+                        "isStatic": false,
                         "lastClassName": "linvvc",
                         "rules": Array [
                           "width:1000px;max-width:90vw;height:auto;",
@@ -678,7 +663,7 @@ exports[`Component -> Popup should render the open Popup UI without throwing an 
             </div>
           </StyledComponent>
         </styles__Dialog>
-      </div>
+      </section>
     </StyledComponent>
   </styles__Container>
 </Memo()>

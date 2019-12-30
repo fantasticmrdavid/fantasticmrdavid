@@ -7,12 +7,9 @@ import Work from 'views/Work';
 import Contact from 'views/Contact';
 import GlobalStyles from 'styles/global';
 import * as styles from './styles';
+import { ContainerProps, DispatchProps, StateProps } from './types';
 
-export interface Props {
-  location: string,
-  loading: boolean,
-  firstLoad: boolean,
-}
+export type UiProps = ContainerProps & DispatchProps & StateProps;
 
 const {
   Container,
@@ -24,8 +21,8 @@ const {
 } = styles;
 
 export default memo(
-  ({ location, loading, firstLoad }: Props) => {
-    const firstMediaLoading = loading && firstLoad;
+  ({ location, isLoading, isFirstLoad }: UiProps) => {
+    const isFirstMediaLoading = isLoading && isFirstLoad;
     return (
       <>
         <GlobalStyles />
@@ -36,11 +33,13 @@ export default memo(
           </Control>
 
           <Media location={location}>
-            <ShutterTop firstMediaLoading={firstMediaLoading} />
-            <ShutterBottom firstMediaLoading={firstMediaLoading} />
-            <MediaLoadingMessage firstMediaLoading={firstMediaLoading}>Hello!</MediaLoadingMessage>
+            <ShutterTop isFirstMediaLoading={isFirstMediaLoading} />
+            <ShutterBottom isFirstMediaLoading={isFirstMediaLoading} />
+            <MediaLoadingMessage isFirstMediaLoading={isFirstMediaLoading}>
+              Hello!
+            </MediaLoadingMessage>
             { location === 'home' && <Home /> }
-            { location === 'about' && <About loading={loading} /> }
+            { location === 'about' && <About isLoading={isLoading} /> }
             { location === 'work' && <Work /> }
             { location === 'contact' && <Contact /> }
           </Media>

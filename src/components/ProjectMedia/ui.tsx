@@ -1,15 +1,13 @@
 import React, { memo } from 'react';
+import { ContainerProps, StateProps } from './types';
 import Mobile, { Props as MobileProps } from './Mobile';
 import Desktop, { Props as DesktopProps } from './Desktop';
 import Image, { Props as ImageProps } from './Image';
 
-export interface Props {
-  platform: string,
-  type: string,
-}
+type UiProps = ContainerProps & StateProps & MobileProps & ImageProps & DesktopProps;
 
 export default memo(
-  (props: Props & MobileProps & ImageProps & DesktopProps) => {
+  (props: UiProps) => {
     const { type, platform = null } = props;
 
     if (platform === 'mobile') return <Mobile {...props} />;

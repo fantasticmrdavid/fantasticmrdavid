@@ -2,22 +2,14 @@ import { Dispatch } from 'redux';
 import { connect } from 'react-redux';
 import { AppState } from 'reducers';
 import { popupHidden } from './actions';
+import { ContainerProps, StateProps, DispatchProps } from './types';
 import Ui from './ui';
-
-type StateProps = {
-  active: boolean,
-  loading: boolean,
-};
-
-type DispatchProps = {
-  close: () => void;
-};
 
 const mapStateToProps = (state: AppState) => {
   return {
     ...state.popup,
-    active: state.popup.active,
-    loading: state.loading.popup,
+    isActive: state.popup.isActive,
+    isLoading: state.loading.popup,
   };
 };
 
@@ -25,7 +17,7 @@ const mapDispatchToProps = (dispatch: Dispatch<any>) => {
   return { close: () => dispatch(popupHidden()) };
 };
 
-export default connect<StateProps, DispatchProps, {}, AppState>(
+export default connect<StateProps, DispatchProps, ContainerProps, AppState>(
   mapStateToProps,
   mapDispatchToProps,
 )(Ui);

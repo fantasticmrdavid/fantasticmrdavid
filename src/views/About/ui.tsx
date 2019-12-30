@@ -2,10 +2,7 @@ import React, { memo } from 'react';
 import Cube from 'components/Cube';
 import Link from 'components/Link';
 import * as styles from './styles';
-
-interface Props {
-  loading: boolean,
-}
+import { Props } from './types';
 
 const {
   Container,
@@ -18,9 +15,9 @@ const {
 } = styles;
 
 export default memo(
-  ({ loading }: Props) => (
-    <Container loading={loading}>
-      <Bg><Cube loading={loading} /></Bg>
+  ({ isLoading }: Props) => (
+    <Container isLoading={isLoading}>
+      <Bg><Cube isLoading={isLoading} /></Bg>
       <ProfilePhoto src="/assets/images/profile.jpg" alt="Me" />
       <Content>
         <p>

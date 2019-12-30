@@ -7,11 +7,11 @@ interface MediaProps {
 }
 
 interface ShutterProps {
-  firstMediaLoading: boolean,
+  isFirstMediaLoading: boolean,
 }
 
 interface MediaLoadingMessageProps {
-  firstMediaLoading: boolean,
+  isFirstMediaLoading: boolean,
 }
 
 export const Container = styled.div`
@@ -60,7 +60,7 @@ const Shutter = styled.div<ShutterProps>`
   right: 0px;
   z-index: 18;
   width: 100%;
-  height: ${props => (props.firstMediaLoading ? '50%' : '0%')};
+  height: ${props => (props.isFirstMediaLoading ? '50%' : '0%')};
   transition: 0.3s;
   background: ${theme.colorBlack};
 `;
@@ -74,7 +74,7 @@ export const ShutterBottom = styled(Shutter)`
 `;
 
 export const MediaLoadingMessage = styled.div<MediaLoadingMessageProps>`
-  display: ${props => (props.firstMediaLoading ? 'flex' : 'none')};
+  display: ${props => (props.isFirstMediaLoading ? 'flex' : 'none')};
   position: absolute;
   width: 100%;
   height: 100%;

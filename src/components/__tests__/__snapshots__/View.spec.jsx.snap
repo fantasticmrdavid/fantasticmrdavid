@@ -13,20 +13,12 @@ exports[`Component -> View should render the View in first loading state without
     <styles__Media
       location="about"
     >
-      <styles__ShutterTop
-        firstMediaLoading={true}
-      />
-      <styles__ShutterBottom
-        firstMediaLoading={true}
-      />
-      <styles__MediaLoadingMessage
-        firstMediaLoading={true}
-      >
+      <styles__ShutterTop />
+      <styles__ShutterBottom />
+      <styles__MediaLoadingMessage>
         Hello!
       </styles__MediaLoadingMessage>
-      <Memo()
-        loading={true}
-      />
+      <Memo() />
     </styles__Media>
   </styles__Container>
 </Fragment>
@@ -45,20 +37,12 @@ exports[`Component -> View should render the View in loading state without throw
     <styles__Media
       location="about"
     >
-      <styles__ShutterTop
-        firstMediaLoading={false}
-      />
-      <styles__ShutterBottom
-        firstMediaLoading={false}
-      />
-      <styles__MediaLoadingMessage
-        firstMediaLoading={false}
-      >
+      <styles__ShutterTop />
+      <styles__ShutterBottom />
+      <styles__MediaLoadingMessage>
         Hello!
       </styles__MediaLoadingMessage>
-      <Memo()
-        loading={true}
-      />
+      <Memo() />
     </styles__Media>
   </styles__Container>
 </Fragment>
@@ -77,20 +61,12 @@ exports[`Component -> View should render the View without throwing an error 1`] 
     <styles__Media
       location="about"
     >
-      <styles__ShutterTop
-        firstMediaLoading={false}
-      />
-      <styles__ShutterBottom
-        firstMediaLoading={false}
-      />
-      <styles__MediaLoadingMessage
-        firstMediaLoading={false}
-      >
+      <styles__ShutterTop />
+      <styles__ShutterBottom />
+      <styles__MediaLoadingMessage>
         Hello!
       </styles__MediaLoadingMessage>
-      <Memo()
-        loading={false}
-      />
+      <Memo() />
     </styles__Media>
   </styles__Container>
 </Fragment>

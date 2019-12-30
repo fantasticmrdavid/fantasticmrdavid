@@ -21,7 +21,7 @@ exports[`Component -> MenuLink should render the "about" MenuLink UI without thr
           "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "styles__Container-sc-1w8m3j0-0",
-            "isStatic": true,
+            "isStatic": false,
             "lastClassName": "dmrGVg",
             "rules": Array [
               "display:block;position:relative;color:inherit;&.current{transition:0s;}",
@@ -208,7 +208,7 @@ exports[`Component -> MenuLink should render the "contact" MenuLink UI without t
           "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "styles__Container-sc-1w8m3j0-0",
-            "isStatic": true,
+            "isStatic": false,
             "lastClassName": "dmrGVg",
             "rules": Array [
               "display:block;position:relative;color:inherit;&.current{transition:0s;}",
@@ -395,7 +395,7 @@ exports[`Component -> MenuLink should render the "work" MenuLink UI without thro
           "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "styles__Container-sc-1w8m3j0-0",
-            "isStatic": true,
+            "isStatic": false,
             "lastClassName": "dmrGVg",
             "rules": Array [
               "display:block;position:relative;color:inherit;&.current{transition:0s;}",

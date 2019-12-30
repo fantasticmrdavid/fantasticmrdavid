@@ -4,12 +4,9 @@ import Blinker from 'components/Blinker';
 import MenuLink from 'components/MenuLink';
 import menu from './menu';
 import * as styles from './styles';
+import { ContainerProps, DispatchProps, StateProps } from './types';
 
-interface Props {
-  active: boolean,
-  location?: string,
-  toggleActive: (...args: any[]) => any,
-}
+type UiProps = ContainerProps & DispatchProps & StateProps;
 
 const {
   Container,
@@ -22,30 +19,30 @@ const {
 } = styles;
 
 export default memo(
-  ({ active, location, toggleActive }: Props) => {
-    const handleClick = () => toggleActive(active);
+  ({ isActive, location, toggleActive }: UiProps) => {
+    const handleClick = () => toggleActive(isActive);
 
     return (
-      <Container active={active} onClick={handleClick}>
+      <Container isActive={isActive} onClick={handleClick}>
         <Title>Fantastic Mr David</Title>
 
-        <Nav active={active}>
+        <Nav isActive={isActive}>
           { menu.map(item => (
             <MenuLink
               {...item}
-              menuActive={!!active}
+              menuActive={isActive}
               key={`MenuLink_${item.target}`}
               current={location === item.target}
             />
           )) }
         </Nav>
 
-        <Subtitle active={active}>
-          <h2><CogIcon active={active} icon={faCog} />Art + Engineering</h2>
+        <Subtitle isActive={isActive}>
+          <h2><CogIcon isActive={isActive} icon={faCog} />Art + Engineering</h2>
           <Blinker />
         </Subtitle>
 
-        <Cta active={active}>
+        <Cta isActive={isActive}>
           <Icon icon={faAngleDown} />
         </Cta>
       </Container>

@@ -6,22 +6,13 @@ import {
   imagesLoadingStarted,
   imagesLoadingStopped,
 } from './actions';
+import { DispatchProps, StateProps } from './types';
 import Ui from './ui';
-
-type StateProps = {
-  current: string,
-  loading: boolean,
-};
-
-type DispatchProps = {
-  startImagesLoading: () => void,
-  stopLoading: () => void,
-};
 
 const mapStateToProps = (state: AppState) => {
   return {
     current: state.workMedia.location,
-    loading: state.loading.media || state.loading.images,
+    isLoading: state.loading.media || state.loading.images,
   };
 };
 

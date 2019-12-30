@@ -4,12 +4,9 @@ import ImagePreloader from 'components/ImagePreloader';
 import Project from 'components/Project';
 import projects, { Project as ProjectProps } from 'data/projects';
 import * as styles from './styles';
+import { DispatchProps, StateProps } from './types';
 
-interface Props {
-  startImagesLoading: () => void,
-  stopLoading: () => void,
-  loading: boolean,
-}
+type UiProps = DispatchProps & StateProps;
 
 const {
   Container,
@@ -18,8 +15,8 @@ const {
   SpinnerPlaceholder,
 } = styles;
 
-export default class WorkMedia extends PureComponent<Props> {
-  constructor(props: Props) {
+export default class WorkMedia extends PureComponent<UiProps> {
+  constructor(props: UiProps) {
     super(props);
     const { startImagesLoading } = props;
     startImagesLoading();
@@ -41,17 +38,17 @@ export default class WorkMedia extends PureComponent<Props> {
   }
 
   render() {
-    const { loading, stopLoading } = this.props;
+    const { isLoading, stopLoading } = this.props;
     const images = this.getImages();
 
     return (
       <Container>
-        <LoadingContainer loading={loading}>
-          { loading ? <ScopeSpinner /> : <SpinnerPlaceholder /> }
+        <LoadingContainer isLoading={isLoading}>
+          { isLoading ? <ScopeSpinner /> : <SpinnerPlaceholder /> }
           { images.length > 0 && <ImagePreloader images={images} completedAction={stopLoading} /> }
         </LoadingContainer>
 
-        <ProjectListContainer loading={loading}>
+        <ProjectListContainer isLoading={isLoading}>
           {
             projects.map((p: ProjectProps) => <Project {...p} key={`Project_${p.target}`} />)
           }

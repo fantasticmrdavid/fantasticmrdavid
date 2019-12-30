@@ -53,7 +53,7 @@ exports[`Component -> Cube should render the Cube in completed state without thr
 
 exports[`Component -> Cube should render the Cube in loading state without throwing an error 1`] = `
 <div
-  className="styles__Container-sc-1pwogyu-0 irMsJv"
+  className="styles__Container-sc-1pwogyu-0 fkagAV"
 >
   <div
     className="styles__Polygon-sc-1pwogyu-1 dCIqjj"

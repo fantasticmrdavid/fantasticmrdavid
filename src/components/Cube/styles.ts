@@ -8,7 +8,7 @@ const cubeColors = [
 ];
 
 interface ContainerProps {
-  loading: boolean,
+  isLoading: boolean,
 }
 
 const spin = keyframes`
@@ -35,7 +35,7 @@ export const Container = styled.div`
   perspective: 800px;
   perspective-origin: 50% 150px;
   transition: 0.5s;
-  transform: ${css`scale(${(props: ContainerProps) => (props.loading ? 8 : 2)})`};
+  transform: ${css`scale(${(props: ContainerProps) => (props.isLoading ? 8 : 2)})`};
 `;
 
 export const Polygon = styled.div`

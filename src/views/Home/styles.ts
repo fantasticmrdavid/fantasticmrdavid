@@ -4,7 +4,7 @@ import theme from 'styles/theme';
 
 interface ContainerProps {
   imgSrc: string,
-  loading: boolean,
+  isLoading: boolean,
 }
 
 export const Container = styled.div<ContainerProps>`
@@ -15,7 +15,7 @@ export const Container = styled.div<ContainerProps>`
   background-size: cover;
   width: 100%;
   height: 100vh;
-  opacity: ${props => (props.loading ? 0 : 1)};
+  opacity: ${props => (props.isLoading ? 0 : 1)};
   transition: 1s;
   animation: ${css`${fadeIn} 1s ease 1`};
   animation-fill-mode: forwards;

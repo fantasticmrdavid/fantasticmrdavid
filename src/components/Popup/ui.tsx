@@ -1,14 +1,8 @@
 import React, { memo, SyntheticEvent } from 'react';
 import * as styles from './styles';
+import { ContainerProps, StateProps, DispatchProps } from './types';
 
-interface Props {
-  active: boolean,
-  close: (...args: any[]) => any,
-  loading: boolean,
-  orientation: string,
-  title: string,
-  url: string,
-}
+export type UiProps = ContainerProps & StateProps & DispatchProps;
 
 const {
   Container,
@@ -20,11 +14,11 @@ const {
 } = styles;
 
 export default memo(
-  (props: Props) => {
+  (props: UiProps) => {
     const {
-      active,
       close,
-      loading,
+      isActive,
+      isLoading,
       orientation,
       title,
       url,
@@ -38,7 +32,7 @@ export default memo(
     const Image = orientation === 'landscape' ? Landscape : Portrait;
 
     return (
-      <Container loading={loading} active={active}>
+      <Container isLoading={isLoading} isActive={isActive}>
         <Lightbox onClick={handleClose} />
         <Dialog>
           <Close onClick={handleClose}>X</Close>

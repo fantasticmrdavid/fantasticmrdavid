@@ -5,23 +5,23 @@ import { media } from 'styles/utils';
 import IconComponent, { Props as IconComponentProps } from 'components/Icon';
 
 interface ContainerProps {
-  active: boolean,
+  isActive: boolean,
 }
 
 interface CtaProps {
-  active: boolean,
+  isActive: boolean,
 }
 
 interface NavProps {
-  active: boolean,
+  isActive: boolean,
 }
 
 interface SubtitleProps {
-  active: boolean,
+  isActive: boolean,
 }
 
 interface IconProps {
-  active?: boolean,
+  isActive?: boolean,
 }
 
 export const Container = styled.nav<ContainerProps>`
@@ -33,7 +33,7 @@ export const Container = styled.nav<ContainerProps>`
   cursor: pointer;
   min-height: 0px;
   padding: 1.5em 0;
-  padding-bottom: ${props => (props.active ? '0px' : undefined)};
+  padding-bottom: ${props => (props.isActive ? '0px' : undefined)};
 
   ${media.small`
     min-height: 100%;
@@ -52,7 +52,7 @@ export const Title = styled.h1`
 
 export const Cta = styled.a<CtaProps>`
   position: absolute;
-  display: ${props => (props.active ? 'none' : 'flex')};
+  display: ${props => (props.isActive ? 'none' : 'flex')};
   justify-content: center;
   align-items: center;
   top: calc(50% - 25px);
@@ -63,8 +63,8 @@ export const Cta = styled.a<CtaProps>`
   color: ${theme.colorDarkGrey};
   width: 50px;
   height: 50px;
-  z-index: ${props => (props.active ? -1 : 1)};
-  opacity: ${props => (props.active ? 'undefined' : 1)};
+  z-index: ${props => (props.isActive ? -1 : 1)};
+  opacity: ${props => (props.isActive ? 'undefined' : 1)};
   transition: 0.3s;
 
   ${media.small`
@@ -82,18 +82,18 @@ export const Nav = styled.nav<NavProps>`
   flex-wrap: wrap;
   font-size: 1.5rem;
   width: 100%;
-  margin: ${props => (props.active ? '0.5rem 0' : undefined)};
-  max-height: ${props => (props.active ? '1000px' : '0px')};
+  margin: ${props => (props.isActive ? '0.5rem 0' : undefined)};
+  max-height: ${props => (props.isActive ? '1000px' : '0px')};
   transition: 0.5s;
-  opacity: ${props => (props.active ? 1 : 0)};
+  opacity: ${props => (props.isActive ? 1 : 0)};
   overflow: hidden;
   background-color: #444;
-  border-top: ${props => (props.active ? '1px solid #333' : undefined)};
-  border-bottom: ${props => (props.active ? '1px solid #333' : undefined)};
+  border-top: ${props => (props.isActive ? '1px solid #333' : undefined)};
+  border-bottom: ${props => (props.isActive ? '1px solid #333' : undefined)};
 `;
 
 export const Subtitle = styled.div<SubtitleProps>`
-  display: ${props => (props.active ? 'none' : 'flex')};
+  display: ${props => (props.isActive ? 'none' : 'flex')};
   position: relative;
   font-size: 1rem;
   width: 100%;
@@ -105,10 +105,10 @@ export const Subtitle = styled.div<SubtitleProps>`
   `};
 `;
 
-export const Icon = styled(({ active, ...rest }: IconProps & IconComponentProps) => <IconComponent {...rest} />)`
+export const Icon = styled(({ isActive, ...rest }: IconProps & IconComponentProps) => <IconComponent {...rest} />)`
   position: relative;
   transition: 0.6s;
-  transform: ${props => (props.active ? 'rotate(150deg)' : undefined)};
+  transform: ${props => (props.isActive ? 'rotate(150deg)' : undefined)};
 `;
 
 export const CogIcon = styled(Icon)`

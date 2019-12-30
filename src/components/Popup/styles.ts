@@ -4,20 +4,20 @@ import theme from 'styles/theme';
 import { media } from 'styles/utils';
 
 interface ContainerProps {
-  loading: boolean,
-  active: boolean,
+  isLoading: boolean,
+  isActive: boolean,
 }
 
-export const Container = styled.div<ContainerProps>`
+export const Container = styled.section<ContainerProps>`
   position: fixed;
   width: 100%;
   height: 100%;
-  z-index: ${props => (props.loading || !props.active ? -1 : 26)};
+  z-index: ${props => (props.isLoading || !props.isActive ? -1 : 26)};
   display: flex;
   justify-content: center;
   align-items: center;
   transition: 0.5s;
-  opacity: ${props => (props.loading || !props.active ? 0 : 1)};
+  opacity: ${props => (props.isLoading || !props.isActive ? 0 : 1)};
 `;
 
 export const Lightbox = styled.div`

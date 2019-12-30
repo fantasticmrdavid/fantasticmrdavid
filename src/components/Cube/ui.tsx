@@ -1,10 +1,7 @@
 import React, { memo } from 'react';
 import BorderTracer from 'components/BorderTracer';
 import * as styles from './styles';
-
-interface Props {
-  loading: boolean,
-}
+import { Props } from './types';
 
 const {
   Container,
@@ -18,8 +15,8 @@ const {
 } = styles;
 
 export default memo(
-  ({ loading }: Props) => (
-    <Container loading={loading}>
+  ({ isLoading }: Props) => (
+    <Container isLoading={isLoading}>
       <Polygon>
         <Front><BorderTracer direction="left" cycleColor /></Front>
         <Back><BorderTracer cycleColor /></Back>

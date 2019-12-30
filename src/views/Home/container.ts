@@ -3,19 +3,8 @@ import { Dispatch } from 'redux';
 import { AppState } from 'reducers';
 import { HOME_IMAGES } from 'data/homeImages';
 import { homeMediaImageUpdated } from './actions';
+import { DispatchProps, StateProps } from './types';
 import Ui from './ui';
-
-type StateProps = {
-  image: {
-    name: string,
-    src: string,
-  },
-  loading: boolean,
-};
-
-type DispatchProps = {
-  updateImage: () => void,
-};
 
 const mapStateToProps = (state: AppState) => {
   return {

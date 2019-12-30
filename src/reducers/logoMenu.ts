@@ -4,24 +4,24 @@ export const LOGO_MENU_ACTIVATED = 'LOGO_MENU_ACTIVATED';
 export const LOGO_MENU_DEACTIVATED = 'LOGO_MENU_DEACTIVATED';
 
 export interface State {
-  active: boolean,
+  isActive: boolean,
 }
 
 const initialState = {
-  active: false,
+  isActive: false,
 };
 
 const reducers = {
   [LOGO_MENU_ACTIVATED]: (state: State) => {
     return {
       ...state,
-      active: true,
+      isActive: true,
     };
   },
   [LOGO_MENU_DEACTIVATED]: (state: State) => {
     return {
       ...state,
-      active: false,
+      isActive: false,
     };
   },
 };

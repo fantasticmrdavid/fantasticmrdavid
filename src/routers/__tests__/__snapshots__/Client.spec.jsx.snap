@@ -76,12 +76,12 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                 location="home"
               >
                 <Memo()
-                  firstLoad={true}
-                  loading={true}
+                  isFirstLoad={true}
+                  isLoading={true}
                   location="home"
                   popup={
                     Object {
-                      "active": false,
+                      "isActive": false,
                       "popup": undefined,
                       "title": null,
                       "url": null,
@@ -98,7 +98,7 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
                             "componentId": "styles__Container-sc-1jpprl2-0",
-                            "isStatic": true,
+                            "isStatic": false,
                             "lastClassName": "lceywo",
                             "rules": Array [
                               "display:block;justify-content:center;align-items:stretch;min-height:100%;background-color:",
@@ -130,18 +130,17 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                       >
                         <Connect(Component)>
                           <Memo()
-                            active={false}
                             close={[Function]}
-                            loading={false}
+                            isActive={false}
+                            isLoading={false}
                             title={null}
                             url={null}
                           >
                             <styles__Container
-                              active={false}
-                              loading={false}
+                              isActive={false}
+                              isLoading={false}
                             >
                               <StyledComponent
-                                active={false}
                                 forwardedComponent={
                                   Object {
                                     "$$typeof": Symbol(react.forward_ref),
@@ -162,16 +161,17 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                                     "foldedComponentIds": Array [],
                                     "render": [Function],
                                     "styledComponentId": "styles__Container-hsnn8o-0",
-                                    "target": "div",
+                                    "target": "section",
                                     "toString": [Function],
                                     "warnTooManyClasses": [Function],
                                     "withComponent": [Function],
                                   }
                                 }
                                 forwardedRef={null}
-                                loading={false}
+                                isActive={false}
+                                isLoading={false}
                               >
-                                <div
+                                <section
                                   className="styles__Container-hsnn8o-0 jYwInk"
                                 >
                                   <styles__Lightbox
@@ -184,7 +184,7 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                                           "attrs": Array [],
                                           "componentStyle": ComponentStyle {
                                             "componentId": "styles__Lightbox-hsnn8o-1",
-                                            "isStatic": true,
+                                            "isStatic": false,
                                             "lastClassName": "ksCHkr",
                                             "rules": Array [
                                               "position:absolute;top:0px;left:0px;width:100%;height:100%;background:",
@@ -219,7 +219,7 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                                           "attrs": Array [],
                                           "componentStyle": ComponentStyle {
                                             "componentId": "styles__Dialog-hsnn8o-2",
-                                            "isStatic": true,
+                                            "isStatic": false,
                                             "lastClassName": "gyNTYq",
                                             "rules": Array [
                                               "position:relative;border:",
@@ -254,7 +254,7 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                                                 "attrs": Array [],
                                                 "componentStyle": ComponentStyle {
                                                   "componentId": "styles__Close-hsnn8o-5",
-                                                  "isStatic": true,
+                                                  "isStatic": false,
                                                   "lastClassName": "esqoOc",
                                                   "rules": Array [
                                                     "position:absolute;top:0px;right:0px;padding:0.5em;color:white;background-color:",
@@ -303,7 +303,7 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                                       </div>
                                     </StyledComponent>
                                   </styles__Dialog>
-                                </div>
+                                </section>
                               </StyledComponent>
                             </styles__Container>
                           </Memo()>
@@ -316,7 +316,7 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
                                   "componentId": "styles__Control-sc-1jpprl2-1",
-                                  "isStatic": true,
+                                  "isStatic": false,
                                   "lastClassName": "kKksil",
                                   "rules": Array [
                                     "width:100%;display:flex;justify-content:center;align-items:stretch;background:",
@@ -361,16 +361,15 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                                 location="home"
                               >
                                 <Memo()
-                                  active={false}
+                                  isActive={false}
                                   location="home"
                                   toggleActive={[Function]}
                                 >
                                   <styles__Container
-                                    active={false}
+                                    isActive={false}
                                     onClick={[Function]}
                                   >
                                     <StyledComponent
-                                      active={false}
                                       forwardedComponent={
                                         Object {
                                           "$$typeof": Symbol(react.forward_ref),
@@ -407,6 +406,7 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                                         }
                                       }
                                       forwardedRef={null}
+                                      isActive={false}
                                       onClick={[Function]}
                                     >
                                       <nav
@@ -421,7 +421,7 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                                                 "attrs": Array [],
                                                 "componentStyle": ComponentStyle {
                                                   "componentId": "styles__Title-deyoui-1",
-                                                  "isStatic": true,
+                                                  "isStatic": false,
                                                   "lastClassName": "DBYBh",
                                                   "rules": Array [
                                                     "padding:0 4rem 0 2rem;font-size:1.8rem;",
@@ -455,10 +455,9 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                                           </StyledComponent>
                                         </styles__Title>
                                         <styles__Nav
-                                          active={false}
+                                          isActive={false}
                                         >
                                           <StyledComponent
-                                            active={false}
                                             forwardedComponent={
                                               Object {
                                                 "$$typeof": Symbol(react.forward_ref),
@@ -492,6 +491,7 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                                               }
                                             }
                                             forwardedRef={null}
+                                            isActive={false}
                                           >
                                             <nav
                                               className="styles__Nav-deyoui-3 eXYOcG"
@@ -561,7 +561,7 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                                                             "attrs": Array [],
                                                             "componentStyle": ComponentStyle {
                                                               "componentId": "styles__Container-sc-1w8m3j0-0",
-                                                              "isStatic": true,
+                                                              "isStatic": false,
                                                               "lastClassName": "dmrGVg",
                                                               "rules": Array [
                                                                 "display:block;position:relative;color:inherit;&.current{transition:0s;}",
@@ -792,7 +792,7 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                                                             "attrs": Array [],
                                                             "componentStyle": ComponentStyle {
                                                               "componentId": "styles__Container-sc-1w8m3j0-0",
-                                                              "isStatic": true,
+                                                              "isStatic": false,
                                                               "lastClassName": "dmrGVg",
                                                               "rules": Array [
                                                                 "display:block;position:relative;color:inherit;&.current{transition:0s;}",
@@ -1023,7 +1023,7 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                                                             "attrs": Array [],
                                                             "componentStyle": ComponentStyle {
                                                               "componentId": "styles__Container-sc-1w8m3j0-0",
-                                                              "isStatic": true,
+                                                              "isStatic": false,
                                                               "lastClassName": "dmrGVg",
                                                               "rules": Array [
                                                                 "display:block;position:relative;color:inherit;&.current{transition:0s;}",
@@ -1193,10 +1193,9 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                                           </StyledComponent>
                                         </styles__Nav>
                                         <styles__Subtitle
-                                          active={false}
+                                          isActive={false}
                                         >
                                           <StyledComponent
-                                            active={false}
                                             forwardedComponent={
                                               Object {
                                                 "$$typeof": Symbol(react.forward_ref),
@@ -1230,13 +1229,13 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                                               }
                                             }
                                             forwardedRef={null}
+                                            isActive={false}
                                           >
                                             <div
                                               className="styles__Subtitle-deyoui-4 liXseV"
                                             >
                                               <h2>
                                                 <styles__CogIcon
-                                                  active={false}
                                                   icon={
                                                     Object {
                                                       "icon": Array [
@@ -1250,9 +1249,9 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                                                       "prefix": "fas",
                                                     }
                                                   }
+                                                  isActive={false}
                                                 >
                                                   <StyledComponent
-                                                    active={false}
                                                     forwardedComponent={
                                                       Object {
                                                         "$$typeof": Symbol(react.forward_ref),
@@ -1294,9 +1293,9 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                                                         "prefix": "fas",
                                                       }
                                                     }
+                                                    isActive={false}
                                                   >
                                                     <Component
-                                                      active={false}
                                                       className="styles__Icon-deyoui-5 styles__CogIcon-deyoui-6 hwIDmi"
                                                       icon={
                                                         Object {
@@ -1311,6 +1310,7 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                                                           "prefix": "fas",
                                                         }
                                                       }
+                                                      isActive={false}
                                                     >
                                                       <Memo()
                                                         className="styles__Icon-deyoui-5 styles__CogIcon-deyoui-6 hwIDmi"
@@ -1390,7 +1390,7 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                                                         "attrs": Array [],
                                                         "componentStyle": ComponentStyle {
                                                           "componentId": "styles__Cursor-cbfjlf-0",
-                                                          "isStatic": true,
+                                                          "isStatic": false,
                                                           "lastClassName": "kPyiRo",
                                                           "rules": Array [
                                                             "position:relative;display:inline-block;width:0.5rem;margin-left:0.15rem;animation:",
@@ -1432,10 +1432,9 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                                           </StyledComponent>
                                         </styles__Subtitle>
                                         <styles__Cta
-                                          active={false}
+                                          isActive={false}
                                         >
                                           <StyledComponent
-                                            active={false}
                                             forwardedComponent={
                                               Object {
                                                 "$$typeof": Symbol(react.forward_ref),
@@ -1487,6 +1486,7 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                                               }
                                             }
                                             forwardedRef={null}
+                                            isActive={false}
                                           >
                                             <a
                                               className="styles__Cta-deyoui-2 eUKTAC"
@@ -1682,10 +1682,9 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                               className="styles__Media-sc-1jpprl2-2 fuwkzu"
                             >
                               <styles__ShutterTop
-                                firstMediaLoading={true}
+                                isFirstMediaLoading={true}
                               >
                                 <StyledComponent
-                                  firstMediaLoading={true}
                                   forwardedComponent={
                                     Object {
                                       "$$typeof": Symbol(react.forward_ref),
@@ -1716,6 +1715,7 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                                     }
                                   }
                                   forwardedRef={null}
+                                  isFirstMediaLoading={true}
                                 >
                                   <div
                                     className="styles__Shutter-sc-1jpprl2-3 styles__ShutterTop-sc-1jpprl2-4 gzWzVm"
@@ -1723,10 +1723,9 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                                 </StyledComponent>
                               </styles__ShutterTop>
                               <styles__ShutterBottom
-                                firstMediaLoading={true}
+                                isFirstMediaLoading={true}
                               >
                                 <StyledComponent
-                                  firstMediaLoading={true}
                                   forwardedComponent={
                                     Object {
                                       "$$typeof": Symbol(react.forward_ref),
@@ -1757,6 +1756,7 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                                     }
                                   }
                                   forwardedRef={null}
+                                  isFirstMediaLoading={true}
                                 >
                                   <div
                                     className="styles__Shutter-sc-1jpprl2-3 styles__ShutterBottom-sc-1jpprl2-5 hOzyRd"
@@ -1764,10 +1764,9 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                                 </StyledComponent>
                               </styles__ShutterBottom>
                               <styles__MediaLoadingMessage
-                                firstMediaLoading={true}
+                                isFirstMediaLoading={true}
                               >
                                 <StyledComponent
-                                  firstMediaLoading={true}
                                   forwardedComponent={
                                     Object {
                                       "$$typeof": Symbol(react.forward_ref),
@@ -1797,6 +1796,7 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                                     }
                                   }
                                   forwardedRef={null}
+                                  isFirstMediaLoading={true}
                                 >
                                   <div
                                     className="styles__MediaLoadingMessage-sc-1jpprl2-6 eQocly"
@@ -1818,7 +1818,6 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                                 >
                                   <styles__Container
                                     imgSrc="/assets/images/legoFlinders.jpg"
-                                    loading={true}
                                   >
                                     <StyledComponent
                                       forwardedComponent={
@@ -1828,7 +1827,7 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                                           "componentStyle": ComponentStyle {
                                             "componentId": "styles__Container-sc-19v7chj-0",
                                             "isStatic": false,
-                                            "lastClassName": "jJzRKo",
+                                            "lastClassName": "iavDSv",
                                             "rules": Array [
                                               "background-image:",
                                               [Function],
@@ -1863,10 +1862,9 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                                       }
                                       forwardedRef={null}
                                       imgSrc="/assets/images/legoFlinders.jpg"
-                                      loading={true}
                                     >
                                       <div
-                                        className="styles__Container-sc-19v7chj-0 jJzRKo"
+                                        className="styles__Container-sc-19v7chj-0 iavDSv"
                                       />
                                     </StyledComponent>
                                   </styles__Container>

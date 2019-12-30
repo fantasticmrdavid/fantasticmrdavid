@@ -1,21 +1,15 @@
 import React, { memo } from 'react';
 import * as styles from './styles';
+import { DispatchProps, StateProps } from './types';
 
-interface Props {
-  image: {
-    name: string,
-    src: string,
-  },
-  loading: boolean,
-  updateImage: () => void,
-}
+type UiProps = DispatchProps & StateProps;
 
 const { Container } = styles;
 
 export default memo(
-  (props: Props) => {
-    const { loading, image, updateImage } = props;
+  (props: UiProps) => {
+    const { isLoading, image, updateImage } = props;
     updateImage();
-    return <Container loading={loading} imgSrc={image.src} />;
+    return <Container isLoading={isLoading} imgSrc={image.src} />;
   },
 );

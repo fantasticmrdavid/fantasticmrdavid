@@ -3,35 +3,21 @@ import { connect } from 'react-redux';
 import ReactGA from 'react-ga';
 import { AppState } from 'reducers';
 import { locationUpdated } from './actions';
-import Ui, { Props as UiProps } from './ui';
-
-type StateProps = {
-  location: string,
-  loading: boolean,
-  firstLoad: boolean,
-  popup: any,
-};
-
-type DispatchProps = {
-  updateLocation: (newLocation: string) => void,
-};
-
-type ContainerProps = {
-  location?: string,
-};
+import { ContainerProps, DispatchProps, StateProps } from './types';
+import Ui from './ui';
 
 const mapStateToProps = (state: AppState, ownProps: ContainerProps) => {
   const { loading, popup } = state;
   const { location } = ownProps;
   return {
     location: state.location.current || location,
-    loading: loading.media,
-    firstLoad: loading.firstLoad,
+    isLoading: loading.media,
+    isFirstLoad: loading.firstLoad,
     popup,
   };
 };
 
-const mapDispatchToProps = (dispatch: Dispatch<any>, ownProps: UiProps) => {
+const mapDispatchToProps = (dispatch: Dispatch<any>, ownProps: ContainerProps) => {
   return {
     updateLocation: (newLocation: string) => {
       const { location } = ownProps;

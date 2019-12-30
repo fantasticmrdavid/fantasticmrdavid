@@ -18,11 +18,11 @@ const cycleColors = keyframes`
 `;
 
 interface LoadingContainerProps {
-  loading: boolean,
+  isLoading: boolean,
 }
 
 interface ProjectListContainerProps {
-  loading: boolean,
+  isLoading: boolean,
 }
 
 export const Container = styled.div`
@@ -57,11 +57,11 @@ export const LoadingContainer = styled.div<LoadingContainerProps>`
   top: 0px;
   left: 0px;
   background: ${transparentize(0.75, theme.colorBlack)};
-  opacity: ${props => (props.loading ? 1 : 0)};
+  opacity: ${props => (props.isLoading ? 1 : 0)};
   transition: 1s;
   height: 100%;
   min-height: 100%;
-  max-height: ${props => (props.loading ? '0px' : undefined)};
+  max-height: ${props => (props.isLoading ? '0px' : undefined)};
   width: 100%;
 `;
 
@@ -78,5 +78,5 @@ export const ProjectListContainer = styled.div<ProjectListContainerProps>`
   width: 100%;
   min-height: 100%;
   transition: 1s;
-  opacity: ${props => (props.loading ? 0 : 1)};
+  opacity: ${props => (props.isLoading ? 0 : 1)};
 `;

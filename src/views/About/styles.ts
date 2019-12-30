@@ -6,7 +6,7 @@ import { media } from 'styles/utils';
 import ComponentLink from 'components/Link';
 
 interface ContainerProps {
-  loading: boolean,
+  isLoading: boolean,
 }
 
 export const Container = styled.div<ContainerProps>`
@@ -19,7 +19,7 @@ export const Container = styled.div<ContainerProps>`
   padding: 2em;
   background-color: ${theme.colorDarkCharcoal};
   color: ${theme.colorTextPrimary};
-  opacity: ${props => (props.loading ? 0 : 1)};
+  opacity: ${props => (props.isLoading ? 0 : 1)};
   transition: 1s;
   animation: ${css`${fadeIn} 1s ease 1`};
   animation-fill-mode: forwards;

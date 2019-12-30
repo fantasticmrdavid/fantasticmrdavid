@@ -4,14 +4,14 @@ export const POPUP_SHOWED = 'POPUP_SHOWED';
 export const POPUP_HIDDEN = 'POPUP_HIDDEN';
 
 export interface State {
+  isActive: boolean,
   popup: any,
-  active: boolean,
   title: string,
   url: string,
 }
 
 const initialState = {
-  active: false,
+  isActive: false,
   popup: undefined,
   title: null,
   url: null,
@@ -22,7 +22,7 @@ const reducers = {
     return {
       ...state,
       ...action.popup,
-      active: true,
+      isActive: true,
     };
   },
   [POPUP_HIDDEN]: (state: State) => {
@@ -30,7 +30,7 @@ const reducers = {
       ...state,
       title: undefined,
       url: undefined,
-      active: false,
+      isActive: false,
     };
   },
 };

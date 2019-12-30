@@ -16,7 +16,7 @@ exports[`Component -> TerminalText should render the TerminalText with a compone
             "attrs": Array [],
             "componentStyle": ComponentStyle {
               "componentId": "styles__Cursor-cbfjlf-0",
-              "isStatic": true,
+              "isStatic": false,
               "lastClassName": "kPyiRo",
               "rules": Array [
                 "position:relative;display:inline-block;width:0.5rem;margin-left:0.15rem;animation:",
@@ -73,7 +73,7 @@ exports[`Component -> TerminalText should render the TerminalText with a string 
             "attrs": Array [],
             "componentStyle": ComponentStyle {
               "componentId": "styles__Cursor-cbfjlf-0",
-              "isStatic": true,
+              "isStatic": false,
               "lastClassName": "kPyiRo",
               "rules": Array [
                 "position:relative;display:inline-block;width:0.5rem;margin-left:0.15rem;animation:",

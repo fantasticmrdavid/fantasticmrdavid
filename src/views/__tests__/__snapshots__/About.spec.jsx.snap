@@ -4,9 +4,7 @@ exports[`View -> About should render the About view (loading) without throwing a
 <Memo()
   loading={true}
 >
-  <styles__Container
-    loading={true}
-  >
+  <styles__Container>
     <StyledComponent
       forwardedComponent={
         Object {
@@ -15,7 +13,7 @@ exports[`View -> About should render the About view (loading) without throwing a
           "componentStyle": ComponentStyle {
             "componentId": "styles__Container-qm8p7s-0",
             "isStatic": false,
-            "lastClassName": "nccxK",
+            "lastClassName": "jdYUFF",
             "rules": Array [
               "display:flex;flex-direction:column;align-items:center;justify-content:center;box-sizing:border-box;min-height:100%;padding:2em;background-color:",
               "#111",
@@ -58,10 +56,9 @@ exports[`View -> About should render the About view (loading) without throwing a
         }
       }
       forwardedRef={null}
-      loading={true}
     >
       <div
-        className="styles__Container-qm8p7s-0 nccxK"
+        className="styles__Container-qm8p7s-0 jdYUFF"
       >
         <styles__Bg>
           <StyledComponent
@@ -71,7 +68,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "styles__Bg-qm8p7s-1",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "fxwiUF",
                   "rules": Array [
                     "position:absolute;top:0px;right:0px;width:100%;height:100%;overflow:hidden;",
@@ -92,12 +89,8 @@ exports[`View -> About should render the About view (loading) without throwing a
             <div
               className="styles__Bg-qm8p7s-1 fxwiUF"
             >
-              <Memo()
-                loading={true}
-              >
-                <styles__Container
-                  loading={true}
-                >
+              <Memo()>
+                <styles__Container>
                   <StyledComponent
                     forwardedComponent={
                       Object {
@@ -106,7 +99,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                         "componentStyle": ComponentStyle {
                           "componentId": "styles__Container-sc-1pwogyu-0",
                           "isStatic": false,
-                          "lastClassName": "irMsJv",
+                          "lastClassName": "fkagAV",
                           "rules": Array [
                             "position:absolute;bottom:0px;right:0px;perspective:800px;perspective-origin:50% 150px;transition:0.5s;transform:",
                             "scale(",
@@ -126,10 +119,9 @@ exports[`View -> About should render the About view (loading) without throwing a
                       }
                     }
                     forwardedRef={null}
-                    loading={true}
                   >
                     <div
-                      className="styles__Container-sc-1pwogyu-0 irMsJv"
+                      className="styles__Container-sc-1pwogyu-0 fkagAV"
                     >
                       <styles__Polygon>
                         <StyledComponent
@@ -139,7 +131,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                               "attrs": Array [],
                               "componentStyle": ComponentStyle {
                                 "componentId": "styles__Polygon-sc-1pwogyu-1",
-                                "isStatic": true,
+                                "isStatic": false,
                                 "lastClassName": "dCIqjj",
                                 "rules": Array [
                                   "position:absolute;bottom:225px;right:-100px;width:300px;transform-style:preserve-3d;animation:",
@@ -180,7 +172,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                                     "attrs": Array [],
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Front-sc-1pwogyu-8",
-                                      "isStatic": true,
+                                      "isStatic": false,
                                       "lastClassName": "deBIOm",
                                       "rules": Array [
                                         "position:absolute;width:300px;height:300px;animation:",
@@ -271,7 +263,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                                     "attrs": Array [],
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Back-sc-1pwogyu-3",
-                                      "isStatic": true,
+                                      "isStatic": false,
                                       "lastClassName": "gCcrQb",
                                       "rules": Array [
                                         "position:absolute;width:300px;height:300px;animation:",
@@ -358,7 +350,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                                     "attrs": Array [],
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Top-sc-1pwogyu-6",
-                                      "isStatic": true,
+                                      "isStatic": false,
                                       "lastClassName": "eLxrDv",
                                       "rules": Array [
                                         "position:absolute;width:300px;height:300px;animation:",
@@ -404,7 +396,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                                     "attrs": Array [],
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Bottom-sc-1pwogyu-7",
-                                      "isStatic": true,
+                                      "isStatic": false,
                                       "lastClassName": "cpagcj",
                                       "rules": Array [
                                         "position:absolute;width:300px;height:300px;animation:",
@@ -491,7 +483,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                                     "attrs": Array [],
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Left-sc-1pwogyu-5",
-                                      "isStatic": true,
+                                      "isStatic": false,
                                       "lastClassName": "iDSTJS",
                                       "rules": Array [
                                         "position:absolute;width:300px;height:300px;animation:",
@@ -582,7 +574,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                                     "attrs": Array [],
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Right-sc-1pwogyu-4",
-                                      "isStatic": true,
+                                      "isStatic": false,
                                       "lastClassName": "fTRfub",
                                       "rules": Array [
                                         "position:absolute;width:300px;height:300px;animation:",
@@ -683,7 +675,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "styles__ProfilePhoto-qm8p7s-2",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "bobYfB",
                   "rules": Array [
                     "width:100px;height:auto;margin-bottom:1em;z-index:1;",
@@ -725,7 +717,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "styles__Content-qm8p7s-3",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "dDnc",
                   "rules": Array [
                     "flex:1;font-size:0.9rem;font-weight:300;line-height:1.3;max-width:100%;padding-right:0px;z-index:1;",
@@ -790,7 +782,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                         "compare": null,
                         "componentStyle": ComponentStyle {
                           "componentId": "styles__SleeperLink-qm8p7s-6",
-                          "isStatic": true,
+                          "isStatic": false,
                           "lastClassName": "djGoPX",
                           "rules": Array [
                             "color:",
@@ -849,7 +841,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                               "attrs": Array [],
                               "componentStyle": ComponentStyle {
                                 "componentId": "styles__Link-sc-1rd8ebj-0",
-                                "isStatic": true,
+                                "isStatic": false,
                                 "lastClassName": "jONwCq",
                                 "rules": Array [
                                   "color:",
@@ -885,7 +877,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                           target="_blank"
                         >
                           <a
-                            className="styles__SleeperLink-qm8p7s-6 djGoPX styles__Link-sc-1rd8ebj-0 jONwCq"
+                            className="styles__Link-sc-1rd8ebj-0 jONwCq styles__SleeperLink-qm8p7s-6 djGoPX"
                             href="https://www.youtube.com/watch?v=7xk4LmZ6hwc"
                             rel="noopener noreferrer"
                             target="_blank"
@@ -911,7 +903,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
                         "componentId": "styles__SiteSpecs-qm8p7s-4",
-                        "isStatic": true,
+                        "isStatic": false,
                         "lastClassName": "kvjtmC",
                         "rules": Array [
                           "display:grid;grid-template-columns:1fr 1fr;",
@@ -947,7 +939,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                             "attrs": Array [],
                             "componentStyle": ComponentStyle {
                               "componentId": "styles__SpecsSection-qm8p7s-5",
-                              "isStatic": true,
+                              "isStatic": false,
                               "lastClassName": "leMdoy",
                               "rules": Array [
                                 "padding:1em 0;h3{color:",
@@ -995,7 +987,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                             "attrs": Array [],
                             "componentStyle": ComponentStyle {
                               "componentId": "styles__SpecsSection-qm8p7s-5",
-                              "isStatic": true,
+                              "isStatic": false,
                               "lastClassName": "leMdoy",
                               "rules": Array [
                                 "padding:1em 0;h3{color:",
@@ -1043,7 +1035,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                             "attrs": Array [],
                             "componentStyle": ComponentStyle {
                               "componentId": "styles__SpecsSection-qm8p7s-5",
-                              "isStatic": true,
+                              "isStatic": false,
                               "lastClassName": "leMdoy",
                               "rules": Array [
                                 "padding:1em 0;h3{color:",
@@ -1094,7 +1086,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                             "attrs": Array [],
                             "componentStyle": ComponentStyle {
                               "componentId": "styles__SpecsSection-qm8p7s-5",
-                              "isStatic": true,
+                              "isStatic": false,
                               "lastClassName": "leMdoy",
                               "rules": Array [
                                 "padding:1em 0;h3{color:",
@@ -1157,7 +1149,7 @@ exports[`View -> About should render the About view (loading) without throwing a
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
                           "componentId": "styles__Link-sc-1rd8ebj-0",
-                          "isStatic": true,
+                          "isStatic": false,
                           "lastClassName": "jONwCq",
                           "rules": Array [
                             "color:",
@@ -1278,7 +1270,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "styles__Bg-qm8p7s-1",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "fxwiUF",
                   "rules": Array [
                     "position:absolute;top:0px;right:0px;width:100%;height:100%;overflow:hidden;",
@@ -1341,7 +1333,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                               "attrs": Array [],
                               "componentStyle": ComponentStyle {
                                 "componentId": "styles__Polygon-sc-1pwogyu-1",
-                                "isStatic": true,
+                                "isStatic": false,
                                 "lastClassName": "dCIqjj",
                                 "rules": Array [
                                   "position:absolute;bottom:225px;right:-100px;width:300px;transform-style:preserve-3d;animation:",
@@ -1382,7 +1374,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                                     "attrs": Array [],
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Front-sc-1pwogyu-8",
-                                      "isStatic": true,
+                                      "isStatic": false,
                                       "lastClassName": "deBIOm",
                                       "rules": Array [
                                         "position:absolute;width:300px;height:300px;animation:",
@@ -1473,7 +1465,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                                     "attrs": Array [],
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Back-sc-1pwogyu-3",
-                                      "isStatic": true,
+                                      "isStatic": false,
                                       "lastClassName": "gCcrQb",
                                       "rules": Array [
                                         "position:absolute;width:300px;height:300px;animation:",
@@ -1560,7 +1552,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                                     "attrs": Array [],
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Top-sc-1pwogyu-6",
-                                      "isStatic": true,
+                                      "isStatic": false,
                                       "lastClassName": "eLxrDv",
                                       "rules": Array [
                                         "position:absolute;width:300px;height:300px;animation:",
@@ -1606,7 +1598,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                                     "attrs": Array [],
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Bottom-sc-1pwogyu-7",
-                                      "isStatic": true,
+                                      "isStatic": false,
                                       "lastClassName": "cpagcj",
                                       "rules": Array [
                                         "position:absolute;width:300px;height:300px;animation:",
@@ -1693,7 +1685,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                                     "attrs": Array [],
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Left-sc-1pwogyu-5",
-                                      "isStatic": true,
+                                      "isStatic": false,
                                       "lastClassName": "iDSTJS",
                                       "rules": Array [
                                         "position:absolute;width:300px;height:300px;animation:",
@@ -1784,7 +1776,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                                     "attrs": Array [],
                                     "componentStyle": ComponentStyle {
                                       "componentId": "styles__Right-sc-1pwogyu-4",
-                                      "isStatic": true,
+                                      "isStatic": false,
                                       "lastClassName": "fTRfub",
                                       "rules": Array [
                                         "position:absolute;width:300px;height:300px;animation:",
@@ -1885,7 +1877,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "styles__ProfilePhoto-qm8p7s-2",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "bobYfB",
                   "rules": Array [
                     "width:100px;height:auto;margin-bottom:1em;z-index:1;",
@@ -1927,7 +1919,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "styles__Content-qm8p7s-3",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "dDnc",
                   "rules": Array [
                     "flex:1;font-size:0.9rem;font-weight:300;line-height:1.3;max-width:100%;padding-right:0px;z-index:1;",
@@ -1992,7 +1984,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                         "compare": null,
                         "componentStyle": ComponentStyle {
                           "componentId": "styles__SleeperLink-qm8p7s-6",
-                          "isStatic": true,
+                          "isStatic": false,
                           "lastClassName": "djGoPX",
                           "rules": Array [
                             "color:",
@@ -2051,7 +2043,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                               "attrs": Array [],
                               "componentStyle": ComponentStyle {
                                 "componentId": "styles__Link-sc-1rd8ebj-0",
-                                "isStatic": true,
+                                "isStatic": false,
                                 "lastClassName": "jONwCq",
                                 "rules": Array [
                                   "color:",
@@ -2087,7 +2079,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                           target="_blank"
                         >
                           <a
-                            className="styles__SleeperLink-qm8p7s-6 djGoPX styles__Link-sc-1rd8ebj-0 jONwCq"
+                            className="styles__Link-sc-1rd8ebj-0 jONwCq styles__SleeperLink-qm8p7s-6 djGoPX"
                             href="https://www.youtube.com/watch?v=7xk4LmZ6hwc"
                             rel="noopener noreferrer"
                             target="_blank"
@@ -2113,7 +2105,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
                         "componentId": "styles__SiteSpecs-qm8p7s-4",
-                        "isStatic": true,
+                        "isStatic": false,
                         "lastClassName": "kvjtmC",
                         "rules": Array [
                           "display:grid;grid-template-columns:1fr 1fr;",
@@ -2149,7 +2141,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                             "attrs": Array [],
                             "componentStyle": ComponentStyle {
                               "componentId": "styles__SpecsSection-qm8p7s-5",
-                              "isStatic": true,
+                              "isStatic": false,
                               "lastClassName": "leMdoy",
                               "rules": Array [
                                 "padding:1em 0;h3{color:",
@@ -2197,7 +2189,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                             "attrs": Array [],
                             "componentStyle": ComponentStyle {
                               "componentId": "styles__SpecsSection-qm8p7s-5",
-                              "isStatic": true,
+                              "isStatic": false,
                               "lastClassName": "leMdoy",
                               "rules": Array [
                                 "padding:1em 0;h3{color:",
@@ -2245,7 +2237,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                             "attrs": Array [],
                             "componentStyle": ComponentStyle {
                               "componentId": "styles__SpecsSection-qm8p7s-5",
-                              "isStatic": true,
+                              "isStatic": false,
                               "lastClassName": "leMdoy",
                               "rules": Array [
                                 "padding:1em 0;h3{color:",
@@ -2296,7 +2288,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                             "attrs": Array [],
                             "componentStyle": ComponentStyle {
                               "componentId": "styles__SpecsSection-qm8p7s-5",
-                              "isStatic": true,
+                              "isStatic": false,
                               "lastClassName": "leMdoy",
                               "rules": Array [
                                 "padding:1em 0;h3{color:",
@@ -2359,7 +2351,7 @@ exports[`View -> About should render the About view (not loading) without throwi
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
                           "componentId": "styles__Link-sc-1rd8ebj-0",
-                          "isStatic": true,
+                          "isStatic": false,
                           "lastClassName": "jONwCq",
                           "rules": Array [
                             "color:",

@@ -10,13 +10,29 @@ exports[`Component -> ScopeSpinner should render the ScopeSpinner without throwi
     speed={2.5}
   >
     <div
-      className="styles__Mask-sc-1pex0aj-2 YWAdm"
+      className="styles__Mask-sc-1pex0aj-2 dWYhSt"
       speed={2.5}
     >
       <div
         className="styles__Ring-sc-1pex0aj-1 hZttlr"
         size={210}
         strokeWidth={12}
+      />
+    </div>
+  </div>
+  <div
+    className="styles__Container-sc-1pex0aj-0 hykPiK"
+    size={210}
+    speed={2.5}
+  >
+    <div
+      className="styles__Mask-sc-1pex0aj-2 bwTfge"
+      speed={2.5}
+    >
+      <div
+        className="styles__Ring-sc-1pex0aj-1 KuWKj"
+        size={210}
+        strokeWidth={2}
       />
     </div>
   </div>
