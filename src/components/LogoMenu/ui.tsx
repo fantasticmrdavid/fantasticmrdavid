@@ -27,7 +27,7 @@ export default memo(
         <Title>Fantastic Mr David</Title>
 
         <Nav isActive={isActive}>
-          { menu.map(item => (
+          { menu.map((item) => (
             <MenuLink
               {...item}
               menuActive={isActive}

@@ -75,7 +75,7 @@ export default memo(
         }
         <MediaWrapper>
           {
-            !!media && media.map(m => (
+            !!media && media.map((m) => (
               <ProjectMedia {...m} noSiblings={media.length === 1} key={`ProjectMedia_${m.slug}`} />
             ))
           }

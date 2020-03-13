@@ -50,18 +50,18 @@ type TickProps = {
 export const Container = styled.div<ContainerProps>`
   position: absolute;
   box-sizing: border-box;
-  top: ${props => `calc(50% - ${props.size / 2}px)`};
-  left: ${props => `calc(50% - ${props.size / 2}px)`};
-  width: ${props => `${props.size}px`};
-  height: ${props => `${props.size}px`};
-  animation: ${props => css`${containerCycle(props.maxScale, props.rotateDirection)} ${props.speed * 2}s normal infinite`};
+  top: ${(props) => `calc(50% - ${props.size / 2}px)`};
+  left: ${(props) => `calc(50% - ${props.size / 2}px)`};
+  width: ${(props) => `${props.size}px`};
+  height: ${(props) => `${props.size}px`};
+  animation: ${(props) => css`${containerCycle(props.maxScale, props.rotateDirection)} ${props.speed * 2}s normal infinite`};
 `;
 
 export const Ring = styled.div<RingProps>`
   position: absolute;
   box-sizing: border-box;
-  width: ${props => `${props.size}px`};
-  height: ${props => `${props.size}px`};
+  width: ${(props) => `${props.size}px`};
+  height: ${(props) => `${props.size}px`};
 `;
 
 export const Mask = styled.div<MaskProps>`
@@ -70,7 +70,7 @@ export const Mask = styled.div<MaskProps>`
   height: 100%;
   width: 50%;
   overflow: hidden;
-  animation: ${props => css`${resizeCycle(props.minSlice, props.maxSlice)} ${props.speed}s normal infinite`};
+  animation: ${(props) => css`${resizeCycle(props.minSlice, props.maxSlice)} ${props.speed}s normal infinite`};
 `;
 
 export const Tick = styled.div<TickProps>`
@@ -80,5 +80,5 @@ export const Tick = styled.div<TickProps>`
   left: calc(50% - 1px);
   font-size: 0.6rem;
   color: ${theme.colorWhite};
-  transform: ${props => `rotateZ(-${props.number * (360 / props.totalSlices)}deg)`};
+  transform: ${(props) => `rotateZ(-${props.number * (360 / props.totalSlices)}deg)`};
 `;

@@ -10,6 +10,7 @@
             "experimentalObjectRestSpread": true,
             "jsx": true
         },
+        "project": "./tsconfig.json",
         "sourceType": "module"
     },
     "plugins": [

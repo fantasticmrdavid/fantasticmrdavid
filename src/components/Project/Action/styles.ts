@@ -20,7 +20,7 @@ export const Background = styled.div<BackgroundProps>`
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: ${props => `url(${props.src})`};
+  background-image: ${(props) => `url(${props.src})`};
   background-position: center center;
   background-size: cover;
   opacity: 0.3;
@@ -39,7 +39,7 @@ export const Gradient = styled.div<GradientProps>`
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: ${props => `linear-gradient(to ${props.type === 'next' ? 'right' : 'left'},
+  background-image: ${(props) => `linear-gradient(to ${props.type === 'next' ? 'right' : 'left'},
     rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)
   )`};
   opacity: 0;
@@ -67,7 +67,7 @@ export const Container = styled.div<ContainerProps>`
   display: flex;
   height: 65px;
   align-items: center;
-  justify-content: ${props => (props.type === 'back' ? 'flex-start' : 'flex-end')};
+  justify-content: ${(props) => (props.type === 'back' ? 'flex-start' : 'flex-end')};
   flex: 1;
   cursor: pointer;
   transition: 0.3s;

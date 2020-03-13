@@ -12,6 +12,6 @@ export const Container = styled.div<ContainerProps>`
   font-weight: 700;
   color: ${theme.colorWhite};
   text-align: center;
-  animation: ${props => (props.completed ? css`${confirmReset} 1s normal linear` : undefined)};
+  animation: ${(props) => (props.completed ? css`${confirmReset} 1s normal linear` : undefined)};
   animation-fill-mode: forwards;
 `;
