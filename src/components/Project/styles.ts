@@ -34,10 +34,10 @@ export const Container = styled.div<ContainerProps>`
   display: flex;
   flex: 1;
   perspective: 1200px;
-  overflow: ${props => (props.otherCurrent ? 'hidden' : undefined)};
+  overflow: ${(props) => (props.otherCurrent ? 'hidden' : undefined)};
   width: 100%;
-  height: ${props => (props.current ? '100%' : undefined)};
-  max-height: ${props => {
+  height: ${(props) => (props.current ? '100%' : undefined)};
+  max-height: ${(props) => {
     const { current, otherCurrent } = props;
     if (otherCurrent) return '0px';
     if (current) return 'none';
@@ -49,11 +49,11 @@ export const Tile = styled.a<TileProps>`
   position: absolute;
   box-sizing: border-box;
   width: 100%;
-  height: ${props => (props.current ? '4rem' : '100%')};
+  height: ${(props) => (props.current ? '4rem' : '100%')};
   top: 0px;
-  right: ${props => (props.current ? '0px' : '-20px')};
+  right: ${(props) => (props.current ? '0px' : '-20px')};
   background-color: ${theme.colorCharcoal};
-  background-position-y: ${props => {
+  background-position-y: ${(props) => {
     const { current, target } = props;
     if (current) {
       if (target === 'sitepoint') return 'top';
@@ -64,18 +64,18 @@ export const Tile = styled.a<TileProps>`
   border: ${`2px solid ${theme.colorBlack}`};
   box-shadow: ${theme.dropShadow};
   transition: 0.5s;
-  transform: ${props => {
+  transform: ${(props) => {
     const { current, parentLoading } = props;
     if (current && !parentLoading) return 'rotateY(0deg)';
     if (!parentLoading) return 'rotateY(20deg)';
     return 'rotateY(180deg)';
   }};
-  opacity: ${props => (props.otherCurrent ? 0 : 1)};
-  z-index: ${props => (props.current ? 12 : undefined)};
+  opacity: ${(props) => (props.otherCurrent ? 0 : 1)};
+  z-index: ${(props) => (props.current ? 12 : undefined)};
 
   ${Container}:nth-child(even) & {
-    right: ${props => (!props.current ? '20px' : undefined)};
-    transform: ${props => (!props.current && !props.parentLoading ? 'rotateY(-20deg)' : undefined)};
+    right: ${(props) => (!props.current ? '20px' : undefined)};
+    transform: ${(props) => (!props.current && !props.parentLoading ? 'rotateY(-20deg)' : undefined)};
   }
 
   ${media.hover`
@@ -89,40 +89,40 @@ export const Tile = styled.a<TileProps>`
 
 export const Image = styled.div<ImageProps>`
   position: absolute;
-  background-image: ${props => (props.current ? `url(${props.srcOn})` : `url(${props.srcOff})`)};
+  background-image: ${(props) => (props.current ? `url(${props.srcOn})` : `url(${props.srcOff})`)};
   background-size: cover;
   background-position: center center;
-  background-position-x: ${props => (props.current && props.target === 'tramsformation' ? 'left' : undefined)};
+  background-position-x: ${(props) => (props.current && props.target === 'tramsformation' ? 'left' : undefined)};
   height: 100%;
   width: 100%;
   cursor: pointer;
   transition: 0.3s;
 
   ${Container}:hover & {
-    background-position-x: ${props => (props.target === 'tramsformation' ? 'left' : undefined)};
-    background-image: ${props => `url(${props.srcOn})`};
+    background-position-x: ${(props) => (props.target === 'tramsformation' ? 'left' : undefined)};
+    background-image: ${(props) => `url(${props.srcOn})`};
   }
 `;
 
 export const TileContent = styled.div<TileContentProps>`
   position: absolute;
-  width: ${props => (props.current ? '100%' : undefined)};
-  bottom: ${props => (props.current ? '-3.85rem' : '0px')};
+  width: ${(props) => (props.current ? '100%' : undefined)};
+  bottom: ${(props) => (props.current ? '-3.85rem' : '0px')};
   right: 0px;
-  left: ${props => (props.current ? '-0.25em' : undefined)};
-  color: ${props => (props.current ? theme.colorWhite : theme.colorTextPrimary)};
+  left: ${(props) => (props.current ? '-0.25em' : undefined)};
+  color: ${(props) => (props.current ? theme.colorWhite : theme.colorTextPrimary)};
   font-weight: 300;
   text-transform: uppercase;
   padding: 1em 2em;
   background-color: ${theme.colorDarkCharcoal};
-  border-bottom: ${props => (props.current ? `1px solid ${theme.colorCharcoal}` : undefined)};
-  opacity: ${props => (props.current ? 1 : 0.9)};
+  border-bottom: ${(props) => (props.current ? `1px solid ${theme.colorCharcoal}` : undefined)};
+  opacity: ${(props) => (props.current ? 1 : 0.9)};
   transition: 0.3s;
-  cursor: ${props => (props.current ? 'default' : undefined)};
+  cursor: ${(props) => (props.current ? 'default' : undefined)};
 
   ${Container}:nth-child(even) & {
     right: auto;
-    left: ${props => (!props.current ? '0px' : undefined)};
+    left: ${(props) => (!props.current ? '0px' : undefined)};
   }
 `;
 
@@ -142,7 +142,7 @@ export const Close = styled.div<CloseProps>`
   right: 1em;
   color: ${theme.colorWhite};
   font-size: 1.4rem;
-  opacity: ${props => (props.current ? 1 : 0)};
+  opacity: ${(props) => (props.current ? 1 : 0)};
   cursor: pointer;
   transition: 0.3s;
   z-index: 2;

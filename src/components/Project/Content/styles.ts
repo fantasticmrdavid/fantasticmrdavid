@@ -21,12 +21,12 @@ export const Container = styled.div<ContainerProps>`
   font-weight: 300;
   line-height: 1.3;
   margin-top: 5em;
-  max-height: ${props => (props.current ? '2500px' : '0px')};
+  max-height: ${(props) => (props.current ? '2500px' : '0px')};
   padding: 5em 2.5em 0;
   transition: 1s;
   background: ${theme.colorDarkCharcoal};
-  opacity: ${props => (props.current ? 1 : 0)};
-  overflow: ${props => (props.current ? 'auto' : undefined)};
+  opacity: ${(props) => (props.current ? 1 : 0)};
+  overflow: ${(props) => (props.current ? 'auto' : undefined)};
 `;
 
 export const Section = styled.section`

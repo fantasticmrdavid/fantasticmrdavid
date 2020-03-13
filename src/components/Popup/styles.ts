@@ -12,12 +12,12 @@ export const Container = styled.section<ContainerProps>`
   position: fixed;
   width: 100%;
   height: 100%;
-  z-index: ${props => (props.isLoading || !props.isActive ? -1 : 26)};
+  z-index: ${(props) => (props.isLoading || !props.isActive ? -1 : 26)};
   display: flex;
   justify-content: center;
   align-items: center;
   transition: 0.5s;
-  opacity: ${props => (props.isLoading || !props.isActive ? 0 : 1)};
+  opacity: ${(props) => (props.isLoading || !props.isActive ? 0 : 1)};
 `;
 
 export const Lightbox = styled.div`

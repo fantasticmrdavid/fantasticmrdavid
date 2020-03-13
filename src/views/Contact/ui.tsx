@@ -29,7 +29,7 @@ export default class Contact extends PureComponent {
             <a href="mailto:fantasticmrdavid@gmail.com"><TerminalText blinker>fantasticmrdavid@gmail.com</TerminalText></a>
           </Email>
           <Social>
-            { socialLinks.map(l => <SocialLink {...l} key={`SocialLink_${l.title}`} />) }
+            { socialLinks.map((l) => <SocialLink {...l} key={`SocialLink_${l.title}`} />) }
           </Social>
         </Content>
       </Container>

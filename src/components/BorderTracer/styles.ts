@@ -108,7 +108,7 @@ export const Tracer = styled.div<TracerProps>`
   height: 2px;
   z-index: 1;
   background: red;
-  animation: ${props => {
+  animation: ${(props) => {
     const { direction, cycleColor } = props;
     return css`
       ${direction === 'left' ? traceLeft : traceRight} 10s normal infinite

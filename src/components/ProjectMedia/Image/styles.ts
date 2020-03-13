@@ -8,7 +8,7 @@ interface ContainerProps {
 
 export const Container = styled.div<ContainerProps>`
   position: relative;
-  align-self: ${props => (props.noSiblings ? 'auto' : 'center')};
+  align-self: ${(props) => (props.noSiblings ? 'auto' : 'center')};
 `;
 
 export const Frame = styled(Stroke)`

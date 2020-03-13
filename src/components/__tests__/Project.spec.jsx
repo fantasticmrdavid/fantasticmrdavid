@@ -15,7 +15,7 @@ const mockEvent = {
   preventDefault: () => {},
 };
 
-projects.map(p => {
+projects.map((p) => {
   describe(`Component -> Project -> ${p.title}`, () => {
     it('should render the Project UI (not current) without throwing an error', () => {
       expect(shallow(<Ui {...props} {...p} />)).toMatchSnapshot();

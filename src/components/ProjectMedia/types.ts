@@ -5,4 +5,4 @@ export type StateProps = {
 export type ContainerProps = {
   platform: string,
   type: string,
-}
+};

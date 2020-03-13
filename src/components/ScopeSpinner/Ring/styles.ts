@@ -45,20 +45,20 @@ type MaskProps = {
 export const Container = styled.div<ContainerProps>`
   position: absolute;
   box-sizing: border-box;
-  top: ${props => `calc(50% - ${props.size / 2}px)`};
-  left: ${props => `calc(50% - ${props.size / 2}px)`};
-  width: ${props => `${props.size}px`};
-  height: ${props => `${props.size}px`};
-  animation: ${props => css`${containerCycle(props.maxScale, props.rotateDirection)} ${props.speed * 2}s normal infinite`};
+  top: ${(props) => `calc(50% - ${props.size / 2}px)`};
+  left: ${(props) => `calc(50% - ${props.size / 2}px)`};
+  width: ${(props) => `${props.size}px`};
+  height: ${(props) => `${props.size}px`};
+  animation: ${(props) => css`${containerCycle(props.maxScale, props.rotateDirection)} ${props.speed * 2}s normal infinite`};
 `;
 
 export const Ring = styled.div<RingProps>`
   position: absolute;
   box-sizing: border-box;
-  border: ${props => `${props.strokeWidth}px solid white`};
+  border: ${(props) => `${props.strokeWidth}px solid white`};
   border-radius: 50%;
-  width: ${props => `${props.size}px`};
-  height: ${props => `${props.size}px`};
+  width: ${(props) => `${props.size}px`};
+  height: ${(props) => `${props.size}px`};
 `;
 
 export const Mask = styled.div<MaskProps>`
@@ -67,5 +67,5 @@ export const Mask = styled.div<MaskProps>`
   height: 100%;
   width: 50%;
   overflow: hidden;
-  animation: ${props => css`${resizeCycle(props.minSlice, props.maxSlice)} ${props.speed}s normal infinite`};
+  animation: ${(props) => css`${resizeCycle(props.minSlice, props.maxSlice)} ${props.speed}s normal infinite`};
 `;

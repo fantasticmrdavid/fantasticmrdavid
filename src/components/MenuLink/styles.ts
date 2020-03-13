@@ -24,13 +24,13 @@ export const Container = styled.div`
 
 export const Label = styled.div<LabelProps>`
   position: relative;
-  padding: ${props => (props.menuActive ? '0.75rem 2rem' : '0.75rem 0')};
+  padding: ${(props) => (props.menuActive ? '0.75rem 2rem' : '0.75rem 0')};
   transition: 0.5s;
-  color: ${props => (props.current ? theme.colorBlack : undefined)};
-  font-size: ${props => (props.current ? '2rem' : undefined)};
-  font-weight: ${props => (props.current ? 600 : undefined)};
+  color: ${(props) => (props.current ? theme.colorBlack : undefined)};
+  font-size: ${(props) => (props.current ? '2rem' : undefined)};
+  font-weight: ${(props) => (props.current ? 600 : undefined)};
   cursor: pointer;
-  background-color: ${props => {
+  background-color: ${(props) => {
     const { current, target } = props;
     if (current) {
       if (target === 'about') return colorAbout;
