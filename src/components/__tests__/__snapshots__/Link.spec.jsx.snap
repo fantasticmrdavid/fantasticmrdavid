@@ -2,7 +2,7 @@
 
 exports[`Component -> Link should render the Link without throwing an error 1`] = `
 <a
-  className="styles__Link-sc-1rd8ebj-0 jONwCq"
+  className="styles__Link-sc-1rd8ebj-0 fmVTeT"
   href="/"
 />
 `;

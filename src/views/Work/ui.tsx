@@ -15,31 +15,32 @@ const {
   SpinnerPlaceholder,
 } = styles;
 
-export default class WorkMedia extends PureComponent<UiProps> {
+const getImages = () => {
+  let images: string[] = [];
+
+  projects.map((p: ProjectProps) => {
+    if (!!p.images) {
+      const newImages = (Object.keys(p.images)).map((key: string) => p.images[key]);
+      images = [...images, ...newImages];
+    }
+
+    return p;
+  });
+
+  return images;
+};
+
+const images = getImages();
+
+export default class Work extends PureComponent<UiProps> {
   constructor(props: UiProps) {
     super(props);
     const { startImagesLoading } = props;
     startImagesLoading();
   }
 
-  getImages() {
-    let images: string[] = [];
-
-    projects.map((p: ProjectProps) => {
-      if (!!p.images) {
-        const newImages = (Object.keys(p.images)).map((key: string) => p.images[key]);
-        images = [...images, ...newImages];
-      }
-
-      return p;
-    });
-
-    return images;
-  }
-
   render() {
     const { isLoading, stopLoading } = this.props;
-    const images = this.getImages();
 
     return (
       <Container>

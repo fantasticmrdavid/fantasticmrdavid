@@ -2,7 +2,7 @@
 
 exports[`Component -> View should render the View in first loading state without throwing an error 1`] = `
 <Fragment>
-  <GlobalStyleComponent />
+  <Memo(GlobalStyleComponent) />
   <styles__Container>
     <Connect(Component) />
     <styles__Control>
@@ -26,7 +26,7 @@ exports[`Component -> View should render the View in first loading state without
 
 exports[`Component -> View should render the View in loading state without throwing an error 1`] = `
 <Fragment>
-  <GlobalStyleComponent />
+  <Memo(GlobalStyleComponent) />
   <styles__Container>
     <Connect(Component) />
     <styles__Control>
@@ -50,7 +50,7 @@ exports[`Component -> View should render the View in loading state without throw
 
 exports[`Component -> View should render the View without throwing an error 1`] = `
 <Fragment>
-  <GlobalStyleComponent />
+  <Memo(GlobalStyleComponent) />
   <styles__Container>
     <Connect(Component) />
     <styles__Control>

@@ -2,7 +2,7 @@
 
 exports[`Component -> ImagePreloader should render the ImagePreloader without throwing an error 1`] = `
 <div
-  className="styles__Container-sc-1i0f3dw-0 gTMMfH"
+  className="styles__Container-sc-1i0f3dw-0 WeStR"
 >
   0
   %

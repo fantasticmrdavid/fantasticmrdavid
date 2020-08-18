@@ -44,7 +44,7 @@ export default memo(
       completedCount: 0,
       completed: false,
     });
-    const initImage = useCallback((src) => {
+    const initImage = useCallback((src: string) => {
       const image = new Image();
 
       image.onload = () => {
@@ -55,10 +55,12 @@ export default memo(
 
     images.map((i) => useEffect(() => initImage(i), [i]));
 
-    if (!state.completed && state.completedCount === images.length) {
-      if (completedAction) completedAction();
-      dispatch({ type: 'completeLoading' });
-    }
+    useEffect(() => {
+      if (!state.completed && state.completedCount === images.length) {
+        if (completedAction) completedAction();
+        dispatch({ type: 'completeLoading' });
+      }
+    });
 
     return (
       <Container completed={state.completed}>

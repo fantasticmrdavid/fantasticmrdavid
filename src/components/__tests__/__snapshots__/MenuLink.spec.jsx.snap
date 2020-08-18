@@ -14,175 +14,42 @@ exports[`Component -> MenuLink should render the "about" MenuLink UI without thr
   updateLocation={[MockFunction]}
 >
   <styles__Container>
-    <StyledComponent
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "styles__Container-sc-1w8m3j0-0",
-            "isStatic": false,
-            "lastClassName": "dmrGVg",
-            "rules": Array [
-              "display:block;position:relative;color:inherit;&.current{transition:0s;}",
-            ],
-          },
-          "displayName": "styles__Container",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "styles__Container-sc-1w8m3j0-0",
-          "target": "div",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
+    <div
+      className="styles__Container-sc-1w8m3j0-0 exuZum"
     >
-      <div
-        className="styles__Container-sc-1w8m3j0-0 dmrGVg"
+      <styles__Label
+        current={false}
+        menuActive={true}
+        onClick={[Function]}
+        target="about"
       >
-        <styles__Label
-          current={false}
-          menuActive={true}
+        <div
+          className="styles__Label-sc-1w8m3j0-1 iuVxWO"
           onClick={[Function]}
           target="about"
         >
-          <StyledComponent
-            current={false}
-            forwardedComponent={
-              Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "attrs": Array [],
-                "componentStyle": ComponentStyle {
-                  "componentId": "styles__Label-sc-1w8m3j0-1",
-                  "isStatic": false,
-                  "lastClassName": "dcJTwn",
-                  "rules": Array [
-                    "position:relative;padding:",
-                    [Function],
-                    ";transition:0.5s;color:",
-                    [Function],
-                    ";font-size:",
-                    [Function],
-                    ";font-weight:",
-                    [Function],
-                    ";cursor:pointer;background-color:",
-                    [Function],
-                    ";&:before{position:absolute;top:0px;left:0px;content:\\"\\";height:100%;transition:0.3s;background-color:",
-                    "#555",
-                    ";}",
-                    "@media (hover:hover){",
-                    "
-    &:hover {
-      padding-left: ",
-                    [Function],
-                    ";
-      background-color: ",
-                    [Function],
-                    ";
-
-      &:before {
-        width: ",
-                    [Function],
-                    ";
-        background-color: ",
-                    [Function],
-                    ";
-      }
-    }
-  ",
-                    "}",
-                    ";",
-                  ],
-                },
-                "displayName": "styles__Label",
-                "foldedComponentIds": Array [],
-                "render": [Function],
-                "styledComponentId": "styles__Label-sc-1w8m3j0-1",
-                "target": "div",
-                "toString": [Function],
-                "warnTooManyClasses": [Function],
-                "withComponent": [Function],
-              }
-            }
-            forwardedRef={null}
-            menuActive={true}
-            onClick={[Function]}
-            target="about"
-          >
-            <div
-              className="styles__Label-sc-1w8m3j0-1 dcJTwn"
-              onClick={[Function]}
-              target="about"
-            >
-              Contact
-            </div>
-          </StyledComponent>
-        </styles__Label>
-        <Memo()
+          Contact
+        </div>
+      </styles__Label>
+      <Memo()
+        current={false}
+        location="about"
+      >
+        <styles__Content
           current={false}
-          location="about"
         >
-          <styles__Content
-            current={false}
+          <div
+            className="styles__Content-xptth5-0 dwSYql"
           >
-            <StyledComponent
-              current={false}
-              forwardedComponent={
-                Object {
-                  "$$typeof": Symbol(react.forward_ref),
-                  "attrs": Array [],
-                  "componentStyle": ComponentStyle {
-                    "componentId": "styles__Content-xptth5-0",
-                    "isStatic": false,
-                    "lastClassName": "iheHWk",
-                    "rules": Array [
-                      "display:none;font-size:1.1rem;font-weight:300;line-height:1.3;max-height:",
-                      [Function],
-                      ";padding:",
-                      [Function],
-                      ";color:",
-                      [Function],
-                      ";background-color:",
-                      [Function],
-                      ";overflow:hidden;transition:0.6s;",
-                      "@media (min-width:",
-                      "35.5",
-                      "em){",
-                      "
-    display: block;
-  ",
-                      "}",
-                      ";",
-                    ],
-                  },
-                  "displayName": "styles__Content",
-                  "foldedComponentIds": Array [],
-                  "render": [Function],
-                  "styledComponentId": "styles__Content-xptth5-0",
-                  "target": "div",
-                  "toString": [Function],
-                  "warnTooManyClasses": [Function],
-                  "withComponent": [Function],
-                }
-              }
-              forwardedRef={null}
-            >
-              <div
-                className="styles__Content-xptth5-0 iheHWk"
-              >
-                <_default>
-                  <div>
-                    Meet the captain of the ship.
-                  </div>
-                </_default>
+            <_default>
+              <div>
+                Meet the captain of the ship.
               </div>
-            </StyledComponent>
-          </styles__Content>
-        </Memo()>
-      </div>
-    </StyledComponent>
+            </_default>
+          </div>
+        </styles__Content>
+      </Memo()>
+    </div>
   </styles__Container>
 </Memo()>
 `;
@@ -201,175 +68,42 @@ exports[`Component -> MenuLink should render the "contact" MenuLink UI without t
   updateLocation={[MockFunction]}
 >
   <styles__Container>
-    <StyledComponent
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "styles__Container-sc-1w8m3j0-0",
-            "isStatic": false,
-            "lastClassName": "dmrGVg",
-            "rules": Array [
-              "display:block;position:relative;color:inherit;&.current{transition:0s;}",
-            ],
-          },
-          "displayName": "styles__Container",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "styles__Container-sc-1w8m3j0-0",
-          "target": "div",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
+    <div
+      className="styles__Container-sc-1w8m3j0-0 exuZum"
     >
-      <div
-        className="styles__Container-sc-1w8m3j0-0 dmrGVg"
+      <styles__Label
+        current={false}
+        menuActive={true}
+        onClick={[Function]}
+        target="contact"
       >
-        <styles__Label
-          current={false}
-          menuActive={true}
+        <div
+          className="styles__Label-sc-1w8m3j0-1 gNJKpm"
           onClick={[Function]}
           target="contact"
         >
-          <StyledComponent
-            current={false}
-            forwardedComponent={
-              Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "attrs": Array [],
-                "componentStyle": ComponentStyle {
-                  "componentId": "styles__Label-sc-1w8m3j0-1",
-                  "isStatic": false,
-                  "lastClassName": "eIGLXT",
-                  "rules": Array [
-                    "position:relative;padding:",
-                    [Function],
-                    ";transition:0.5s;color:",
-                    [Function],
-                    ";font-size:",
-                    [Function],
-                    ";font-weight:",
-                    [Function],
-                    ";cursor:pointer;background-color:",
-                    [Function],
-                    ";&:before{position:absolute;top:0px;left:0px;content:\\"\\";height:100%;transition:0.3s;background-color:",
-                    "#555",
-                    ";}",
-                    "@media (hover:hover){",
-                    "
-    &:hover {
-      padding-left: ",
-                    [Function],
-                    ";
-      background-color: ",
-                    [Function],
-                    ";
-
-      &:before {
-        width: ",
-                    [Function],
-                    ";
-        background-color: ",
-                    [Function],
-                    ";
-      }
-    }
-  ",
-                    "}",
-                    ";",
-                  ],
-                },
-                "displayName": "styles__Label",
-                "foldedComponentIds": Array [],
-                "render": [Function],
-                "styledComponentId": "styles__Label-sc-1w8m3j0-1",
-                "target": "div",
-                "toString": [Function],
-                "warnTooManyClasses": [Function],
-                "withComponent": [Function],
-              }
-            }
-            forwardedRef={null}
-            menuActive={true}
-            onClick={[Function]}
-            target="contact"
-          >
-            <div
-              className="styles__Label-sc-1w8m3j0-1 eIGLXT"
-              onClick={[Function]}
-              target="contact"
-            >
-              Contact
-            </div>
-          </StyledComponent>
-        </styles__Label>
-        <Memo()
+          Contact
+        </div>
+      </styles__Label>
+      <Memo()
+        current={false}
+        location="contact"
+      >
+        <styles__Content
           current={false}
-          location="contact"
         >
-          <styles__Content
-            current={false}
+          <div
+            className="styles__Content-xptth5-0 dwSYql"
           >
-            <StyledComponent
-              current={false}
-              forwardedComponent={
-                Object {
-                  "$$typeof": Symbol(react.forward_ref),
-                  "attrs": Array [],
-                  "componentStyle": ComponentStyle {
-                    "componentId": "styles__Content-xptth5-0",
-                    "isStatic": false,
-                    "lastClassName": "iheHWk",
-                    "rules": Array [
-                      "display:none;font-size:1.1rem;font-weight:300;line-height:1.3;max-height:",
-                      [Function],
-                      ";padding:",
-                      [Function],
-                      ";color:",
-                      [Function],
-                      ";background-color:",
-                      [Function],
-                      ";overflow:hidden;transition:0.6s;",
-                      "@media (min-width:",
-                      "35.5",
-                      "em){",
-                      "
-    display: block;
-  ",
-                      "}",
-                      ";",
-                    ],
-                  },
-                  "displayName": "styles__Content",
-                  "foldedComponentIds": Array [],
-                  "render": [Function],
-                  "styledComponentId": "styles__Content-xptth5-0",
-                  "target": "div",
-                  "toString": [Function],
-                  "warnTooManyClasses": [Function],
-                  "withComponent": [Function],
-                }
-              }
-              forwardedRef={null}
-            >
-              <div
-                className="styles__Content-xptth5-0 iheHWk"
-              >
-                <_default>
-                  <div>
-                    For relaxing times, make it Suntory time.
-                  </div>
-                </_default>
+            <_default>
+              <div>
+                For relaxing times, make it Suntory time.
               </div>
-            </StyledComponent>
-          </styles__Content>
-        </Memo()>
-      </div>
-    </StyledComponent>
+            </_default>
+          </div>
+        </styles__Content>
+      </Memo()>
+    </div>
   </styles__Container>
 </Memo()>
 `;
@@ -388,175 +122,42 @@ exports[`Component -> MenuLink should render the "work" MenuLink UI without thro
   updateLocation={[MockFunction]}
 >
   <styles__Container>
-    <StyledComponent
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "styles__Container-sc-1w8m3j0-0",
-            "isStatic": false,
-            "lastClassName": "dmrGVg",
-            "rules": Array [
-              "display:block;position:relative;color:inherit;&.current{transition:0s;}",
-            ],
-          },
-          "displayName": "styles__Container",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "styles__Container-sc-1w8m3j0-0",
-          "target": "div",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
+    <div
+      className="styles__Container-sc-1w8m3j0-0 exuZum"
     >
-      <div
-        className="styles__Container-sc-1w8m3j0-0 dmrGVg"
+      <styles__Label
+        current={false}
+        menuActive={true}
+        onClick={[Function]}
+        target="work"
       >
-        <styles__Label
-          current={false}
-          menuActive={true}
+        <div
+          className="styles__Label-sc-1w8m3j0-1 dRRxBw"
           onClick={[Function]}
           target="work"
         >
-          <StyledComponent
-            current={false}
-            forwardedComponent={
-              Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "attrs": Array [],
-                "componentStyle": ComponentStyle {
-                  "componentId": "styles__Label-sc-1w8m3j0-1",
-                  "isStatic": false,
-                  "lastClassName": "SLhrz",
-                  "rules": Array [
-                    "position:relative;padding:",
-                    [Function],
-                    ";transition:0.5s;color:",
-                    [Function],
-                    ";font-size:",
-                    [Function],
-                    ";font-weight:",
-                    [Function],
-                    ";cursor:pointer;background-color:",
-                    [Function],
-                    ";&:before{position:absolute;top:0px;left:0px;content:\\"\\";height:100%;transition:0.3s;background-color:",
-                    "#555",
-                    ";}",
-                    "@media (hover:hover){",
-                    "
-    &:hover {
-      padding-left: ",
-                    [Function],
-                    ";
-      background-color: ",
-                    [Function],
-                    ";
-
-      &:before {
-        width: ",
-                    [Function],
-                    ";
-        background-color: ",
-                    [Function],
-                    ";
-      }
-    }
-  ",
-                    "}",
-                    ";",
-                  ],
-                },
-                "displayName": "styles__Label",
-                "foldedComponentIds": Array [],
-                "render": [Function],
-                "styledComponentId": "styles__Label-sc-1w8m3j0-1",
-                "target": "div",
-                "toString": [Function],
-                "warnTooManyClasses": [Function],
-                "withComponent": [Function],
-              }
-            }
-            forwardedRef={null}
-            menuActive={true}
-            onClick={[Function]}
-            target="work"
-          >
-            <div
-              className="styles__Label-sc-1w8m3j0-1 SLhrz"
-              onClick={[Function]}
-              target="work"
-            >
-              Contact
-            </div>
-          </StyledComponent>
-        </styles__Label>
-        <Memo()
+          Contact
+        </div>
+      </styles__Label>
+      <Memo()
+        current={false}
+        location="work"
+      >
+        <styles__Content
           current={false}
-          location="work"
         >
-          <styles__Content
-            current={false}
+          <div
+            className="styles__Content-xptth5-0 dwSYql"
           >
-            <StyledComponent
-              current={false}
-              forwardedComponent={
-                Object {
-                  "$$typeof": Symbol(react.forward_ref),
-                  "attrs": Array [],
-                  "componentStyle": ComponentStyle {
-                    "componentId": "styles__Content-xptth5-0",
-                    "isStatic": false,
-                    "lastClassName": "iheHWk",
-                    "rules": Array [
-                      "display:none;font-size:1.1rem;font-weight:300;line-height:1.3;max-height:",
-                      [Function],
-                      ";padding:",
-                      [Function],
-                      ";color:",
-                      [Function],
-                      ";background-color:",
-                      [Function],
-                      ";overflow:hidden;transition:0.6s;",
-                      "@media (min-width:",
-                      "35.5",
-                      "em){",
-                      "
-    display: block;
-  ",
-                      "}",
-                      ";",
-                    ],
-                  },
-                  "displayName": "styles__Content",
-                  "foldedComponentIds": Array [],
-                  "render": [Function],
-                  "styledComponentId": "styles__Content-xptth5-0",
-                  "target": "div",
-                  "toString": [Function],
-                  "warnTooManyClasses": [Function],
-                  "withComponent": [Function],
-                }
-              }
-              forwardedRef={null}
-            >
-              <div
-                className="styles__Content-xptth5-0 iheHWk"
-              >
-                <_default>
-                  <div>
-                    Some things I've been working on.
-                  </div>
-                </_default>
+            <_default>
+              <div>
+                Some things I've been working on.
               </div>
-            </StyledComponent>
-          </styles__Content>
-        </Memo()>
-      </div>
-    </StyledComponent>
+            </_default>
+          </div>
+        </styles__Content>
+      </Memo()>
+    </div>
   </styles__Container>
 </Memo()>
 `;

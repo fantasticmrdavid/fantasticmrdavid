@@ -2,49 +2,49 @@
 
 exports[`Component -> Cube should render the Cube in completed state without throwing an error 1`] = `
 <div
-  className="styles__Container-sc-1pwogyu-0 fkagAV"
+  className="styles__Container-sc-1pwogyu-0 fxQxCi"
 >
   <div
-    className="styles__Polygon-sc-1pwogyu-1 dCIqjj"
+    className="styles__Polygon-sc-1pwogyu-1 cXqKUn"
   >
     <div
-      className="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 deBIOm"
+      className="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 ctLBcZ"
     >
       <div
-        className="styles__Tracer-sc-18vfsm6-0 hNwUQp"
+        className="styles__Tracer-sc-18vfsm6-0 ixIudz"
         direction="left"
       />
     </div>
     <div
-      className="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 gCcrQb"
+      className="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 bPrYvv"
     >
       <div
-        className="styles__Tracer-sc-18vfsm6-0 lKbcB"
+        className="styles__Tracer-sc-18vfsm6-0 fsXOaX"
       />
     </div>
     <div
-      className="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 eLxrDv"
+      className="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 cBRihP"
     />
     <div
-      className="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 cpagcj"
+      className="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 fhmhBQ"
     >
       <div
-        className="styles__Tracer-sc-18vfsm6-0 lKbcB"
+        className="styles__Tracer-sc-18vfsm6-0 fsXOaX"
       />
     </div>
     <div
-      className="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 iDSTJS"
+      className="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 bjjeEn"
     >
       <div
-        className="styles__Tracer-sc-18vfsm6-0 hNwUQp"
+        className="styles__Tracer-sc-18vfsm6-0 ixIudz"
         direction="left"
       />
     </div>
     <div
-      className="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 fTRfub"
+      className="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 jfedfq"
     >
       <div
-        className="styles__Tracer-sc-18vfsm6-0 lKbcB"
+        className="styles__Tracer-sc-18vfsm6-0 fsXOaX"
       />
     </div>
   </div>
@@ -53,49 +53,49 @@ exports[`Component -> Cube should render the Cube in completed state without thr
 
 exports[`Component -> Cube should render the Cube in loading state without throwing an error 1`] = `
 <div
-  className="styles__Container-sc-1pwogyu-0 fkagAV"
+  className="styles__Container-sc-1pwogyu-0 fxQxCi"
 >
   <div
-    className="styles__Polygon-sc-1pwogyu-1 dCIqjj"
+    className="styles__Polygon-sc-1pwogyu-1 cXqKUn"
   >
     <div
-      className="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 deBIOm"
+      className="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 ctLBcZ"
     >
       <div
-        className="styles__Tracer-sc-18vfsm6-0 hNwUQp"
+        className="styles__Tracer-sc-18vfsm6-0 ixIudz"
         direction="left"
       />
     </div>
     <div
-      className="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 gCcrQb"
+      className="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 bPrYvv"
     >
       <div
-        className="styles__Tracer-sc-18vfsm6-0 lKbcB"
+        className="styles__Tracer-sc-18vfsm6-0 fsXOaX"
       />
     </div>
     <div
-      className="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 eLxrDv"
+      className="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 cBRihP"
     />
     <div
-      className="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 cpagcj"
+      className="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 fhmhBQ"
     >
       <div
-        className="styles__Tracer-sc-18vfsm6-0 lKbcB"
+        className="styles__Tracer-sc-18vfsm6-0 fsXOaX"
       />
     </div>
     <div
-      className="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 iDSTJS"
+      className="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 bjjeEn"
     >
       <div
-        className="styles__Tracer-sc-18vfsm6-0 hNwUQp"
+        className="styles__Tracer-sc-18vfsm6-0 ixIudz"
         direction="left"
       />
     </div>
     <div
-      className="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 fTRfub"
+      className="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 jfedfq"
     >
       <div
-        className="styles__Tracer-sc-18vfsm6-0 lKbcB"
+        className="styles__Tracer-sc-18vfsm6-0 fsXOaX"
       />
     </div>
   </div>
