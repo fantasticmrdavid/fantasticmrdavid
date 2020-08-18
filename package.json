@@ -32,6 +32,8 @@
     "@fortawesome/react-fontawesome": "0.1.11",
     "ajv": "6.12.4",
     "animated-scroll-to": "2.0.10",
+    "bufferutil": "4.0.1",
+    "canvas": "2.6.1",
     "fontfaceobserver": "2.1.0",
     "html-loader": "1.1.0",
     "html-webpack-plugin": "4.2.0",
@@ -44,7 +46,8 @@
     "redux": "4.0.5",
     "redux-thunk": "2.3.0",
     "serviceworker-webpack-plugin": "1.0.1",
-    "styled-components": "5.1.1"
+    "styled-components": "5.1.1",
+    "utf-8-validate": "5.0.2"
   },
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "7.10.4",

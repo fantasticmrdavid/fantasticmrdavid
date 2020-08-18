@@ -1,6 +1,7 @@
 import React, { memo } from 'react';
 import About from './About';
 import Work from './Work';
+import Tinkerings from './Tinkerings';
 import Contact from './Contact';
 import * as styles from './styles';
 
@@ -19,6 +20,7 @@ export default memo(
       <Content current={current}>
         { location === 'about' && <About /> }
         { location === 'work' && <Work /> }
+        { location === 'tinkerings' && <Tinkerings /> }
         { location === 'contact' && <Contact /> }
       </Content>
     );

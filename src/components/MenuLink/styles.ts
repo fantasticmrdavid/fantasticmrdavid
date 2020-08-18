@@ -4,6 +4,7 @@ import { media } from 'styles/utils';
 
 const colorAbout = '#3fa44e';
 const colorWork = '#967fd1';
+const colorTinkerings = '#2acbb8';
 const colorContact = '#cc750c';
 
 interface LabelProps {
@@ -35,6 +36,7 @@ export const Label = styled.div<LabelProps>`
     if (current) {
       if (target === 'about') return colorAbout;
       if (target === 'work') return colorWork;
+      if (target === 'tinkerings') return colorTinkerings;
       if (target === 'contact') return colorContact;
       return theme.colorLightGrey;
     }
@@ -64,6 +66,7 @@ export const Label = styled.div<LabelProps>`
           if (!current) {
             if (target === 'about') return colorAbout;
             if (target === 'work') return colorWork;
+            if (target === 'tinkerings') return colorTinkerings;
             if (target === 'contact') return colorContact;
             return undefined;
           }

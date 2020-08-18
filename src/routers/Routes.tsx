@@ -8,6 +8,7 @@ const Routes = () => {
       <Route exact path="/" render={() => <View location="home" />} />
       <Route path="/about" render={() => <View location="about" />} />
       <Route path="/work" render={() => <View location="work" />} />
+      <Route path="/tinkerings" render={() => <View location="tinkerings" />} />
       <Route path="/contact" render={() => <View location="contact" />} />
     </Switch>
   );

@@ -4,6 +4,7 @@ import Popup from 'components/Popup';
 import Home from 'views/Home';
 import About from 'views/About';
 import Work from 'views/Work';
+import Tinkerings from 'views/Tinkerings';
 import Contact from 'views/Contact';
 import GlobalStyles from 'styles/global';
 import * as styles from './styles';
@@ -41,6 +42,7 @@ export default memo(
             { location === 'home' && <Home /> }
             { location === 'about' && <About isLoading={isLoading} /> }
             { location === 'work' && <Work /> }
+            { location === 'tinkerings' && <Tinkerings /> }
             { location === 'contact' && <Contact /> }
           </Media>
         </Container>

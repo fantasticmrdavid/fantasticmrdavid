@@ -8,6 +8,10 @@ export default [
     target: 'work',
   },
   {
+    label: 'Tinkerings',
+    target: 'tinkerings',
+  },
+  {
     label: 'Contact',
     target: 'contact',
   },
