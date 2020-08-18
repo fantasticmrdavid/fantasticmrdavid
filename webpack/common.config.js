@@ -48,10 +48,6 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin({ verbose: true }),
-    new HtmlWebpackPlugin({
-      template: 'src/index.html',
-      inject: false,
-    }),
     new webpack.DefinePlugin({
       'process.env': {
         NODE_ENV: JSON.stringify(env),
@@ -60,10 +56,16 @@ module.exports = {
     new ServiceWorkerWebpackPlugin({
       entry: path.join(APP_DIR, 'sw.js'),
     }),
-    new CopyWebpackPlugin([
-      { from: `${APP_DIR}/styles/noscript.css`, to: 'assets/css/noscript.css' },
-      { from: `${APP_DIR}/assets/`, to: 'assets/' },
-    ]),
+    new CopyWebpackPlugin({
+      patterns: [
+        { from: `${APP_DIR}/styles/noscript.css`, to: 'assets/css/noscript.css' },
+        { from: `${APP_DIR}/assets/`, to: 'assets/' },
+      ]
+    }),
+    new HtmlWebpackPlugin({
+      template: `${APP_DIR}/index.html`,
+      inject: false,
+    }),
     new WebpackPwaManifest({
       filename: 'manifest.json',
       name: 'Fantastic Mr David',

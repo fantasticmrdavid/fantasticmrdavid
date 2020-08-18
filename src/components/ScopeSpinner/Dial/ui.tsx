@@ -13,7 +13,6 @@ interface Props {
   id: string,
   rotateDirection?: string,
   size: number,
-  strokeWidth: number,
   minSlice: number,
   maxSlice: number,
   maxScale?: number,
