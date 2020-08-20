@@ -142,7 +142,7 @@ exports[`View -> About should render the About view (loading) without throwing a
             Hi! I'm David, and I like making things.
             <br />
             <br />
-            Since childhood I've been passionate about building and creating. I've always enjoyed the journey of taking an idea from concept and making it reality whether it's solving a complex problem, creating some ambitious new artwork, or both.
+            Since I was a kid I've been passionate about building and creating. I've always enjoyed the journey of taking an idea from concept and making it reality.
             <br />
             <br />
             I firmly believe that by empowering people with problem solving technology and empathy we can build a better world together.
@@ -151,13 +151,13 @@ exports[`View -> About should render the About view (loading) without throwing a
             Engineer
           </h2>
           <p>
-            I've been building web projects for over a decade, starting from when I was in high school and needed a simple HTML page to display my artwork. From there I moved on to become a Full-Stack LAMP Developer working on vendor-side and agency projects alike, and then to lead Front-End and UX Engineering specialising in HTML5, CSS3, ES6 JavaScript and React. I love learning about new technologies to develop better and more effective ways to solve problems and get things done.
+            I've been building web projects for over a decade, starting from when I was in high school and needed a simple HTML page to display my artwork. From there my journey has taken me to Full-Stack LAMP Development working on vendor-side and agency projects alike, and then to leading Front-End and UX Engineering specialising in HTML5, CSS3, ES6 JavaScript and React. I love learning about new technologies to develop better and more effective ways to solve problems and get things done.
           </p>
           <h2>
             Artist
           </h2>
           <p>
-            Drawing has been my happy place for as long as I can remember. While building software keeps the puzzle solving part of my brain busy, illustration and artwork have allowed me to stretch my creative boundaries. In my after hours I have drawn comics, exhibited artwork, produced 3D prints, and made 
+            Drawing has been my happy place for as long as I can remember. While building software keeps the puzzle solving part of my brain busy, illustration, artwork, and tinkering have allowed me to stretch my creative boundaries. In my downtime I've drawn comics, exhibited artwork, designed and produced 3D prints, and made 
             <styles__SleeperLink
               href="https://www.youtube.com/watch?v=7xk4LmZ6hwc"
               rel="noopener noreferrer"
@@ -451,7 +451,7 @@ exports[`View -> About should render the About view (not loading) without throwi
             Hi! I'm David, and I like making things.
             <br />
             <br />
-            Since childhood I've been passionate about building and creating. I've always enjoyed the journey of taking an idea from concept and making it reality whether it's solving a complex problem, creating some ambitious new artwork, or both.
+            Since I was a kid I've been passionate about building and creating. I've always enjoyed the journey of taking an idea from concept and making it reality.
             <br />
             <br />
             I firmly believe that by empowering people with problem solving technology and empathy we can build a better world together.
@@ -460,13 +460,13 @@ exports[`View -> About should render the About view (not loading) without throwi
             Engineer
           </h2>
           <p>
-            I've been building web projects for over a decade, starting from when I was in high school and needed a simple HTML page to display my artwork. From there I moved on to become a Full-Stack LAMP Developer working on vendor-side and agency projects alike, and then to lead Front-End and UX Engineering specialising in HTML5, CSS3, ES6 JavaScript and React. I love learning about new technologies to develop better and more effective ways to solve problems and get things done.
+            I've been building web projects for over a decade, starting from when I was in high school and needed a simple HTML page to display my artwork. From there my journey has taken me to Full-Stack LAMP Development working on vendor-side and agency projects alike, and then to leading Front-End and UX Engineering specialising in HTML5, CSS3, ES6 JavaScript and React. I love learning about new technologies to develop better and more effective ways to solve problems and get things done.
           </p>
           <h2>
             Artist
           </h2>
           <p>
-            Drawing has been my happy place for as long as I can remember. While building software keeps the puzzle solving part of my brain busy, illustration and artwork have allowed me to stretch my creative boundaries. In my after hours I have drawn comics, exhibited artwork, produced 3D prints, and made 
+            Drawing has been my happy place for as long as I can remember. While building software keeps the puzzle solving part of my brain busy, illustration, artwork, and tinkering have allowed me to stretch my creative boundaries. In my downtime I've drawn comics, exhibited artwork, designed and produced 3D prints, and made 
             <styles__SleeperLink
               href="https://www.youtube.com/watch?v=7xk4LmZ6hwc"
               rel="noopener noreferrer"
