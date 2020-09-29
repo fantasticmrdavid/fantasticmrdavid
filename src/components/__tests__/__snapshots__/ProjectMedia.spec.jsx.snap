@@ -173,3 +173,25 @@ exports[`Component -> ProjectMedia -> Tramsformation should render the ProjectMe
   url="/assets/images/projects/tramsformation/tramsformation_transform_full.jpg"
 />
 `;
+
+exports[`Component -> ProjectMedia -> Tramsformation should render the ProjectMedia UI (src: "/assets/images/projects/tramsformation/tramsformer_w_1_preview.jpg") without throwing an error 1`] = `
+<Connect(Component)
+  orientation="landscape"
+  slug="tramsformation_w_1"
+  thumbnail="/assets/images/projects/tramsformation/tramsformer_w_1_preview.jpg"
+  title="Tramsformer W-Class Robot Mode"
+  type="image"
+  url="/assets/images/projects/tramsformation/tramsformer_w_1_full.jpg"
+/>
+`;
+
+exports[`Component -> ProjectMedia -> Tramsformation should render the ProjectMedia UI (src: "/assets/images/projects/tramsformation/tramsformer_w_2_preview.jpg") without throwing an error 1`] = `
+<Connect(Component)
+  orientation="landscape"
+  slug="tramsformation_w_2"
+  thumbnail="/assets/images/projects/tramsformation/tramsformer_w_2_preview.jpg"
+  title="Tramsformer W-Class Tram Mode"
+  type="image"
+  url="/assets/images/projects/tramsformation/tramsformer_w_2_full.jpg"
+/>
+`;
