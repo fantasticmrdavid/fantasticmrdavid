@@ -4,7 +4,6 @@ export type StateProps = {
 };
 
 export type DispatchProps = {
-  activateLogoMenu: () => void,
   setTarget: (target: string) => void,
   startImagesLoading: () => void,
   stopLoading: () => void,
