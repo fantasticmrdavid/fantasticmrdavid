@@ -781,7 +781,7 @@ exports[`Component -> Project -> Tramsformation should render the Project UI (cu
     </styles__Close>
   </styles__Tile>
   <Memo()
-    description="A personal project that started with a failed art competition entry. Featuring a website with shop, 3D models, T-shirts, prints and a 3D printed transformable figure. I have so much respect for the engineering in those old 80's toys."
+    description="An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys."
     images={
       Object {
         "tileOff": "/assets/images/projects/tramsformation_off.jpg",
@@ -791,6 +791,22 @@ exports[`Component -> Project -> Tramsformation should render the Project UI (cu
     isCurrent={true}
     media={
       Array [
+        Object {
+          "orientation": "landscape",
+          "slug": "tramsformation_w_1",
+          "thumbnail": "/assets/images/projects/tramsformation/tramsformer_w_1_preview.jpg",
+          "title": "Tramsformer W-Class Robot Mode",
+          "type": "image",
+          "url": "/assets/images/projects/tramsformation/tramsformer_w_1_full.jpg",
+        },
+        Object {
+          "orientation": "landscape",
+          "slug": "tramsformation_w_2",
+          "thumbnail": "/assets/images/projects/tramsformation/tramsformer_w_2_preview.jpg",
+          "title": "Tramsformer W-Class Tram Mode",
+          "type": "image",
+          "url": "/assets/images/projects/tramsformation/tramsformer_w_2_full.jpg",
+        },
         Object {
           "orientation": "portrait",
           "slug": "tramsformation_print",
@@ -840,10 +856,10 @@ exports[`Component -> Project -> Tramsformation should render the Project UI (cu
       ]
     }
     parentLoading={false}
-    products="3D Models, artwork, website, transformable toy"
+    products="3D models, artwork, website, transformable toys"
     tagline="3D Printing & Design"
     target="tramsformation"
-    technologies="HTML, CSS, jQuery, PHP, MySQL, Photoshop, 3DS Max, 3D printing"
+    technologies="3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop"
     title="Tramsformation"
     updateCurrent={
       [MockFunction] {
@@ -920,7 +936,7 @@ exports[`Component -> Project -> Tramsformation should render the Project UI (no
     </styles__Close>
   </styles__Tile>
   <Memo()
-    description="A personal project that started with a failed art competition entry. Featuring a website with shop, 3D models, T-shirts, prints and a 3D printed transformable figure. I have so much respect for the engineering in those old 80's toys."
+    description="An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys."
     images={
       Object {
         "tileOff": "/assets/images/projects/tramsformation_off.jpg",
@@ -930,6 +946,22 @@ exports[`Component -> Project -> Tramsformation should render the Project UI (no
     isCurrent={false}
     media={
       Array [
+        Object {
+          "orientation": "landscape",
+          "slug": "tramsformation_w_1",
+          "thumbnail": "/assets/images/projects/tramsformation/tramsformer_w_1_preview.jpg",
+          "title": "Tramsformer W-Class Robot Mode",
+          "type": "image",
+          "url": "/assets/images/projects/tramsformation/tramsformer_w_1_full.jpg",
+        },
+        Object {
+          "orientation": "landscape",
+          "slug": "tramsformation_w_2",
+          "thumbnail": "/assets/images/projects/tramsformation/tramsformer_w_2_preview.jpg",
+          "title": "Tramsformer W-Class Tram Mode",
+          "type": "image",
+          "url": "/assets/images/projects/tramsformation/tramsformer_w_2_full.jpg",
+        },
         Object {
           "orientation": "portrait",
           "slug": "tramsformation_print",
@@ -979,10 +1011,10 @@ exports[`Component -> Project -> Tramsformation should render the Project UI (no
       ]
     }
     parentLoading={false}
-    products="3D Models, artwork, website, transformable toy"
+    products="3D models, artwork, website, transformable toys"
     tagline="3D Printing & Design"
     target="tramsformation"
-    technologies="HTML, CSS, jQuery, PHP, MySQL, Photoshop, 3DS Max, 3D printing"
+    technologies="3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop"
     title="Tramsformation"
     updateCurrent={
       [MockFunction] {
