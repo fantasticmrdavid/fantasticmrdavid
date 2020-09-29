@@ -5,7 +5,6 @@ import {
 } from 'reducers/loading';
 import { Dispatch } from 'redux';
 import { WORK_MEDIA_LOCATION_UPDATED } from 'reducers/workMedia';
-import { LOGO_MENU_ACTIVATED } from 'reducers/logoMenu';
 
 export const mediaLoadingStopped = () => ({
   type: MEDIA_LOADING_STOPPED,
@@ -27,7 +26,3 @@ export const workMediaLocationUpdated = (newLocation: string) => (dispatch: Disp
   });
   dispatch({ type: MEDIA_LOADING_STOPPED });
 };
-
-export const logoMenuActivated = () => ({
-  type: LOGO_MENU_ACTIVATED,
-});

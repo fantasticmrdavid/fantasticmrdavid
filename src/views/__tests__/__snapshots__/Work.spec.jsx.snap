@@ -11507,7 +11507,6 @@ exports[`View -> Work should render the Work view with Initializer without throw
   </Connect(_default)>
   <Connect(Work)>
     <Work
-      activateLogoMenu={[Function]}
       isLoading={true}
       setTarget={[Function]}
       startImagesLoading={[Function]}

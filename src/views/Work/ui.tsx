@@ -40,12 +40,9 @@ export default class Work extends PureComponent<UiProps> {
   }
 
   componentDidMount() {
-    const { activateLogoMenu, setTarget, target } = this.props;
+    const { setTarget, target } = this.props;
 
-    if (target) {
-      setTarget(target);
-      activateLogoMenu();
-    }
+    if (target) setTarget(target);
   }
 
   render() {
