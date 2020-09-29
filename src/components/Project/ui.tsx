@@ -39,6 +39,7 @@ export default memo(
       e.preventDefault();
       const newCurrent = !!isCurrent ? undefined : target;
       updateCurrent(newCurrent);
+      window.history.pushState({}, title, `/work/${newCurrent || ''}`);
     }, [isCurrent, target]);
 
     const isOtherCurrent = !!isCurrent ? false : !!current;

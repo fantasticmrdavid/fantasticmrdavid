@@ -21,7 +21,12 @@ const {
 } = styles;
 
 export default memo(
-  ({ location, isLoading, isFirstLoad }: UiProps) => {
+  ({
+    location,
+    isLoading,
+    isFirstLoad,
+    target,
+  }: UiProps) => {
     const isFirstMediaLoading = isLoading && isFirstLoad;
     return (
       <>
@@ -40,7 +45,7 @@ export default memo(
             </MediaLoadingMessage>
             { location === 'home' && <Home /> }
             { location === 'about' && <About isLoading={isLoading} /> }
-            { location === 'work' && <Work /> }
+            { location === 'work' && <Work target={target} /> }
             { location === 'contact' && <Contact /> }
           </Media>
         </Container>

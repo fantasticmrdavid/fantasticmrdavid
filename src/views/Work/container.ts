@@ -5,6 +5,8 @@ import {
   mediaLoadingStopped,
   imagesLoadingStarted,
   imagesLoadingStopped,
+  workMediaLocationUpdated,
+  logoMenuActivated,
 } from './actions';
 import { DispatchProps, StateProps } from './types';
 import Ui from './ui';
@@ -18,6 +20,8 @@ const mapStateToProps = (state: AppState) => {
 
 const mapDispatchToProps = (dispatch: Dispatch<any>) => {
   return {
+    activateLogoMenu: () => dispatch(logoMenuActivated()),
+    setTarget: (target: string) => dispatch(workMediaLocationUpdated(target)),
     startImagesLoading: () => {
       dispatch(imagesLoadingStarted());
     },
