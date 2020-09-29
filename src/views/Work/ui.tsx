@@ -4,9 +4,9 @@ import ImagePreloader from 'components/ImagePreloader';
 import Project from 'components/Project';
 import projects, { Project as ProjectProps } from 'data/projects';
 import * as styles from './styles';
-import { DispatchProps, StateProps } from './types';
+import { ContainerProps, DispatchProps, StateProps } from './types';
 
-type UiProps = DispatchProps & StateProps;
+type UiProps = ContainerProps & DispatchProps & StateProps;
 
 const {
   Container,
@@ -37,6 +37,15 @@ export default class Work extends PureComponent<UiProps> {
     super(props);
     const { startImagesLoading } = props;
     startImagesLoading();
+  }
+
+  componentDidMount() {
+    const { activateLogoMenu, setTarget, target } = this.props;
+
+    if (target) {
+      setTarget(target);
+      activateLogoMenu();
+    }
   }
 
   render() {

@@ -11,4 +11,5 @@ export type DispatchProps = {
 
 export type ContainerProps = {
   location?: string,
+  target?: string
 };
