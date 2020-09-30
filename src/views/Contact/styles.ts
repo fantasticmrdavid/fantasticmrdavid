@@ -2,10 +2,20 @@ import styled, { css, keyframes } from 'styled-components';
 import theme from 'styles/theme';
 import { media } from 'styles/utils';
 import ComponentIcon from 'components/Icon';
+import { fadeOut } from 'styles/animations';
+import { transparentize } from 'polished';
 
 const shutterClose = keyframes`
   0% { height: 0%; opacity: 0; }
   100% { height: 51%; opacity: 1; }
+`;
+
+export const BackgroundVideo = styled.div`
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: ${theme.colorBlack};
 `;
 
 export const Container = styled.div`
@@ -23,7 +33,7 @@ export const Container = styled.div`
   `};
 `;
 
-export const Content = styled.div`
+export const ContentContainer = styled.div`
   position: absolute;
   top: 0px;
   right: 0px;
@@ -35,7 +45,18 @@ export const Content = styled.div`
   width: 100%;
   height: 100%;
   color: ${theme.colorTextPrimary};
+  background-color: ${transparentize(0.5, theme.colorBlack)};
   font-size: 1.5em;
+`;
+
+export const Content = styled.div`
+  padding: 1em;
+  background-color: ${transparentize(0.5, theme.colorBlack)};
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 `;
 
 export const Email = styled.div`
@@ -81,6 +102,18 @@ const Shutter = styled.div`
   transition: 0.3s;
   background: ${theme.colorBlack};
   animation: ${css`${shutterClose} 0.3s ease 1`};
+  animation-fill-mode: forwards;
+`;
+
+export const ShuttersContainer = styled.div`
+  position: absolute;
+  right: 0px;
+  z-index: 16;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+  animation: ${css`${fadeOut} 6s ease 1`};
+  animation-delay: 3s;
   animation-fill-mode: forwards;
 `;
 
