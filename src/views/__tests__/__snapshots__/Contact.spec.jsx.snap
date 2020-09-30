@@ -8,7 +8,7 @@ exports[`View -> Contact should render the Contact view without throwing an erro
     >
       <styles__BackgroundVideo>
         <div
-          className="styles__BackgroundVideo-sc-18fbvjh-0 kIhjEI"
+          className="styles__BackgroundVideo-sc-18fbvjh-0 bfwCAv"
         >
           <ReactPlayer
             config={
