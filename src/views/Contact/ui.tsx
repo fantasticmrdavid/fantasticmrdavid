@@ -18,13 +18,19 @@ const {
   Social,
 } = styles;
 
+const videoList = [
+  'https://youtu.be/p3rWb9eso0g?t=52',
+  'https://youtu.be/mGMZ6Rz6olg?t=25',
+  'https://youtu.be/SoUGqhPQFI0?t=80',
+];
+
 export default () => {
   scrollToElement('emailLink');
   return (
     <Container>
       <BackgroundVideo>
         <ReactPlayer
-          url="https://www.youtube.com/watch?v=mGMZ6Rz6olg&t=25s"
+          url={videoList[Math.floor(Math.random() * videoList.length)]}
           playing
           loop
           volume={1}
