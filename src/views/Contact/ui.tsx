@@ -19,9 +19,11 @@ const {
 } = styles;
 
 const videoList = [
-  'https://youtu.be/p3rWb9eso0g?t=52',
-  'https://youtu.be/mGMZ6Rz6olg?t=25',
-  'https://youtu.be/SoUGqhPQFI0?t=80',
+  'https://youtu.be/-UPxh7KJPHM?t=30', // Arkanoid
+  'https://youtu.be/p3rWb9eso0g?t=52', // Canabalt
+  'https://youtu.be/mGMZ6Rz6olg?t=25', // Raiden
+  'https://youtu.be/SoUGqhPQFI0?t=80', // Virtual On
+  'https://youtu.be/oD9MarvOz1U?t=60', // Battletoads
 ];
 
 export default () => {
