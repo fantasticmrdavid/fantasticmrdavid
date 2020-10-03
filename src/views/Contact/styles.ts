@@ -11,12 +11,17 @@ const shutterClose = keyframes`
 `;
 
 export const BackgroundVideo = styled.div`
+  display: none;
   position: absolute;
   width: 100%;
   height: 100%;
   z-index: 1;
   background: ${theme.colorBlack};
   overflow: hidden;
+  
+  ${media.medium`
+    display: block;
+  `};
 `;
 
 export const Container = styled.div`
@@ -108,14 +113,18 @@ const Shutter = styled.div`
 
 export const ShuttersContainer = styled.div`
   position: absolute;
+  top: 0px;
   right: 0px;
   z-index: 16;
   width: 100%;
   height: 100%;
   transition: 0.3s;
-  animation: ${css`${fadeOut} 6s ease 1`};
-  animation-delay: 3s;
-  animation-fill-mode: forwards;
+  
+  ${media.medium`
+    animation: ${css`${fadeOut} 6s ease 1`};
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+  `}
 `;
 
 export const ShutterTop = styled(Shutter)`

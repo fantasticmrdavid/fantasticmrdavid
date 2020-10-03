@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactPlayer from 'react-player/lazy';
+import { isMobileOnly } from 'react-device-detect';
 import TerminalText from 'components/TerminalText';
 import { scrollToElement } from 'helpers/dom';
 import SocialLink from './SocialLink';
@@ -30,17 +31,21 @@ export default () => {
   scrollToElement('emailLink');
   return (
     <Container>
-      <BackgroundVideo>
-        <ReactPlayer
-          url={videoList[Math.floor(Math.random() * videoList.length)]}
-          playing
-          loop
-          volume={1}
-          muted
-          width="100%"
-          height="100%"
-        />
-      </BackgroundVideo>
+      {
+        !isMobileOnly && (
+          <BackgroundVideo>
+            <ReactPlayer
+              url={videoList[Math.floor(Math.random() * videoList.length)]}
+              playing
+              loop
+              volume={1}
+              muted
+              width="100%"
+              height="100%"
+            />
+          </BackgroundVideo>
+        )
+      }
       <ShuttersContainer>
         <ShutterTop />
         <ShutterBottom />

@@ -8,7 +8,7 @@ exports[`View -> Contact should render the Contact view without throwing an erro
     >
       <styles__BackgroundVideo>
         <div
-          className="styles__BackgroundVideo-sc-18fbvjh-0 bfwCAv"
+          className="styles__BackgroundVideo-sc-18fbvjh-0 dViuys"
         >
           <ReactPlayer
             config={
@@ -110,7 +110,7 @@ exports[`View -> Contact should render the Contact view without throwing an erro
             progressInterval={1000}
             stopOnUnmount={true}
             style={Object {}}
-            url="https://www.youtube.com/watch?v=mGMZ6Rz6olg&t=25s"
+            url="https://youtu.be/p3rWb9eso0g?t=52"
             volume={1}
             width="100%"
             wrapper="div"
@@ -244,7 +244,7 @@ exports[`View -> Contact should render the Contact view without throwing an erro
                   progressInterval={1000}
                   stopOnUnmount={true}
                   style={Object {}}
-                  url="https://www.youtube.com/watch?v=mGMZ6Rz6olg&t=25s"
+                  url="https://youtu.be/p3rWb9eso0g?t=52"
                   volume={1}
                   width="100%"
                   wrapper="div"
@@ -256,7 +256,7 @@ exports[`View -> Contact should render the Contact view without throwing an erro
       </styles__BackgroundVideo>
       <styles__ShuttersContainer>
         <div
-          className="styles__ShuttersContainer-sc-18fbvjh-8 hNlXuK"
+          className="styles__ShuttersContainer-sc-18fbvjh-8 cdfFaI"
         >
           <styles__ShutterTop>
             <div
