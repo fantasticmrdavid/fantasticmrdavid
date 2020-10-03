@@ -1,9 +1,6 @@
 import React, { memo } from 'react';
 import BorderTracer from 'components/BorderTracer';
-import * as styles from './styles';
-import { Props } from './types';
-
-const {
+import {
   Container,
   Polygon,
   Front,
@@ -12,7 +9,8 @@ const {
   Right,
   Top,
   Bottom,
-} = styles;
+} from './styles';
+import { Props } from './types';
 
 export default memo(
   ({ isLoading }: Props) => (

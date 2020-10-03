@@ -1,7 +1,14 @@
 import React, { memo, useCallback } from 'react';
 import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import { Project as ProjectProps } from 'data/projects';
-import * as styles from './styles';
+import {
+  Background,
+  Container,
+  Content,
+  Gradient,
+  Icon,
+  Title,
+} from './styles';
 
 export interface Props {
   label: string,
@@ -9,15 +16,6 @@ export interface Props {
   type: string,
   updateCurrent: (target: string | undefined) => void,
 }
-
-const {
-  Background,
-  Container,
-  Content,
-  Gradient,
-  Icon,
-  Title,
-} = styles;
 
 export default memo(
   (props: Props) => {

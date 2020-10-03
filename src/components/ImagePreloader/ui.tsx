@@ -4,7 +4,7 @@ import React, {
   useEffect,
   useReducer,
 } from 'react';
-import * as styles from './styles';
+import { Container } from './styles';
 
 type State = {
   completed: boolean,
@@ -35,8 +35,6 @@ interface Props {
   images: string[],
   completedAction?: (...args: any[]) => any,
 }
-
-const { Container } = styles;
 
 export default memo(
   ({ images, completedAction }: Props) => {

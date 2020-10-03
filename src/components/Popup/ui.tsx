@@ -1,17 +1,15 @@
 import React, { memo, SyntheticEvent } from 'react';
-import * as styles from './styles';
-import { ContainerProps, StateProps, DispatchProps } from './types';
-
-export type UiProps = ContainerProps & StateProps & DispatchProps;
-
-const {
+import {
   Container,
   Lightbox,
   Dialog,
   Close,
   Landscape,
   Portrait,
-} = styles;
+} from './styles';
+import { ContainerProps, StateProps, DispatchProps } from './types';
+
+export type UiProps = ContainerProps & StateProps & DispatchProps;
 
 export default memo(
   (props: UiProps) => {

@@ -1,6 +1,9 @@
 import React, { memo, SyntheticEvent } from 'react';
 import { RouteComponentProps } from 'react-router-dom';
-import * as styles from './styles';
+import {
+  Container,
+  Label,
+} from './styles';
 import LocationContent from './LocationContent';
 
 export interface Props {
@@ -10,11 +13,6 @@ export interface Props {
   menuActive: boolean,
   label: string,
 }
-
-const {
-  Container,
-  Label,
-} = styles;
 
 export default memo(
   (props: Props & RouteComponentProps) => {

@@ -3,16 +3,7 @@ import ReactGA from 'react-ga';
 import ProjectMedia from 'components/ProjectMedia';
 import { Project as ProjectProps } from 'data/projects';
 import Action from '../Action';
-import * as styles from './styles';
-
-export type Props = {
-  isCurrent: boolean,
-  nextProject: ProjectProps,
-  previousProject: ProjectProps,
-  updateCurrent: (target: string | undefined) => void,
-} & ProjectProps;
-
-const {
+import {
   ActionsContainer,
   Container,
   Section,
@@ -22,7 +13,14 @@ const {
   LinkWrapper,
   MediaWrapper,
   Spacer,
-} = styles;
+} from './styles';
+
+export type Props = {
+  isCurrent: boolean,
+  nextProject: ProjectProps,
+  previousProject: ProjectProps,
+  updateCurrent: (target: string | undefined) => void,
+} & ProjectProps;
 
 export default memo(
   (props: Props) => {

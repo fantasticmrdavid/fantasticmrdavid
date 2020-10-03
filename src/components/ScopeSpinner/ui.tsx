@@ -1,11 +1,7 @@
 import React, { memo } from 'react';
 import Ring from './Ring';
 import Dial from './Dial';
-import * as styles from './styles';
-
-const {
-  Container,
-} = styles;
+import { Container } from './styles';
 
 const RingList = [
   {

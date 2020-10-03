@@ -3,17 +3,15 @@ import ScopeSpinner from 'components/ScopeSpinner';
 import ImagePreloader from 'components/ImagePreloader';
 import Project from 'components/Project';
 import projects, { Project as ProjectProps } from 'data/projects';
-import * as styles from './styles';
-import { ContainerProps, DispatchProps, StateProps } from './types';
-
-type UiProps = ContainerProps & DispatchProps & StateProps;
-
-const {
+import {
   Container,
   LoadingContainer,
   ProjectListContainer,
   SpinnerPlaceholder,
-} = styles;
+} from './styles';
+import { ContainerProps, DispatchProps, StateProps } from './types';
+
+type UiProps = ContainerProps & DispatchProps & StateProps;
 
 const getImages = () => {
   let images: string[] = [];
