@@ -1,6 +1,10 @@
 import React, { memo, SyntheticEvent } from 'react';
 import ReactGA from 'react-ga';
-import * as styles from './styles';
+import {
+  Container,
+  Frame,
+  Content,
+} from './styles';
 
 export interface Props {
   noSiblings: boolean,
@@ -10,12 +14,6 @@ export interface Props {
   thumbnail: string,
   url?: string | undefined,
 }
-
-const {
-  Container,
-  Frame,
-  Content,
-} = styles;
 
 export default memo(
   (props: Props) => {

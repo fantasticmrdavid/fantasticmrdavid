@@ -1,10 +1,8 @@
 import React, { memo } from 'react';
-import * as styles from './styles';
+import { Container } from './styles';
 import { DispatchProps, StateProps } from './types';
 
 type UiProps = DispatchProps & StateProps;
-
-const { Container } = styles;
 
 export default memo(
   (props: UiProps) => {

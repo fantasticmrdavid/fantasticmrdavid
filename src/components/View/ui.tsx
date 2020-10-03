@@ -6,19 +6,17 @@ import About from 'views/About';
 import Work from 'views/Work';
 import Contact from 'views/Contact';
 import GlobalStyles from 'styles/global';
-import * as styles from './styles';
-import { ContainerProps, DispatchProps, StateProps } from './types';
-
-export type UiProps = ContainerProps & DispatchProps & StateProps;
-
-const {
+import {
   Container,
   Control,
   Media,
   ShutterTop,
   ShutterBottom,
   MediaLoadingMessage,
-} = styles;
+} from './styles';
+import { ContainerProps, DispatchProps, StateProps } from './types';
+
+export type UiProps = ContainerProps & DispatchProps & StateProps;
 
 export default memo(
   ({

@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import * as styles from './styles';
+import { Link } from './styles';
 
 interface Props {
   children?: any,
@@ -8,7 +8,5 @@ interface Props {
   target?: string,
   rel?: string,
 }
-
-const { Link } = styles;
 
 export default memo((props: Props) => <Link {...props} />);

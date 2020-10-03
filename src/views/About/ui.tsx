@@ -1,10 +1,7 @@
 import React, { memo } from 'react';
 import Cube from 'components/Cube';
 import Link from 'components/Link';
-import * as styles from './styles';
-import { Props } from './types';
-
-const {
+import {
   Container,
   Bg,
   ProfilePhoto,
@@ -12,7 +9,8 @@ const {
   SleeperLink,
   SiteSpecs,
   SpecsSection,
-} = styles;
+} from './styles';
+import { Props } from './types';
 
 export default memo(
   ({ isLoading }: Props) => (

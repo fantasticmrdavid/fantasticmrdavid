@@ -5,9 +5,7 @@ import TerminalText from 'components/TerminalText';
 import { scrollToElement } from 'helpers/dom';
 import SocialLink from './SocialLink';
 import socialLinks from './socialLinks';
-import * as styles from './styles';
-
-const {
+import {
   BackgroundVideo,
   Container,
   ShuttersContainer,
@@ -17,7 +15,7 @@ const {
   Content,
   Email,
   Social,
-} = styles;
+} from './styles';
 
 const videoList = [
   'https://youtu.be/-UPxh7KJPHM?t=30', // Arkanoid

@@ -3,12 +3,7 @@ import { faAngleDown, faCog } from '@fortawesome/free-solid-svg-icons';
 import Blinker from 'components/Blinker';
 import MenuLink from 'components/MenuLink';
 import menu from './menu';
-import * as styles from './styles';
-import { ContainerProps, DispatchProps, StateProps } from './types';
-
-type UiProps = ContainerProps & DispatchProps & StateProps;
-
-const {
+import {
   Container,
   Title,
   Nav,
@@ -16,7 +11,10 @@ const {
   Cta,
   CogIcon,
   Icon,
-} = styles;
+} from './styles';
+import { ContainerProps, DispatchProps, StateProps } from './types';
+
+type UiProps = ContainerProps & DispatchProps & StateProps;
 
 export default memo(
   ({ isActive, location, toggleActive }: UiProps) => {

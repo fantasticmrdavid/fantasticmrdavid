@@ -1,21 +1,19 @@
 import React, { memo, useCallback } from 'react';
 import ReactGA from 'react-ga';
-import * as styles from './styles';
-
-export interface Props {
-  title: string,
-  thumbnail: string,
-  url?: string | undefined,
-}
-
-const {
+import {
   OuterFrame,
   Screen,
   HomeButton,
   UpButton,
   DownButton,
   Image,
-} = styles;
+} from './styles';
+
+export interface Props {
+  title: string,
+  thumbnail: string,
+  url?: string | undefined,
+}
 
 export default memo(
   ({ title, thumbnail, url }: Props) => {

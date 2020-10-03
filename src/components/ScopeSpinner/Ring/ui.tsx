@@ -1,11 +1,9 @@
 import React, { memo } from 'react';
-import * as styles from './styles';
-
-const {
+import {
   Container,
   Ring,
   Mask,
-} = styles;
+} from './styles';
 
 interface Props {
   rotateDirection?: string,

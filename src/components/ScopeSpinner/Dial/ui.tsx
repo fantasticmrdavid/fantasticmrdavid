@@ -1,12 +1,10 @@
 import React, { memo } from 'react';
-import * as styles from './styles';
-
-const {
+import {
   Container,
   Ring,
   Mask,
   Tick,
-} = styles;
+} from './styles';
 
 interface Props {
   char: string,

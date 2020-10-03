@@ -1,7 +1,15 @@
 import React, { memo, useCallback, SyntheticEvent } from 'react';
 import { Project as ProjectProps } from 'data/projects';
 import Content from './Content';
-import * as styles from './styles';
+import {
+  Container,
+  Tile,
+  Image,
+  TileContent,
+  Title,
+  Tagline,
+  Close,
+} from './styles';
 
 export type Props = {
   current: string,
@@ -11,16 +19,6 @@ export type Props = {
   previousProject: ProjectProps,
   updateCurrent: (target: string | undefined) => void,
 } & ProjectProps;
-
-const {
-  Container,
-  Tile,
-  Image,
-  TileContent,
-  Title,
-  Tagline,
-  Close,
-} = styles;
 
 export default memo(
   (props: Props) => {
