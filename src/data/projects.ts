@@ -152,15 +152,16 @@ export default [
     description: 'Starting out as a co-working space, General Assembly has grown into a pioneer in education and career transformation, specializing in today’s most in-demand skills. They are a leading source for training, staffing, and career transitions, fostering a flourishing community of professionals pursuing careers they love.<br /><br />I taught the Front End Web Development (FEWD) part time course at General Assembly\'s Melbourne campus. Throughout the 10 week course, students learnt HTML, CSS, JavaScript, and fundamental programming skills to build their own website project. It was immensely rewarding with students moving on to roles ranging from Junior Developer to Project Manager.',
   },
   {
-    title: 'Tramsformation',
+    title: 'Project Tramsformation',
     tagline: '3D Printing & Design',
     target: 'tramsformation',
+    url: 'https://tramsformation.com.au',
     images: {
       tileOff: '/assets/images/projects/tramsformation_off.jpg',
       tileOn: '/assets/images/projects/tramsformation_on.jpg',
     },
-    products: '3D models, artwork, website, transformable toys',
-    technologies: '3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop',
+    products: '3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design',
+    technologies: '3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop',
     description: 'An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne\'s iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80\'s toys.',
     media: [
       {
