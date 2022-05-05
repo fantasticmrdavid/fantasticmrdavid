@@ -162,7 +162,7 @@ export default [
     },
     products: '3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design',
     technologies: '3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop',
-    description: 'An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne\'s iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80\'s toys.',
+    description: 'An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne\'s iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80\'s toys.',
     media: [
       {
         type: 'image',
