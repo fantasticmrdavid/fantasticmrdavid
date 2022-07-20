@@ -1,4 +1,4 @@
-import React, { memo } from 'react';
+import React, { memo, useState } from 'react';
 import { faAngleDown, faCog } from '@fortawesome/free-solid-svg-icons';
 import Blinker from 'components/Blinker';
 import MenuLink from 'components/MenuLink';
@@ -12,35 +12,36 @@ import {
   CogIcon,
   Icon,
 } from './styles';
-import { ContainerProps, DispatchProps, StateProps } from './types';
+import { ContainerProps } from './types';
 
-type UiProps = ContainerProps & DispatchProps & StateProps;
+type UiProps = ContainerProps;
 
 export default memo(
-  ({ isActive, location, toggleActive }: UiProps) => {
-    const handleClick = () => toggleActive(isActive);
+  ({ location }: UiProps) => {
+    const [isOpen, setOpen] = useState<boolean>(false);
+    const handleClick = () => setOpen(!isOpen);
 
     return (
-      <Container isActive={isActive} onClick={handleClick}>
+      <Container isOpen={isOpen} onClick={handleClick}>
         <Title>Fantastic Mr David</Title>
 
-        <Nav isActive={isActive}>
+        <Nav isOpen={isOpen}>
           { menu.map((item) => (
             <MenuLink
               {...item}
-              menuActive={isActive}
+              menuActive={isOpen}
               key={`MenuLink_${item.target}`}
               current={location === item.target}
             />
           )) }
         </Nav>
 
-        <Subtitle isActive={isActive}>
-          <h2><CogIcon isActive={isActive} icon={faCog} />Art + Engineering</h2>
+        <Subtitle isOpen={isOpen}>
+          <h2><CogIcon isOpen={isOpen} icon={faCog} />Art + Engineering</h2>
           <Blinker />
         </Subtitle>
 
-        <Cta isActive={isActive}>
+        <Cta isOpen={isOpen}>
           <Icon icon={faAngleDown} />
         </Cta>
       </Container>
