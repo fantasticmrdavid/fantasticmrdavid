@@ -5,9 +5,5 @@ import { DispatchProps, StateProps } from './types';
 type UiProps = DispatchProps & StateProps;
 
 export default memo(
-  (props: UiProps) => {
-    const { isLoading, image, updateImage } = props;
-    updateImage();
-    return <Container isLoading={isLoading} imgSrc={image.src} />;
-  },
+  ({ isLoading }: UiProps) => <Container isLoading={isLoading} imgSrc="/assets/images/legoFlinders.jpg" />,
 );
