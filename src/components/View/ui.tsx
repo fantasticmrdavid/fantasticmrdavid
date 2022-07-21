@@ -1,4 +1,4 @@
-import React, { memo } from 'react';
+import React, { memo, useContext } from 'react';
 import LogoMenu from 'components/LogoMenu';
 import Popup from 'components/Popup';
 import Home from 'views/Home';
@@ -6,6 +6,7 @@ import About from 'views/About';
 import Work from 'views/Work';
 import Contact from 'views/Contact';
 import GlobalStyles from 'styles/global';
+import { LocationContext } from 'contexts/Location';
 import {
   Container,
   Control,
@@ -20,11 +21,11 @@ export type UiProps = ContainerProps & DispatchProps & StateProps;
 
 export default memo(
   ({
-    location,
     isLoading,
     isFirstLoad,
     target,
   }: UiProps) => {
+    const { location } = useContext(LocationContext);
     const isFirstMediaLoading = isLoading && isFirstLoad;
     return (
       <>

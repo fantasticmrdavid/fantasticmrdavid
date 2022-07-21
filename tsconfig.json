@@ -11,6 +11,7 @@
 		"sourceMap": true,
 		"paths": {
 			"styles/*": ["src/styles/*"],
+			"contexts/*": ["src/contexts/*"],
 			"components/*": ["src/components/*"],
 			"data/*": ["src/data/*"],
 			"helpers/*": ["src/helpers/*"],

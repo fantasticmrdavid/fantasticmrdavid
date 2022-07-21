@@ -7,7 +7,7 @@ const colorWork = '#967fd1';
 const colorContact = '#cc750c';
 
 interface LabelProps {
-  current: boolean,
+  isCurrent: boolean,
   menuActive: boolean,
   target: string,
 }
@@ -26,13 +26,13 @@ export const Label = styled.div<LabelProps>`
   position: relative;
   padding: ${(props) => (props.menuActive ? '0.75rem 2rem' : '0.75rem 0')};
   transition: 0.5s;
-  color: ${(props) => (props.current ? theme.colorBlack : undefined)};
-  font-size: ${(props) => (props.current ? '2rem' : undefined)};
-  font-weight: ${(props) => (props.current ? 600 : undefined)};
+  color: ${(props) => (props.isCurrent ? theme.colorBlack : undefined)};
+  font-size: ${(props) => (props.isCurrent ? '2rem' : undefined)};
+  font-weight: ${(props) => (props.isCurrent ? 600 : undefined)};
   cursor: pointer;
   background-color: ${(props) => {
-    const { current, target } = props;
-    if (current) {
+    const { isCurrent, target } = props;
+    if (isCurrent) {
       if (target === 'about') return colorAbout;
       if (target === 'work') return colorWork;
       if (target === 'contact') return colorContact;
@@ -53,15 +53,15 @@ export const Label = styled.div<LabelProps>`
 
   ${media.hover`
     &:hover {
-      padding-left: ${(props: { current: boolean }) => (!props.current ? '60px' : undefined)};
-      background-color: ${(props: { current: boolean }) => (!props.current ? theme.colorDarkGrey : undefined)};
+      padding-left: ${(props: { isCurrent: boolean }) => (!props.isCurrent ? '60px' : undefined)};
+      background-color: ${(props: { isCurrent: boolean }) => (!props.isCurrent ? theme.colorDarkGrey : undefined)};
 
       &:before {
-        width: ${(props: { current: boolean }) => (props.current ? '0px' : '15px')};
+        width: ${(props: { isCurrent: boolean }) => (props.isCurrent ? '0px' : '15px')};
         background-color: ${/* eslint-disable */
-          (props: { current: boolean, target: string }) => {
-          const { current, target } = props;
-          if (!current) {
+          (props: { isCurrent: boolean, target: string }) => {
+          const { isCurrent, target } = props;
+          if (!isCurrent) {
             if (target === 'about') return colorAbout;
             if (target === 'work') return colorWork;
             if (target === 'contact') return colorContact;

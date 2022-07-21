@@ -10,6 +10,7 @@ module.exports = {
   moduleNameMapper: {
     '^.+\\.css$': 'identity-obj-proxy',
     '^components(.*)$': '<rootDir>/src/components$1',
+    '^contexts(.*)$': '<rootDir>/src/contexts$1',
     '^data(.*)$': '<rootDir>/src/data$1',
     '^reducers(.*)$': '<rootDir>/src/reducers$1',
     '^routers(.*)$': '<rootDir>/src/routers$1',

@@ -5,16 +5,16 @@ import Contact from './Contact';
 import { Content } from './styles';
 
 interface Props {
-  current: boolean,
+  isCurrent: boolean,
   location: string,
 }
 
 export default memo(
-  ({ location, current }: Props) => {
+  ({ location, isCurrent }: Props) => {
     if (!location) return null;
 
     return (
-      <Content current={current}>
+      <Content isCurrent={isCurrent}>
         { location === 'about' && <About /> }
         { location === 'work' && <Work /> }
         { location === 'contact' && <Contact /> }
