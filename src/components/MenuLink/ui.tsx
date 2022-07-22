@@ -1,6 +1,7 @@
 import React, { memo, SyntheticEvent, useContext } from 'react';
 import { RouteComponentProps } from 'react-router-dom';
 import { LocationContext } from 'contexts/Location';
+import { LOCATIONS } from 'routers/Routes';
 import {
   Container,
   Label,
@@ -8,7 +9,7 @@ import {
 import LocationContent from './LocationContent';
 
 export interface Props {
-  target: string,
+  target: keyof typeof LOCATIONS,
   isCurrent: boolean,
   isMenuActive: boolean,
   label: string,
@@ -29,7 +30,7 @@ export default memo(
     const handleNavClick = (e: SyntheticEvent) => {
       e.preventDefault();
       e.stopPropagation();
-      updateLocation(isCurrent ? 'home' : target);
+      updateLocation(isCurrent ? LOCATIONS.home : target);
       history.push(`/${isCurrent ? '' : target}`);
     };
 

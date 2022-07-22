@@ -8,6 +8,7 @@ import Contact from 'views/Contact';
 import GlobalStyles from 'styles/global';
 import { LoadingContext } from 'contexts/Loading';
 import ImagePreloader from 'components/ImagePreloader';
+import { LOCATIONS } from 'routers/Routes';
 import {
   Container,
   Control,
@@ -48,10 +49,10 @@ export default memo(
             <MediaLoadingMessage isFirstMediaLoading={isFirstMediaLoading}>
               Hello!
             </MediaLoadingMessage>
-            { location === 'home' && <Home /> }
-            { location === 'about' && <About /> }
-            { location === 'work' && <Work target={target} /> }
-            { location === 'contact' && <Contact /> }
+            { location === LOCATIONS.home && <Home /> }
+            { location === LOCATIONS.about && <About /> }
+            { location === LOCATIONS.work && <Work target={target} /> }
+            { location === LOCATIONS.contact && <Contact /> }
           </Media>
         </Container>
       </>

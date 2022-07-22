@@ -3,22 +3,36 @@ import { Switch, Route } from 'react-router';
 import View from 'components/View';
 import projectList from 'data/projects';
 
+export const ROUTE_PATHS = {
+  home: '/',
+  about: '/about',
+  work: '/work',
+  contact: '/contact',
+};
+
+export const LOCATIONS = {
+  home: 'home',
+  about: 'about',
+  work: 'work',
+  contact: 'contact',
+};
+
 const Routes = () => {
   return (
     <Switch>
-      <Route exact path="/" render={() => <View location="home" />} />
-      <Route path="/about" render={() => <View location="about" />} />
+      <Route exact path={ROUTE_PATHS.home} render={() => <View location={LOCATIONS.home} />} />
+      <Route path={ROUTE_PATHS.about} render={() => <View location={LOCATIONS.about} />} />
       {
           projectList.map((p) => (
             <Route
               key={`route_${p.target}`}
-              path={`/work/${p.target}`}
-              render={() => <View location="work" target={p.target} />}
+              path={`${ROUTE_PATHS.work}/${p.target}`}
+              render={() => <View location={LOCATIONS.work} target={p.target} />}
             />
           ))
       }
-      <Route path="/work" render={() => <View location="work" />} />
-      <Route path="/contact" render={() => <View location="contact" />} />
+      <Route path={ROUTE_PATHS.work} render={() => <View location={LOCATIONS.work} />} />
+      <Route path={ROUTE_PATHS.contact} render={() => <View location={LOCATIONS.contact} />} />
     </Switch>
   );
 };

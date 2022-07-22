@@ -1,3 +1,5 @@
+import { LOCATIONS } from 'routers/Routes';
+
 export type ContainerProps = {
-  location?: string,
+  location?: keyof typeof LOCATIONS,
 };

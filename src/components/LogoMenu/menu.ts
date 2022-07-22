@@ -1,14 +1,19 @@
+import { LOCATIONS } from 'routers/Routes';
+
 export default [
   {
     label: 'About',
-    target: 'about',
+    target: LOCATIONS.about,
   },
   {
     label: 'Latest Work',
-    target: 'work',
+    target: LOCATIONS.work,
   },
   {
     label: 'Contact',
-    target: 'contact',
+    target: LOCATIONS.contact,
   },
-];
+] as {
+  label: string,
+  target: keyof typeof LOCATIONS
+}[];

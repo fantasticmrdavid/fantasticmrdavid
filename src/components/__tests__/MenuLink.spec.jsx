@@ -1,13 +1,13 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import Ui from 'components/MenuLink/ui';
+import { LOCATIONS } from 'routers/Routes';
 
 const props = {
-  target: 'contact',
-  current: false,
-  menuActive: true,
+  target: LOCATIONS.contact,
+  isCurrent: false,
+  isMenuActive: true,
   label: 'Contact',
-  updateLocation: jest.fn(),
   history: {
     push: jest.fn(),
   },

@@ -1,4 +1,5 @@
 import React, { memo } from 'react';
+import { LOCATIONS } from 'routers/Routes';
 import About from './About';
 import Work from './Work';
 import Contact from './Contact';
@@ -15,9 +16,9 @@ export default memo(
 
     return (
       <Content isCurrent={isCurrent}>
-        { location === 'about' && <About /> }
-        { location === 'work' && <Work /> }
-        { location === 'contact' && <Contact /> }
+        { location === LOCATIONS.about && <About /> }
+        { location === LOCATIONS.work && <Work /> }
+        { location === LOCATIONS.contact && <Contact /> }
       </Content>
     );
   },

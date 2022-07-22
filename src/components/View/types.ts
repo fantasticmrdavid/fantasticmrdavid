@@ -1,9 +1,11 @@
+import { LOCATIONS } from 'routers/Routes';
+
 export type StateProps = {
-  location: string,
+  location: keyof typeof LOCATIONS,
   popup: any,
 };
 
 export type ContainerProps = {
-  location?: string,
+  location?: keyof typeof LOCATIONS,
   target?: string
 };

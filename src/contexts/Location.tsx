@@ -1,9 +1,10 @@
 import React, {
   createContext, ReactNode, FC, useState, SetStateAction, Dispatch,
 } from 'react';
+import { LOCATIONS } from 'routers/Routes';
 
 export interface LocationContext {
-  location: string
+  location: typeof LOCATIONS[keyof typeof LOCATIONS],
   updateLocation: Dispatch<SetStateAction<string>>
 }
 
@@ -12,7 +13,7 @@ interface LocationContextProps {
 }
 
 const locationContextValues = {
-  location: 'home',
+  location: LOCATIONS.home,
   updateLocation: () => {},
 };
 
