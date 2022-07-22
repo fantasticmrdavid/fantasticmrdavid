@@ -2,32 +2,40 @@
 
 exports[`Component -> LogoMenu should render the LogoMenu UI without throwing an error 1`] = `
 <styles__Container
+  isOpen={false}
   onClick={[Function]}
 >
   <styles__Title>
     Fantastic Mr David
   </styles__Title>
-  <styles__Nav>
-    <Connect(withRouter(undefined))
+  <styles__Nav
+    isOpen={false}
+  >
+    <withRouter(undefined)
       current={false}
       key="MenuLink_about"
       label="About"
+      menuActive={false}
       target="about"
     />
-    <Connect(withRouter(undefined))
+    <withRouter(undefined)
       current={false}
       key="MenuLink_work"
       label="Latest Work"
+      menuActive={false}
       target="work"
     />
-    <Connect(withRouter(undefined))
+    <withRouter(undefined)
       current={false}
       key="MenuLink_contact"
       label="Contact"
+      menuActive={false}
       target="contact"
     />
   </styles__Nav>
-  <styles__Subtitle>
+  <styles__Subtitle
+    isOpen={false}
+  >
     <h2>
       <styles__CogIcon
         icon={
@@ -43,12 +51,15 @@ exports[`Component -> LogoMenu should render the LogoMenu UI without throwing an
             "prefix": "fas",
           }
         }
+        isOpen={false}
       />
       Art + Engineering
     </h2>
     <Memo() />
   </styles__Subtitle>
-  <styles__Cta>
+  <styles__Cta
+    isOpen={false}
+  >
     <styles__Icon
       icon={
         Object {

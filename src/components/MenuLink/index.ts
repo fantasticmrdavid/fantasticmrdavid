@@ -1,3 +1,4 @@
+import { withRouter } from 'react-router-dom';
 import Ui from './ui';
 
-export default Ui;
+export default withRouter(Ui);

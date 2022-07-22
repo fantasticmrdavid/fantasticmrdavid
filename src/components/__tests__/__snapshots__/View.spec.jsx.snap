@@ -6,19 +6,19 @@ exports[`Component -> View should render the View in first loading state without
   <styles__Container>
     <Connect(Component) />
     <styles__Control>
-      <Connect(Component)
-        location="about"
+      <Memo()
+        location="home"
       />
     </styles__Control>
     <styles__Media
-      location="about"
+      location="home"
     >
       <styles__ShutterTop />
       <styles__ShutterBottom />
       <styles__MediaLoadingMessage>
         Hello!
       </styles__MediaLoadingMessage>
-      <Memo() />
+      <Connect(Component) />
     </styles__Media>
   </styles__Container>
 </Fragment>
@@ -30,19 +30,19 @@ exports[`Component -> View should render the View in loading state without throw
   <styles__Container>
     <Connect(Component) />
     <styles__Control>
-      <Connect(Component)
-        location="about"
+      <Memo()
+        location="home"
       />
     </styles__Control>
     <styles__Media
-      location="about"
+      location="home"
     >
       <styles__ShutterTop />
       <styles__ShutterBottom />
       <styles__MediaLoadingMessage>
         Hello!
       </styles__MediaLoadingMessage>
-      <Memo() />
+      <Connect(Component) />
     </styles__Media>
   </styles__Container>
 </Fragment>
@@ -54,19 +54,19 @@ exports[`Component -> View should render the View without throwing an error 1`] 
   <styles__Container>
     <Connect(Component) />
     <styles__Control>
-      <Connect(Component)
-        location="about"
+      <Memo()
+        location="home"
       />
     </styles__Control>
     <styles__Media
-      location="about"
+      location="home"
     >
       <styles__ShutterTop />
       <styles__ShutterBottom />
       <styles__MediaLoadingMessage>
         Hello!
       </styles__MediaLoadingMessage>
-      <Memo() />
+      <Connect(Component) />
     </styles__Media>
   </styles__Container>
 </Fragment>

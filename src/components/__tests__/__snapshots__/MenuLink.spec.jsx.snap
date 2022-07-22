@@ -18,7 +18,7 @@ exports[`Component -> MenuLink should render the "about" MenuLink UI without thr
       className="styles__Container-sc-1w8m3j0-0 exuZum"
     >
       <styles__Label
-        current={false}
+        isCurrent={false}
         menuActive={true}
         onClick={[Function]}
         target="about"
@@ -32,11 +32,11 @@ exports[`Component -> MenuLink should render the "about" MenuLink UI without thr
         </div>
       </styles__Label>
       <Memo()
-        current={false}
+        isCurrent={false}
         location="about"
       >
         <styles__Content
-          current={false}
+          isCurrent={false}
         >
           <div
             className="styles__Content-xptth5-0 dwSYql"
@@ -72,7 +72,7 @@ exports[`Component -> MenuLink should render the "contact" MenuLink UI without t
       className="styles__Container-sc-1w8m3j0-0 exuZum"
     >
       <styles__Label
-        current={false}
+        isCurrent={false}
         menuActive={true}
         onClick={[Function]}
         target="contact"
@@ -86,11 +86,11 @@ exports[`Component -> MenuLink should render the "contact" MenuLink UI without t
         </div>
       </styles__Label>
       <Memo()
-        current={false}
+        isCurrent={false}
         location="contact"
       >
         <styles__Content
-          current={false}
+          isCurrent={false}
         >
           <div
             className="styles__Content-xptth5-0 dwSYql"
@@ -126,7 +126,7 @@ exports[`Component -> MenuLink should render the "work" MenuLink UI without thro
       className="styles__Container-sc-1w8m3j0-0 exuZum"
     >
       <styles__Label
-        current={false}
+        isCurrent={false}
         menuActive={true}
         onClick={[Function]}
         target="work"
@@ -140,11 +140,11 @@ exports[`Component -> MenuLink should render the "work" MenuLink UI without thro
         </div>
       </styles__Label>
       <Memo()
-        current={false}
+        isCurrent={false}
         location="work"
       >
         <styles__Content
-          current={false}
+          isCurrent={false}
         >
           <div
             className="styles__Content-xptth5-0 dwSYql"

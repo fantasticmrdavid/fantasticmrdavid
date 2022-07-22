@@ -241,7 +241,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                 parentLoading={true}
                 previousProject={
                   Object {
-                    "description": "An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
+                    "description": "An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
                     "images": Object {
                       "tileOff": "/assets/images/projects/tramsformation_off.jpg",
                       "tileOn": "/assets/images/projects/tramsformation_on.jpg",
@@ -310,11 +310,12 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                         "type": "website",
                       },
                     ],
-                    "products": "3D models, artwork, website, transformable toys",
+                    "products": "3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design",
                     "tagline": "3D Printing & Design",
                     "target": "tramsformation",
-                    "technologies": "3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop",
-                    "title": "Tramsformation",
+                    "technologies": "3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop",
+                    "title": "Project Tramsformation",
+                    "url": "https://tramsformation.com.au",
                   }
                 }
                 products="Child care search platform, Centre management platform, Mobile app, Admin platform"
@@ -493,7 +494,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                       parentLoading={true}
                       previousProject={
                         Object {
-                          "description": "An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
+                          "description": "An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
                           "images": Object {
                             "tileOff": "/assets/images/projects/tramsformation_off.jpg",
                             "tileOn": "/assets/images/projects/tramsformation_on.jpg",
@@ -562,11 +563,12 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                               "type": "website",
                             },
                           ],
-                          "products": "3D models, artwork, website, transformable toys",
+                          "products": "3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design",
                           "tagline": "3D Printing & Design",
                           "target": "tramsformation",
-                          "technologies": "3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop",
-                          "title": "Tramsformation",
+                          "technologies": "3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop",
+                          "title": "Project Tramsformation",
+                          "url": "https://tramsformation.com.au",
                         }
                       }
                       products="Child care search platform, Centre management platform, Mobile app, Admin platform"
@@ -1113,7 +1115,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                 label="Previous"
                                 project={
                                   Object {
-                                    "description": "An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
+                                    "description": "An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
                                     "images": Object {
                                       "tileOff": "/assets/images/projects/tramsformation_off.jpg",
                                       "tileOn": "/assets/images/projects/tramsformation_on.jpg",
@@ -1182,11 +1184,12 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                         "type": "website",
                                       },
                                     ],
-                                    "products": "3D models, artwork, website, transformable toys",
+                                    "products": "3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design",
                                     "tagline": "3D Printing & Design",
                                     "target": "tramsformation",
-                                    "technologies": "3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop",
-                                    "title": "Tramsformation",
+                                    "technologies": "3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop",
+                                    "title": "Project Tramsformation",
+                                    "url": "https://tramsformation.com.au",
                                   }
                                 }
                                 type="back"
@@ -1308,7 +1311,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                           <div
                                             className="styles__Title-sc-86jfdu-4 fLDlFe"
                                           >
-                                            Tramsformation
+                                            Project Tramsformation
                                           </div>
                                         </styles__Title>
                                       </div>
@@ -3482,7 +3485,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                 isCurrent={false}
                 nextProject={
                   Object {
-                    "description": "An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
+                    "description": "An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
                     "images": Object {
                       "tileOff": "/assets/images/projects/tramsformation_off.jpg",
                       "tileOn": "/assets/images/projects/tramsformation_on.jpg",
@@ -3551,11 +3554,12 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                         "type": "website",
                       },
                     ],
-                    "products": "3D models, artwork, website, transformable toys",
+                    "products": "3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design",
                     "tagline": "3D Printing & Design",
                     "target": "tramsformation",
-                    "technologies": "3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop",
-                    "title": "Tramsformation",
+                    "technologies": "3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop",
+                    "title": "Project Tramsformation",
+                    "url": "https://tramsformation.com.au",
                   }
                 }
                 parentLoading={true}
@@ -3664,7 +3668,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                       isCurrent={false}
                       nextProject={
                         Object {
-                          "description": "An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
+                          "description": "An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
                           "images": Object {
                             "tileOff": "/assets/images/projects/tramsformation_off.jpg",
                             "tileOn": "/assets/images/projects/tramsformation_on.jpg",
@@ -3733,11 +3737,12 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                               "type": "website",
                             },
                           ],
-                          "products": "3D models, artwork, website, transformable toys",
+                          "products": "3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design",
                           "tagline": "3D Printing & Design",
                           "target": "tramsformation",
-                          "technologies": "3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop",
-                          "title": "Tramsformation",
+                          "technologies": "3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop",
+                          "title": "Project Tramsformation",
+                          "url": "https://tramsformation.com.au",
                         }
                       }
                       parentLoading={true}
@@ -4037,7 +4042,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                 label="Next"
                                 project={
                                   Object {
-                                    "description": "An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
+                                    "description": "An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
                                     "images": Object {
                                       "tileOff": "/assets/images/projects/tramsformation_off.jpg",
                                       "tileOn": "/assets/images/projects/tramsformation_on.jpg",
@@ -4106,11 +4111,12 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                         "type": "website",
                                       },
                                     ],
-                                    "products": "3D models, artwork, website, transformable toys",
+                                    "products": "3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design",
                                     "tagline": "3D Printing & Design",
                                     "target": "tramsformation",
-                                    "technologies": "3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop",
-                                    "title": "Tramsformation",
+                                    "technologies": "3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop",
+                                    "title": "Project Tramsformation",
+                                    "url": "https://tramsformation.com.au",
                                   }
                                 }
                                 type="next"
@@ -4150,7 +4156,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                           <div
                                             className="styles__Title-sc-86jfdu-4 fLDlFe"
                                           >
-                                            Tramsformation
+                                            Project Tramsformation
                                           </div>
                                         </styles__Title>
                                         <styles__Icon
@@ -4250,7 +4256,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
               </Memo()>
             </Connect(Component)>
             <Connect(Component)
-              description="An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys."
+              description="An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys."
               images={
                 Object {
                   "tileOff": "/assets/images/projects/tramsformation_off.jpg",
@@ -4324,14 +4330,15 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                   },
                 ]
               }
-              products="3D models, artwork, website, transformable toys"
+              products="3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design"
               tagline="3D Printing & Design"
               target="tramsformation"
-              technologies="3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop"
-              title="Tramsformation"
+              technologies="3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop"
+              title="Project Tramsformation"
+              url="https://tramsformation.com.au"
             >
               <Memo()
-                description="An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys."
+                description="An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys."
                 images={
                   Object {
                     "tileOff": "/assets/images/projects/tramsformation_off.jpg",
@@ -4477,12 +4484,13 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                     "url": "https://generalassemb.ly",
                   }
                 }
-                products="3D models, artwork, website, transformable toys"
+                products="3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design"
                 tagline="3D Printing & Design"
                 target="tramsformation"
-                technologies="3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop"
-                title="Tramsformation"
+                technologies="3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop"
+                title="Project Tramsformation"
                 updateCurrent={[Function]}
+                url="https://tramsformation.com.au"
               >
                 <styles__Container
                   current={false}
@@ -4524,7 +4532,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                               <div
                                 className="styles__Title-sc-10eg4h6-4 hYOrsX"
                               >
-                                Tramsformation
+                                Project Tramsformation
                               </div>
                             </styles__Title>
                             <styles__Tagline>
@@ -4548,7 +4556,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                       </a>
                     </styles__Tile>
                     <Memo()
-                      description="An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys."
+                      description="An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys."
                       images={
                         Object {
                           "tileOff": "/assets/images/projects/tramsformation_off.jpg",
@@ -4694,12 +4702,13 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                           "url": "https://generalassemb.ly",
                         }
                       }
-                      products="3D models, artwork, website, transformable toys"
+                      products="3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design"
                       tagline="3D Printing & Design"
                       target="tramsformation"
-                      technologies="3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop"
-                      title="Tramsformation"
+                      technologies="3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop"
+                      title="Project Tramsformation"
                       updateCurrent={[Function]}
+                      url="https://tramsformation.com.au"
                     >
                       <styles__Container
                         current={false}
@@ -4722,7 +4731,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                 <div
                                   className="styles__Copy-sc-1mvvfhb-4 fsonzU"
                                 >
-                                  3D models, artwork, website, transformable toys
+                                  3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design
                                 </div>
                               </styles__Copy>
                             </section>
@@ -4742,7 +4751,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                 <div
                                   className="styles__Copy-sc-1mvvfhb-4 fsonzU"
                                 >
-                                  3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop
+                                  3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop
                                 </div>
                               </styles__Copy>
                             </section>
@@ -4761,7 +4770,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                               <styles__Copy
                                 dangerouslySetInnerHTML={
                                   Object {
-                                    "__html": "An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
+                                    "__html": "An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
                                   }
                                 }
                               >
@@ -4769,13 +4778,52 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                   className="styles__Copy-sc-1mvvfhb-4 fsonzU"
                                   dangerouslySetInnerHTML={
                                     Object {
-                                      "__html": "An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
+                                      "__html": "An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
                                     }
                                   }
                                 />
                               </styles__Copy>
                             </section>
                           </styles__Section>
+                          <styles__LinkWrapper>
+                            <div
+                              className="styles__LinkWrapper-sc-1mvvfhb-6 khuIgT"
+                            >
+                              <styles__Link
+                                href="https://tramsformation.com.au"
+                                onClick={[Function]}
+                                rel="noopener noreferrer"
+                                target="_blank"
+                              >
+                                <Memo()
+                                  className="styles__Link-sc-1mvvfhb-5 gkveOj"
+                                  href="https://tramsformation.com.au"
+                                  onClick={[Function]}
+                                  rel="noopener noreferrer"
+                                  target="_blank"
+                                >
+                                  <styles__Link
+                                    className="styles__Link-sc-1mvvfhb-5 gkveOj"
+                                    href="https://tramsformation.com.au"
+                                    onClick={[Function]}
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                  >
+                                    <a
+                                      className="styles__Link-sc-1rd8ebj-0 fmVTeT styles__Link-sc-1mvvfhb-5 gkveOj"
+                                      href="https://tramsformation.com.au"
+                                      onClick={[Function]}
+                                      rel="noopener noreferrer"
+                                      target="_blank"
+                                    >
+                                      Visit 
+                                      Project Tramsformation
+                                    </a>
+                                  </styles__Link>
+                                </Memo()>
+                              </styles__Link>
+                            </div>
+                          </styles__LinkWrapper>
                           <styles__MediaWrapper>
                             <div
                               className="styles__MediaWrapper-sc-1mvvfhb-7 iKpZfp"
@@ -5981,7 +6029,7 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                 parentLoading={true}
                 previousProject={
                   Object {
-                    "description": "An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
+                    "description": "An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
                     "images": Object {
                       "tileOff": "/assets/images/projects/tramsformation_off.jpg",
                       "tileOn": "/assets/images/projects/tramsformation_on.jpg",
@@ -6050,11 +6098,12 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                         "type": "website",
                       },
                     ],
-                    "products": "3D models, artwork, website, transformable toys",
+                    "products": "3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design",
                     "tagline": "3D Printing & Design",
                     "target": "tramsformation",
-                    "technologies": "3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop",
-                    "title": "Tramsformation",
+                    "technologies": "3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop",
+                    "title": "Project Tramsformation",
+                    "url": "https://tramsformation.com.au",
                   }
                 }
                 products="Child care search platform, Centre management platform, Mobile app, Admin platform"
@@ -6233,7 +6282,7 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                       parentLoading={true}
                       previousProject={
                         Object {
-                          "description": "An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
+                          "description": "An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
                           "images": Object {
                             "tileOff": "/assets/images/projects/tramsformation_off.jpg",
                             "tileOn": "/assets/images/projects/tramsformation_on.jpg",
@@ -6302,11 +6351,12 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                               "type": "website",
                             },
                           ],
-                          "products": "3D models, artwork, website, transformable toys",
+                          "products": "3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design",
                           "tagline": "3D Printing & Design",
                           "target": "tramsformation",
-                          "technologies": "3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop",
-                          "title": "Tramsformation",
+                          "technologies": "3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop",
+                          "title": "Project Tramsformation",
+                          "url": "https://tramsformation.com.au",
                         }
                       }
                       products="Child care search platform, Centre management platform, Mobile app, Admin platform"
@@ -6853,7 +6903,7 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                 label="Previous"
                                 project={
                                   Object {
-                                    "description": "An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
+                                    "description": "An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
                                     "images": Object {
                                       "tileOff": "/assets/images/projects/tramsformation_off.jpg",
                                       "tileOn": "/assets/images/projects/tramsformation_on.jpg",
@@ -6922,11 +6972,12 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                         "type": "website",
                                       },
                                     ],
-                                    "products": "3D models, artwork, website, transformable toys",
+                                    "products": "3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design",
                                     "tagline": "3D Printing & Design",
                                     "target": "tramsformation",
-                                    "technologies": "3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop",
-                                    "title": "Tramsformation",
+                                    "technologies": "3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop",
+                                    "title": "Project Tramsformation",
+                                    "url": "https://tramsformation.com.au",
                                   }
                                 }
                                 type="back"
@@ -7048,7 +7099,7 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                           <div
                                             className="styles__Title-sc-86jfdu-4 fLDlFe"
                                           >
-                                            Tramsformation
+                                            Project Tramsformation
                                           </div>
                                         </styles__Title>
                                       </div>
@@ -9222,7 +9273,7 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                 isCurrent={false}
                 nextProject={
                   Object {
-                    "description": "An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
+                    "description": "An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
                     "images": Object {
                       "tileOff": "/assets/images/projects/tramsformation_off.jpg",
                       "tileOn": "/assets/images/projects/tramsformation_on.jpg",
@@ -9291,11 +9342,12 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                         "type": "website",
                       },
                     ],
-                    "products": "3D models, artwork, website, transformable toys",
+                    "products": "3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design",
                     "tagline": "3D Printing & Design",
                     "target": "tramsformation",
-                    "technologies": "3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop",
-                    "title": "Tramsformation",
+                    "technologies": "3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop",
+                    "title": "Project Tramsformation",
+                    "url": "https://tramsformation.com.au",
                   }
                 }
                 parentLoading={true}
@@ -9404,7 +9456,7 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                       isCurrent={false}
                       nextProject={
                         Object {
-                          "description": "An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
+                          "description": "An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
                           "images": Object {
                             "tileOff": "/assets/images/projects/tramsformation_off.jpg",
                             "tileOn": "/assets/images/projects/tramsformation_on.jpg",
@@ -9473,11 +9525,12 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                               "type": "website",
                             },
                           ],
-                          "products": "3D models, artwork, website, transformable toys",
+                          "products": "3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design",
                           "tagline": "3D Printing & Design",
                           "target": "tramsformation",
-                          "technologies": "3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop",
-                          "title": "Tramsformation",
+                          "technologies": "3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop",
+                          "title": "Project Tramsformation",
+                          "url": "https://tramsformation.com.au",
                         }
                       }
                       parentLoading={true}
@@ -9777,7 +9830,7 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                 label="Next"
                                 project={
                                   Object {
-                                    "description": "An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
+                                    "description": "An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
                                     "images": Object {
                                       "tileOff": "/assets/images/projects/tramsformation_off.jpg",
                                       "tileOn": "/assets/images/projects/tramsformation_on.jpg",
@@ -9846,11 +9899,12 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                         "type": "website",
                                       },
                                     ],
-                                    "products": "3D models, artwork, website, transformable toys",
+                                    "products": "3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design",
                                     "tagline": "3D Printing & Design",
                                     "target": "tramsformation",
-                                    "technologies": "3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop",
-                                    "title": "Tramsformation",
+                                    "technologies": "3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop",
+                                    "title": "Project Tramsformation",
+                                    "url": "https://tramsformation.com.au",
                                   }
                                 }
                                 type="next"
@@ -9890,7 +9944,7 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                           <div
                                             className="styles__Title-sc-86jfdu-4 fLDlFe"
                                           >
-                                            Tramsformation
+                                            Project Tramsformation
                                           </div>
                                         </styles__Title>
                                         <styles__Icon
@@ -9990,7 +10044,7 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
               </Memo()>
             </Connect(Component)>
             <Connect(Component)
-              description="An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys."
+              description="An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys."
               images={
                 Object {
                   "tileOff": "/assets/images/projects/tramsformation_off.jpg",
@@ -10064,14 +10118,15 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                   },
                 ]
               }
-              products="3D models, artwork, website, transformable toys"
+              products="3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design"
               tagline="3D Printing & Design"
               target="tramsformation"
-              technologies="3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop"
-              title="Tramsformation"
+              technologies="3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop"
+              title="Project Tramsformation"
+              url="https://tramsformation.com.au"
             >
               <Memo()
-                description="An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys."
+                description="An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys."
                 images={
                   Object {
                     "tileOff": "/assets/images/projects/tramsformation_off.jpg",
@@ -10217,12 +10272,13 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                     "url": "https://generalassemb.ly",
                   }
                 }
-                products="3D models, artwork, website, transformable toys"
+                products="3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design"
                 tagline="3D Printing & Design"
                 target="tramsformation"
-                technologies="3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop"
-                title="Tramsformation"
+                technologies="3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop"
+                title="Project Tramsformation"
                 updateCurrent={[Function]}
+                url="https://tramsformation.com.au"
               >
                 <styles__Container
                   current={false}
@@ -10264,7 +10320,7 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                               <div
                                 className="styles__Title-sc-10eg4h6-4 hYOrsX"
                               >
-                                Tramsformation
+                                Project Tramsformation
                               </div>
                             </styles__Title>
                             <styles__Tagline>
@@ -10288,7 +10344,7 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                       </a>
                     </styles__Tile>
                     <Memo()
-                      description="An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys."
+                      description="An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys."
                       images={
                         Object {
                           "tileOff": "/assets/images/projects/tramsformation_off.jpg",
@@ -10434,12 +10490,13 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                           "url": "https://generalassemb.ly",
                         }
                       }
-                      products="3D models, artwork, website, transformable toys"
+                      products="3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design"
                       tagline="3D Printing & Design"
                       target="tramsformation"
-                      technologies="3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop"
-                      title="Tramsformation"
+                      technologies="3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop"
+                      title="Project Tramsformation"
                       updateCurrent={[Function]}
+                      url="https://tramsformation.com.au"
                     >
                       <styles__Container
                         current={false}
@@ -10462,7 +10519,7 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                 <div
                                   className="styles__Copy-sc-1mvvfhb-4 fsonzU"
                                 >
-                                  3D models, artwork, website, transformable toys
+                                  3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design
                                 </div>
                               </styles__Copy>
                             </section>
@@ -10482,7 +10539,7 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                 <div
                                   className="styles__Copy-sc-1mvvfhb-4 fsonzU"
                                 >
-                                  3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop
+                                  3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop
                                 </div>
                               </styles__Copy>
                             </section>
@@ -10501,7 +10558,7 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                               <styles__Copy
                                 dangerouslySetInnerHTML={
                                   Object {
-                                    "__html": "An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
+                                    "__html": "An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
                                   }
                                 }
                               >
@@ -10509,13 +10566,52 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                   className="styles__Copy-sc-1mvvfhb-4 fsonzU"
                                   dangerouslySetInnerHTML={
                                     Object {
-                                      "__html": "An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
+                                      "__html": "An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
                                     }
                                   }
                                 />
                               </styles__Copy>
                             </section>
                           </styles__Section>
+                          <styles__LinkWrapper>
+                            <div
+                              className="styles__LinkWrapper-sc-1mvvfhb-6 khuIgT"
+                            >
+                              <styles__Link
+                                href="https://tramsformation.com.au"
+                                onClick={[Function]}
+                                rel="noopener noreferrer"
+                                target="_blank"
+                              >
+                                <Memo()
+                                  className="styles__Link-sc-1mvvfhb-5 gkveOj"
+                                  href="https://tramsformation.com.au"
+                                  onClick={[Function]}
+                                  rel="noopener noreferrer"
+                                  target="_blank"
+                                >
+                                  <styles__Link
+                                    className="styles__Link-sc-1mvvfhb-5 gkveOj"
+                                    href="https://tramsformation.com.au"
+                                    onClick={[Function]}
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                  >
+                                    <a
+                                      className="styles__Link-sc-1rd8ebj-0 fmVTeT styles__Link-sc-1mvvfhb-5 gkveOj"
+                                      href="https://tramsformation.com.au"
+                                      onClick={[Function]}
+                                      rel="noopener noreferrer"
+                                      target="_blank"
+                                    >
+                                      Visit 
+                                      Project Tramsformation
+                                    </a>
+                                  </styles__Link>
+                                </Memo()>
+                              </styles__Link>
+                            </div>
+                          </styles__LinkWrapper>
                           <styles__MediaWrapper>
                             <div
                               className="styles__MediaWrapper-sc-1mvvfhb-7 iKpZfp"
@@ -13583,7 +13679,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                   parentLoading={true}
                   previousProject={
                     Object {
-                      "description": "An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
+                      "description": "An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
                       "images": Object {
                         "tileOff": "/assets/images/projects/tramsformation_off.jpg",
                         "tileOn": "/assets/images/projects/tramsformation_on.jpg",
@@ -13652,11 +13748,12 @@ exports[`View -> Work should render the Work view with Initializer without throw
                           "type": "website",
                         },
                       ],
-                      "products": "3D models, artwork, website, transformable toys",
+                      "products": "3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design",
                       "tagline": "3D Printing & Design",
                       "target": "tramsformation",
-                      "technologies": "3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop",
-                      "title": "Tramsformation",
+                      "technologies": "3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop",
+                      "title": "Project Tramsformation",
+                      "url": "https://tramsformation.com.au",
                     }
                   }
                   products="Child care search platform, Centre management platform, Mobile app, Admin platform"
@@ -13835,7 +13932,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                         parentLoading={true}
                         previousProject={
                           Object {
-                            "description": "An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
+                            "description": "An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
                             "images": Object {
                               "tileOff": "/assets/images/projects/tramsformation_off.jpg",
                               "tileOn": "/assets/images/projects/tramsformation_on.jpg",
@@ -13904,11 +14001,12 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                 "type": "website",
                               },
                             ],
-                            "products": "3D models, artwork, website, transformable toys",
+                            "products": "3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design",
                             "tagline": "3D Printing & Design",
                             "target": "tramsformation",
-                            "technologies": "3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop",
-                            "title": "Tramsformation",
+                            "technologies": "3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop",
+                            "title": "Project Tramsformation",
+                            "url": "https://tramsformation.com.au",
                           }
                         }
                         products="Child care search platform, Centre management platform, Mobile app, Admin platform"
@@ -14455,7 +14553,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                   label="Previous"
                                   project={
                                     Object {
-                                      "description": "An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
+                                      "description": "An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
                                       "images": Object {
                                         "tileOff": "/assets/images/projects/tramsformation_off.jpg",
                                         "tileOn": "/assets/images/projects/tramsformation_on.jpg",
@@ -14524,11 +14622,12 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                           "type": "website",
                                         },
                                       ],
-                                      "products": "3D models, artwork, website, transformable toys",
+                                      "products": "3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design",
                                       "tagline": "3D Printing & Design",
                                       "target": "tramsformation",
-                                      "technologies": "3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop",
-                                      "title": "Tramsformation",
+                                      "technologies": "3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop",
+                                      "title": "Project Tramsformation",
+                                      "url": "https://tramsformation.com.au",
                                     }
                                   }
                                   type="back"
@@ -14650,7 +14749,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                             <div
                                               className="styles__Title-sc-86jfdu-4 fLDlFe"
                                             >
-                                              Tramsformation
+                                              Project Tramsformation
                                             </div>
                                           </styles__Title>
                                         </div>
@@ -16824,7 +16923,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                   isCurrent={false}
                   nextProject={
                     Object {
-                      "description": "An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
+                      "description": "An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
                       "images": Object {
                         "tileOff": "/assets/images/projects/tramsformation_off.jpg",
                         "tileOn": "/assets/images/projects/tramsformation_on.jpg",
@@ -16893,11 +16992,12 @@ exports[`View -> Work should render the Work view with Initializer without throw
                           "type": "website",
                         },
                       ],
-                      "products": "3D models, artwork, website, transformable toys",
+                      "products": "3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design",
                       "tagline": "3D Printing & Design",
                       "target": "tramsformation",
-                      "technologies": "3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop",
-                      "title": "Tramsformation",
+                      "technologies": "3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop",
+                      "title": "Project Tramsformation",
+                      "url": "https://tramsformation.com.au",
                     }
                   }
                   parentLoading={true}
@@ -17006,7 +17106,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                         isCurrent={false}
                         nextProject={
                           Object {
-                            "description": "An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
+                            "description": "An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
                             "images": Object {
                               "tileOff": "/assets/images/projects/tramsformation_off.jpg",
                               "tileOn": "/assets/images/projects/tramsformation_on.jpg",
@@ -17075,11 +17175,12 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                 "type": "website",
                               },
                             ],
-                            "products": "3D models, artwork, website, transformable toys",
+                            "products": "3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design",
                             "tagline": "3D Printing & Design",
                             "target": "tramsformation",
-                            "technologies": "3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop",
-                            "title": "Tramsformation",
+                            "technologies": "3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop",
+                            "title": "Project Tramsformation",
+                            "url": "https://tramsformation.com.au",
                           }
                         }
                         parentLoading={true}
@@ -17379,7 +17480,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                   label="Next"
                                   project={
                                     Object {
-                                      "description": "An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
+                                      "description": "An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
                                       "images": Object {
                                         "tileOff": "/assets/images/projects/tramsformation_off.jpg",
                                         "tileOn": "/assets/images/projects/tramsformation_on.jpg",
@@ -17448,11 +17549,12 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                           "type": "website",
                                         },
                                       ],
-                                      "products": "3D models, artwork, website, transformable toys",
+                                      "products": "3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design",
                                       "tagline": "3D Printing & Design",
                                       "target": "tramsformation",
-                                      "technologies": "3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop",
-                                      "title": "Tramsformation",
+                                      "technologies": "3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop",
+                                      "title": "Project Tramsformation",
+                                      "url": "https://tramsformation.com.au",
                                     }
                                   }
                                   type="next"
@@ -17492,7 +17594,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                             <div
                                               className="styles__Title-sc-86jfdu-4 fLDlFe"
                                             >
-                                              Tramsformation
+                                              Project Tramsformation
                                             </div>
                                           </styles__Title>
                                           <styles__Icon
@@ -17592,7 +17694,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                 </Memo()>
               </Connect(Component)>
               <Connect(Component)
-                description="An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys."
+                description="An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys."
                 images={
                   Object {
                     "tileOff": "/assets/images/projects/tramsformation_off.jpg",
@@ -17666,14 +17768,15 @@ exports[`View -> Work should render the Work view with Initializer without throw
                     },
                   ]
                 }
-                products="3D models, artwork, website, transformable toys"
+                products="3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design"
                 tagline="3D Printing & Design"
                 target="tramsformation"
-                technologies="3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop"
-                title="Tramsformation"
+                technologies="3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop"
+                title="Project Tramsformation"
+                url="https://tramsformation.com.au"
               >
                 <Memo()
-                  description="An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys."
+                  description="An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys."
                   images={
                     Object {
                       "tileOff": "/assets/images/projects/tramsformation_off.jpg",
@@ -17819,12 +17922,13 @@ exports[`View -> Work should render the Work view with Initializer without throw
                       "url": "https://generalassemb.ly",
                     }
                   }
-                  products="3D models, artwork, website, transformable toys"
+                  products="3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design"
                   tagline="3D Printing & Design"
                   target="tramsformation"
-                  technologies="3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop"
-                  title="Tramsformation"
+                  technologies="3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop"
+                  title="Project Tramsformation"
                   updateCurrent={[Function]}
+                  url="https://tramsformation.com.au"
                 >
                   <styles__Container
                     current={false}
@@ -17866,7 +17970,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                 <div
                                   className="styles__Title-sc-10eg4h6-4 hYOrsX"
                                 >
-                                  Tramsformation
+                                  Project Tramsformation
                                 </div>
                               </styles__Title>
                               <styles__Tagline>
@@ -17890,7 +17994,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                         </a>
                       </styles__Tile>
                       <Memo()
-                        description="An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys."
+                        description="An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys."
                         images={
                           Object {
                             "tileOff": "/assets/images/projects/tramsformation_off.jpg",
@@ -18036,12 +18140,13 @@ exports[`View -> Work should render the Work view with Initializer without throw
                             "url": "https://generalassemb.ly",
                           }
                         }
-                        products="3D models, artwork, website, transformable toys"
+                        products="3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design"
                         tagline="3D Printing & Design"
                         target="tramsformation"
-                        technologies="3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop"
-                        title="Tramsformation"
+                        technologies="3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop"
+                        title="Project Tramsformation"
                         updateCurrent={[Function]}
+                        url="https://tramsformation.com.au"
                       >
                         <styles__Container
                           current={false}
@@ -18064,7 +18169,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                   <div
                                     className="styles__Copy-sc-1mvvfhb-4 fsonzU"
                                   >
-                                    3D models, artwork, website, transformable toys
+                                    3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design
                                   </div>
                                 </styles__Copy>
                               </section>
@@ -18084,7 +18189,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                   <div
                                     className="styles__Copy-sc-1mvvfhb-4 fsonzU"
                                   >
-                                    3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop
+                                    3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop
                                   </div>
                                 </styles__Copy>
                               </section>
@@ -18103,7 +18208,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                 <styles__Copy
                                   dangerouslySetInnerHTML={
                                     Object {
-                                      "__html": "An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
+                                      "__html": "An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
                                     }
                                   }
                                 >
@@ -18111,13 +18216,52 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                     className="styles__Copy-sc-1mvvfhb-4 fsonzU"
                                     dangerouslySetInnerHTML={
                                       Object {
-                                        "__html": "An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
+                                        "__html": "An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.",
                                       }
                                     }
                                   />
                                 </styles__Copy>
                               </section>
                             </styles__Section>
+                            <styles__LinkWrapper>
+                              <div
+                                className="styles__LinkWrapper-sc-1mvvfhb-6 khuIgT"
+                              >
+                                <styles__Link
+                                  href="https://tramsformation.com.au"
+                                  onClick={[Function]}
+                                  rel="noopener noreferrer"
+                                  target="_blank"
+                                >
+                                  <Memo()
+                                    className="styles__Link-sc-1mvvfhb-5 gkveOj"
+                                    href="https://tramsformation.com.au"
+                                    onClick={[Function]}
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                  >
+                                    <styles__Link
+                                      className="styles__Link-sc-1mvvfhb-5 gkveOj"
+                                      href="https://tramsformation.com.au"
+                                      onClick={[Function]}
+                                      rel="noopener noreferrer"
+                                      target="_blank"
+                                    >
+                                      <a
+                                        className="styles__Link-sc-1rd8ebj-0 fmVTeT styles__Link-sc-1mvvfhb-5 gkveOj"
+                                        href="https://tramsformation.com.au"
+                                        onClick={[Function]}
+                                        rel="noopener noreferrer"
+                                        target="_blank"
+                                      >
+                                        Visit 
+                                        Project Tramsformation
+                                      </a>
+                                    </styles__Link>
+                                  </Memo()>
+                                </styles__Link>
+                              </div>
+                            </styles__LinkWrapper>
                             <styles__MediaWrapper>
                               <div
                                 className="styles__MediaWrapper-sc-1mvvfhb-7 iKpZfp"

@@ -110,7 +110,7 @@ exports[`View -> Contact should render the Contact view without throwing an erro
             progressInterval={1000}
             stopOnUnmount={true}
             style={Object {}}
-            url="https://youtu.be/-UPxh7KJPHM?t=30"
+            url="https://youtu.be/mGMZ6Rz6olg?t=25"
             volume={1}
             width="100%"
             wrapper="div"
@@ -244,7 +244,7 @@ exports[`View -> Contact should render the Contact view without throwing an erro
                   progressInterval={1000}
                   stopOnUnmount={true}
                   style={Object {}}
-                  url="https://youtu.be/-UPxh7KJPHM?t=30"
+                  url="https://youtu.be/mGMZ6Rz6olg?t=25"
                   volume={1}
                   width="100%"
                   wrapper="div"

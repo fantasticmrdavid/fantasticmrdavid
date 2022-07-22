@@ -14,7 +14,7 @@ export interface Props {
   label: string,
 }
 
-export default withRouter(memo(
+export default memo(
   (props: Props & RouteComponentProps) => {
     const {
       label,
@@ -47,4 +47,4 @@ export default withRouter(memo(
       </Container>
     );
   },
-));
+);

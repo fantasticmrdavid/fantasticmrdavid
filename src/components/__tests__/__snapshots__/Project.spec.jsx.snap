@@ -536,6 +536,318 @@ exports[`Component -> Project -> LEGO Flinders St should render the Project UI (
 </styles__Container>
 `;
 
+exports[`Component -> Project -> Project Tramsformation should render the Project UI (current) without throwing an error 1`] = `
+<styles__Container
+  current={true}
+  otherCurrent={false}
+>
+  <styles__Tile
+    current={true}
+    onClick={[Function]}
+    otherCurrent={false}
+    parentLoading={false}
+    target="tramsformation"
+  >
+    <styles__Image
+      current={true}
+      srcOff="/assets/images/projects/tramsformation_off.jpg"
+      srcOn="/assets/images/projects/tramsformation_on.jpg"
+      target="tramsformation"
+    />
+    <styles__TileContent
+      current={true}
+    >
+      <styles__Title>
+        Project Tramsformation
+      </styles__Title>
+      <styles__Tagline>
+        3D Printing & Design
+      </styles__Tagline>
+    </styles__TileContent>
+    <styles__Close
+      current={true}
+    >
+      X
+    </styles__Close>
+  </styles__Tile>
+  <Memo()
+    description="An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys."
+    images={
+      Object {
+        "tileOff": "/assets/images/projects/tramsformation_off.jpg",
+        "tileOn": "/assets/images/projects/tramsformation_on.jpg",
+      }
+    }
+    isCurrent={true}
+    media={
+      Array [
+        Object {
+          "orientation": "landscape",
+          "slug": "tramsformation_w_1",
+          "thumbnail": "/assets/images/projects/tramsformation/tramsformer_w_1_preview.jpg",
+          "title": "Tramsformer W-Class Robot Mode",
+          "type": "image",
+          "url": "/assets/images/projects/tramsformation/tramsformer_w_1_full.jpg",
+        },
+        Object {
+          "orientation": "landscape",
+          "slug": "tramsformation_w_2",
+          "thumbnail": "/assets/images/projects/tramsformation/tramsformer_w_2_preview.jpg",
+          "title": "Tramsformer W-Class Tram Mode",
+          "type": "image",
+          "url": "/assets/images/projects/tramsformation/tramsformer_w_2_full.jpg",
+        },
+        Object {
+          "orientation": "portrait",
+          "slug": "tramsformation_print",
+          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_print_preview.jpg",
+          "title": "Tramsformer art print",
+          "type": "image",
+          "url": "/assets/images/projects/tramsformation/tramsformation_print_full.jpg",
+        },
+        Object {
+          "orientation": "portrait",
+          "slug": "tramsformation_transform",
+          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_transform_preview.jpg",
+          "title": "Tramsformer transformation",
+          "type": "image",
+          "url": "/assets/images/projects/tramsformation/tramsformation_transform_full.jpg",
+        },
+        Object {
+          "orientation": "portrait",
+          "slug": "tramsformation_model",
+          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_model_preview.jpg",
+          "title": "Tramsformer model",
+          "type": "image",
+          "url": "/assets/images/projects/tramsformation/tramsformation_model_full.jpg",
+        },
+        Object {
+          "orientation": "landscape",
+          "slug": "tramsformation_model_altmode",
+          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_model_altmode_preview.jpg",
+          "title": "Tramsformer model tram mode",
+          "type": "image",
+          "url": "/assets/images/projects/tramsformation/tramsformation_model_altmode_full.jpg",
+        },
+        Object {
+          "platform": "mobile",
+          "slug": "tramsformation_mobile",
+          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_mobile_preview.jpg",
+          "title": "Tramsformation mobile site",
+          "type": "website",
+        },
+        Object {
+          "platform": "desktop",
+          "slug": "tramsformation_desktop",
+          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_desktop_preview.jpg",
+          "title": "Tramsformation desktop site",
+          "type": "website",
+        },
+      ]
+    }
+    parentLoading={false}
+    products="3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design"
+    tagline="3D Printing & Design"
+    target="tramsformation"
+    technologies="3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop"
+    title="Project Tramsformation"
+    updateCurrent={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "kindynow",
+          ],
+          Array [
+            "sitepoint",
+          ],
+          Array [
+            "legoFlinders",
+          ],
+          Array [
+            "ga",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    url="https://tramsformation.com.au"
+  />
+</styles__Container>
+`;
+
+exports[`Component -> Project -> Project Tramsformation should render the Project UI (not current) without throwing an error 1`] = `
+<styles__Container
+  current={false}
+  otherCurrent={false}
+>
+  <styles__Tile
+    current={false}
+    onClick={[Function]}
+    otherCurrent={false}
+    parentLoading={false}
+    target="tramsformation"
+  >
+    <styles__Image
+      current={false}
+      srcOff="/assets/images/projects/tramsformation_off.jpg"
+      srcOn="/assets/images/projects/tramsformation_on.jpg"
+      target="tramsformation"
+    />
+    <styles__TileContent
+      current={false}
+    >
+      <styles__Title>
+        Project Tramsformation
+      </styles__Title>
+      <styles__Tagline>
+        3D Printing & Design
+      </styles__Tagline>
+    </styles__TileContent>
+    <styles__Close
+      current={false}
+    >
+      X
+    </styles__Close>
+  </styles__Tile>
+  <Memo()
+    description="An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys."
+    images={
+      Object {
+        "tileOff": "/assets/images/projects/tramsformation_off.jpg",
+        "tileOn": "/assets/images/projects/tramsformation_on.jpg",
+      }
+    }
+    isCurrent={false}
+    media={
+      Array [
+        Object {
+          "orientation": "landscape",
+          "slug": "tramsformation_w_1",
+          "thumbnail": "/assets/images/projects/tramsformation/tramsformer_w_1_preview.jpg",
+          "title": "Tramsformer W-Class Robot Mode",
+          "type": "image",
+          "url": "/assets/images/projects/tramsformation/tramsformer_w_1_full.jpg",
+        },
+        Object {
+          "orientation": "landscape",
+          "slug": "tramsformation_w_2",
+          "thumbnail": "/assets/images/projects/tramsformation/tramsformer_w_2_preview.jpg",
+          "title": "Tramsformer W-Class Tram Mode",
+          "type": "image",
+          "url": "/assets/images/projects/tramsformation/tramsformer_w_2_full.jpg",
+        },
+        Object {
+          "orientation": "portrait",
+          "slug": "tramsformation_print",
+          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_print_preview.jpg",
+          "title": "Tramsformer art print",
+          "type": "image",
+          "url": "/assets/images/projects/tramsformation/tramsformation_print_full.jpg",
+        },
+        Object {
+          "orientation": "portrait",
+          "slug": "tramsformation_transform",
+          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_transform_preview.jpg",
+          "title": "Tramsformer transformation",
+          "type": "image",
+          "url": "/assets/images/projects/tramsformation/tramsformation_transform_full.jpg",
+        },
+        Object {
+          "orientation": "portrait",
+          "slug": "tramsformation_model",
+          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_model_preview.jpg",
+          "title": "Tramsformer model",
+          "type": "image",
+          "url": "/assets/images/projects/tramsformation/tramsformation_model_full.jpg",
+        },
+        Object {
+          "orientation": "landscape",
+          "slug": "tramsformation_model_altmode",
+          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_model_altmode_preview.jpg",
+          "title": "Tramsformer model tram mode",
+          "type": "image",
+          "url": "/assets/images/projects/tramsformation/tramsformation_model_altmode_full.jpg",
+        },
+        Object {
+          "platform": "mobile",
+          "slug": "tramsformation_mobile",
+          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_mobile_preview.jpg",
+          "title": "Tramsformation mobile site",
+          "type": "website",
+        },
+        Object {
+          "platform": "desktop",
+          "slug": "tramsformation_desktop",
+          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_desktop_preview.jpg",
+          "title": "Tramsformation desktop site",
+          "type": "website",
+        },
+      ]
+    }
+    parentLoading={false}
+    products="3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design"
+    tagline="3D Printing & Design"
+    target="tramsformation"
+    technologies="3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop"
+    title="Project Tramsformation"
+    updateCurrent={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "kindynow",
+          ],
+          Array [
+            "sitepoint",
+          ],
+          Array [
+            "legoFlinders",
+          ],
+          Array [
+            "ga",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    url="https://tramsformation.com.au"
+  />
+</styles__Container>
+`;
+
 exports[`Component -> Project -> SitePoint should render the Project UI (current) without throwing an error 1`] = `
 <styles__Container
   current={true}
@@ -742,316 +1054,6 @@ exports[`Component -> Project -> SitePoint should render the Project UI (not cur
       }
     }
     url="https://www.sitepoint.com"
-  />
-</styles__Container>
-`;
-
-exports[`Component -> Project -> Tramsformation should render the Project UI (current) without throwing an error 1`] = `
-<styles__Container
-  current={true}
-  otherCurrent={false}
->
-  <styles__Tile
-    current={true}
-    onClick={[Function]}
-    otherCurrent={false}
-    parentLoading={false}
-    target="tramsformation"
-  >
-    <styles__Image
-      current={true}
-      srcOff="/assets/images/projects/tramsformation_off.jpg"
-      srcOn="/assets/images/projects/tramsformation_on.jpg"
-      target="tramsformation"
-    />
-    <styles__TileContent
-      current={true}
-    >
-      <styles__Title>
-        Tramsformation
-      </styles__Title>
-      <styles__Tagline>
-        3D Printing & Design
-      </styles__Tagline>
-    </styles__TileContent>
-    <styles__Close
-      current={true}
-    >
-      X
-    </styles__Close>
-  </styles__Tile>
-  <Memo()
-    description="An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys."
-    images={
-      Object {
-        "tileOff": "/assets/images/projects/tramsformation_off.jpg",
-        "tileOn": "/assets/images/projects/tramsformation_on.jpg",
-      }
-    }
-    isCurrent={true}
-    media={
-      Array [
-        Object {
-          "orientation": "landscape",
-          "slug": "tramsformation_w_1",
-          "thumbnail": "/assets/images/projects/tramsformation/tramsformer_w_1_preview.jpg",
-          "title": "Tramsformer W-Class Robot Mode",
-          "type": "image",
-          "url": "/assets/images/projects/tramsformation/tramsformer_w_1_full.jpg",
-        },
-        Object {
-          "orientation": "landscape",
-          "slug": "tramsformation_w_2",
-          "thumbnail": "/assets/images/projects/tramsformation/tramsformer_w_2_preview.jpg",
-          "title": "Tramsformer W-Class Tram Mode",
-          "type": "image",
-          "url": "/assets/images/projects/tramsformation/tramsformer_w_2_full.jpg",
-        },
-        Object {
-          "orientation": "portrait",
-          "slug": "tramsformation_print",
-          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_print_preview.jpg",
-          "title": "Tramsformer art print",
-          "type": "image",
-          "url": "/assets/images/projects/tramsformation/tramsformation_print_full.jpg",
-        },
-        Object {
-          "orientation": "portrait",
-          "slug": "tramsformation_transform",
-          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_transform_preview.jpg",
-          "title": "Tramsformer transformation",
-          "type": "image",
-          "url": "/assets/images/projects/tramsformation/tramsformation_transform_full.jpg",
-        },
-        Object {
-          "orientation": "portrait",
-          "slug": "tramsformation_model",
-          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_model_preview.jpg",
-          "title": "Tramsformer model",
-          "type": "image",
-          "url": "/assets/images/projects/tramsformation/tramsformation_model_full.jpg",
-        },
-        Object {
-          "orientation": "landscape",
-          "slug": "tramsformation_model_altmode",
-          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_model_altmode_preview.jpg",
-          "title": "Tramsformer model tram mode",
-          "type": "image",
-          "url": "/assets/images/projects/tramsformation/tramsformation_model_altmode_full.jpg",
-        },
-        Object {
-          "platform": "mobile",
-          "slug": "tramsformation_mobile",
-          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_mobile_preview.jpg",
-          "title": "Tramsformation mobile site",
-          "type": "website",
-        },
-        Object {
-          "platform": "desktop",
-          "slug": "tramsformation_desktop",
-          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_desktop_preview.jpg",
-          "title": "Tramsformation desktop site",
-          "type": "website",
-        },
-      ]
-    }
-    parentLoading={false}
-    products="3D models, artwork, website, transformable toys"
-    tagline="3D Printing & Design"
-    target="tramsformation"
-    technologies="3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop"
-    title="Tramsformation"
-    updateCurrent={
-      [MockFunction] {
-        "calls": Array [
-          Array [
-            "kindynow",
-          ],
-          Array [
-            "sitepoint",
-          ],
-          Array [
-            "legoFlinders",
-          ],
-          Array [
-            "ga",
-          ],
-        ],
-        "results": Array [
-          Object {
-            "type": "return",
-            "value": undefined,
-          },
-          Object {
-            "type": "return",
-            "value": undefined,
-          },
-          Object {
-            "type": "return",
-            "value": undefined,
-          },
-          Object {
-            "type": "return",
-            "value": undefined,
-          },
-        ],
-      }
-    }
-  />
-</styles__Container>
-`;
-
-exports[`Component -> Project -> Tramsformation should render the Project UI (not current) without throwing an error 1`] = `
-<styles__Container
-  current={false}
-  otherCurrent={false}
->
-  <styles__Tile
-    current={false}
-    onClick={[Function]}
-    otherCurrent={false}
-    parentLoading={false}
-    target="tramsformation"
-  >
-    <styles__Image
-      current={false}
-      srcOff="/assets/images/projects/tramsformation_off.jpg"
-      srcOn="/assets/images/projects/tramsformation_on.jpg"
-      target="tramsformation"
-    />
-    <styles__TileContent
-      current={false}
-    >
-      <styles__Title>
-        Tramsformation
-      </styles__Title>
-      <styles__Tagline>
-        3D Printing & Design
-      </styles__Tagline>
-    </styles__TileContent>
-    <styles__Close
-      current={false}
-    >
-      X
-    </styles__Close>
-  </styles__Tile>
-  <Memo()
-    description="An ongoing personal project that starting with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys."
-    images={
-      Object {
-        "tileOff": "/assets/images/projects/tramsformation_off.jpg",
-        "tileOn": "/assets/images/projects/tramsformation_on.jpg",
-      }
-    }
-    isCurrent={false}
-    media={
-      Array [
-        Object {
-          "orientation": "landscape",
-          "slug": "tramsformation_w_1",
-          "thumbnail": "/assets/images/projects/tramsformation/tramsformer_w_1_preview.jpg",
-          "title": "Tramsformer W-Class Robot Mode",
-          "type": "image",
-          "url": "/assets/images/projects/tramsformation/tramsformer_w_1_full.jpg",
-        },
-        Object {
-          "orientation": "landscape",
-          "slug": "tramsformation_w_2",
-          "thumbnail": "/assets/images/projects/tramsformation/tramsformer_w_2_preview.jpg",
-          "title": "Tramsformer W-Class Tram Mode",
-          "type": "image",
-          "url": "/assets/images/projects/tramsformation/tramsformer_w_2_full.jpg",
-        },
-        Object {
-          "orientation": "portrait",
-          "slug": "tramsformation_print",
-          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_print_preview.jpg",
-          "title": "Tramsformer art print",
-          "type": "image",
-          "url": "/assets/images/projects/tramsformation/tramsformation_print_full.jpg",
-        },
-        Object {
-          "orientation": "portrait",
-          "slug": "tramsformation_transform",
-          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_transform_preview.jpg",
-          "title": "Tramsformer transformation",
-          "type": "image",
-          "url": "/assets/images/projects/tramsformation/tramsformation_transform_full.jpg",
-        },
-        Object {
-          "orientation": "portrait",
-          "slug": "tramsformation_model",
-          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_model_preview.jpg",
-          "title": "Tramsformer model",
-          "type": "image",
-          "url": "/assets/images/projects/tramsformation/tramsformation_model_full.jpg",
-        },
-        Object {
-          "orientation": "landscape",
-          "slug": "tramsformation_model_altmode",
-          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_model_altmode_preview.jpg",
-          "title": "Tramsformer model tram mode",
-          "type": "image",
-          "url": "/assets/images/projects/tramsformation/tramsformation_model_altmode_full.jpg",
-        },
-        Object {
-          "platform": "mobile",
-          "slug": "tramsformation_mobile",
-          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_mobile_preview.jpg",
-          "title": "Tramsformation mobile site",
-          "type": "website",
-        },
-        Object {
-          "platform": "desktop",
-          "slug": "tramsformation_desktop",
-          "thumbnail": "/assets/images/projects/tramsformation/tramsformation_desktop_preview.jpg",
-          "title": "Tramsformation desktop site",
-          "type": "website",
-        },
-      ]
-    }
-    parentLoading={false}
-    products="3D models, artwork, website, transformable toys"
-    tagline="3D Printing & Design"
-    target="tramsformation"
-    technologies="3D printing, 3DS Max, HTML, CSS, jQuery, PHP, MySQL, Photoshop"
-    title="Tramsformation"
-    updateCurrent={
-      [MockFunction] {
-        "calls": Array [
-          Array [
-            "kindynow",
-          ],
-          Array [
-            "sitepoint",
-          ],
-          Array [
-            "legoFlinders",
-          ],
-          Array [
-            "ga",
-          ],
-        ],
-        "results": Array [
-          Object {
-            "type": "return",
-            "value": undefined,
-          },
-          Object {
-            "type": "return",
-            "value": undefined,
-          },
-          Object {
-            "type": "return",
-            "value": undefined,
-          },
-          Object {
-            "type": "return",
-            "value": undefined,
-          },
-        ],
-      }
-    }
   />
 </styles__Container>
 `;

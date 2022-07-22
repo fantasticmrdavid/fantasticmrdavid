@@ -9,25 +9,13 @@ exports[`View -> Home should render the Home UI (loading) without throwing an er
     }
   }
   loading={true}
-  updateImage={
-    [MockFunction] {
-      "calls": Array [
-        Array [],
-      ],
-      "results": Array [
-        Object {
-          "type": "return",
-          "value": undefined,
-        },
-      ],
-    }
-  }
+  updateImage={[MockFunction]}
 >
   <styles__Container
-    imgSrc="testImage/url.jpg"
+    imgSrc="/assets/images/legoFlinders.jpg"
   >
     <div
-      className="styles__Container-sc-19v7chj-0 wtOCV"
+      className="styles__Container-sc-19v7chj-0 ftUPBY"
     />
   </styles__Container>
 </Memo()>
@@ -42,25 +30,13 @@ exports[`View -> Home should render the Home UI (not loading) without throwing a
     }
   }
   loading={false}
-  updateImage={
-    [MockFunction] {
-      "calls": Array [
-        Array [],
-      ],
-      "results": Array [
-        Object {
-          "type": "return",
-          "value": undefined,
-        },
-      ],
-    }
-  }
+  updateImage={[MockFunction]}
 >
   <styles__Container
-    imgSrc="testImage/url.jpg"
+    imgSrc="/assets/images/legoFlinders.jpg"
   >
     <div
-      className="styles__Container-sc-19v7chj-0 wtOCV"
+      className="styles__Container-sc-19v7chj-0 ftUPBY"
     />
   </styles__Container>
 </Memo()>
@@ -93,14 +69,8 @@ exports[`View -> Home should render the Home view with Initializer without throw
   </Connect(_default)>
   <Connect(Component)>
     <Memo()
-      image={
-        Object {
-          "name": "legoFlinders",
-          "src": "/assets/images/legoFlinders.jpg",
-        }
-      }
+      dispatch={[Function]}
       loading={true}
-      updateImage={[Function]}
     >
       <styles__Container
         imgSrc="/assets/images/legoFlinders.jpg"
