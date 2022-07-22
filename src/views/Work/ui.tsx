@@ -4,15 +4,15 @@ import ImagePreloader from 'components/ImagePreloader';
 import Project from 'components/Project';
 import projects, { Project as ProjectProps } from 'data/projects';
 import { LoadingContext } from 'contexts/Loading';
+import { WorkLocationContext } from 'contexts/WorkLocation';
 import {
   Container,
   LoadingContainer,
   ProjectListContainer,
   SpinnerPlaceholder,
 } from './styles';
-import { ContainerProps, DispatchProps, StateProps } from './types';
 
-type UiProps = ContainerProps & DispatchProps & StateProps;
+type UiProps = { target?: string };
 
 const getImages = () => {
   let images: string[] = [];
@@ -32,17 +32,15 @@ const getImages = () => {
 const images = getImages();
 
 export default memo((props: UiProps) => {
-  const {
-    target,
-    setTarget,
-  } = props;
+  const { target } = props;
   const { getIsLoading, loading, setLoading } = useContext(LoadingContext);
+  const { setWorkLocation } = useContext(WorkLocationContext);
 
   useEffect(() => {
     setLoading({ ...loading, images: true });
   }, [target]);
 
-  if (target) setTarget(target);
+  if (target) setWorkLocation(target);
   const isLoading = getIsLoading();
 
   return (
@@ -60,7 +58,18 @@ export default memo((props: UiProps) => {
 
       <ProjectListContainer isLoading={isLoading}>
         {
-          projects.map((p: ProjectProps) => <Project {...p} key={`Project_${p.target}`} />)
+          projects.map((p: ProjectProps, index) => {
+            const isLast = index === projects.length - 1;
+            const isFirst = index === 0;
+            return (
+              <Project
+                {...p}
+                key={`Project_${p.target}`}
+                nextProject={projects[isLast ? 0 : index + 1]}
+                previousProject={projects[isFirst ? projects.length - 1 : index - 1]}
+              />
+            );
+          })
         }
       </ProjectListContainer>
     </Container>

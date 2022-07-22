@@ -234,9 +234,6 @@ exports[`View -> About should render the About view (loading) without throwing a
                       React
                     </li>
                     <li>
-                      Redux
-                    </li>
-                    <li>
                       Styled-Components
                     </li>
                   </ul>
@@ -547,9 +544,6 @@ exports[`View -> About should render the About view (not loading) without throwi
                   <ul>
                     <li>
                       React
-                    </li>
-                    <li>
-                      Redux
                     </li>
                     <li>
                       Styled-Components

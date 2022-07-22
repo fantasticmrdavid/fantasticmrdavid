@@ -45,39 +45,14 @@ exports[`View -> Home should render the Home UI (not loading) without throwing a
 `;
 
 exports[`View -> Home should render the Home view with Initializer without throwing an error 1`] = `
-<Provider
-  store={
-    Object {
-      "dispatch": [Function],
-      "getState": [Function],
-      "replaceReducer": [Function],
-      "subscribe": [Function],
-      Symbol(observable): [Function],
-    }
-  }
->
-  <Connect(_default)>
-    <_default
-      images={
-        Array [
-          Object {
-            "name": "legoFlinders",
-            "src": "/assets/images/legoFlinders.jpg",
-          },
-        ]
-      }
-      stopLoading={[Function]}
+<Memo()>
+  <styles__Container
+    imgSrc="/assets/images/legoFlinders.jpg"
+    isLoading={false}
+  >
+    <div
+      className="styles__Container-sc-19v7chj-0 ftUPBY"
     />
-  </Connect(_default)>
-  <Memo()>
-    <styles__Container
-      imgSrc="/assets/images/legoFlinders.jpg"
-      isLoading={false}
-    >
-      <div
-        className="styles__Container-sc-19v7chj-0 ftUPBY"
-      />
-    </styles__Container>
-  </Memo()>
-</Provider>
+  </styles__Container>
+</Memo()>
 `;

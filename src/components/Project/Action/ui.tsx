@@ -1,6 +1,7 @@
-import React, { memo, useCallback } from 'react';
+import React, { memo, useCallback, useContext } from 'react';
 import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import { Project as ProjectProps } from 'data/projects';
+import { WorkLocationContext } from 'contexts/WorkLocation';
 import {
   Background,
   Container,
@@ -14,7 +15,6 @@ export interface Props {
   label: string,
   project: ProjectProps,
   type: string,
-  updateCurrent: (target: string | undefined) => void,
 }
 
 export default memo(
@@ -22,8 +22,9 @@ export default memo(
     const {
       project,
       type,
-      updateCurrent,
     } = props;
+
+    const { setWorkLocation } = useContext(WorkLocationContext);
 
     const {
       images,
@@ -32,7 +33,7 @@ export default memo(
     } = project;
 
     const handleClick = useCallback(() => {
-      updateCurrent(target);
+      setWorkLocation(target);
     }, [target]);
 
     return (

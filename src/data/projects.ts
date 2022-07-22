@@ -14,7 +14,7 @@ export type Project = {
   media?: any[],
 };
 
-export default [
+const projects = [
   {
     title: 'KindyNow',
     tagline: 'Lead Front-End Engineer',
@@ -229,3 +229,5 @@ export default [
     ],
   },
 ];
+
+export default projects;

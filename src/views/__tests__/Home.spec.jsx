@@ -1,18 +1,12 @@
 import React from 'react';
-import { Provider } from 'react-redux';
-import store from 'store';
 import { mount } from 'enzyme';
-import Initializer from 'routers/Initializer';
 import Home from 'views/Home';
 import Ui from 'views/Home/ui';
 
 describe('View -> Home', () => {
   it('should render the Home view with Initializer without throwing an error', () => {
     expect(mount(
-      <Provider store={store}>
-        <Initializer />
-        <Home />
-      </Provider>,
+      <Home />,
     )).toMatchSnapshot();
   });
 

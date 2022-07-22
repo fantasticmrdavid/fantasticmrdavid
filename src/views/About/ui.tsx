@@ -67,7 +67,6 @@ export default memo(
               <h3>Architecture</h3>
               <ul>
                 <li>React</li>
-                <li>Redux</li>
                 <li>Styled-Components</li>
               </ul>
             </SpecsSection>

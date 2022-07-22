@@ -6,6 +6,7 @@ import React, {
 } from 'react';
 import { Project as ProjectProps } from 'data/projects';
 import { LoadingContext } from 'contexts/Loading';
+import { WorkLocationContext } from 'contexts/WorkLocation';
 import Content from './Content';
 import {
   Container,
@@ -18,36 +19,31 @@ import {
 } from './styles';
 
 export type Props = {
-  current: string,
-  parentLoading: boolean,
-  isCurrent: boolean,
   nextProject: ProjectProps,
   previousProject: ProjectProps,
-  updateCurrent: (target: string | undefined) => void,
 } & ProjectProps;
 
 export default memo(
   (props: Props) => {
     const {
-      current,
       title,
       tagline,
       target,
       images,
-      isCurrent,
-      updateCurrent,
     } = props;
     const { loading } = useContext(LoadingContext);
+    const { workLocation, setWorkLocation } = useContext(WorkLocationContext);
+    const isCurrent = workLocation === target;
     const parentLoading = loading.images || loading.media;
 
     const handleTileClick = useCallback((e: SyntheticEvent) => {
       e.preventDefault();
       const newCurrent = !!isCurrent ? undefined : target;
-      updateCurrent(newCurrent);
+      setWorkLocation(newCurrent);
       window.history.pushState({}, title, `/work/${newCurrent || ''}`);
     }, [isCurrent, target]);
 
-    const isOtherCurrent = !!isCurrent ? false : !!current;
+    const isOtherCurrent = !!isCurrent ? false : !!workLocation;
 
     return (
       <Container
@@ -73,7 +69,7 @@ export default memo(
           </TileContent>
           <Close current={isCurrent}>X</Close>
         </Tile>
-        <Content {...props} />
+        <Content {...props} isCurrent={isCurrent} />
       </Container>
     );
   },

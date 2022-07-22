@@ -3,7 +3,7 @@
 ## Build Stack:
 - Node.js
 - Webpack
-- React + Redux
+- React
 - Styled-Components
 - TypeScript
 - Jest + Enzyme

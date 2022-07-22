@@ -19,7 +19,6 @@ export type Props = {
   isCurrent: boolean,
   nextProject: ProjectProps,
   previousProject: ProjectProps,
-  updateCurrent: (target: string | undefined) => void,
 } & ProjectProps;
 
 export default memo(
@@ -34,7 +33,6 @@ export default memo(
       nextProject,
       previousProject,
       isCurrent,
-      updateCurrent,
     } = props;
 
     const handleUrlClick = useCallback(() => ReactGA.event({
@@ -80,8 +78,8 @@ export default memo(
         </MediaWrapper>
         <Spacer />
         <ActionsContainer>
-          <Action label="Previous" type="back" project={previousProject} updateCurrent={updateCurrent} />
-          <Action label="Next" type="next" project={nextProject} updateCurrent={updateCurrent} />
+          <Action label="Previous" type="back" project={previousProject} />
+          <Action label="Next" type="next" project={nextProject} />
         </ActionsContainer>
       </Container>
     );
