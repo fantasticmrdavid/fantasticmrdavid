@@ -2,20 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router';
 import View from 'components/View';
 import projectList from 'data/projects';
-
-export const ROUTE_PATHS = {
-  home: '/',
-  about: '/about',
-  work: '/work',
-  contact: '/contact',
-};
-
-export const LOCATIONS = {
-  home: 'home',
-  about: 'about',
-  work: 'work',
-  contact: 'contact',
-};
+import { ROUTE_PATHS, LOCATIONS } from 'routers/constants';
 
 const Routes = () => {
   return (

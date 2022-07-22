@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import View from 'components/View/ui';
-import { LOCATIONS } from 'routers/Routes';
+import { LOCATIONS } from 'routers/constants';
 
 const props = {
   location: LOCATIONS.about,

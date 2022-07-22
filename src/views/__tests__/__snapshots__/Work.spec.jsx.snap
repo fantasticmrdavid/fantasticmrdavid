@@ -2913,7 +2913,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                 type="image"
                                 url="/assets/images/projects/legoFlinders/legoFlinders_full.jpg"
                               >
-                                <Connect(Component)
+                                <Memo()
                                   noSiblings={true}
                                   orientation="landscape"
                                   slug="legoFlinders"
@@ -2922,45 +2922,34 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                   type="image"
                                   url="/assets/images/projects/legoFlinders/legoFlinders_full.jpg"
                                 >
-                                  <Memo()
+                                  <styles__Container
                                     noSiblings={true}
-                                    orientation="landscape"
-                                    showPopup={[Function]}
-                                    slug="legoFlinders"
-                                    thumbnail="/assets/images/projects/legoFlinders/legoFlinders_preview.jpg"
-                                    title="LEGO Flinders St art print"
-                                    type="image"
-                                    url="/assets/images/projects/legoFlinders/legoFlinders_full.jpg"
                                   >
-                                    <styles__Container
-                                      noSiblings={true}
+                                    <div
+                                      className="styles__Container-sc-1uvt01h-0 fuvXaz"
                                     >
-                                      <div
-                                        className="styles__Container-sc-1uvt01h-0 fuvXaz"
+                                      <styles__Frame
+                                        onClick={[Function]}
                                       >
-                                        <styles__Frame
+                                        <div
+                                          className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
                                           onClick={[Function]}
                                         >
-                                          <div
-                                            className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
-                                            onClick={[Function]}
+                                          <styles__Content
+                                            alt="LEGO Flinders St art print"
+                                            src="/assets/images/projects/legoFlinders/legoFlinders_preview.jpg"
                                           >
-                                            <styles__Content
+                                            <img
                                               alt="LEGO Flinders St art print"
+                                              className="styles__Content-sc-1uvt01h-2 gUObMO"
                                               src="/assets/images/projects/legoFlinders/legoFlinders_preview.jpg"
-                                            >
-                                              <img
-                                                alt="LEGO Flinders St art print"
-                                                className="styles__Content-sc-1uvt01h-2 gUObMO"
-                                                src="/assets/images/projects/legoFlinders/legoFlinders_preview.jpg"
-                                              />
-                                            </styles__Content>
-                                          </div>
-                                        </styles__Frame>
-                                      </div>
-                                    </styles__Container>
-                                  </Memo()>
-                                </Connect(Component)>
+                                            />
+                                          </styles__Content>
+                                        </div>
+                                      </styles__Frame>
+                                    </div>
+                                  </styles__Container>
+                                </Memo()>
                               </Memo()>
                             </div>
                           </styles__MediaWrapper>
@@ -4678,7 +4667,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                 type="image"
                                 url="/assets/images/projects/tramsformation/tramsformer_w_1_full.jpg"
                               >
-                                <Connect(Component)
+                                <Memo()
                                   noSiblings={false}
                                   orientation="landscape"
                                   slug="tramsformation_w_1"
@@ -4687,45 +4676,34 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                   type="image"
                                   url="/assets/images/projects/tramsformation/tramsformer_w_1_full.jpg"
                                 >
-                                  <Memo()
+                                  <styles__Container
                                     noSiblings={false}
-                                    orientation="landscape"
-                                    showPopup={[Function]}
-                                    slug="tramsformation_w_1"
-                                    thumbnail="/assets/images/projects/tramsformation/tramsformer_w_1_preview.jpg"
-                                    title="Tramsformer W-Class Robot Mode"
-                                    type="image"
-                                    url="/assets/images/projects/tramsformation/tramsformer_w_1_full.jpg"
                                   >
-                                    <styles__Container
-                                      noSiblings={false}
+                                    <div
+                                      className="styles__Container-sc-1uvt01h-0 fPWybz"
                                     >
-                                      <div
-                                        className="styles__Container-sc-1uvt01h-0 fPWybz"
+                                      <styles__Frame
+                                        onClick={[Function]}
                                       >
-                                        <styles__Frame
+                                        <div
+                                          className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
                                           onClick={[Function]}
                                         >
-                                          <div
-                                            className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
-                                            onClick={[Function]}
+                                          <styles__Content
+                                            alt="Tramsformer W-Class Robot Mode"
+                                            src="/assets/images/projects/tramsformation/tramsformer_w_1_preview.jpg"
                                           >
-                                            <styles__Content
+                                            <img
                                               alt="Tramsformer W-Class Robot Mode"
+                                              className="styles__Content-sc-1uvt01h-2 gUObMO"
                                               src="/assets/images/projects/tramsformation/tramsformer_w_1_preview.jpg"
-                                            >
-                                              <img
-                                                alt="Tramsformer W-Class Robot Mode"
-                                                className="styles__Content-sc-1uvt01h-2 gUObMO"
-                                                src="/assets/images/projects/tramsformation/tramsformer_w_1_preview.jpg"
-                                              />
-                                            </styles__Content>
-                                          </div>
-                                        </styles__Frame>
-                                      </div>
-                                    </styles__Container>
-                                  </Memo()>
-                                </Connect(Component)>
+                                            />
+                                          </styles__Content>
+                                        </div>
+                                      </styles__Frame>
+                                    </div>
+                                  </styles__Container>
+                                </Memo()>
                               </Memo()>
                               <Memo()
                                 key="ProjectMedia_tramsformation_w_2"
@@ -4737,7 +4715,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                 type="image"
                                 url="/assets/images/projects/tramsformation/tramsformer_w_2_full.jpg"
                               >
-                                <Connect(Component)
+                                <Memo()
                                   noSiblings={false}
                                   orientation="landscape"
                                   slug="tramsformation_w_2"
@@ -4746,45 +4724,34 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                   type="image"
                                   url="/assets/images/projects/tramsformation/tramsformer_w_2_full.jpg"
                                 >
-                                  <Memo()
+                                  <styles__Container
                                     noSiblings={false}
-                                    orientation="landscape"
-                                    showPopup={[Function]}
-                                    slug="tramsformation_w_2"
-                                    thumbnail="/assets/images/projects/tramsformation/tramsformer_w_2_preview.jpg"
-                                    title="Tramsformer W-Class Tram Mode"
-                                    type="image"
-                                    url="/assets/images/projects/tramsformation/tramsformer_w_2_full.jpg"
                                   >
-                                    <styles__Container
-                                      noSiblings={false}
+                                    <div
+                                      className="styles__Container-sc-1uvt01h-0 fPWybz"
                                     >
-                                      <div
-                                        className="styles__Container-sc-1uvt01h-0 fPWybz"
+                                      <styles__Frame
+                                        onClick={[Function]}
                                       >
-                                        <styles__Frame
+                                        <div
+                                          className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
                                           onClick={[Function]}
                                         >
-                                          <div
-                                            className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
-                                            onClick={[Function]}
+                                          <styles__Content
+                                            alt="Tramsformer W-Class Tram Mode"
+                                            src="/assets/images/projects/tramsformation/tramsformer_w_2_preview.jpg"
                                           >
-                                            <styles__Content
+                                            <img
                                               alt="Tramsformer W-Class Tram Mode"
+                                              className="styles__Content-sc-1uvt01h-2 gUObMO"
                                               src="/assets/images/projects/tramsformation/tramsformer_w_2_preview.jpg"
-                                            >
-                                              <img
-                                                alt="Tramsformer W-Class Tram Mode"
-                                                className="styles__Content-sc-1uvt01h-2 gUObMO"
-                                                src="/assets/images/projects/tramsformation/tramsformer_w_2_preview.jpg"
-                                              />
-                                            </styles__Content>
-                                          </div>
-                                        </styles__Frame>
-                                      </div>
-                                    </styles__Container>
-                                  </Memo()>
-                                </Connect(Component)>
+                                            />
+                                          </styles__Content>
+                                        </div>
+                                      </styles__Frame>
+                                    </div>
+                                  </styles__Container>
+                                </Memo()>
                               </Memo()>
                               <Memo()
                                 key="ProjectMedia_tramsformation_print"
@@ -4796,7 +4763,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                 type="image"
                                 url="/assets/images/projects/tramsformation/tramsformation_print_full.jpg"
                               >
-                                <Connect(Component)
+                                <Memo()
                                   noSiblings={false}
                                   orientation="portrait"
                                   slug="tramsformation_print"
@@ -4805,45 +4772,34 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                   type="image"
                                   url="/assets/images/projects/tramsformation/tramsformation_print_full.jpg"
                                 >
-                                  <Memo()
+                                  <styles__Container
                                     noSiblings={false}
-                                    orientation="portrait"
-                                    showPopup={[Function]}
-                                    slug="tramsformation_print"
-                                    thumbnail="/assets/images/projects/tramsformation/tramsformation_print_preview.jpg"
-                                    title="Tramsformer art print"
-                                    type="image"
-                                    url="/assets/images/projects/tramsformation/tramsformation_print_full.jpg"
                                   >
-                                    <styles__Container
-                                      noSiblings={false}
+                                    <div
+                                      className="styles__Container-sc-1uvt01h-0 fPWybz"
                                     >
-                                      <div
-                                        className="styles__Container-sc-1uvt01h-0 fPWybz"
+                                      <styles__Frame
+                                        onClick={[Function]}
                                       >
-                                        <styles__Frame
+                                        <div
+                                          className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
                                           onClick={[Function]}
                                         >
-                                          <div
-                                            className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
-                                            onClick={[Function]}
+                                          <styles__Content
+                                            alt="Tramsformer art print"
+                                            src="/assets/images/projects/tramsformation/tramsformation_print_preview.jpg"
                                           >
-                                            <styles__Content
+                                            <img
                                               alt="Tramsformer art print"
+                                              className="styles__Content-sc-1uvt01h-2 gUObMO"
                                               src="/assets/images/projects/tramsformation/tramsformation_print_preview.jpg"
-                                            >
-                                              <img
-                                                alt="Tramsformer art print"
-                                                className="styles__Content-sc-1uvt01h-2 gUObMO"
-                                                src="/assets/images/projects/tramsformation/tramsformation_print_preview.jpg"
-                                              />
-                                            </styles__Content>
-                                          </div>
-                                        </styles__Frame>
-                                      </div>
-                                    </styles__Container>
-                                  </Memo()>
-                                </Connect(Component)>
+                                            />
+                                          </styles__Content>
+                                        </div>
+                                      </styles__Frame>
+                                    </div>
+                                  </styles__Container>
+                                </Memo()>
                               </Memo()>
                               <Memo()
                                 key="ProjectMedia_tramsformation_transform"
@@ -4855,7 +4811,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                 type="image"
                                 url="/assets/images/projects/tramsformation/tramsformation_transform_full.jpg"
                               >
-                                <Connect(Component)
+                                <Memo()
                                   noSiblings={false}
                                   orientation="portrait"
                                   slug="tramsformation_transform"
@@ -4864,45 +4820,34 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                   type="image"
                                   url="/assets/images/projects/tramsformation/tramsformation_transform_full.jpg"
                                 >
-                                  <Memo()
+                                  <styles__Container
                                     noSiblings={false}
-                                    orientation="portrait"
-                                    showPopup={[Function]}
-                                    slug="tramsformation_transform"
-                                    thumbnail="/assets/images/projects/tramsformation/tramsformation_transform_preview.jpg"
-                                    title="Tramsformer transformation"
-                                    type="image"
-                                    url="/assets/images/projects/tramsformation/tramsformation_transform_full.jpg"
                                   >
-                                    <styles__Container
-                                      noSiblings={false}
+                                    <div
+                                      className="styles__Container-sc-1uvt01h-0 fPWybz"
                                     >
-                                      <div
-                                        className="styles__Container-sc-1uvt01h-0 fPWybz"
+                                      <styles__Frame
+                                        onClick={[Function]}
                                       >
-                                        <styles__Frame
+                                        <div
+                                          className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
                                           onClick={[Function]}
                                         >
-                                          <div
-                                            className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
-                                            onClick={[Function]}
+                                          <styles__Content
+                                            alt="Tramsformer transformation"
+                                            src="/assets/images/projects/tramsformation/tramsformation_transform_preview.jpg"
                                           >
-                                            <styles__Content
+                                            <img
                                               alt="Tramsformer transformation"
+                                              className="styles__Content-sc-1uvt01h-2 gUObMO"
                                               src="/assets/images/projects/tramsformation/tramsformation_transform_preview.jpg"
-                                            >
-                                              <img
-                                                alt="Tramsformer transformation"
-                                                className="styles__Content-sc-1uvt01h-2 gUObMO"
-                                                src="/assets/images/projects/tramsformation/tramsformation_transform_preview.jpg"
-                                              />
-                                            </styles__Content>
-                                          </div>
-                                        </styles__Frame>
-                                      </div>
-                                    </styles__Container>
-                                  </Memo()>
-                                </Connect(Component)>
+                                            />
+                                          </styles__Content>
+                                        </div>
+                                      </styles__Frame>
+                                    </div>
+                                  </styles__Container>
+                                </Memo()>
                               </Memo()>
                               <Memo()
                                 key="ProjectMedia_tramsformation_model"
@@ -4914,7 +4859,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                 type="image"
                                 url="/assets/images/projects/tramsformation/tramsformation_model_full.jpg"
                               >
-                                <Connect(Component)
+                                <Memo()
                                   noSiblings={false}
                                   orientation="portrait"
                                   slug="tramsformation_model"
@@ -4923,45 +4868,34 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                   type="image"
                                   url="/assets/images/projects/tramsformation/tramsformation_model_full.jpg"
                                 >
-                                  <Memo()
+                                  <styles__Container
                                     noSiblings={false}
-                                    orientation="portrait"
-                                    showPopup={[Function]}
-                                    slug="tramsformation_model"
-                                    thumbnail="/assets/images/projects/tramsformation/tramsformation_model_preview.jpg"
-                                    title="Tramsformer model"
-                                    type="image"
-                                    url="/assets/images/projects/tramsformation/tramsformation_model_full.jpg"
                                   >
-                                    <styles__Container
-                                      noSiblings={false}
+                                    <div
+                                      className="styles__Container-sc-1uvt01h-0 fPWybz"
                                     >
-                                      <div
-                                        className="styles__Container-sc-1uvt01h-0 fPWybz"
+                                      <styles__Frame
+                                        onClick={[Function]}
                                       >
-                                        <styles__Frame
+                                        <div
+                                          className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
                                           onClick={[Function]}
                                         >
-                                          <div
-                                            className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
-                                            onClick={[Function]}
+                                          <styles__Content
+                                            alt="Tramsformer model"
+                                            src="/assets/images/projects/tramsformation/tramsformation_model_preview.jpg"
                                           >
-                                            <styles__Content
+                                            <img
                                               alt="Tramsformer model"
+                                              className="styles__Content-sc-1uvt01h-2 gUObMO"
                                               src="/assets/images/projects/tramsformation/tramsformation_model_preview.jpg"
-                                            >
-                                              <img
-                                                alt="Tramsformer model"
-                                                className="styles__Content-sc-1uvt01h-2 gUObMO"
-                                                src="/assets/images/projects/tramsformation/tramsformation_model_preview.jpg"
-                                              />
-                                            </styles__Content>
-                                          </div>
-                                        </styles__Frame>
-                                      </div>
-                                    </styles__Container>
-                                  </Memo()>
-                                </Connect(Component)>
+                                            />
+                                          </styles__Content>
+                                        </div>
+                                      </styles__Frame>
+                                    </div>
+                                  </styles__Container>
+                                </Memo()>
                               </Memo()>
                               <Memo()
                                 key="ProjectMedia_tramsformation_model_altmode"
@@ -4973,7 +4907,7 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                 type="image"
                                 url="/assets/images/projects/tramsformation/tramsformation_model_altmode_full.jpg"
                               >
-                                <Connect(Component)
+                                <Memo()
                                   noSiblings={false}
                                   orientation="landscape"
                                   slug="tramsformation_model_altmode"
@@ -4982,45 +4916,34 @@ exports[`View -> Work should render the Work UI (loading) without throwing an er
                                   type="image"
                                   url="/assets/images/projects/tramsformation/tramsformation_model_altmode_full.jpg"
                                 >
-                                  <Memo()
+                                  <styles__Container
                                     noSiblings={false}
-                                    orientation="landscape"
-                                    showPopup={[Function]}
-                                    slug="tramsformation_model_altmode"
-                                    thumbnail="/assets/images/projects/tramsformation/tramsformation_model_altmode_preview.jpg"
-                                    title="Tramsformer model tram mode"
-                                    type="image"
-                                    url="/assets/images/projects/tramsformation/tramsformation_model_altmode_full.jpg"
                                   >
-                                    <styles__Container
-                                      noSiblings={false}
+                                    <div
+                                      className="styles__Container-sc-1uvt01h-0 fPWybz"
                                     >
-                                      <div
-                                        className="styles__Container-sc-1uvt01h-0 fPWybz"
+                                      <styles__Frame
+                                        onClick={[Function]}
                                       >
-                                        <styles__Frame
+                                        <div
+                                          className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
                                           onClick={[Function]}
                                         >
-                                          <div
-                                            className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
-                                            onClick={[Function]}
+                                          <styles__Content
+                                            alt="Tramsformer model tram mode"
+                                            src="/assets/images/projects/tramsformation/tramsformation_model_altmode_preview.jpg"
                                           >
-                                            <styles__Content
+                                            <img
                                               alt="Tramsformer model tram mode"
+                                              className="styles__Content-sc-1uvt01h-2 gUObMO"
                                               src="/assets/images/projects/tramsformation/tramsformation_model_altmode_preview.jpg"
-                                            >
-                                              <img
-                                                alt="Tramsformer model tram mode"
-                                                className="styles__Content-sc-1uvt01h-2 gUObMO"
-                                                src="/assets/images/projects/tramsformation/tramsformation_model_altmode_preview.jpg"
-                                              />
-                                            </styles__Content>
-                                          </div>
-                                        </styles__Frame>
-                                      </div>
-                                    </styles__Container>
-                                  </Memo()>
-                                </Connect(Component)>
+                                            />
+                                          </styles__Content>
+                                        </div>
+                                      </styles__Frame>
+                                    </div>
+                                  </styles__Container>
+                                </Memo()>
                               </Memo()>
                               <Memo()
                                 key="ProjectMedia_tramsformation_mobile"
@@ -8419,7 +8342,7 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                 type="image"
                                 url="/assets/images/projects/legoFlinders/legoFlinders_full.jpg"
                               >
-                                <Connect(Component)
+                                <Memo()
                                   noSiblings={true}
                                   orientation="landscape"
                                   slug="legoFlinders"
@@ -8428,45 +8351,34 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                   type="image"
                                   url="/assets/images/projects/legoFlinders/legoFlinders_full.jpg"
                                 >
-                                  <Memo()
+                                  <styles__Container
                                     noSiblings={true}
-                                    orientation="landscape"
-                                    showPopup={[Function]}
-                                    slug="legoFlinders"
-                                    thumbnail="/assets/images/projects/legoFlinders/legoFlinders_preview.jpg"
-                                    title="LEGO Flinders St art print"
-                                    type="image"
-                                    url="/assets/images/projects/legoFlinders/legoFlinders_full.jpg"
                                   >
-                                    <styles__Container
-                                      noSiblings={true}
+                                    <div
+                                      className="styles__Container-sc-1uvt01h-0 fuvXaz"
                                     >
-                                      <div
-                                        className="styles__Container-sc-1uvt01h-0 fuvXaz"
+                                      <styles__Frame
+                                        onClick={[Function]}
                                       >
-                                        <styles__Frame
+                                        <div
+                                          className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
                                           onClick={[Function]}
                                         >
-                                          <div
-                                            className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
-                                            onClick={[Function]}
+                                          <styles__Content
+                                            alt="LEGO Flinders St art print"
+                                            src="/assets/images/projects/legoFlinders/legoFlinders_preview.jpg"
                                           >
-                                            <styles__Content
+                                            <img
                                               alt="LEGO Flinders St art print"
+                                              className="styles__Content-sc-1uvt01h-2 gUObMO"
                                               src="/assets/images/projects/legoFlinders/legoFlinders_preview.jpg"
-                                            >
-                                              <img
-                                                alt="LEGO Flinders St art print"
-                                                className="styles__Content-sc-1uvt01h-2 gUObMO"
-                                                src="/assets/images/projects/legoFlinders/legoFlinders_preview.jpg"
-                                              />
-                                            </styles__Content>
-                                          </div>
-                                        </styles__Frame>
-                                      </div>
-                                    </styles__Container>
-                                  </Memo()>
-                                </Connect(Component)>
+                                            />
+                                          </styles__Content>
+                                        </div>
+                                      </styles__Frame>
+                                    </div>
+                                  </styles__Container>
+                                </Memo()>
                               </Memo()>
                             </div>
                           </styles__MediaWrapper>
@@ -10184,7 +10096,7 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                 type="image"
                                 url="/assets/images/projects/tramsformation/tramsformer_w_1_full.jpg"
                               >
-                                <Connect(Component)
+                                <Memo()
                                   noSiblings={false}
                                   orientation="landscape"
                                   slug="tramsformation_w_1"
@@ -10193,45 +10105,34 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                   type="image"
                                   url="/assets/images/projects/tramsformation/tramsformer_w_1_full.jpg"
                                 >
-                                  <Memo()
+                                  <styles__Container
                                     noSiblings={false}
-                                    orientation="landscape"
-                                    showPopup={[Function]}
-                                    slug="tramsformation_w_1"
-                                    thumbnail="/assets/images/projects/tramsformation/tramsformer_w_1_preview.jpg"
-                                    title="Tramsformer W-Class Robot Mode"
-                                    type="image"
-                                    url="/assets/images/projects/tramsformation/tramsformer_w_1_full.jpg"
                                   >
-                                    <styles__Container
-                                      noSiblings={false}
+                                    <div
+                                      className="styles__Container-sc-1uvt01h-0 fPWybz"
                                     >
-                                      <div
-                                        className="styles__Container-sc-1uvt01h-0 fPWybz"
+                                      <styles__Frame
+                                        onClick={[Function]}
                                       >
-                                        <styles__Frame
+                                        <div
+                                          className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
                                           onClick={[Function]}
                                         >
-                                          <div
-                                            className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
-                                            onClick={[Function]}
+                                          <styles__Content
+                                            alt="Tramsformer W-Class Robot Mode"
+                                            src="/assets/images/projects/tramsformation/tramsformer_w_1_preview.jpg"
                                           >
-                                            <styles__Content
+                                            <img
                                               alt="Tramsformer W-Class Robot Mode"
+                                              className="styles__Content-sc-1uvt01h-2 gUObMO"
                                               src="/assets/images/projects/tramsformation/tramsformer_w_1_preview.jpg"
-                                            >
-                                              <img
-                                                alt="Tramsformer W-Class Robot Mode"
-                                                className="styles__Content-sc-1uvt01h-2 gUObMO"
-                                                src="/assets/images/projects/tramsformation/tramsformer_w_1_preview.jpg"
-                                              />
-                                            </styles__Content>
-                                          </div>
-                                        </styles__Frame>
-                                      </div>
-                                    </styles__Container>
-                                  </Memo()>
-                                </Connect(Component)>
+                                            />
+                                          </styles__Content>
+                                        </div>
+                                      </styles__Frame>
+                                    </div>
+                                  </styles__Container>
+                                </Memo()>
                               </Memo()>
                               <Memo()
                                 key="ProjectMedia_tramsformation_w_2"
@@ -10243,7 +10144,7 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                 type="image"
                                 url="/assets/images/projects/tramsformation/tramsformer_w_2_full.jpg"
                               >
-                                <Connect(Component)
+                                <Memo()
                                   noSiblings={false}
                                   orientation="landscape"
                                   slug="tramsformation_w_2"
@@ -10252,45 +10153,34 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                   type="image"
                                   url="/assets/images/projects/tramsformation/tramsformer_w_2_full.jpg"
                                 >
-                                  <Memo()
+                                  <styles__Container
                                     noSiblings={false}
-                                    orientation="landscape"
-                                    showPopup={[Function]}
-                                    slug="tramsformation_w_2"
-                                    thumbnail="/assets/images/projects/tramsformation/tramsformer_w_2_preview.jpg"
-                                    title="Tramsformer W-Class Tram Mode"
-                                    type="image"
-                                    url="/assets/images/projects/tramsformation/tramsformer_w_2_full.jpg"
                                   >
-                                    <styles__Container
-                                      noSiblings={false}
+                                    <div
+                                      className="styles__Container-sc-1uvt01h-0 fPWybz"
                                     >
-                                      <div
-                                        className="styles__Container-sc-1uvt01h-0 fPWybz"
+                                      <styles__Frame
+                                        onClick={[Function]}
                                       >
-                                        <styles__Frame
+                                        <div
+                                          className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
                                           onClick={[Function]}
                                         >
-                                          <div
-                                            className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
-                                            onClick={[Function]}
+                                          <styles__Content
+                                            alt="Tramsformer W-Class Tram Mode"
+                                            src="/assets/images/projects/tramsformation/tramsformer_w_2_preview.jpg"
                                           >
-                                            <styles__Content
+                                            <img
                                               alt="Tramsformer W-Class Tram Mode"
+                                              className="styles__Content-sc-1uvt01h-2 gUObMO"
                                               src="/assets/images/projects/tramsformation/tramsformer_w_2_preview.jpg"
-                                            >
-                                              <img
-                                                alt="Tramsformer W-Class Tram Mode"
-                                                className="styles__Content-sc-1uvt01h-2 gUObMO"
-                                                src="/assets/images/projects/tramsformation/tramsformer_w_2_preview.jpg"
-                                              />
-                                            </styles__Content>
-                                          </div>
-                                        </styles__Frame>
-                                      </div>
-                                    </styles__Container>
-                                  </Memo()>
-                                </Connect(Component)>
+                                            />
+                                          </styles__Content>
+                                        </div>
+                                      </styles__Frame>
+                                    </div>
+                                  </styles__Container>
+                                </Memo()>
                               </Memo()>
                               <Memo()
                                 key="ProjectMedia_tramsformation_print"
@@ -10302,7 +10192,7 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                 type="image"
                                 url="/assets/images/projects/tramsformation/tramsformation_print_full.jpg"
                               >
-                                <Connect(Component)
+                                <Memo()
                                   noSiblings={false}
                                   orientation="portrait"
                                   slug="tramsformation_print"
@@ -10311,45 +10201,34 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                   type="image"
                                   url="/assets/images/projects/tramsformation/tramsformation_print_full.jpg"
                                 >
-                                  <Memo()
+                                  <styles__Container
                                     noSiblings={false}
-                                    orientation="portrait"
-                                    showPopup={[Function]}
-                                    slug="tramsformation_print"
-                                    thumbnail="/assets/images/projects/tramsformation/tramsformation_print_preview.jpg"
-                                    title="Tramsformer art print"
-                                    type="image"
-                                    url="/assets/images/projects/tramsformation/tramsformation_print_full.jpg"
                                   >
-                                    <styles__Container
-                                      noSiblings={false}
+                                    <div
+                                      className="styles__Container-sc-1uvt01h-0 fPWybz"
                                     >
-                                      <div
-                                        className="styles__Container-sc-1uvt01h-0 fPWybz"
+                                      <styles__Frame
+                                        onClick={[Function]}
                                       >
-                                        <styles__Frame
+                                        <div
+                                          className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
                                           onClick={[Function]}
                                         >
-                                          <div
-                                            className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
-                                            onClick={[Function]}
+                                          <styles__Content
+                                            alt="Tramsformer art print"
+                                            src="/assets/images/projects/tramsformation/tramsformation_print_preview.jpg"
                                           >
-                                            <styles__Content
+                                            <img
                                               alt="Tramsformer art print"
+                                              className="styles__Content-sc-1uvt01h-2 gUObMO"
                                               src="/assets/images/projects/tramsformation/tramsformation_print_preview.jpg"
-                                            >
-                                              <img
-                                                alt="Tramsformer art print"
-                                                className="styles__Content-sc-1uvt01h-2 gUObMO"
-                                                src="/assets/images/projects/tramsformation/tramsformation_print_preview.jpg"
-                                              />
-                                            </styles__Content>
-                                          </div>
-                                        </styles__Frame>
-                                      </div>
-                                    </styles__Container>
-                                  </Memo()>
-                                </Connect(Component)>
+                                            />
+                                          </styles__Content>
+                                        </div>
+                                      </styles__Frame>
+                                    </div>
+                                  </styles__Container>
+                                </Memo()>
                               </Memo()>
                               <Memo()
                                 key="ProjectMedia_tramsformation_transform"
@@ -10361,7 +10240,7 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                 type="image"
                                 url="/assets/images/projects/tramsformation/tramsformation_transform_full.jpg"
                               >
-                                <Connect(Component)
+                                <Memo()
                                   noSiblings={false}
                                   orientation="portrait"
                                   slug="tramsformation_transform"
@@ -10370,45 +10249,34 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                   type="image"
                                   url="/assets/images/projects/tramsformation/tramsformation_transform_full.jpg"
                                 >
-                                  <Memo()
+                                  <styles__Container
                                     noSiblings={false}
-                                    orientation="portrait"
-                                    showPopup={[Function]}
-                                    slug="tramsformation_transform"
-                                    thumbnail="/assets/images/projects/tramsformation/tramsformation_transform_preview.jpg"
-                                    title="Tramsformer transformation"
-                                    type="image"
-                                    url="/assets/images/projects/tramsformation/tramsformation_transform_full.jpg"
                                   >
-                                    <styles__Container
-                                      noSiblings={false}
+                                    <div
+                                      className="styles__Container-sc-1uvt01h-0 fPWybz"
                                     >
-                                      <div
-                                        className="styles__Container-sc-1uvt01h-0 fPWybz"
+                                      <styles__Frame
+                                        onClick={[Function]}
                                       >
-                                        <styles__Frame
+                                        <div
+                                          className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
                                           onClick={[Function]}
                                         >
-                                          <div
-                                            className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
-                                            onClick={[Function]}
+                                          <styles__Content
+                                            alt="Tramsformer transformation"
+                                            src="/assets/images/projects/tramsformation/tramsformation_transform_preview.jpg"
                                           >
-                                            <styles__Content
+                                            <img
                                               alt="Tramsformer transformation"
+                                              className="styles__Content-sc-1uvt01h-2 gUObMO"
                                               src="/assets/images/projects/tramsformation/tramsformation_transform_preview.jpg"
-                                            >
-                                              <img
-                                                alt="Tramsformer transformation"
-                                                className="styles__Content-sc-1uvt01h-2 gUObMO"
-                                                src="/assets/images/projects/tramsformation/tramsformation_transform_preview.jpg"
-                                              />
-                                            </styles__Content>
-                                          </div>
-                                        </styles__Frame>
-                                      </div>
-                                    </styles__Container>
-                                  </Memo()>
-                                </Connect(Component)>
+                                            />
+                                          </styles__Content>
+                                        </div>
+                                      </styles__Frame>
+                                    </div>
+                                  </styles__Container>
+                                </Memo()>
                               </Memo()>
                               <Memo()
                                 key="ProjectMedia_tramsformation_model"
@@ -10420,7 +10288,7 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                 type="image"
                                 url="/assets/images/projects/tramsformation/tramsformation_model_full.jpg"
                               >
-                                <Connect(Component)
+                                <Memo()
                                   noSiblings={false}
                                   orientation="portrait"
                                   slug="tramsformation_model"
@@ -10429,45 +10297,34 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                   type="image"
                                   url="/assets/images/projects/tramsformation/tramsformation_model_full.jpg"
                                 >
-                                  <Memo()
+                                  <styles__Container
                                     noSiblings={false}
-                                    orientation="portrait"
-                                    showPopup={[Function]}
-                                    slug="tramsformation_model"
-                                    thumbnail="/assets/images/projects/tramsformation/tramsformation_model_preview.jpg"
-                                    title="Tramsformer model"
-                                    type="image"
-                                    url="/assets/images/projects/tramsformation/tramsformation_model_full.jpg"
                                   >
-                                    <styles__Container
-                                      noSiblings={false}
+                                    <div
+                                      className="styles__Container-sc-1uvt01h-0 fPWybz"
                                     >
-                                      <div
-                                        className="styles__Container-sc-1uvt01h-0 fPWybz"
+                                      <styles__Frame
+                                        onClick={[Function]}
                                       >
-                                        <styles__Frame
+                                        <div
+                                          className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
                                           onClick={[Function]}
                                         >
-                                          <div
-                                            className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
-                                            onClick={[Function]}
+                                          <styles__Content
+                                            alt="Tramsformer model"
+                                            src="/assets/images/projects/tramsformation/tramsformation_model_preview.jpg"
                                           >
-                                            <styles__Content
+                                            <img
                                               alt="Tramsformer model"
+                                              className="styles__Content-sc-1uvt01h-2 gUObMO"
                                               src="/assets/images/projects/tramsformation/tramsformation_model_preview.jpg"
-                                            >
-                                              <img
-                                                alt="Tramsformer model"
-                                                className="styles__Content-sc-1uvt01h-2 gUObMO"
-                                                src="/assets/images/projects/tramsformation/tramsformation_model_preview.jpg"
-                                              />
-                                            </styles__Content>
-                                          </div>
-                                        </styles__Frame>
-                                      </div>
-                                    </styles__Container>
-                                  </Memo()>
-                                </Connect(Component)>
+                                            />
+                                          </styles__Content>
+                                        </div>
+                                      </styles__Frame>
+                                    </div>
+                                  </styles__Container>
+                                </Memo()>
                               </Memo()>
                               <Memo()
                                 key="ProjectMedia_tramsformation_model_altmode"
@@ -10479,7 +10336,7 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                 type="image"
                                 url="/assets/images/projects/tramsformation/tramsformation_model_altmode_full.jpg"
                               >
-                                <Connect(Component)
+                                <Memo()
                                   noSiblings={false}
                                   orientation="landscape"
                                   slug="tramsformation_model_altmode"
@@ -10488,45 +10345,34 @@ exports[`View -> Work should render the Work UI (not loading) without throwing a
                                   type="image"
                                   url="/assets/images/projects/tramsformation/tramsformation_model_altmode_full.jpg"
                                 >
-                                  <Memo()
+                                  <styles__Container
                                     noSiblings={false}
-                                    orientation="landscape"
-                                    showPopup={[Function]}
-                                    slug="tramsformation_model_altmode"
-                                    thumbnail="/assets/images/projects/tramsformation/tramsformation_model_altmode_preview.jpg"
-                                    title="Tramsformer model tram mode"
-                                    type="image"
-                                    url="/assets/images/projects/tramsformation/tramsformation_model_altmode_full.jpg"
                                   >
-                                    <styles__Container
-                                      noSiblings={false}
+                                    <div
+                                      className="styles__Container-sc-1uvt01h-0 fPWybz"
                                     >
-                                      <div
-                                        className="styles__Container-sc-1uvt01h-0 fPWybz"
+                                      <styles__Frame
+                                        onClick={[Function]}
                                       >
-                                        <styles__Frame
+                                        <div
+                                          className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
                                           onClick={[Function]}
                                         >
-                                          <div
-                                            className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
-                                            onClick={[Function]}
+                                          <styles__Content
+                                            alt="Tramsformer model tram mode"
+                                            src="/assets/images/projects/tramsformation/tramsformation_model_altmode_preview.jpg"
                                           >
-                                            <styles__Content
+                                            <img
                                               alt="Tramsformer model tram mode"
+                                              className="styles__Content-sc-1uvt01h-2 gUObMO"
                                               src="/assets/images/projects/tramsformation/tramsformation_model_altmode_preview.jpg"
-                                            >
-                                              <img
-                                                alt="Tramsformer model tram mode"
-                                                className="styles__Content-sc-1uvt01h-2 gUObMO"
-                                                src="/assets/images/projects/tramsformation/tramsformation_model_altmode_preview.jpg"
-                                              />
-                                            </styles__Content>
-                                          </div>
-                                        </styles__Frame>
-                                      </div>
-                                    </styles__Container>
-                                  </Memo()>
-                                </Connect(Component)>
+                                            />
+                                          </styles__Content>
+                                        </div>
+                                      </styles__Frame>
+                                    </div>
+                                  </styles__Container>
+                                </Memo()>
                               </Memo()>
                               <Memo()
                                 key="ProjectMedia_tramsformation_mobile"
@@ -13937,7 +13783,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                   type="image"
                                   url="/assets/images/projects/legoFlinders/legoFlinders_full.jpg"
                                 >
-                                  <Connect(Component)
+                                  <Memo()
                                     noSiblings={true}
                                     orientation="landscape"
                                     slug="legoFlinders"
@@ -13946,45 +13792,34 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                     type="image"
                                     url="/assets/images/projects/legoFlinders/legoFlinders_full.jpg"
                                   >
-                                    <Memo()
+                                    <styles__Container
                                       noSiblings={true}
-                                      orientation="landscape"
-                                      showPopup={[Function]}
-                                      slug="legoFlinders"
-                                      thumbnail="/assets/images/projects/legoFlinders/legoFlinders_preview.jpg"
-                                      title="LEGO Flinders St art print"
-                                      type="image"
-                                      url="/assets/images/projects/legoFlinders/legoFlinders_full.jpg"
                                     >
-                                      <styles__Container
-                                        noSiblings={true}
+                                      <div
+                                        className="styles__Container-sc-1uvt01h-0 fuvXaz"
                                       >
-                                        <div
-                                          className="styles__Container-sc-1uvt01h-0 fuvXaz"
+                                        <styles__Frame
+                                          onClick={[Function]}
                                         >
-                                          <styles__Frame
+                                          <div
+                                            className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
                                             onClick={[Function]}
                                           >
-                                            <div
-                                              className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
-                                              onClick={[Function]}
+                                            <styles__Content
+                                              alt="LEGO Flinders St art print"
+                                              src="/assets/images/projects/legoFlinders/legoFlinders_preview.jpg"
                                             >
-                                              <styles__Content
+                                              <img
                                                 alt="LEGO Flinders St art print"
+                                                className="styles__Content-sc-1uvt01h-2 gUObMO"
                                                 src="/assets/images/projects/legoFlinders/legoFlinders_preview.jpg"
-                                              >
-                                                <img
-                                                  alt="LEGO Flinders St art print"
-                                                  className="styles__Content-sc-1uvt01h-2 gUObMO"
-                                                  src="/assets/images/projects/legoFlinders/legoFlinders_preview.jpg"
-                                                />
-                                              </styles__Content>
-                                            </div>
-                                          </styles__Frame>
-                                        </div>
-                                      </styles__Container>
-                                    </Memo()>
-                                  </Connect(Component)>
+                                              />
+                                            </styles__Content>
+                                          </div>
+                                        </styles__Frame>
+                                      </div>
+                                    </styles__Container>
+                                  </Memo()>
                                 </Memo()>
                               </div>
                             </styles__MediaWrapper>
@@ -15702,7 +15537,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                   type="image"
                                   url="/assets/images/projects/tramsformation/tramsformer_w_1_full.jpg"
                                 >
-                                  <Connect(Component)
+                                  <Memo()
                                     noSiblings={false}
                                     orientation="landscape"
                                     slug="tramsformation_w_1"
@@ -15711,45 +15546,34 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                     type="image"
                                     url="/assets/images/projects/tramsformation/tramsformer_w_1_full.jpg"
                                   >
-                                    <Memo()
+                                    <styles__Container
                                       noSiblings={false}
-                                      orientation="landscape"
-                                      showPopup={[Function]}
-                                      slug="tramsformation_w_1"
-                                      thumbnail="/assets/images/projects/tramsformation/tramsformer_w_1_preview.jpg"
-                                      title="Tramsformer W-Class Robot Mode"
-                                      type="image"
-                                      url="/assets/images/projects/tramsformation/tramsformer_w_1_full.jpg"
                                     >
-                                      <styles__Container
-                                        noSiblings={false}
+                                      <div
+                                        className="styles__Container-sc-1uvt01h-0 fPWybz"
                                       >
-                                        <div
-                                          className="styles__Container-sc-1uvt01h-0 fPWybz"
+                                        <styles__Frame
+                                          onClick={[Function]}
                                         >
-                                          <styles__Frame
+                                          <div
+                                            className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
                                             onClick={[Function]}
                                           >
-                                            <div
-                                              className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
-                                              onClick={[Function]}
+                                            <styles__Content
+                                              alt="Tramsformer W-Class Robot Mode"
+                                              src="/assets/images/projects/tramsformation/tramsformer_w_1_preview.jpg"
                                             >
-                                              <styles__Content
+                                              <img
                                                 alt="Tramsformer W-Class Robot Mode"
+                                                className="styles__Content-sc-1uvt01h-2 gUObMO"
                                                 src="/assets/images/projects/tramsformation/tramsformer_w_1_preview.jpg"
-                                              >
-                                                <img
-                                                  alt="Tramsformer W-Class Robot Mode"
-                                                  className="styles__Content-sc-1uvt01h-2 gUObMO"
-                                                  src="/assets/images/projects/tramsformation/tramsformer_w_1_preview.jpg"
-                                                />
-                                              </styles__Content>
-                                            </div>
-                                          </styles__Frame>
-                                        </div>
-                                      </styles__Container>
-                                    </Memo()>
-                                  </Connect(Component)>
+                                              />
+                                            </styles__Content>
+                                          </div>
+                                        </styles__Frame>
+                                      </div>
+                                    </styles__Container>
+                                  </Memo()>
                                 </Memo()>
                                 <Memo()
                                   key="ProjectMedia_tramsformation_w_2"
@@ -15761,7 +15585,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                   type="image"
                                   url="/assets/images/projects/tramsformation/tramsformer_w_2_full.jpg"
                                 >
-                                  <Connect(Component)
+                                  <Memo()
                                     noSiblings={false}
                                     orientation="landscape"
                                     slug="tramsformation_w_2"
@@ -15770,45 +15594,34 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                     type="image"
                                     url="/assets/images/projects/tramsformation/tramsformer_w_2_full.jpg"
                                   >
-                                    <Memo()
+                                    <styles__Container
                                       noSiblings={false}
-                                      orientation="landscape"
-                                      showPopup={[Function]}
-                                      slug="tramsformation_w_2"
-                                      thumbnail="/assets/images/projects/tramsformation/tramsformer_w_2_preview.jpg"
-                                      title="Tramsformer W-Class Tram Mode"
-                                      type="image"
-                                      url="/assets/images/projects/tramsformation/tramsformer_w_2_full.jpg"
                                     >
-                                      <styles__Container
-                                        noSiblings={false}
+                                      <div
+                                        className="styles__Container-sc-1uvt01h-0 fPWybz"
                                       >
-                                        <div
-                                          className="styles__Container-sc-1uvt01h-0 fPWybz"
+                                        <styles__Frame
+                                          onClick={[Function]}
                                         >
-                                          <styles__Frame
+                                          <div
+                                            className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
                                             onClick={[Function]}
                                           >
-                                            <div
-                                              className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
-                                              onClick={[Function]}
+                                            <styles__Content
+                                              alt="Tramsformer W-Class Tram Mode"
+                                              src="/assets/images/projects/tramsformation/tramsformer_w_2_preview.jpg"
                                             >
-                                              <styles__Content
+                                              <img
                                                 alt="Tramsformer W-Class Tram Mode"
+                                                className="styles__Content-sc-1uvt01h-2 gUObMO"
                                                 src="/assets/images/projects/tramsformation/tramsformer_w_2_preview.jpg"
-                                              >
-                                                <img
-                                                  alt="Tramsformer W-Class Tram Mode"
-                                                  className="styles__Content-sc-1uvt01h-2 gUObMO"
-                                                  src="/assets/images/projects/tramsformation/tramsformer_w_2_preview.jpg"
-                                                />
-                                              </styles__Content>
-                                            </div>
-                                          </styles__Frame>
-                                        </div>
-                                      </styles__Container>
-                                    </Memo()>
-                                  </Connect(Component)>
+                                              />
+                                            </styles__Content>
+                                          </div>
+                                        </styles__Frame>
+                                      </div>
+                                    </styles__Container>
+                                  </Memo()>
                                 </Memo()>
                                 <Memo()
                                   key="ProjectMedia_tramsformation_print"
@@ -15820,7 +15633,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                   type="image"
                                   url="/assets/images/projects/tramsformation/tramsformation_print_full.jpg"
                                 >
-                                  <Connect(Component)
+                                  <Memo()
                                     noSiblings={false}
                                     orientation="portrait"
                                     slug="tramsformation_print"
@@ -15829,45 +15642,34 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                     type="image"
                                     url="/assets/images/projects/tramsformation/tramsformation_print_full.jpg"
                                   >
-                                    <Memo()
+                                    <styles__Container
                                       noSiblings={false}
-                                      orientation="portrait"
-                                      showPopup={[Function]}
-                                      slug="tramsformation_print"
-                                      thumbnail="/assets/images/projects/tramsformation/tramsformation_print_preview.jpg"
-                                      title="Tramsformer art print"
-                                      type="image"
-                                      url="/assets/images/projects/tramsformation/tramsformation_print_full.jpg"
                                     >
-                                      <styles__Container
-                                        noSiblings={false}
+                                      <div
+                                        className="styles__Container-sc-1uvt01h-0 fPWybz"
                                       >
-                                        <div
-                                          className="styles__Container-sc-1uvt01h-0 fPWybz"
+                                        <styles__Frame
+                                          onClick={[Function]}
                                         >
-                                          <styles__Frame
+                                          <div
+                                            className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
                                             onClick={[Function]}
                                           >
-                                            <div
-                                              className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
-                                              onClick={[Function]}
+                                            <styles__Content
+                                              alt="Tramsformer art print"
+                                              src="/assets/images/projects/tramsformation/tramsformation_print_preview.jpg"
                                             >
-                                              <styles__Content
+                                              <img
                                                 alt="Tramsformer art print"
+                                                className="styles__Content-sc-1uvt01h-2 gUObMO"
                                                 src="/assets/images/projects/tramsformation/tramsformation_print_preview.jpg"
-                                              >
-                                                <img
-                                                  alt="Tramsformer art print"
-                                                  className="styles__Content-sc-1uvt01h-2 gUObMO"
-                                                  src="/assets/images/projects/tramsformation/tramsformation_print_preview.jpg"
-                                                />
-                                              </styles__Content>
-                                            </div>
-                                          </styles__Frame>
-                                        </div>
-                                      </styles__Container>
-                                    </Memo()>
-                                  </Connect(Component)>
+                                              />
+                                            </styles__Content>
+                                          </div>
+                                        </styles__Frame>
+                                      </div>
+                                    </styles__Container>
+                                  </Memo()>
                                 </Memo()>
                                 <Memo()
                                   key="ProjectMedia_tramsformation_transform"
@@ -15879,7 +15681,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                   type="image"
                                   url="/assets/images/projects/tramsformation/tramsformation_transform_full.jpg"
                                 >
-                                  <Connect(Component)
+                                  <Memo()
                                     noSiblings={false}
                                     orientation="portrait"
                                     slug="tramsformation_transform"
@@ -15888,45 +15690,34 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                     type="image"
                                     url="/assets/images/projects/tramsformation/tramsformation_transform_full.jpg"
                                   >
-                                    <Memo()
+                                    <styles__Container
                                       noSiblings={false}
-                                      orientation="portrait"
-                                      showPopup={[Function]}
-                                      slug="tramsformation_transform"
-                                      thumbnail="/assets/images/projects/tramsformation/tramsformation_transform_preview.jpg"
-                                      title="Tramsformer transformation"
-                                      type="image"
-                                      url="/assets/images/projects/tramsformation/tramsformation_transform_full.jpg"
                                     >
-                                      <styles__Container
-                                        noSiblings={false}
+                                      <div
+                                        className="styles__Container-sc-1uvt01h-0 fPWybz"
                                       >
-                                        <div
-                                          className="styles__Container-sc-1uvt01h-0 fPWybz"
+                                        <styles__Frame
+                                          onClick={[Function]}
                                         >
-                                          <styles__Frame
+                                          <div
+                                            className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
                                             onClick={[Function]}
                                           >
-                                            <div
-                                              className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
-                                              onClick={[Function]}
+                                            <styles__Content
+                                              alt="Tramsformer transformation"
+                                              src="/assets/images/projects/tramsformation/tramsformation_transform_preview.jpg"
                                             >
-                                              <styles__Content
+                                              <img
                                                 alt="Tramsformer transformation"
+                                                className="styles__Content-sc-1uvt01h-2 gUObMO"
                                                 src="/assets/images/projects/tramsformation/tramsformation_transform_preview.jpg"
-                                              >
-                                                <img
-                                                  alt="Tramsformer transformation"
-                                                  className="styles__Content-sc-1uvt01h-2 gUObMO"
-                                                  src="/assets/images/projects/tramsformation/tramsformation_transform_preview.jpg"
-                                                />
-                                              </styles__Content>
-                                            </div>
-                                          </styles__Frame>
-                                        </div>
-                                      </styles__Container>
-                                    </Memo()>
-                                  </Connect(Component)>
+                                              />
+                                            </styles__Content>
+                                          </div>
+                                        </styles__Frame>
+                                      </div>
+                                    </styles__Container>
+                                  </Memo()>
                                 </Memo()>
                                 <Memo()
                                   key="ProjectMedia_tramsformation_model"
@@ -15938,7 +15729,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                   type="image"
                                   url="/assets/images/projects/tramsformation/tramsformation_model_full.jpg"
                                 >
-                                  <Connect(Component)
+                                  <Memo()
                                     noSiblings={false}
                                     orientation="portrait"
                                     slug="tramsformation_model"
@@ -15947,45 +15738,34 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                     type="image"
                                     url="/assets/images/projects/tramsformation/tramsformation_model_full.jpg"
                                   >
-                                    <Memo()
+                                    <styles__Container
                                       noSiblings={false}
-                                      orientation="portrait"
-                                      showPopup={[Function]}
-                                      slug="tramsformation_model"
-                                      thumbnail="/assets/images/projects/tramsformation/tramsformation_model_preview.jpg"
-                                      title="Tramsformer model"
-                                      type="image"
-                                      url="/assets/images/projects/tramsformation/tramsformation_model_full.jpg"
                                     >
-                                      <styles__Container
-                                        noSiblings={false}
+                                      <div
+                                        className="styles__Container-sc-1uvt01h-0 fPWybz"
                                       >
-                                        <div
-                                          className="styles__Container-sc-1uvt01h-0 fPWybz"
+                                        <styles__Frame
+                                          onClick={[Function]}
                                         >
-                                          <styles__Frame
+                                          <div
+                                            className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
                                             onClick={[Function]}
                                           >
-                                            <div
-                                              className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
-                                              onClick={[Function]}
+                                            <styles__Content
+                                              alt="Tramsformer model"
+                                              src="/assets/images/projects/tramsformation/tramsformation_model_preview.jpg"
                                             >
-                                              <styles__Content
+                                              <img
                                                 alt="Tramsformer model"
+                                                className="styles__Content-sc-1uvt01h-2 gUObMO"
                                                 src="/assets/images/projects/tramsformation/tramsformation_model_preview.jpg"
-                                              >
-                                                <img
-                                                  alt="Tramsformer model"
-                                                  className="styles__Content-sc-1uvt01h-2 gUObMO"
-                                                  src="/assets/images/projects/tramsformation/tramsformation_model_preview.jpg"
-                                                />
-                                              </styles__Content>
-                                            </div>
-                                          </styles__Frame>
-                                        </div>
-                                      </styles__Container>
-                                    </Memo()>
-                                  </Connect(Component)>
+                                              />
+                                            </styles__Content>
+                                          </div>
+                                        </styles__Frame>
+                                      </div>
+                                    </styles__Container>
+                                  </Memo()>
                                 </Memo()>
                                 <Memo()
                                   key="ProjectMedia_tramsformation_model_altmode"
@@ -15997,7 +15777,7 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                   type="image"
                                   url="/assets/images/projects/tramsformation/tramsformation_model_altmode_full.jpg"
                                 >
-                                  <Connect(Component)
+                                  <Memo()
                                     noSiblings={false}
                                     orientation="landscape"
                                     slug="tramsformation_model_altmode"
@@ -16006,45 +15786,34 @@ exports[`View -> Work should render the Work view with Initializer without throw
                                     type="image"
                                     url="/assets/images/projects/tramsformation/tramsformation_model_altmode_full.jpg"
                                   >
-                                    <Memo()
+                                    <styles__Container
                                       noSiblings={false}
-                                      orientation="landscape"
-                                      showPopup={[Function]}
-                                      slug="tramsformation_model_altmode"
-                                      thumbnail="/assets/images/projects/tramsformation/tramsformation_model_altmode_preview.jpg"
-                                      title="Tramsformer model tram mode"
-                                      type="image"
-                                      url="/assets/images/projects/tramsformation/tramsformation_model_altmode_full.jpg"
                                     >
-                                      <styles__Container
-                                        noSiblings={false}
+                                      <div
+                                        className="styles__Container-sc-1uvt01h-0 fPWybz"
                                       >
-                                        <div
-                                          className="styles__Container-sc-1uvt01h-0 fPWybz"
+                                        <styles__Frame
+                                          onClick={[Function]}
                                         >
-                                          <styles__Frame
+                                          <div
+                                            className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
                                             onClick={[Function]}
                                           >
-                                            <div
-                                              className="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 hBYeoo"
-                                              onClick={[Function]}
+                                            <styles__Content
+                                              alt="Tramsformer model tram mode"
+                                              src="/assets/images/projects/tramsformation/tramsformation_model_altmode_preview.jpg"
                                             >
-                                              <styles__Content
+                                              <img
                                                 alt="Tramsformer model tram mode"
+                                                className="styles__Content-sc-1uvt01h-2 gUObMO"
                                                 src="/assets/images/projects/tramsformation/tramsformation_model_altmode_preview.jpg"
-                                              >
-                                                <img
-                                                  alt="Tramsformer model tram mode"
-                                                  className="styles__Content-sc-1uvt01h-2 gUObMO"
-                                                  src="/assets/images/projects/tramsformation/tramsformation_model_altmode_preview.jpg"
-                                                />
-                                              </styles__Content>
-                                            </div>
-                                          </styles__Frame>
-                                        </div>
-                                      </styles__Container>
-                                    </Memo()>
-                                  </Connect(Component)>
+                                              />
+                                            </styles__Content>
+                                          </div>
+                                        </styles__Frame>
+                                      </div>
+                                    </styles__Container>
+                                  </Memo()>
                                 </Memo()>
                                 <Memo()
                                   key="ProjectMedia_tramsformation_mobile"

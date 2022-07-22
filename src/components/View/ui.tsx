@@ -1,6 +1,5 @@
 import React, { memo, useContext } from 'react';
 import LogoMenu from 'components/LogoMenu';
-import Popup from 'components/Popup';
 import Home from 'views/Home';
 import About from 'views/About';
 import Work from 'views/Work';
@@ -8,7 +7,7 @@ import Contact from 'views/Contact';
 import GlobalStyles from 'styles/global';
 import { LoadingContext } from 'contexts/Loading';
 import ImagePreloader from 'components/ImagePreloader';
-import { LOCATIONS } from 'routers/Routes';
+import { LOCATIONS } from 'routers/constants';
 import {
   Container,
   Control,
@@ -17,9 +16,11 @@ import {
   ShutterBottom,
   MediaLoadingMessage,
 } from './styles';
-import { ContainerProps, StateProps } from './types';
 
-export type UiProps = ContainerProps & StateProps;
+export type UiProps = {
+  location: typeof LOCATIONS[keyof typeof LOCATIONS],
+  target?: string
+};
 
 export default memo(
   ({
@@ -38,7 +39,6 @@ export default memo(
         />
         <GlobalStyles />
         <Container>
-          <Popup />
           <Control>
             <LogoMenu location={location} />
           </Control>

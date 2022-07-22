@@ -2,18 +2,19 @@
 
 exports[`Component -> Popup should render the closed Popup UI without throwing an error 1`] = `
 <Memo()
-  active={false}
-  close={[MockFunction]}
+  isActive={false}
   loading={false}
+  onClose={[MockFunction]}
   orientation="landscape"
   title="Popup Test"
   url="/about"
 >
   <styles__Container
+    isActive={false}
     isLoading={false}
   >
     <section
-      className="styles__Container-hsnn8o-0 dSMued"
+      className="styles__Container-hsnn8o-0 kHaxRx"
     >
       <styles__Lightbox
         onClick={[Function]}
@@ -56,18 +57,19 @@ exports[`Component -> Popup should render the closed Popup UI without throwing a
 
 exports[`Component -> Popup should render the loading Popup UI without throwing an error 1`] = `
 <Memo()
-  active={true}
-  close={[MockFunction]}
+  isActive={true}
   loading={true}
+  onClose={[MockFunction]}
   orientation="landscape"
   title="Popup Test"
   url="/about"
 >
   <styles__Container
+    isActive={true}
     isLoading={false}
   >
     <section
-      className="styles__Container-hsnn8o-0 dSMued"
+      className="styles__Container-hsnn8o-0 dPZtEY"
     >
       <styles__Lightbox
         onClick={[Function]}
@@ -110,18 +112,19 @@ exports[`Component -> Popup should render the loading Popup UI without throwing 
 
 exports[`Component -> Popup should render the open Popup UI without throwing an error 1`] = `
 <Memo()
-  active={true}
-  close={[MockFunction]}
+  isActive={true}
   loading={false}
+  onClose={[MockFunction]}
   orientation="landscape"
   title="Popup Test"
   url="/about"
 >
   <styles__Container
+    isActive={true}
     isLoading={false}
   >
     <section
-      className="styles__Container-hsnn8o-0 dSMued"
+      className="styles__Container-hsnn8o-0 dPZtEY"
     >
       <styles__Lightbox
         onClick={[Function]}

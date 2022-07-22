@@ -1,11 +1,11 @@
 import React, {
   createContext, ReactNode, FC, useState, SetStateAction, Dispatch,
 } from 'react';
-import { LOCATIONS } from 'routers/Routes';
+import { LOCATIONS } from 'routers/constants';
 
 export interface LocationContext {
   location: typeof LOCATIONS[keyof typeof LOCATIONS],
-  updateLocation: Dispatch<SetStateAction<string>>
+  setLocation: Dispatch<SetStateAction<typeof LOCATIONS[keyof typeof LOCATIONS]>>
 }
 
 interface LocationContextProps {
@@ -14,7 +14,7 @@ interface LocationContextProps {
 
 const locationContextValues = {
   location: LOCATIONS.home,
-  updateLocation: () => {},
+  setLocation: () => {},
 };
 
 export const LocationContext = createContext<LocationContext>(locationContextValues);
@@ -24,7 +24,7 @@ export const LocationProvider: FC<LocationContextProps> = ({
 }) => {
   const [location, setLocation] = useState(locationContextValues.location);
   return (
-    <LocationContext.Provider value={{ location, updateLocation: setLocation }}>
+    <LocationContext.Provider value={{ location, setLocation }}>
       {children}
     </LocationContext.Provider>
   );

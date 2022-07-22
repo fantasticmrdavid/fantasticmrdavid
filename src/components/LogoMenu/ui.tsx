@@ -2,6 +2,7 @@ import React, { memo, useState } from 'react';
 import { faAngleDown, faCog } from '@fortawesome/free-solid-svg-icons';
 import Blinker from 'components/Blinker';
 import MenuLink from 'components/MenuLink';
+import { LOCATIONS } from 'routers/constants';
 import menu from './menu';
 import {
   Container,
@@ -12,9 +13,8 @@ import {
   CogIcon,
   Icon,
 } from './styles';
-import { ContainerProps } from './types';
 
-type UiProps = ContainerProps;
+type UiProps = { location?: typeof LOCATIONS[keyof typeof LOCATIONS] };
 
 export default memo(
   ({ location }: UiProps) => {
@@ -28,7 +28,8 @@ export default memo(
         <Nav isOpen={isOpen}>
           { menu.map((item) => (
             <MenuLink
-              {...item}
+              label={item.label}
+              target={item.target}
               isMenuActive={isOpen}
               key={`MenuLink_${item.target}`}
               isCurrent={location === item.target}

@@ -8,14 +8,19 @@ import {
   Landscape,
   Portrait,
 } from './styles';
-import { ContainerProps, StateProps, DispatchProps } from './types';
 
-export type UiProps = ContainerProps & StateProps & DispatchProps;
+export type UiProps = {
+  isActive: boolean,
+  onClose: (...args: any[]) => any,
+  orientation: string,
+  title: string,
+  url: string,
+};
 
 export default memo(
   (props: UiProps) => {
     const {
-      close,
+      onClose,
       isActive,
       orientation,
       title,
@@ -25,7 +30,7 @@ export default memo(
 
     const handleClose = (e: SyntheticEvent) => {
       e.preventDefault();
-      close(e);
+      onClose();
     };
 
     const Image = orientation === 'landscape' ? Landscape : Portrait;

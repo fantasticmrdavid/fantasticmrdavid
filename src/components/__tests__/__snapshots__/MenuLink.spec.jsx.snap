@@ -2,27 +2,28 @@
 
 exports[`Component -> MenuLink should render the "about" MenuLink UI without throwing an error 1`] = `
 <Memo()
-  current={false}
   history={
     Object {
       "push": [MockFunction],
     }
   }
+  isCurrent={false}
+  isMenuActive={true}
   label="Contact"
-  menuActive={true}
   target="about"
-  updateLocation={[MockFunction]}
 >
   <styles__Container>
     <div
       className="styles__Container-sc-1w8m3j0-0 exuZum"
     >
       <styles__Label
+        isCurrent={false}
+        isMenuActive={true}
         onClick={[Function]}
         target="about"
       >
         <div
-          className="styles__Label-sc-1w8m3j0-1 gogLAi"
+          className="styles__Label-sc-1w8m3j0-1 iuVxWO"
           onClick={[Function]}
           target="about"
         >
@@ -30,9 +31,12 @@ exports[`Component -> MenuLink should render the "about" MenuLink UI without thr
         </div>
       </styles__Label>
       <Memo()
+        isCurrent={false}
         location="about"
       >
-        <styles__Content>
+        <styles__Content
+          isCurrent={false}
+        >
           <div
             className="styles__Content-xptth5-0 dwSYql"
           >
@@ -51,27 +55,28 @@ exports[`Component -> MenuLink should render the "about" MenuLink UI without thr
 
 exports[`Component -> MenuLink should render the "contact" MenuLink UI without throwing an error 1`] = `
 <Memo()
-  current={false}
   history={
     Object {
       "push": [MockFunction],
     }
   }
+  isCurrent={false}
+  isMenuActive={true}
   label="Contact"
-  menuActive={true}
   target="contact"
-  updateLocation={[MockFunction]}
 >
   <styles__Container>
     <div
       className="styles__Container-sc-1w8m3j0-0 exuZum"
     >
       <styles__Label
+        isCurrent={false}
+        isMenuActive={true}
         onClick={[Function]}
         target="contact"
       >
         <div
-          className="styles__Label-sc-1w8m3j0-1 fvGMzS"
+          className="styles__Label-sc-1w8m3j0-1 gNJKpm"
           onClick={[Function]}
           target="contact"
         >
@@ -79,9 +84,12 @@ exports[`Component -> MenuLink should render the "contact" MenuLink UI without t
         </div>
       </styles__Label>
       <Memo()
+        isCurrent={false}
         location="contact"
       >
-        <styles__Content>
+        <styles__Content
+          isCurrent={false}
+        >
           <div
             className="styles__Content-xptth5-0 dwSYql"
           >
@@ -100,27 +108,28 @@ exports[`Component -> MenuLink should render the "contact" MenuLink UI without t
 
 exports[`Component -> MenuLink should render the "work" MenuLink UI without throwing an error 1`] = `
 <Memo()
-  current={false}
   history={
     Object {
       "push": [MockFunction],
     }
   }
+  isCurrent={false}
+  isMenuActive={true}
   label="Contact"
-  menuActive={true}
   target="work"
-  updateLocation={[MockFunction]}
 >
   <styles__Container>
     <div
       className="styles__Container-sc-1w8m3j0-0 exuZum"
     >
       <styles__Label
+        isCurrent={false}
+        isMenuActive={true}
         onClick={[Function]}
         target="work"
       >
         <div
-          className="styles__Label-sc-1w8m3j0-1 eKBUbM"
+          className="styles__Label-sc-1w8m3j0-1 dRRxBw"
           onClick={[Function]}
           target="work"
         >
@@ -128,9 +137,12 @@ exports[`Component -> MenuLink should render the "work" MenuLink UI without thro
         </div>
       </styles__Label>
       <Memo()
+        isCurrent={false}
         location="work"
       >
-        <styles__Content>
+        <styles__Content
+          isCurrent={false}
+        >
           <div
             className="styles__Content-xptth5-0 dwSYql"
           >

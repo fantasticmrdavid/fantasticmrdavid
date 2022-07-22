@@ -15,79 +15,68 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
   >
     <LoadingProvider>
       <LocationProvider>
-        <Connect(_default)>
-          <_default
-            images={
-              Array [
-                Object {
-                  "name": "legoFlinders",
-                  "src": "/assets/images/legoFlinders.jpg",
-                },
-              ]
-            }
-            stopLoading={[Function]}
-          />
-        </Connect(_default)>
-        <BrowserRouter>
-          <Router
-            history={
-              Object {
-                "action": "POP",
-                "block": [Function],
-                "createHref": [Function],
-                "go": [Function],
-                "goBack": [Function],
-                "goForward": [Function],
-                "length": 1,
-                "listen": [Function],
-                "location": Object {
-                  "hash": "",
-                  "pathname": "/",
-                  "search": "",
-                  "state": undefined,
-                },
-                "push": [Function],
-                "replace": [Function],
+        <PopupProvider>
+          <Connect(_default)>
+            <_default
+              images={
+                Array [
+                  Object {
+                    "name": "legoFlinders",
+                    "src": "/assets/images/legoFlinders.jpg",
+                  },
+                ]
               }
-            }
-          >
-            <Routes>
-              <Switch>
-                <Route
-                  computedMatch={
-                    Object {
-                      "isExact": true,
-                      "params": Object {},
-                      "path": "/",
-                      "url": "/",
+              stopLoading={[Function]}
+            />
+          </Connect(_default)>
+          <BrowserRouter>
+            <Router
+              history={
+                Object {
+                  "action": "POP",
+                  "block": [Function],
+                  "createHref": [Function],
+                  "go": [Function],
+                  "goBack": [Function],
+                  "goForward": [Function],
+                  "length": 1,
+                  "listen": [Function],
+                  "location": Object {
+                    "hash": "",
+                    "pathname": "/",
+                    "search": "",
+                    "state": undefined,
+                  },
+                  "push": [Function],
+                  "replace": [Function],
+                }
+              }
+            >
+              <Routes>
+                <Switch>
+                  <Route
+                    computedMatch={
+                      Object {
+                        "isExact": true,
+                        "params": Object {},
+                        "path": "/",
+                        "url": "/",
+                      }
                     }
-                  }
-                  exact={true}
-                  location={
-                    Object {
-                      "hash": "",
-                      "pathname": "/",
-                      "search": "",
-                      "state": undefined,
+                    exact={true}
+                    location={
+                      Object {
+                        "hash": "",
+                        "pathname": "/",
+                        "search": "",
+                        "state": undefined,
+                      }
                     }
-                  }
-                  path="/"
-                  render={[Function]}
-                >
-                  <Connect(Component)
-                    location="home"
+                    path="/"
+                    render={[Function]}
                   >
                     <Memo()
-                      dispatch={[Function]}
                       location="home"
-                      popup={
-                        Object {
-                          "isActive": false,
-                          "popup": undefined,
-                          "title": null,
-                          "url": null,
-                        }
-                      }
                     >
                       <Memo()
                         completedAction={[Function]}
@@ -111,48 +100,6 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                         <div
                           className="styles__Container-sc-1jpprl2-0 gLXbhR"
                         >
-                          <Connect(Component)>
-                            <Memo()
-                              close={[Function]}
-                              isActive={false}
-                              title={null}
-                              url={null}
-                            >
-                              <styles__Container
-                                isActive={false}
-                                isLoading={true}
-                              >
-                                <section
-                                  className="styles__Container-hsnn8o-0 dSMued"
-                                >
-                                  <styles__Lightbox
-                                    onClick={[Function]}
-                                  >
-                                    <div
-                                      className="styles__Lightbox-hsnn8o-1 jVNA-Dl"
-                                      onClick={[Function]}
-                                    />
-                                  </styles__Lightbox>
-                                  <styles__Dialog>
-                                    <div
-                                      className="styles__Dialog-hsnn8o-2 ghzZou"
-                                    >
-                                      <styles__Close
-                                        onClick={[Function]}
-                                      >
-                                        <div
-                                          className="styles__Close-hsnn8o-5 jwZAfl"
-                                          onClick={[Function]}
-                                        >
-                                          X
-                                        </div>
-                                      </styles__Close>
-                                    </div>
-                                  </styles__Dialog>
-                                </section>
-                              </styles__Container>
-                            </Memo()>
-                          </Connect(Component)>
                           <styles__Control>
                             <section
                               className="styles__Control-sc-1jpprl2-1 cOa-DvB"
@@ -725,12 +672,53 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                         </div>
                       </styles__Container>
                     </Memo()>
-                  </Connect(Component)>
-                </Route>
-              </Switch>
-            </Routes>
-          </Router>
-        </BrowserRouter>
+                  </Route>
+                </Switch>
+              </Routes>
+            </Router>
+          </BrowserRouter>
+          <Memo()
+            isActive={false}
+            onClose={[Function]}
+            orientation="landscape"
+            title=""
+            url=""
+          >
+            <styles__Container
+              isActive={false}
+              isLoading={true}
+            >
+              <section
+                className="styles__Container-hsnn8o-0 kHaxRx"
+              >
+                <styles__Lightbox
+                  onClick={[Function]}
+                >
+                  <div
+                    className="styles__Lightbox-hsnn8o-1 jVNA-Dl"
+                    onClick={[Function]}
+                  />
+                </styles__Lightbox>
+                <styles__Dialog>
+                  <div
+                    className="styles__Dialog-hsnn8o-2 ghzZou"
+                  >
+                    <styles__Close
+                      onClick={[Function]}
+                    >
+                      <div
+                        className="styles__Close-hsnn8o-5 jwZAfl"
+                        onClick={[Function]}
+                      >
+                        X
+                      </div>
+                    </styles__Close>
+                  </div>
+                </styles__Dialog>
+              </section>
+            </styles__Container>
+          </Memo()>
+        </PopupProvider>
       </LocationProvider>
     </LoadingProvider>
   </Provider>

@@ -1,6 +1,11 @@
-import { LOCATIONS } from 'routers/Routes';
+import { LOCATIONS } from 'routers/constants';
 
-export default [
+type MenuItem = {
+  label: string,
+  target: typeof LOCATIONS[keyof typeof LOCATIONS]
+};
+
+const menu: MenuItem[] = [
   {
     label: 'About',
     target: LOCATIONS.about,
@@ -13,7 +18,6 @@ export default [
     label: 'Contact',
     target: LOCATIONS.contact,
   },
-] as {
-  label: string,
-  target: keyof typeof LOCATIONS
-}[];
+];
+
+export default menu;

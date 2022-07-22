@@ -9,8 +9,8 @@ import {
 } from 'components/Popup/styles';
 
 const props = {
-  active: true,
-  close: jest.fn(),
+  isActive: true,
+  onClose: jest.fn(),
   loading: false,
   orientation: 'landscape',
   title: 'Popup Test',
@@ -23,7 +23,7 @@ describe('Component -> Popup', () => {
   });
 
   it('should render the closed Popup UI without throwing an error', () => {
-    expect(mount(<Ui {...props} active={false} />)).toMatchSnapshot();
+    expect(mount(<Ui {...props} isActive={false} />)).toMatchSnapshot();
   });
 
   it('should render the open Popup UI without throwing an error', () => {
@@ -33,13 +33,13 @@ describe('Component -> Popup', () => {
   it('should call close() when Lightbox is clicked', () => {
     const component = mount(<Ui {...props} />);
     component.find(Lightbox).simulate('click');
-    expect(props.close).toHaveBeenCalled();
+    expect(props.onClose).toHaveBeenCalled();
   });
 
   it('should call close() when Close element is clicked', () => {
     const component = mount(<Ui {...props} />);
     component.find(Close).simulate('click');
-    expect(props.close).toHaveBeenCalled();
+    expect(props.onClose).toHaveBeenCalled();
   });
 
   it('should render a Landscape element if a URL is provided and orientation is landscape', () => {

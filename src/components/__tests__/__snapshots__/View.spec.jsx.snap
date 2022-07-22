@@ -1,83 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Component -> View should render the View in first loading state without throwing an error 1`] = `
-<Fragment>
-  <Memo()
-    completedAction={[Function]}
-    hideCompletedCount={true}
-    images={
-      Array [
-        "/assets/images/legoFlinders.jpg",
-      ]
-    }
-  />
-  <Memo(GlobalStyleComponent) />
-  <styles__Container>
-    <Connect(Component) />
-    <styles__Control>
-      <Memo()
-        location="about"
-      />
-    </styles__Control>
-    <styles__Media
-      location="about"
-    >
-      <styles__ShutterTop
-        isFirstMediaLoading={false}
-      />
-      <styles__ShutterBottom
-        isFirstMediaLoading={false}
-      />
-      <styles__MediaLoadingMessage
-        isFirstMediaLoading={false}
-      >
-        Hello!
-      </styles__MediaLoadingMessage>
-      <Memo() />
-    </styles__Media>
-  </styles__Container>
-</Fragment>
-`;
-
-exports[`Component -> View should render the View in loading state without throwing an error 1`] = `
-<Fragment>
-  <Memo()
-    completedAction={[Function]}
-    hideCompletedCount={true}
-    images={
-      Array [
-        "/assets/images/legoFlinders.jpg",
-      ]
-    }
-  />
-  <Memo(GlobalStyleComponent) />
-  <styles__Container>
-    <Connect(Component) />
-    <styles__Control>
-      <Memo()
-        location="about"
-      />
-    </styles__Control>
-    <styles__Media
-      location="about"
-    >
-      <styles__ShutterTop
-        isFirstMediaLoading={false}
-      />
-      <styles__ShutterBottom
-        isFirstMediaLoading={false}
-      />
-      <styles__MediaLoadingMessage
-        isFirstMediaLoading={false}
-      >
-        Hello!
-      </styles__MediaLoadingMessage>
-      <Memo() />
-    </styles__Media>
-  </styles__Container>
-</Fragment>
-`;
-
 exports[`Component -> View should render the View without throwing an error 1`] = `
 <Fragment>
   <Memo()
@@ -91,7 +13,6 @@ exports[`Component -> View should render the View without throwing an error 1`] 
   />
   <Memo(GlobalStyleComponent) />
   <styles__Container>
-    <Connect(Component) />
     <styles__Control>
       <Memo()
         location="about"

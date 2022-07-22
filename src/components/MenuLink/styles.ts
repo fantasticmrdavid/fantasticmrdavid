@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import theme from 'styles/theme';
 import { media } from 'styles/utils';
+import { LOCATIONS } from 'routers/constants';
 
 const colorAbout = '#3fa44e';
 const colorWork = '#967fd1';
@@ -9,7 +10,7 @@ const colorContact = '#cc750c';
 interface LabelProps {
   isCurrent: boolean,
   isMenuActive: boolean,
-  target: string,
+  target: typeof LOCATIONS[keyof typeof LOCATIONS],
 }
 
 export const Container = styled.div`

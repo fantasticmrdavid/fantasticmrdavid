@@ -1,5 +1,5 @@
-import React, { memo, SyntheticEvent } from 'react';
-import ReactGA from 'react-ga';
+import React, { memo, SyntheticEvent, useContext } from 'react';
+import { PopupContext } from 'contexts/Popup';
 import {
   Container,
   Frame,
@@ -23,17 +23,25 @@ export default memo(
       title,
       url,
       orientation,
-      showPopup,
     } = props;
+    const { popup, setPopup } = useContext(PopupContext);
 
     const handleClick = (e: SyntheticEvent) => {
       e.preventDefault();
-      showPopup({ title, url, orientation });
-      ReactGA.event({
-        category: 'Project',
-        action: 'Media Image Clicked',
-        label: title,
-      });
+      if (url) {
+        setPopup({
+          title,
+          orientation,
+          url,
+          isActive: true,
+          onClose: () => {
+            setPopup({
+              ...popup,
+              isActive: false,
+            });
+          },
+        });
+      }
     };
 
     return (

@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 import theme from 'styles/theme';
 import { media } from 'styles/utils';
+import { LOCATIONS } from 'routers/constants';
 
 interface MediaProps {
-  location: string,
+  location: typeof LOCATIONS[keyof typeof LOCATIONS],
 }
 
 interface ShutterProps {

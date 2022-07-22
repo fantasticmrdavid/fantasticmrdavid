@@ -1,7 +1,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import Ui from 'components/MenuLink/ui';
-import { LOCATIONS } from 'routers/Routes';
+import { LOCATIONS } from 'routers/constants';
 
 const props = {
   target: LOCATIONS.contact,

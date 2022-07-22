@@ -10,6 +10,8 @@ interface ContainerProps {
 
 export const Container = styled.section<ContainerProps>`
   position: fixed;
+  top: 0px;
+  left: 0px;
   width: 100%;
   height: 100%;
   z-index: ${(props) => (props.isLoading || !props.isActive ? -1 : 26)};

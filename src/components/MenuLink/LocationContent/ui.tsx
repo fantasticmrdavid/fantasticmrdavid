@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import { LOCATIONS } from 'routers/Routes';
+import { LOCATIONS } from 'routers/constants';
 import About from './About';
 import Work from './Work';
 import Contact from './Contact';
