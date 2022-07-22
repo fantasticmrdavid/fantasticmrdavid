@@ -1,3 +1,3 @@
-import Container from './container';
+import Ui from './Ui';
 
-export default Container;
+export default Ui;

@@ -1,6 +1,5 @@
 export type StateProps = {
   isActive: boolean,
-  isLoading: boolean,
 };
 
 export type DispatchProps = {

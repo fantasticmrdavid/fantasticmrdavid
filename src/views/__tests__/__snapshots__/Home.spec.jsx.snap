@@ -13,6 +13,7 @@ exports[`View -> Home should render the Home UI (loading) without throwing an er
 >
   <styles__Container
     imgSrc="/assets/images/legoFlinders.jpg"
+    isLoading={false}
   >
     <div
       className="styles__Container-sc-19v7chj-0 ftUPBY"
@@ -34,6 +35,7 @@ exports[`View -> Home should render the Home UI (not loading) without throwing a
 >
   <styles__Container
     imgSrc="/assets/images/legoFlinders.jpg"
+    isLoading={false}
   >
     <div
       className="styles__Container-sc-19v7chj-0 ftUPBY"
@@ -67,19 +69,15 @@ exports[`View -> Home should render the Home view with Initializer without throw
       stopLoading={[Function]}
     />
   </Connect(_default)>
-  <Connect(Component)>
-    <Memo()
-      dispatch={[Function]}
-      loading={true}
+  <Memo()>
+    <styles__Container
+      imgSrc="/assets/images/legoFlinders.jpg"
+      isLoading={false}
     >
-      <styles__Container
-        imgSrc="/assets/images/legoFlinders.jpg"
-      >
-        <div
-          className="styles__Container-sc-19v7chj-0 ftUPBY"
-        />
-      </styles__Container>
-    </Memo()>
-  </Connect(Component)>
+      <div
+        className="styles__Container-sc-19v7chj-0 ftUPBY"
+      />
+    </styles__Container>
+  </Memo()>
 </Provider>
 `;

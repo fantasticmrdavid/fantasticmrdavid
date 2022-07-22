@@ -1,8 +1,9 @@
-import React, { PureComponent } from 'react';
+import React, { memo, useContext, useEffect } from 'react';
 import ScopeSpinner from 'components/ScopeSpinner';
 import ImagePreloader from 'components/ImagePreloader';
 import Project from 'components/Project';
 import projects, { Project as ProjectProps } from 'data/projects';
+import { LoadingContext } from 'contexts/Loading';
 import {
   Container,
   LoadingContainer,
@@ -30,35 +31,38 @@ const getImages = () => {
 
 const images = getImages();
 
-export default class Work extends PureComponent<UiProps> {
-  constructor(props: UiProps) {
-    super(props);
-    const { startImagesLoading } = props;
-    startImagesLoading();
-  }
+export default memo((props: UiProps) => {
+  const {
+    target,
+    setTarget,
+  } = props;
+  const { getIsLoading, loading, setLoading } = useContext(LoadingContext);
 
-  componentDidMount() {
-    const { setTarget, target } = this.props;
+  useEffect(() => {
+    setLoading({ ...loading, images: true });
+  }, [target]);
 
-    if (target) setTarget(target);
-  }
+  if (target) setTarget(target);
+  const isLoading = getIsLoading();
 
-  render() {
-    const { isLoading, stopLoading } = this.props;
+  return (
+    <Container>
+      <LoadingContainer isLoading={isLoading}>
+        { isLoading ? <ScopeSpinner /> : <SpinnerPlaceholder /> }
+        { images.length > 0
+          && (
+            <ImagePreloader
+              images={images}
+              completedAction={() => setLoading({ ...loading, images: false, media: false })}
+            />
+          )}
+      </LoadingContainer>
 
-    return (
-      <Container>
-        <LoadingContainer isLoading={isLoading}>
-          { isLoading ? <ScopeSpinner /> : <SpinnerPlaceholder /> }
-          { images.length > 0 && <ImagePreloader images={images} completedAction={stopLoading} /> }
-        </LoadingContainer>
-
-        <ProjectListContainer isLoading={isLoading}>
-          {
-            projects.map((p: ProjectProps) => <Project {...p} key={`Project_${p.target}`} />)
-          }
-        </ProjectListContainer>
-      </Container>
-    );
-  }
-}
+      <ProjectListContainer isLoading={isLoading}>
+        {
+          projects.map((p: ProjectProps) => <Project {...p} key={`Project_${p.target}`} />)
+        }
+      </ProjectListContainer>
+    </Container>
+  );
+});

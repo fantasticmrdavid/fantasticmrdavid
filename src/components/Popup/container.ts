@@ -9,7 +9,6 @@ const mapStateToProps = (state: AppState) => {
   return {
     ...state.popup,
     isActive: state.popup.isActive,
-    isLoading: state.loading.popup,
   };
 };
 

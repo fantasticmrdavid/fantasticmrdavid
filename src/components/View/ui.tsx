@@ -6,7 +6,8 @@ import About from 'views/About';
 import Work from 'views/Work';
 import Contact from 'views/Contact';
 import GlobalStyles from 'styles/global';
-import { LocationContext } from 'contexts/Location';
+import { LoadingContext } from 'contexts/Loading';
+import ImagePreloader from 'components/ImagePreloader';
 import {
   Container,
   Control,
@@ -15,20 +16,25 @@ import {
   ShutterBottom,
   MediaLoadingMessage,
 } from './styles';
-import { ContainerProps, DispatchProps, StateProps } from './types';
+import { ContainerProps, StateProps } from './types';
 
-export type UiProps = ContainerProps & DispatchProps & StateProps;
+export type UiProps = ContainerProps & StateProps;
 
 export default memo(
   ({
-    isLoading,
-    isFirstLoad,
+    location,
     target,
   }: UiProps) => {
-    const { location } = useContext(LocationContext);
-    const isFirstMediaLoading = isLoading && isFirstLoad;
+    const { getIsLoading, loading, setLoading } = useContext(LoadingContext);
+    const isFirstMediaLoading = getIsLoading() && loading.firstLoad;
+
     return (
       <>
+        <ImagePreloader
+          hideCompletedCount
+          images={['/assets/images/legoFlinders.jpg']}
+          completedAction={() => setLoading({ ...loading, firstLoad: false, media: false })}
+        />
         <GlobalStyles />
         <Container>
           <Popup />
@@ -43,7 +49,7 @@ export default memo(
               Hello!
             </MediaLoadingMessage>
             { location === 'home' && <Home /> }
-            { location === 'about' && <About isLoading={isLoading} /> }
+            { location === 'about' && <About /> }
             { location === 'work' && <Work target={target} /> }
             { location === 'contact' && <Contact /> }
           </Media>

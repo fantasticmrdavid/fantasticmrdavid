@@ -18,13 +18,11 @@ exports[`Component -> MenuLink should render the "about" MenuLink UI without thr
       className="styles__Container-sc-1w8m3j0-0 exuZum"
     >
       <styles__Label
-        isCurrent={false}
-        menuActive={true}
         onClick={[Function]}
         target="about"
       >
         <div
-          className="styles__Label-sc-1w8m3j0-1 iuVxWO"
+          className="styles__Label-sc-1w8m3j0-1 gogLAi"
           onClick={[Function]}
           target="about"
         >
@@ -32,12 +30,9 @@ exports[`Component -> MenuLink should render the "about" MenuLink UI without thr
         </div>
       </styles__Label>
       <Memo()
-        isCurrent={false}
         location="about"
       >
-        <styles__Content
-          isCurrent={false}
-        >
+        <styles__Content>
           <div
             className="styles__Content-xptth5-0 dwSYql"
           >
@@ -72,13 +67,11 @@ exports[`Component -> MenuLink should render the "contact" MenuLink UI without t
       className="styles__Container-sc-1w8m3j0-0 exuZum"
     >
       <styles__Label
-        isCurrent={false}
-        menuActive={true}
         onClick={[Function]}
         target="contact"
       >
         <div
-          className="styles__Label-sc-1w8m3j0-1 gNJKpm"
+          className="styles__Label-sc-1w8m3j0-1 fvGMzS"
           onClick={[Function]}
           target="contact"
         >
@@ -86,12 +79,9 @@ exports[`Component -> MenuLink should render the "contact" MenuLink UI without t
         </div>
       </styles__Label>
       <Memo()
-        isCurrent={false}
         location="contact"
       >
-        <styles__Content
-          isCurrent={false}
-        >
+        <styles__Content>
           <div
             className="styles__Content-xptth5-0 dwSYql"
           >
@@ -126,13 +116,11 @@ exports[`Component -> MenuLink should render the "work" MenuLink UI without thro
       className="styles__Container-sc-1w8m3j0-0 exuZum"
     >
       <styles__Label
-        isCurrent={false}
-        menuActive={true}
         onClick={[Function]}
         target="work"
       >
         <div
-          className="styles__Label-sc-1w8m3j0-1 dRRxBw"
+          className="styles__Label-sc-1w8m3j0-1 eKBUbM"
           onClick={[Function]}
           target="work"
         >
@@ -140,12 +128,9 @@ exports[`Component -> MenuLink should render the "work" MenuLink UI without thro
         </div>
       </styles__Label>
       <Memo()
-        isCurrent={false}
         location="work"
       >
-        <styles__Content
-          isCurrent={false}
-        >
+        <styles__Content>
           <div
             className="styles__Content-xptth5-0 dwSYql"
           >

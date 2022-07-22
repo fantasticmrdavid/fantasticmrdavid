@@ -1,9 +1,10 @@
-import React, { memo } from 'react';
+import React, { memo, useContext } from 'react';
+import { LoadingContext } from 'contexts/Loading';
 import { Container } from './styles';
-import { DispatchProps, StateProps } from './types';
-
-type UiProps = DispatchProps & StateProps;
 
 export default memo(
-  ({ isLoading }: UiProps) => <Container isLoading={isLoading} imgSrc="/assets/images/legoFlinders.jpg" />,
+  () => {
+    const { getIsLoading } = useContext(LoadingContext);
+    return <Container isLoading={getIsLoading()} imgSrc="/assets/images/legoFlinders.jpg" />;
+  },
 );

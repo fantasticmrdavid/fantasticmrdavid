@@ -8,7 +8,7 @@ const colorContact = '#cc750c';
 
 interface LabelProps {
   isCurrent: boolean,
-  menuActive: boolean,
+  isMenuActive: boolean,
   target: string,
 }
 
@@ -24,7 +24,7 @@ export const Container = styled.div`
 
 export const Label = styled.div<LabelProps>`
   position: relative;
-  padding: ${(props) => (props.menuActive ? '0.75rem 2rem' : '0.75rem 0')};
+  padding: ${(props) => (props.isMenuActive ? '0.75rem 2rem' : '0.75rem 0')};
   transition: 0.5s;
   color: ${(props) => (props.isCurrent ? theme.colorBlack : undefined)};
   font-size: ${(props) => (props.isCurrent ? '2rem' : undefined)};

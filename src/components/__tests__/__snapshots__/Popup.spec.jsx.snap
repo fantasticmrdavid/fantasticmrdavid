@@ -9,7 +9,9 @@ exports[`Component -> Popup should render the closed Popup UI without throwing a
   title="Popup Test"
   url="/about"
 >
-  <styles__Container>
+  <styles__Container
+    isLoading={false}
+  >
     <section
       className="styles__Container-hsnn8o-0 dSMued"
     >
@@ -61,7 +63,9 @@ exports[`Component -> Popup should render the loading Popup UI without throwing 
   title="Popup Test"
   url="/about"
 >
-  <styles__Container>
+  <styles__Container
+    isLoading={false}
+  >
     <section
       className="styles__Container-hsnn8o-0 dSMued"
     >
@@ -113,7 +117,9 @@ exports[`Component -> Popup should render the open Popup UI without throwing an 
   title="Popup Test"
   url="/about"
 >
-  <styles__Container>
+  <styles__Container
+    isLoading={false}
+  >
     <section
       className="styles__Container-hsnn8o-0 dSMued"
     >

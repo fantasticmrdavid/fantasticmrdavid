@@ -12,24 +12,24 @@ exports[`Component -> LogoMenu should render the LogoMenu UI without throwing an
     isOpen={false}
   >
     <withRouter(undefined)
-      current={false}
+      isCurrent={false}
+      isMenuActive={false}
       key="MenuLink_about"
       label="About"
-      menuActive={false}
       target="about"
     />
     <withRouter(undefined)
-      current={false}
+      isCurrent={false}
+      isMenuActive={false}
       key="MenuLink_work"
       label="Latest Work"
-      menuActive={false}
       target="work"
     />
     <withRouter(undefined)
-      current={false}
+      isCurrent={false}
+      isMenuActive={false}
       key="MenuLink_contact"
       label="Contact"
-      menuActive={false}
       target="contact"
     />
   </styles__Nav>

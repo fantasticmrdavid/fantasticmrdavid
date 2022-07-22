@@ -2,23 +2,38 @@
 
 exports[`Component -> View should render the View in first loading state without throwing an error 1`] = `
 <Fragment>
+  <Memo()
+    completedAction={[Function]}
+    hideCompletedCount={true}
+    images={
+      Array [
+        "/assets/images/legoFlinders.jpg",
+      ]
+    }
+  />
   <Memo(GlobalStyleComponent) />
   <styles__Container>
     <Connect(Component) />
     <styles__Control>
       <Memo()
-        location="home"
+        location="about"
       />
     </styles__Control>
     <styles__Media
-      location="home"
+      location="about"
     >
-      <styles__ShutterTop />
-      <styles__ShutterBottom />
-      <styles__MediaLoadingMessage>
+      <styles__ShutterTop
+        isFirstMediaLoading={false}
+      />
+      <styles__ShutterBottom
+        isFirstMediaLoading={false}
+      />
+      <styles__MediaLoadingMessage
+        isFirstMediaLoading={false}
+      >
         Hello!
       </styles__MediaLoadingMessage>
-      <Connect(Component) />
+      <Memo() />
     </styles__Media>
   </styles__Container>
 </Fragment>
@@ -26,23 +41,38 @@ exports[`Component -> View should render the View in first loading state without
 
 exports[`Component -> View should render the View in loading state without throwing an error 1`] = `
 <Fragment>
+  <Memo()
+    completedAction={[Function]}
+    hideCompletedCount={true}
+    images={
+      Array [
+        "/assets/images/legoFlinders.jpg",
+      ]
+    }
+  />
   <Memo(GlobalStyleComponent) />
   <styles__Container>
     <Connect(Component) />
     <styles__Control>
       <Memo()
-        location="home"
+        location="about"
       />
     </styles__Control>
     <styles__Media
-      location="home"
+      location="about"
     >
-      <styles__ShutterTop />
-      <styles__ShutterBottom />
-      <styles__MediaLoadingMessage>
+      <styles__ShutterTop
+        isFirstMediaLoading={false}
+      />
+      <styles__ShutterBottom
+        isFirstMediaLoading={false}
+      />
+      <styles__MediaLoadingMessage
+        isFirstMediaLoading={false}
+      >
         Hello!
       </styles__MediaLoadingMessage>
-      <Connect(Component) />
+      <Memo() />
     </styles__Media>
   </styles__Container>
 </Fragment>
@@ -50,23 +80,38 @@ exports[`Component -> View should render the View in loading state without throw
 
 exports[`Component -> View should render the View without throwing an error 1`] = `
 <Fragment>
+  <Memo()
+    completedAction={[Function]}
+    hideCompletedCount={true}
+    images={
+      Array [
+        "/assets/images/legoFlinders.jpg",
+      ]
+    }
+  />
   <Memo(GlobalStyleComponent) />
   <styles__Container>
     <Connect(Component) />
     <styles__Control>
       <Memo()
-        location="home"
+        location="about"
       />
     </styles__Control>
     <styles__Media
-      location="home"
+      location="about"
     >
-      <styles__ShutterTop />
-      <styles__ShutterBottom />
-      <styles__MediaLoadingMessage>
+      <styles__ShutterTop
+        isFirstMediaLoading={false}
+      />
+      <styles__ShutterBottom
+        isFirstMediaLoading={false}
+      />
+      <styles__MediaLoadingMessage
+        isFirstMediaLoading={false}
+      >
         Hello!
       </styles__MediaLoadingMessage>
-      <Connect(Component) />
+      <Memo() />
     </styles__Media>
   </styles__Container>
 </Fragment>

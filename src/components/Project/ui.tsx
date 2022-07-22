@@ -1,5 +1,11 @@
-import React, { memo, useCallback, SyntheticEvent } from 'react';
+import React, {
+  memo,
+  useCallback,
+  SyntheticEvent,
+  useContext,
+} from 'react';
 import { Project as ProjectProps } from 'data/projects';
+import { LoadingContext } from 'contexts/Loading';
 import Content from './Content';
 import {
   Container,
@@ -28,10 +34,11 @@ export default memo(
       tagline,
       target,
       images,
-      parentLoading,
       isCurrent,
       updateCurrent,
     } = props;
+    const { loading } = useContext(LoadingContext);
+    const parentLoading = loading.images || loading.media;
 
     const handleTileClick = useCallback((e: SyntheticEvent) => {
       e.preventDefault();

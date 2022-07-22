@@ -4,7 +4,9 @@ exports[`View -> About should render the About view (loading) without throwing a
 <Memo()
   loading={true}
 >
-  <styles__Container>
+  <styles__Container
+    isLoading={false}
+  >
     <div
       className="styles__Container-qm8p7s-0 bLSmSO"
     >
@@ -12,8 +14,12 @@ exports[`View -> About should render the About view (loading) without throwing a
         <div
           className="styles__Bg-qm8p7s-1 jLNyeV"
         >
-          <Memo()>
-            <styles__Container>
+          <Memo()
+            isLoading={false}
+          >
+            <styles__Container
+              isLoading={false}
+            >
               <div
                 className="styles__Container-sc-1pwogyu-0 fxQxCi"
               >
@@ -313,7 +319,9 @@ exports[`View -> About should render the About view (loading) without throwing a
 
 exports[`View -> About should render the About view (not loading) without throwing an error 1`] = `
 <Memo()>
-  <styles__Container>
+  <styles__Container
+    isLoading={false}
+  >
     <div
       className="styles__Container-qm8p7s-0 bLSmSO"
     >
@@ -321,8 +329,12 @@ exports[`View -> About should render the About view (not loading) without throwi
         <div
           className="styles__Bg-qm8p7s-1 jLNyeV"
         >
-          <Memo()>
-            <styles__Container>
+          <Memo()
+            isLoading={false}
+          >
+            <styles__Container
+              isLoading={false}
+            >
               <div
                 className="styles__Container-sc-1pwogyu-0 fxQxCi"
               >

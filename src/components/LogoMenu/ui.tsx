@@ -29,9 +29,9 @@ export default memo(
           { menu.map((item) => (
             <MenuLink
               {...item}
-              menuActive={isOpen}
+              isMenuActive={isOpen}
               key={`MenuLink_${item.target}`}
-              current={location === item.target}
+              isCurrent={location === item.target}
             />
           )) }
         </Nav>

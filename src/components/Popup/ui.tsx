@@ -1,4 +1,5 @@
-import React, { memo, SyntheticEvent } from 'react';
+import React, { memo, SyntheticEvent, useContext } from 'react';
+import { LoadingContext } from 'contexts/Loading';
 import {
   Container,
   Lightbox,
@@ -16,11 +17,11 @@ export default memo(
     const {
       close,
       isActive,
-      isLoading,
       orientation,
       title,
       url,
     } = props;
+    const { getIsLoading } = useContext(LoadingContext);
 
     const handleClose = (e: SyntheticEvent) => {
       e.preventDefault();
@@ -30,7 +31,7 @@ export default memo(
     const Image = orientation === 'landscape' ? Landscape : Portrait;
 
     return (
-      <Container isLoading={isLoading} isActive={isActive}>
+      <Container isLoading={getIsLoading()} isActive={isActive}>
         <Lightbox onClick={handleClose} />
         <Dialog>
           <Close onClick={handleClose}>X</Close>

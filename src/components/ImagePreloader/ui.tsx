@@ -33,11 +33,12 @@ const reducer = (state: State, action: Action) => {
 
 interface Props {
   images: string[],
+  hideCompletedCount?: boolean,
   completedAction?: (...args: any[]) => any,
 }
 
 export default memo(
-  ({ images, completedAction }: Props) => {
+  ({ images, completedAction, hideCompletedCount }: Props) => {
     const [state, dispatch] = useReducer(reducer, {
       completedCount: 0,
       completed: false,
@@ -62,7 +63,7 @@ export default memo(
 
     return (
       <Container completed={state.completed}>
-        {(state.completedCount / images.length) * 100}%
+        { !hideCompletedCount && <>{(state.completedCount / images.length) * 100}%</> }
       </Container>
     );
   },

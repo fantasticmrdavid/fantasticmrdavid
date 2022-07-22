@@ -9,7 +9,7 @@ exports[`Component -> Project -> General Assembly should render the Project UI (
     current={true}
     onClick={[Function]}
     otherCurrent={false}
-    parentLoading={false}
+    parentLoading={true}
     target="ga"
   >
     <styles__Image
@@ -91,7 +91,7 @@ exports[`Component -> Project -> General Assembly should render the Project UI (
     current={false}
     onClick={[Function]}
     otherCurrent={false}
-    parentLoading={false}
+    parentLoading={true}
     target="ga"
   >
     <styles__Image
@@ -173,7 +173,7 @@ exports[`Component -> Project -> KindyNow should render the Project UI (current)
     current={true}
     onClick={[Function]}
     otherCurrent={false}
-    parentLoading={false}
+    parentLoading={true}
     target="kindynow"
   >
     <styles__Image
@@ -272,7 +272,7 @@ exports[`Component -> Project -> KindyNow should render the Project UI (not curr
     current={false}
     onClick={[Function]}
     otherCurrent={false}
-    parentLoading={false}
+    parentLoading={true}
     target="kindynow"
   >
     <styles__Image
@@ -371,7 +371,7 @@ exports[`Component -> Project -> LEGO Flinders St should render the Project UI (
     current={true}
     onClick={[Function]}
     otherCurrent={false}
-    parentLoading={false}
+    parentLoading={true}
     target="legoFlinders"
   >
     <styles__Image
@@ -458,7 +458,7 @@ exports[`Component -> Project -> LEGO Flinders St should render the Project UI (
     current={false}
     onClick={[Function]}
     otherCurrent={false}
-    parentLoading={false}
+    parentLoading={true}
     target="legoFlinders"
   >
     <styles__Image
@@ -545,7 +545,7 @@ exports[`Component -> Project -> Project Tramsformation should render the Projec
     current={true}
     onClick={[Function]}
     otherCurrent={false}
-    parentLoading={false}
+    parentLoading={true}
     target="tramsformation"
   >
     <styles__Image
@@ -701,7 +701,7 @@ exports[`Component -> Project -> Project Tramsformation should render the Projec
     current={false}
     onClick={[Function]}
     otherCurrent={false}
-    parentLoading={false}
+    parentLoading={true}
     target="tramsformation"
   >
     <styles__Image
@@ -857,7 +857,7 @@ exports[`Component -> Project -> SitePoint should render the Project UI (current
     current={true}
     onClick={[Function]}
     otherCurrent={false}
-    parentLoading={false}
+    parentLoading={true}
     target="sitepoint"
   >
     <styles__Image
@@ -962,7 +962,7 @@ exports[`Component -> Project -> SitePoint should render the Project UI (not cur
     current={false}
     onClick={[Function]}
     otherCurrent={false}
-    parentLoading={false}
+    parentLoading={true}
     target="sitepoint"
   >
     <styles__Image
