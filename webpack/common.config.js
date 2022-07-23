@@ -44,13 +44,6 @@ module.exports = {
       },
     ]
   },
-  devServer: {
-    compress: true,
-    historyApiFallback: true,
-    client: {
-      overlay: false
-    }
-  },
   optimization: {
     runtimeChunk: 'single',
     splitChunks: {

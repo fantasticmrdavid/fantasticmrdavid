@@ -17,6 +17,13 @@ const config = merge(common, {
       },
     ],
   },
+  devServer: {
+    compress: true,
+    historyApiFallback: true,
+    client: {
+      overlay: false
+    }
+  },
   devtool: 'inline-source-map',
   plugins: [
     new BundleAnalyzerPlugin({
