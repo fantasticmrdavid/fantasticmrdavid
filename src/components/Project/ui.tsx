@@ -34,7 +34,7 @@ export default memo(
     const { loading } = useContext(LoadingContext);
     const { workLocation, setWorkLocation } = useContext(WorkLocationContext);
     const isCurrent = workLocation === target;
-    const parentLoading = loading.images || loading.media;
+    const isParentLoading = loading.images || loading.media;
 
     const handleTileClick = useCallback((e: SyntheticEvent) => {
       e.preventDefault();
@@ -47,27 +47,27 @@ export default memo(
 
     return (
       <Container
-        current={isCurrent}
-        otherCurrent={isOtherCurrent}
+        isCurrent={isCurrent}
+        isOtherCurrent={isOtherCurrent}
       >
         <Tile
-          current={isCurrent}
-          parentLoading={parentLoading}
+          isCurrent={isCurrent}
+          isParentLoading={isParentLoading}
           target={target}
-          otherCurrent={isOtherCurrent}
+          isOtherCurrent={isOtherCurrent}
           onClick={handleTileClick}
         >
           <Image
-            current={isCurrent}
+            isCurrent={isCurrent}
             target={target}
             srcOn={images.tileOn}
             srcOff={images.tileOff}
           />
-          <TileContent current={isCurrent}>
+          <TileContent isCurrent={isCurrent}>
             <Title>{title}</Title>
             <Tagline>{tagline}</Tagline>
           </TileContent>
-          <Close current={isCurrent}>X</Close>
+          <Close isCurrent={isCurrent}>X</Close>
         </Tile>
         <Content {...props} isCurrent={isCurrent} />
       </Container>

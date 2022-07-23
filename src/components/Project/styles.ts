@@ -3,29 +3,29 @@ import theme from 'styles/theme';
 import { media } from 'styles/utils';
 
 interface ContainerProps {
-  otherCurrent: boolean,
-  current: boolean,
+  isOtherCurrent: boolean,
+  isCurrent: boolean,
 }
 
 interface TileProps {
-  otherCurrent: boolean,
-  current: boolean,
-  parentLoading: boolean,
+  isOtherCurrent: boolean,
+  isCurrent: boolean,
+  isParentLoading: boolean,
 }
 
 interface ImageProps {
-  current: boolean,
+  isCurrent: boolean,
   srcOn: string,
   srcOff: string,
   target: string,
 }
 
 interface TileContentProps {
-  current: boolean,
+  isCurrent: boolean,
 }
 
 interface CloseProps {
-  current: boolean,
+  isCurrent: boolean,
 }
 
 export const Container = styled.div<ContainerProps>`
@@ -34,13 +34,13 @@ export const Container = styled.div<ContainerProps>`
   display: flex;
   flex: 1;
   perspective: 1200px;
-  overflow: ${(props) => (props.otherCurrent ? 'hidden' : undefined)};
+  overflow: ${(props) => (props.isOtherCurrent ? 'hidden' : undefined)};
   width: 100%;
-  height: ${(props) => (props.current ? '100%' : undefined)};
+  height: ${(props) => (props.isCurrent ? '100%' : undefined)};
   max-height: ${(props) => {
-    const { current, otherCurrent } = props;
-    if (otherCurrent) return '0px';
-    if (current) return 'none';
+    const { isCurrent, isOtherCurrent } = props;
+    if (isOtherCurrent) return '0px';
+    if (isCurrent) return 'none';
     return '20%';
   }}
 `;
@@ -49,13 +49,13 @@ export const Tile = styled.a<TileProps>`
   position: absolute;
   box-sizing: border-box;
   width: 100%;
-  height: ${(props) => (props.current ? '4rem' : '100%')};
+  height: ${(props) => (props.isCurrent ? '4rem' : '100%')};
   top: 0px;
-  right: ${(props) => (props.current ? '0px' : '-20px')};
+  right: ${(props) => (props.isCurrent ? '0px' : '-20px')};
   background-color: ${theme.colorCharcoal};
   background-position-y: ${(props) => {
-    const { current, target } = props;
-    if (current) {
+    const { isCurrent, target } = props;
+    if (isCurrent) {
       if (target === 'sitepoint') return 'top';
       if (target === 'ga' || target === 'tramsformation') return '30%';
     }
@@ -65,40 +65,40 @@ export const Tile = styled.a<TileProps>`
   box-shadow: ${theme.dropShadow};
   transition: 0.5s;
   transform: ${(props) => {
-    const { current, parentLoading } = props;
-    if (current && !parentLoading) return 'rotateY(0deg)';
-    if (!parentLoading) return 'rotateY(20deg)';
+    const { isCurrent, isParentLoading } = props;
+    if (isCurrent && !isParentLoading) return 'rotateY(0deg)';
+    if (!isParentLoading) return 'rotateY(20deg)';
     return 'rotateY(180deg)';
   }};
-  opacity: ${(props) => (props.otherCurrent ? 0 : 1)};
-  z-index: ${(props) => (props.current ? 12 : undefined)};
+  opacity: ${(props) => (props.isOtherCurrent ? 0 : 1)};
+  z-index: ${(props) => (props.isCurrent ? 12 : undefined)};
 
   ${Container}:nth-child(even) & {
-    right: ${(props) => (!props.current ? '20px' : undefined)};
-    transform: ${(props) => (!props.current && !props.parentLoading ? 'rotateY(-20deg)' : undefined)};
+    right: ${(props) => (!props.isCurrent ? '20px' : undefined)};
+    transform: ${(props) => (!props.isCurrent && !props.isParentLoading ? 'rotateY(-20deg)' : undefined)};
   }
 
   ${media.hover`
     ${Container}:hover & {
       right: 0px;
       z-index: 12;
-      transform: ${(props: TileProps) => (!props.parentLoading ? 'rotateY(0deg)' : undefined)};
+      transform: ${(props: TileProps) => (!props.isParentLoading ? 'rotateY(0deg)' : undefined)};
     }
   `}
 `;
 
 export const Image = styled.div<ImageProps>`
   position: absolute;
-  background-image: ${(props) => (props.current ? `url(${props.srcOn})` : `url(${props.srcOff})`)};
+  background-image: ${(props) => (props.isCurrent ? `url(${props.srcOn})` : `url(${props.srcOff})`)};
   background-size: cover;
   background-position: center center;
-  background-position-x: ${(props) => (props.current && props.target === 'tramsformation' ? 'left' : undefined)};
+  background-position-x: ${(props) => (props.isCurrent && props.target === 'tramsformation' ? 'left' : undefined)};
   height: 100%;
   width: 100%;
   cursor: pointer;
   transition: 0.3s;
 
-  ${Container}:hover & {
+  ${Container}:hover &[target=${(props) => props.target}] {
     background-position-x: ${(props) => (props.target === 'tramsformation' ? 'left' : undefined)};
     background-image: ${(props) => `url(${props.srcOn})`};
   }
@@ -106,23 +106,23 @@ export const Image = styled.div<ImageProps>`
 
 export const TileContent = styled.div<TileContentProps>`
   position: absolute;
-  width: ${(props) => (props.current ? '100%' : undefined)};
-  bottom: ${(props) => (props.current ? '-3.85rem' : '0px')};
+  width: ${(props) => (props.isCurrent ? '100%' : undefined)};
+  bottom: ${(props) => (props.isCurrent ? '-3.85rem' : '0px')};
   right: 0px;
-  left: ${(props) => (props.current ? '-0.25em' : undefined)};
-  color: ${(props) => (props.current ? theme.colorWhite : theme.colorTextPrimary)};
+  left: ${(props) => (props.isCurrent ? '-0.25em' : undefined)};
+  color: ${(props) => (props.isCurrent ? theme.colorWhite : theme.colorTextPrimary)};
   font-weight: 300;
   text-transform: uppercase;
   padding: 1em 2em;
   background-color: ${theme.colorDarkCharcoal};
-  border-bottom: ${(props) => (props.current ? `1px solid ${theme.colorCharcoal}` : undefined)};
-  opacity: ${(props) => (props.current ? 1 : 0.9)};
+  border-bottom: ${(props) => (props.isCurrent ? `1px solid ${theme.colorCharcoal}` : undefined)};
+  opacity: ${(props) => (props.isCurrent ? 1 : 0.9)};
   transition: 0.3s;
-  cursor: ${(props) => (props.current ? 'default' : undefined)};
+  cursor: ${(props) => (props.isCurrent ? 'default' : undefined)};
 
   ${Container}:nth-child(even) & {
     right: auto;
-    left: ${(props) => (!props.current ? '0px' : undefined)};
+    left: ${(props) => (!props.isCurrent ? '0px' : undefined)};
   }
 `;
 
@@ -142,7 +142,7 @@ export const Close = styled.div<CloseProps>`
   right: 1em;
   color: ${theme.colorWhite};
   font-size: 1.4rem;
-  opacity: ${(props) => (props.current ? 1 : 0)};
+  opacity: ${(props) => (props.isCurrent ? 1 : 0)};
   cursor: pointer;
   transition: 0.3s;
   z-index: 2;
