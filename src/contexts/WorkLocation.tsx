@@ -2,7 +2,7 @@ import React, {
   createContext, ReactNode, FC, useState, SetStateAction, Dispatch,
 } from 'react';
 
-export interface WorkLocationContext {
+export interface WorkLocationContextValues {
   workLocation: string | undefined,
   setWorkLocation: Dispatch<SetStateAction<string | undefined>>
 }
@@ -11,18 +11,18 @@ interface WorkLocationContextProps {
   children: ReactNode
 }
 
-const workLocationContextValues = {
+const workLocationContextInitialValues = {
   workLocation: undefined,
   setWorkLocation: () => {},
 };
 
-export const WorkLocationContext = createContext<WorkLocationContext>(workLocationContextValues);
+export const WorkLocationContext = createContext<WorkLocationContextValues>(workLocationContextInitialValues);
 
 export const WorkLocationProvider: FC<WorkLocationContextProps> = ({
   children,
 }) => {
   const [workLocation, setWorkLocation] = useState<string | undefined>(
-    workLocationContextValues.workLocation,
+    workLocationContextInitialValues.workLocation,
   );
   return (
     <WorkLocationContext.Provider value={{ workLocation, setWorkLocation }}>

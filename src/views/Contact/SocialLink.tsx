@@ -1,5 +1,4 @@
-import React, { memo, useCallback } from 'react';
-import ReactGA from 'react-ga';
+import React, { memo } from 'react';
 import { IconDefinition } from '@fortawesome/fontawesome-svg-core';
 import { Icon } from './styles';
 
@@ -11,14 +10,8 @@ export interface Props {
 
 export default memo(
   ({ title, href, icon }: Props) => {
-    const handleClick = useCallback(() => ReactGA.event({
-      category: 'Contact',
-      action: 'Social link Click',
-      label: title,
-    }), [title]);
-
     return (
-      <a href={href} target="_blank" rel="noopener noreferrer" title={title} onClick={handleClick}>
+      <a href={href} target="_blank" rel="noopener noreferrer" title={title}>
         <Icon icon={icon} />
       </a>
     );

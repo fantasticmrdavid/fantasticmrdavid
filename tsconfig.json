@@ -15,7 +15,6 @@
 			"components/*": ["src/components/*"],
 			"data/*": ["src/data/*"],
 			"helpers/*": ["src/helpers/*"],
-			"reducers/*": ["src/reducers/*"],
 			"routers/*": ["src/routers/*"],
 			"views/*": ["src/views/*"]
 		}

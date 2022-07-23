@@ -10,14 +10,10 @@ const config = merge(common, {
     rules: [
       {
         test: /\.html$/,
-        use: [
-          {
-            loader: 'html-loader',
-            options: {
-              minimize: false,
-            },
-          },
-        ],
+        loader: 'html-loader',
+        options: {
+          minimize: false,
+        },
       },
     ],
   },

@@ -11,7 +11,7 @@ interface PopupState {
   url: string,
 }
 
-export interface PopupContext {
+export interface PopupContextValues {
   popup: PopupState,
   setPopup: Dispatch<SetStateAction<PopupState>>
 }
@@ -20,7 +20,7 @@ interface PopupContextProps {
   children: ReactNode
 }
 
-const popupContextValues = {
+const popupContextInitialValues = {
   popup: {
     isActive: false,
     onClose: () => {},
@@ -31,12 +31,12 @@ const popupContextValues = {
   setPopup: () => {},
 };
 
-export const PopupContext = createContext<PopupContext>(popupContextValues);
+export const PopupContext = createContext<PopupContextValues>(popupContextInitialValues);
 
 export const PopupProvider: FC<PopupContextProps> = ({
   children,
 }) => {
-  const [popup, setPopup] = useState(popupContextValues.popup);
+  const [popup, setPopup] = useState(popupContextInitialValues.popup);
   return (
     <PopupContext.Provider value={{ popup, setPopup }}>
       {children}

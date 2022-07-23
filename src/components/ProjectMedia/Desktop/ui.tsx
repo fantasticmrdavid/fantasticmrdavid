@@ -1,5 +1,4 @@
-import React, { memo, useCallback } from 'react';
-import ReactGA from 'react-ga';
+import React, { memo } from 'react';
 import {
   Container,
   OuterFrame,
@@ -17,18 +16,13 @@ export interface Props {
 
 export default memo(
   ({ title, thumbnail, url }: Props) => {
-    const handleClick = useCallback(() => ReactGA.event({
-      category: 'Project',
-      action: 'Media Desktop Website click',
-      label: title,
-    }), [title]);
 
     return (
       <Container>
         <OuterFrame>
           <a href={url} target="_blank" rel="noopener noreferrer">
             <Screen>
-              <Image src={thumbnail} alt={title} onClick={handleClick} />
+              <Image src={thumbnail} alt={title} />
             </Screen>
           </a>
         </OuterFrame>

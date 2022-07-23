@@ -1,6 +1,6 @@
 import { css } from 'styled-components';
 
-const widthSizes: {[index: string]: number} = {
+const widthSizes: { [index: string]: number } = {
   small: 568,
   medium: 768,
   large: 1000,

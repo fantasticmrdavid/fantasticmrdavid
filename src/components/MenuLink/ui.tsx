@@ -1,5 +1,4 @@
 import React, { memo, SyntheticEvent, useContext } from 'react';
-import { RouteComponentProps } from 'react-router-dom';
 import { LocationContext } from 'contexts/Location';
 import { LOCATIONS } from 'routers/constants';
 import {
@@ -7,6 +6,7 @@ import {
   Label,
 } from './styles';
 import LocationContent from './LocationContent';
+import { useNavigate } from 'react-router-dom';
 
 export interface Props {
   target: typeof LOCATIONS[keyof typeof LOCATIONS],
@@ -16,14 +16,15 @@ export interface Props {
 }
 
 export default memo(
-  (props: Props & RouteComponentProps) => {
+  (props: Props) => {
     const {
       isCurrent,
       label,
       target,
-      history,
       isMenuActive,
     } = props;
+
+    const navigate = useNavigate();
 
     const { setLocation } = useContext(LocationContext);
 
@@ -31,7 +32,7 @@ export default memo(
       e.preventDefault();
       e.stopPropagation();
       setLocation(isCurrent ? LOCATIONS.home : target);
-      history.push(`/${isCurrent ? '' : target}`);
+      navigate(`/${isCurrent ? '' : target}`, { replace: true });
     };
 
     return (

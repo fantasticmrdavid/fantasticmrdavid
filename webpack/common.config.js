@@ -3,23 +3,30 @@ const path = require('path');
 const BUILD_DIR = path.resolve(__dirname, '../public');
 const APP_DIR = path.resolve(__dirname, '../src');
 
-const env = process.env.NODE_ENV ? process.env.NODE_ENV : false;
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const ServiceWorkerWebpackPlugin = require('serviceworker-webpack-plugin');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const ESLintPlugin = require('eslint-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
-  entry: `${APP_DIR}/index.jsx`,
+  entry: 'index.jsx',
   output: {
-    path: BUILD_DIR,
-    filename: 'assets/js/[name]-bundle.js',
-    chunkFilename: 'assets/js/[name]-chunk.js',
+    path: BUILD_DIR
   },
   resolve: {
     modules: [APP_DIR, 'node_modules'],
-    extensions: ['.ts', '.tsx', '.js', '.jsx']
+    extensions: ['.ts', '.tsx', '.js', '.jsx'],
+    fallback: { "console": require.resolve("console-browserify") },
+    alias: {
+      "assets": [`${APP_DIR}/assets/`],
+      "styles": [`${APP_DIR}/styles/`],
+      "contexts": [`${APP_DIR}/contexts/`],
+      "components": [`${APP_DIR}/components/`],
+      "data": [`${APP_DIR}/data/`],
+      "helpers": [`${APP_DIR}/helpers/`],
+      "routers": [`${APP_DIR}/routers/`],
+      "views": [`${APP_DIR}/views/`]
+    }
   },
   module: {
     rules: [
@@ -27,44 +34,50 @@ module.exports = {
         test: /\.(ts|tsx|js|jsx)$/,
         enforce: 'pre',
         exclude: /node_modules/,
-        loader: [
-          'babel-loader',
-          'ts-loader',
-          {
-            loader: 'eslint-loader',
-            options: {
-              failOnWarning: false,
-              failOnError: false
-            }
-          }
-        ]
+        loader: 'babel-loader'
+      },
+      {
+        test: /\.(ts|tsx|js|jsx)$/,
+        enforce: 'pre',
+        exclude: /node_modules/,
+        loader: 'ts-loader'
       },
     ]
   },
   devServer: {
-    contentBase: BUILD_DIR,
     compress: true,
     historyApiFallback: true,
+    client: {
+      overlay: false
+    }
+  },
+  optimization: {
+    runtimeChunk: 'single',
+    splitChunks: {
+      cacheGroups: {
+        vendor: {
+          test: /[\\/]node_modules[\\/]/,
+          name: 'vendor',
+          chunks: 'all',
+        },
+      },
+    },
   },
   plugins: [
     new CleanWebpackPlugin({ verbose: true }),
-    new webpack.DefinePlugin({
-      'process.env': {
-        NODE_ENV: JSON.stringify(env),
-      }
+    new ESLintPlugin({
+      failOnWarning: false,
+      failOnError: false
     }),
-    new ServiceWorkerWebpackPlugin({
-      entry: path.join(APP_DIR, 'sw.js'),
+    new webpack.DefinePlugin({
+      'process.env.NODE_ENV' : JSON.stringify(process.env.NODE_ENV)
     }),
     new CopyWebpackPlugin({
       patterns: [
         { from: `${APP_DIR}/styles/noscript.css`, to: 'assets/css/noscript.css' },
         { from: `${APP_DIR}/assets/`, to: 'assets/' },
+        { from: `${APP_DIR}/index.html`, to: 'index.html' },
       ]
-    }),
-    new HtmlWebpackPlugin({
-      template: `${APP_DIR}/index.html`,
-      inject: false,
     }),
     new WebpackPwaManifest({
       filename: 'manifest.json',
@@ -81,16 +94,4 @@ module.exports = {
       ],
     }),
   ],
-  optimization: {
-    runtimeChunk: 'single',
-    splitChunks: {
-      cacheGroups: {
-        vendor: {
-          test: /[\\/]node_modules[\\/]/,
-          name: 'vendor',
-          chunks: 'all',
-        },
-      },
-    },
-  },
 };

@@ -1,5 +1,4 @@
-import React, { memo, useCallback } from 'react';
-import ReactGA from 'react-ga';
+import React, { memo } from 'react';
 import ProjectMedia from 'components/ProjectMedia';
 import { Project as ProjectProps } from 'data/projects';
 import Action from '../Action';
@@ -35,12 +34,6 @@ export default memo(
       isCurrent,
     } = props;
 
-    const handleUrlClick = useCallback(() => ReactGA.event({
-      category: 'Project',
-      action: 'Project URL Click',
-      label: title,
-    }), [title]);
-
     const descriptionMarkup = { __html: description };
 
     return (
@@ -65,7 +58,7 @@ export default memo(
           !!url
           && (
             <LinkWrapper>
-              <Link href={url} target="_blank" rel="noopener noreferrer" onClick={handleUrlClick}>Visit { title }</Link>
+              <Link href={url} target="_blank" rel="noopener noreferrer">Visit { title }</Link>
             </LinkWrapper>
           )
         }

@@ -9,7 +9,7 @@ interface LoadingState {
   popup: boolean,
 }
 
-interface LoadingContext {
+interface LoadingContextValues {
   loading: LoadingState,
   getIsLoading: () => boolean,
   stopLoading: () => void,
@@ -20,7 +20,7 @@ interface LoadingContextProps {
   children: ReactNode
 }
 
-const loadingContextValues = {
+const loadingContextInitialValues = {
   loading: {
     firstLoad: true,
     images: false,
@@ -32,12 +32,12 @@ const loadingContextValues = {
   setLoading: () => {},
 };
 
-export const LoadingContext = createContext<LoadingContext>(loadingContextValues);
+export const LoadingContext = createContext<LoadingContextValues>(loadingContextInitialValues);
 
 export const LoadingProvider: FC<LoadingContextProps> = ({
   children,
 }) => {
-  const [loading, setLoading] = useState(loadingContextValues.loading);
+  const [loading, setLoading] = useState(loadingContextInitialValues.loading);
   const getIsLoading = () => Object.values(loading).some((l: boolean) => l);
   const stopLoading = () => setLoading({
     firstLoad: false,
