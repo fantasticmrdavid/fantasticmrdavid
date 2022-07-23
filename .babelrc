@@ -10,15 +10,14 @@
     "@babel/react"
   ],
   "plugins": [
-    "babel-plugin-styled-components",
-    "@babel/plugin-proposal-class-properties"
+    "babel-plugin-styled-components"
   ],
   "env": {
     "test": {
       "presets": [
         "@babel/preset-typescript",
         [
-          "@babel/env",
+          "@babel/env"
         ],
         "@babel/react"
       ]
