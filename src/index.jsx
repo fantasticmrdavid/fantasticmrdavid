@@ -1,13 +1,12 @@
 import React from 'react';
-import { render } from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import Client from 'routers/Client';
 import { LoadFonts } from 'helpers/fonts';
 import consoleContent from 'console';
 
-render(
-  <Client />,
-  document.getElementById('app'),
-);
+const container = document.getElementById('app');
+const root = createRoot(container);
+root.render(<Client />);
 
 LoadFonts();
 
