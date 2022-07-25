@@ -1,11 +1,11 @@
 import React, { memo } from 'react';
-import { IconDefinition } from '@fortawesome/fontawesome-svg-core';
 import { Icon } from './styles';
+import {IconType} from "react-icons";
 
 export interface Props {
   title: string,
   href: string,
-  icon: string | IconDefinition,
+  icon: string | IconType,
 }
 
 export default memo(

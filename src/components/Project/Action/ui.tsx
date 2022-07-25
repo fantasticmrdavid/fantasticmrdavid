@@ -1,5 +1,4 @@
 import React, { memo, useCallback, useContext } from 'react';
-import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import { Project as ProjectProps } from 'data/projects';
 import { WorkLocationContext } from 'contexts/WorkLocation';
 import {
@@ -10,6 +9,7 @@ import {
   Icon,
   Title,
 } from './styles';
+import {FaAngleLeft, FaAngleRight} from "react-icons/fa";
 
 export interface Props {
   label: string,
@@ -41,9 +41,9 @@ export default memo(
         <Background src={images.tileOff} />
         <Gradient type={type} />
         <Content>
-          { type === 'back' && <Icon icon={faAngleLeft} />}
+          { type === 'back' && <Icon icon={FaAngleLeft} />}
           <Title>{title}</Title>
-          { type === 'next' && <Icon icon={faAngleRight} />}
+          { type === 'next' && <Icon icon={FaAngleRight} />}
         </Content>
       </Container>
     );

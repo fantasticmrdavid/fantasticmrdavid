@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import Icon from 'components/Icon';
 
 describe('Component -> Icon', () => {
@@ -9,14 +9,14 @@ describe('Component -> Icon', () => {
   });
 
   it('should render the Instagram icon without throwing an error', () => {
-    expect(renderer.create(<Icon icon={faInstagram} />)).toMatchSnapshot();
+    expect(renderer.create(<Icon icon={FaInstagram} />)).toMatchSnapshot();
   });
 
   it('should render the Github icon without throwing an error', () => {
-    expect(renderer.create(<Icon icon={faGithub} />)).toMatchSnapshot();
+    expect(renderer.create(<Icon icon={FaGithub} />)).toMatchSnapshot();
   });
 
   it('should render the LinkedIn icon without throwing an error', () => {
-    expect(renderer.create(<Icon icon={faLinkedin} />)).toMatchSnapshot();
+    expect(renderer.create(<Icon icon={FaLinkedin} />)).toMatchSnapshot();
   });
 });

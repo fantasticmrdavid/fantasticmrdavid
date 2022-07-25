@@ -1,5 +1,5 @@
 import React, { memo, useState } from 'react';
-import { faAngleDown, faCog } from '@fortawesome/free-solid-svg-icons';
+import { FaAngleDown, FaCog } from 'react-icons/fa';
 import Blinker from 'components/Blinker';
 import MenuLink from 'components/MenuLink';
 import { LOCATIONS } from 'routers/constants';
@@ -10,8 +10,7 @@ import {
   Nav,
   Subtitle,
   Cta,
-  CogIcon,
-  Icon,
+  CogIconWrapper,
 } from './styles';
 
 type UiProps = { location?: typeof LOCATIONS[keyof typeof LOCATIONS] };
@@ -38,12 +37,12 @@ export default memo(
         </Nav>
 
         <Subtitle isOpen={isOpen}>
-          <h2><CogIcon isOpen={isOpen} icon={faCog} />Art + Engineering</h2>
+          <h2><CogIconWrapper isOpen={isOpen}><FaCog /></CogIconWrapper>Art + Engineering</h2>
           <Blinker />
         </Subtitle>
 
         <Cta isOpen={isOpen}>
-          <Icon icon={faAngleDown} />
+          <FaAngleDown />
         </Cta>
       </Container>
     );

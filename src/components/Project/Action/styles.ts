@@ -46,6 +46,10 @@ export const Gradient = styled.div<GradientProps>`
 `;
 
 export const Icon = styled(ComponentIcon)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
   margin: 0 5px;
   border-radius: 50%;
   border: ${`2px solid ${theme.colorWhite}`};

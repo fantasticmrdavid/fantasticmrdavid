@@ -1,8 +1,6 @@
-import React from 'react';
 import styled from 'styled-components';
 import theme from 'styles/theme';
 import { media } from 'styles/utils';
-import IconComponent, { Props as IconComponentProps } from 'components/Icon';
 
 interface ContainerProps {
   isOpen: boolean,
@@ -20,7 +18,7 @@ interface SubtitleProps {
   isOpen: boolean,
 }
 
-interface IconProps {
+interface CogIconWrapperProps {
   isOpen?: boolean,
 }
 
@@ -99,19 +97,21 @@ export const Subtitle = styled.div<SubtitleProps>`
   width: 100%;
   padding: 0 2rem;
   margin-top: 0.25em;
+  
+  h2 {
+    display: flex;
+    align-items: center;
+  }
 
   ${media.small`
     display: flex;
   `};
 `;
 
-export const Icon = styled(({ isOpen, ...rest }: IconProps & IconComponentProps) => <IconComponent {...rest} />)`
+export const CogIconWrapper = styled.div<CogIconWrapperProps>`
   position: relative;
   transition: 0.6s;
   transform: ${(props) => (props.isOpen ? 'rotate(150deg)' : undefined)};
-`;
-
-export const CogIcon = styled(Icon)`
   left: -0.25em;
   opacity: 0.5;
 `;
