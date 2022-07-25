@@ -75,8 +75,8 @@ export default memo(
               <ul>
                 <li>TypeScript</li>
                 <li>ESLint</li>
+                <li>Prettier</li>
                 <li>Jest</li>
-                <li>Enzyme</li>
               </ul>
             </SpecsSection>
             <SpecsSection>
