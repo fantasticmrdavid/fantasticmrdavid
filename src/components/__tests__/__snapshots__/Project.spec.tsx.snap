@@ -1,0 +1,2898 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component -> Project -> General Assembly should render the Project UI without throwing an error 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="styles__Container-sc-10eg4h6-0 gdZXON"
+      >
+        <a
+          class="styles__Tile-sc-10eg4h6-1 fbEKIw"
+          target="ga"
+        >
+          <div
+            class="styles__Image-sc-10eg4h6-2 kBINOq"
+            target="ga"
+          />
+          <div
+            class="styles__TileContent-sc-10eg4h6-3 hRAkca"
+          >
+            <div
+              class="styles__Title-sc-10eg4h6-4 eZWFng"
+            >
+              General Assembly
+            </div>
+            <div
+              class="styles__Tagline-sc-10eg4h6-5 gsyFjC"
+            >
+              Lead Instructor
+            </div>
+          </div>
+          <div
+            class="styles__Close-sc-10eg4h6-6 hkupui"
+          >
+            X
+          </div>
+        </a>
+        <div
+          class="styles__Container-sc-1mvvfhb-1 egFPKm"
+        >
+          <section
+            class="styles__Section-sc-1mvvfhb-2 gfTgwZ"
+          >
+            <div
+              class="styles__Label-sc-1mvvfhb-3 lgMyyb"
+            >
+              Technologies
+            </div>
+            <div
+              class="styles__Copy-sc-1mvvfhb-4 lcLciH"
+            >
+              HTML, CSS, JavaScript, PHP
+            </div>
+          </section>
+          <section
+            class="styles__Section-sc-1mvvfhb-2 gfTgwZ"
+          >
+            <div
+              class="styles__Label-sc-1mvvfhb-3 lgMyyb"
+            >
+              Description
+            </div>
+            <div
+              class="styles__Copy-sc-1mvvfhb-4 lcLciH"
+            >
+              Starting out as a co-working space, General Assembly has grown into a pioneer in education and career transformation, specializing in today’s most in-demand skills. They are a leading source for training, staffing, and career transitions, fostering a flourishing community of professionals pursuing careers they love.
+              <br />
+              <br />
+              I taught the Front End Web Development (FEWD) part time course at General Assembly's Melbourne campus. Throughout the 10 week course, students learnt HTML, CSS, JavaScript, and fundamental programming skills to build their own website project. It was immensely rewarding with students moving on to roles ranging from Junior Developer to Project Manager.
+            </div>
+          </section>
+          <div
+            class="styles__LinkWrapper-sc-1mvvfhb-6 cdggSg"
+          >
+            <a
+              class="styles__Link-sc-1rd8ebj-0 ecmhYM styles__Link-sc-1mvvfhb-5"
+              href="https://generalassemb.ly"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Visit 
+              General Assembly
+            </a>
+          </div>
+          <div
+            class="styles__MediaWrapper-sc-1mvvfhb-7 camQPC"
+          />
+          <div
+            class="styles__Spacer-sc-1mvvfhb-8 ikAlXI"
+          />
+          <div
+            class="styles__ActionsContainer-sc-1mvvfhb-0 bWnyUf"
+          >
+            <div
+              class="styles__Container-sc-86jfdu-5 fAKHRH"
+              type="back"
+            >
+              <div
+                class="styles__Background-sc-86jfdu-0 cywqCs"
+                src="/assets/images/projects/legoFlinders_off.jpg"
+              />
+              <div
+                class="styles__Gradient-sc-86jfdu-2 cuoYns"
+                type="back"
+              />
+              <div
+                class="styles__Content-sc-86jfdu-1 cVAVXh"
+              >
+                <div
+                  class="styles__Icon-sc-86jfdu-3 eDxOvz"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 256 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="styles__Title-sc-86jfdu-4 dqbrxx"
+                >
+                  LEGO Flinders St
+                </div>
+              </div>
+            </div>
+            <div
+              class="styles__Container-sc-86jfdu-5 gUKfou"
+              type="next"
+            >
+              <div
+                class="styles__Background-sc-86jfdu-0 jZjhpG"
+                src="/assets/images/projects/tramsformation_off.jpg"
+              />
+              <div
+                class="styles__Gradient-sc-86jfdu-2 mwBdH"
+                type="next"
+              />
+              <div
+                class="styles__Content-sc-86jfdu-1 cVAVXh"
+              >
+                <div
+                  class="styles__Title-sc-86jfdu-4 dqbrxx"
+                >
+                  Project Tramsformation
+                </div>
+                <div
+                  class="styles__Icon-sc-86jfdu-3 eDxOvz"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 256 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="styles__Container-sc-10eg4h6-0 gdZXON"
+    >
+      <a
+        class="styles__Tile-sc-10eg4h6-1 fbEKIw"
+        target="ga"
+      >
+        <div
+          class="styles__Image-sc-10eg4h6-2 kBINOq"
+          target="ga"
+        />
+        <div
+          class="styles__TileContent-sc-10eg4h6-3 hRAkca"
+        >
+          <div
+            class="styles__Title-sc-10eg4h6-4 eZWFng"
+          >
+            General Assembly
+          </div>
+          <div
+            class="styles__Tagline-sc-10eg4h6-5 gsyFjC"
+          >
+            Lead Instructor
+          </div>
+        </div>
+        <div
+          class="styles__Close-sc-10eg4h6-6 hkupui"
+        >
+          X
+        </div>
+      </a>
+      <div
+        class="styles__Container-sc-1mvvfhb-1 egFPKm"
+      >
+        <section
+          class="styles__Section-sc-1mvvfhb-2 gfTgwZ"
+        >
+          <div
+            class="styles__Label-sc-1mvvfhb-3 lgMyyb"
+          >
+            Technologies
+          </div>
+          <div
+            class="styles__Copy-sc-1mvvfhb-4 lcLciH"
+          >
+            HTML, CSS, JavaScript, PHP
+          </div>
+        </section>
+        <section
+          class="styles__Section-sc-1mvvfhb-2 gfTgwZ"
+        >
+          <div
+            class="styles__Label-sc-1mvvfhb-3 lgMyyb"
+          >
+            Description
+          </div>
+          <div
+            class="styles__Copy-sc-1mvvfhb-4 lcLciH"
+          >
+            Starting out as a co-working space, General Assembly has grown into a pioneer in education and career transformation, specializing in today’s most in-demand skills. They are a leading source for training, staffing, and career transitions, fostering a flourishing community of professionals pursuing careers they love.
+            <br />
+            <br />
+            I taught the Front End Web Development (FEWD) part time course at General Assembly's Melbourne campus. Throughout the 10 week course, students learnt HTML, CSS, JavaScript, and fundamental programming skills to build their own website project. It was immensely rewarding with students moving on to roles ranging from Junior Developer to Project Manager.
+          </div>
+        </section>
+        <div
+          class="styles__LinkWrapper-sc-1mvvfhb-6 cdggSg"
+        >
+          <a
+            class="styles__Link-sc-1rd8ebj-0 ecmhYM styles__Link-sc-1mvvfhb-5"
+            href="https://generalassemb.ly"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Visit 
+            General Assembly
+          </a>
+        </div>
+        <div
+          class="styles__MediaWrapper-sc-1mvvfhb-7 camQPC"
+        />
+        <div
+          class="styles__Spacer-sc-1mvvfhb-8 ikAlXI"
+        />
+        <div
+          class="styles__ActionsContainer-sc-1mvvfhb-0 bWnyUf"
+        >
+          <div
+            class="styles__Container-sc-86jfdu-5 fAKHRH"
+            type="back"
+          >
+            <div
+              class="styles__Background-sc-86jfdu-0 cywqCs"
+              src="/assets/images/projects/legoFlinders_off.jpg"
+            />
+            <div
+              class="styles__Gradient-sc-86jfdu-2 cuoYns"
+              type="back"
+            />
+            <div
+              class="styles__Content-sc-86jfdu-1 cVAVXh"
+            >
+              <div
+                class="styles__Icon-sc-86jfdu-3 eDxOvz"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 256 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+                  />
+                </svg>
+              </div>
+              <div
+                class="styles__Title-sc-86jfdu-4 dqbrxx"
+              >
+                LEGO Flinders St
+              </div>
+            </div>
+          </div>
+          <div
+            class="styles__Container-sc-86jfdu-5 gUKfou"
+            type="next"
+          >
+            <div
+              class="styles__Background-sc-86jfdu-0 jZjhpG"
+              src="/assets/images/projects/tramsformation_off.jpg"
+            />
+            <div
+              class="styles__Gradient-sc-86jfdu-2 mwBdH"
+              type="next"
+            />
+            <div
+              class="styles__Content-sc-86jfdu-1 cVAVXh"
+            >
+              <div
+                class="styles__Title-sc-86jfdu-4 dqbrxx"
+              >
+                Project Tramsformation
+              </div>
+              <div
+                class="styles__Icon-sc-86jfdu-3 eDxOvz"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 256 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Component -> Project -> KindyNow should render the Project UI without throwing an error 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="styles__Container-sc-10eg4h6-0 gdZXON"
+      >
+        <a
+          class="styles__Tile-sc-10eg4h6-1 fbEKIw"
+          target="kindynow"
+        >
+          <div
+            class="styles__Image-sc-10eg4h6-2 hSnxVL"
+            target="kindynow"
+          />
+          <div
+            class="styles__TileContent-sc-10eg4h6-3 hRAkca"
+          >
+            <div
+              class="styles__Title-sc-10eg4h6-4 eZWFng"
+            >
+              KindyNow
+            </div>
+            <div
+              class="styles__Tagline-sc-10eg4h6-5 gsyFjC"
+            >
+              Lead Front-End Engineer
+            </div>
+          </div>
+          <div
+            class="styles__Close-sc-10eg4h6-6 hkupui"
+          >
+            X
+          </div>
+        </a>
+        <div
+          class="styles__Container-sc-1mvvfhb-1 egFPKm"
+        >
+          <section
+            class="styles__Section-sc-1mvvfhb-2 gfTgwZ"
+          >
+            <div
+              class="styles__Label-sc-1mvvfhb-3 lgMyyb"
+            >
+              Products
+            </div>
+            <div
+              class="styles__Copy-sc-1mvvfhb-4 lcLciH"
+            >
+              Child care search platform, Centre management platform, Mobile app, Admin platform
+            </div>
+          </section>
+          <section
+            class="styles__Section-sc-1mvvfhb-2 gfTgwZ"
+          >
+            <div
+              class="styles__Label-sc-1mvvfhb-3 lgMyyb"
+            >
+              Technologies
+            </div>
+            <div
+              class="styles__Copy-sc-1mvvfhb-4 lcLciH"
+            >
+              HTML, CSS, ES6, SSR React, React-Native, Redux, TypeScript, Node.js, Jest, Enzyme, AWS, CircleCI
+            </div>
+          </section>
+          <section
+            class="styles__Section-sc-1mvvfhb-2 gfTgwZ"
+          >
+            <div
+              class="styles__Label-sc-1mvvfhb-3 lgMyyb"
+            >
+              Description
+            </div>
+            <div
+              class="styles__Copy-sc-1mvvfhb-4 lcLciH"
+            >
+              KindyNow provides Australia's leading app and web service for helping parents find daycare for their children. As Lead Front-End engineer I architected and developed the company's flagship web assets, including a new child care search platform (Childcare Near Me), a rebuild of their existing booking management app (KindyNow), and admin tools for internal management of centres and bookings.
+              <br />
+              <br />
+              I also managed and trained junior engineers, collaborated with the marketing team to prioritise and build features to maximise conversion goals, and provided guidance on UX and product strategy.
+            </div>
+          </section>
+          <div
+            class="styles__LinkWrapper-sc-1mvvfhb-6 cdggSg"
+          >
+            <a
+              class="styles__Link-sc-1rd8ebj-0 ecmhYM styles__Link-sc-1mvvfhb-5"
+              href="https://www.kindynow.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Visit 
+              KindyNow
+            </a>
+          </div>
+          <div
+            class="styles__MediaWrapper-sc-1mvvfhb-7 camQPC"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 eVNjYZ gmIVHo"
+            >
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 eVNjYZ dejQuE"
+              >
+                <a
+                  href="https://childcarenearme.com.au"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Childcare Near Me mobile site"
+                    class="styles__Image-sc-14hm49n-2 bGfdNQ"
+                    src="/assets/images/projects/kindynow/cnm_mobile_preview.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 eVNjYZ gQHKJZ"
+              />
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 eVNjYZ cvgzuO"
+              />
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 eVNjYZ hNtBOR"
+              />
+            </div>
+            <div
+              class="styles__Container-sc-16k93zz-0 bjSbpH"
+            >
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+              >
+                <a
+                  href="https://childcarenearme.com.au"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <div
+                    class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+                  >
+                    <img
+                      alt="Childcare Near Me search"
+                      class="styles__Image-sc-16k93zz-3 iNVQSF"
+                      src="/assets/images/projects/kindynow/cnm_search_preview.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+              />
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+              />
+            </div>
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 eVNjYZ gmIVHo"
+            >
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 eVNjYZ dejQuE"
+              >
+                <a
+                  href="https://www.kindynow.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="KindyNow Mobile App"
+                    class="styles__Image-sc-14hm49n-2 bGfdNQ"
+                    src="/assets/images/projects/kindynow/kn_app_preview.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 eVNjYZ gQHKJZ"
+              />
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 eVNjYZ cvgzuO"
+              />
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 eVNjYZ hNtBOR"
+              />
+            </div>
+            <div
+              class="styles__Container-sc-16k93zz-0 bjSbpH"
+            >
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+              >
+                <a
+                  href="https://childcarenearme.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <div
+                    class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+                  >
+                    <img
+                      alt="Childcare Near Me desktop site"
+                      class="styles__Image-sc-16k93zz-3 iNVQSF"
+                      src="/assets/images/projects/kindynow/cnm_desktop_preview.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+              />
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+              />
+            </div>
+            <div
+              class="styles__Container-sc-16k93zz-0 bjSbpH"
+            >
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+              >
+                <a
+                  href="https://www.kindynow.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <div
+                    class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+                  >
+                    <img
+                      alt="KindyNow desktop site"
+                      class="styles__Image-sc-16k93zz-3 iNVQSF"
+                      src="/assets/images/projects/kindynow/kn_desktop_preview.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+              />
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+              />
+            </div>
+          </div>
+          <div
+            class="styles__Spacer-sc-1mvvfhb-8 ikAlXI"
+          />
+          <div
+            class="styles__ActionsContainer-sc-1mvvfhb-0 bWnyUf"
+          >
+            <div
+              class="styles__Container-sc-86jfdu-5 keLZSt"
+              type="back"
+            >
+              <div
+                class="styles__Background-sc-86jfdu-0 jZjhpG"
+                src="/assets/images/projects/tramsformation_off.jpg"
+              />
+              <div
+                class="styles__Gradient-sc-86jfdu-2 cuoYns"
+                type="back"
+              />
+              <div
+                class="styles__Content-sc-86jfdu-1 cVAVXh"
+              >
+                <div
+                  class="styles__Icon-sc-86jfdu-3 eDxOvz"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 256 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="styles__Title-sc-86jfdu-4 dqbrxx"
+                >
+                  Project Tramsformation
+                </div>
+              </div>
+            </div>
+            <div
+              class="styles__Container-sc-86jfdu-5 rpNVT"
+              type="next"
+            >
+              <div
+                class="styles__Background-sc-86jfdu-0 MnHHf"
+                src="/assets/images/projects/sitepoint_off.jpg"
+              />
+              <div
+                class="styles__Gradient-sc-86jfdu-2 mwBdH"
+                type="next"
+              />
+              <div
+                class="styles__Content-sc-86jfdu-1 cVAVXh"
+              >
+                <div
+                  class="styles__Title-sc-86jfdu-4 dqbrxx"
+                >
+                  SitePoint
+                </div>
+                <div
+                  class="styles__Icon-sc-86jfdu-3 eDxOvz"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 256 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="styles__Container-sc-10eg4h6-0 gdZXON"
+    >
+      <a
+        class="styles__Tile-sc-10eg4h6-1 fbEKIw"
+        target="kindynow"
+      >
+        <div
+          class="styles__Image-sc-10eg4h6-2 hSnxVL"
+          target="kindynow"
+        />
+        <div
+          class="styles__TileContent-sc-10eg4h6-3 hRAkca"
+        >
+          <div
+            class="styles__Title-sc-10eg4h6-4 eZWFng"
+          >
+            KindyNow
+          </div>
+          <div
+            class="styles__Tagline-sc-10eg4h6-5 gsyFjC"
+          >
+            Lead Front-End Engineer
+          </div>
+        </div>
+        <div
+          class="styles__Close-sc-10eg4h6-6 hkupui"
+        >
+          X
+        </div>
+      </a>
+      <div
+        class="styles__Container-sc-1mvvfhb-1 egFPKm"
+      >
+        <section
+          class="styles__Section-sc-1mvvfhb-2 gfTgwZ"
+        >
+          <div
+            class="styles__Label-sc-1mvvfhb-3 lgMyyb"
+          >
+            Products
+          </div>
+          <div
+            class="styles__Copy-sc-1mvvfhb-4 lcLciH"
+          >
+            Child care search platform, Centre management platform, Mobile app, Admin platform
+          </div>
+        </section>
+        <section
+          class="styles__Section-sc-1mvvfhb-2 gfTgwZ"
+        >
+          <div
+            class="styles__Label-sc-1mvvfhb-3 lgMyyb"
+          >
+            Technologies
+          </div>
+          <div
+            class="styles__Copy-sc-1mvvfhb-4 lcLciH"
+          >
+            HTML, CSS, ES6, SSR React, React-Native, Redux, TypeScript, Node.js, Jest, Enzyme, AWS, CircleCI
+          </div>
+        </section>
+        <section
+          class="styles__Section-sc-1mvvfhb-2 gfTgwZ"
+        >
+          <div
+            class="styles__Label-sc-1mvvfhb-3 lgMyyb"
+          >
+            Description
+          </div>
+          <div
+            class="styles__Copy-sc-1mvvfhb-4 lcLciH"
+          >
+            KindyNow provides Australia's leading app and web service for helping parents find daycare for their children. As Lead Front-End engineer I architected and developed the company's flagship web assets, including a new child care search platform (Childcare Near Me), a rebuild of their existing booking management app (KindyNow), and admin tools for internal management of centres and bookings.
+            <br />
+            <br />
+            I also managed and trained junior engineers, collaborated with the marketing team to prioritise and build features to maximise conversion goals, and provided guidance on UX and product strategy.
+          </div>
+        </section>
+        <div
+          class="styles__LinkWrapper-sc-1mvvfhb-6 cdggSg"
+        >
+          <a
+            class="styles__Link-sc-1rd8ebj-0 ecmhYM styles__Link-sc-1mvvfhb-5"
+            href="https://www.kindynow.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Visit 
+            KindyNow
+          </a>
+        </div>
+        <div
+          class="styles__MediaWrapper-sc-1mvvfhb-7 camQPC"
+        >
+          <div
+            class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 eVNjYZ gmIVHo"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 eVNjYZ dejQuE"
+            >
+              <a
+                href="https://childcarenearme.com.au"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="Childcare Near Me mobile site"
+                  class="styles__Image-sc-14hm49n-2 bGfdNQ"
+                  src="/assets/images/projects/kindynow/cnm_mobile_preview.jpg"
+                />
+              </a>
+            </div>
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 eVNjYZ gQHKJZ"
+            />
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 eVNjYZ cvgzuO"
+            />
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 eVNjYZ hNtBOR"
+            />
+          </div>
+          <div
+            class="styles__Container-sc-16k93zz-0 bjSbpH"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+            >
+              <a
+                href="https://childcarenearme.com.au"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <div
+                  class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+                >
+                  <img
+                    alt="Childcare Near Me search"
+                    class="styles__Image-sc-16k93zz-3 iNVQSF"
+                    src="/assets/images/projects/kindynow/cnm_search_preview.jpg"
+                  />
+                </div>
+              </a>
+            </div>
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+            />
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+            />
+          </div>
+          <div
+            class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 eVNjYZ gmIVHo"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 eVNjYZ dejQuE"
+            >
+              <a
+                href="https://www.kindynow.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="KindyNow Mobile App"
+                  class="styles__Image-sc-14hm49n-2 bGfdNQ"
+                  src="/assets/images/projects/kindynow/kn_app_preview.jpg"
+                />
+              </a>
+            </div>
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 eVNjYZ gQHKJZ"
+            />
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 eVNjYZ cvgzuO"
+            />
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 eVNjYZ hNtBOR"
+            />
+          </div>
+          <div
+            class="styles__Container-sc-16k93zz-0 bjSbpH"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+            >
+              <a
+                href="https://childcarenearme.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <div
+                  class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+                >
+                  <img
+                    alt="Childcare Near Me desktop site"
+                    class="styles__Image-sc-16k93zz-3 iNVQSF"
+                    src="/assets/images/projects/kindynow/cnm_desktop_preview.jpg"
+                  />
+                </div>
+              </a>
+            </div>
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+            />
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+            />
+          </div>
+          <div
+            class="styles__Container-sc-16k93zz-0 bjSbpH"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+            >
+              <a
+                href="https://www.kindynow.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <div
+                  class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+                >
+                  <img
+                    alt="KindyNow desktop site"
+                    class="styles__Image-sc-16k93zz-3 iNVQSF"
+                    src="/assets/images/projects/kindynow/kn_desktop_preview.jpg"
+                  />
+                </div>
+              </a>
+            </div>
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+            />
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+            />
+          </div>
+        </div>
+        <div
+          class="styles__Spacer-sc-1mvvfhb-8 ikAlXI"
+        />
+        <div
+          class="styles__ActionsContainer-sc-1mvvfhb-0 bWnyUf"
+        >
+          <div
+            class="styles__Container-sc-86jfdu-5 keLZSt"
+            type="back"
+          >
+            <div
+              class="styles__Background-sc-86jfdu-0 jZjhpG"
+              src="/assets/images/projects/tramsformation_off.jpg"
+            />
+            <div
+              class="styles__Gradient-sc-86jfdu-2 cuoYns"
+              type="back"
+            />
+            <div
+              class="styles__Content-sc-86jfdu-1 cVAVXh"
+            >
+              <div
+                class="styles__Icon-sc-86jfdu-3 eDxOvz"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 256 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+                  />
+                </svg>
+              </div>
+              <div
+                class="styles__Title-sc-86jfdu-4 dqbrxx"
+              >
+                Project Tramsformation
+              </div>
+            </div>
+          </div>
+          <div
+            class="styles__Container-sc-86jfdu-5 rpNVT"
+            type="next"
+          >
+            <div
+              class="styles__Background-sc-86jfdu-0 MnHHf"
+              src="/assets/images/projects/sitepoint_off.jpg"
+            />
+            <div
+              class="styles__Gradient-sc-86jfdu-2 mwBdH"
+              type="next"
+            />
+            <div
+              class="styles__Content-sc-86jfdu-1 cVAVXh"
+            >
+              <div
+                class="styles__Title-sc-86jfdu-4 dqbrxx"
+              >
+                SitePoint
+              </div>
+              <div
+                class="styles__Icon-sc-86jfdu-3 eDxOvz"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 256 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Component -> Project -> LEGO Flinders St should render the Project UI without throwing an error 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="styles__Container-sc-10eg4h6-0 gdZXON"
+      >
+        <a
+          class="styles__Tile-sc-10eg4h6-1 fbEKIw"
+          target="legoFlinders"
+        >
+          <div
+            class="styles__Image-sc-10eg4h6-2 cklMQc"
+            target="legoFlinders"
+          />
+          <div
+            class="styles__TileContent-sc-10eg4h6-3 hRAkca"
+          >
+            <div
+              class="styles__Title-sc-10eg4h6-4 eZWFng"
+            >
+              LEGO Flinders St
+            </div>
+            <div
+              class="styles__Tagline-sc-10eg4h6-5 gsyFjC"
+            >
+              CAD Art Project
+            </div>
+          </div>
+          <div
+            class="styles__Close-sc-10eg4h6-6 hkupui"
+          >
+            X
+          </div>
+        </a>
+        <div
+          class="styles__Container-sc-1mvvfhb-1 egFPKm"
+        >
+          <section
+            class="styles__Section-sc-1mvvfhb-2 gfTgwZ"
+          >
+            <div
+              class="styles__Label-sc-1mvvfhb-3 lgMyyb"
+            >
+              Products
+            </div>
+            <div
+              class="styles__Copy-sc-1mvvfhb-4 lcLciH"
+            >
+              Artwork, prints
+            </div>
+          </section>
+          <section
+            class="styles__Section-sc-1mvvfhb-2 gfTgwZ"
+          >
+            <div
+              class="styles__Label-sc-1mvvfhb-3 lgMyyb"
+            >
+              Technologies
+            </div>
+            <div
+              class="styles__Copy-sc-1mvvfhb-4 lcLciH"
+            >
+              LEGO Digital Designer, Photoshop, POV-Ray
+            </div>
+          </section>
+          <section
+            class="styles__Section-sc-1mvvfhb-2 gfTgwZ"
+          >
+            <div
+              class="styles__Label-sc-1mvvfhb-3 lgMyyb"
+            >
+              Description
+            </div>
+            <div
+              class="styles__Copy-sc-1mvvfhb-4 lcLciH"
+            >
+              The combination of visiting 
+              <a
+                href="http://www.brickventures.org.au/brickvention"
+                target="_blank"
+              >
+                Brickvention
+              </a>
+              , unfulfilled childhood LEGO dreams, and a love for the great city that is Melbourne left a nagging itch that my creative brain couldn't ignore. The LDD model took a year to complete, over 43,000 parts, and many visits to the actual location. It was then converted and rendered in POV-Ray before adding final Melbournian touch ups in Photoshop.
+            </div>
+          </section>
+          <div
+            class="styles__MediaWrapper-sc-1mvvfhb-7 camQPC"
+          >
+            <div
+              class="styles__Container-sc-1uvt01h-0 obZYc"
+            >
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+              >
+                <img
+                  alt="LEGO Flinders St art print"
+                  class="styles__Content-sc-1uvt01h-2 hCIqyJ"
+                  src="/assets/images/projects/legoFlinders/legoFlinders_preview.jpg"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="styles__Spacer-sc-1mvvfhb-8 ikAlXI"
+          />
+          <div
+            class="styles__ActionsContainer-sc-1mvvfhb-0 bWnyUf"
+          >
+            <div
+              class="styles__Container-sc-86jfdu-5 iNCGDI"
+              type="back"
+            >
+              <div
+                class="styles__Background-sc-86jfdu-0 MnHHf"
+                src="/assets/images/projects/sitepoint_off.jpg"
+              />
+              <div
+                class="styles__Gradient-sc-86jfdu-2 cuoYns"
+                type="back"
+              />
+              <div
+                class="styles__Content-sc-86jfdu-1 cVAVXh"
+              >
+                <div
+                  class="styles__Icon-sc-86jfdu-3 eDxOvz"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 256 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="styles__Title-sc-86jfdu-4 dqbrxx"
+                >
+                  SitePoint
+                </div>
+              </div>
+            </div>
+            <div
+              class="styles__Container-sc-86jfdu-5 UhFAW"
+              type="next"
+            >
+              <div
+                class="styles__Background-sc-86jfdu-0 kgjoVC"
+                src="/assets/images/projects/ga_off.jpg"
+              />
+              <div
+                class="styles__Gradient-sc-86jfdu-2 mwBdH"
+                type="next"
+              />
+              <div
+                class="styles__Content-sc-86jfdu-1 cVAVXh"
+              >
+                <div
+                  class="styles__Title-sc-86jfdu-4 dqbrxx"
+                >
+                  General Assembly
+                </div>
+                <div
+                  class="styles__Icon-sc-86jfdu-3 eDxOvz"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 256 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="styles__Container-sc-10eg4h6-0 gdZXON"
+    >
+      <a
+        class="styles__Tile-sc-10eg4h6-1 fbEKIw"
+        target="legoFlinders"
+      >
+        <div
+          class="styles__Image-sc-10eg4h6-2 cklMQc"
+          target="legoFlinders"
+        />
+        <div
+          class="styles__TileContent-sc-10eg4h6-3 hRAkca"
+        >
+          <div
+            class="styles__Title-sc-10eg4h6-4 eZWFng"
+          >
+            LEGO Flinders St
+          </div>
+          <div
+            class="styles__Tagline-sc-10eg4h6-5 gsyFjC"
+          >
+            CAD Art Project
+          </div>
+        </div>
+        <div
+          class="styles__Close-sc-10eg4h6-6 hkupui"
+        >
+          X
+        </div>
+      </a>
+      <div
+        class="styles__Container-sc-1mvvfhb-1 egFPKm"
+      >
+        <section
+          class="styles__Section-sc-1mvvfhb-2 gfTgwZ"
+        >
+          <div
+            class="styles__Label-sc-1mvvfhb-3 lgMyyb"
+          >
+            Products
+          </div>
+          <div
+            class="styles__Copy-sc-1mvvfhb-4 lcLciH"
+          >
+            Artwork, prints
+          </div>
+        </section>
+        <section
+          class="styles__Section-sc-1mvvfhb-2 gfTgwZ"
+        >
+          <div
+            class="styles__Label-sc-1mvvfhb-3 lgMyyb"
+          >
+            Technologies
+          </div>
+          <div
+            class="styles__Copy-sc-1mvvfhb-4 lcLciH"
+          >
+            LEGO Digital Designer, Photoshop, POV-Ray
+          </div>
+        </section>
+        <section
+          class="styles__Section-sc-1mvvfhb-2 gfTgwZ"
+        >
+          <div
+            class="styles__Label-sc-1mvvfhb-3 lgMyyb"
+          >
+            Description
+          </div>
+          <div
+            class="styles__Copy-sc-1mvvfhb-4 lcLciH"
+          >
+            The combination of visiting 
+            <a
+              href="http://www.brickventures.org.au/brickvention"
+              target="_blank"
+            >
+              Brickvention
+            </a>
+            , unfulfilled childhood LEGO dreams, and a love for the great city that is Melbourne left a nagging itch that my creative brain couldn't ignore. The LDD model took a year to complete, over 43,000 parts, and many visits to the actual location. It was then converted and rendered in POV-Ray before adding final Melbournian touch ups in Photoshop.
+          </div>
+        </section>
+        <div
+          class="styles__MediaWrapper-sc-1mvvfhb-7 camQPC"
+        >
+          <div
+            class="styles__Container-sc-1uvt01h-0 obZYc"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+            >
+              <img
+                alt="LEGO Flinders St art print"
+                class="styles__Content-sc-1uvt01h-2 hCIqyJ"
+                src="/assets/images/projects/legoFlinders/legoFlinders_preview.jpg"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="styles__Spacer-sc-1mvvfhb-8 ikAlXI"
+        />
+        <div
+          class="styles__ActionsContainer-sc-1mvvfhb-0 bWnyUf"
+        >
+          <div
+            class="styles__Container-sc-86jfdu-5 iNCGDI"
+            type="back"
+          >
+            <div
+              class="styles__Background-sc-86jfdu-0 MnHHf"
+              src="/assets/images/projects/sitepoint_off.jpg"
+            />
+            <div
+              class="styles__Gradient-sc-86jfdu-2 cuoYns"
+              type="back"
+            />
+            <div
+              class="styles__Content-sc-86jfdu-1 cVAVXh"
+            >
+              <div
+                class="styles__Icon-sc-86jfdu-3 eDxOvz"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 256 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+                  />
+                </svg>
+              </div>
+              <div
+                class="styles__Title-sc-86jfdu-4 dqbrxx"
+              >
+                SitePoint
+              </div>
+            </div>
+          </div>
+          <div
+            class="styles__Container-sc-86jfdu-5 UhFAW"
+            type="next"
+          >
+            <div
+              class="styles__Background-sc-86jfdu-0 kgjoVC"
+              src="/assets/images/projects/ga_off.jpg"
+            />
+            <div
+              class="styles__Gradient-sc-86jfdu-2 mwBdH"
+              type="next"
+            />
+            <div
+              class="styles__Content-sc-86jfdu-1 cVAVXh"
+            >
+              <div
+                class="styles__Title-sc-86jfdu-4 dqbrxx"
+              >
+                General Assembly
+              </div>
+              <div
+                class="styles__Icon-sc-86jfdu-3 eDxOvz"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 256 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Component -> Project -> Project Tramsformation should render the Project UI without throwing an error 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="styles__Container-sc-10eg4h6-0 gdZXON"
+      >
+        <a
+          class="styles__Tile-sc-10eg4h6-1 fbEKIw"
+          target="tramsformation"
+        >
+          <div
+            class="styles__Image-sc-10eg4h6-2 kwalCV"
+            target="tramsformation"
+          />
+          <div
+            class="styles__TileContent-sc-10eg4h6-3 hRAkca"
+          >
+            <div
+              class="styles__Title-sc-10eg4h6-4 eZWFng"
+            >
+              Project Tramsformation
+            </div>
+            <div
+              class="styles__Tagline-sc-10eg4h6-5 gsyFjC"
+            >
+              3D Printing & Design
+            </div>
+          </div>
+          <div
+            class="styles__Close-sc-10eg4h6-6 hkupui"
+          >
+            X
+          </div>
+        </a>
+        <div
+          class="styles__Container-sc-1mvvfhb-1 egFPKm"
+        >
+          <section
+            class="styles__Section-sc-1mvvfhb-2 gfTgwZ"
+          >
+            <div
+              class="styles__Label-sc-1mvvfhb-3 lgMyyb"
+            >
+              Products
+            </div>
+            <div
+              class="styles__Copy-sc-1mvvfhb-4 lcLciH"
+            >
+              3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design
+            </div>
+          </section>
+          <section
+            class="styles__Section-sc-1mvvfhb-2 gfTgwZ"
+          >
+            <div
+              class="styles__Label-sc-1mvvfhb-3 lgMyyb"
+            >
+              Technologies
+            </div>
+            <div
+              class="styles__Copy-sc-1mvvfhb-4 lcLciH"
+            >
+              3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop
+            </div>
+          </section>
+          <section
+            class="styles__Section-sc-1mvvfhb-2 gfTgwZ"
+          >
+            <div
+              class="styles__Label-sc-1mvvfhb-3 lgMyyb"
+            >
+              Description
+            </div>
+            <div
+              class="styles__Copy-sc-1mvvfhb-4 lcLciH"
+            >
+              An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.
+            </div>
+          </section>
+          <div
+            class="styles__LinkWrapper-sc-1mvvfhb-6 cdggSg"
+          >
+            <a
+              class="styles__Link-sc-1rd8ebj-0 ecmhYM styles__Link-sc-1mvvfhb-5"
+              href="https://tramsformation.com.au"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Visit 
+              Project Tramsformation
+            </a>
+          </div>
+          <div
+            class="styles__MediaWrapper-sc-1mvvfhb-7 camQPC"
+          >
+            <div
+              class="styles__Container-sc-1uvt01h-0 jIWmIw"
+            >
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+              >
+                <img
+                  alt="Tramsformer W-Class Robot Mode"
+                  class="styles__Content-sc-1uvt01h-2 hCIqyJ"
+                  src="/assets/images/projects/tramsformation/tramsformer_w_1_preview.jpg"
+                />
+              </div>
+            </div>
+            <div
+              class="styles__Container-sc-1uvt01h-0 jIWmIw"
+            >
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+              >
+                <img
+                  alt="Tramsformer W-Class Tram Mode"
+                  class="styles__Content-sc-1uvt01h-2 hCIqyJ"
+                  src="/assets/images/projects/tramsformation/tramsformer_w_2_preview.jpg"
+                />
+              </div>
+            </div>
+            <div
+              class="styles__Container-sc-1uvt01h-0 jIWmIw"
+            >
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+              >
+                <img
+                  alt="Tramsformer art print"
+                  class="styles__Content-sc-1uvt01h-2 hCIqyJ"
+                  src="/assets/images/projects/tramsformation/tramsformation_print_preview.jpg"
+                />
+              </div>
+            </div>
+            <div
+              class="styles__Container-sc-1uvt01h-0 jIWmIw"
+            >
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+              >
+                <img
+                  alt="Tramsformer transformation"
+                  class="styles__Content-sc-1uvt01h-2 hCIqyJ"
+                  src="/assets/images/projects/tramsformation/tramsformation_transform_preview.jpg"
+                />
+              </div>
+            </div>
+            <div
+              class="styles__Container-sc-1uvt01h-0 jIWmIw"
+            >
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+              >
+                <img
+                  alt="Tramsformer model"
+                  class="styles__Content-sc-1uvt01h-2 hCIqyJ"
+                  src="/assets/images/projects/tramsformation/tramsformation_model_preview.jpg"
+                />
+              </div>
+            </div>
+            <div
+              class="styles__Container-sc-1uvt01h-0 jIWmIw"
+            >
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+              >
+                <img
+                  alt="Tramsformer model tram mode"
+                  class="styles__Content-sc-1uvt01h-2 hCIqyJ"
+                  src="/assets/images/projects/tramsformation/tramsformation_model_altmode_preview.jpg"
+                />
+              </div>
+            </div>
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 eVNjYZ gmIVHo"
+            >
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 eVNjYZ dejQuE"
+              >
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Tramsformation mobile site"
+                    class="styles__Image-sc-14hm49n-2 bGfdNQ"
+                    src="/assets/images/projects/tramsformation/tramsformation_mobile_preview.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 eVNjYZ gQHKJZ"
+              />
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 eVNjYZ cvgzuO"
+              />
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 eVNjYZ hNtBOR"
+              />
+            </div>
+            <div
+              class="styles__Container-sc-16k93zz-0 bjSbpH"
+            >
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+              >
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <div
+                    class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+                  >
+                    <img
+                      alt="Tramsformation desktop site"
+                      class="styles__Image-sc-16k93zz-3 iNVQSF"
+                      src="/assets/images/projects/tramsformation/tramsformation_desktop_preview.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+              />
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+              />
+            </div>
+          </div>
+          <div
+            class="styles__Spacer-sc-1mvvfhb-8 ikAlXI"
+          />
+          <div
+            class="styles__ActionsContainer-sc-1mvvfhb-0 bWnyUf"
+          >
+            <div
+              class="styles__Container-sc-86jfdu-5 ljalix"
+              type="back"
+            >
+              <div
+                class="styles__Background-sc-86jfdu-0 kgjoVC"
+                src="/assets/images/projects/ga_off.jpg"
+              />
+              <div
+                class="styles__Gradient-sc-86jfdu-2 cuoYns"
+                type="back"
+              />
+              <div
+                class="styles__Content-sc-86jfdu-1 cVAVXh"
+              >
+                <div
+                  class="styles__Icon-sc-86jfdu-3 eDxOvz"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 256 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="styles__Title-sc-86jfdu-4 dqbrxx"
+                >
+                  General Assembly
+                </div>
+              </div>
+            </div>
+            <div
+              class="styles__Container-sc-86jfdu-5 dTHuDf"
+              type="next"
+            >
+              <div
+                class="styles__Background-sc-86jfdu-0 cZKuij"
+                src="/assets/images/projects/kindynow_off.jpg"
+              />
+              <div
+                class="styles__Gradient-sc-86jfdu-2 mwBdH"
+                type="next"
+              />
+              <div
+                class="styles__Content-sc-86jfdu-1 cVAVXh"
+              >
+                <div
+                  class="styles__Title-sc-86jfdu-4 dqbrxx"
+                >
+                  KindyNow
+                </div>
+                <div
+                  class="styles__Icon-sc-86jfdu-3 eDxOvz"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 256 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="styles__Container-sc-10eg4h6-0 gdZXON"
+    >
+      <a
+        class="styles__Tile-sc-10eg4h6-1 fbEKIw"
+        target="tramsformation"
+      >
+        <div
+          class="styles__Image-sc-10eg4h6-2 kwalCV"
+          target="tramsformation"
+        />
+        <div
+          class="styles__TileContent-sc-10eg4h6-3 hRAkca"
+        >
+          <div
+            class="styles__Title-sc-10eg4h6-4 eZWFng"
+          >
+            Project Tramsformation
+          </div>
+          <div
+            class="styles__Tagline-sc-10eg4h6-5 gsyFjC"
+          >
+            3D Printing & Design
+          </div>
+        </div>
+        <div
+          class="styles__Close-sc-10eg4h6-6 hkupui"
+        >
+          X
+        </div>
+      </a>
+      <div
+        class="styles__Container-sc-1mvvfhb-1 egFPKm"
+      >
+        <section
+          class="styles__Section-sc-1mvvfhb-2 gfTgwZ"
+        >
+          <div
+            class="styles__Label-sc-1mvvfhb-3 lgMyyb"
+          >
+            Products
+          </div>
+          <div
+            class="styles__Copy-sc-1mvvfhb-4 lcLciH"
+          >
+            3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design
+          </div>
+        </section>
+        <section
+          class="styles__Section-sc-1mvvfhb-2 gfTgwZ"
+        >
+          <div
+            class="styles__Label-sc-1mvvfhb-3 lgMyyb"
+          >
+            Technologies
+          </div>
+          <div
+            class="styles__Copy-sc-1mvvfhb-4 lcLciH"
+          >
+            3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop
+          </div>
+        </section>
+        <section
+          class="styles__Section-sc-1mvvfhb-2 gfTgwZ"
+        >
+          <div
+            class="styles__Label-sc-1mvvfhb-3 lgMyyb"
+          >
+            Description
+          </div>
+          <div
+            class="styles__Copy-sc-1mvvfhb-4 lcLciH"
+          >
+            An ongoing personal project that started with a failed art competition entry. Many years of hacky development and sheer dumb stubborness have resulted in successfully producing custom designed transforming toy models of Melbourne's iconic trams. Other products that came along the way include websites, T-shirts, and art prints. I have so much respect for the engineering in those old 80's toys.
+          </div>
+        </section>
+        <div
+          class="styles__LinkWrapper-sc-1mvvfhb-6 cdggSg"
+        >
+          <a
+            class="styles__Link-sc-1rd8ebj-0 ecmhYM styles__Link-sc-1mvvfhb-5"
+            href="https://tramsformation.com.au"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Visit 
+            Project Tramsformation
+          </a>
+        </div>
+        <div
+          class="styles__MediaWrapper-sc-1mvvfhb-7 camQPC"
+        >
+          <div
+            class="styles__Container-sc-1uvt01h-0 jIWmIw"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+            >
+              <img
+                alt="Tramsformer W-Class Robot Mode"
+                class="styles__Content-sc-1uvt01h-2 hCIqyJ"
+                src="/assets/images/projects/tramsformation/tramsformer_w_1_preview.jpg"
+              />
+            </div>
+          </div>
+          <div
+            class="styles__Container-sc-1uvt01h-0 jIWmIw"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+            >
+              <img
+                alt="Tramsformer W-Class Tram Mode"
+                class="styles__Content-sc-1uvt01h-2 hCIqyJ"
+                src="/assets/images/projects/tramsformation/tramsformer_w_2_preview.jpg"
+              />
+            </div>
+          </div>
+          <div
+            class="styles__Container-sc-1uvt01h-0 jIWmIw"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+            >
+              <img
+                alt="Tramsformer art print"
+                class="styles__Content-sc-1uvt01h-2 hCIqyJ"
+                src="/assets/images/projects/tramsformation/tramsformation_print_preview.jpg"
+              />
+            </div>
+          </div>
+          <div
+            class="styles__Container-sc-1uvt01h-0 jIWmIw"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+            >
+              <img
+                alt="Tramsformer transformation"
+                class="styles__Content-sc-1uvt01h-2 hCIqyJ"
+                src="/assets/images/projects/tramsformation/tramsformation_transform_preview.jpg"
+              />
+            </div>
+          </div>
+          <div
+            class="styles__Container-sc-1uvt01h-0 jIWmIw"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+            >
+              <img
+                alt="Tramsformer model"
+                class="styles__Content-sc-1uvt01h-2 hCIqyJ"
+                src="/assets/images/projects/tramsformation/tramsformation_model_preview.jpg"
+              />
+            </div>
+          </div>
+          <div
+            class="styles__Container-sc-1uvt01h-0 jIWmIw"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+            >
+              <img
+                alt="Tramsformer model tram mode"
+                class="styles__Content-sc-1uvt01h-2 hCIqyJ"
+                src="/assets/images/projects/tramsformation/tramsformation_model_altmode_preview.jpg"
+              />
+            </div>
+          </div>
+          <div
+            class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 eVNjYZ gmIVHo"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 eVNjYZ dejQuE"
+            >
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="Tramsformation mobile site"
+                  class="styles__Image-sc-14hm49n-2 bGfdNQ"
+                  src="/assets/images/projects/tramsformation/tramsformation_mobile_preview.jpg"
+                />
+              </a>
+            </div>
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 eVNjYZ gQHKJZ"
+            />
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 eVNjYZ cvgzuO"
+            />
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 eVNjYZ hNtBOR"
+            />
+          </div>
+          <div
+            class="styles__Container-sc-16k93zz-0 bjSbpH"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+            >
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <div
+                  class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+                >
+                  <img
+                    alt="Tramsformation desktop site"
+                    class="styles__Image-sc-16k93zz-3 iNVQSF"
+                    src="/assets/images/projects/tramsformation/tramsformation_desktop_preview.jpg"
+                  />
+                </div>
+              </a>
+            </div>
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+            />
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+            />
+          </div>
+        </div>
+        <div
+          class="styles__Spacer-sc-1mvvfhb-8 ikAlXI"
+        />
+        <div
+          class="styles__ActionsContainer-sc-1mvvfhb-0 bWnyUf"
+        >
+          <div
+            class="styles__Container-sc-86jfdu-5 ljalix"
+            type="back"
+          >
+            <div
+              class="styles__Background-sc-86jfdu-0 kgjoVC"
+              src="/assets/images/projects/ga_off.jpg"
+            />
+            <div
+              class="styles__Gradient-sc-86jfdu-2 cuoYns"
+              type="back"
+            />
+            <div
+              class="styles__Content-sc-86jfdu-1 cVAVXh"
+            >
+              <div
+                class="styles__Icon-sc-86jfdu-3 eDxOvz"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 256 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+                  />
+                </svg>
+              </div>
+              <div
+                class="styles__Title-sc-86jfdu-4 dqbrxx"
+              >
+                General Assembly
+              </div>
+            </div>
+          </div>
+          <div
+            class="styles__Container-sc-86jfdu-5 dTHuDf"
+            type="next"
+          >
+            <div
+              class="styles__Background-sc-86jfdu-0 cZKuij"
+              src="/assets/images/projects/kindynow_off.jpg"
+            />
+            <div
+              class="styles__Gradient-sc-86jfdu-2 mwBdH"
+              type="next"
+            />
+            <div
+              class="styles__Content-sc-86jfdu-1 cVAVXh"
+            >
+              <div
+                class="styles__Title-sc-86jfdu-4 dqbrxx"
+              >
+                KindyNow
+              </div>
+              <div
+                class="styles__Icon-sc-86jfdu-3 eDxOvz"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 256 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Component -> Project -> SitePoint should render the Project UI without throwing an error 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="styles__Container-sc-10eg4h6-0 gdZXON"
+      >
+        <a
+          class="styles__Tile-sc-10eg4h6-1 fbEKIw"
+          target="sitepoint"
+        >
+          <div
+            class="styles__Image-sc-10eg4h6-2 cMDqaH"
+            target="sitepoint"
+          />
+          <div
+            class="styles__TileContent-sc-10eg4h6-3 hRAkca"
+          >
+            <div
+              class="styles__Title-sc-10eg4h6-4 eZWFng"
+            >
+              SitePoint
+            </div>
+            <div
+              class="styles__Tagline-sc-10eg4h6-5 gsyFjC"
+            >
+              Front-End Engineer
+            </div>
+          </div>
+          <div
+            class="styles__Close-sc-10eg4h6-6 hkupui"
+          >
+            X
+          </div>
+        </a>
+        <div
+          class="styles__Container-sc-1mvvfhb-1 egFPKm"
+        >
+          <section
+            class="styles__Section-sc-1mvvfhb-2 gfTgwZ"
+          >
+            <div
+              class="styles__Label-sc-1mvvfhb-3 lgMyyb"
+            >
+              Products
+            </div>
+            <div
+              class="styles__Copy-sc-1mvvfhb-4 lcLciH"
+            >
+              Company media website, Premium platform, forums
+            </div>
+          </section>
+          <section
+            class="styles__Section-sc-1mvvfhb-2 gfTgwZ"
+          >
+            <div
+              class="styles__Label-sc-1mvvfhb-3 lgMyyb"
+            >
+              Technologies
+            </div>
+            <div
+              class="styles__Copy-sc-1mvvfhb-4 lcLciH"
+            >
+              HTML, CSS, ES6, React, Redux, Node.js, MobX, RoR, PHP
+            </div>
+          </section>
+          <section
+            class="styles__Section-sc-1mvvfhb-2 gfTgwZ"
+          >
+            <div
+              class="styles__Label-sc-1mvvfhb-3 lgMyyb"
+            >
+              Description
+            </div>
+            <div
+              class="styles__Copy-sc-1mvvfhb-4 lcLciH"
+            >
+              SitePoint is a hub built by developers for developers with the goal of sharing knowledge and educating others on incredible Internet things. Spanning articles, courses, books, screencasts, and a huge forum community, they are a leading source for the latest news on all things web development.
+              <br />
+              <br />
+              As Front-End engineer I worked within an Agile development team to maintain and upgrade the company Articles WordPress and Premium RoR platforms. The revised articles site featured a new homepage and template designs with server-side rendered front-end components. We completely renovated the Premium members platform library design as well as shifted front-end components from Rails to React and Redux.
+            </div>
+          </section>
+          <div
+            class="styles__LinkWrapper-sc-1mvvfhb-6 cdggSg"
+          >
+            <a
+              class="styles__Link-sc-1rd8ebj-0 ecmhYM styles__Link-sc-1mvvfhb-5"
+              href="https://www.sitepoint.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Visit 
+              SitePoint
+            </a>
+          </div>
+          <div
+            class="styles__MediaWrapper-sc-1mvvfhb-7 camQPC"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 eVNjYZ gmIVHo"
+            >
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 eVNjYZ dejQuE"
+              >
+                <a
+                  href="https://www.sitepoint.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="SitePoint mobile site"
+                    class="styles__Image-sc-14hm49n-2 bGfdNQ"
+                    src="/assets/images/projects/sitepoint/sitepoint_mobile_preview.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 eVNjYZ gQHKJZ"
+              />
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 eVNjYZ cvgzuO"
+              />
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 eVNjYZ hNtBOR"
+              />
+            </div>
+            <div
+              class="styles__Container-sc-16k93zz-0 bjSbpH"
+            >
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+              >
+                <a
+                  href="https://www.sitepoint.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <div
+                    class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+                  >
+                    <img
+                      alt="SitePoint desktop site"
+                      class="styles__Image-sc-16k93zz-3 iNVQSF"
+                      src="/assets/images/projects/sitepoint/sitepoint_preview.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+              />
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+              />
+            </div>
+            <div
+              class="styles__Container-sc-16k93zz-0 bjSbpH"
+            >
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+              >
+                <a
+                  href="https://www.sitepoint.com/premium"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <div
+                    class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+                  >
+                    <img
+                      alt="SitePoint Premium desktop site"
+                      class="styles__Image-sc-16k93zz-3 iNVQSF"
+                      src="/assets/images/projects/sitepoint/sitepoint_premium_preview.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+              />
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+              />
+            </div>
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 eVNjYZ gmIVHo"
+            >
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 eVNjYZ dejQuE"
+              >
+                <a
+                  href="https://www.sitepoint.com/premium"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="SitePoint Premium mobile site"
+                    class="styles__Image-sc-14hm49n-2 bGfdNQ"
+                    src="/assets/images/projects/sitepoint/sitepoint_premium_mobile_preview.jpg"
+                  />
+                </a>
+              </div>
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 eVNjYZ gQHKJZ"
+              />
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 eVNjYZ cvgzuO"
+              />
+              <div
+                class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 eVNjYZ hNtBOR"
+              />
+            </div>
+          </div>
+          <div
+            class="styles__Spacer-sc-1mvvfhb-8 ikAlXI"
+          />
+          <div
+            class="styles__ActionsContainer-sc-1mvvfhb-0 bWnyUf"
+          >
+            <div
+              class="styles__Container-sc-86jfdu-5 eAQzGw"
+              type="back"
+            >
+              <div
+                class="styles__Background-sc-86jfdu-0 cZKuij"
+                src="/assets/images/projects/kindynow_off.jpg"
+              />
+              <div
+                class="styles__Gradient-sc-86jfdu-2 cuoYns"
+                type="back"
+              />
+              <div
+                class="styles__Content-sc-86jfdu-1 cVAVXh"
+              >
+                <div
+                  class="styles__Icon-sc-86jfdu-3 eDxOvz"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 256 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="styles__Title-sc-86jfdu-4 dqbrxx"
+                >
+                  KindyNow
+                </div>
+              </div>
+            </div>
+            <div
+              class="styles__Container-sc-86jfdu-5 gOSvqs"
+              type="next"
+            >
+              <div
+                class="styles__Background-sc-86jfdu-0 cywqCs"
+                src="/assets/images/projects/legoFlinders_off.jpg"
+              />
+              <div
+                class="styles__Gradient-sc-86jfdu-2 mwBdH"
+                type="next"
+              />
+              <div
+                class="styles__Content-sc-86jfdu-1 cVAVXh"
+              >
+                <div
+                  class="styles__Title-sc-86jfdu-4 dqbrxx"
+                >
+                  LEGO Flinders St
+                </div>
+                <div
+                  class="styles__Icon-sc-86jfdu-3 eDxOvz"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 256 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="styles__Container-sc-10eg4h6-0 gdZXON"
+    >
+      <a
+        class="styles__Tile-sc-10eg4h6-1 fbEKIw"
+        target="sitepoint"
+      >
+        <div
+          class="styles__Image-sc-10eg4h6-2 cMDqaH"
+          target="sitepoint"
+        />
+        <div
+          class="styles__TileContent-sc-10eg4h6-3 hRAkca"
+        >
+          <div
+            class="styles__Title-sc-10eg4h6-4 eZWFng"
+          >
+            SitePoint
+          </div>
+          <div
+            class="styles__Tagline-sc-10eg4h6-5 gsyFjC"
+          >
+            Front-End Engineer
+          </div>
+        </div>
+        <div
+          class="styles__Close-sc-10eg4h6-6 hkupui"
+        >
+          X
+        </div>
+      </a>
+      <div
+        class="styles__Container-sc-1mvvfhb-1 egFPKm"
+      >
+        <section
+          class="styles__Section-sc-1mvvfhb-2 gfTgwZ"
+        >
+          <div
+            class="styles__Label-sc-1mvvfhb-3 lgMyyb"
+          >
+            Products
+          </div>
+          <div
+            class="styles__Copy-sc-1mvvfhb-4 lcLciH"
+          >
+            Company media website, Premium platform, forums
+          </div>
+        </section>
+        <section
+          class="styles__Section-sc-1mvvfhb-2 gfTgwZ"
+        >
+          <div
+            class="styles__Label-sc-1mvvfhb-3 lgMyyb"
+          >
+            Technologies
+          </div>
+          <div
+            class="styles__Copy-sc-1mvvfhb-4 lcLciH"
+          >
+            HTML, CSS, ES6, React, Redux, Node.js, MobX, RoR, PHP
+          </div>
+        </section>
+        <section
+          class="styles__Section-sc-1mvvfhb-2 gfTgwZ"
+        >
+          <div
+            class="styles__Label-sc-1mvvfhb-3 lgMyyb"
+          >
+            Description
+          </div>
+          <div
+            class="styles__Copy-sc-1mvvfhb-4 lcLciH"
+          >
+            SitePoint is a hub built by developers for developers with the goal of sharing knowledge and educating others on incredible Internet things. Spanning articles, courses, books, screencasts, and a huge forum community, they are a leading source for the latest news on all things web development.
+            <br />
+            <br />
+            As Front-End engineer I worked within an Agile development team to maintain and upgrade the company Articles WordPress and Premium RoR platforms. The revised articles site featured a new homepage and template designs with server-side rendered front-end components. We completely renovated the Premium members platform library design as well as shifted front-end components from Rails to React and Redux.
+          </div>
+        </section>
+        <div
+          class="styles__LinkWrapper-sc-1mvvfhb-6 cdggSg"
+        >
+          <a
+            class="styles__Link-sc-1rd8ebj-0 ecmhYM styles__Link-sc-1mvvfhb-5"
+            href="https://www.sitepoint.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Visit 
+            SitePoint
+          </a>
+        </div>
+        <div
+          class="styles__MediaWrapper-sc-1mvvfhb-7 camQPC"
+        >
+          <div
+            class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 eVNjYZ gmIVHo"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 eVNjYZ dejQuE"
+            >
+              <a
+                href="https://www.sitepoint.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="SitePoint mobile site"
+                  class="styles__Image-sc-14hm49n-2 bGfdNQ"
+                  src="/assets/images/projects/sitepoint/sitepoint_mobile_preview.jpg"
+                />
+              </a>
+            </div>
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 eVNjYZ gQHKJZ"
+            />
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 eVNjYZ cvgzuO"
+            />
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 eVNjYZ hNtBOR"
+            />
+          </div>
+          <div
+            class="styles__Container-sc-16k93zz-0 bjSbpH"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+            >
+              <a
+                href="https://www.sitepoint.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <div
+                  class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+                >
+                  <img
+                    alt="SitePoint desktop site"
+                    class="styles__Image-sc-16k93zz-3 iNVQSF"
+                    src="/assets/images/projects/sitepoint/sitepoint_preview.jpg"
+                  />
+                </div>
+              </a>
+            </div>
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+            />
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+            />
+          </div>
+          <div
+            class="styles__Container-sc-16k93zz-0 bjSbpH"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+            >
+              <a
+                href="https://www.sitepoint.com/premium"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <div
+                  class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+                >
+                  <img
+                    alt="SitePoint Premium desktop site"
+                    class="styles__Image-sc-16k93zz-3 iNVQSF"
+                    src="/assets/images/projects/sitepoint/sitepoint_premium_preview.jpg"
+                  />
+                </div>
+              </a>
+            </div>
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+            />
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+            />
+          </div>
+          <div
+            class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 eVNjYZ gmIVHo"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 eVNjYZ dejQuE"
+            >
+              <a
+                href="https://www.sitepoint.com/premium"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="SitePoint Premium mobile site"
+                  class="styles__Image-sc-14hm49n-2 bGfdNQ"
+                  src="/assets/images/projects/sitepoint/sitepoint_premium_mobile_preview.jpg"
+                />
+              </a>
+            </div>
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 eVNjYZ gQHKJZ"
+            />
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 eVNjYZ cvgzuO"
+            />
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 eVNjYZ hNtBOR"
+            />
+          </div>
+        </div>
+        <div
+          class="styles__Spacer-sc-1mvvfhb-8 ikAlXI"
+        />
+        <div
+          class="styles__ActionsContainer-sc-1mvvfhb-0 bWnyUf"
+        >
+          <div
+            class="styles__Container-sc-86jfdu-5 eAQzGw"
+            type="back"
+          >
+            <div
+              class="styles__Background-sc-86jfdu-0 cZKuij"
+              src="/assets/images/projects/kindynow_off.jpg"
+            />
+            <div
+              class="styles__Gradient-sc-86jfdu-2 cuoYns"
+              type="back"
+            />
+            <div
+              class="styles__Content-sc-86jfdu-1 cVAVXh"
+            >
+              <div
+                class="styles__Icon-sc-86jfdu-3 eDxOvz"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 256 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+                  />
+                </svg>
+              </div>
+              <div
+                class="styles__Title-sc-86jfdu-4 dqbrxx"
+              >
+                KindyNow
+              </div>
+            </div>
+          </div>
+          <div
+            class="styles__Container-sc-86jfdu-5 gOSvqs"
+            type="next"
+          >
+            <div
+              class="styles__Background-sc-86jfdu-0 cywqCs"
+              src="/assets/images/projects/legoFlinders_off.jpg"
+            />
+            <div
+              class="styles__Gradient-sc-86jfdu-2 mwBdH"
+              type="next"
+            />
+            <div
+              class="styles__Content-sc-86jfdu-1 cVAVXh"
+            >
+              <div
+                class="styles__Title-sc-86jfdu-4 dqbrxx"
+              >
+                LEGO Flinders St
+              </div>
+              <div
+                class="styles__Icon-sc-86jfdu-3 eDxOvz"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 256 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

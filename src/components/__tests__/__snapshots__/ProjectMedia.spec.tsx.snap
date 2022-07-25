@@ -1,0 +1,1941 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component -> ProjectMedia -> KindyNow should render the ProjectMedia UI (src: "/assets/images/projects/kindynow/cnm_desktop_preview.jpg") without throwing an error 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="styles__Container-sc-16k93zz-0 bjSbpH"
+      >
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+        >
+          <a
+            href="https://childcarenearme.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+            >
+              <img
+                alt="Childcare Near Me desktop site"
+                class="styles__Image-sc-16k93zz-3 iNVQSF"
+                src="/assets/images/projects/kindynow/cnm_desktop_preview.jpg"
+              />
+            </div>
+          </a>
+        </div>
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+        />
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="styles__Container-sc-16k93zz-0 bjSbpH"
+    >
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+      >
+        <a
+          href="https://childcarenearme.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div
+            class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+          >
+            <img
+              alt="Childcare Near Me desktop site"
+              class="styles__Image-sc-16k93zz-3 iNVQSF"
+              src="/assets/images/projects/kindynow/cnm_desktop_preview.jpg"
+            />
+          </div>
+        </a>
+      </div>
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+      />
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Component -> ProjectMedia -> KindyNow should render the ProjectMedia UI (src: "/assets/images/projects/kindynow/cnm_mobile_preview.jpg") without throwing an error 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 eVNjYZ gmIVHo"
+      >
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 eVNjYZ dejQuE"
+        >
+          <a
+            href="https://childcarenearme.com.au"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="Childcare Near Me mobile site"
+              class="styles__Image-sc-14hm49n-2 bGfdNQ"
+              src="/assets/images/projects/kindynow/cnm_mobile_preview.jpg"
+            />
+          </a>
+        </div>
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 eVNjYZ gQHKJZ"
+        />
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 eVNjYZ cvgzuO"
+        />
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 eVNjYZ hNtBOR"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 eVNjYZ gmIVHo"
+    >
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 eVNjYZ dejQuE"
+      >
+        <a
+          href="https://childcarenearme.com.au"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="Childcare Near Me mobile site"
+            class="styles__Image-sc-14hm49n-2 bGfdNQ"
+            src="/assets/images/projects/kindynow/cnm_mobile_preview.jpg"
+          />
+        </a>
+      </div>
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 eVNjYZ gQHKJZ"
+      />
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 eVNjYZ cvgzuO"
+      />
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 eVNjYZ hNtBOR"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Component -> ProjectMedia -> KindyNow should render the ProjectMedia UI (src: "/assets/images/projects/kindynow/cnm_search_preview.jpg") without throwing an error 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="styles__Container-sc-16k93zz-0 bjSbpH"
+      >
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+        >
+          <a
+            href="https://childcarenearme.com.au"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+            >
+              <img
+                alt="Childcare Near Me search"
+                class="styles__Image-sc-16k93zz-3 iNVQSF"
+                src="/assets/images/projects/kindynow/cnm_search_preview.jpg"
+              />
+            </div>
+          </a>
+        </div>
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+        />
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="styles__Container-sc-16k93zz-0 bjSbpH"
+    >
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+      >
+        <a
+          href="https://childcarenearme.com.au"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div
+            class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+          >
+            <img
+              alt="Childcare Near Me search"
+              class="styles__Image-sc-16k93zz-3 iNVQSF"
+              src="/assets/images/projects/kindynow/cnm_search_preview.jpg"
+            />
+          </div>
+        </a>
+      </div>
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+      />
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Component -> ProjectMedia -> KindyNow should render the ProjectMedia UI (src: "/assets/images/projects/kindynow/kn_app_preview.jpg") without throwing an error 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 eVNjYZ gmIVHo"
+      >
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 eVNjYZ dejQuE"
+        >
+          <a
+            href="https://www.kindynow.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="KindyNow Mobile App"
+              class="styles__Image-sc-14hm49n-2 bGfdNQ"
+              src="/assets/images/projects/kindynow/kn_app_preview.jpg"
+            />
+          </a>
+        </div>
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 eVNjYZ gQHKJZ"
+        />
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 eVNjYZ cvgzuO"
+        />
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 eVNjYZ hNtBOR"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 eVNjYZ gmIVHo"
+    >
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 eVNjYZ dejQuE"
+      >
+        <a
+          href="https://www.kindynow.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="KindyNow Mobile App"
+            class="styles__Image-sc-14hm49n-2 bGfdNQ"
+            src="/assets/images/projects/kindynow/kn_app_preview.jpg"
+          />
+        </a>
+      </div>
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 eVNjYZ gQHKJZ"
+      />
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 eVNjYZ cvgzuO"
+      />
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 eVNjYZ hNtBOR"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Component -> ProjectMedia -> KindyNow should render the ProjectMedia UI (src: "/assets/images/projects/kindynow/kn_desktop_preview.jpg") without throwing an error 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="styles__Container-sc-16k93zz-0 bjSbpH"
+      >
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+        >
+          <a
+            href="https://www.kindynow.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+            >
+              <img
+                alt="KindyNow desktop site"
+                class="styles__Image-sc-16k93zz-3 iNVQSF"
+                src="/assets/images/projects/kindynow/kn_desktop_preview.jpg"
+              />
+            </div>
+          </a>
+        </div>
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+        />
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="styles__Container-sc-16k93zz-0 bjSbpH"
+    >
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+      >
+        <a
+          href="https://www.kindynow.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div
+            class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+          >
+            <img
+              alt="KindyNow desktop site"
+              class="styles__Image-sc-16k93zz-3 iNVQSF"
+              src="/assets/images/projects/kindynow/kn_desktop_preview.jpg"
+            />
+          </div>
+        </a>
+      </div>
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+      />
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Component -> ProjectMedia -> LEGO Flinders St should render the ProjectMedia UI (src: "/assets/images/projects/legoFlinders/legoFlinders_preview.jpg") without throwing an error 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="styles__Container-sc-1uvt01h-0 jIWmIw"
+      >
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+        >
+          <img
+            alt="LEGO Flinders St art print"
+            class="styles__Content-sc-1uvt01h-2 hCIqyJ"
+            src="/assets/images/projects/legoFlinders/legoFlinders_preview.jpg"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="styles__Container-sc-1uvt01h-0 jIWmIw"
+    >
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+      >
+        <img
+          alt="LEGO Flinders St art print"
+          class="styles__Content-sc-1uvt01h-2 hCIqyJ"
+          src="/assets/images/projects/legoFlinders/legoFlinders_preview.jpg"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Component -> ProjectMedia -> Project Tramsformation should render the ProjectMedia UI (src: "/assets/images/projects/tramsformation/tramsformation_desktop_preview.jpg") without throwing an error 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="styles__Container-sc-16k93zz-0 bjSbpH"
+      >
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+        >
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+            >
+              <img
+                alt="Tramsformation desktop site"
+                class="styles__Image-sc-16k93zz-3 iNVQSF"
+                src="/assets/images/projects/tramsformation/tramsformation_desktop_preview.jpg"
+              />
+            </div>
+          </a>
+        </div>
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+        />
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="styles__Container-sc-16k93zz-0 bjSbpH"
+    >
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+      >
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div
+            class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+          >
+            <img
+              alt="Tramsformation desktop site"
+              class="styles__Image-sc-16k93zz-3 iNVQSF"
+              src="/assets/images/projects/tramsformation/tramsformation_desktop_preview.jpg"
+            />
+          </div>
+        </a>
+      </div>
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+      />
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Component -> ProjectMedia -> Project Tramsformation should render the ProjectMedia UI (src: "/assets/images/projects/tramsformation/tramsformation_mobile_preview.jpg") without throwing an error 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 eVNjYZ gmIVHo"
+      >
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 eVNjYZ dejQuE"
+        >
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="Tramsformation mobile site"
+              class="styles__Image-sc-14hm49n-2 bGfdNQ"
+              src="/assets/images/projects/tramsformation/tramsformation_mobile_preview.jpg"
+            />
+          </a>
+        </div>
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 eVNjYZ gQHKJZ"
+        />
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 eVNjYZ cvgzuO"
+        />
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 eVNjYZ hNtBOR"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 eVNjYZ gmIVHo"
+    >
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 eVNjYZ dejQuE"
+      >
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="Tramsformation mobile site"
+            class="styles__Image-sc-14hm49n-2 bGfdNQ"
+            src="/assets/images/projects/tramsformation/tramsformation_mobile_preview.jpg"
+          />
+        </a>
+      </div>
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 eVNjYZ gQHKJZ"
+      />
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 eVNjYZ cvgzuO"
+      />
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 eVNjYZ hNtBOR"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Component -> ProjectMedia -> Project Tramsformation should render the ProjectMedia UI (src: "/assets/images/projects/tramsformation/tramsformation_model_altmode_preview.jpg") without throwing an error 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="styles__Container-sc-1uvt01h-0 jIWmIw"
+      >
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+        >
+          <img
+            alt="Tramsformer model tram mode"
+            class="styles__Content-sc-1uvt01h-2 hCIqyJ"
+            src="/assets/images/projects/tramsformation/tramsformation_model_altmode_preview.jpg"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="styles__Container-sc-1uvt01h-0 jIWmIw"
+    >
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+      >
+        <img
+          alt="Tramsformer model tram mode"
+          class="styles__Content-sc-1uvt01h-2 hCIqyJ"
+          src="/assets/images/projects/tramsformation/tramsformation_model_altmode_preview.jpg"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Component -> ProjectMedia -> Project Tramsformation should render the ProjectMedia UI (src: "/assets/images/projects/tramsformation/tramsformation_model_preview.jpg") without throwing an error 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="styles__Container-sc-1uvt01h-0 jIWmIw"
+      >
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+        >
+          <img
+            alt="Tramsformer model"
+            class="styles__Content-sc-1uvt01h-2 hCIqyJ"
+            src="/assets/images/projects/tramsformation/tramsformation_model_preview.jpg"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="styles__Container-sc-1uvt01h-0 jIWmIw"
+    >
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+      >
+        <img
+          alt="Tramsformer model"
+          class="styles__Content-sc-1uvt01h-2 hCIqyJ"
+          src="/assets/images/projects/tramsformation/tramsformation_model_preview.jpg"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Component -> ProjectMedia -> Project Tramsformation should render the ProjectMedia UI (src: "/assets/images/projects/tramsformation/tramsformation_print_preview.jpg") without throwing an error 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="styles__Container-sc-1uvt01h-0 jIWmIw"
+      >
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+        >
+          <img
+            alt="Tramsformer art print"
+            class="styles__Content-sc-1uvt01h-2 hCIqyJ"
+            src="/assets/images/projects/tramsformation/tramsformation_print_preview.jpg"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="styles__Container-sc-1uvt01h-0 jIWmIw"
+    >
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+      >
+        <img
+          alt="Tramsformer art print"
+          class="styles__Content-sc-1uvt01h-2 hCIqyJ"
+          src="/assets/images/projects/tramsformation/tramsformation_print_preview.jpg"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Component -> ProjectMedia -> Project Tramsformation should render the ProjectMedia UI (src: "/assets/images/projects/tramsformation/tramsformation_transform_preview.jpg") without throwing an error 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="styles__Container-sc-1uvt01h-0 jIWmIw"
+      >
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+        >
+          <img
+            alt="Tramsformer transformation"
+            class="styles__Content-sc-1uvt01h-2 hCIqyJ"
+            src="/assets/images/projects/tramsformation/tramsformation_transform_preview.jpg"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="styles__Container-sc-1uvt01h-0 jIWmIw"
+    >
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+      >
+        <img
+          alt="Tramsformer transformation"
+          class="styles__Content-sc-1uvt01h-2 hCIqyJ"
+          src="/assets/images/projects/tramsformation/tramsformation_transform_preview.jpg"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Component -> ProjectMedia -> Project Tramsformation should render the ProjectMedia UI (src: "/assets/images/projects/tramsformation/tramsformer_w_1_preview.jpg") without throwing an error 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="styles__Container-sc-1uvt01h-0 jIWmIw"
+      >
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+        >
+          <img
+            alt="Tramsformer W-Class Robot Mode"
+            class="styles__Content-sc-1uvt01h-2 hCIqyJ"
+            src="/assets/images/projects/tramsformation/tramsformer_w_1_preview.jpg"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="styles__Container-sc-1uvt01h-0 jIWmIw"
+    >
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+      >
+        <img
+          alt="Tramsformer W-Class Robot Mode"
+          class="styles__Content-sc-1uvt01h-2 hCIqyJ"
+          src="/assets/images/projects/tramsformation/tramsformer_w_1_preview.jpg"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Component -> ProjectMedia -> Project Tramsformation should render the ProjectMedia UI (src: "/assets/images/projects/tramsformation/tramsformer_w_2_preview.jpg") without throwing an error 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="styles__Container-sc-1uvt01h-0 jIWmIw"
+      >
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+        >
+          <img
+            alt="Tramsformer W-Class Tram Mode"
+            class="styles__Content-sc-1uvt01h-2 hCIqyJ"
+            src="/assets/images/projects/tramsformation/tramsformer_w_2_preview.jpg"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="styles__Container-sc-1uvt01h-0 jIWmIw"
+    >
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+      >
+        <img
+          alt="Tramsformer W-Class Tram Mode"
+          class="styles__Content-sc-1uvt01h-2 hCIqyJ"
+          src="/assets/images/projects/tramsformation/tramsformer_w_2_preview.jpg"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Component -> ProjectMedia -> SitePoint should render the ProjectMedia UI (src: "/assets/images/projects/sitepoint/sitepoint_mobile_preview.jpg") without throwing an error 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 eVNjYZ gmIVHo"
+      >
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 eVNjYZ dejQuE"
+        >
+          <a
+            href="https://www.sitepoint.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="SitePoint mobile site"
+              class="styles__Image-sc-14hm49n-2 bGfdNQ"
+              src="/assets/images/projects/sitepoint/sitepoint_mobile_preview.jpg"
+            />
+          </a>
+        </div>
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 eVNjYZ gQHKJZ"
+        />
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 eVNjYZ cvgzuO"
+        />
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 eVNjYZ hNtBOR"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 eVNjYZ gmIVHo"
+    >
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 eVNjYZ dejQuE"
+      >
+        <a
+          href="https://www.sitepoint.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="SitePoint mobile site"
+            class="styles__Image-sc-14hm49n-2 bGfdNQ"
+            src="/assets/images/projects/sitepoint/sitepoint_mobile_preview.jpg"
+          />
+        </a>
+      </div>
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 eVNjYZ gQHKJZ"
+      />
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 eVNjYZ cvgzuO"
+      />
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 eVNjYZ hNtBOR"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Component -> ProjectMedia -> SitePoint should render the ProjectMedia UI (src: "/assets/images/projects/sitepoint/sitepoint_premium_mobile_preview.jpg") without throwing an error 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 eVNjYZ gmIVHo"
+      >
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 eVNjYZ dejQuE"
+        >
+          <a
+            href="https://www.sitepoint.com/premium"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="SitePoint Premium mobile site"
+              class="styles__Image-sc-14hm49n-2 bGfdNQ"
+              src="/assets/images/projects/sitepoint/sitepoint_premium_mobile_preview.jpg"
+            />
+          </a>
+        </div>
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 eVNjYZ gQHKJZ"
+        />
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 eVNjYZ cvgzuO"
+        />
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 eVNjYZ hNtBOR"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 eVNjYZ gmIVHo"
+    >
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 eVNjYZ dejQuE"
+      >
+        <a
+          href="https://www.sitepoint.com/premium"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="SitePoint Premium mobile site"
+            class="styles__Image-sc-14hm49n-2 bGfdNQ"
+            src="/assets/images/projects/sitepoint/sitepoint_premium_mobile_preview.jpg"
+          />
+        </a>
+      </div>
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 eVNjYZ gQHKJZ"
+      />
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 eVNjYZ cvgzuO"
+      />
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 eVNjYZ hNtBOR"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Component -> ProjectMedia -> SitePoint should render the ProjectMedia UI (src: "/assets/images/projects/sitepoint/sitepoint_premium_preview.jpg") without throwing an error 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="styles__Container-sc-16k93zz-0 bjSbpH"
+      >
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+        >
+          <a
+            href="https://www.sitepoint.com/premium"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+            >
+              <img
+                alt="SitePoint Premium desktop site"
+                class="styles__Image-sc-16k93zz-3 iNVQSF"
+                src="/assets/images/projects/sitepoint/sitepoint_premium_preview.jpg"
+              />
+            </div>
+          </a>
+        </div>
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+        />
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="styles__Container-sc-16k93zz-0 bjSbpH"
+    >
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+      >
+        <a
+          href="https://www.sitepoint.com/premium"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div
+            class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+          >
+            <img
+              alt="SitePoint Premium desktop site"
+              class="styles__Image-sc-16k93zz-3 iNVQSF"
+              src="/assets/images/projects/sitepoint/sitepoint_premium_preview.jpg"
+            />
+          </div>
+        </a>
+      </div>
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+      />
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Component -> ProjectMedia -> SitePoint should render the ProjectMedia UI (src: "/assets/images/projects/sitepoint/sitepoint_preview.jpg") without throwing an error 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="styles__Container-sc-16k93zz-0 bjSbpH"
+      >
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+        >
+          <a
+            href="https://www.sitepoint.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+            >
+              <img
+                alt="SitePoint desktop site"
+                class="styles__Image-sc-16k93zz-3 iNVQSF"
+                src="/assets/images/projects/sitepoint/sitepoint_preview.jpg"
+              />
+            </div>
+          </a>
+        </div>
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+        />
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="styles__Container-sc-16k93zz-0 bjSbpH"
+    >
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+      >
+        <a
+          href="https://www.sitepoint.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div
+            class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+          >
+            <img
+              alt="SitePoint desktop site"
+              class="styles__Image-sc-16k93zz-3 iNVQSF"
+              src="/assets/images/projects/sitepoint/sitepoint_preview.jpg"
+            />
+          </div>
+        </a>
+      </div>
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+      />
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

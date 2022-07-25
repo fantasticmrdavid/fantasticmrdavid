@@ -21,6 +21,8 @@
 	},
 	"include": [
 		"src",
-		"webpack"
+		"webpack",
+		"*.config.js",
+		"<rootDir>/jest-setup.js"
 	]
 }

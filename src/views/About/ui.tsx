@@ -77,6 +77,7 @@ export default memo(
                 <li>ESLint</li>
                 <li>Prettier</li>
                 <li>Jest</li>
+                <li>Testing Library</li>
               </ul>
             </SpecsSection>
             <SpecsSection>

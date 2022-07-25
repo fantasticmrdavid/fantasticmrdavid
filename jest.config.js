@@ -1,5 +1,6 @@
 module.exports = {
   preset: 'ts-jest',
+  testEnvironment: "jsdom",
   verbose: false,
   transform: {
     '.+\\.(js|jsx|ts|tsx)$': 'babel-jest',
@@ -19,6 +20,6 @@ module.exports = {
     '^styles(.*)$': '<rootDir>/src/styles$1',
     '^views(.*)$': '<rootDir>/src/views$1',
   },
-  setupFiles: ['<rootDir>/src/setupTests.js'],
-  snapshotSerializers: ['enzyme-to-json/serializer']
+  setupFilesAfterEnv: ['<rootDir>/src/setupTests.js'],
+  transformIgnorePatterns: ['<rootDir>/node_modules/'],
 };

@@ -1,10 +1,12 @@
 import React, { memo } from 'react';
-import { ContainerProps, StateProps } from './types';
 import Mobile, { Props as MobileProps } from './Mobile';
 import Desktop, { Props as DesktopProps } from './Desktop';
 import Image, { Props as ImageProps } from './Image';
 
-type UiProps = ContainerProps & StateProps & MobileProps & ImageProps & DesktopProps;
+type UiProps = {
+    platform: string,
+    type: string,
+} & MobileProps & ImageProps & DesktopProps;
 
 export default memo(
   (props: UiProps) => {

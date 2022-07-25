@@ -37,10 +37,10 @@ export default memo(
 
     return (
       <Container isLoading={getIsLoading()} isActive={isActive}>
-        <Lightbox onClick={handleClose} />
+        <Lightbox data-testid={"popupLightbox"} onClick={handleClose} />
         <Dialog>
-          <Close onClick={handleClose}>X</Close>
-          { !!url && <Image src={url} alt={title} /> }
+          <Close data-testid={"popupClose"} onClick={handleClose}>X</Close>
+          { !!url && <Image data-testid={"popupImage"} data-orientation={orientation} src={url} alt={title} /> }
         </Dialog>
       </Container>
     );

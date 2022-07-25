@@ -9,7 +9,6 @@ import {
 export interface Props {
   noSiblings: boolean,
   orientation: string,
-  showPopup: (...args: any[]) => any,
   title: string,
   thumbnail: string,
   url?: string | undefined,

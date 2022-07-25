@@ -5,7 +5,7 @@ const LETTER_INTERVAL = 30;
 const COMPLETE_DELAY_INTERVAL = 2000;
 
 interface Props {
-  children?: string | undefined,
+  children?: string | ReactElement| undefined,
   blinker: boolean,
   onComplete?: (...args: any[]) => any,
   speed?: number,

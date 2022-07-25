@@ -6,4 +6,4 @@
 - React
 - Styled-Components
 - TypeScript
-- Jest + Enzyme
+- Jest + Testing Library
