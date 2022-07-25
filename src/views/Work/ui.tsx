@@ -33,12 +33,12 @@ const images = getImages();
 
 export default memo((props: UiProps) => {
   const { target } = props;
-  const { getIsLoading, loading, setLoading } = useContext(LoadingContext);
+  const { getIsLoading, loading, setLoading, stopLoading } = useContext(LoadingContext);
   const { setWorkLocation } = useContext(WorkLocationContext);
 
   useEffect(() => {
     setLoading({ ...loading, images: true });
-  }, [target]);
+  }, []);
 
   if (target) setWorkLocation(target);
   const isLoading = getIsLoading();
@@ -51,7 +51,7 @@ export default memo((props: UiProps) => {
           && (
             <ImagePreloader
               images={images}
-              completedAction={() => setLoading({ ...loading, images: false, media: false })}
+              completedAction={() => stopLoading()}
             />
           )}
       </LoadingContainer>
