@@ -6,9 +6,10 @@
   "scripts": {
     "build": "webpack --config ./webpack/prod.config.js",
     "tsc": "tsc",
+    "prettier": "prettier --check '**/*'",
     "clean": "rm -rf node_modules",
     "jest": "set NODE_ENV=test&& jest --no-cache --colors --update-snapshot",
-    "lint": "./node_modules/.bin/eslint -c .eslintrc.json src/**/*.js  src/**/*.jsx src/**/*.ts  src/**/*.tsx --fix",
+    "lint": "eslint -c .eslintrc.json --fix",
     "start": "webpack-dev-server --config ./webpack/dev.config.js",
     "test": "chmod +x ./test.sh; ./test.sh"
   },
@@ -20,9 +21,6 @@
   },
   "bugs": {
     "url": "https://github.com/fantasticmrdavid/fantasticmrdavid/issues"
-  },
-  "resolutions": {
-    "webpack-pwa-manifest": "4.3.0"
   },
   "homepage": "https://github.com/fantasticmrdavid/fantasticmrdavid#readme",
   "dependencies": {
@@ -46,6 +44,7 @@
     "styled-components": "5.3.5"
   },
   "devDependencies": {
+    "@babel/eslint-parser": "^7.18.9",
     "@babel/preset-env": "7.18.9",
     "@babel/preset-react": "7.18.6",
     "@babel/preset-typescript": "7.18.6",
@@ -57,8 +56,6 @@
     "@types/react-router-dom": "5.3.3",
     "@types/styled-components": "5.1.25",
     "@typescript-eslint/eslint-plugin": "5.30.7",
-    "@typescript-eslint/parser": "5.30.7",
-    "babel-eslint": "10.1.0",
     "babel-jest": "28.1.3",
     "babel-loader": "8.2.5",
     "babel-plugin-styled-components": "2.0.7",
@@ -66,12 +63,14 @@
     "copy-webpack-plugin": "11.0.0",
     "eslint": "8.20.0",
     "eslint-config-airbnb-typescript": "17.0.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-jsx-a11y": "6.6.1",
     "eslint-plugin-react": "7.30.1",
     "eslint-plugin-react-hooks": "4.6.0",
     "identity-obj-proxy": "3.0.0",
     "jest": "28.1.3",
+    "prettier": "2.7.1",
     "ts-jest": "28.0.7",
     "ts-loader": "9.3.1",
     "typescript": "4.7.4",
