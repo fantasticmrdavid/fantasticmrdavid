@@ -40,12 +40,12 @@ export default memo(
 
     const handleTileClick = useCallback((e: SyntheticEvent) => {
       e.preventDefault();
-      const newCurrent = !!isCurrent ? undefined : target;
+      const newCurrent = isCurrent ? undefined : target;
       setWorkLocation(newCurrent);
       navigate(`/work/${newCurrent || ''}`);
     }, [isCurrent, target]);
 
-    const isOtherCurrent = !!isCurrent ? false : !!workLocation;
+    const isOtherCurrent = isCurrent ? false : !!workLocation;
 
     return (
       <Container

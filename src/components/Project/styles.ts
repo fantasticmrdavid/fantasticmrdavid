@@ -74,8 +74,8 @@ export const Tile = styled.a<TileProps>`
   z-index: ${(props) => (props.isCurrent ? 12 : undefined)};
 
   ${Container}:nth-child(even) & {
-    right: ${(props) => (!props.isCurrent && !props.isOtherCurrent ? '20px' : '0px')};
-    transform: ${(props) => (!props.isCurrent && !props.isParentLoading ? 'rotateY(-20deg)' : 'rotateY(0deg)')};
+    right: ${(props) => (props.isCurrent ? '0px' : '20px')};
+    transform: ${(props) => (props.isCurrent ? 'rotateY(0deg)' : 'rotateY(-20deg)')};
   }
 
   ${media.hover`
