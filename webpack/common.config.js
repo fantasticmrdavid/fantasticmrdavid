@@ -1,4 +1,3 @@
-const webpack = require('webpack');
 const path = require('path');
 const BUILD_DIR = path.resolve(__dirname, '../public');
 const APP_DIR = path.resolve(__dirname, '../src');
@@ -61,9 +60,6 @@ module.exports = {
     new ESLintPlugin({
       failOnWarning: false,
       failOnError: false
-    }),
-    new webpack.DefinePlugin({
-      'process.env.NODE_ENV' : JSON.stringify(process.env.NODE_ENV)
     }),
     new CopyWebpackPlugin({
       patterns: [

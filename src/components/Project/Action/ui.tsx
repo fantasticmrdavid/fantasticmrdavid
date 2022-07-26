@@ -1,4 +1,5 @@
 import React, { memo, useCallback, useContext } from 'react';
+import { useNavigate } from "react-router-dom"
 import { Project as ProjectProps } from 'data/projects';
 import { WorkLocationContext } from 'contexts/WorkLocation';
 import {
@@ -24,6 +25,7 @@ export default memo(
       type,
     } = props;
 
+    const navigate = useNavigate()
     const { setWorkLocation } = useContext(WorkLocationContext);
 
     const {
@@ -34,6 +36,7 @@ export default memo(
 
     const handleClick = useCallback(() => {
       setWorkLocation(target);
+      navigate(`/work/${target}`)
     }, [target]);
 
     return (

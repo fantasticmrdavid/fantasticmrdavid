@@ -40,7 +40,9 @@ export default memo((props: UiProps) => {
     setLoading({ ...loading, images: true });
   }, []);
 
-  if (target) setWorkLocation(target);
+  useEffect(() => {
+    if (target) setWorkLocation(target);
+  }, [target])
   const isLoading = getIsLoading();
 
   return (

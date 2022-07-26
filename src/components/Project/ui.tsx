@@ -4,6 +4,7 @@ import React, {
   SyntheticEvent,
   useContext,
 } from 'react';
+import { useNavigate } from "react-router-dom"
 import { Project as ProjectProps } from 'data/projects';
 import { LoadingContext } from 'contexts/Loading';
 import { WorkLocationContext } from 'contexts/WorkLocation';
@@ -31,6 +32,7 @@ export default memo(
       target,
       images,
     } = props;
+    const navigate = useNavigate()
     const { loading } = useContext(LoadingContext);
     const { workLocation, setWorkLocation } = useContext(WorkLocationContext);
     const isCurrent = workLocation === target;
@@ -40,7 +42,7 @@ export default memo(
       e.preventDefault();
       const newCurrent = !!isCurrent ? undefined : target;
       setWorkLocation(newCurrent);
-      window.history.pushState({}, title, `/work/${newCurrent || ''}`);
+      navigate(`/work/${newCurrent || ''}`);
     }, [isCurrent, target]);
 
     const isOtherCurrent = !!isCurrent ? false : !!workLocation;
