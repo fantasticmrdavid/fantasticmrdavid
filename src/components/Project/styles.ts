@@ -64,7 +64,7 @@ export const Tile = styled.a<TileProps>`
   border: ${`2px solid ${theme.colorBlack}`};
   box-shadow: ${theme.dropShadow};
   transition: 0.5s;
-  transform: ${(props) => {
+  transform: ${(props: TileProps) => {
     const { isCurrent, isParentLoading } = props;
     if (isCurrent && !isParentLoading) return 'rotateY(0deg)';
     if (!isParentLoading) return 'rotateY(20deg)';
@@ -74,16 +74,20 @@ export const Tile = styled.a<TileProps>`
   z-index: ${(props) => (props.isCurrent ? 12 : undefined)};
 
   ${Container}:nth-child(even) & {
-    right: ${(props) => (props.isCurrent ? '0px' : '20px')};
-    transform: ${(props) => (props.isCurrent ? 'rotateY(0deg)' : 'rotateY(-20deg)')};
+    right: ${(props: TileProps) => (props.isCurrent ? undefined : '20px')};
+    transform: ${(props: TileProps) => (props.isCurrent ? undefined : 'rotateY(-20deg)')};
   }
 
   ${media.hover`
     ${Container}:hover & {
       right: 0px;
       z-index: 12;
-      transform: ${(props: TileProps) => (!props.isParentLoading ? 'rotateY(0deg)' : undefined)};
+      transform: ${(props: TileProps) => (props.isCurrent ? undefined : 'rotateY(0deg)')};
     }
+    
+    ${Container}:nth-child(even):hover & {
+      right: ${(props: TileProps) => (props.isCurrent ? undefined : '0px')};
+  }
   `}
 `;
 

@@ -32,7 +32,7 @@ export default memo(
       e.preventDefault();
       e.stopPropagation();
       setLocation(isCurrent ? LOCATIONS.home : target);
-      navigate(`/${isCurrent ? '' : target}`, { replace: true });
+      navigate(`/${isCurrent ? '' : target}`);
     };
 
     return (

@@ -1,10 +1,11 @@
 import React, {
   memo,
-  useCallback,
+  useCallback, useContext,
   useEffect,
-  useReducer,
-} from 'react';
+  useReducer
+} from "react";
 import { Container } from './styles';
+import { LoadingContext } from "contexts/Loading";
 
 type State = {
   completed: boolean,
@@ -39,6 +40,7 @@ interface Props {
 
 export default memo(
   ({ images, completedAction, hideCompletedCount }: Props) => {
+    const { loading, setLoading } = useContext(LoadingContext);
     const [state, dispatch] = useReducer(reducer, {
       completedCount: 0,
       completed: false,
@@ -53,6 +55,14 @@ export default memo(
     }, [state.completedCount]);
 
     images.map((i) => useEffect(() => initImage(i), [i]));
+
+    useEffect(() => {
+      if (!state.completed) {
+        setLoading({ ...loading, images: true });
+      } else {
+        setLoading({ ...loading, images: false });
+      }
+    }, [state]);
 
     useEffect(() => {
       if (!state.completed && state.completedCount === images.length) {

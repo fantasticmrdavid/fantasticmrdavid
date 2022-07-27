@@ -33,16 +33,13 @@ const images = getImages();
 
 export default memo((props: UiProps) => {
   const { target } = props;
-  const { getIsLoading, loading, setLoading, stopLoading } = useContext(LoadingContext);
+  const { getIsLoading, stopLoading } = useContext(LoadingContext);
   const { setWorkLocation } = useContext(WorkLocationContext);
-
-  useEffect(() => {
-    setLoading({ ...loading, images: true });
-  }, []);
 
   useEffect(() => {
     if (target) setWorkLocation(target);
   }, [target])
+
   const isLoading = getIsLoading();
 
   return (

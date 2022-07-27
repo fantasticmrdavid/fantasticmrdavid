@@ -35,15 +35,15 @@ export default memo(
     const navigate = useNavigate()
     const { loading } = useContext(LoadingContext);
     const { workLocation, setWorkLocation } = useContext(WorkLocationContext);
-    const isCurrent = workLocation === target;
     const isParentLoading = loading.images || loading.media;
+    const isCurrent = workLocation && !isParentLoading ? workLocation === target : false;
 
-    const handleTileClick = useCallback((e: SyntheticEvent) => {
+    const handleTileClick = (e: SyntheticEvent) => {
       e.preventDefault();
       const newCurrent = isCurrent ? undefined : target;
       setWorkLocation(newCurrent);
       navigate(`/work/${newCurrent || ''}`);
-    }, [isCurrent, target]);
+    };
 
     const isOtherCurrent = isCurrent ? false : !!workLocation;
 
