@@ -2,7 +2,7 @@ const path = require('path');
 const BUILD_DIR = path.resolve(__dirname, '../public');
 const APP_DIR = path.resolve(__dirname, '../src');
 
-const WebpackPwaManifest = require('webpack-pwa-manifest');
+const WebpackPwaManifest = require('@fantasticmrdavid/webpack-pwa-manifest');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const ESLintPlugin = require('eslint-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
