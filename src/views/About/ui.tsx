@@ -78,6 +78,7 @@ export default memo(
                 <li>Prettier</li>
                 <li>Jest</li>
                 <li>Testing Library</li>
+                <li>Chromatic</li>
               </ul>
             </SpecsSection>
             <SpecsSection>
