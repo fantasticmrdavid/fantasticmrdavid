@@ -1,29 +1,29 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Component -> Popup should render the closed Popup UI without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <section
-        class="styles__Container-sc-hsnn8o-0 fhiNXj"
+        class="styles__Container-sc-hsnn8o-0 itzZCe"
       >
         <div
-          class="styles__Lightbox-sc-hsnn8o-1 fqqDqX"
+          class="styles__Lightbox-sc-hsnn8o-1 iCWwzy"
           data-testid="popupLightbox"
         />
         <div
-          class="styles__Dialog-sc-hsnn8o-2 esNkMA"
+          class="styles__Dialog-sc-hsnn8o-2 kkIep"
         >
           <div
-            class="styles__Close-sc-hsnn8o-5 vcmFv"
+            class="styles__Close-sc-hsnn8o-5 jEoFoT"
             data-testid="popupClose"
           >
             X
           </div>
           <img
             alt="Popup Test"
-            class="styles__Landscape-sc-hsnn8o-3 fuZjKl"
+            class="styles__Landscape-sc-hsnn8o-3 dDwluL"
             data-orientation="landscape"
             data-testid="popupImage"
             src="/about"
@@ -34,24 +34,24 @@ Object {
   </body>,
   "container": <div>
     <section
-      class="styles__Container-sc-hsnn8o-0 fhiNXj"
+      class="styles__Container-sc-hsnn8o-0 itzZCe"
     >
       <div
-        class="styles__Lightbox-sc-hsnn8o-1 fqqDqX"
+        class="styles__Lightbox-sc-hsnn8o-1 iCWwzy"
         data-testid="popupLightbox"
       />
       <div
-        class="styles__Dialog-sc-hsnn8o-2 esNkMA"
+        class="styles__Dialog-sc-hsnn8o-2 kkIep"
       >
         <div
-          class="styles__Close-sc-hsnn8o-5 vcmFv"
+          class="styles__Close-sc-hsnn8o-5 jEoFoT"
           data-testid="popupClose"
         >
           X
         </div>
         <img
           alt="Popup Test"
-          class="styles__Landscape-sc-hsnn8o-3 fuZjKl"
+          class="styles__Landscape-sc-hsnn8o-3 dDwluL"
           data-orientation="landscape"
           data-testid="popupImage"
           src="/about"
@@ -114,29 +114,29 @@ Object {
 `;
 
 exports[`Component -> Popup should render the open Popup UI without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <section
-        class="styles__Container-sc-hsnn8o-0 dxxUdy"
+        class="styles__Container-sc-hsnn8o-0 jkHdDZ"
       >
         <div
-          class="styles__Lightbox-sc-hsnn8o-1 fqqDqX"
+          class="styles__Lightbox-sc-hsnn8o-1 iCWwzy"
           data-testid="popupLightbox"
         />
         <div
-          class="styles__Dialog-sc-hsnn8o-2 esNkMA"
+          class="styles__Dialog-sc-hsnn8o-2 kkIep"
         >
           <div
-            class="styles__Close-sc-hsnn8o-5 vcmFv"
+            class="styles__Close-sc-hsnn8o-5 jEoFoT"
             data-testid="popupClose"
           >
             X
           </div>
           <img
             alt="Popup Test"
-            class="styles__Landscape-sc-hsnn8o-3 fuZjKl"
+            class="styles__Landscape-sc-hsnn8o-3 dDwluL"
             data-orientation="landscape"
             data-testid="popupImage"
             src="/about"
@@ -147,24 +147,24 @@ Object {
   </body>,
   "container": <div>
     <section
-      class="styles__Container-sc-hsnn8o-0 dxxUdy"
+      class="styles__Container-sc-hsnn8o-0 jkHdDZ"
     >
       <div
-        class="styles__Lightbox-sc-hsnn8o-1 fqqDqX"
+        class="styles__Lightbox-sc-hsnn8o-1 iCWwzy"
         data-testid="popupLightbox"
       />
       <div
-        class="styles__Dialog-sc-hsnn8o-2 esNkMA"
+        class="styles__Dialog-sc-hsnn8o-2 kkIep"
       >
         <div
-          class="styles__Close-sc-hsnn8o-5 vcmFv"
+          class="styles__Close-sc-hsnn8o-5 jEoFoT"
           data-testid="popupClose"
         >
           X
         </div>
         <img
           alt="Popup Test"
-          class="styles__Landscape-sc-hsnn8o-3 fuZjKl"
+          class="styles__Landscape-sc-hsnn8o-3 dDwluL"
           data-orientation="landscape"
           data-testid="popupImage"
           src="/about"

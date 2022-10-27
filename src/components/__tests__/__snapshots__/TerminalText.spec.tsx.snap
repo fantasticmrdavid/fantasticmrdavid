@@ -1,20 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Component -> TerminalText should render the TerminalText with a component without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div />
       <div
-        class="styles__Cursor-sc-cbfjlf-0 ldGHfo"
+        class="styles__Cursor-sc-cbfjlf-0 OzODf"
       />
     </div>
   </body>,
   "container": <div>
     <div />
     <div
-      class="styles__Cursor-sc-cbfjlf-0 ldGHfo"
+      class="styles__Cursor-sc-cbfjlf-0 OzODf"
     />
   </div>,
   "debug": [Function],
@@ -72,20 +72,20 @@ Object {
 `;
 
 exports[`Component -> TerminalText should render the TerminalText with a string without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div />
       <div
-        class="styles__Cursor-sc-cbfjlf-0 ldGHfo"
+        class="styles__Cursor-sc-cbfjlf-0 OzODf"
       />
     </div>
   </body>,
   "container": <div>
     <div />
     <div
-      class="styles__Cursor-sc-cbfjlf-0 ldGHfo"
+      class="styles__Cursor-sc-cbfjlf-0 OzODf"
     />
   </div>,
   "debug": [Function],

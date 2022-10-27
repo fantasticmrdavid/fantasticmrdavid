@@ -1,21 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Component -> MenuLink should render the "about" MenuLink UI without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="styles__Container-sc-1w8m3j0-0 cWTfFd"
+        class="styles__Container-sc-1w8m3j0-0 dmrGVg"
       >
         <div
-          class="styles__Label-sc-1w8m3j0-1 lbiVNp"
+          class="styles__Label-sc-1w8m3j0-1 dcJTwn"
           target="about"
         >
           Contact
         </div>
         <div
-          class="styles__Content-sc-xptth5-0 ldQUfb"
+          class="styles__Content-sc-xptth5-0 cgeHFj"
         >
           <div>
             Meet the captain of the ship.
@@ -26,16 +26,16 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="styles__Container-sc-1w8m3j0-0 cWTfFd"
+      class="styles__Container-sc-1w8m3j0-0 dmrGVg"
     >
       <div
-        class="styles__Label-sc-1w8m3j0-1 lbiVNp"
+        class="styles__Label-sc-1w8m3j0-1 dcJTwn"
         target="about"
       >
         Contact
       </div>
       <div
-        class="styles__Content-sc-xptth5-0 ldQUfb"
+        class="styles__Content-sc-xptth5-0 cgeHFj"
       >
         <div>
           Meet the captain of the ship.
@@ -98,21 +98,21 @@ Object {
 `;
 
 exports[`Component -> MenuLink should render the "contact" MenuLink UI without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="styles__Container-sc-1w8m3j0-0 cWTfFd"
+        class="styles__Container-sc-1w8m3j0-0 dmrGVg"
       >
         <div
-          class="styles__Label-sc-1w8m3j0-1 fbWOMZ"
+          class="styles__Label-sc-1w8m3j0-1 eIGLXT"
           target="contact"
         >
           Contact
         </div>
         <div
-          class="styles__Content-sc-xptth5-0 ldQUfb"
+          class="styles__Content-sc-xptth5-0 cgeHFj"
         >
           <div>
             For relaxing times, make it Suntory time.
@@ -123,16 +123,16 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="styles__Container-sc-1w8m3j0-0 cWTfFd"
+      class="styles__Container-sc-1w8m3j0-0 dmrGVg"
     >
       <div
-        class="styles__Label-sc-1w8m3j0-1 fbWOMZ"
+        class="styles__Label-sc-1w8m3j0-1 eIGLXT"
         target="contact"
       >
         Contact
       </div>
       <div
-        class="styles__Content-sc-xptth5-0 ldQUfb"
+        class="styles__Content-sc-xptth5-0 cgeHFj"
       >
         <div>
           For relaxing times, make it Suntory time.
@@ -195,21 +195,21 @@ Object {
 `;
 
 exports[`Component -> MenuLink should render the "work" MenuLink UI without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="styles__Container-sc-1w8m3j0-0 cWTfFd"
+        class="styles__Container-sc-1w8m3j0-0 dmrGVg"
       >
         <div
-          class="styles__Label-sc-1w8m3j0-1 OXWtv"
+          class="styles__Label-sc-1w8m3j0-1 SLhrz"
           target="work"
         >
           Contact
         </div>
         <div
-          class="styles__Content-sc-xptth5-0 ldQUfb"
+          class="styles__Content-sc-xptth5-0 cgeHFj"
         >
           <div>
             Some things I've been working on.
@@ -220,16 +220,16 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="styles__Container-sc-1w8m3j0-0 cWTfFd"
+      class="styles__Container-sc-1w8m3j0-0 dmrGVg"
     >
       <div
-        class="styles__Label-sc-1w8m3j0-1 OXWtv"
+        class="styles__Label-sc-1w8m3j0-1 SLhrz"
         target="work"
       >
         Contact
       </div>
       <div
-        class="styles__Content-sc-xptth5-0 ldQUfb"
+        class="styles__Content-sc-xptth5-0 cgeHFj"
       >
         <div>
           Some things I've been working on.

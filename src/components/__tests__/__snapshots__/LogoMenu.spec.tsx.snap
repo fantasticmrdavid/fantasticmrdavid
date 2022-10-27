@@ -1,32 +1,32 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Component -> LogoMenu should render the LogoMenu UI without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <nav
-        class="styles__Container-sc-1fdvout-0 fkfODZ"
+        class="styles__Container-sc-1fdvout-0 aFnmz"
       >
         <h1
-          class="styles__Title-sc-1fdvout-1 hkuZwV"
+          class="styles__Title-sc-1fdvout-1 cJAooh"
         >
           Fantastic Mr David
         </h1>
         <nav
-          class="styles__Nav-sc-1fdvout-3 kBlngH"
+          class="styles__Nav-sc-1fdvout-3 cwEdZi"
         >
           <div
-            class="styles__Container-sc-1w8m3j0-0 cWTfFd"
+            class="styles__Container-sc-1w8m3j0-0 dmrGVg"
           >
             <div
-              class="styles__Label-sc-1w8m3j0-1 aVkTV"
+              class="styles__Label-sc-1w8m3j0-1 fxEqad"
               target="about"
             >
               About
             </div>
             <div
-              class="styles__Content-sc-xptth5-0 ldQUfb"
+              class="styles__Content-sc-xptth5-0 cgeHFj"
             >
               <div>
                 Meet the captain of the ship.
@@ -34,16 +34,16 @@ Object {
             </div>
           </div>
           <div
-            class="styles__Container-sc-1w8m3j0-0 cWTfFd"
+            class="styles__Container-sc-1w8m3j0-0 dmrGVg"
           >
             <div
-              class="styles__Label-sc-1w8m3j0-1 ekTiJn"
+              class="styles__Label-sc-1w8m3j0-1 kLVSUR"
               target="work"
             >
               Latest Work
             </div>
             <div
-              class="styles__Content-sc-xptth5-0 ldQUfb"
+              class="styles__Content-sc-xptth5-0 cgeHFj"
             >
               <div>
                 Some things I've been working on.
@@ -51,16 +51,16 @@ Object {
             </div>
           </div>
           <div
-            class="styles__Container-sc-1w8m3j0-0 cWTfFd"
+            class="styles__Container-sc-1w8m3j0-0 dmrGVg"
           >
             <div
-              class="styles__Label-sc-1w8m3j0-1 WBEXF"
+              class="styles__Label-sc-1w8m3j0-1 oFPLn"
               target="contact"
             >
               Contact
             </div>
             <div
-              class="styles__Content-sc-xptth5-0 ldQUfb"
+              class="styles__Content-sc-xptth5-0 cgeHFj"
             >
               <div>
                 For relaxing times, make it Suntory time.
@@ -69,11 +69,11 @@ Object {
           </div>
         </nav>
         <div
-          class="styles__Subtitle-sc-1fdvout-4 dTECfe"
+          class="styles__Subtitle-sc-1fdvout-4 fnJwRI"
         >
           <h2>
             <div
-              class="styles__CogIconWrapper-sc-1fdvout-5 LQSiW"
+              class="styles__CogIconWrapper-sc-1fdvout-5 gbVFgv"
             >
               <svg
                 fill="currentColor"
@@ -92,11 +92,11 @@ Object {
             Art + Engineering
           </h2>
           <div
-            class="styles__Cursor-sc-cbfjlf-0 ldGHfo"
+            class="styles__Cursor-sc-cbfjlf-0 OzODf"
           />
         </div>
         <a
-          class="styles__Cta-sc-1fdvout-2 fvosNX"
+          class="styles__Cta-sc-1fdvout-2 gHsBxM"
         >
           <svg
             fill="currentColor"
@@ -117,27 +117,27 @@ Object {
   </body>,
   "container": <div>
     <nav
-      class="styles__Container-sc-1fdvout-0 fkfODZ"
+      class="styles__Container-sc-1fdvout-0 aFnmz"
     >
       <h1
-        class="styles__Title-sc-1fdvout-1 hkuZwV"
+        class="styles__Title-sc-1fdvout-1 cJAooh"
       >
         Fantastic Mr David
       </h1>
       <nav
-        class="styles__Nav-sc-1fdvout-3 kBlngH"
+        class="styles__Nav-sc-1fdvout-3 cwEdZi"
       >
         <div
-          class="styles__Container-sc-1w8m3j0-0 cWTfFd"
+          class="styles__Container-sc-1w8m3j0-0 dmrGVg"
         >
           <div
-            class="styles__Label-sc-1w8m3j0-1 aVkTV"
+            class="styles__Label-sc-1w8m3j0-1 fxEqad"
             target="about"
           >
             About
           </div>
           <div
-            class="styles__Content-sc-xptth5-0 ldQUfb"
+            class="styles__Content-sc-xptth5-0 cgeHFj"
           >
             <div>
               Meet the captain of the ship.
@@ -145,16 +145,16 @@ Object {
           </div>
         </div>
         <div
-          class="styles__Container-sc-1w8m3j0-0 cWTfFd"
+          class="styles__Container-sc-1w8m3j0-0 dmrGVg"
         >
           <div
-            class="styles__Label-sc-1w8m3j0-1 ekTiJn"
+            class="styles__Label-sc-1w8m3j0-1 kLVSUR"
             target="work"
           >
             Latest Work
           </div>
           <div
-            class="styles__Content-sc-xptth5-0 ldQUfb"
+            class="styles__Content-sc-xptth5-0 cgeHFj"
           >
             <div>
               Some things I've been working on.
@@ -162,16 +162,16 @@ Object {
           </div>
         </div>
         <div
-          class="styles__Container-sc-1w8m3j0-0 cWTfFd"
+          class="styles__Container-sc-1w8m3j0-0 dmrGVg"
         >
           <div
-            class="styles__Label-sc-1w8m3j0-1 WBEXF"
+            class="styles__Label-sc-1w8m3j0-1 oFPLn"
             target="contact"
           >
             Contact
           </div>
           <div
-            class="styles__Content-sc-xptth5-0 ldQUfb"
+            class="styles__Content-sc-xptth5-0 cgeHFj"
           >
             <div>
               For relaxing times, make it Suntory time.
@@ -180,11 +180,11 @@ Object {
         </div>
       </nav>
       <div
-        class="styles__Subtitle-sc-1fdvout-4 dTECfe"
+        class="styles__Subtitle-sc-1fdvout-4 fnJwRI"
       >
         <h2>
           <div
-            class="styles__CogIconWrapper-sc-1fdvout-5 LQSiW"
+            class="styles__CogIconWrapper-sc-1fdvout-5 gbVFgv"
           >
             <svg
               fill="currentColor"
@@ -203,11 +203,11 @@ Object {
           Art + Engineering
         </h2>
         <div
-          class="styles__Cursor-sc-cbfjlf-0 ldGHfo"
+          class="styles__Cursor-sc-cbfjlf-0 OzODf"
         />
       </div>
       <a
-        class="styles__Cta-sc-1fdvout-2 fvosNX"
+        class="styles__Cta-sc-1fdvout-2 gHsBxM"
       >
         <svg
           fill="currentColor"

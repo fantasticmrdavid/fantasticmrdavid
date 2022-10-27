@@ -1,60 +1,60 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`View -> About should render the About view (loading) without throwing an error 1`] = `
-Object {
+exports[`View -> About should render the About view without throwing an error 1`] = `
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="styles__Container-sc-qm8p7s-0 hJtUsU"
+        class="styles__Container-sc-qm8p7s-0 eoAhMa"
       >
         <div
-          class="styles__Bg-sc-qm8p7s-1 jWgPrT"
+          class="styles__Bg-sc-qm8p7s-1 bPLvTD"
         >
           <div
-            class="styles__Container-sc-1pwogyu-0 fhwLOl"
+            class="styles__Container-sc-1pwogyu-0 fkagAV"
           >
             <div
-              class="styles__Polygon-sc-1pwogyu-1 bFqjCw"
+              class="styles__Polygon-sc-1pwogyu-1 dCIqjj"
             >
               <div
-                class="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 fiFRhu bmLGPK"
+                class="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 deBIOm"
               >
                 <div
-                  class="styles__Tracer-sc-18vfsm6-0 geFGiM"
+                  class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
                   direction="left"
                 />
               </div>
               <div
-                class="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 fiFRhu hPnqZU"
+                class="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 gCcrQb"
               >
                 <div
-                  class="styles__Tracer-sc-18vfsm6-0 eDtdvo"
+                  class="styles__Tracer-sc-18vfsm6-0 lKbcB"
                 />
               </div>
               <div
-                class="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 fiFRhu vbVpk"
+                class="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 eLxrDv"
               />
               <div
-                class="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 fiFRhu cjImYD"
+                class="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 cpagcj"
               >
                 <div
-                  class="styles__Tracer-sc-18vfsm6-0 eDtdvo"
+                  class="styles__Tracer-sc-18vfsm6-0 lKbcB"
                 />
               </div>
               <div
-                class="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 fiFRhu enKYWw"
+                class="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 iDSTJS"
               >
                 <div
-                  class="styles__Tracer-sc-18vfsm6-0 geFGiM"
+                  class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
                   direction="left"
                 />
               </div>
               <div
-                class="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 fiFRhu kZyHbZ"
+                class="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 fTRfub"
               >
                 <div
-                  class="styles__Tracer-sc-18vfsm6-0 eDtdvo"
+                  class="styles__Tracer-sc-18vfsm6-0 lKbcB"
                 />
               </div>
             </div>
@@ -62,11 +62,11 @@ Object {
         </div>
         <img
           alt="Me"
-          class="styles__ProfilePhoto-sc-qm8p7s-2 diJEme"
+          class="styles__ProfilePhoto-sc-qm8p7s-2 cToiw"
           src="/assets/images/profile.jpg"
         />
         <div
-          class="styles__Content-sc-qm8p7s-3 krxXSD"
+          class="styles__Content-sc-qm8p7s-3 ciksqE"
         >
           <p>
             Hi! I'm David, and I like making things.
@@ -89,7 +89,7 @@ Object {
           <p>
             Drawing has been my happy place for as long as I can remember. While building software keeps the puzzle solving part of my brain busy, illustration, artwork, and tinkering have allowed me to stretch my creative boundaries. In my downtime I've drawn comics, exhibited artwork, designed and produced 3D prints, and made 
             <a
-              class="styles__Link-sc-1rd8ebj-0 ecmhYM styles__SleeperLink-sc-qm8p7s-6 egReOI"
+              class="styles__Link-sc-1rd8ebj-0 jONwCq styles__SleeperLink-sc-qm8p7s-6 cFShCR"
               href="https://www.youtube.com/watch?v=7xk4LmZ6hwc"
               rel="noopener noreferrer"
               target="_blank"
@@ -103,10 +103,10 @@ Object {
           </h2>
           fantasticmrdavid.com.au was built with:
           <div
-            class="styles__SiteSpecs-sc-qm8p7s-4 fpOMSR"
+            class="styles__SiteSpecs-sc-qm8p7s-4 hIVtxr"
           >
             <div
-              class="styles__SpecsSection-sc-qm8p7s-5 iPScqB"
+              class="styles__SpecsSection-sc-qm8p7s-5 dkQZmC"
             >
               <h3>
                 Environment
@@ -124,7 +124,7 @@ Object {
               </ul>
             </div>
             <div
-              class="styles__SpecsSection-sc-qm8p7s-5 iPScqB"
+              class="styles__SpecsSection-sc-qm8p7s-5 dkQZmC"
             >
               <h3>
                 Architecture
@@ -139,7 +139,7 @@ Object {
               </ul>
             </div>
             <div
-              class="styles__SpecsSection-sc-qm8p7s-5 iPScqB"
+              class="styles__SpecsSection-sc-qm8p7s-5 dkQZmC"
             >
               <h3>
                 Testing/QA
@@ -163,7 +163,7 @@ Object {
               </ul>
             </div>
             <div
-              class="styles__SpecsSection-sc-qm8p7s-5 iPScqB"
+              class="styles__SpecsSection-sc-qm8p7s-5 dkQZmC"
             >
               <h3>
                 Deployment
@@ -185,7 +185,7 @@ Object {
             Disable JavaScript to enable the noscript version!
           </p>
           <a
-            class="styles__Link-sc-1rd8ebj-0 ecmhYM"
+            class="styles__Link-sc-1rd8ebj-0 jONwCq"
             href="https://github.com/fantasticmrdavid/fantasticmrdavid"
             rel="noopener noreferrer"
             target="_blank"
@@ -198,55 +198,55 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="styles__Container-sc-qm8p7s-0 hJtUsU"
+      class="styles__Container-sc-qm8p7s-0 eoAhMa"
     >
       <div
-        class="styles__Bg-sc-qm8p7s-1 jWgPrT"
+        class="styles__Bg-sc-qm8p7s-1 bPLvTD"
       >
         <div
-          class="styles__Container-sc-1pwogyu-0 fhwLOl"
+          class="styles__Container-sc-1pwogyu-0 fkagAV"
         >
           <div
-            class="styles__Polygon-sc-1pwogyu-1 bFqjCw"
+            class="styles__Polygon-sc-1pwogyu-1 dCIqjj"
           >
             <div
-              class="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 fiFRhu bmLGPK"
+              class="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 deBIOm"
             >
               <div
-                class="styles__Tracer-sc-18vfsm6-0 geFGiM"
+                class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
                 direction="left"
               />
             </div>
             <div
-              class="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 fiFRhu hPnqZU"
+              class="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 gCcrQb"
             >
               <div
-                class="styles__Tracer-sc-18vfsm6-0 eDtdvo"
+                class="styles__Tracer-sc-18vfsm6-0 lKbcB"
               />
             </div>
             <div
-              class="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 fiFRhu vbVpk"
+              class="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 eLxrDv"
             />
             <div
-              class="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 fiFRhu cjImYD"
+              class="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 cpagcj"
             >
               <div
-                class="styles__Tracer-sc-18vfsm6-0 eDtdvo"
+                class="styles__Tracer-sc-18vfsm6-0 lKbcB"
               />
             </div>
             <div
-              class="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 fiFRhu enKYWw"
+              class="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 iDSTJS"
             >
               <div
-                class="styles__Tracer-sc-18vfsm6-0 geFGiM"
+                class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
                 direction="left"
               />
             </div>
             <div
-              class="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 fiFRhu kZyHbZ"
+              class="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 fTRfub"
             >
               <div
-                class="styles__Tracer-sc-18vfsm6-0 eDtdvo"
+                class="styles__Tracer-sc-18vfsm6-0 lKbcB"
               />
             </div>
           </div>
@@ -254,11 +254,11 @@ Object {
       </div>
       <img
         alt="Me"
-        class="styles__ProfilePhoto-sc-qm8p7s-2 diJEme"
+        class="styles__ProfilePhoto-sc-qm8p7s-2 cToiw"
         src="/assets/images/profile.jpg"
       />
       <div
-        class="styles__Content-sc-qm8p7s-3 krxXSD"
+        class="styles__Content-sc-qm8p7s-3 ciksqE"
       >
         <p>
           Hi! I'm David, and I like making things.
@@ -281,7 +281,7 @@ Object {
         <p>
           Drawing has been my happy place for as long as I can remember. While building software keeps the puzzle solving part of my brain busy, illustration, artwork, and tinkering have allowed me to stretch my creative boundaries. In my downtime I've drawn comics, exhibited artwork, designed and produced 3D prints, and made 
           <a
-            class="styles__Link-sc-1rd8ebj-0 ecmhYM styles__SleeperLink-sc-qm8p7s-6 egReOI"
+            class="styles__Link-sc-1rd8ebj-0 jONwCq styles__SleeperLink-sc-qm8p7s-6 cFShCR"
             href="https://www.youtube.com/watch?v=7xk4LmZ6hwc"
             rel="noopener noreferrer"
             target="_blank"
@@ -295,10 +295,10 @@ Object {
         </h2>
         fantasticmrdavid.com.au was built with:
         <div
-          class="styles__SiteSpecs-sc-qm8p7s-4 fpOMSR"
+          class="styles__SiteSpecs-sc-qm8p7s-4 hIVtxr"
         >
           <div
-            class="styles__SpecsSection-sc-qm8p7s-5 iPScqB"
+            class="styles__SpecsSection-sc-qm8p7s-5 dkQZmC"
           >
             <h3>
               Environment
@@ -316,7 +316,7 @@ Object {
             </ul>
           </div>
           <div
-            class="styles__SpecsSection-sc-qm8p7s-5 iPScqB"
+            class="styles__SpecsSection-sc-qm8p7s-5 dkQZmC"
           >
             <h3>
               Architecture
@@ -331,7 +331,7 @@ Object {
             </ul>
           </div>
           <div
-            class="styles__SpecsSection-sc-qm8p7s-5 iPScqB"
+            class="styles__SpecsSection-sc-qm8p7s-5 dkQZmC"
           >
             <h3>
               Testing/QA
@@ -355,7 +355,7 @@ Object {
             </ul>
           </div>
           <div
-            class="styles__SpecsSection-sc-qm8p7s-5 iPScqB"
+            class="styles__SpecsSection-sc-qm8p7s-5 dkQZmC"
           >
             <h3>
               Deployment
@@ -377,448 +377,7 @@ Object {
           Disable JavaScript to enable the noscript version!
         </p>
         <a
-          class="styles__Link-sc-1rd8ebj-0 ecmhYM"
-          href="https://github.com/fantasticmrdavid/fantasticmrdavid"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Visit the Github repository
-        </a>
-      </div>
-    </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`View -> About should render the About view (not loading) without throwing an error 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
-      <div
-        class="styles__Container-sc-qm8p7s-0 hJtUsU"
-      >
-        <div
-          class="styles__Bg-sc-qm8p7s-1 jWgPrT"
-        >
-          <div
-            class="styles__Container-sc-1pwogyu-0 fhwLOl"
-          >
-            <div
-              class="styles__Polygon-sc-1pwogyu-1 bFqjCw"
-            >
-              <div
-                class="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 fiFRhu bmLGPK"
-              >
-                <div
-                  class="styles__Tracer-sc-18vfsm6-0 geFGiM"
-                  direction="left"
-                />
-              </div>
-              <div
-                class="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 fiFRhu hPnqZU"
-              >
-                <div
-                  class="styles__Tracer-sc-18vfsm6-0 eDtdvo"
-                />
-              </div>
-              <div
-                class="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 fiFRhu vbVpk"
-              />
-              <div
-                class="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 fiFRhu cjImYD"
-              >
-                <div
-                  class="styles__Tracer-sc-18vfsm6-0 eDtdvo"
-                />
-              </div>
-              <div
-                class="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 fiFRhu enKYWw"
-              >
-                <div
-                  class="styles__Tracer-sc-18vfsm6-0 geFGiM"
-                  direction="left"
-                />
-              </div>
-              <div
-                class="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 fiFRhu kZyHbZ"
-              >
-                <div
-                  class="styles__Tracer-sc-18vfsm6-0 eDtdvo"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-        <img
-          alt="Me"
-          class="styles__ProfilePhoto-sc-qm8p7s-2 diJEme"
-          src="/assets/images/profile.jpg"
-        />
-        <div
-          class="styles__Content-sc-qm8p7s-3 krxXSD"
-        >
-          <p>
-            Hi! I'm David, and I like making things.
-            <br />
-            <br />
-            Since I was a kid I've been passionate about building and creating. I've always enjoyed the journey of taking an idea from concept and making it reality.
-            <br />
-            <br />
-            I firmly believe that by empowering people with problem solving technology and empathy we can build a better world together.
-          </p>
-          <h2>
-            Engineer
-          </h2>
-          <p>
-            I've been building web projects for over a decade, starting from when I was in high school and needed a simple HTML page to display my artwork. From there my journey has taken me to Full-Stack LAMP Development working on vendor-side and agency projects alike, and then to leading Front-End and UX Engineering specialising in HTML5, CSS3, ES6 JavaScript and React. I love learning about new technologies to develop better and more effective ways to solve problems and get things done.
-          </p>
-          <h2>
-            Artist
-          </h2>
-          <p>
-            Drawing has been my happy place for as long as I can remember. While building software keeps the puzzle solving part of my brain busy, illustration, artwork, and tinkering have allowed me to stretch my creative boundaries. In my downtime I've drawn comics, exhibited artwork, designed and produced 3D prints, and made 
-            <a
-              class="styles__Link-sc-1rd8ebj-0 ecmhYM styles__SleeperLink-sc-qm8p7s-6 egReOI"
-              href="https://www.youtube.com/watch?v=7xk4LmZ6hwc"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              other random things
-            </a>
-             simply because they were too much fun.
-          </p>
-          <h2>
-            About this site
-          </h2>
-          fantasticmrdavid.com.au was built with:
-          <div
-            class="styles__SiteSpecs-sc-qm8p7s-4 fpOMSR"
-          >
-            <div
-              class="styles__SpecsSection-sc-qm8p7s-5 iPScqB"
-            >
-              <h3>
-                Environment
-              </h3>
-              <ul>
-                <li>
-                  ES6
-                </li>
-                <li>
-                  Node.js
-                </li>
-                <li>
-                  Webpack
-                </li>
-              </ul>
-            </div>
-            <div
-              class="styles__SpecsSection-sc-qm8p7s-5 iPScqB"
-            >
-              <h3>
-                Architecture
-              </h3>
-              <ul>
-                <li>
-                  React
-                </li>
-                <li>
-                  Styled-Components
-                </li>
-              </ul>
-            </div>
-            <div
-              class="styles__SpecsSection-sc-qm8p7s-5 iPScqB"
-            >
-              <h3>
-                Testing/QA
-              </h3>
-              <ul>
-                <li>
-                  TypeScript
-                </li>
-                <li>
-                  ESLint
-                </li>
-                <li>
-                  Prettier
-                </li>
-                <li>
-                  Jest
-                </li>
-                <li>
-                  Testing Library
-                </li>
-              </ul>
-            </div>
-            <div
-              class="styles__SpecsSection-sc-qm8p7s-5 iPScqB"
-            >
-              <h3>
-                Deployment
-              </h3>
-              <ul>
-                <li>
-                  Github
-                </li>
-                <li>
-                  Codeship
-                </li>
-                <li>
-                  AWS
-                </li>
-              </ul>
-            </div>
-          </div>
-          <p>
-            Disable JavaScript to enable the noscript version!
-          </p>
-          <a
-            class="styles__Link-sc-1rd8ebj-0 ecmhYM"
-            href="https://github.com/fantasticmrdavid/fantasticmrdavid"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Visit the Github repository
-          </a>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="styles__Container-sc-qm8p7s-0 hJtUsU"
-    >
-      <div
-        class="styles__Bg-sc-qm8p7s-1 jWgPrT"
-      >
-        <div
-          class="styles__Container-sc-1pwogyu-0 fhwLOl"
-        >
-          <div
-            class="styles__Polygon-sc-1pwogyu-1 bFqjCw"
-          >
-            <div
-              class="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 fiFRhu bmLGPK"
-            >
-              <div
-                class="styles__Tracer-sc-18vfsm6-0 geFGiM"
-                direction="left"
-              />
-            </div>
-            <div
-              class="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 fiFRhu hPnqZU"
-            >
-              <div
-                class="styles__Tracer-sc-18vfsm6-0 eDtdvo"
-              />
-            </div>
-            <div
-              class="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 fiFRhu vbVpk"
-            />
-            <div
-              class="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 fiFRhu cjImYD"
-            >
-              <div
-                class="styles__Tracer-sc-18vfsm6-0 eDtdvo"
-              />
-            </div>
-            <div
-              class="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 fiFRhu enKYWw"
-            >
-              <div
-                class="styles__Tracer-sc-18vfsm6-0 geFGiM"
-                direction="left"
-              />
-            </div>
-            <div
-              class="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 fiFRhu kZyHbZ"
-            >
-              <div
-                class="styles__Tracer-sc-18vfsm6-0 eDtdvo"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      <img
-        alt="Me"
-        class="styles__ProfilePhoto-sc-qm8p7s-2 diJEme"
-        src="/assets/images/profile.jpg"
-      />
-      <div
-        class="styles__Content-sc-qm8p7s-3 krxXSD"
-      >
-        <p>
-          Hi! I'm David, and I like making things.
-          <br />
-          <br />
-          Since I was a kid I've been passionate about building and creating. I've always enjoyed the journey of taking an idea from concept and making it reality.
-          <br />
-          <br />
-          I firmly believe that by empowering people with problem solving technology and empathy we can build a better world together.
-        </p>
-        <h2>
-          Engineer
-        </h2>
-        <p>
-          I've been building web projects for over a decade, starting from when I was in high school and needed a simple HTML page to display my artwork. From there my journey has taken me to Full-Stack LAMP Development working on vendor-side and agency projects alike, and then to leading Front-End and UX Engineering specialising in HTML5, CSS3, ES6 JavaScript and React. I love learning about new technologies to develop better and more effective ways to solve problems and get things done.
-        </p>
-        <h2>
-          Artist
-        </h2>
-        <p>
-          Drawing has been my happy place for as long as I can remember. While building software keeps the puzzle solving part of my brain busy, illustration, artwork, and tinkering have allowed me to stretch my creative boundaries. In my downtime I've drawn comics, exhibited artwork, designed and produced 3D prints, and made 
-          <a
-            class="styles__Link-sc-1rd8ebj-0 ecmhYM styles__SleeperLink-sc-qm8p7s-6 egReOI"
-            href="https://www.youtube.com/watch?v=7xk4LmZ6hwc"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            other random things
-          </a>
-           simply because they were too much fun.
-        </p>
-        <h2>
-          About this site
-        </h2>
-        fantasticmrdavid.com.au was built with:
-        <div
-          class="styles__SiteSpecs-sc-qm8p7s-4 fpOMSR"
-        >
-          <div
-            class="styles__SpecsSection-sc-qm8p7s-5 iPScqB"
-          >
-            <h3>
-              Environment
-            </h3>
-            <ul>
-              <li>
-                ES6
-              </li>
-              <li>
-                Node.js
-              </li>
-              <li>
-                Webpack
-              </li>
-            </ul>
-          </div>
-          <div
-            class="styles__SpecsSection-sc-qm8p7s-5 iPScqB"
-          >
-            <h3>
-              Architecture
-            </h3>
-            <ul>
-              <li>
-                React
-              </li>
-              <li>
-                Styled-Components
-              </li>
-            </ul>
-          </div>
-          <div
-            class="styles__SpecsSection-sc-qm8p7s-5 iPScqB"
-          >
-            <h3>
-              Testing/QA
-            </h3>
-            <ul>
-              <li>
-                TypeScript
-              </li>
-              <li>
-                ESLint
-              </li>
-              <li>
-                Prettier
-              </li>
-              <li>
-                Jest
-              </li>
-              <li>
-                Testing Library
-              </li>
-            </ul>
-          </div>
-          <div
-            class="styles__SpecsSection-sc-qm8p7s-5 iPScqB"
-          >
-            <h3>
-              Deployment
-            </h3>
-            <ul>
-              <li>
-                Github
-              </li>
-              <li>
-                Codeship
-              </li>
-              <li>
-                AWS
-              </li>
-            </ul>
-          </div>
-        </div>
-        <p>
-          Disable JavaScript to enable the noscript version!
-        </p>
-        <a
-          class="styles__Link-sc-1rd8ebj-0 ecmhYM"
+          class="styles__Link-sc-1rd8ebj-0 jONwCq"
           href="https://github.com/fantasticmrdavid/fantasticmrdavid"
           rel="noopener noreferrer"
           target="_blank"

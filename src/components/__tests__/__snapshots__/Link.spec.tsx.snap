@@ -1,19 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Component -> Link should render the Link without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <a
-        class="styles__Link-sc-1rd8ebj-0 ecmhYM"
+        class="styles__Link-sc-1rd8ebj-0 jONwCq"
         href="/"
       />
     </div>
   </body>,
   "container": <div>
     <a
-      class="styles__Link-sc-1rd8ebj-0 ecmhYM"
+      class="styles__Link-sc-1rd8ebj-0 jONwCq"
       href="/"
     />
   </div>,

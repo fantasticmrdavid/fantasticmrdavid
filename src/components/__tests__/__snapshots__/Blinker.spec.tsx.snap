@@ -1,18 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Component -> Blinker should render the Blinker without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="styles__Cursor-sc-cbfjlf-0 ldGHfo"
+        class="styles__Cursor-sc-cbfjlf-0 OzODf"
       />
     </div>
   </body>,
   "container": <div>
     <div
-      class="styles__Cursor-sc-cbfjlf-0 ldGHfo"
+      class="styles__Cursor-sc-cbfjlf-0 OzODf"
     />
   </div>,
   "debug": [Function],

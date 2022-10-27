@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Component -> ImagePreloader should render the ImagePreloader without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="styles__Container-sc-1i0f3dw-0 bbbjfa"
+        class="styles__Container-sc-1i0f3dw-0 gTMMfH"
       >
         0
         %
@@ -15,7 +15,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="styles__Container-sc-1i0f3dw-0 bbbjfa"
+      class="styles__Container-sc-1i0f3dw-0 gTMMfH"
     >
       0
       %

@@ -1,15 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Component -> ProjectMedia -> KindyNow should render the ProjectMedia UI (src: "/assets/images/projects/kindynow/cnm_desktop_preview.jpg") without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="styles__Container-sc-16k93zz-0 bjSbpH"
+        class="styles__Container-sc-16k93zz-0 bedtdl"
       >
         <div
-          class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+          class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 kihfmv"
         >
           <a
             href="https://childcarenearme.com"
@@ -17,31 +17,31 @@ Object {
             target="_blank"
           >
             <div
-              class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+              class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 jlyhaF"
             >
               <img
                 alt="Childcare Near Me desktop site"
-                class="styles__Image-sc-16k93zz-3 iNVQSF"
+                class="styles__Image-sc-16k93zz-3 hUuhSO"
                 src="/assets/images/projects/kindynow/cnm_desktop_preview.jpg"
               />
             </div>
           </a>
         </div>
         <div
-          class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+          class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 kYqkym"
         />
         <div
-          class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+          class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 kDrDoX"
         />
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="styles__Container-sc-16k93zz-0 bjSbpH"
+      class="styles__Container-sc-16k93zz-0 bedtdl"
     >
       <div
-        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 kihfmv"
       >
         <a
           href="https://childcarenearme.com"
@@ -49,21 +49,21 @@ Object {
           target="_blank"
         >
           <div
-            class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+            class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 jlyhaF"
           >
             <img
               alt="Childcare Near Me desktop site"
-              class="styles__Image-sc-16k93zz-3 iNVQSF"
+              class="styles__Image-sc-16k93zz-3 hUuhSO"
               src="/assets/images/projects/kindynow/cnm_desktop_preview.jpg"
             />
           </div>
         </a>
       </div>
       <div
-        class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+        class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 kYqkym"
       />
       <div
-        class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+        class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 kDrDoX"
       />
     </div>
   </div>,
@@ -122,15 +122,15 @@ Object {
 `;
 
 exports[`Component -> ProjectMedia -> KindyNow should render the ProjectMedia UI (src: "/assets/images/projects/kindynow/cnm_mobile_preview.jpg") without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 eVNjYZ gmIVHo"
+        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 fnTujE"
       >
         <div
-          class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 eVNjYZ dejQuE"
+          class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 dviFfk"
         >
           <a
             href="https://childcarenearme.com.au"
@@ -139,29 +139,29 @@ Object {
           >
             <img
               alt="Childcare Near Me mobile site"
-              class="styles__Image-sc-14hm49n-2 bGfdNQ"
+              class="styles__Image-sc-14hm49n-2 jdXLYM"
               src="/assets/images/projects/kindynow/cnm_mobile_preview.jpg"
             />
           </a>
         </div>
         <div
-          class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 eVNjYZ gQHKJZ"
+          class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 ghjfnl"
         />
         <div
-          class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 eVNjYZ cvgzuO"
+          class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 gxMWQA"
         />
         <div
-          class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 eVNjYZ hNtBOR"
+          class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 bmhLE"
         />
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 eVNjYZ gmIVHo"
+      class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 fnTujE"
     >
       <div
-        class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 eVNjYZ dejQuE"
+        class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 dviFfk"
       >
         <a
           href="https://childcarenearme.com.au"
@@ -170,19 +170,19 @@ Object {
         >
           <img
             alt="Childcare Near Me mobile site"
-            class="styles__Image-sc-14hm49n-2 bGfdNQ"
+            class="styles__Image-sc-14hm49n-2 jdXLYM"
             src="/assets/images/projects/kindynow/cnm_mobile_preview.jpg"
           />
         </a>
       </div>
       <div
-        class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 eVNjYZ gQHKJZ"
+        class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 ghjfnl"
       />
       <div
-        class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 eVNjYZ cvgzuO"
+        class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 gxMWQA"
       />
       <div
-        class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 eVNjYZ hNtBOR"
+        class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 bmhLE"
       />
     </div>
   </div>,
@@ -241,15 +241,15 @@ Object {
 `;
 
 exports[`Component -> ProjectMedia -> KindyNow should render the ProjectMedia UI (src: "/assets/images/projects/kindynow/cnm_search_preview.jpg") without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="styles__Container-sc-16k93zz-0 bjSbpH"
+        class="styles__Container-sc-16k93zz-0 bedtdl"
       >
         <div
-          class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+          class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 kihfmv"
         >
           <a
             href="https://childcarenearme.com.au"
@@ -257,31 +257,31 @@ Object {
             target="_blank"
           >
             <div
-              class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+              class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 jlyhaF"
             >
               <img
                 alt="Childcare Near Me search"
-                class="styles__Image-sc-16k93zz-3 iNVQSF"
+                class="styles__Image-sc-16k93zz-3 hUuhSO"
                 src="/assets/images/projects/kindynow/cnm_search_preview.jpg"
               />
             </div>
           </a>
         </div>
         <div
-          class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+          class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 kYqkym"
         />
         <div
-          class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+          class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 kDrDoX"
         />
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="styles__Container-sc-16k93zz-0 bjSbpH"
+      class="styles__Container-sc-16k93zz-0 bedtdl"
     >
       <div
-        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 kihfmv"
       >
         <a
           href="https://childcarenearme.com.au"
@@ -289,21 +289,21 @@ Object {
           target="_blank"
         >
           <div
-            class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+            class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 jlyhaF"
           >
             <img
               alt="Childcare Near Me search"
-              class="styles__Image-sc-16k93zz-3 iNVQSF"
+              class="styles__Image-sc-16k93zz-3 hUuhSO"
               src="/assets/images/projects/kindynow/cnm_search_preview.jpg"
             />
           </div>
         </a>
       </div>
       <div
-        class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+        class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 kYqkym"
       />
       <div
-        class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+        class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 kDrDoX"
       />
     </div>
   </div>,
@@ -362,15 +362,15 @@ Object {
 `;
 
 exports[`Component -> ProjectMedia -> KindyNow should render the ProjectMedia UI (src: "/assets/images/projects/kindynow/kn_app_preview.jpg") without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 eVNjYZ gmIVHo"
+        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 fnTujE"
       >
         <div
-          class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 eVNjYZ dejQuE"
+          class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 dviFfk"
         >
           <a
             href="https://www.kindynow.com"
@@ -379,29 +379,29 @@ Object {
           >
             <img
               alt="KindyNow Mobile App"
-              class="styles__Image-sc-14hm49n-2 bGfdNQ"
+              class="styles__Image-sc-14hm49n-2 jdXLYM"
               src="/assets/images/projects/kindynow/kn_app_preview.jpg"
             />
           </a>
         </div>
         <div
-          class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 eVNjYZ gQHKJZ"
+          class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 ghjfnl"
         />
         <div
-          class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 eVNjYZ cvgzuO"
+          class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 gxMWQA"
         />
         <div
-          class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 eVNjYZ hNtBOR"
+          class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 bmhLE"
         />
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 eVNjYZ gmIVHo"
+      class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 fnTujE"
     >
       <div
-        class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 eVNjYZ dejQuE"
+        class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 dviFfk"
       >
         <a
           href="https://www.kindynow.com"
@@ -410,19 +410,19 @@ Object {
         >
           <img
             alt="KindyNow Mobile App"
-            class="styles__Image-sc-14hm49n-2 bGfdNQ"
+            class="styles__Image-sc-14hm49n-2 jdXLYM"
             src="/assets/images/projects/kindynow/kn_app_preview.jpg"
           />
         </a>
       </div>
       <div
-        class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 eVNjYZ gQHKJZ"
+        class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 ghjfnl"
       />
       <div
-        class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 eVNjYZ cvgzuO"
+        class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 gxMWQA"
       />
       <div
-        class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 eVNjYZ hNtBOR"
+        class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 bmhLE"
       />
     </div>
   </div>,
@@ -481,15 +481,15 @@ Object {
 `;
 
 exports[`Component -> ProjectMedia -> KindyNow should render the ProjectMedia UI (src: "/assets/images/projects/kindynow/kn_desktop_preview.jpg") without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="styles__Container-sc-16k93zz-0 bjSbpH"
+        class="styles__Container-sc-16k93zz-0 bedtdl"
       >
         <div
-          class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+          class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 kihfmv"
         >
           <a
             href="https://www.kindynow.com"
@@ -497,31 +497,31 @@ Object {
             target="_blank"
           >
             <div
-              class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+              class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 jlyhaF"
             >
               <img
                 alt="KindyNow desktop site"
-                class="styles__Image-sc-16k93zz-3 iNVQSF"
+                class="styles__Image-sc-16k93zz-3 hUuhSO"
                 src="/assets/images/projects/kindynow/kn_desktop_preview.jpg"
               />
             </div>
           </a>
         </div>
         <div
-          class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+          class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 kYqkym"
         />
         <div
-          class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+          class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 kDrDoX"
         />
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="styles__Container-sc-16k93zz-0 bjSbpH"
+      class="styles__Container-sc-16k93zz-0 bedtdl"
     >
       <div
-        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 kihfmv"
       >
         <a
           href="https://www.kindynow.com"
@@ -529,21 +529,21 @@ Object {
           target="_blank"
         >
           <div
-            class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+            class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 jlyhaF"
           >
             <img
               alt="KindyNow desktop site"
-              class="styles__Image-sc-16k93zz-3 iNVQSF"
+              class="styles__Image-sc-16k93zz-3 hUuhSO"
               src="/assets/images/projects/kindynow/kn_desktop_preview.jpg"
             />
           </div>
         </a>
       </div>
       <div
-        class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+        class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 kYqkym"
       />
       <div
-        class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+        class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 kDrDoX"
       />
     </div>
   </div>,
@@ -602,38 +602,70 @@ Object {
 `;
 
 exports[`Component -> ProjectMedia -> LEGO Flinders St should render the ProjectMedia UI (src: "/assets/images/projects/legoFlinders/legoFlinders_preview.jpg") without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="styles__Container-sc-1uvt01h-0 jIWmIw"
+        class="styles__Container-sc-16k93zz-0 bedtdl"
       >
         <div
-          class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+          class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 kihfmv"
         >
-          <img
-            alt="LEGO Flinders St art print"
-            class="styles__Content-sc-1uvt01h-2 hCIqyJ"
-            src="/assets/images/projects/legoFlinders/legoFlinders_preview.jpg"
-          />
+          <a
+            href="/assets/images/projects/legoFlinders/legoFlinders_full.jpg"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 jlyhaF"
+            >
+              <img
+                alt="LEGO Flinders St art print"
+                class="styles__Image-sc-16k93zz-3 hUuhSO"
+                src="/assets/images/projects/legoFlinders/legoFlinders_preview.jpg"
+              />
+            </div>
+          </a>
         </div>
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 kYqkym"
+        />
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 kDrDoX"
+        />
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="styles__Container-sc-1uvt01h-0 jIWmIw"
+      class="styles__Container-sc-16k93zz-0 bedtdl"
     >
       <div
-        class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 kihfmv"
       >
-        <img
-          alt="LEGO Flinders St art print"
-          class="styles__Content-sc-1uvt01h-2 hCIqyJ"
-          src="/assets/images/projects/legoFlinders/legoFlinders_preview.jpg"
-        />
+        <a
+          href="/assets/images/projects/legoFlinders/legoFlinders_full.jpg"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div
+            class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 jlyhaF"
+          >
+            <img
+              alt="LEGO Flinders St art print"
+              class="styles__Image-sc-16k93zz-3 hUuhSO"
+              src="/assets/images/projects/legoFlinders/legoFlinders_preview.jpg"
+            />
+          </div>
+        </a>
       </div>
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 kYqkym"
+      />
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 kDrDoX"
+      />
     </div>
   </div>,
   "debug": [Function],
@@ -691,67 +723,67 @@ Object {
 `;
 
 exports[`Component -> ProjectMedia -> Project Tramsformation should render the ProjectMedia UI (src: "/assets/images/projects/tramsformation/tramsformation_desktop_preview.jpg") without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="styles__Container-sc-16k93zz-0 bjSbpH"
+        class="styles__Container-sc-16k93zz-0 bedtdl"
       >
         <div
-          class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+          class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 kihfmv"
         >
           <a
             rel="noopener noreferrer"
             target="_blank"
           >
             <div
-              class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+              class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 jlyhaF"
             >
               <img
                 alt="Tramsformation desktop site"
-                class="styles__Image-sc-16k93zz-3 iNVQSF"
+                class="styles__Image-sc-16k93zz-3 hUuhSO"
                 src="/assets/images/projects/tramsformation/tramsformation_desktop_preview.jpg"
               />
             </div>
           </a>
         </div>
         <div
-          class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+          class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 kYqkym"
         />
         <div
-          class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+          class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 kDrDoX"
         />
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="styles__Container-sc-16k93zz-0 bjSbpH"
+      class="styles__Container-sc-16k93zz-0 bedtdl"
     >
       <div
-        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 kihfmv"
       >
         <a
           rel="noopener noreferrer"
           target="_blank"
         >
           <div
-            class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+            class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 jlyhaF"
           >
             <img
               alt="Tramsformation desktop site"
-              class="styles__Image-sc-16k93zz-3 iNVQSF"
+              class="styles__Image-sc-16k93zz-3 hUuhSO"
               src="/assets/images/projects/tramsformation/tramsformation_desktop_preview.jpg"
             />
           </div>
         </a>
       </div>
       <div
-        class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+        class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 kYqkym"
       />
       <div
-        class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+        class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 kDrDoX"
       />
     </div>
   </div>,
@@ -810,15 +842,15 @@ Object {
 `;
 
 exports[`Component -> ProjectMedia -> Project Tramsformation should render the ProjectMedia UI (src: "/assets/images/projects/tramsformation/tramsformation_mobile_preview.jpg") without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 eVNjYZ gmIVHo"
+        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 fnTujE"
       >
         <div
-          class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 eVNjYZ dejQuE"
+          class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 dviFfk"
         >
           <a
             rel="noopener noreferrer"
@@ -826,29 +858,29 @@ Object {
           >
             <img
               alt="Tramsformation mobile site"
-              class="styles__Image-sc-14hm49n-2 bGfdNQ"
+              class="styles__Image-sc-14hm49n-2 jdXLYM"
               src="/assets/images/projects/tramsformation/tramsformation_mobile_preview.jpg"
             />
           </a>
         </div>
         <div
-          class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 eVNjYZ gQHKJZ"
+          class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 ghjfnl"
         />
         <div
-          class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 eVNjYZ cvgzuO"
+          class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 gxMWQA"
         />
         <div
-          class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 eVNjYZ hNtBOR"
+          class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 bmhLE"
         />
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 eVNjYZ gmIVHo"
+      class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 fnTujE"
     >
       <div
-        class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 eVNjYZ dejQuE"
+        class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 dviFfk"
       >
         <a
           rel="noopener noreferrer"
@@ -856,19 +888,19 @@ Object {
         >
           <img
             alt="Tramsformation mobile site"
-            class="styles__Image-sc-14hm49n-2 bGfdNQ"
+            class="styles__Image-sc-14hm49n-2 jdXLYM"
             src="/assets/images/projects/tramsformation/tramsformation_mobile_preview.jpg"
           />
         </a>
       </div>
       <div
-        class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 eVNjYZ gQHKJZ"
+        class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 ghjfnl"
       />
       <div
-        class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 eVNjYZ cvgzuO"
+        class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 gxMWQA"
       />
       <div
-        class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 eVNjYZ hNtBOR"
+        class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 bmhLE"
       />
     </div>
   </div>,
@@ -927,38 +959,70 @@ Object {
 `;
 
 exports[`Component -> ProjectMedia -> Project Tramsformation should render the ProjectMedia UI (src: "/assets/images/projects/tramsformation/tramsformation_model_altmode_preview.jpg") without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="styles__Container-sc-1uvt01h-0 jIWmIw"
+        class="styles__Container-sc-16k93zz-0 bedtdl"
       >
         <div
-          class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+          class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 kihfmv"
         >
-          <img
-            alt="Tramsformer model tram mode"
-            class="styles__Content-sc-1uvt01h-2 hCIqyJ"
-            src="/assets/images/projects/tramsformation/tramsformation_model_altmode_preview.jpg"
-          />
+          <a
+            href="/assets/images/projects/tramsformation/tramsformation_model_altmode_full.jpg"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 jlyhaF"
+            >
+              <img
+                alt="Tramsformer model tram mode"
+                class="styles__Image-sc-16k93zz-3 hUuhSO"
+                src="/assets/images/projects/tramsformation/tramsformation_model_altmode_preview.jpg"
+              />
+            </div>
+          </a>
         </div>
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 kYqkym"
+        />
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 kDrDoX"
+        />
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="styles__Container-sc-1uvt01h-0 jIWmIw"
+      class="styles__Container-sc-16k93zz-0 bedtdl"
     >
       <div
-        class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 kihfmv"
       >
-        <img
-          alt="Tramsformer model tram mode"
-          class="styles__Content-sc-1uvt01h-2 hCIqyJ"
-          src="/assets/images/projects/tramsformation/tramsformation_model_altmode_preview.jpg"
-        />
+        <a
+          href="/assets/images/projects/tramsformation/tramsformation_model_altmode_full.jpg"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div
+            class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 jlyhaF"
+          >
+            <img
+              alt="Tramsformer model tram mode"
+              class="styles__Image-sc-16k93zz-3 hUuhSO"
+              src="/assets/images/projects/tramsformation/tramsformation_model_altmode_preview.jpg"
+            />
+          </div>
+        </a>
       </div>
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 kYqkym"
+      />
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 kDrDoX"
+      />
     </div>
   </div>,
   "debug": [Function],
@@ -1016,38 +1080,70 @@ Object {
 `;
 
 exports[`Component -> ProjectMedia -> Project Tramsformation should render the ProjectMedia UI (src: "/assets/images/projects/tramsformation/tramsformation_model_preview.jpg") without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="styles__Container-sc-1uvt01h-0 jIWmIw"
+        class="styles__Container-sc-16k93zz-0 bedtdl"
       >
         <div
-          class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+          class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 kihfmv"
         >
-          <img
-            alt="Tramsformer model"
-            class="styles__Content-sc-1uvt01h-2 hCIqyJ"
-            src="/assets/images/projects/tramsformation/tramsformation_model_preview.jpg"
-          />
+          <a
+            href="/assets/images/projects/tramsformation/tramsformation_model_full.jpg"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 jlyhaF"
+            >
+              <img
+                alt="Tramsformer model"
+                class="styles__Image-sc-16k93zz-3 hUuhSO"
+                src="/assets/images/projects/tramsformation/tramsformation_model_preview.jpg"
+              />
+            </div>
+          </a>
         </div>
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 kYqkym"
+        />
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 kDrDoX"
+        />
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="styles__Container-sc-1uvt01h-0 jIWmIw"
+      class="styles__Container-sc-16k93zz-0 bedtdl"
     >
       <div
-        class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 kihfmv"
       >
-        <img
-          alt="Tramsformer model"
-          class="styles__Content-sc-1uvt01h-2 hCIqyJ"
-          src="/assets/images/projects/tramsformation/tramsformation_model_preview.jpg"
-        />
+        <a
+          href="/assets/images/projects/tramsformation/tramsformation_model_full.jpg"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div
+            class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 jlyhaF"
+          >
+            <img
+              alt="Tramsformer model"
+              class="styles__Image-sc-16k93zz-3 hUuhSO"
+              src="/assets/images/projects/tramsformation/tramsformation_model_preview.jpg"
+            />
+          </div>
+        </a>
       </div>
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 kYqkym"
+      />
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 kDrDoX"
+      />
     </div>
   </div>,
   "debug": [Function],
@@ -1105,38 +1201,70 @@ Object {
 `;
 
 exports[`Component -> ProjectMedia -> Project Tramsformation should render the ProjectMedia UI (src: "/assets/images/projects/tramsformation/tramsformation_print_preview.jpg") without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="styles__Container-sc-1uvt01h-0 jIWmIw"
+        class="styles__Container-sc-16k93zz-0 bedtdl"
       >
         <div
-          class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+          class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 kihfmv"
         >
-          <img
-            alt="Tramsformer art print"
-            class="styles__Content-sc-1uvt01h-2 hCIqyJ"
-            src="/assets/images/projects/tramsformation/tramsformation_print_preview.jpg"
-          />
+          <a
+            href="/assets/images/projects/tramsformation/tramsformation_print_full.jpg"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 jlyhaF"
+            >
+              <img
+                alt="Tramsformer art print"
+                class="styles__Image-sc-16k93zz-3 hUuhSO"
+                src="/assets/images/projects/tramsformation/tramsformation_print_preview.jpg"
+              />
+            </div>
+          </a>
         </div>
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 kYqkym"
+        />
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 kDrDoX"
+        />
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="styles__Container-sc-1uvt01h-0 jIWmIw"
+      class="styles__Container-sc-16k93zz-0 bedtdl"
     >
       <div
-        class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 kihfmv"
       >
-        <img
-          alt="Tramsformer art print"
-          class="styles__Content-sc-1uvt01h-2 hCIqyJ"
-          src="/assets/images/projects/tramsformation/tramsformation_print_preview.jpg"
-        />
+        <a
+          href="/assets/images/projects/tramsformation/tramsformation_print_full.jpg"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div
+            class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 jlyhaF"
+          >
+            <img
+              alt="Tramsformer art print"
+              class="styles__Image-sc-16k93zz-3 hUuhSO"
+              src="/assets/images/projects/tramsformation/tramsformation_print_preview.jpg"
+            />
+          </div>
+        </a>
       </div>
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 kYqkym"
+      />
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 kDrDoX"
+      />
     </div>
   </div>,
   "debug": [Function],
@@ -1194,38 +1322,70 @@ Object {
 `;
 
 exports[`Component -> ProjectMedia -> Project Tramsformation should render the ProjectMedia UI (src: "/assets/images/projects/tramsformation/tramsformation_transform_preview.jpg") without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="styles__Container-sc-1uvt01h-0 jIWmIw"
+        class="styles__Container-sc-16k93zz-0 bedtdl"
       >
         <div
-          class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+          class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 kihfmv"
         >
-          <img
-            alt="Tramsformer transformation"
-            class="styles__Content-sc-1uvt01h-2 hCIqyJ"
-            src="/assets/images/projects/tramsformation/tramsformation_transform_preview.jpg"
-          />
+          <a
+            href="/assets/images/projects/tramsformation/tramsformation_transform_full.jpg"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 jlyhaF"
+            >
+              <img
+                alt="Tramsformer transformation"
+                class="styles__Image-sc-16k93zz-3 hUuhSO"
+                src="/assets/images/projects/tramsformation/tramsformation_transform_preview.jpg"
+              />
+            </div>
+          </a>
         </div>
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 kYqkym"
+        />
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 kDrDoX"
+        />
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="styles__Container-sc-1uvt01h-0 jIWmIw"
+      class="styles__Container-sc-16k93zz-0 bedtdl"
     >
       <div
-        class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 kihfmv"
       >
-        <img
-          alt="Tramsformer transformation"
-          class="styles__Content-sc-1uvt01h-2 hCIqyJ"
-          src="/assets/images/projects/tramsformation/tramsformation_transform_preview.jpg"
-        />
+        <a
+          href="/assets/images/projects/tramsformation/tramsformation_transform_full.jpg"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div
+            class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 jlyhaF"
+          >
+            <img
+              alt="Tramsformer transformation"
+              class="styles__Image-sc-16k93zz-3 hUuhSO"
+              src="/assets/images/projects/tramsformation/tramsformation_transform_preview.jpg"
+            />
+          </div>
+        </a>
       </div>
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 kYqkym"
+      />
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 kDrDoX"
+      />
     </div>
   </div>,
   "debug": [Function],
@@ -1283,38 +1443,70 @@ Object {
 `;
 
 exports[`Component -> ProjectMedia -> Project Tramsformation should render the ProjectMedia UI (src: "/assets/images/projects/tramsformation/tramsformer_w_1_preview.jpg") without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="styles__Container-sc-1uvt01h-0 jIWmIw"
+        class="styles__Container-sc-16k93zz-0 bedtdl"
       >
         <div
-          class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+          class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 kihfmv"
         >
-          <img
-            alt="Tramsformer W-Class Robot Mode"
-            class="styles__Content-sc-1uvt01h-2 hCIqyJ"
-            src="/assets/images/projects/tramsformation/tramsformer_w_1_preview.jpg"
-          />
+          <a
+            href="/assets/images/projects/tramsformation/tramsformer_w_1_full.jpg"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 jlyhaF"
+            >
+              <img
+                alt="Tramsformer W-Class Robot Mode"
+                class="styles__Image-sc-16k93zz-3 hUuhSO"
+                src="/assets/images/projects/tramsformation/tramsformer_w_1_preview.jpg"
+              />
+            </div>
+          </a>
         </div>
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 kYqkym"
+        />
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 kDrDoX"
+        />
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="styles__Container-sc-1uvt01h-0 jIWmIw"
+      class="styles__Container-sc-16k93zz-0 bedtdl"
     >
       <div
-        class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 kihfmv"
       >
-        <img
-          alt="Tramsformer W-Class Robot Mode"
-          class="styles__Content-sc-1uvt01h-2 hCIqyJ"
-          src="/assets/images/projects/tramsformation/tramsformer_w_1_preview.jpg"
-        />
+        <a
+          href="/assets/images/projects/tramsformation/tramsformer_w_1_full.jpg"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div
+            class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 jlyhaF"
+          >
+            <img
+              alt="Tramsformer W-Class Robot Mode"
+              class="styles__Image-sc-16k93zz-3 hUuhSO"
+              src="/assets/images/projects/tramsformation/tramsformer_w_1_preview.jpg"
+            />
+          </div>
+        </a>
       </div>
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 kYqkym"
+      />
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 kDrDoX"
+      />
     </div>
   </div>,
   "debug": [Function],
@@ -1372,38 +1564,70 @@ Object {
 `;
 
 exports[`Component -> ProjectMedia -> Project Tramsformation should render the ProjectMedia UI (src: "/assets/images/projects/tramsformation/tramsformer_w_2_preview.jpg") without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="styles__Container-sc-1uvt01h-0 jIWmIw"
+        class="styles__Container-sc-16k93zz-0 bedtdl"
       >
         <div
-          class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+          class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 kihfmv"
         >
-          <img
-            alt="Tramsformer W-Class Tram Mode"
-            class="styles__Content-sc-1uvt01h-2 hCIqyJ"
-            src="/assets/images/projects/tramsformation/tramsformer_w_2_preview.jpg"
-          />
+          <a
+            href="/assets/images/projects/tramsformation/tramsformer_w_2_full.jpg"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div
+              class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 jlyhaF"
+            >
+              <img
+                alt="Tramsformer W-Class Tram Mode"
+                class="styles__Image-sc-16k93zz-3 hUuhSO"
+                src="/assets/images/projects/tramsformation/tramsformer_w_2_preview.jpg"
+              />
+            </div>
+          </a>
         </div>
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 kYqkym"
+        />
+        <div
+          class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 kDrDoX"
+        />
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="styles__Container-sc-1uvt01h-0 jIWmIw"
+      class="styles__Container-sc-16k93zz-0 bedtdl"
     >
       <div
-        class="Stroke-sc-10pkr5d-0 styles__Frame-sc-1uvt01h-1 eVNjYZ fetZul"
+        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 kihfmv"
       >
-        <img
-          alt="Tramsformer W-Class Tram Mode"
-          class="styles__Content-sc-1uvt01h-2 hCIqyJ"
-          src="/assets/images/projects/tramsformation/tramsformer_w_2_preview.jpg"
-        />
+        <a
+          href="/assets/images/projects/tramsformation/tramsformer_w_2_full.jpg"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div
+            class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 jlyhaF"
+          >
+            <img
+              alt="Tramsformer W-Class Tram Mode"
+              class="styles__Image-sc-16k93zz-3 hUuhSO"
+              src="/assets/images/projects/tramsformation/tramsformer_w_2_preview.jpg"
+            />
+          </div>
+        </a>
       </div>
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 kYqkym"
+      />
+      <div
+        class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 kDrDoX"
+      />
     </div>
   </div>,
   "debug": [Function],
@@ -1461,15 +1685,15 @@ Object {
 `;
 
 exports[`Component -> ProjectMedia -> SitePoint should render the ProjectMedia UI (src: "/assets/images/projects/sitepoint/sitepoint_mobile_preview.jpg") without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 eVNjYZ gmIVHo"
+        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 fnTujE"
       >
         <div
-          class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 eVNjYZ dejQuE"
+          class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 dviFfk"
         >
           <a
             href="https://www.sitepoint.com"
@@ -1478,29 +1702,29 @@ Object {
           >
             <img
               alt="SitePoint mobile site"
-              class="styles__Image-sc-14hm49n-2 bGfdNQ"
+              class="styles__Image-sc-14hm49n-2 jdXLYM"
               src="/assets/images/projects/sitepoint/sitepoint_mobile_preview.jpg"
             />
           </a>
         </div>
         <div
-          class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 eVNjYZ gQHKJZ"
+          class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 ghjfnl"
         />
         <div
-          class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 eVNjYZ cvgzuO"
+          class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 gxMWQA"
         />
         <div
-          class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 eVNjYZ hNtBOR"
+          class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 bmhLE"
         />
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 eVNjYZ gmIVHo"
+      class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 fnTujE"
     >
       <div
-        class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 eVNjYZ dejQuE"
+        class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 dviFfk"
       >
         <a
           href="https://www.sitepoint.com"
@@ -1509,19 +1733,19 @@ Object {
         >
           <img
             alt="SitePoint mobile site"
-            class="styles__Image-sc-14hm49n-2 bGfdNQ"
+            class="styles__Image-sc-14hm49n-2 jdXLYM"
             src="/assets/images/projects/sitepoint/sitepoint_mobile_preview.jpg"
           />
         </a>
       </div>
       <div
-        class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 eVNjYZ gQHKJZ"
+        class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 ghjfnl"
       />
       <div
-        class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 eVNjYZ cvgzuO"
+        class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 gxMWQA"
       />
       <div
-        class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 eVNjYZ hNtBOR"
+        class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 bmhLE"
       />
     </div>
   </div>,
@@ -1580,15 +1804,15 @@ Object {
 `;
 
 exports[`Component -> ProjectMedia -> SitePoint should render the ProjectMedia UI (src: "/assets/images/projects/sitepoint/sitepoint_premium_mobile_preview.jpg") without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 eVNjYZ gmIVHo"
+        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 fnTujE"
       >
         <div
-          class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 eVNjYZ dejQuE"
+          class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 dviFfk"
         >
           <a
             href="https://www.sitepoint.com/premium"
@@ -1597,29 +1821,29 @@ Object {
           >
             <img
               alt="SitePoint Premium mobile site"
-              class="styles__Image-sc-14hm49n-2 bGfdNQ"
+              class="styles__Image-sc-14hm49n-2 jdXLYM"
               src="/assets/images/projects/sitepoint/sitepoint_premium_mobile_preview.jpg"
             />
           </a>
         </div>
         <div
-          class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 eVNjYZ gQHKJZ"
+          class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 ghjfnl"
         />
         <div
-          class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 eVNjYZ cvgzuO"
+          class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 gxMWQA"
         />
         <div
-          class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 eVNjYZ hNtBOR"
+          class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 bmhLE"
         />
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 eVNjYZ gmIVHo"
+      class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-14hm49n-0 fnTujE"
     >
       <div
-        class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 eVNjYZ dejQuE"
+        class="Stroke-sc-10pkr5d-0 styles__Screen-sc-14hm49n-1 dviFfk"
       >
         <a
           href="https://www.sitepoint.com/premium"
@@ -1628,19 +1852,19 @@ Object {
         >
           <img
             alt="SitePoint Premium mobile site"
-            class="styles__Image-sc-14hm49n-2 bGfdNQ"
+            class="styles__Image-sc-14hm49n-2 jdXLYM"
             src="/assets/images/projects/sitepoint/sitepoint_premium_mobile_preview.jpg"
           />
         </a>
       </div>
       <div
-        class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 eVNjYZ gQHKJZ"
+        class="Stroke-sc-10pkr5d-0 styles__HomeButton-sc-14hm49n-3 ghjfnl"
       />
       <div
-        class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 eVNjYZ cvgzuO"
+        class="Stroke-sc-10pkr5d-0 styles__UpButton-sc-14hm49n-4 gxMWQA"
       />
       <div
-        class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 eVNjYZ hNtBOR"
+        class="Stroke-sc-10pkr5d-0 styles__DownButton-sc-14hm49n-5 bmhLE"
       />
     </div>
   </div>,
@@ -1699,15 +1923,15 @@ Object {
 `;
 
 exports[`Component -> ProjectMedia -> SitePoint should render the ProjectMedia UI (src: "/assets/images/projects/sitepoint/sitepoint_premium_preview.jpg") without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="styles__Container-sc-16k93zz-0 bjSbpH"
+        class="styles__Container-sc-16k93zz-0 bedtdl"
       >
         <div
-          class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+          class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 kihfmv"
         >
           <a
             href="https://www.sitepoint.com/premium"
@@ -1715,31 +1939,31 @@ Object {
             target="_blank"
           >
             <div
-              class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+              class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 jlyhaF"
             >
               <img
                 alt="SitePoint Premium desktop site"
-                class="styles__Image-sc-16k93zz-3 iNVQSF"
+                class="styles__Image-sc-16k93zz-3 hUuhSO"
                 src="/assets/images/projects/sitepoint/sitepoint_premium_preview.jpg"
               />
             </div>
           </a>
         </div>
         <div
-          class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+          class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 kYqkym"
         />
         <div
-          class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+          class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 kDrDoX"
         />
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="styles__Container-sc-16k93zz-0 bjSbpH"
+      class="styles__Container-sc-16k93zz-0 bedtdl"
     >
       <div
-        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 kihfmv"
       >
         <a
           href="https://www.sitepoint.com/premium"
@@ -1747,21 +1971,21 @@ Object {
           target="_blank"
         >
           <div
-            class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+            class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 jlyhaF"
           >
             <img
               alt="SitePoint Premium desktop site"
-              class="styles__Image-sc-16k93zz-3 iNVQSF"
+              class="styles__Image-sc-16k93zz-3 hUuhSO"
               src="/assets/images/projects/sitepoint/sitepoint_premium_preview.jpg"
             />
           </div>
         </a>
       </div>
       <div
-        class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+        class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 kYqkym"
       />
       <div
-        class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+        class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 kDrDoX"
       />
     </div>
   </div>,
@@ -1820,15 +2044,15 @@ Object {
 `;
 
 exports[`Component -> ProjectMedia -> SitePoint should render the ProjectMedia UI (src: "/assets/images/projects/sitepoint/sitepoint_preview.jpg") without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="styles__Container-sc-16k93zz-0 bjSbpH"
+        class="styles__Container-sc-16k93zz-0 bedtdl"
       >
         <div
-          class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+          class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 kihfmv"
         >
           <a
             href="https://www.sitepoint.com"
@@ -1836,31 +2060,31 @@ Object {
             target="_blank"
           >
             <div
-              class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+              class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 jlyhaF"
             >
               <img
                 alt="SitePoint desktop site"
-                class="styles__Image-sc-16k93zz-3 iNVQSF"
+                class="styles__Image-sc-16k93zz-3 hUuhSO"
                 src="/assets/images/projects/sitepoint/sitepoint_preview.jpg"
               />
             </div>
           </a>
         </div>
         <div
-          class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+          class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 kYqkym"
         />
         <div
-          class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+          class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 kDrDoX"
         />
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="styles__Container-sc-16k93zz-0 bjSbpH"
+      class="styles__Container-sc-16k93zz-0 bedtdl"
     >
       <div
-        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 eVNjYZ hMtpXB"
+        class="Stroke-sc-10pkr5d-0 styles__OuterFrame-sc-16k93zz-1 kihfmv"
       >
         <a
           href="https://www.sitepoint.com"
@@ -1868,21 +2092,21 @@ Object {
           target="_blank"
         >
           <div
-            class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 eVNjYZ gfESRa"
+            class="Stroke-sc-10pkr5d-0 styles__Screen-sc-16k93zz-2 jlyhaF"
           >
             <img
               alt="SitePoint desktop site"
-              class="styles__Image-sc-16k93zz-3 iNVQSF"
+              class="styles__Image-sc-16k93zz-3 hUuhSO"
               src="/assets/images/projects/sitepoint/sitepoint_preview.jpg"
             />
           </div>
         </a>
       </div>
       <div
-        class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 eVNjYZ isqQtG"
+        class="Stroke-sc-10pkr5d-0 styles__Stand-sc-16k93zz-4 kYqkym"
       />
       <div
-        class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 eVNjYZ igOCZe"
+        class="Stroke-sc-10pkr5d-0 styles__Base-sc-16k93zz-5 kDrDoX"
       />
     </div>
   </div>,

@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Component -> Icon should render the Github icon without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
@@ -94,7 +94,7 @@ Object {
 `;
 
 exports[`Component -> Icon should render the Instagram icon without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
@@ -187,7 +187,7 @@ Object {
 `;
 
 exports[`Component -> Icon should render the LinkedIn icon without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
@@ -280,7 +280,7 @@ Object {
 `;
 
 exports[`Component -> Icon should render the Redbubble icon without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>

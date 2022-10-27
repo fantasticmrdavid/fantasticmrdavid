@@ -1,54 +1,54 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Component -> Cube should render the Cube in completed state without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="styles__Container-sc-1pwogyu-0 fhwLOl"
+        class="styles__Container-sc-1pwogyu-0 fkagAV"
       >
         <div
-          class="styles__Polygon-sc-1pwogyu-1 bFqjCw"
+          class="styles__Polygon-sc-1pwogyu-1 dCIqjj"
         >
           <div
-            class="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 fiFRhu bmLGPK"
+            class="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 deBIOm"
           >
             <div
-              class="styles__Tracer-sc-18vfsm6-0 geFGiM"
+              class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
               direction="left"
             />
           </div>
           <div
-            class="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 fiFRhu hPnqZU"
+            class="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 gCcrQb"
           >
             <div
-              class="styles__Tracer-sc-18vfsm6-0 eDtdvo"
+              class="styles__Tracer-sc-18vfsm6-0 lKbcB"
             />
           </div>
           <div
-            class="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 fiFRhu vbVpk"
+            class="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 eLxrDv"
           />
           <div
-            class="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 fiFRhu cjImYD"
+            class="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 cpagcj"
           >
             <div
-              class="styles__Tracer-sc-18vfsm6-0 eDtdvo"
+              class="styles__Tracer-sc-18vfsm6-0 lKbcB"
             />
           </div>
           <div
-            class="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 fiFRhu enKYWw"
+            class="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 iDSTJS"
           >
             <div
-              class="styles__Tracer-sc-18vfsm6-0 geFGiM"
+              class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
               direction="left"
             />
           </div>
           <div
-            class="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 fiFRhu kZyHbZ"
+            class="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 fTRfub"
           >
             <div
-              class="styles__Tracer-sc-18vfsm6-0 eDtdvo"
+              class="styles__Tracer-sc-18vfsm6-0 lKbcB"
             />
           </div>
         </div>
@@ -57,49 +57,49 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="styles__Container-sc-1pwogyu-0 fhwLOl"
+      class="styles__Container-sc-1pwogyu-0 fkagAV"
     >
       <div
-        class="styles__Polygon-sc-1pwogyu-1 bFqjCw"
+        class="styles__Polygon-sc-1pwogyu-1 dCIqjj"
       >
         <div
-          class="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 fiFRhu bmLGPK"
+          class="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 deBIOm"
         >
           <div
-            class="styles__Tracer-sc-18vfsm6-0 geFGiM"
+            class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
             direction="left"
           />
         </div>
         <div
-          class="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 fiFRhu hPnqZU"
+          class="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 gCcrQb"
         >
           <div
-            class="styles__Tracer-sc-18vfsm6-0 eDtdvo"
+            class="styles__Tracer-sc-18vfsm6-0 lKbcB"
           />
         </div>
         <div
-          class="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 fiFRhu vbVpk"
+          class="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 eLxrDv"
         />
         <div
-          class="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 fiFRhu cjImYD"
+          class="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 cpagcj"
         >
           <div
-            class="styles__Tracer-sc-18vfsm6-0 eDtdvo"
+            class="styles__Tracer-sc-18vfsm6-0 lKbcB"
           />
         </div>
         <div
-          class="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 fiFRhu enKYWw"
+          class="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 iDSTJS"
         >
           <div
-            class="styles__Tracer-sc-18vfsm6-0 geFGiM"
+            class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
             direction="left"
           />
         </div>
         <div
-          class="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 fiFRhu kZyHbZ"
+          class="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 fTRfub"
         >
           <div
-            class="styles__Tracer-sc-18vfsm6-0 eDtdvo"
+            class="styles__Tracer-sc-18vfsm6-0 lKbcB"
           />
         </div>
       </div>
@@ -160,54 +160,54 @@ Object {
 `;
 
 exports[`Component -> Cube should render the Cube in loading state without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="styles__Container-sc-1pwogyu-0 fhwLOl"
+        class="styles__Container-sc-1pwogyu-0 irMsJv"
       >
         <div
-          class="styles__Polygon-sc-1pwogyu-1 bFqjCw"
+          class="styles__Polygon-sc-1pwogyu-1 dCIqjj"
         >
           <div
-            class="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 fiFRhu bmLGPK"
+            class="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 deBIOm"
           >
             <div
-              class="styles__Tracer-sc-18vfsm6-0 geFGiM"
+              class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
               direction="left"
             />
           </div>
           <div
-            class="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 fiFRhu hPnqZU"
+            class="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 gCcrQb"
           >
             <div
-              class="styles__Tracer-sc-18vfsm6-0 eDtdvo"
+              class="styles__Tracer-sc-18vfsm6-0 lKbcB"
             />
           </div>
           <div
-            class="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 fiFRhu vbVpk"
+            class="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 eLxrDv"
           />
           <div
-            class="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 fiFRhu cjImYD"
+            class="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 cpagcj"
           >
             <div
-              class="styles__Tracer-sc-18vfsm6-0 eDtdvo"
+              class="styles__Tracer-sc-18vfsm6-0 lKbcB"
             />
           </div>
           <div
-            class="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 fiFRhu enKYWw"
+            class="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 iDSTJS"
           >
             <div
-              class="styles__Tracer-sc-18vfsm6-0 geFGiM"
+              class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
               direction="left"
             />
           </div>
           <div
-            class="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 fiFRhu kZyHbZ"
+            class="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 fTRfub"
           >
             <div
-              class="styles__Tracer-sc-18vfsm6-0 eDtdvo"
+              class="styles__Tracer-sc-18vfsm6-0 lKbcB"
             />
           </div>
         </div>
@@ -216,49 +216,49 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="styles__Container-sc-1pwogyu-0 fhwLOl"
+      class="styles__Container-sc-1pwogyu-0 irMsJv"
     >
       <div
-        class="styles__Polygon-sc-1pwogyu-1 bFqjCw"
+        class="styles__Polygon-sc-1pwogyu-1 dCIqjj"
       >
         <div
-          class="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 fiFRhu bmLGPK"
+          class="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 deBIOm"
         >
           <div
-            class="styles__Tracer-sc-18vfsm6-0 geFGiM"
+            class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
             direction="left"
           />
         </div>
         <div
-          class="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 fiFRhu hPnqZU"
+          class="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 gCcrQb"
         >
           <div
-            class="styles__Tracer-sc-18vfsm6-0 eDtdvo"
+            class="styles__Tracer-sc-18vfsm6-0 lKbcB"
           />
         </div>
         <div
-          class="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 fiFRhu vbVpk"
+          class="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 eLxrDv"
         />
         <div
-          class="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 fiFRhu cjImYD"
+          class="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 cpagcj"
         >
           <div
-            class="styles__Tracer-sc-18vfsm6-0 eDtdvo"
+            class="styles__Tracer-sc-18vfsm6-0 lKbcB"
           />
         </div>
         <div
-          class="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 fiFRhu enKYWw"
+          class="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 iDSTJS"
         >
           <div
-            class="styles__Tracer-sc-18vfsm6-0 geFGiM"
+            class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
             direction="left"
           />
         </div>
         <div
-          class="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 fiFRhu kZyHbZ"
+          class="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 fTRfub"
         >
           <div
-            class="styles__Tracer-sc-18vfsm6-0 eDtdvo"
+            class="styles__Tracer-sc-18vfsm6-0 lKbcB"
           />
         </div>
       </div>

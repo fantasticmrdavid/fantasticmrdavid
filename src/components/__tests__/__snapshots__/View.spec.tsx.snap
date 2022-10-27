@@ -1,41 +1,41 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Component -> View should render the View without throwing an error 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="styles__Container-sc-1i0f3dw-0 bbbjfa"
+        class="styles__Container-sc-1i0f3dw-0 gTMMfH"
       />
       <div
-        class="styles__Container-sc-1jpprl2-0 dCkPlO"
+        class="styles__Container-sc-1jpprl2-0 lceywo"
       >
         <section
-          class="styles__Control-sc-1jpprl2-1 cbRPaS"
+          class="styles__Control-sc-1jpprl2-1 kKksil"
         >
           <nav
-            class="styles__Container-sc-1fdvout-0 fkfODZ"
+            class="styles__Container-sc-1fdvout-0 aFnmz"
           >
             <h1
-              class="styles__Title-sc-1fdvout-1 hkuZwV"
+              class="styles__Title-sc-1fdvout-1 cJAooh"
             >
               Fantastic Mr David
             </h1>
             <nav
-              class="styles__Nav-sc-1fdvout-3 kBlngH"
+              class="styles__Nav-sc-1fdvout-3 cwEdZi"
             >
               <div
-                class="styles__Container-sc-1w8m3j0-0 cWTfFd"
+                class="styles__Container-sc-1w8m3j0-0 dmrGVg"
               >
                 <div
-                  class="styles__Label-sc-1w8m3j0-1 jNVnMy"
+                  class="styles__Label-sc-1w8m3j0-1 cRIjTG"
                   target="about"
                 >
                   About
                 </div>
                 <div
-                  class="styles__Content-sc-xptth5-0 jnPfSO"
+                  class="styles__Content-sc-xptth5-0 gEzKKn"
                 >
                   <div>
                     Meet the captain of the ship.
@@ -43,16 +43,16 @@ Object {
                 </div>
               </div>
               <div
-                class="styles__Container-sc-1w8m3j0-0 cWTfFd"
+                class="styles__Container-sc-1w8m3j0-0 dmrGVg"
               >
                 <div
-                  class="styles__Label-sc-1w8m3j0-1 ekTiJn"
+                  class="styles__Label-sc-1w8m3j0-1 kLVSUR"
                   target="work"
                 >
                   Latest Work
                 </div>
                 <div
-                  class="styles__Content-sc-xptth5-0 ldQUfb"
+                  class="styles__Content-sc-xptth5-0 cgeHFj"
                 >
                   <div>
                     Some things I've been working on.
@@ -60,16 +60,16 @@ Object {
                 </div>
               </div>
               <div
-                class="styles__Container-sc-1w8m3j0-0 cWTfFd"
+                class="styles__Container-sc-1w8m3j0-0 dmrGVg"
               >
                 <div
-                  class="styles__Label-sc-1w8m3j0-1 WBEXF"
+                  class="styles__Label-sc-1w8m3j0-1 oFPLn"
                   target="contact"
                 >
                   Contact
                 </div>
                 <div
-                  class="styles__Content-sc-xptth5-0 ldQUfb"
+                  class="styles__Content-sc-xptth5-0 cgeHFj"
                 >
                   <div>
                     For relaxing times, make it Suntory time.
@@ -78,11 +78,11 @@ Object {
               </div>
             </nav>
             <div
-              class="styles__Subtitle-sc-1fdvout-4 dTECfe"
+              class="styles__Subtitle-sc-1fdvout-4 fnJwRI"
             >
               <h2>
                 <div
-                  class="styles__CogIconWrapper-sc-1fdvout-5 LQSiW"
+                  class="styles__CogIconWrapper-sc-1fdvout-5 gbVFgv"
                 >
                   <svg
                     fill="currentColor"
@@ -101,11 +101,11 @@ Object {
                 Art + Engineering
               </h2>
               <div
-                class="styles__Cursor-sc-cbfjlf-0 ldGHfo"
+                class="styles__Cursor-sc-cbfjlf-0 OzODf"
               />
             </div>
             <a
-              class="styles__Cta-sc-1fdvout-2 fvosNX"
+              class="styles__Cta-sc-1fdvout-2 gHsBxM"
             >
               <svg
                 fill="currentColor"
@@ -124,69 +124,69 @@ Object {
           </nav>
         </section>
         <section
-          class="styles__Media-sc-1jpprl2-2 iOdcsI"
+          class="styles__Media-sc-1jpprl2-2 fuwkzu"
         >
           <div
-            class="styles__Shutter-sc-1jpprl2-3 styles__ShutterTop-sc-1jpprl2-4 jGUEUn ioDlq"
+            class="styles__Shutter-sc-1jpprl2-3 styles__ShutterTop-sc-1jpprl2-4 ddDaSX"
           />
           <div
-            class="styles__Shutter-sc-1jpprl2-3 styles__ShutterBottom-sc-1jpprl2-5 jGUEUn kWniML"
+            class="styles__Shutter-sc-1jpprl2-3 styles__ShutterBottom-sc-1jpprl2-5 dtYEwQ"
           />
           <div
-            class="styles__MediaLoadingMessage-sc-1jpprl2-6 dEGVFj"
+            class="styles__MediaLoadingMessage-sc-1jpprl2-6 kGrthN"
           >
             Hello!
           </div>
           <div
-            class="styles__Container-sc-qm8p7s-0 hJtUsU"
+            class="styles__Container-sc-qm8p7s-0 eoAhMa"
           >
             <div
-              class="styles__Bg-sc-qm8p7s-1 jWgPrT"
+              class="styles__Bg-sc-qm8p7s-1 bPLvTD"
             >
               <div
-                class="styles__Container-sc-1pwogyu-0 fhwLOl"
+                class="styles__Container-sc-1pwogyu-0 fkagAV"
               >
                 <div
-                  class="styles__Polygon-sc-1pwogyu-1 bFqjCw"
+                  class="styles__Polygon-sc-1pwogyu-1 dCIqjj"
                 >
                   <div
-                    class="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 fiFRhu bmLGPK"
+                    class="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 deBIOm"
                   >
                     <div
-                      class="styles__Tracer-sc-18vfsm6-0 geFGiM"
+                      class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
                       direction="left"
                     />
                   </div>
                   <div
-                    class="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 fiFRhu hPnqZU"
+                    class="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 gCcrQb"
                   >
                     <div
-                      class="styles__Tracer-sc-18vfsm6-0 eDtdvo"
+                      class="styles__Tracer-sc-18vfsm6-0 lKbcB"
                     />
                   </div>
                   <div
-                    class="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 fiFRhu vbVpk"
+                    class="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 eLxrDv"
                   />
                   <div
-                    class="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 fiFRhu cjImYD"
+                    class="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 cpagcj"
                   >
                     <div
-                      class="styles__Tracer-sc-18vfsm6-0 eDtdvo"
+                      class="styles__Tracer-sc-18vfsm6-0 lKbcB"
                     />
                   </div>
                   <div
-                    class="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 fiFRhu enKYWw"
+                    class="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 iDSTJS"
                   >
                     <div
-                      class="styles__Tracer-sc-18vfsm6-0 geFGiM"
+                      class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
                       direction="left"
                     />
                   </div>
                   <div
-                    class="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 fiFRhu kZyHbZ"
+                    class="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 fTRfub"
                   >
                     <div
-                      class="styles__Tracer-sc-18vfsm6-0 eDtdvo"
+                      class="styles__Tracer-sc-18vfsm6-0 lKbcB"
                     />
                   </div>
                 </div>
@@ -194,11 +194,11 @@ Object {
             </div>
             <img
               alt="Me"
-              class="styles__ProfilePhoto-sc-qm8p7s-2 diJEme"
+              class="styles__ProfilePhoto-sc-qm8p7s-2 cToiw"
               src="/assets/images/profile.jpg"
             />
             <div
-              class="styles__Content-sc-qm8p7s-3 krxXSD"
+              class="styles__Content-sc-qm8p7s-3 ciksqE"
             >
               <p>
                 Hi! I'm David, and I like making things.
@@ -221,7 +221,7 @@ Object {
               <p>
                 Drawing has been my happy place for as long as I can remember. While building software keeps the puzzle solving part of my brain busy, illustration, artwork, and tinkering have allowed me to stretch my creative boundaries. In my downtime I've drawn comics, exhibited artwork, designed and produced 3D prints, and made 
                 <a
-                  class="styles__Link-sc-1rd8ebj-0 ecmhYM styles__SleeperLink-sc-qm8p7s-6 egReOI"
+                  class="styles__Link-sc-1rd8ebj-0 jONwCq styles__SleeperLink-sc-qm8p7s-6 cFShCR"
                   href="https://www.youtube.com/watch?v=7xk4LmZ6hwc"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -235,10 +235,10 @@ Object {
               </h2>
               fantasticmrdavid.com.au was built with:
               <div
-                class="styles__SiteSpecs-sc-qm8p7s-4 fpOMSR"
+                class="styles__SiteSpecs-sc-qm8p7s-4 hIVtxr"
               >
                 <div
-                  class="styles__SpecsSection-sc-qm8p7s-5 iPScqB"
+                  class="styles__SpecsSection-sc-qm8p7s-5 dkQZmC"
                 >
                   <h3>
                     Environment
@@ -256,7 +256,7 @@ Object {
                   </ul>
                 </div>
                 <div
-                  class="styles__SpecsSection-sc-qm8p7s-5 iPScqB"
+                  class="styles__SpecsSection-sc-qm8p7s-5 dkQZmC"
                 >
                   <h3>
                     Architecture
@@ -271,7 +271,7 @@ Object {
                   </ul>
                 </div>
                 <div
-                  class="styles__SpecsSection-sc-qm8p7s-5 iPScqB"
+                  class="styles__SpecsSection-sc-qm8p7s-5 dkQZmC"
                 >
                   <h3>
                     Testing/QA
@@ -295,7 +295,7 @@ Object {
                   </ul>
                 </div>
                 <div
-                  class="styles__SpecsSection-sc-qm8p7s-5 iPScqB"
+                  class="styles__SpecsSection-sc-qm8p7s-5 dkQZmC"
                 >
                   <h3>
                     Deployment
@@ -317,7 +317,7 @@ Object {
                 Disable JavaScript to enable the noscript version!
               </p>
               <a
-                class="styles__Link-sc-1rd8ebj-0 ecmhYM"
+                class="styles__Link-sc-1rd8ebj-0 jONwCq"
                 href="https://github.com/fantasticmrdavid/fantasticmrdavid"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -332,36 +332,36 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="styles__Container-sc-1i0f3dw-0 bbbjfa"
+      class="styles__Container-sc-1i0f3dw-0 gTMMfH"
     />
     <div
-      class="styles__Container-sc-1jpprl2-0 dCkPlO"
+      class="styles__Container-sc-1jpprl2-0 lceywo"
     >
       <section
-        class="styles__Control-sc-1jpprl2-1 cbRPaS"
+        class="styles__Control-sc-1jpprl2-1 kKksil"
       >
         <nav
-          class="styles__Container-sc-1fdvout-0 fkfODZ"
+          class="styles__Container-sc-1fdvout-0 aFnmz"
         >
           <h1
-            class="styles__Title-sc-1fdvout-1 hkuZwV"
+            class="styles__Title-sc-1fdvout-1 cJAooh"
           >
             Fantastic Mr David
           </h1>
           <nav
-            class="styles__Nav-sc-1fdvout-3 kBlngH"
+            class="styles__Nav-sc-1fdvout-3 cwEdZi"
           >
             <div
-              class="styles__Container-sc-1w8m3j0-0 cWTfFd"
+              class="styles__Container-sc-1w8m3j0-0 dmrGVg"
             >
               <div
-                class="styles__Label-sc-1w8m3j0-1 jNVnMy"
+                class="styles__Label-sc-1w8m3j0-1 cRIjTG"
                 target="about"
               >
                 About
               </div>
               <div
-                class="styles__Content-sc-xptth5-0 jnPfSO"
+                class="styles__Content-sc-xptth5-0 gEzKKn"
               >
                 <div>
                   Meet the captain of the ship.
@@ -369,16 +369,16 @@ Object {
               </div>
             </div>
             <div
-              class="styles__Container-sc-1w8m3j0-0 cWTfFd"
+              class="styles__Container-sc-1w8m3j0-0 dmrGVg"
             >
               <div
-                class="styles__Label-sc-1w8m3j0-1 ekTiJn"
+                class="styles__Label-sc-1w8m3j0-1 kLVSUR"
                 target="work"
               >
                 Latest Work
               </div>
               <div
-                class="styles__Content-sc-xptth5-0 ldQUfb"
+                class="styles__Content-sc-xptth5-0 cgeHFj"
               >
                 <div>
                   Some things I've been working on.
@@ -386,16 +386,16 @@ Object {
               </div>
             </div>
             <div
-              class="styles__Container-sc-1w8m3j0-0 cWTfFd"
+              class="styles__Container-sc-1w8m3j0-0 dmrGVg"
             >
               <div
-                class="styles__Label-sc-1w8m3j0-1 WBEXF"
+                class="styles__Label-sc-1w8m3j0-1 oFPLn"
                 target="contact"
               >
                 Contact
               </div>
               <div
-                class="styles__Content-sc-xptth5-0 ldQUfb"
+                class="styles__Content-sc-xptth5-0 cgeHFj"
               >
                 <div>
                   For relaxing times, make it Suntory time.
@@ -404,11 +404,11 @@ Object {
             </div>
           </nav>
           <div
-            class="styles__Subtitle-sc-1fdvout-4 dTECfe"
+            class="styles__Subtitle-sc-1fdvout-4 fnJwRI"
           >
             <h2>
               <div
-                class="styles__CogIconWrapper-sc-1fdvout-5 LQSiW"
+                class="styles__CogIconWrapper-sc-1fdvout-5 gbVFgv"
               >
                 <svg
                   fill="currentColor"
@@ -427,11 +427,11 @@ Object {
               Art + Engineering
             </h2>
             <div
-              class="styles__Cursor-sc-cbfjlf-0 ldGHfo"
+              class="styles__Cursor-sc-cbfjlf-0 OzODf"
             />
           </div>
           <a
-            class="styles__Cta-sc-1fdvout-2 fvosNX"
+            class="styles__Cta-sc-1fdvout-2 gHsBxM"
           >
             <svg
               fill="currentColor"
@@ -450,69 +450,69 @@ Object {
         </nav>
       </section>
       <section
-        class="styles__Media-sc-1jpprl2-2 iOdcsI"
+        class="styles__Media-sc-1jpprl2-2 fuwkzu"
       >
         <div
-          class="styles__Shutter-sc-1jpprl2-3 styles__ShutterTop-sc-1jpprl2-4 jGUEUn ioDlq"
+          class="styles__Shutter-sc-1jpprl2-3 styles__ShutterTop-sc-1jpprl2-4 ddDaSX"
         />
         <div
-          class="styles__Shutter-sc-1jpprl2-3 styles__ShutterBottom-sc-1jpprl2-5 jGUEUn kWniML"
+          class="styles__Shutter-sc-1jpprl2-3 styles__ShutterBottom-sc-1jpprl2-5 dtYEwQ"
         />
         <div
-          class="styles__MediaLoadingMessage-sc-1jpprl2-6 dEGVFj"
+          class="styles__MediaLoadingMessage-sc-1jpprl2-6 kGrthN"
         >
           Hello!
         </div>
         <div
-          class="styles__Container-sc-qm8p7s-0 hJtUsU"
+          class="styles__Container-sc-qm8p7s-0 eoAhMa"
         >
           <div
-            class="styles__Bg-sc-qm8p7s-1 jWgPrT"
+            class="styles__Bg-sc-qm8p7s-1 bPLvTD"
           >
             <div
-              class="styles__Container-sc-1pwogyu-0 fhwLOl"
+              class="styles__Container-sc-1pwogyu-0 fkagAV"
             >
               <div
-                class="styles__Polygon-sc-1pwogyu-1 bFqjCw"
+                class="styles__Polygon-sc-1pwogyu-1 dCIqjj"
               >
                 <div
-                  class="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 fiFRhu bmLGPK"
+                  class="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 deBIOm"
                 >
                   <div
-                    class="styles__Tracer-sc-18vfsm6-0 geFGiM"
+                    class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
                     direction="left"
                   />
                 </div>
                 <div
-                  class="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 fiFRhu hPnqZU"
+                  class="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 gCcrQb"
                 >
                   <div
-                    class="styles__Tracer-sc-18vfsm6-0 eDtdvo"
+                    class="styles__Tracer-sc-18vfsm6-0 lKbcB"
                   />
                 </div>
                 <div
-                  class="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 fiFRhu vbVpk"
+                  class="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 eLxrDv"
                 />
                 <div
-                  class="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 fiFRhu cjImYD"
+                  class="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 cpagcj"
                 >
                   <div
-                    class="styles__Tracer-sc-18vfsm6-0 eDtdvo"
+                    class="styles__Tracer-sc-18vfsm6-0 lKbcB"
                   />
                 </div>
                 <div
-                  class="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 fiFRhu enKYWw"
+                  class="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 iDSTJS"
                 >
                   <div
-                    class="styles__Tracer-sc-18vfsm6-0 geFGiM"
+                    class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
                     direction="left"
                   />
                 </div>
                 <div
-                  class="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 fiFRhu kZyHbZ"
+                  class="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 fTRfub"
                 >
                   <div
-                    class="styles__Tracer-sc-18vfsm6-0 eDtdvo"
+                    class="styles__Tracer-sc-18vfsm6-0 lKbcB"
                   />
                 </div>
               </div>
@@ -520,11 +520,11 @@ Object {
           </div>
           <img
             alt="Me"
-            class="styles__ProfilePhoto-sc-qm8p7s-2 diJEme"
+            class="styles__ProfilePhoto-sc-qm8p7s-2 cToiw"
             src="/assets/images/profile.jpg"
           />
           <div
-            class="styles__Content-sc-qm8p7s-3 krxXSD"
+            class="styles__Content-sc-qm8p7s-3 ciksqE"
           >
             <p>
               Hi! I'm David, and I like making things.
@@ -547,7 +547,7 @@ Object {
             <p>
               Drawing has been my happy place for as long as I can remember. While building software keeps the puzzle solving part of my brain busy, illustration, artwork, and tinkering have allowed me to stretch my creative boundaries. In my downtime I've drawn comics, exhibited artwork, designed and produced 3D prints, and made 
               <a
-                class="styles__Link-sc-1rd8ebj-0 ecmhYM styles__SleeperLink-sc-qm8p7s-6 egReOI"
+                class="styles__Link-sc-1rd8ebj-0 jONwCq styles__SleeperLink-sc-qm8p7s-6 cFShCR"
                 href="https://www.youtube.com/watch?v=7xk4LmZ6hwc"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -561,10 +561,10 @@ Object {
             </h2>
             fantasticmrdavid.com.au was built with:
             <div
-              class="styles__SiteSpecs-sc-qm8p7s-4 fpOMSR"
+              class="styles__SiteSpecs-sc-qm8p7s-4 hIVtxr"
             >
               <div
-                class="styles__SpecsSection-sc-qm8p7s-5 iPScqB"
+                class="styles__SpecsSection-sc-qm8p7s-5 dkQZmC"
               >
                 <h3>
                   Environment
@@ -582,7 +582,7 @@ Object {
                 </ul>
               </div>
               <div
-                class="styles__SpecsSection-sc-qm8p7s-5 iPScqB"
+                class="styles__SpecsSection-sc-qm8p7s-5 dkQZmC"
               >
                 <h3>
                   Architecture
@@ -597,7 +597,7 @@ Object {
                 </ul>
               </div>
               <div
-                class="styles__SpecsSection-sc-qm8p7s-5 iPScqB"
+                class="styles__SpecsSection-sc-qm8p7s-5 dkQZmC"
               >
                 <h3>
                   Testing/QA
@@ -621,7 +621,7 @@ Object {
                 </ul>
               </div>
               <div
-                class="styles__SpecsSection-sc-qm8p7s-5 iPScqB"
+                class="styles__SpecsSection-sc-qm8p7s-5 dkQZmC"
               >
                 <h3>
                   Deployment
@@ -643,7 +643,7 @@ Object {
               Disable JavaScript to enable the noscript version!
             </p>
             <a
-              class="styles__Link-sc-1rd8ebj-0 ecmhYM"
+              class="styles__Link-sc-1rd8ebj-0 jONwCq"
               href="https://github.com/fantasticmrdavid/fantasticmrdavid"
               rel="noopener noreferrer"
               target="_blank"
