@@ -1,4 +1,4 @@
-export type Project = {
+export type ProjectData = {
   title: string,
   tagline: string,
   target: string,

@@ -3,7 +3,7 @@ import theme from 'styles/theme';
 import { transparentize } from 'polished';
 import { fadeIn } from 'styles/animations';
 import { media } from 'styles/utils';
-import ComponentLink from 'components/Link';
+import { Link as ComponentLink } from 'components/Link/Link';
 
 interface ContainerProps {
   isLoading: boolean,

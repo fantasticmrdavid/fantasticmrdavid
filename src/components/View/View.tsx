@@ -6,7 +6,7 @@ import { Work } from 'views/Work/Work';
 import { Contact } from 'views/Contact/Contact';
 import GlobalStyles from 'styles/global';
 import { LoadingContext } from 'contexts/Loading';
-import ImagePreloader from 'components/ImagePreloader';
+import { ImagePreloader } from 'components/ImagePreloader/ImagePreloader';
 import { LOCATIONS } from 'routers/constants';
 import {
   Container,

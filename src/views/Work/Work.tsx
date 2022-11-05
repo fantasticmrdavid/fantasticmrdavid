@@ -1,8 +1,8 @@
 import React, { memo, useContext, useEffect } from 'react';
 import { ScopeSpinner } from 'components/ScopeSpinner/ScopeSpinner';
-import ImagePreloader from 'components/ImagePreloader';
-import Project from 'components/Project';
-import projects, { Project as ProjectProps } from 'data/projects';
+import { ImagePreloader } from 'components/ImagePreloader/ImagePreloader';
+import { Project } from 'components/Project/Project';
+import projects, { ProjectData } from 'data/projects';
 import { LoadingContext } from 'contexts/Loading';
 import { WorkLocationContext } from 'contexts/WorkLocation';
 import {
@@ -17,7 +17,7 @@ type WorkProps = { target?: string };
 const getImages = () => {
   let images: string[] = [];
 
-  projects.map((p: ProjectProps) => {
+  projects.map((p: ProjectData) => {
     if (!!p.images) {
       const newImages = (Object.keys(p.images)).map((key: string) => p.images[key]);
       images = [...images, ...newImages];
@@ -57,7 +57,7 @@ export const Work = memo((props: WorkProps) => {
 
       <ProjectListContainer isLoading={isLoading}>
         {
-          projects.map((p: ProjectProps, index) => {
+          projects.map((p: ProjectData, index) => {
             const isLast = index === projects.length - 1;
             const isFirst = index === 0;
             return (

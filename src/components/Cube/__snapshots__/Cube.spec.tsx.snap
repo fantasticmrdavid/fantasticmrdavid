@@ -1,0 +1,319 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component -> Cube should render the Cube in completed state without throwing an error 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="cubestyles__Container-sc-1vb362y-0 eymhJL"
+      >
+        <div
+          class="cubestyles__Polygon-sc-1vb362y-1 fPdTlb"
+        >
+          <div
+            class="cubestyles__Side-sc-1vb362y-2 cubestyles__Front-sc-1vb362y-8 juECso"
+          >
+            <div
+              class="borderTracerstyles__Tracer-sc-1r1qxoe-0 fciCgU"
+              direction="left"
+            />
+          </div>
+          <div
+            class="cubestyles__Side-sc-1vb362y-2 cubestyles__Back-sc-1vb362y-3 dUhIOW"
+          >
+            <div
+              class="borderTracerstyles__Tracer-sc-1r1qxoe-0 ilFFkC"
+            />
+          </div>
+          <div
+            class="cubestyles__Side-sc-1vb362y-2 cubestyles__Top-sc-1vb362y-6 hwnPJw"
+          />
+          <div
+            class="cubestyles__Side-sc-1vb362y-2 cubestyles__Bottom-sc-1vb362y-7 hjjLcu"
+          >
+            <div
+              class="borderTracerstyles__Tracer-sc-1r1qxoe-0 ilFFkC"
+            />
+          </div>
+          <div
+            class="cubestyles__Side-sc-1vb362y-2 cubestyles__Left-sc-1vb362y-5 hycNjz"
+          >
+            <div
+              class="borderTracerstyles__Tracer-sc-1r1qxoe-0 fciCgU"
+              direction="left"
+            />
+          </div>
+          <div
+            class="cubestyles__Side-sc-1vb362y-2 cubestyles__Right-sc-1vb362y-4 IQXWF"
+          >
+            <div
+              class="borderTracerstyles__Tracer-sc-1r1qxoe-0 ilFFkC"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="cubestyles__Container-sc-1vb362y-0 eymhJL"
+    >
+      <div
+        class="cubestyles__Polygon-sc-1vb362y-1 fPdTlb"
+      >
+        <div
+          class="cubestyles__Side-sc-1vb362y-2 cubestyles__Front-sc-1vb362y-8 juECso"
+        >
+          <div
+            class="borderTracerstyles__Tracer-sc-1r1qxoe-0 fciCgU"
+            direction="left"
+          />
+        </div>
+        <div
+          class="cubestyles__Side-sc-1vb362y-2 cubestyles__Back-sc-1vb362y-3 dUhIOW"
+        >
+          <div
+            class="borderTracerstyles__Tracer-sc-1r1qxoe-0 ilFFkC"
+          />
+        </div>
+        <div
+          class="cubestyles__Side-sc-1vb362y-2 cubestyles__Top-sc-1vb362y-6 hwnPJw"
+        />
+        <div
+          class="cubestyles__Side-sc-1vb362y-2 cubestyles__Bottom-sc-1vb362y-7 hjjLcu"
+        >
+          <div
+            class="borderTracerstyles__Tracer-sc-1r1qxoe-0 ilFFkC"
+          />
+        </div>
+        <div
+          class="cubestyles__Side-sc-1vb362y-2 cubestyles__Left-sc-1vb362y-5 hycNjz"
+        >
+          <div
+            class="borderTracerstyles__Tracer-sc-1r1qxoe-0 fciCgU"
+            direction="left"
+          />
+        </div>
+        <div
+          class="cubestyles__Side-sc-1vb362y-2 cubestyles__Right-sc-1vb362y-4 IQXWF"
+        >
+          <div
+            class="borderTracerstyles__Tracer-sc-1r1qxoe-0 ilFFkC"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Component -> Cube should render the Cube in loading state without throwing an error 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="cubestyles__Container-sc-1vb362y-0 dbAyNz"
+      >
+        <div
+          class="cubestyles__Polygon-sc-1vb362y-1 fPdTlb"
+        >
+          <div
+            class="cubestyles__Side-sc-1vb362y-2 cubestyles__Front-sc-1vb362y-8 juECso"
+          >
+            <div
+              class="borderTracerstyles__Tracer-sc-1r1qxoe-0 fciCgU"
+              direction="left"
+            />
+          </div>
+          <div
+            class="cubestyles__Side-sc-1vb362y-2 cubestyles__Back-sc-1vb362y-3 dUhIOW"
+          >
+            <div
+              class="borderTracerstyles__Tracer-sc-1r1qxoe-0 ilFFkC"
+            />
+          </div>
+          <div
+            class="cubestyles__Side-sc-1vb362y-2 cubestyles__Top-sc-1vb362y-6 hwnPJw"
+          />
+          <div
+            class="cubestyles__Side-sc-1vb362y-2 cubestyles__Bottom-sc-1vb362y-7 hjjLcu"
+          >
+            <div
+              class="borderTracerstyles__Tracer-sc-1r1qxoe-0 ilFFkC"
+            />
+          </div>
+          <div
+            class="cubestyles__Side-sc-1vb362y-2 cubestyles__Left-sc-1vb362y-5 hycNjz"
+          >
+            <div
+              class="borderTracerstyles__Tracer-sc-1r1qxoe-0 fciCgU"
+              direction="left"
+            />
+          </div>
+          <div
+            class="cubestyles__Side-sc-1vb362y-2 cubestyles__Right-sc-1vb362y-4 IQXWF"
+          >
+            <div
+              class="borderTracerstyles__Tracer-sc-1r1qxoe-0 ilFFkC"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="cubestyles__Container-sc-1vb362y-0 dbAyNz"
+    >
+      <div
+        class="cubestyles__Polygon-sc-1vb362y-1 fPdTlb"
+      >
+        <div
+          class="cubestyles__Side-sc-1vb362y-2 cubestyles__Front-sc-1vb362y-8 juECso"
+        >
+          <div
+            class="borderTracerstyles__Tracer-sc-1r1qxoe-0 fciCgU"
+            direction="left"
+          />
+        </div>
+        <div
+          class="cubestyles__Side-sc-1vb362y-2 cubestyles__Back-sc-1vb362y-3 dUhIOW"
+        >
+          <div
+            class="borderTracerstyles__Tracer-sc-1r1qxoe-0 ilFFkC"
+          />
+        </div>
+        <div
+          class="cubestyles__Side-sc-1vb362y-2 cubestyles__Top-sc-1vb362y-6 hwnPJw"
+        />
+        <div
+          class="cubestyles__Side-sc-1vb362y-2 cubestyles__Bottom-sc-1vb362y-7 hjjLcu"
+        >
+          <div
+            class="borderTracerstyles__Tracer-sc-1r1qxoe-0 ilFFkC"
+          />
+        </div>
+        <div
+          class="cubestyles__Side-sc-1vb362y-2 cubestyles__Left-sc-1vb362y-5 hycNjz"
+        >
+          <div
+            class="borderTracerstyles__Tracer-sc-1r1qxoe-0 fciCgU"
+            direction="left"
+          />
+        </div>
+        <div
+          class="cubestyles__Side-sc-1vb362y-2 cubestyles__Right-sc-1vb362y-4 IQXWF"
+        >
+          <div
+            class="borderTracerstyles__Tracer-sc-1r1qxoe-0 ilFFkC"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

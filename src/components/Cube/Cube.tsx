@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import BorderTracer from 'components/BorderTracer';
+import { BorderTracer } from 'components/BorderTracer/BorderTracer';
 import {
   Container,
   Polygon,

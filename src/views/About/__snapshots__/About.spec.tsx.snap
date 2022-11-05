@@ -21,7 +21,7 @@ exports[`View -> About should render the About view without throwing an error 1`
                 class="cubestyles__Side-sc-1vb362y-2 cubestyles__Front-sc-1vb362y-8 juECso"
               >
                 <div
-                  class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
+                  class="borderTracerstyles__Tracer-sc-1r1qxoe-0 fciCgU"
                   direction="left"
                 />
               </div>
@@ -29,7 +29,7 @@ exports[`View -> About should render the About view without throwing an error 1`
                 class="cubestyles__Side-sc-1vb362y-2 cubestyles__Back-sc-1vb362y-3 dUhIOW"
               >
                 <div
-                  class="styles__Tracer-sc-18vfsm6-0 lKbcB"
+                  class="borderTracerstyles__Tracer-sc-1r1qxoe-0 ilFFkC"
                 />
               </div>
               <div
@@ -39,14 +39,14 @@ exports[`View -> About should render the About view without throwing an error 1`
                 class="cubestyles__Side-sc-1vb362y-2 cubestyles__Bottom-sc-1vb362y-7 hjjLcu"
               >
                 <div
-                  class="styles__Tracer-sc-18vfsm6-0 lKbcB"
+                  class="borderTracerstyles__Tracer-sc-1r1qxoe-0 ilFFkC"
                 />
               </div>
               <div
                 class="cubestyles__Side-sc-1vb362y-2 cubestyles__Left-sc-1vb362y-5 hycNjz"
               >
                 <div
-                  class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
+                  class="borderTracerstyles__Tracer-sc-1r1qxoe-0 fciCgU"
                   direction="left"
                 />
               </div>
@@ -54,7 +54,7 @@ exports[`View -> About should render the About view without throwing an error 1`
                 class="cubestyles__Side-sc-1vb362y-2 cubestyles__Right-sc-1vb362y-4 IQXWF"
               >
                 <div
-                  class="styles__Tracer-sc-18vfsm6-0 lKbcB"
+                  class="borderTracerstyles__Tracer-sc-1r1qxoe-0 ilFFkC"
                 />
               </div>
             </div>
@@ -89,7 +89,7 @@ exports[`View -> About should render the About view without throwing an error 1`
           <p>
             Drawing has been my happy place for as long as I can remember. While building software keeps the puzzle solving part of my brain busy, illustration, artwork, and tinkering have allowed me to stretch my creative boundaries. In my downtime I've drawn comics, exhibited artwork, designed and produced 3D prints, and made 
             <a
-              class="styles__Link-sc-1rd8ebj-0 jONwCq aboutstyles__SleeperLink-sc-uyf972-6 knvpDU"
+              class="linkstyles__Link-sc-1pbtd1d-0 eIkehY aboutstyles__SleeperLink-sc-uyf972-6 knvpDU"
               href="https://www.youtube.com/watch?v=7xk4LmZ6hwc"
               rel="noopener noreferrer"
               target="_blank"
@@ -188,7 +188,7 @@ exports[`View -> About should render the About view without throwing an error 1`
             Disable JavaScript to enable the noscript version!
           </p>
           <a
-            class="styles__Link-sc-1rd8ebj-0 jONwCq"
+            class="linkstyles__Link-sc-1pbtd1d-0 eIkehY"
             href="https://github.com/fantasticmrdavid/fantasticmrdavid"
             rel="noopener noreferrer"
             target="_blank"
@@ -216,7 +216,7 @@ exports[`View -> About should render the About view without throwing an error 1`
               class="cubestyles__Side-sc-1vb362y-2 cubestyles__Front-sc-1vb362y-8 juECso"
             >
               <div
-                class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
+                class="borderTracerstyles__Tracer-sc-1r1qxoe-0 fciCgU"
                 direction="left"
               />
             </div>
@@ -224,7 +224,7 @@ exports[`View -> About should render the About view without throwing an error 1`
               class="cubestyles__Side-sc-1vb362y-2 cubestyles__Back-sc-1vb362y-3 dUhIOW"
             >
               <div
-                class="styles__Tracer-sc-18vfsm6-0 lKbcB"
+                class="borderTracerstyles__Tracer-sc-1r1qxoe-0 ilFFkC"
               />
             </div>
             <div
@@ -234,14 +234,14 @@ exports[`View -> About should render the About view without throwing an error 1`
               class="cubestyles__Side-sc-1vb362y-2 cubestyles__Bottom-sc-1vb362y-7 hjjLcu"
             >
               <div
-                class="styles__Tracer-sc-18vfsm6-0 lKbcB"
+                class="borderTracerstyles__Tracer-sc-1r1qxoe-0 ilFFkC"
               />
             </div>
             <div
               class="cubestyles__Side-sc-1vb362y-2 cubestyles__Left-sc-1vb362y-5 hycNjz"
             >
               <div
-                class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
+                class="borderTracerstyles__Tracer-sc-1r1qxoe-0 fciCgU"
                 direction="left"
               />
             </div>
@@ -249,7 +249,7 @@ exports[`View -> About should render the About view without throwing an error 1`
               class="cubestyles__Side-sc-1vb362y-2 cubestyles__Right-sc-1vb362y-4 IQXWF"
             >
               <div
-                class="styles__Tracer-sc-18vfsm6-0 lKbcB"
+                class="borderTracerstyles__Tracer-sc-1r1qxoe-0 ilFFkC"
               />
             </div>
           </div>
@@ -284,7 +284,7 @@ exports[`View -> About should render the About view without throwing an error 1`
         <p>
           Drawing has been my happy place for as long as I can remember. While building software keeps the puzzle solving part of my brain busy, illustration, artwork, and tinkering have allowed me to stretch my creative boundaries. In my downtime I've drawn comics, exhibited artwork, designed and produced 3D prints, and made 
           <a
-            class="styles__Link-sc-1rd8ebj-0 jONwCq aboutstyles__SleeperLink-sc-uyf972-6 knvpDU"
+            class="linkstyles__Link-sc-1pbtd1d-0 eIkehY aboutstyles__SleeperLink-sc-uyf972-6 knvpDU"
             href="https://www.youtube.com/watch?v=7xk4LmZ6hwc"
             rel="noopener noreferrer"
             target="_blank"
@@ -383,7 +383,7 @@ exports[`View -> About should render the About view without throwing an error 1`
           Disable JavaScript to enable the noscript version!
         </p>
         <a
-          class="styles__Link-sc-1rd8ebj-0 jONwCq"
+          class="linkstyles__Link-sc-1pbtd1d-0 eIkehY"
           href="https://github.com/fantasticmrdavid/fantasticmrdavid"
           rel="noopener noreferrer"
           target="_blank"

@@ -1,7 +1,7 @@
 import React, { memo, useState } from 'react';
 import { FaAngleDown, FaCog } from 'react-icons/fa';
 import { Blinker } from 'components/Blinker/Blinker';
-import MenuLink from 'components/MenuLink';
+import { MenuLink } from 'components/MenuLink/MenuLink';
 import { LOCATIONS } from 'routers/constants';
 import menu from './menu';
 import {

@@ -1,7 +1,7 @@
 import styled, { css, keyframes } from 'styled-components';
 import theme from 'styles/theme';
 import { media } from 'styles/utils';
-import ComponentIcon from 'components/Icon';
+import { Icon as ComponentIcon } from 'components/Icon/Icon';
 import { fadeOut } from 'styles/animations';
 import { transparentize } from 'polished';
 

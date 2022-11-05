@@ -1,0 +1,1672 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component -> ScopeSpinner should render the ScopeSpinner without throwing an error 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="scopeSpinnerstyles__Container-sc-1pvvmja-0 cEmrgc"
+      >
+        <div
+          class="ringstyles__Container-sc-11bb9z-0 kYJPPQ"
+          size="210"
+          speed="2.5"
+        >
+          <div
+            class="ringstyles__Mask-sc-11bb9z-2 ekHXmf"
+            speed="2.5"
+          >
+            <div
+              class="ringstyles__Circle-sc-11bb9z-1 gVmwPZ"
+              size="210"
+              stroke-width="12"
+            />
+          </div>
+        </div>
+        <div
+          class="ringstyles__Container-sc-11bb9z-0 bSGejN"
+          size="210"
+          speed="2.5"
+        >
+          <div
+            class="ringstyles__Mask-sc-11bb9z-2 iooLja"
+            speed="2.5"
+          >
+            <div
+              class="ringstyles__Circle-sc-11bb9z-1 dJFcrO"
+              size="210"
+              stroke-width="2"
+            />
+          </div>
+        </div>
+        <div
+          class="ringstyles__Container-sc-11bb9z-0 cPXDGV"
+          size="200"
+          speed="2.5"
+        >
+          <div
+            class="ringstyles__Mask-sc-11bb9z-2 gaOPvk"
+            speed="2.5"
+          >
+            <div
+              class="ringstyles__Circle-sc-11bb9z-1 iamgEN"
+              size="200"
+              stroke-width="4"
+            />
+          </div>
+        </div>
+        <div
+          class="ringstyles__Container-sc-11bb9z-0 cTCrgP"
+          size="150"
+          speed="1"
+        >
+          <div
+            class="ringstyles__Mask-sc-11bb9z-2 etuPyU"
+            speed="1"
+          >
+            <div
+              class="ringstyles__Circle-sc-11bb9z-1 eWPhFQ"
+              size="150"
+              stroke-width="6"
+            />
+          </div>
+        </div>
+        <div
+          class="ringstyles__Container-sc-11bb9z-0 gbjbDT"
+          size="150"
+          speed="1"
+        >
+          <div
+            class="ringstyles__Mask-sc-11bb9z-2 bRtPrz"
+            speed="1"
+          >
+            <div
+              class="ringstyles__Circle-sc-11bb9z-1 bfJlCa"
+              size="150"
+              stroke-width="2"
+            />
+          </div>
+        </div>
+        <div
+          class="ringstyles__Container-sc-11bb9z-0 dXewyT"
+          size="120"
+          speed="1"
+        >
+          <div
+            class="ringstyles__Mask-sc-11bb9z-2 AMnWK"
+            speed="1"
+          >
+            <div
+              class="ringstyles__Circle-sc-11bb9z-1 yTsPO"
+              size="120"
+              stroke-width="20"
+            />
+          </div>
+        </div>
+        <div
+          class="ringstyles__Container-sc-11bb9z-0 kztAee"
+          size="100"
+          speed="0.5"
+        >
+          <div
+            class="ringstyles__Mask-sc-11bb9z-2 hVKrzF"
+            speed="0.5"
+          >
+            <div
+              class="ringstyles__Circle-sc-11bb9z-1 buuoKo"
+              size="100"
+              stroke-width="3"
+            />
+          </div>
+        </div>
+        <div
+          class="ringstyles__Container-sc-11bb9z-0 kztAee"
+          size="100"
+          speed="0.5"
+        >
+          <div
+            class="ringstyles__Mask-sc-11bb9z-2 lobQfx"
+            speed="0.5"
+          >
+            <div
+              class="ringstyles__Circle-sc-11bb9z-1 jclbjy"
+              size="100"
+              stroke-width="8"
+            />
+          </div>
+        </div>
+        <div
+          class="dialstyles__Container-sc-1eiuh6u-0 jUjzJp"
+          size="145"
+          speed="4"
+        >
+          <div
+            class="dialstyles__Mask-sc-1eiuh6u-2 kJFSAo"
+            speed="4"
+          >
+            <div
+              class="dialstyles__Ring-sc-1eiuh6u-1 kBgWXk"
+              size="145"
+            >
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 ctuwms"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 bWJpjw"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 frCytf"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 cebcbQ"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 hlsNVD"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 ehIgaz"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 iSBJKk"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 eOYfmw"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 UbDAJ"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 cvETOS"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 lgaxsQ"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 dsvseH"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 cJboBh"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 khHyyA"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 fPtWDR"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 hxfkfY"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 etRynM"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 dfoCdG"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 diGvpv"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 lURQt"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 dEybnF"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 ilufJV"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 krucZT"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 etcrqS"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 hmNkSq"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 cDbKSE"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 eAFEAr"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 dBRmOr"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 eEuHye"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 ewGzBD"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 dgCWbg"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 dtNVPU"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 fzthGE"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 cnIFyR"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 tGmnH"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 cEYWks"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 hCCCdv"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 cUpkEZ"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 dkTrIK"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 jqtyuE"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 ckPDRn"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 dalsuT"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 fuEswD"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 fondJC"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 dLIKIy"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 dVaWYg"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 cfUSOl"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 gJNsiX"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 gPzdSb"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 emGOHb"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 bZlsKI"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 gcTipt"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 cKnpUp"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 kaWdlA"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 bXHjNF"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 bhswui"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 CrFLg"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 lcxdxk"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 ccpRqY"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 bxfeMF"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 dqjysU"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 iuUbnj"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 gEBpOd"
+              >
+                ■
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 cfKaFP"
+              >
+                ■
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="dialstyles__Container-sc-1eiuh6u-0 iPRVcT"
+          size="130"
+          speed="4"
+        >
+          <div
+            class="dialstyles__Mask-sc-1eiuh6u-2 dyWGWS"
+            speed="4"
+          >
+            <div
+              class="dialstyles__Ring-sc-1eiuh6u-1 bsESlI"
+              size="130"
+            >
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 ctuwms"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 bWJpjw"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 frCytf"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 cebcbQ"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 hlsNVD"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 ehIgaz"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 iSBJKk"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 eOYfmw"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 UbDAJ"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 cvETOS"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 lgaxsQ"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 dsvseH"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 cJboBh"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 khHyyA"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 fPtWDR"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 hxfkfY"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 etRynM"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 dfoCdG"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 diGvpv"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 lURQt"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 dEybnF"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 ilufJV"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 krucZT"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 etcrqS"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 hmNkSq"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 cDbKSE"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 eAFEAr"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 dBRmOr"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 eEuHye"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 ewGzBD"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 dgCWbg"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 dtNVPU"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 fzthGE"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 cnIFyR"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 tGmnH"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 cEYWks"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 hCCCdv"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 cUpkEZ"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 dkTrIK"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 jqtyuE"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 ckPDRn"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 dalsuT"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 fuEswD"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 fondJC"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 dLIKIy"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 dVaWYg"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 cfUSOl"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 gJNsiX"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 gPzdSb"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 emGOHb"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 bZlsKI"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 gcTipt"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 cKnpUp"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 kaWdlA"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 bXHjNF"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 bhswui"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 CrFLg"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 lcxdxk"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 ccpRqY"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 bxfeMF"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 dqjysU"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 iuUbnj"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 gEBpOd"
+              >
+                |
+              </div>
+              <div
+                class="dialstyles__Tick-sc-1eiuh6u-3 cfKaFP"
+              >
+                |
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="scopeSpinnerstyles__Container-sc-1pvvmja-0 cEmrgc"
+    >
+      <div
+        class="ringstyles__Container-sc-11bb9z-0 kYJPPQ"
+        size="210"
+        speed="2.5"
+      >
+        <div
+          class="ringstyles__Mask-sc-11bb9z-2 ekHXmf"
+          speed="2.5"
+        >
+          <div
+            class="ringstyles__Circle-sc-11bb9z-1 gVmwPZ"
+            size="210"
+            stroke-width="12"
+          />
+        </div>
+      </div>
+      <div
+        class="ringstyles__Container-sc-11bb9z-0 bSGejN"
+        size="210"
+        speed="2.5"
+      >
+        <div
+          class="ringstyles__Mask-sc-11bb9z-2 iooLja"
+          speed="2.5"
+        >
+          <div
+            class="ringstyles__Circle-sc-11bb9z-1 dJFcrO"
+            size="210"
+            stroke-width="2"
+          />
+        </div>
+      </div>
+      <div
+        class="ringstyles__Container-sc-11bb9z-0 cPXDGV"
+        size="200"
+        speed="2.5"
+      >
+        <div
+          class="ringstyles__Mask-sc-11bb9z-2 gaOPvk"
+          speed="2.5"
+        >
+          <div
+            class="ringstyles__Circle-sc-11bb9z-1 iamgEN"
+            size="200"
+            stroke-width="4"
+          />
+        </div>
+      </div>
+      <div
+        class="ringstyles__Container-sc-11bb9z-0 cTCrgP"
+        size="150"
+        speed="1"
+      >
+        <div
+          class="ringstyles__Mask-sc-11bb9z-2 etuPyU"
+          speed="1"
+        >
+          <div
+            class="ringstyles__Circle-sc-11bb9z-1 eWPhFQ"
+            size="150"
+            stroke-width="6"
+          />
+        </div>
+      </div>
+      <div
+        class="ringstyles__Container-sc-11bb9z-0 gbjbDT"
+        size="150"
+        speed="1"
+      >
+        <div
+          class="ringstyles__Mask-sc-11bb9z-2 bRtPrz"
+          speed="1"
+        >
+          <div
+            class="ringstyles__Circle-sc-11bb9z-1 bfJlCa"
+            size="150"
+            stroke-width="2"
+          />
+        </div>
+      </div>
+      <div
+        class="ringstyles__Container-sc-11bb9z-0 dXewyT"
+        size="120"
+        speed="1"
+      >
+        <div
+          class="ringstyles__Mask-sc-11bb9z-2 AMnWK"
+          speed="1"
+        >
+          <div
+            class="ringstyles__Circle-sc-11bb9z-1 yTsPO"
+            size="120"
+            stroke-width="20"
+          />
+        </div>
+      </div>
+      <div
+        class="ringstyles__Container-sc-11bb9z-0 kztAee"
+        size="100"
+        speed="0.5"
+      >
+        <div
+          class="ringstyles__Mask-sc-11bb9z-2 hVKrzF"
+          speed="0.5"
+        >
+          <div
+            class="ringstyles__Circle-sc-11bb9z-1 buuoKo"
+            size="100"
+            stroke-width="3"
+          />
+        </div>
+      </div>
+      <div
+        class="ringstyles__Container-sc-11bb9z-0 kztAee"
+        size="100"
+        speed="0.5"
+      >
+        <div
+          class="ringstyles__Mask-sc-11bb9z-2 lobQfx"
+          speed="0.5"
+        >
+          <div
+            class="ringstyles__Circle-sc-11bb9z-1 jclbjy"
+            size="100"
+            stroke-width="8"
+          />
+        </div>
+      </div>
+      <div
+        class="dialstyles__Container-sc-1eiuh6u-0 jUjzJp"
+        size="145"
+        speed="4"
+      >
+        <div
+          class="dialstyles__Mask-sc-1eiuh6u-2 kJFSAo"
+          speed="4"
+        >
+          <div
+            class="dialstyles__Ring-sc-1eiuh6u-1 kBgWXk"
+            size="145"
+          >
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 ctuwms"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 bWJpjw"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 frCytf"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 cebcbQ"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 hlsNVD"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 ehIgaz"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 iSBJKk"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 eOYfmw"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 UbDAJ"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 cvETOS"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 lgaxsQ"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 dsvseH"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 cJboBh"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 khHyyA"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 fPtWDR"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 hxfkfY"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 etRynM"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 dfoCdG"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 diGvpv"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 lURQt"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 dEybnF"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 ilufJV"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 krucZT"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 etcrqS"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 hmNkSq"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 cDbKSE"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 eAFEAr"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 dBRmOr"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 eEuHye"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 ewGzBD"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 dgCWbg"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 dtNVPU"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 fzthGE"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 cnIFyR"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 tGmnH"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 cEYWks"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 hCCCdv"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 cUpkEZ"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 dkTrIK"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 jqtyuE"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 ckPDRn"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 dalsuT"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 fuEswD"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 fondJC"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 dLIKIy"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 dVaWYg"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 cfUSOl"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 gJNsiX"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 gPzdSb"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 emGOHb"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 bZlsKI"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 gcTipt"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 cKnpUp"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 kaWdlA"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 bXHjNF"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 bhswui"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 CrFLg"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 lcxdxk"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 ccpRqY"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 bxfeMF"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 dqjysU"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 iuUbnj"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 gEBpOd"
+            >
+              ■
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 cfKaFP"
+            >
+              ■
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="dialstyles__Container-sc-1eiuh6u-0 iPRVcT"
+        size="130"
+        speed="4"
+      >
+        <div
+          class="dialstyles__Mask-sc-1eiuh6u-2 dyWGWS"
+          speed="4"
+        >
+          <div
+            class="dialstyles__Ring-sc-1eiuh6u-1 bsESlI"
+            size="130"
+          >
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 ctuwms"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 bWJpjw"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 frCytf"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 cebcbQ"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 hlsNVD"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 ehIgaz"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 iSBJKk"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 eOYfmw"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 UbDAJ"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 cvETOS"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 lgaxsQ"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 dsvseH"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 cJboBh"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 khHyyA"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 fPtWDR"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 hxfkfY"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 etRynM"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 dfoCdG"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 diGvpv"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 lURQt"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 dEybnF"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 ilufJV"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 krucZT"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 etcrqS"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 hmNkSq"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 cDbKSE"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 eAFEAr"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 dBRmOr"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 eEuHye"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 ewGzBD"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 dgCWbg"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 dtNVPU"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 fzthGE"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 cnIFyR"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 tGmnH"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 cEYWks"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 hCCCdv"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 cUpkEZ"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 dkTrIK"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 jqtyuE"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 ckPDRn"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 dalsuT"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 fuEswD"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 fondJC"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 dLIKIy"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 dVaWYg"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 cfUSOl"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 gJNsiX"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 gPzdSb"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 emGOHb"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 bZlsKI"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 gcTipt"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 cKnpUp"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 kaWdlA"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 bXHjNF"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 bhswui"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 CrFLg"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 lcxdxk"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 ccpRqY"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 bxfeMF"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 dqjysU"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 iuUbnj"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 gEBpOd"
+            >
+              |
+            </div>
+            <div
+              class="dialstyles__Tick-sc-1eiuh6u-3 cfKaFP"
+            >
+              |
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

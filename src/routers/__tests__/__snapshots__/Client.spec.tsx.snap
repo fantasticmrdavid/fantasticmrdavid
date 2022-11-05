@@ -6,7 +6,7 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
   "baseElement": <body>
     <div>
       <div
-        class="styles__Container-sc-1i0f3dw-0 gTMMfH"
+        class="imagePreloaderstyles__Container-sc-1hm955k-0 Taydx"
       />
       <div
         class="viewstyles__Container-sc-1hkvci6-0 cttVSt"
@@ -26,16 +26,16 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
               class="logoMenustyles__Nav-sc-b71511-3 fRsXdG"
             >
               <div
-                class="styles__Container-sc-1w8m3j0-0 dmrGVg"
+                class="menuLinkstyles__Container-sc-1da8bov-0 gwazlq"
               >
                 <div
-                  class="styles__Label-sc-1w8m3j0-1 fxEqad"
+                  class="menuLinkstyles__Label-sc-1da8bov-1 dDflWd"
                   target="about"
                 >
                   About
                 </div>
                 <div
-                  class="styles__Content-sc-xptth5-0 cgeHFj"
+                  class="locationContentstyles__Content-sc-osxrd6-0 YmcJA"
                 >
                   <div>
                     Meet the captain of the ship.
@@ -43,16 +43,16 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                 </div>
               </div>
               <div
-                class="styles__Container-sc-1w8m3j0-0 dmrGVg"
+                class="menuLinkstyles__Container-sc-1da8bov-0 gwazlq"
               >
                 <div
-                  class="styles__Label-sc-1w8m3j0-1 kLVSUR"
+                  class="menuLinkstyles__Label-sc-1da8bov-1 iiqpT"
                   target="work"
                 >
                   Latest Work
                 </div>
                 <div
-                  class="styles__Content-sc-xptth5-0 cgeHFj"
+                  class="locationContentstyles__Content-sc-osxrd6-0 YmcJA"
                 >
                   <div>
                     Some things I've been working on.
@@ -60,16 +60,16 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
                 </div>
               </div>
               <div
-                class="styles__Container-sc-1w8m3j0-0 dmrGVg"
+                class="menuLinkstyles__Container-sc-1da8bov-0 gwazlq"
               >
                 <div
-                  class="styles__Label-sc-1w8m3j0-1 oFPLn"
+                  class="menuLinkstyles__Label-sc-1da8bov-1 jJlngQ"
                   target="contact"
                 >
                   Contact
                 </div>
                 <div
-                  class="styles__Content-sc-xptth5-0 cgeHFj"
+                  class="locationContentstyles__Content-sc-osxrd6-0 YmcJA"
                 >
                   <div>
                     For relaxing times, make it Suntory time.
@@ -143,17 +143,17 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
         </section>
       </div>
       <section
-        class="styles__Container-sc-hsnn8o-0 itzZCe"
+        class="popupstyles__Container-sc-s4yppy-0 elHvUq"
       >
         <div
-          class="styles__Lightbox-sc-hsnn8o-1 iCWwzy"
+          class="popupstyles__Lightbox-sc-s4yppy-1 hRyyrn"
           data-testid="popupLightbox"
         />
         <div
-          class="styles__Dialog-sc-hsnn8o-2 kkIep"
+          class="popupstyles__Dialog-sc-s4yppy-2 cHtwSM"
         >
           <div
-            class="styles__Close-sc-hsnn8o-5 jEoFoT"
+            class="popupstyles__Close-sc-s4yppy-5 hhCXdn"
             data-testid="popupClose"
           >
             X
@@ -164,7 +164,7 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
   </body>,
   "container": <div>
     <div
-      class="styles__Container-sc-1i0f3dw-0 gTMMfH"
+      class="imagePreloaderstyles__Container-sc-1hm955k-0 Taydx"
     />
     <div
       class="viewstyles__Container-sc-1hkvci6-0 cttVSt"
@@ -184,16 +184,16 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
             class="logoMenustyles__Nav-sc-b71511-3 fRsXdG"
           >
             <div
-              class="styles__Container-sc-1w8m3j0-0 dmrGVg"
+              class="menuLinkstyles__Container-sc-1da8bov-0 gwazlq"
             >
               <div
-                class="styles__Label-sc-1w8m3j0-1 fxEqad"
+                class="menuLinkstyles__Label-sc-1da8bov-1 dDflWd"
                 target="about"
               >
                 About
               </div>
               <div
-                class="styles__Content-sc-xptth5-0 cgeHFj"
+                class="locationContentstyles__Content-sc-osxrd6-0 YmcJA"
               >
                 <div>
                   Meet the captain of the ship.
@@ -201,16 +201,16 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
               </div>
             </div>
             <div
-              class="styles__Container-sc-1w8m3j0-0 dmrGVg"
+              class="menuLinkstyles__Container-sc-1da8bov-0 gwazlq"
             >
               <div
-                class="styles__Label-sc-1w8m3j0-1 kLVSUR"
+                class="menuLinkstyles__Label-sc-1da8bov-1 iiqpT"
                 target="work"
               >
                 Latest Work
               </div>
               <div
-                class="styles__Content-sc-xptth5-0 cgeHFj"
+                class="locationContentstyles__Content-sc-osxrd6-0 YmcJA"
               >
                 <div>
                   Some things I've been working on.
@@ -218,16 +218,16 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
               </div>
             </div>
             <div
-              class="styles__Container-sc-1w8m3j0-0 dmrGVg"
+              class="menuLinkstyles__Container-sc-1da8bov-0 gwazlq"
             >
               <div
-                class="styles__Label-sc-1w8m3j0-1 oFPLn"
+                class="menuLinkstyles__Label-sc-1da8bov-1 jJlngQ"
                 target="contact"
               >
                 Contact
               </div>
               <div
-                class="styles__Content-sc-xptth5-0 cgeHFj"
+                class="locationContentstyles__Content-sc-osxrd6-0 YmcJA"
               >
                 <div>
                   For relaxing times, make it Suntory time.
@@ -301,17 +301,17 @@ exports[`Router -> Client should render the Client without throwing an error 1`]
       </section>
     </div>
     <section
-      class="styles__Container-sc-hsnn8o-0 itzZCe"
+      class="popupstyles__Container-sc-s4yppy-0 elHvUq"
     >
       <div
-        class="styles__Lightbox-sc-hsnn8o-1 iCWwzy"
+        class="popupstyles__Lightbox-sc-s4yppy-1 hRyyrn"
         data-testid="popupLightbox"
       />
       <div
-        class="styles__Dialog-sc-hsnn8o-2 kkIep"
+        class="popupstyles__Dialog-sc-s4yppy-2 cHtwSM"
       >
         <div
-          class="styles__Close-sc-hsnn8o-5 jEoFoT"
+          class="popupstyles__Close-sc-s4yppy-5 hhCXdn"
           data-testid="popupClose"
         >
           X
