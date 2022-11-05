@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from "@testing-library/react";
-import Contact from 'views/Contact';
+import { Contact } from 'views/Contact/Contact';
 
 jest.mock('react-player/lazy', () => jest.fn());
 

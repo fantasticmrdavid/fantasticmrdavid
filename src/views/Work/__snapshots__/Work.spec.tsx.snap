@@ -6,13 +6,13 @@ exports[`View -> Work should render the Work UI without throwing an error 1`] = 
   "baseElement": <body>
     <div>
       <div
-        class="styles__Container-sc-bqtf1z-0 bWRxdp"
+        class="workstyles__Container-sc-l7j5a5-0 fLquhH"
       >
         <div
-          class="styles__LoadingContainer-sc-bqtf1z-1 djLVGi"
+          class="workstyles__LoadingContainer-sc-l7j5a5-1 lCHWG"
         >
           <div
-            class="styles__SpinnerPlaceholder-sc-bqtf1z-2 kLqCxX"
+            class="workstyles__SpinnerPlaceholder-sc-l7j5a5-2 iPUHlm"
           />
           <div
             class="styles__Container-sc-1i0f3dw-0 gTMMfH"
@@ -22,7 +22,7 @@ exports[`View -> Work should render the Work UI without throwing an error 1`] = 
           </div>
         </div>
         <div
-          class="styles__ProjectListContainer-sc-bqtf1z-3 dKwleU"
+          class="workstyles__ProjectListContainer-sc-l7j5a5-3 bTJrPX"
         >
           <div
             class="styles__Container-sc-10eg4h6-0 ehxLxp"
@@ -1321,13 +1321,13 @@ exports[`View -> Work should render the Work UI without throwing an error 1`] = 
   </body>,
   "container": <div>
     <div
-      class="styles__Container-sc-bqtf1z-0 bWRxdp"
+      class="workstyles__Container-sc-l7j5a5-0 fLquhH"
     >
       <div
-        class="styles__LoadingContainer-sc-bqtf1z-1 djLVGi"
+        class="workstyles__LoadingContainer-sc-l7j5a5-1 lCHWG"
       >
         <div
-          class="styles__SpinnerPlaceholder-sc-bqtf1z-2 kLqCxX"
+          class="workstyles__SpinnerPlaceholder-sc-l7j5a5-2 iPUHlm"
         />
         <div
           class="styles__Container-sc-1i0f3dw-0 gTMMfH"
@@ -1337,7 +1337,7 @@ exports[`View -> Work should render the Work UI without throwing an error 1`] = 
         </div>
       </div>
       <div
-        class="styles__ProjectListContainer-sc-bqtf1z-3 dKwleU"
+        class="workstyles__ProjectListContainer-sc-l7j5a5-3 bTJrPX"
       >
         <div
           class="styles__Container-sc-10eg4h6-0 ehxLxp"

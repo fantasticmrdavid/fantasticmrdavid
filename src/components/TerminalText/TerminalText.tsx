@@ -4,7 +4,7 @@ import { Blinker } from 'components/Blinker/Blinker';
 const LETTER_INTERVAL = 30;
 const COMPLETE_DELAY_INTERVAL = 2000;
 
-interface Props {
+interface TerminalTextProps {
   children?: string | ReactElement| undefined,
   blinker: boolean,
   onComplete?: (...args: any[]) => any,
@@ -20,7 +20,7 @@ type State = {
   paused: boolean,
 };
 
-class TerminalText extends PureComponent<Props, State> {
+export class TerminalText extends PureComponent<TerminalTextProps, State> {
   boundAddChar: () => void;
 
   boundPauseTypewriter: () => void;
@@ -29,7 +29,7 @@ class TerminalText extends PureComponent<Props, State> {
 
   typewriter: number | undefined;
 
-  constructor(props: Props) {
+  constructor(props: TerminalTextProps) {
     super(props);
     const { children } = props;
     this.state = {
@@ -115,4 +115,3 @@ class TerminalText extends PureComponent<Props, State> {
   }
 }
 
-export default TerminalText;

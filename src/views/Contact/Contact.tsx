@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactPlayer from 'react-player/lazy';
 import { isMobileOnly } from 'react-device-detect';
-import TerminalText from 'components/TerminalText';
+import { TerminalText } from 'components/TerminalText/TerminalText';
 import { scrollToElement } from 'helpers/dom';
 import SocialLink from './SocialLink';
 import socialLinks from './socialLinks';
@@ -15,7 +15,7 @@ import {
   Content,
   Email,
   Social,
-} from './styles';
+} from './contact.styles';
 
 const videoList = [
   'https://youtu.be/-UPxh7KJPHM?t=30', // Arkanoid
@@ -23,7 +23,7 @@ const videoList = [
   'https://youtu.be/mGMZ6Rz6olg?t=25', // Raiden
 ];
 
-export default () => {
+export const Contact = () => {
   scrollToElement('emailLink');
   return (
     <Container>

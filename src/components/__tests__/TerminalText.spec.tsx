@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from "@testing-library/react";
-import TerminalText from 'components/TerminalText';
+import { TerminalText } from 'components/TerminalText/TerminalText';
 
 const testString = 'The quick brown fox jumps over the lazy dog...';
 

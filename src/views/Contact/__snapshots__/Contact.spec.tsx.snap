@@ -6,29 +6,29 @@ exports[`View -> Contact should render the Contact view without throwing an erro
   "baseElement": <body>
     <div>
       <div
-        class="styles__Container-sc-18fbvjh-1 CUBKE"
+        class="contactstyles__Container-sc-z683o7-1 geYxKI"
       >
         <div
-          class="styles__BackgroundVideo-sc-18fbvjh-0 kWeVdk"
+          class="contactstyles__BackgroundVideo-sc-z683o7-0 kFvfWM"
         />
         <div
-          class="styles__ShuttersContainer-sc-18fbvjh-8 kdXEYH"
+          class="contactstyles__ShuttersContainer-sc-z683o7-8 iyulSY"
         >
           <div
-            class="styles__Shutter-sc-18fbvjh-7 styles__ShutterTop-sc-18fbvjh-9 kHLgPK"
+            class="contactstyles__Shutter-sc-z683o7-7 contactstyles__ShutterTop-sc-z683o7-9 bPDdzC"
           />
           <div
-            class="styles__Shutter-sc-18fbvjh-7 styles__ShutterBottom-sc-18fbvjh-10 cBSYam"
+            class="contactstyles__Shutter-sc-z683o7-7 contactstyles__ShutterBottom-sc-z683o7-10 cwbZqf"
           />
         </div>
         <div
-          class="styles__ContentContainer-sc-18fbvjh-2 ePVhmD"
+          class="contactstyles__ContentContainer-sc-z683o7-2 fsrilu"
         >
           <div
-            class="styles__Content-sc-18fbvjh-3 gZCKVI"
+            class="contactstyles__Content-sc-z683o7-3 fHVPQi"
           >
             <div
-              class="styles__Email-sc-18fbvjh-4 fMGhqD"
+              class="contactstyles__Email-sc-z683o7-4 jRCknh"
               id="emailLink"
             >
               <a
@@ -36,12 +36,12 @@ exports[`View -> Contact should render the Contact view without throwing an erro
               >
                 <div />
                 <div
-                  class="styles__Cursor-sc-cbfjlf-0 OzODf"
+                  class="blinkerstyles__Cursor-sc-itlr94-0 ljVnFn"
                 />
               </a>
             </div>
             <div
-              class="styles__Social-sc-18fbvjh-5 hUKcHu"
+              class="contactstyles__Social-sc-z683o7-5 bgeWSi"
             >
               <a
                 href="https://au.linkedin.com/in/fantasticmrdavid"
@@ -50,7 +50,7 @@ exports[`View -> Contact should render the Contact view without throwing an erro
                 title="LinkedIn"
               >
                 <div
-                  class="styles__Icon-sc-18fbvjh-6 fJSWQQ"
+                  class="contactstyles__Icon-sc-z683o7-6 kkYsnK"
                 >
                   <svg
                     fill="currentColor"
@@ -74,7 +74,7 @@ exports[`View -> Contact should render the Contact view without throwing an erro
                 title="Github"
               >
                 <div
-                  class="styles__Icon-sc-18fbvjh-6 fJSWQQ"
+                  class="contactstyles__Icon-sc-z683o7-6 kkYsnK"
                 >
                   <svg
                     fill="currentColor"
@@ -98,7 +98,7 @@ exports[`View -> Contact should render the Contact view without throwing an erro
                 title="Instagram"
               >
                 <div
-                  class="styles__Icon-sc-18fbvjh-6 fJSWQQ"
+                  class="contactstyles__Icon-sc-z683o7-6 kkYsnK"
                 >
                   <svg
                     fill="currentColor"
@@ -143,29 +143,29 @@ exports[`View -> Contact should render the Contact view without throwing an erro
   </body>,
   "container": <div>
     <div
-      class="styles__Container-sc-18fbvjh-1 CUBKE"
+      class="contactstyles__Container-sc-z683o7-1 geYxKI"
     >
       <div
-        class="styles__BackgroundVideo-sc-18fbvjh-0 kWeVdk"
+        class="contactstyles__BackgroundVideo-sc-z683o7-0 kFvfWM"
       />
       <div
-        class="styles__ShuttersContainer-sc-18fbvjh-8 kdXEYH"
+        class="contactstyles__ShuttersContainer-sc-z683o7-8 iyulSY"
       >
         <div
-          class="styles__Shutter-sc-18fbvjh-7 styles__ShutterTop-sc-18fbvjh-9 kHLgPK"
+          class="contactstyles__Shutter-sc-z683o7-7 contactstyles__ShutterTop-sc-z683o7-9 bPDdzC"
         />
         <div
-          class="styles__Shutter-sc-18fbvjh-7 styles__ShutterBottom-sc-18fbvjh-10 cBSYam"
+          class="contactstyles__Shutter-sc-z683o7-7 contactstyles__ShutterBottom-sc-z683o7-10 cwbZqf"
         />
       </div>
       <div
-        class="styles__ContentContainer-sc-18fbvjh-2 ePVhmD"
+        class="contactstyles__ContentContainer-sc-z683o7-2 fsrilu"
       >
         <div
-          class="styles__Content-sc-18fbvjh-3 gZCKVI"
+          class="contactstyles__Content-sc-z683o7-3 fHVPQi"
         >
           <div
-            class="styles__Email-sc-18fbvjh-4 fMGhqD"
+            class="contactstyles__Email-sc-z683o7-4 jRCknh"
             id="emailLink"
           >
             <a
@@ -173,12 +173,12 @@ exports[`View -> Contact should render the Contact view without throwing an erro
             >
               <div />
               <div
-                class="styles__Cursor-sc-cbfjlf-0 OzODf"
+                class="blinkerstyles__Cursor-sc-itlr94-0 ljVnFn"
               />
             </a>
           </div>
           <div
-            class="styles__Social-sc-18fbvjh-5 hUKcHu"
+            class="contactstyles__Social-sc-z683o7-5 bgeWSi"
           >
             <a
               href="https://au.linkedin.com/in/fantasticmrdavid"
@@ -187,7 +187,7 @@ exports[`View -> Contact should render the Contact view without throwing an erro
               title="LinkedIn"
             >
               <div
-                class="styles__Icon-sc-18fbvjh-6 fJSWQQ"
+                class="contactstyles__Icon-sc-z683o7-6 kkYsnK"
               >
                 <svg
                   fill="currentColor"
@@ -211,7 +211,7 @@ exports[`View -> Contact should render the Contact view without throwing an erro
               title="Github"
             >
               <div
-                class="styles__Icon-sc-18fbvjh-6 fJSWQQ"
+                class="contactstyles__Icon-sc-z683o7-6 kkYsnK"
               >
                 <svg
                   fill="currentColor"
@@ -235,7 +235,7 @@ exports[`View -> Contact should render the Contact view without throwing an erro
               title="Instagram"
             >
               <div
-                class="styles__Icon-sc-18fbvjh-6 fJSWQQ"
+                class="contactstyles__Icon-sc-z683o7-6 kkYsnK"
               >
                 <svg
                   fill="currentColor"

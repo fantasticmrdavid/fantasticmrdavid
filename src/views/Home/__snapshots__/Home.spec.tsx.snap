@@ -6,13 +6,13 @@ exports[`View -> Home should render the Home view without throwing an error 1`] 
   "baseElement": <body>
     <div>
       <div
-        class="styles__Container-sc-19v7chj-0 iavDSv"
+        class="homestyles__Container-sc-1b56dw3-0 gZpTNc"
       />
     </div>
   </body>,
   "container": <div>
     <div
-      class="styles__Container-sc-19v7chj-0 iavDSv"
+      class="homestyles__Container-sc-1b56dw3-0 gZpTNc"
     />
   </div>,
   "debug": [Function],

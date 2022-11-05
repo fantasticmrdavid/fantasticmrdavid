@@ -6,19 +6,19 @@ exports[`View -> About should render the About view without throwing an error 1`
   "baseElement": <body>
     <div>
       <div
-        class="styles__Container-sc-qm8p7s-0 eoAhMa"
+        class="aboutstyles__Container-sc-uyf972-0 siAur"
       >
         <div
-          class="styles__Bg-sc-qm8p7s-1 bPLvTD"
+          class="aboutstyles__Bg-sc-uyf972-1 gfzDIp"
         >
           <div
-            class="styles__Container-sc-1pwogyu-0 fkagAV"
+            class="cubestyles__Container-sc-1vb362y-0 eymhJL"
           >
             <div
-              class="styles__Polygon-sc-1pwogyu-1 dCIqjj"
+              class="cubestyles__Polygon-sc-1vb362y-1 fPdTlb"
             >
               <div
-                class="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 deBIOm"
+                class="cubestyles__Side-sc-1vb362y-2 cubestyles__Front-sc-1vb362y-8 juECso"
               >
                 <div
                   class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
@@ -26,24 +26,24 @@ exports[`View -> About should render the About view without throwing an error 1`
                 />
               </div>
               <div
-                class="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 gCcrQb"
+                class="cubestyles__Side-sc-1vb362y-2 cubestyles__Back-sc-1vb362y-3 dUhIOW"
               >
                 <div
                   class="styles__Tracer-sc-18vfsm6-0 lKbcB"
                 />
               </div>
               <div
-                class="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 eLxrDv"
+                class="cubestyles__Side-sc-1vb362y-2 cubestyles__Top-sc-1vb362y-6 hwnPJw"
               />
               <div
-                class="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 cpagcj"
+                class="cubestyles__Side-sc-1vb362y-2 cubestyles__Bottom-sc-1vb362y-7 hjjLcu"
               >
                 <div
                   class="styles__Tracer-sc-18vfsm6-0 lKbcB"
                 />
               </div>
               <div
-                class="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 iDSTJS"
+                class="cubestyles__Side-sc-1vb362y-2 cubestyles__Left-sc-1vb362y-5 hycNjz"
               >
                 <div
                   class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
@@ -51,7 +51,7 @@ exports[`View -> About should render the About view without throwing an error 1`
                 />
               </div>
               <div
-                class="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 fTRfub"
+                class="cubestyles__Side-sc-1vb362y-2 cubestyles__Right-sc-1vb362y-4 IQXWF"
               >
                 <div
                   class="styles__Tracer-sc-18vfsm6-0 lKbcB"
@@ -62,11 +62,11 @@ exports[`View -> About should render the About view without throwing an error 1`
         </div>
         <img
           alt="Me"
-          class="styles__ProfilePhoto-sc-qm8p7s-2 cToiw"
+          class="aboutstyles__ProfilePhoto-sc-uyf972-2 kjGNIe"
           src="/assets/images/profile.jpg"
         />
         <div
-          class="styles__Content-sc-qm8p7s-3 ciksqE"
+          class="aboutstyles__Content-sc-uyf972-3 Kvllf"
         >
           <p>
             Hi! I'm David, and I like making things.
@@ -89,7 +89,7 @@ exports[`View -> About should render the About view without throwing an error 1`
           <p>
             Drawing has been my happy place for as long as I can remember. While building software keeps the puzzle solving part of my brain busy, illustration, artwork, and tinkering have allowed me to stretch my creative boundaries. In my downtime I've drawn comics, exhibited artwork, designed and produced 3D prints, and made 
             <a
-              class="styles__Link-sc-1rd8ebj-0 jONwCq styles__SleeperLink-sc-qm8p7s-6 cFShCR"
+              class="styles__Link-sc-1rd8ebj-0 jONwCq aboutstyles__SleeperLink-sc-uyf972-6 knvpDU"
               href="https://www.youtube.com/watch?v=7xk4LmZ6hwc"
               rel="noopener noreferrer"
               target="_blank"
@@ -103,10 +103,10 @@ exports[`View -> About should render the About view without throwing an error 1`
           </h2>
           fantasticmrdavid.com.au was built with:
           <div
-            class="styles__SiteSpecs-sc-qm8p7s-4 hIVtxr"
+            class="aboutstyles__SiteSpecs-sc-uyf972-4 bJFGOs"
           >
             <div
-              class="styles__SpecsSection-sc-qm8p7s-5 dkQZmC"
+              class="aboutstyles__SpecsSection-sc-uyf972-5 dCMzbu"
             >
               <h3>
                 Environment
@@ -124,7 +124,7 @@ exports[`View -> About should render the About view without throwing an error 1`
               </ul>
             </div>
             <div
-              class="styles__SpecsSection-sc-qm8p7s-5 dkQZmC"
+              class="aboutstyles__SpecsSection-sc-uyf972-5 dCMzbu"
             >
               <h3>
                 Architecture
@@ -139,7 +139,7 @@ exports[`View -> About should render the About view without throwing an error 1`
               </ul>
             </div>
             <div
-              class="styles__SpecsSection-sc-qm8p7s-5 dkQZmC"
+              class="aboutstyles__SpecsSection-sc-uyf972-5 dCMzbu"
             >
               <h3>
                 Testing/QA
@@ -160,10 +160,13 @@ exports[`View -> About should render the About view without throwing an error 1`
                 <li>
                   Testing Library
                 </li>
+                <li>
+                  Chromatic
+                </li>
               </ul>
             </div>
             <div
-              class="styles__SpecsSection-sc-qm8p7s-5 dkQZmC"
+              class="aboutstyles__SpecsSection-sc-uyf972-5 dCMzbu"
             >
               <h3>
                 Deployment
@@ -198,19 +201,19 @@ exports[`View -> About should render the About view without throwing an error 1`
   </body>,
   "container": <div>
     <div
-      class="styles__Container-sc-qm8p7s-0 eoAhMa"
+      class="aboutstyles__Container-sc-uyf972-0 siAur"
     >
       <div
-        class="styles__Bg-sc-qm8p7s-1 bPLvTD"
+        class="aboutstyles__Bg-sc-uyf972-1 gfzDIp"
       >
         <div
-          class="styles__Container-sc-1pwogyu-0 fkagAV"
+          class="cubestyles__Container-sc-1vb362y-0 eymhJL"
         >
           <div
-            class="styles__Polygon-sc-1pwogyu-1 dCIqjj"
+            class="cubestyles__Polygon-sc-1vb362y-1 fPdTlb"
           >
             <div
-              class="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 deBIOm"
+              class="cubestyles__Side-sc-1vb362y-2 cubestyles__Front-sc-1vb362y-8 juECso"
             >
               <div
                 class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
@@ -218,24 +221,24 @@ exports[`View -> About should render the About view without throwing an error 1`
               />
             </div>
             <div
-              class="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 gCcrQb"
+              class="cubestyles__Side-sc-1vb362y-2 cubestyles__Back-sc-1vb362y-3 dUhIOW"
             >
               <div
                 class="styles__Tracer-sc-18vfsm6-0 lKbcB"
               />
             </div>
             <div
-              class="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 eLxrDv"
+              class="cubestyles__Side-sc-1vb362y-2 cubestyles__Top-sc-1vb362y-6 hwnPJw"
             />
             <div
-              class="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 cpagcj"
+              class="cubestyles__Side-sc-1vb362y-2 cubestyles__Bottom-sc-1vb362y-7 hjjLcu"
             >
               <div
                 class="styles__Tracer-sc-18vfsm6-0 lKbcB"
               />
             </div>
             <div
-              class="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 iDSTJS"
+              class="cubestyles__Side-sc-1vb362y-2 cubestyles__Left-sc-1vb362y-5 hycNjz"
             >
               <div
                 class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
@@ -243,7 +246,7 @@ exports[`View -> About should render the About view without throwing an error 1`
               />
             </div>
             <div
-              class="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 fTRfub"
+              class="cubestyles__Side-sc-1vb362y-2 cubestyles__Right-sc-1vb362y-4 IQXWF"
             >
               <div
                 class="styles__Tracer-sc-18vfsm6-0 lKbcB"
@@ -254,11 +257,11 @@ exports[`View -> About should render the About view without throwing an error 1`
       </div>
       <img
         alt="Me"
-        class="styles__ProfilePhoto-sc-qm8p7s-2 cToiw"
+        class="aboutstyles__ProfilePhoto-sc-uyf972-2 kjGNIe"
         src="/assets/images/profile.jpg"
       />
       <div
-        class="styles__Content-sc-qm8p7s-3 ciksqE"
+        class="aboutstyles__Content-sc-uyf972-3 Kvllf"
       >
         <p>
           Hi! I'm David, and I like making things.
@@ -281,7 +284,7 @@ exports[`View -> About should render the About view without throwing an error 1`
         <p>
           Drawing has been my happy place for as long as I can remember. While building software keeps the puzzle solving part of my brain busy, illustration, artwork, and tinkering have allowed me to stretch my creative boundaries. In my downtime I've drawn comics, exhibited artwork, designed and produced 3D prints, and made 
           <a
-            class="styles__Link-sc-1rd8ebj-0 jONwCq styles__SleeperLink-sc-qm8p7s-6 cFShCR"
+            class="styles__Link-sc-1rd8ebj-0 jONwCq aboutstyles__SleeperLink-sc-uyf972-6 knvpDU"
             href="https://www.youtube.com/watch?v=7xk4LmZ6hwc"
             rel="noopener noreferrer"
             target="_blank"
@@ -295,10 +298,10 @@ exports[`View -> About should render the About view without throwing an error 1`
         </h2>
         fantasticmrdavid.com.au was built with:
         <div
-          class="styles__SiteSpecs-sc-qm8p7s-4 hIVtxr"
+          class="aboutstyles__SiteSpecs-sc-uyf972-4 bJFGOs"
         >
           <div
-            class="styles__SpecsSection-sc-qm8p7s-5 dkQZmC"
+            class="aboutstyles__SpecsSection-sc-uyf972-5 dCMzbu"
           >
             <h3>
               Environment
@@ -316,7 +319,7 @@ exports[`View -> About should render the About view without throwing an error 1`
             </ul>
           </div>
           <div
-            class="styles__SpecsSection-sc-qm8p7s-5 dkQZmC"
+            class="aboutstyles__SpecsSection-sc-uyf972-5 dCMzbu"
           >
             <h3>
               Architecture
@@ -331,7 +334,7 @@ exports[`View -> About should render the About view without throwing an error 1`
             </ul>
           </div>
           <div
-            class="styles__SpecsSection-sc-qm8p7s-5 dkQZmC"
+            class="aboutstyles__SpecsSection-sc-uyf972-5 dCMzbu"
           >
             <h3>
               Testing/QA
@@ -352,10 +355,13 @@ exports[`View -> About should render the About view without throwing an error 1`
               <li>
                 Testing Library
               </li>
+              <li>
+                Chromatic
+              </li>
             </ul>
           </div>
           <div
-            class="styles__SpecsSection-sc-qm8p7s-5 dkQZmC"
+            class="aboutstyles__SpecsSection-sc-uyf972-5 dCMzbu"
           >
             <h3>
               Deployment

@@ -6,7 +6,7 @@ exports[`Component -> ScopeSpinner should render the ScopeSpinner without throwi
   "baseElement": <body>
     <div>
       <div
-        class="styles__Container-sc-5fp6d1-0 gaARso"
+        class="scopeSpinnerstyles__Container-sc-1pvvmja-0 cEmrgc"
       >
         <div
           class="styles__Container-sc-1pex0aj-0 bOPkvx"
@@ -813,7 +813,7 @@ exports[`Component -> ScopeSpinner should render the ScopeSpinner without throwi
   </body>,
   "container": <div>
     <div
-      class="styles__Container-sc-5fp6d1-0 gaARso"
+      class="scopeSpinnerstyles__Container-sc-1pvvmja-0 cEmrgc"
     >
       <div
         class="styles__Container-sc-1pex0aj-0 bOPkvx"

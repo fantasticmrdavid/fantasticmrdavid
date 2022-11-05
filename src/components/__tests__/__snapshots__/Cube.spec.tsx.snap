@@ -6,13 +6,13 @@ exports[`Component -> Cube should render the Cube in completed state without thr
   "baseElement": <body>
     <div>
       <div
-        class="styles__Container-sc-1pwogyu-0 fkagAV"
+        class="cubestyles__Container-sc-1vb362y-0 eymhJL"
       >
         <div
-          class="styles__Polygon-sc-1pwogyu-1 dCIqjj"
+          class="cubestyles__Polygon-sc-1vb362y-1 fPdTlb"
         >
           <div
-            class="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 deBIOm"
+            class="cubestyles__Side-sc-1vb362y-2 cubestyles__Front-sc-1vb362y-8 juECso"
           >
             <div
               class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
@@ -20,24 +20,24 @@ exports[`Component -> Cube should render the Cube in completed state without thr
             />
           </div>
           <div
-            class="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 gCcrQb"
+            class="cubestyles__Side-sc-1vb362y-2 cubestyles__Back-sc-1vb362y-3 dUhIOW"
           >
             <div
               class="styles__Tracer-sc-18vfsm6-0 lKbcB"
             />
           </div>
           <div
-            class="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 eLxrDv"
+            class="cubestyles__Side-sc-1vb362y-2 cubestyles__Top-sc-1vb362y-6 hwnPJw"
           />
           <div
-            class="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 cpagcj"
+            class="cubestyles__Side-sc-1vb362y-2 cubestyles__Bottom-sc-1vb362y-7 hjjLcu"
           >
             <div
               class="styles__Tracer-sc-18vfsm6-0 lKbcB"
             />
           </div>
           <div
-            class="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 iDSTJS"
+            class="cubestyles__Side-sc-1vb362y-2 cubestyles__Left-sc-1vb362y-5 hycNjz"
           >
             <div
               class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
@@ -45,7 +45,7 @@ exports[`Component -> Cube should render the Cube in completed state without thr
             />
           </div>
           <div
-            class="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 fTRfub"
+            class="cubestyles__Side-sc-1vb362y-2 cubestyles__Right-sc-1vb362y-4 IQXWF"
           >
             <div
               class="styles__Tracer-sc-18vfsm6-0 lKbcB"
@@ -57,13 +57,13 @@ exports[`Component -> Cube should render the Cube in completed state without thr
   </body>,
   "container": <div>
     <div
-      class="styles__Container-sc-1pwogyu-0 fkagAV"
+      class="cubestyles__Container-sc-1vb362y-0 eymhJL"
     >
       <div
-        class="styles__Polygon-sc-1pwogyu-1 dCIqjj"
+        class="cubestyles__Polygon-sc-1vb362y-1 fPdTlb"
       >
         <div
-          class="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 deBIOm"
+          class="cubestyles__Side-sc-1vb362y-2 cubestyles__Front-sc-1vb362y-8 juECso"
         >
           <div
             class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
@@ -71,24 +71,24 @@ exports[`Component -> Cube should render the Cube in completed state without thr
           />
         </div>
         <div
-          class="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 gCcrQb"
+          class="cubestyles__Side-sc-1vb362y-2 cubestyles__Back-sc-1vb362y-3 dUhIOW"
         >
           <div
             class="styles__Tracer-sc-18vfsm6-0 lKbcB"
           />
         </div>
         <div
-          class="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 eLxrDv"
+          class="cubestyles__Side-sc-1vb362y-2 cubestyles__Top-sc-1vb362y-6 hwnPJw"
         />
         <div
-          class="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 cpagcj"
+          class="cubestyles__Side-sc-1vb362y-2 cubestyles__Bottom-sc-1vb362y-7 hjjLcu"
         >
           <div
             class="styles__Tracer-sc-18vfsm6-0 lKbcB"
           />
         </div>
         <div
-          class="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 iDSTJS"
+          class="cubestyles__Side-sc-1vb362y-2 cubestyles__Left-sc-1vb362y-5 hycNjz"
         >
           <div
             class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
@@ -96,7 +96,7 @@ exports[`Component -> Cube should render the Cube in completed state without thr
           />
         </div>
         <div
-          class="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 fTRfub"
+          class="cubestyles__Side-sc-1vb362y-2 cubestyles__Right-sc-1vb362y-4 IQXWF"
         >
           <div
             class="styles__Tracer-sc-18vfsm6-0 lKbcB"
@@ -165,13 +165,13 @@ exports[`Component -> Cube should render the Cube in loading state without throw
   "baseElement": <body>
     <div>
       <div
-        class="styles__Container-sc-1pwogyu-0 irMsJv"
+        class="cubestyles__Container-sc-1vb362y-0 dbAyNz"
       >
         <div
-          class="styles__Polygon-sc-1pwogyu-1 dCIqjj"
+          class="cubestyles__Polygon-sc-1vb362y-1 fPdTlb"
         >
           <div
-            class="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 deBIOm"
+            class="cubestyles__Side-sc-1vb362y-2 cubestyles__Front-sc-1vb362y-8 juECso"
           >
             <div
               class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
@@ -179,24 +179,24 @@ exports[`Component -> Cube should render the Cube in loading state without throw
             />
           </div>
           <div
-            class="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 gCcrQb"
+            class="cubestyles__Side-sc-1vb362y-2 cubestyles__Back-sc-1vb362y-3 dUhIOW"
           >
             <div
               class="styles__Tracer-sc-18vfsm6-0 lKbcB"
             />
           </div>
           <div
-            class="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 eLxrDv"
+            class="cubestyles__Side-sc-1vb362y-2 cubestyles__Top-sc-1vb362y-6 hwnPJw"
           />
           <div
-            class="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 cpagcj"
+            class="cubestyles__Side-sc-1vb362y-2 cubestyles__Bottom-sc-1vb362y-7 hjjLcu"
           >
             <div
               class="styles__Tracer-sc-18vfsm6-0 lKbcB"
             />
           </div>
           <div
-            class="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 iDSTJS"
+            class="cubestyles__Side-sc-1vb362y-2 cubestyles__Left-sc-1vb362y-5 hycNjz"
           >
             <div
               class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
@@ -204,7 +204,7 @@ exports[`Component -> Cube should render the Cube in loading state without throw
             />
           </div>
           <div
-            class="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 fTRfub"
+            class="cubestyles__Side-sc-1vb362y-2 cubestyles__Right-sc-1vb362y-4 IQXWF"
           >
             <div
               class="styles__Tracer-sc-18vfsm6-0 lKbcB"
@@ -216,13 +216,13 @@ exports[`Component -> Cube should render the Cube in loading state without throw
   </body>,
   "container": <div>
     <div
-      class="styles__Container-sc-1pwogyu-0 irMsJv"
+      class="cubestyles__Container-sc-1vb362y-0 dbAyNz"
     >
       <div
-        class="styles__Polygon-sc-1pwogyu-1 dCIqjj"
+        class="cubestyles__Polygon-sc-1vb362y-1 fPdTlb"
       >
         <div
-          class="styles__Side-sc-1pwogyu-2 styles__Front-sc-1pwogyu-8 deBIOm"
+          class="cubestyles__Side-sc-1vb362y-2 cubestyles__Front-sc-1vb362y-8 juECso"
         >
           <div
             class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
@@ -230,24 +230,24 @@ exports[`Component -> Cube should render the Cube in loading state without throw
           />
         </div>
         <div
-          class="styles__Side-sc-1pwogyu-2 styles__Back-sc-1pwogyu-3 gCcrQb"
+          class="cubestyles__Side-sc-1vb362y-2 cubestyles__Back-sc-1vb362y-3 dUhIOW"
         >
           <div
             class="styles__Tracer-sc-18vfsm6-0 lKbcB"
           />
         </div>
         <div
-          class="styles__Side-sc-1pwogyu-2 styles__Top-sc-1pwogyu-6 eLxrDv"
+          class="cubestyles__Side-sc-1vb362y-2 cubestyles__Top-sc-1vb362y-6 hwnPJw"
         />
         <div
-          class="styles__Side-sc-1pwogyu-2 styles__Bottom-sc-1pwogyu-7 cpagcj"
+          class="cubestyles__Side-sc-1vb362y-2 cubestyles__Bottom-sc-1vb362y-7 hjjLcu"
         >
           <div
             class="styles__Tracer-sc-18vfsm6-0 lKbcB"
           />
         </div>
         <div
-          class="styles__Side-sc-1pwogyu-2 styles__Left-sc-1pwogyu-5 iDSTJS"
+          class="cubestyles__Side-sc-1vb362y-2 cubestyles__Left-sc-1vb362y-5 hycNjz"
         >
           <div
             class="styles__Tracer-sc-18vfsm6-0 hNwUQp"
@@ -255,7 +255,7 @@ exports[`Component -> Cube should render the Cube in loading state without throw
           />
         </div>
         <div
-          class="styles__Side-sc-1pwogyu-2 styles__Right-sc-1pwogyu-4 fTRfub"
+          class="cubestyles__Side-sc-1vb362y-2 cubestyles__Right-sc-1vb362y-4 IQXWF"
         >
           <div
             class="styles__Tracer-sc-18vfsm6-0 lKbcB"

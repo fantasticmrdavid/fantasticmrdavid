@@ -10,9 +10,9 @@ import {
   SleeperLink,
   SiteSpecs,
   SpecsSection,
-} from './styles';
+} from './about.styles';
 
-export default memo(
+export const About = memo(
   () => {
     const { getIsLoading } = useContext(LoadingContext);
     const isLoading = getIsLoading();

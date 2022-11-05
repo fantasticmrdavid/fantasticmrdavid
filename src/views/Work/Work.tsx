@@ -10,9 +10,9 @@ import {
   LoadingContainer,
   ProjectListContainer,
   SpinnerPlaceholder,
-} from './styles';
+} from './work.styles';
 
-type UiProps = { target?: string };
+type WorkProps = { target?: string };
 
 const getImages = () => {
   let images: string[] = [];
@@ -31,7 +31,7 @@ const getImages = () => {
 
 const images = getImages();
 
-export default memo((props: UiProps) => {
+export const Work = memo((props: WorkProps) => {
   const { target } = props;
   const { getIsLoading, stopLoading } = useContext(LoadingContext);
   const { setWorkLocation } = useContext(WorkLocationContext);

@@ -1,20 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Component -> LogoMenu should render the LogoMenu UI without throwing an error 1`] = `
+exports[`Component -> LogoMenu should render the LogoMenu without throwing an error 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <nav
-        class="styles__Container-sc-1fdvout-0 aFnmz"
+        class="logoMenustyles__Container-sc-b71511-0 iumLTt"
       >
         <h1
-          class="styles__Title-sc-1fdvout-1 cJAooh"
+          class="logoMenustyles__Title-sc-b71511-1 idlyLX"
         >
           Fantastic Mr David
         </h1>
         <nav
-          class="styles__Nav-sc-1fdvout-3 cwEdZi"
+          class="logoMenustyles__Nav-sc-b71511-3 fRsXdG"
         >
           <div
             class="styles__Container-sc-1w8m3j0-0 dmrGVg"
@@ -69,11 +69,11 @@ exports[`Component -> LogoMenu should render the LogoMenu UI without throwing an
           </div>
         </nav>
         <div
-          class="styles__Subtitle-sc-1fdvout-4 fnJwRI"
+          class="logoMenustyles__Subtitle-sc-b71511-4 jvhLZk"
         >
           <h2>
             <div
-              class="styles__CogIconWrapper-sc-1fdvout-5 gbVFgv"
+              class="logoMenustyles__CogIconWrapper-sc-b71511-5 irrWmv"
             >
               <svg
                 fill="currentColor"
@@ -92,11 +92,11 @@ exports[`Component -> LogoMenu should render the LogoMenu UI without throwing an
             Art + Engineering
           </h2>
           <div
-            class="styles__Cursor-sc-cbfjlf-0 OzODf"
+            class="blinkerstyles__Cursor-sc-itlr94-0 ljVnFn"
           />
         </div>
         <a
-          class="styles__Cta-sc-1fdvout-2 gHsBxM"
+          class="logoMenustyles__Cta-sc-b71511-2 fjYrdv"
         >
           <svg
             fill="currentColor"
@@ -117,15 +117,15 @@ exports[`Component -> LogoMenu should render the LogoMenu UI without throwing an
   </body>,
   "container": <div>
     <nav
-      class="styles__Container-sc-1fdvout-0 aFnmz"
+      class="logoMenustyles__Container-sc-b71511-0 iumLTt"
     >
       <h1
-        class="styles__Title-sc-1fdvout-1 cJAooh"
+        class="logoMenustyles__Title-sc-b71511-1 idlyLX"
       >
         Fantastic Mr David
       </h1>
       <nav
-        class="styles__Nav-sc-1fdvout-3 cwEdZi"
+        class="logoMenustyles__Nav-sc-b71511-3 fRsXdG"
       >
         <div
           class="styles__Container-sc-1w8m3j0-0 dmrGVg"
@@ -180,11 +180,11 @@ exports[`Component -> LogoMenu should render the LogoMenu UI without throwing an
         </div>
       </nav>
       <div
-        class="styles__Subtitle-sc-1fdvout-4 fnJwRI"
+        class="logoMenustyles__Subtitle-sc-b71511-4 jvhLZk"
       >
         <h2>
           <div
-            class="styles__CogIconWrapper-sc-1fdvout-5 gbVFgv"
+            class="logoMenustyles__CogIconWrapper-sc-b71511-5 irrWmv"
           >
             <svg
               fill="currentColor"
@@ -203,11 +203,11 @@ exports[`Component -> LogoMenu should render the LogoMenu UI without throwing an
           Art + Engineering
         </h2>
         <div
-          class="styles__Cursor-sc-cbfjlf-0 OzODf"
+          class="blinkerstyles__Cursor-sc-itlr94-0 ljVnFn"
         />
       </div>
       <a
-        class="styles__Cta-sc-1fdvout-2 gHsBxM"
+        class="logoMenustyles__Cta-sc-b71511-2 fjYrdv"
       >
         <svg
           fill="currentColor"

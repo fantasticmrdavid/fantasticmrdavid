@@ -6,13 +6,13 @@ exports[`Component -> Blinker should render the Blinker without throwing an erro
   "baseElement": <body>
     <div>
       <div
-        class="styles__Cursor-sc-cbfjlf-0 OzODf"
+        class="blinkerstyles__Cursor-sc-itlr94-0 ljVnFn"
       />
     </div>
   </body>,
   "container": <div>
     <div
-      class="styles__Cursor-sc-cbfjlf-0 OzODf"
+      class="blinkerstyles__Cursor-sc-itlr94-0 ljVnFn"
     />
   </div>,
   "debug": [Function],

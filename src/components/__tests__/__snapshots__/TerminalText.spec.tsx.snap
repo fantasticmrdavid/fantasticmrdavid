@@ -7,14 +7,14 @@ exports[`Component -> TerminalText should render the TerminalText with a compone
     <div>
       <div />
       <div
-        class="styles__Cursor-sc-cbfjlf-0 OzODf"
+        class="blinkerstyles__Cursor-sc-itlr94-0 ljVnFn"
       />
     </div>
   </body>,
   "container": <div>
     <div />
     <div
-      class="styles__Cursor-sc-cbfjlf-0 OzODf"
+      class="blinkerstyles__Cursor-sc-itlr94-0 ljVnFn"
     />
   </div>,
   "debug": [Function],
@@ -78,14 +78,14 @@ exports[`Component -> TerminalText should render the TerminalText with a string 
     <div>
       <div />
       <div
-        class="styles__Cursor-sc-cbfjlf-0 OzODf"
+        class="blinkerstyles__Cursor-sc-itlr94-0 ljVnFn"
       />
     </div>
   </body>,
   "container": <div>
     <div />
     <div
-      class="styles__Cursor-sc-cbfjlf-0 OzODf"
+      class="blinkerstyles__Cursor-sc-itlr94-0 ljVnFn"
     />
   </div>,
   "debug": [Function],
