@@ -1,6 +1,6 @@
 import React, { memo, useState } from 'react';
 import { FaAngleDown, FaCog } from 'react-icons/fa';
-import Blinker from 'components/Blinker';
+import { Blinker } from 'components/Blinker/Blinker';
 import MenuLink from 'components/MenuLink';
 import { LOCATIONS } from 'routers/constants';
 import menu from './menu';
@@ -11,12 +11,12 @@ import {
   Subtitle,
   Cta,
   CogIconWrapper,
-} from './styles';
+} from './logoMenu.styles';
 
-type UiProps = { location?: typeof LOCATIONS[keyof typeof LOCATIONS] };
+export type LogoMenuProps = { location?: typeof LOCATIONS[keyof typeof LOCATIONS] };
 
-export default memo(
-  ({ location }: UiProps) => {
+export const LogoMenu = memo(
+  ({ location }: LogoMenuProps) => {
     const [isOpen, setOpen] = useState<boolean>(false);
     const handleClick = () => setOpen(!isOpen);
 

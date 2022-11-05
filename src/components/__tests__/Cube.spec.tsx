@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from "@testing-library/react";
-import Cube from 'components/Cube';
+import { Cube } from 'components/Cube/Cube';
 
 describe('Component -> Cube', () => {
   it('should render the Cube in loading state without throwing an error', () => {

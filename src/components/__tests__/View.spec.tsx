@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from "@testing-library/react";
-import View from 'components/View/ui';
+import { View } from 'components/View/View';
 import { LOCATIONS } from 'routers/constants';
 
 const props = {

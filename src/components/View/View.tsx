@@ -1,5 +1,5 @@
 import React, { memo, useContext } from 'react';
-import LogoMenu from 'components/LogoMenu';
+import { LogoMenu } from 'components/LogoMenu/LogoMenu';
 import Home from 'views/Home';
 import About from 'views/About';
 import Work from 'views/Work';
@@ -15,14 +15,14 @@ import {
   ShutterTop,
   ShutterBottom,
   MediaLoadingMessage,
-} from './styles';
+} from './view.styles';
 
 export type UiProps = {
   location: typeof LOCATIONS[keyof typeof LOCATIONS],
   target?: string
 };
 
-export default memo(
+export const View = memo(
   ({
     location,
     target,
