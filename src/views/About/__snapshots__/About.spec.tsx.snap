@@ -1,0 +1,448 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`View -> About should render the About view without throwing an error 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="aboutstyles__Container-sc-uyf972-0 siAur"
+      >
+        <div
+          class="aboutstyles__Bg-sc-uyf972-1 gfzDIp"
+        >
+          <div
+            class="cubestyles__Container-sc-1vb362y-0 eymhJL"
+          >
+            <div
+              class="cubestyles__Polygon-sc-1vb362y-1 fPdTlb"
+            >
+              <div
+                class="cubestyles__Side-sc-1vb362y-2 cubestyles__Front-sc-1vb362y-8 juECso"
+              >
+                <div
+                  class="borderTracerstyles__Tracer-sc-1r1qxoe-0 fciCgU"
+                  direction="left"
+                />
+              </div>
+              <div
+                class="cubestyles__Side-sc-1vb362y-2 cubestyles__Back-sc-1vb362y-3 dUhIOW"
+              >
+                <div
+                  class="borderTracerstyles__Tracer-sc-1r1qxoe-0 ilFFkC"
+                />
+              </div>
+              <div
+                class="cubestyles__Side-sc-1vb362y-2 cubestyles__Top-sc-1vb362y-6 hwnPJw"
+              />
+              <div
+                class="cubestyles__Side-sc-1vb362y-2 cubestyles__Bottom-sc-1vb362y-7 hjjLcu"
+              >
+                <div
+                  class="borderTracerstyles__Tracer-sc-1r1qxoe-0 ilFFkC"
+                />
+              </div>
+              <div
+                class="cubestyles__Side-sc-1vb362y-2 cubestyles__Left-sc-1vb362y-5 hycNjz"
+              >
+                <div
+                  class="borderTracerstyles__Tracer-sc-1r1qxoe-0 fciCgU"
+                  direction="left"
+                />
+              </div>
+              <div
+                class="cubestyles__Side-sc-1vb362y-2 cubestyles__Right-sc-1vb362y-4 IQXWF"
+              >
+                <div
+                  class="borderTracerstyles__Tracer-sc-1r1qxoe-0 ilFFkC"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          alt="Me"
+          class="aboutstyles__ProfilePhoto-sc-uyf972-2 kjGNIe"
+          src="/assets/images/profile.jpg"
+        />
+        <div
+          class="aboutstyles__Content-sc-uyf972-3 Kvllf"
+        >
+          <p>
+            Hi! I'm David, and I like making things.
+            <br />
+            <br />
+            Since I was a kid I've been passionate about building and creating. I've always enjoyed the journey of taking an idea from concept and making it reality.
+            <br />
+            <br />
+            I firmly believe that by empowering people with problem solving technology and empathy we can build a better world together.
+          </p>
+          <h2>
+            Engineer
+          </h2>
+          <p>
+            I've been building web projects for over a decade, starting from when I was in high school and needed a simple HTML page to display my artwork. From there my journey has taken me to Full-Stack LAMP Development working on vendor-side and agency projects alike, and then to leading Front-End and UX Engineering specialising in HTML5, CSS3, ES6 JavaScript and React. I love learning about new technologies to develop better and more effective ways to solve problems and get things done.
+          </p>
+          <h2>
+            Artist
+          </h2>
+          <p>
+            Drawing has been my happy place for as long as I can remember. While building software keeps the puzzle solving part of my brain busy, illustration, artwork, and tinkering have allowed me to stretch my creative boundaries. In my downtime I've drawn comics, exhibited artwork, designed and produced 3D prints, and made 
+            <a
+              class="linkstyles__Link-sc-1pbtd1d-0 eIkehY aboutstyles__SleeperLink-sc-uyf972-6 knvpDU"
+              href="https://www.youtube.com/watch?v=7xk4LmZ6hwc"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              other random things
+            </a>
+             simply because they were too much fun.
+          </p>
+          <h2>
+            About this site
+          </h2>
+          fantasticmrdavid.com.au was built with:
+          <div
+            class="aboutstyles__SiteSpecs-sc-uyf972-4 bJFGOs"
+          >
+            <div
+              class="aboutstyles__SpecsSection-sc-uyf972-5 dCMzbu"
+            >
+              <h3>
+                Environment
+              </h3>
+              <ul>
+                <li>
+                  ES6
+                </li>
+                <li>
+                  Node.js
+                </li>
+                <li>
+                  Webpack
+                </li>
+              </ul>
+            </div>
+            <div
+              class="aboutstyles__SpecsSection-sc-uyf972-5 dCMzbu"
+            >
+              <h3>
+                Architecture
+              </h3>
+              <ul>
+                <li>
+                  React
+                </li>
+                <li>
+                  Styled-Components
+                </li>
+              </ul>
+            </div>
+            <div
+              class="aboutstyles__SpecsSection-sc-uyf972-5 dCMzbu"
+            >
+              <h3>
+                Testing/QA
+              </h3>
+              <ul>
+                <li>
+                  TypeScript
+                </li>
+                <li>
+                  ESLint
+                </li>
+                <li>
+                  Prettier
+                </li>
+                <li>
+                  Jest
+                </li>
+                <li>
+                  Testing Library
+                </li>
+                <li>
+                  Chromatic
+                </li>
+              </ul>
+            </div>
+            <div
+              class="aboutstyles__SpecsSection-sc-uyf972-5 dCMzbu"
+            >
+              <h3>
+                Deployment
+              </h3>
+              <ul>
+                <li>
+                  Github
+                </li>
+                <li>
+                  Codeship
+                </li>
+                <li>
+                  AWS
+                </li>
+              </ul>
+            </div>
+          </div>
+          <p>
+            Disable JavaScript to enable the noscript version!
+          </p>
+          <a
+            class="linkstyles__Link-sc-1pbtd1d-0 eIkehY"
+            href="https://github.com/fantasticmrdavid/fantasticmrdavid"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Visit the Github repository
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="aboutstyles__Container-sc-uyf972-0 siAur"
+    >
+      <div
+        class="aboutstyles__Bg-sc-uyf972-1 gfzDIp"
+      >
+        <div
+          class="cubestyles__Container-sc-1vb362y-0 eymhJL"
+        >
+          <div
+            class="cubestyles__Polygon-sc-1vb362y-1 fPdTlb"
+          >
+            <div
+              class="cubestyles__Side-sc-1vb362y-2 cubestyles__Front-sc-1vb362y-8 juECso"
+            >
+              <div
+                class="borderTracerstyles__Tracer-sc-1r1qxoe-0 fciCgU"
+                direction="left"
+              />
+            </div>
+            <div
+              class="cubestyles__Side-sc-1vb362y-2 cubestyles__Back-sc-1vb362y-3 dUhIOW"
+            >
+              <div
+                class="borderTracerstyles__Tracer-sc-1r1qxoe-0 ilFFkC"
+              />
+            </div>
+            <div
+              class="cubestyles__Side-sc-1vb362y-2 cubestyles__Top-sc-1vb362y-6 hwnPJw"
+            />
+            <div
+              class="cubestyles__Side-sc-1vb362y-2 cubestyles__Bottom-sc-1vb362y-7 hjjLcu"
+            >
+              <div
+                class="borderTracerstyles__Tracer-sc-1r1qxoe-0 ilFFkC"
+              />
+            </div>
+            <div
+              class="cubestyles__Side-sc-1vb362y-2 cubestyles__Left-sc-1vb362y-5 hycNjz"
+            >
+              <div
+                class="borderTracerstyles__Tracer-sc-1r1qxoe-0 fciCgU"
+                direction="left"
+              />
+            </div>
+            <div
+              class="cubestyles__Side-sc-1vb362y-2 cubestyles__Right-sc-1vb362y-4 IQXWF"
+            >
+              <div
+                class="borderTracerstyles__Tracer-sc-1r1qxoe-0 ilFFkC"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        alt="Me"
+        class="aboutstyles__ProfilePhoto-sc-uyf972-2 kjGNIe"
+        src="/assets/images/profile.jpg"
+      />
+      <div
+        class="aboutstyles__Content-sc-uyf972-3 Kvllf"
+      >
+        <p>
+          Hi! I'm David, and I like making things.
+          <br />
+          <br />
+          Since I was a kid I've been passionate about building and creating. I've always enjoyed the journey of taking an idea from concept and making it reality.
+          <br />
+          <br />
+          I firmly believe that by empowering people with problem solving technology and empathy we can build a better world together.
+        </p>
+        <h2>
+          Engineer
+        </h2>
+        <p>
+          I've been building web projects for over a decade, starting from when I was in high school and needed a simple HTML page to display my artwork. From there my journey has taken me to Full-Stack LAMP Development working on vendor-side and agency projects alike, and then to leading Front-End and UX Engineering specialising in HTML5, CSS3, ES6 JavaScript and React. I love learning about new technologies to develop better and more effective ways to solve problems and get things done.
+        </p>
+        <h2>
+          Artist
+        </h2>
+        <p>
+          Drawing has been my happy place for as long as I can remember. While building software keeps the puzzle solving part of my brain busy, illustration, artwork, and tinkering have allowed me to stretch my creative boundaries. In my downtime I've drawn comics, exhibited artwork, designed and produced 3D prints, and made 
+          <a
+            class="linkstyles__Link-sc-1pbtd1d-0 eIkehY aboutstyles__SleeperLink-sc-uyf972-6 knvpDU"
+            href="https://www.youtube.com/watch?v=7xk4LmZ6hwc"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            other random things
+          </a>
+           simply because they were too much fun.
+        </p>
+        <h2>
+          About this site
+        </h2>
+        fantasticmrdavid.com.au was built with:
+        <div
+          class="aboutstyles__SiteSpecs-sc-uyf972-4 bJFGOs"
+        >
+          <div
+            class="aboutstyles__SpecsSection-sc-uyf972-5 dCMzbu"
+          >
+            <h3>
+              Environment
+            </h3>
+            <ul>
+              <li>
+                ES6
+              </li>
+              <li>
+                Node.js
+              </li>
+              <li>
+                Webpack
+              </li>
+            </ul>
+          </div>
+          <div
+            class="aboutstyles__SpecsSection-sc-uyf972-5 dCMzbu"
+          >
+            <h3>
+              Architecture
+            </h3>
+            <ul>
+              <li>
+                React
+              </li>
+              <li>
+                Styled-Components
+              </li>
+            </ul>
+          </div>
+          <div
+            class="aboutstyles__SpecsSection-sc-uyf972-5 dCMzbu"
+          >
+            <h3>
+              Testing/QA
+            </h3>
+            <ul>
+              <li>
+                TypeScript
+              </li>
+              <li>
+                ESLint
+              </li>
+              <li>
+                Prettier
+              </li>
+              <li>
+                Jest
+              </li>
+              <li>
+                Testing Library
+              </li>
+              <li>
+                Chromatic
+              </li>
+            </ul>
+          </div>
+          <div
+            class="aboutstyles__SpecsSection-sc-uyf972-5 dCMzbu"
+          >
+            <h3>
+              Deployment
+            </h3>
+            <ul>
+              <li>
+                Github
+              </li>
+              <li>
+                Codeship
+              </li>
+              <li>
+                AWS
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p>
+          Disable JavaScript to enable the noscript version!
+        </p>
+        <a
+          class="linkstyles__Link-sc-1pbtd1d-0 eIkehY"
+          href="https://github.com/fantasticmrdavid/fantasticmrdavid"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Visit the Github repository
+        </a>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

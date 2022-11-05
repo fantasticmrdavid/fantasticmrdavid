@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import { Icon } from './styles';
+import { Icon } from './contact.styles';
 import {IconType} from "react-icons";
 
 export interface Props {

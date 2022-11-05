@@ -1,7 +1,7 @@
 import React, {
   createContext, ReactNode, FC, useState, SetStateAction, Dispatch,
 } from 'react';
-import Popup from 'components/Popup';
+import { Popup } from 'components/Popup/Popup';
 
 interface PopupState {
   isActive: boolean,

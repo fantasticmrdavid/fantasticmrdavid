@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
-import Ring from './Ring';
-import Dial from './Dial';
+import { Ring } from './Ring/Ring';
+import { Dial } from './Dial/Dial';
 import { Container } from './scopeSpinner.styles';
 
 const RingList = [
