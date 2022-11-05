@@ -1,5 +1,5 @@
 import React, { PureComponent, ReactElement } from 'react';
-import Blinker from 'components/Blinker';
+import { Blinker } from 'components/Blinker/Blinker';
 
 const LETTER_INTERVAL = 30;
 const COMPLETE_DELAY_INTERVAL = 2000;

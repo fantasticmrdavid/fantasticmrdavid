@@ -1,5 +1,5 @@
 import React, { memo, useContext, useEffect } from 'react';
-import ScopeSpinner from 'components/ScopeSpinner';
+import { ScopeSpinner } from 'components/ScopeSpinner/ScopeSpinner';
 import ImagePreloader from 'components/ImagePreloader';
 import Project from 'components/Project';
 import projects, { Project as ProjectProps } from 'data/projects';

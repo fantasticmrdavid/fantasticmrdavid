@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import Ring from './Ring';
 import Dial from './Dial';
-import { Container } from './styles';
+import { Container } from './scopeSpinner.styles';
 
 const RingList = [
   {
@@ -95,7 +95,7 @@ const DialList = [
   },
 ];
 
-export default memo(
+export const ScopeSpinner = memo(
   () => (
     <Container>
       { RingList.map((r: any, i: number) => <Ring {...r} key={`ring_${i.toString()}`} />) }

@@ -1,5 +1,5 @@
 import React, { memo, useContext } from 'react';
-import Cube from 'components/Cube';
+import { Cube } from 'components/Cube/Cube';
 import Link from 'components/Link';
 import { LoadingContext } from 'contexts/Loading';
 import {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router';
-import View from 'components/View';
+import { View } from 'components/View/View';
 import projectList from 'data/projects';
 import { ROUTE_PATHS, LOCATIONS } from 'routers/constants';
 

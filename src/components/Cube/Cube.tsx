@@ -9,11 +9,14 @@ import {
   Right,
   Top,
   Bottom,
-} from './styles';
-import { Props } from './types';
+} from './cube.styles';
 
-export default memo(
-  ({ isLoading }: Props) => (
+export interface CubeProps {
+  isLoading: boolean,
+}
+
+export const Cube = memo(
+  ({ isLoading }: CubeProps) => (
     <Container isLoading={isLoading}>
       <Polygon>
         <Front><BorderTracer direction="left" cycleColor /></Front>
