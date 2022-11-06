@@ -1,6 +1,6 @@
 import React, { memo, useCallback, useContext } from 'react';
 import { useNavigate } from "react-router-dom"
-import { Project as ProjectProps } from 'data/projects';
+import { ProjectData } from 'data/projects';
 import { WorkLocationContext } from 'contexts/WorkLocation';
 import {
   Background,
@@ -14,7 +14,7 @@ import {FaAngleLeft, FaAngleRight} from "react-icons/fa";
 
 export interface ActionProps {
   label: string,
-  project: ProjectProps,
+  project: ProjectData,
   type: string,
 }
 

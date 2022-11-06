@@ -17,6 +17,7 @@ interface LoadingContextValues {
 }
 
 interface LoadingContextProps {
+  initialValues?: LoadingState,
   children: ReactNode
 }
 
@@ -35,9 +36,10 @@ const loadingContextInitialValues = {
 export const LoadingContext = createContext<LoadingContextValues>(loadingContextInitialValues);
 
 export const LoadingProvider: FC<LoadingContextProps> = ({
+  initialValues,
   children,
 }) => {
-  const [loading, setLoading] = useState(loadingContextInitialValues.loading);
+  const [loading, setLoading] = useState(initialValues || loadingContextInitialValues.loading);
   const getIsLoading = () => Object.values(loading).some((l: boolean) => l);
   const stopLoading = () => setLoading({
     firstLoad: false,
