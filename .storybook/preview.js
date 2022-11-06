@@ -1,4 +1,6 @@
 import { MemoryRouter } from "react-router-dom";
+import { PopupProvider } from "../src/contexts/Popup";
+import { LocationProvider } from "../src/contexts/Location";
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
@@ -12,8 +14,12 @@ export const parameters = {
 
 export const decorators = [
   (Story) => (
-    <MemoryRouter>
-      <Story />
-    </MemoryRouter>
+    <PopupProvider>
+      <LocationProvider>
+        <MemoryRouter>
+          <Story />
+        </MemoryRouter>
+      </LocationProvider>
+    </PopupProvider>
   ),
 ];
