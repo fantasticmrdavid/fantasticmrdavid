@@ -1,11 +1,10 @@
 import React, {
   memo,
-  useCallback, useContext,
+  useCallback,
   useEffect,
   useReducer
 } from "react";
 import { Container } from './imagePreloader.styles';
-import { LoadingContext } from "contexts/Loading";
 
 type State = {
   completed: boolean,
@@ -40,7 +39,6 @@ interface ImagePreloaderProps {
 
 export const ImagePreloader = memo(
   ({ images, completedAction, hideCompletedCount }: ImagePreloaderProps) => {
-    const { loading, setLoading } = useContext(LoadingContext);
     const [state, dispatch] = useReducer(reducer, {
       completedCount: 0,
       completed: false,
@@ -55,14 +53,6 @@ export const ImagePreloader = memo(
     }, [state.completedCount]);
 
     images.map((i) => useEffect(() => initImage(i), [i]));
-
-    useEffect(() => {
-      if (!state.completed) {
-        setLoading({ ...loading, images: true });
-      } else {
-        setLoading({ ...loading, images: false });
-      }
-    }, [state]);
 
     useEffect(() => {
       if (!state.completed && state.completedCount === images.length) {

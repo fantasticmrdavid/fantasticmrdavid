@@ -1,7 +1,6 @@
-import React, { memo, useContext } from 'react';
+import React, { memo } from 'react';
 import { Cube } from 'components/Cube/Cube';
 import { Link } from 'components/Link/Link';
-import { LoadingContext } from 'contexts/Loading';
 import {
   Container,
   Bg,
@@ -12,10 +11,12 @@ import {
   SpecsSection,
 } from './about.styles';
 
-export const About = memo(
-  () => {
-    const { getIsLoading } = useContext(LoadingContext);
-    const isLoading = getIsLoading();
+interface AboutProps {
+  isLoading: boolean
+}
+
+export const About: React.FC<AboutProps> = memo(
+  ({ isLoading }) => {
     return (
       <Container isLoading={isLoading}>
         <Bg><Cube isLoading={isLoading} /></Bg>

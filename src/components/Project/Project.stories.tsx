@@ -16,7 +16,6 @@ import tramsformationTileOff from 'assets/images/projects/tramsformation_off.jpg
 // @ts-ignore
 import tramsformationTileOn from 'assets/images/projects/tramsformation_on.jpg'
 import { WorkLocationProvider } from "contexts/WorkLocation";
-import { LoadingProvider } from "contexts/Loading";
 
 export default {
   title: "Project",
@@ -74,19 +73,11 @@ const projectList = [
 ]
 
 export const Default = () =>
-  <LoadingProvider
-    initialValues={{
-      firstLoad: false,
-      images: false,
-      media: false,
-      popup: false,
-    }}
-  >
-    <WorkLocationProvider>
-      <Project
-        {...projectList[1]}
-        nextProject={projectList[0]}
-        previousProject= { projectList[2] }
-      />
-    </WorkLocationProvider>
-  </LoadingProvider>
+  <WorkLocationProvider>
+    <Project
+      {...projectList[1]}
+      isParentLoading={false}
+      nextProject={projectList[0]}
+      previousProject= { projectList[2] }
+    />
+  </WorkLocationProvider>

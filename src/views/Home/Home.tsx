@@ -1,10 +1,10 @@
-import React, { memo, useContext } from 'react';
-import { LoadingContext } from 'contexts/Loading';
+import React, { memo } from 'react';
 import { Container } from './home.styles';
 
-export const Home = memo(
-  () => {
-    const { getIsLoading } = useContext(LoadingContext);
-    return <Container isLoading={getIsLoading()} imgSrc="/assets/images/legoFlinders.jpg" />;
-  },
-);
+interface HomeProps {
+  isLoading: boolean
+}
+
+export const Home: React.FC<HomeProps> = memo(({ isLoading }) => {
+  return <Container isLoading={isLoading} imgSrc="/assets/images/legoFlinders.jpg" />;
+});

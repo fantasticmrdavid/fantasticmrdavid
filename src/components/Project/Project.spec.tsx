@@ -12,6 +12,7 @@ projects.map((p: ProjectData, index) => {
         render(
           <Project
             {...p}
+            isParentLoading={false}
             key={`Project_${p.target}`}
             nextProject={projects[isLast ? 0 : index + 1]}
             previousProject={projects[isFirst ? projects.length - 1 : index - 1]}

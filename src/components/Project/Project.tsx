@@ -2,10 +2,9 @@ import React, {
   memo,
   SyntheticEvent,
   useContext,
-} from 'react';
+} from "react";
 import { useNavigate } from "react-router-dom"
 import { ProjectData } from 'data/projects';
-import { LoadingContext } from 'contexts/Loading';
 import { WorkLocationContext } from 'contexts/WorkLocation';
 import { Content } from './Content/Content';
 import {
@@ -19,6 +18,7 @@ import {
 } from './project.styles';
 
 export type ProjectProps = {
+  isParentLoading: boolean,
   nextProject: ProjectData,
   previousProject: ProjectData,
 } & ProjectData;
@@ -30,11 +30,10 @@ export const Project = memo(
       tagline,
       target,
       images,
+      isParentLoading,
     } = props;
     const navigate = useNavigate()
-    const { loading } = useContext(LoadingContext);
     const { workLocation, setWorkLocation } = useContext(WorkLocationContext);
-    const isParentLoading = loading.images || loading.media;
     const isCurrent = workLocation && !isParentLoading ? workLocation === target : false;
 
     const handleTileClick = (e: SyntheticEvent) => {

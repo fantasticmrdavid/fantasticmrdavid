@@ -1,5 +1,4 @@
-import React, { memo, SyntheticEvent, useContext } from 'react';
-import { LocationContext } from 'contexts/Location';
+import React, { memo, SyntheticEvent } from 'react';
 import { LOCATIONS } from 'routers/constants';
 import {
   Container,
@@ -26,12 +25,9 @@ export const MenuLink = memo(
 
     const navigate = useNavigate();
 
-    const { setLocation } = useContext(LocationContext);
-
     const handleNavClick = (e: SyntheticEvent) => {
       e.preventDefault();
       e.stopPropagation();
-      setLocation(isCurrent ? LOCATIONS.home : target);
       navigate(`/${isCurrent ? '' : target}`);
     };
 

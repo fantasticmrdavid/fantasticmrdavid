@@ -4,6 +4,6 @@ import { About } from 'views/About/About';
 
 describe('View -> About', () => {
   it('should render the About view without throwing an error', () => {
-    expect(render(<About />)).toMatchSnapshot();
+    expect(render(<About isLoading={false} />)).toMatchSnapshot();
   });
 });

@@ -1,9 +1,8 @@
-import React, { memo, useContext, useEffect } from 'react';
+import React, { memo, useContext, useEffect, useState } from "react";
 import { ScopeSpinner } from 'components/ScopeSpinner/ScopeSpinner';
 import { ImagePreloader } from 'components/ImagePreloader/ImagePreloader';
 import { Project } from 'components/Project/Project';
 import projects, { ProjectData } from 'data/projects';
-import { LoadingContext } from 'contexts/Loading';
 import { WorkLocationContext } from 'contexts/WorkLocation';
 import {
   Container,
@@ -29,30 +28,34 @@ const getImages = () => {
   return images;
 };
 
+const getMedia = () => projects.reduce((mediaList: string[], p: ProjectData) => {
+    if (!p.media || p.media.length === 0) return mediaList;
+    return [
+      ...mediaList,
+      ...p.media.map(m => m.thumbnail),
+    ]
+  }, []);
+
 const images = getImages();
+const media = getMedia();
 
 export const Work = memo((props: WorkProps) => {
   const { target } = props;
-  const { getIsLoading, stopLoading } = useContext(LoadingContext);
+  const [ isLoading, setIsLoading ] = useState(true);
   const { setWorkLocation } = useContext(WorkLocationContext);
 
   useEffect(() => {
     if (target) setWorkLocation(target);
   }, [target])
 
-  const isLoading = getIsLoading();
-
   return (
     <Container>
       <LoadingContainer isLoading={isLoading}>
         { isLoading ? <ScopeSpinner /> : <SpinnerPlaceholder /> }
-        { images.length > 0
-          && (
-            <ImagePreloader
-              images={images}
-              completedAction={() => stopLoading()}
-            />
-          )}
+        <ImagePreloader
+          images={[...images, ...media]}
+          completedAction={() => setIsLoading(false)}
+        />
       </LoadingContainer>
 
       <ProjectListContainer isLoading={isLoading}>
@@ -64,6 +67,7 @@ export const Work = memo((props: WorkProps) => {
               <Project
                 {...p}
                 key={`Project_${p.target}`}
+                isParentLoading={isLoading}
                 nextProject={projects[isLast ? 0 : index + 1]}
                 previousProject={projects[isFirst ? projects.length - 1 : index - 1]}
               />

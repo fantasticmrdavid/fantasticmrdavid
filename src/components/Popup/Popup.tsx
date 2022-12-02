@@ -1,5 +1,4 @@
-import React, { memo, SyntheticEvent, useContext } from 'react';
-import { LoadingContext } from 'contexts/Loading';
+import React, { memo, SyntheticEvent, useState } from "react";
 import {
   Container,
   Lightbox,
@@ -8,6 +7,7 @@ import {
   Landscape,
   Portrait,
 } from './popup.styles';
+import { ImagePreloader } from "components/ImagePreloader/ImagePreloader";
 
 export type PopupProps = {
   isActive: boolean,
@@ -26,7 +26,7 @@ export const Popup = memo(
       title,
       url,
     } = props;
-    const { getIsLoading } = useContext(LoadingContext);
+    const [ isLoading, setIsLoading ] = useState(true);
 
     const handleClose = (e: SyntheticEvent) => {
       e.preventDefault();
@@ -36,7 +36,12 @@ export const Popup = memo(
     const Image = orientation === 'landscape' ? Landscape : Portrait;
 
     return (
-      <Container isLoading={getIsLoading()} isActive={isActive}>
+      <Container isLoading={isLoading} isActive={isActive}>
+        <ImagePreloader
+          hideCompletedCount
+          images={[url]}
+          completedAction={() => setIsLoading(false)}
+        />
         <Lightbox data-testid={"popupLightbox"} onClick={handleClose} />
         <Dialog>
           <Close data-testid={"popupClose"} onClick={handleClose}>X</Close>
