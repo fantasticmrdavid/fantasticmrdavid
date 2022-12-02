@@ -63,7 +63,7 @@ export const ImagePreloader = memo(
 
     return (
       <Container completed={state.completed}>
-        { !hideCompletedCount && <>{(state.completedCount / images.length) * 100}%</> }
+        { !hideCompletedCount && <>{((state.completedCount / images.length) * 100).toFixed()}%</> }
       </Container>
     );
   },
