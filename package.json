@@ -85,7 +85,7 @@
     "chromatic": "^6.11.2",
     "clean-webpack-plugin": "4.0.0",
     "copy-webpack-plugin": "11.0.0",
-    "eslint": "8.29.0",
+    "eslint": "8.30.0",
     "eslint-config-airbnb-typescript": "17.0.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-import": "2.26.0",
