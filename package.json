@@ -36,7 +36,7 @@
   },
   "homepage": "https://github.com/fantasticmrdavid/fantasticmrdavid#readme",
   "dependencies": {
-    "@babel/core": "7.20.12",
+    "@babel/core": "7.21.0",
     "ajv": "8.12.0",
     "animated-scroll-to": "2.3.0",
     "console-browserify": "1.2.0",
@@ -56,7 +56,7 @@
     "@babel/eslint-parser": "7.19.1",
     "@babel/preset-env": "7.20.2",
     "@babel/preset-react": "7.18.6",
-    "@babel/preset-typescript": "7.18.6",
+    "@babel/preset-typescript": "7.21.0",
     "@fantasticmrdavid/webpack-pwa-manifest": "4.3.2",
     "@storybook/addon-actions": "6.5.16",
     "@storybook/addon-essentials": "6.5.16",
