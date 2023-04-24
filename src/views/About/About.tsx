@@ -86,7 +86,6 @@ export const About: React.FC<AboutProps> = memo(
               <h3>Deployment</h3>
               <ul>
                 <li>Github</li>
-                <li>Codeship</li>
                 <li>AWS</li>
               </ul>
             </SpecsSection>
