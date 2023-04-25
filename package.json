@@ -27,7 +27,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "trim": "1.0.1",
-    "trim-newlines": "4.1.1",
+    "trim-newlines": "5.0.0",
     "webpack": "5.80.0",
     "jpeg-js": "0.4.4"
   },
