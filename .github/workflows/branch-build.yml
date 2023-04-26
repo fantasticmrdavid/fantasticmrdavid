@@ -6,7 +6,7 @@ on:
       - "*"
       - "!master"
 jobs:
-  build:
+  build-branch:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     env:

@@ -5,7 +5,7 @@ on:
     branches:
       - master
 jobs:
-  build:
+  build-and-deploy-to-prod:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     env:
