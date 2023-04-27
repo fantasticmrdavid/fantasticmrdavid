@@ -1,9 +1,7 @@
 name: 'Build branch'
 
-on:
-  push:
-    branches-ignore:
-      - "master"
+on: push
+
 jobs:
   build-branch:
     runs-on: ubuntu-latest
