@@ -1,8 +1,9 @@
 name: 'Build branch'
 
 on:
-  pull_request:
-    types: [opened, reopened]
+  push:
+    branches-ignore:
+      - "master"
 jobs:
   build-branch:
     runs-on: ubuntu-latest
