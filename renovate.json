@@ -15,5 +15,8 @@
         "patch"
       ]
     }
+  ],
+  "schedule": [
+    "every weekend"
   ]
 }
