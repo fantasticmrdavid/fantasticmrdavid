@@ -3489,7 +3489,7 @@
     "@storybook/csf-tools" "7.0.20"
     unplugin "^0.10.2"
 
-"@storybook/csf-tools@7.0.20":
+"@storybook/csf-tools@7.0.20", "@storybook/csf-tools@^7.0.20":
   version "7.0.20"
   resolved "https://registry.yarnpkg.com/@storybook/csf-tools/-/csf-tools-7.0.20.tgz#33947eaaf4fead1aa634d0674bdd43e55115aa49"
   integrity sha512-m68wLgN5G7XIChQrjeILBYu+4TVHfllIrIJXMZ3Gi+iplOCHsQLfA6Oa0VtTB09Ol5K2StdMHjBCoR6HfHzsXA==
