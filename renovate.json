@@ -13,7 +13,8 @@
       "matchUpdateTypes": [
         "minor",
         "patch"
-      ]
+      ],
+      "minimumReleaseAge": "3 days"
     }
   ],
   "schedule": [
