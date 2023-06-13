@@ -88,7 +88,7 @@ export const Social = styled.div`
   width: 100%;
 `;
 
-export const Icon = styled(ComponentIcon)`
+export const Icon = styled(ComponentIcon as any)`
   color: ${theme.colorLightGrey};
   margin: 0 3px;
   transition: 0.3s;

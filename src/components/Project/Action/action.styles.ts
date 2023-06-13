@@ -45,7 +45,7 @@ export const Gradient = styled.div<GradientProps>`
   opacity: 0;
 `;
 
-export const Icon = styled(ComponentIcon)`
+export const Icon = styled(ComponentIcon as any)`
   display: flex;
   align-items: center;
   justify-content: center;

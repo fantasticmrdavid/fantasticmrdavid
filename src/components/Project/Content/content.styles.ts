@@ -52,7 +52,7 @@ export const Copy = styled.div`
   }
 `;
 
-export const Link = styled(ComponentLink)`
+export const Link = styled(ComponentLink as any)`
 `;
 
 export const LinkWrapper = styled.div`

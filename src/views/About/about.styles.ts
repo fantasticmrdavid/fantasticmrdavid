@@ -97,7 +97,7 @@ export const SpecsSection = styled.div`
   }
 `;
 
-export const SleeperLink = styled(ComponentLink)`
+export const SleeperLink = styled(ComponentLink as any)`
   color: ${theme.colorTextPrimary};
   border-bottom: ${`1px solid ${transparentize(0.8, theme.colorTextPrimary)}`};
 

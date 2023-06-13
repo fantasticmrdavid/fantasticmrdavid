@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config ./webpack/prod.config.js",
-    "tsc": "tsc",
+    "tsc": "tsc --noEmit",
     "prettier": "prettier --check '**/*'",
     "clean": "rm -rf node_modules",
     "jest": "jest --no-cache --colors --update-snapshot",
