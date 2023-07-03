@@ -1,10 +1,10 @@
-import styled from 'styled-components';
-import theme from 'styles/theme';
-import { media } from 'styles/utils';
-import { Link as ComponentLink } from 'components/Link/Link';
+import styled from "styled-components";
+import theme from "styles/theme";
+import { media } from "styles/utils";
+import { Link as ComponentLink } from "components/Link/Link";
 
 interface ContainerProps {
-  current: boolean,
+  $isCurrent: boolean;
 }
 
 export const ActionsContainer = styled.div`
@@ -21,12 +21,12 @@ export const Container = styled.div<ContainerProps>`
   font-weight: 300;
   line-height: 1.3;
   margin-top: 5em;
-  max-height: ${(props) => (props.current ? '2500px' : '0px')};
+  max-height: ${(props) => (props.$isCurrent ? "2500px" : "0px")};
   padding: 5em 2.5em 0;
   transition: 1s;
   background: ${theme.colorDarkCharcoal};
-  opacity: ${(props) => (props.current ? 1 : 0)};
-  overflow: ${(props) => (props.current ? 'auto' : undefined)};
+  opacity: ${(props) => (props.$isCurrent ? 1 : 0)};
+  overflow: ${(props) => (props.$isCurrent ? "auto" : undefined)};
 `;
 
 export const Section = styled.section`
@@ -52,8 +52,7 @@ export const Copy = styled.div`
   }
 `;
 
-export const Link = styled(ComponentLink as any)`
-`;
+export const Link = styled(ComponentLink as any)``;
 
 export const LinkWrapper = styled.div`
   text-align: right;

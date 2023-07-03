@@ -1,12 +1,12 @@
-import styled, { css } from 'styled-components';
-import theme from 'styles/theme';
-import { transparentize } from 'polished';
-import { fadeIn } from 'styles/animations';
-import { media } from 'styles/utils';
-import { Link as ComponentLink } from 'components/Link/Link';
+import styled, { css } from "styled-components";
+import theme from "styles/theme";
+import { transparentize } from "polished";
+import { fadeIn } from "styles/animations";
+import { media } from "styles/utils";
+import { Link as ComponentLink } from "components/Link/Link";
 
 interface ContainerProps {
-  isLoading: boolean,
+  $isLoading: boolean;
 }
 
 export const Container = styled.div<ContainerProps>`
@@ -19,9 +19,11 @@ export const Container = styled.div<ContainerProps>`
   padding: 2em;
   background-color: ${theme.colorDarkCharcoal};
   color: ${theme.colorTextPrimary};
-  opacity: ${(props) => (props.isLoading ? 0 : 1)};
+  opacity: ${(props) => (props.$isLoading ? 0 : 1)};
   transition: 1s;
-  animation: ${css`${fadeIn} 1s ease 1`};
+  animation: ${css`
+    ${fadeIn} 1s ease 1
+  `};
   animation-fill-mode: forwards;
 
   ${media.small`
@@ -65,7 +67,7 @@ export const Content = styled.div`
     max-width: 900px;
   `}
 
-  h2{
+  h2 {
     color: ${theme.colorWhite};
   }
 

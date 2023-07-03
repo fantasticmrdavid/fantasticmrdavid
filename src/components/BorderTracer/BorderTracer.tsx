@@ -1,13 +1,13 @@
-import React, { memo } from 'react';
-import { Tracer } from './borderTracer.styles';
+import React, { memo } from "react";
+import { Tracer } from "./borderTracer.styles";
 
 interface BorderTracerProps {
-  direction?: string,
-  cycleColor?: boolean,
+  direction?: string;
+  cycleColor?: boolean;
 }
 
 export const BorderTracer = memo(
   ({ direction, cycleColor }: BorderTracerProps) => {
-    return <Tracer direction={direction} cycleColor={cycleColor} />;
-  },
+    return <Tracer $direction={direction} $cycleColor={cycleColor} />;
+  }
 );

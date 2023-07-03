@@ -1,18 +1,14 @@
-import React, { memo } from 'react';
-import {
-  Container,
-  Circle,
-  Mask,
-} from './ring.styles';
+import React, { memo } from "react";
+import { Container, Circle, Mask } from "./ring.styles";
 
 interface RingProps {
-  rotateDirection?: string,
-  size: number,
-  strokeWidth: number,
-  minSlice: number,
-  maxSlice: number,
-  maxScale?: number,
-  speed: number,
+  rotateDirection?: string;
+  size: number;
+  strokeWidth: number;
+  minSlice: number;
+  maxSlice: number;
+  maxScale?: number;
+  speed: number;
 }
 
 export const Ring = memo(
@@ -21,14 +17,19 @@ export const Ring = memo(
     minSlice,
     maxSlice,
     size,
-    rotateDirection = 'c',
+    rotateDirection = "c",
     strokeWidth,
     speed,
   }: RingProps) => (
-    <Container size={size} rotateDirection={rotateDirection} speed={speed} maxScale={maxScale}>
-      <Mask minSlice={minSlice} maxSlice={maxSlice} speed={speed}>
-        <Circle size={size} strokeWidth={strokeWidth} />
+    <Container
+      $size={size}
+      $rotateDirection={rotateDirection}
+      $speed={speed}
+      $maxScale={maxScale}
+    >
+      <Mask $minSlice={minSlice} $maxSlice={maxSlice} $speed={speed}>
+        <Circle $size={size} $strokeWidth={strokeWidth} />
       </Mask>
     </Container>
-  ),
+  )
 );

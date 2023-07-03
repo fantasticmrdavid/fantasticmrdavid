@@ -1,16 +1,14 @@
-import styled, { css, keyframes } from 'styled-components';
+import styled, { css, keyframes } from "styled-components";
 
-const colors = [
-  'rgb(255, 0, 0)',
-  'rgb(255, 0, 255)',
-  'rgb(0, 255, 255)',
-];
+const colors = ["rgb(255, 0, 0)", "rgb(255, 0, 255)", "rgb(0, 255, 255)"];
 
 const cycleColors = keyframes`
-  ${colors.map((c: string, i: number) => `
+  ${colors.map(
+    (c: string, i: number) => `
     ${i * (100 / colors.length)}% {
       background-color: ${c};
-    }`)}
+    }`
+  )}
     100% {
       background-color: ${colors[0]};
     }
@@ -95,8 +93,8 @@ const traceRight = keyframes`
 `;
 
 interface TracerProps {
-  direction?: string,
-  cycleColor?: boolean,
+  $direction?: string;
+  $cycleColor?: boolean;
 }
 
 export const Tracer = styled.div<TracerProps>`
@@ -109,10 +107,10 @@ export const Tracer = styled.div<TracerProps>`
   z-index: 1;
   background: red;
   animation: ${(props) => {
-    const { direction, cycleColor } = props;
+    const { $direction, $cycleColor } = props;
     return css`
-      ${direction === 'left' ? traceLeft : traceRight} 10s normal infinite
-      ${cycleColor ? css`, ${cycleColors} 45s normal infinite` : ''}
+      ${$direction === "left" ? traceLeft : traceRight} 10s normal infinite
+      ${$cycleColor ? css`, ${cycleColors} 45s normal infinite` : ""}
     `;
   }};
   animation-fill-mode: forwards;

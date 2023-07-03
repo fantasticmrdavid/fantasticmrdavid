@@ -1,18 +1,18 @@
-import styled from 'styled-components';
-import theme from 'styles/theme';
-import { media } from 'styles/utils';
-import { LOCATIONS } from 'routers/constants';
+import styled from "styled-components";
+import theme from "styles/theme";
+import { media } from "styles/utils";
+import { LOCATIONS } from "routers/constants";
 
 interface MediaProps {
-  location: typeof LOCATIONS[keyof typeof LOCATIONS],
+  $location: (typeof LOCATIONS)[keyof typeof LOCATIONS];
 }
 
 interface ShutterProps {
-  isFirstMediaLoading: boolean,
+  $isFirstMediaLoading: boolean;
 }
 
 interface MediaLoadingMessageProps {
-  isFirstMediaLoading: boolean,
+  $isFirstMediaLoading: boolean;
 }
 
 export const Container = styled.div`
@@ -49,7 +49,7 @@ export const Media = styled.section<MediaProps>`
   position: relative;
   display: flex;
   width: 100%;
-  height: ${(props) => (props.location === 'work' ? '100vh' : undefined)};
+  height: ${(props) => (props.$location === "work" ? "100vh" : undefined)};
 
   ${media.small`
     width: 60%;
@@ -61,7 +61,7 @@ const Shutter = styled.div<ShutterProps>`
   right: 0px;
   z-index: 18;
   width: 100%;
-  height: ${(props) => (props.isFirstMediaLoading ? '50%' : '0%')};
+  height: ${(props) => (props.$isFirstMediaLoading ? "50%" : "0%")};
   transition: 0.3s;
   background: ${theme.colorBlack};
 `;
@@ -75,7 +75,7 @@ export const ShutterBottom = styled(Shutter)`
 `;
 
 export const MediaLoadingMessage = styled.div<MediaLoadingMessageProps>`
-  display: ${(props) => (props.isFirstMediaLoading ? 'flex' : 'none')};
+  display: ${(props) => (props.$isFirstMediaLoading ? "flex" : "none")};
   position: absolute;
   width: 100%;
   height: 100%;

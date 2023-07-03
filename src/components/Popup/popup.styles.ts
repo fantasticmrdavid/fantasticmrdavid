@@ -1,11 +1,11 @@
-import styled from 'styled-components';
-import { transparentize } from 'polished';
-import theme from 'styles/theme';
-import { media } from 'styles/utils';
+import styled from "styled-components";
+import { transparentize } from "polished";
+import theme from "styles/theme";
+import { media } from "styles/utils";
 
 interface ContainerProps {
-  isLoading: boolean,
-  isActive: boolean,
+  $isLoading: boolean;
+  $isActive: boolean;
 }
 
 export const Container = styled.section<ContainerProps>`
@@ -14,12 +14,12 @@ export const Container = styled.section<ContainerProps>`
   left: 0px;
   width: 100%;
   height: 100%;
-  z-index: ${(props) => (props.isLoading || !props.isActive ? -1 : 26)};
+  z-index: ${(props) => (props.$isLoading || !props.$isActive ? -1 : 26)};
   display: flex;
   justify-content: center;
   align-items: center;
   transition: 0.5s;
-  opacity: ${(props) => (props.isLoading || !props.isActive ? 0 : 1)};
+  opacity: ${(props) => (props.$isLoading || !props.$isActive ? 0 : 1)};
 `;
 
 export const Lightbox = styled.div`

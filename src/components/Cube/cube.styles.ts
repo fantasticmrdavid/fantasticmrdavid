@@ -1,14 +1,10 @@
-import styled, { css, keyframes } from 'styled-components';
-import { transparentize } from 'polished';
+import styled, { css, keyframes } from "styled-components";
+import { transparentize } from "polished";
 
-const cubeColors = [
-  'rgb(209, 43, 43)',
-  'rgb(66, 33, 99)',
-  'rgb(0, 0, 255)',
-];
+const cubeColors = ["rgb(209, 43, 43)", "rgb(66, 33, 99)", "rgb(0, 0, 255)"];
 
 interface ContainerProps {
-  isLoading: boolean,
+  $isLoading: boolean;
 }
 
 const spin = keyframes`
@@ -17,25 +13,28 @@ const spin = keyframes`
 `;
 
 const cycleColor = keyframes`
-  ${cubeColors.map((c: string, i: number) => `
+  ${cubeColors.map(
+    (c: string, i: number) => `
     ${i * (100 / cubeColors.length)}% {
       background-color: ${transparentize(0.9, c)};
       border: ${`1px solid ${transparentize(0.8, c)}`};
-    }`)}
+    }`
+  )}
     100% {
       background-color: ${transparentize(0.9, cubeColors[0])};
       border: ${`1px solid ${transparentize(0.8, cubeColors[0])}`};
     }
 `;
 
-export const Container = styled.div`
+export const Container = styled.div<ContainerProps>`
   position: absolute;
   bottom: 0px;
   right: 0px;
   perspective: 800px;
   perspective-origin: 50% 150px;
   transition: 0.5s;
-  transform: ${css`scale(${(props: ContainerProps) => (props.isLoading ? 8 : 2)})`};
+  transform: ${(props: ContainerProps) =>
+    css`scale(${props.$isLoading ? 8 : 2})`};
 `;
 
 export const Polygon = styled.div`
@@ -44,7 +43,9 @@ export const Polygon = styled.div`
   right: -100px;
   width: 300px;
   transform-style: preserve-3d;
-  animation: ${css`${spin} 0.6s normal linear`};
+  animation: ${css`
+    ${spin} 0.6s normal linear
+  `};
   animation-fill-mode: forwards;
 `;
 
@@ -52,7 +53,9 @@ const Side = styled.div`
   position: absolute;
   width: 300px;
   height: 300px;
-  animation: ${css`${cycleColor} 45s normal infinite`};
+  animation: ${css`
+    ${cycleColor} 45s normal infinite
+  `};
 `;
 
 export const Back = styled(Side)`

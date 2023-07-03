@@ -47,27 +47,27 @@ export const Project = memo(
 
     return (
       <Container
-        isCurrent={isCurrent}
-        isOtherCurrent={isOtherCurrent}
+        $isCurrent={isCurrent}
+        $isOtherCurrent={isOtherCurrent}
       >
         <Tile
-          isCurrent={isCurrent}
-          isParentLoading={isParentLoading}
-          target={target}
-          isOtherCurrent={isOtherCurrent}
+          $isCurrent={isCurrent}
+          $isParentLoading={isParentLoading}
+          $target={target}
+          $isOtherCurrent={isOtherCurrent}
           onClick={handleTileClick}
         >
           <Image
-            isCurrent={isCurrent}
-            target={target}
-            srcOn={images.tileOn}
-            srcOff={images.tileOff}
+            $isCurrent={isCurrent}
+            $target={target}
+            $srcOn={images.tileOn}
+            $srcOff={images.tileOff}
           />
-          <TileContent isCurrent={isCurrent}>
+          <TileContent $isCurrent={isCurrent}>
             <Title>{title}</Title>
             <Tagline>{tagline}</Tagline>
           </TileContent>
-          <Close isCurrent={isCurrent}>X</Close>
+          <Close $isCurrent={isCurrent}>X</Close>
         </Tile>
         <Content {...props} isCurrent={isCurrent} />
       </Container>

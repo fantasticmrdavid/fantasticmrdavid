@@ -25,5 +25,6 @@
 		"webpack",
 		"*.config.js",
 		"<rootDir>/jest-setup.js"
-	]
+	],
+	"exclude": ["node_modules"]
 }
