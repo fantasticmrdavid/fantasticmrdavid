@@ -3,7 +3,7 @@ import theme from 'styles/theme';
 import { confirmReset } from 'styles/animations';
 
 interface ContainerProps {
-  completed: boolean,
+  $isCompleted: boolean,
 }
 
 export const Container = styled.div<ContainerProps>`
@@ -12,6 +12,6 @@ export const Container = styled.div<ContainerProps>`
   font-weight: 700;
   color: ${theme.colorWhite};
   text-align: center;
-  animation: ${(props) => (props.completed ? css`${confirmReset} 1s normal linear` : undefined)};
+  animation: ${(props) => (props.$isCompleted ? css`${confirmReset} 1s normal linear` : undefined)};
   animation-fill-mode: forwards;
 `;
