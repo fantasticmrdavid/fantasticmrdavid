@@ -31,6 +31,7 @@ export const Action = memo((props: ActionProps) => {
     navigate(`/work/${target}`);
   }, [target]);
 
+<<<<<<< Updated upstream
   return (
     <Container $type={type} onClick={handleClick} $srcOn={images.tileOn}>
       <Background $src={images.tileOff} />
@@ -43,3 +44,18 @@ export const Action = memo((props: ActionProps) => {
     </Container>
   );
 });
+=======
+    return (
+      <Container type={type} onClick={handleClick}>
+        <Background src={images.tile} />
+        <Gradient type={type} />
+        <Content>
+          { type === 'back' && <Icon icon={FaAngleLeft} />}
+          <Title>{title}</Title>
+          { type === 'next' && <Icon icon={FaAngleRight} />}
+        </Content>
+      </Container>
+    );
+  },
+);
+>>>>>>> Stashed changes

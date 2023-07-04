@@ -9,6 +9,7 @@
 		"isolatedModules": true,
 		"esModuleInterop": true,
 		"sourceMap": true,
+		"skipLibCheck": true,
 		"paths": {
 			"assets/*": ["src/assets/*"],
 			"styles/*": ["src/styles/*"],

@@ -2,19 +2,13 @@ import React from "react";
 import { Project } from "./Project";
 import { Meta } from "@storybook/react";
 // @ts-ignore
-import gaTileOff from 'assets/images/projects/ga_off.jpg'
+import gaTile from 'assets/images/projects/ga_on.jpg'
 // @ts-ignore
-import gaTileOn from 'assets/images/projects/ga_on.jpg'
-// @ts-ignore
-import legoFlindersTileOff from 'assets/images/projects/legoFlinders_off.jpg'
-// @ts-ignore
-import legoFlindersTileOn from 'assets/images/projects/legoFlinders_on.jpg'
+import legoFlindersTile from 'assets/images/projects/legoFlinders_on.jpg'
 // @ts-ignore
 import legoFlindersThumbnail from 'assets/images/projects/legoFlinders/legoFlinders_preview.jpg'
 // @ts-ignore
-import tramsformationTileOff from 'assets/images/projects/tramsformation_off.jpg'
-// @ts-ignore
-import tramsformationTileOn from 'assets/images/projects/tramsformation_on.jpg'
+import tramsformationTile from 'assets/images/projects/tramsformation_on.jpg'
 import { WorkLocationProvider } from "contexts/WorkLocation";
 
 export default {
@@ -28,8 +22,7 @@ const projectList = [
     tagline: 'Lead Instructor',
     target: 'ga',
     images: {
-      tileOff: gaTileOff,
-      tileOn: gaTileOn,
+      tile: gaTile,
     },
     url: 'https://generalassemb.ly',
     technologies: 'HTML, CSS, JavaScript, PHP',
@@ -40,8 +33,7 @@ const projectList = [
     tagline: 'CAD Art Project',
     target: 'legoFlinders',
     images: {
-      tileOff: legoFlindersTileOff,
-      tileOn: legoFlindersTileOn,
+      tile: legoFlindersTile,
     },
     products: 'Artwork, prints',
     technologies: 'LEGO Digital Designer, Photoshop, POV-Ray',
@@ -63,8 +55,7 @@ const projectList = [
     target: 'tramsformation',
     url: 'https://tramsformation.com.au',
     images: {
-      tileOff: tramsformationTileOff,
-      tileOn: tramsformationTileOn,
+      tile: tramsformationTile,
     },
     products: '3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design',
     technologies: '3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop',

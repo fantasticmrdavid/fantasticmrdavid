@@ -1,6 +1,12 @@
+<<<<<<< Updated upstream
 import styled from "styled-components";
 import theme from "styles/theme";
 import { media } from "styles/utils";
+=======
+import styled, { css } from "styled-components";
+import theme from 'styles/theme';
+import { media } from 'styles/utils';
+>>>>>>> Stashed changes
 
 interface ContainerProps {
   $isOtherCurrent: boolean;
@@ -15,10 +21,16 @@ interface TileProps {
 }
 
 interface ImageProps {
+<<<<<<< Updated upstream
   $isCurrent: boolean;
   $srcOn: string;
   $srcOff: string;
   $target: string;
+=======
+  isCurrent: boolean,
+  src: string,
+  target: string,
+>>>>>>> Stashed changes
 }
 
 interface TileContentProps {
@@ -96,8 +108,12 @@ export const Tile = styled.a<TileProps>`
 
 export const Image = styled.div<ImageProps>`
   position: absolute;
+<<<<<<< Updated upstream
   background-image: ${(props) =>
     props.$isCurrent ? `url(${props.$srcOn})` : `url(${props.$srcOff})`};
+=======
+  background-image: ${(props) => `url(${props.src})`};
+>>>>>>> Stashed changes
   background-size: cover;
   background-position: center center;
   background-position-x: ${(props) =>
@@ -108,11 +124,18 @@ export const Image = styled.div<ImageProps>`
   width: 100%;
   cursor: pointer;
   transition: 0.3s;
+  filter: ${(props) => css`grayscale(${props.isCurrent ? 0 : 1})`};
 
+<<<<<<< Updated upstream
   ${Container}:hover &[target=${(props) => props.$target}] {
     background-position-x: ${(props) =>
       props.$target === "tramsformation" ? "left" : undefined};
     background-image: ${(props) => `url(${props.$srcOn})`};
+=======
+  ${Container}:hover &[target=${(props) => props.target}] {
+    background-position-x: ${(props) => (props.target === 'tramsformation' ? 'left' : undefined)};
+    filter: grayscale(0);
+>>>>>>> Stashed changes
   }
 `;
 

@@ -4,8 +4,7 @@ export type ProjectData = {
   target: string,
   images: {
     [key: string]: string
-    tileOn: string,
-    tileOff: string,
+    tile: string,
   },
   url?: string,
   products?: string,
@@ -20,8 +19,7 @@ const projects = [
     tagline: 'Lead Front-End Engineer',
     target: 'kindynow',
     images: {
-      tileOff: '/assets/images/projects/kindynow_off.jpg',
-      tileOn: '/assets/images/projects/kindynow_on.jpg',
+      tile: '/assets/images/projects/kindynow_on.jpg',
     },
     url: 'https://www.kindynow.com',
     products: 'Child care search platform, Centre management platform, Mobile app, Admin platform',
@@ -75,8 +73,7 @@ const projects = [
     tagline: 'Front-End Engineer',
     target: 'sitepoint',
     images: {
-      tileOff: '/assets/images/projects/sitepoint_off.jpg',
-      tileOn: '/assets/images/projects/sitepoint_on.jpg',
+      tile: '/assets/images/projects/sitepoint_on.jpg',
     },
     url: 'https://www.sitepoint.com',
     products: 'Company media website, Premium platform, forums',
@@ -122,8 +119,7 @@ const projects = [
     tagline: 'CAD Art Project',
     target: 'legoFlinders',
     images: {
-      tileOff: '/assets/images/projects/legoFlinders_off.jpg',
-      tileOn: '/assets/images/projects/legoFlinders_on.jpg',
+      tile: '/assets/images/projects/legoFlinders_on.jpg',
     },
     products: 'Artwork, prints',
     technologies: 'LEGO Digital Designer, Photoshop, POV-Ray',
@@ -144,8 +140,7 @@ const projects = [
     tagline: 'Lead Instructor',
     target: 'ga',
     images: {
-      tileOff: '/assets/images/projects/ga_off.jpg',
-      tileOn: '/assets/images/projects/ga_on.jpg',
+      tile: '/assets/images/projects/ga_on.jpg',
     },
     url: 'https://generalassemb.ly',
     technologies: 'HTML, CSS, JavaScript, PHP',
@@ -157,8 +152,7 @@ const projects = [
     target: 'tramsformation',
     url: 'https://tramsformation.com.au',
     images: {
-      tileOff: '/assets/images/projects/tramsformation_off.jpg',
-      tileOn: '/assets/images/projects/tramsformation_on.jpg',
+      tile: '/assets/images/projects/tramsformation_on.jpg',
     },
     products: '3D models, artwork, website, online store, mailing list, transformable toys, packaging and collateral design',
     technologies: '3D printing, 3DS Max, ES6, React, Gatsby, Prismic, GraphQL, Photoshop',

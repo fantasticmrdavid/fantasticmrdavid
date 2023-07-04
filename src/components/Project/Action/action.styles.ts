@@ -4,8 +4,12 @@ import { media } from "styles/utils";
 import { Icon as ComponentIcon } from "components/Icon/Icon";
 
 interface ContainerProps {
+<<<<<<< Updated upstream
   $type: string;
   $srcOn: string;
+=======
+  type: string,
+>>>>>>> Stashed changes
 }
 
 interface BackgroundProps {
@@ -25,6 +29,7 @@ export const Background = styled.div<BackgroundProps>`
   background-size: cover;
   opacity: 0.3;
   transition: 0.3s;
+  filter: grayscale(1);
 `;
 
 export const Content = styled.div`
@@ -87,7 +92,11 @@ export const Container = styled.div<ContainerProps>`
 
       ${Background} {
         opacity: 1;
+<<<<<<< Updated upstream
         background-image: ${(props: ContainerProps) => `url(${props.$srcOn})`};
+=======
+        filter: grayscale(0);
+>>>>>>> Stashed changes
       }
 
       ${Gradient} {
