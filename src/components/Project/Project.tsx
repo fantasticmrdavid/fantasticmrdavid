@@ -58,16 +58,9 @@ export const Project = memo(
           onClick={handleTileClick}
         >
           <Image
-<<<<<<< Updated upstream
             $isCurrent={isCurrent}
             $target={target}
-            $srcOn={images.tileOn}
-            $srcOff={images.tileOff}
-=======
-            isCurrent={isCurrent}
-            target={target}
-            src={images.tile}
->>>>>>> Stashed changes
+            $src={images.tile}
           />
           <TileContent $isCurrent={isCurrent}>
             <Title>{title}</Title>
