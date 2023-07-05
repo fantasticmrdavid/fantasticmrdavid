@@ -1,6 +1,7 @@
 import styled, { css, keyframes } from "styled-components";
 import theme from "styles/theme";
 import { transparentize } from "polished";
+import { media } from "styles/utils";
 
 const colors = ["#269", "#195905"];
 
@@ -22,6 +23,7 @@ interface LoadingContainerProps {
 
 interface ProjectListContainerProps {
   $isLoading: boolean;
+  $hasTarget: boolean;
 }
 
 export const Container = styled.div`
@@ -31,7 +33,6 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   color: ${theme.colorTextPrimary};
-  height: 100%;
   min-height: 100%;
   width: 100%;
   overflow: hidden;
@@ -47,6 +48,10 @@ export const Container = styled.div`
   animation: ${css`
     ${cycleColors} 150s normal infinite
   `};
+  
+  ${media.small`
+    height: 100%;
+  `}
 `;
 
 export const LoadingContainer = styled.div<LoadingContainerProps>`
@@ -71,13 +76,8 @@ export const SpinnerPlaceholder = styled.div`
 `;
 
 export const ProjectListContainer = styled.div<ProjectListContainerProps>`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 100%;
   width: 100%;
   min-height: 100%;
-  transition: 1s;
   opacity: ${(props) => (props.$isLoading ? 0 : 1)};
 `;

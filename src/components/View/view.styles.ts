@@ -49,10 +49,13 @@ export const Media = styled.section<MediaProps>`
   position: relative;
   display: flex;
   width: 100%;
-  height: ${(props) => (props.$location === "work" ? "100vh" : undefined)};
 
   ${media.small`
     width: 60%;
+  `}
+
+  ${media.small`
+    height: ${(props: MediaProps) => (props.$location === "work" ? "100vh" : undefined)};
   `}
 `;
 

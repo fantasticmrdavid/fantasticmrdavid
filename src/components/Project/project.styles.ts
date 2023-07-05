@@ -33,25 +33,105 @@ export const Container = styled.div<ContainerProps>`
   box-sizing: border-box;
   display: flex;
   flex: 1;
-  perspective: 1200px;
   overflow: ${(props) => (props.$isOtherCurrent ? "hidden" : undefined)};
   width: 100%;
-  height: ${(props) => (props.$isCurrent ? "100%" : undefined)};
   max-height: ${(props) => {
     const { $isCurrent, $isOtherCurrent } = props;
     if ($isOtherCurrent) return "0px";
-    if ($isCurrent) return "none";
+    if ($isCurrent) return "100%";
     return "20%";
   }};
+  z-index: ${(props) => {
+    if (props.$isOtherCurrent) return 0;
+    if (props.$isCurrent) return 12;
+    return 0;
+  }};
+  
+  ${(props: ContainerProps) => {
+    if (props.$isCurrent) return css`height: 100%;`
+    if (!props.$isCurrent) return css`
+      ${media.small`
+      position: absolute;
+      max-height: 100%;
+      
+      &:nth-child(1){
+        height: 20%;
+        width: 55%;
+      }
+      
+      &:nth-child(2){
+        top: 5%;
+        left: 55%;
+        height: 30%;
+        width: 25%;
+      }
+      
+      &:nth-child(3){
+        right: 0;
+        height: 35%;
+        width: 20%;
+      }
+      
+      &:nth-child(4){
+        left: 5%;
+        top: 20%;
+        height: 15%;
+        width: 50%;
+      }
+      
+      &:nth-child(5){
+        top: 35%;
+        height: 40%;
+        width: 25%;
+      }
+      
+      &:nth-child(6){
+        right: 0;
+        top: 40%;
+        height: 40%;
+        width: 25%;
+      }
+      
+      &:nth-child(7){
+        right: 25%;
+        top: 35%;
+        height: 20%;
+        width: 50%;
+      }
+      
+      &:nth-child(8){
+        left: 25%;
+        bottom: 20%;
+        height: 25%;
+        width: 45%;
+      }
+      
+      &:nth-child(9){
+        left: 0;
+        bottom: 0%;
+        height: 20%;
+        width: 35%;
+      }
+      
+      &:nth-child(10){
+        right: 0;
+        bottom: 0;
+        height: 20%;
+        width: 65%;
+      }
+    `}`
+  }}
+
+  
 `;
 
 export const Tile = styled.a<TileProps>`
+  display: ${(props) => props.$isOtherCurrent ? "none" : "block"};
   position: absolute;
   box-sizing: border-box;
   width: 100%;
   height: ${(props) => (props.$isCurrent ? "4rem" : "100%")};
   top: 0px;
-  right: ${(props) => (props.$isCurrent ? "0px" : "-20px")};
   background-color: ${theme.colorCharcoal};
   background-position-y: ${(props) => {
     const { $isCurrent, $target } = props;
@@ -66,31 +146,11 @@ export const Tile = styled.a<TileProps>`
   transition: 0.5s;
   transform: ${(props: TileProps) => {
     const { $isCurrent, $isParentLoading } = props;
-    if ($isCurrent && !$isParentLoading) return "rotateY(0deg)";
-    if (!$isParentLoading) return "rotateY(20deg)";
+    if ($isCurrent || !$isParentLoading) return "rotateY(0deg)";
     return "rotateY(180deg)";
   }};
   opacity: ${(props) => (props.$isOtherCurrent ? 0 : 1)};
-  z-index: ${(props) => (props.$isCurrent ? 12 : undefined)};
-
-  ${Container}:nth-child(even) & {
-    right: ${(props: TileProps) => (props.$isCurrent ? undefined : "20px")};
-    transform: ${(props: TileProps) =>
-      props.$isCurrent ? undefined : "rotateY(-20deg)"};
-  }
-
-  ${media.hover`
-    ${Container}:hover & {
-      right: 0px;
-      z-index: 12;
-      transform: ${(props: TileProps) =>
-        props.$isCurrent ? undefined : "rotateY(0deg)"};
-    }
-    
-    ${Container}:nth-child(even):hover & {
-      right: ${(props: TileProps) => (props.$isCurrent ? undefined : "0px")};
-  }
-  `}
+  z-index: ${(props) => (props.$isOtherCurrent ? 0 : 12)};
 `;
 
 export const Image = styled.div<ImageProps>`
@@ -117,8 +177,8 @@ export const TileContent = styled.div<TileContentProps>`
   position: absolute;
   width: ${(props) => (props.$isCurrent ? "100%" : undefined)};
   bottom: ${(props) => (props.$isCurrent ? "-3.85rem" : "0px")};
-  right: 0px;
-  left: ${(props) => (props.$isCurrent ? "-0.25em" : undefined)};
+  left: -2px;
+  right: auto;
   color: ${(props) =>
     props.$isCurrent ? theme.colorWhite : theme.colorTextPrimary};
   font-weight: 300;
@@ -129,11 +189,11 @@ export const TileContent = styled.div<TileContentProps>`
     props.$isCurrent ? `1px solid ${theme.colorCharcoal}` : undefined};
   opacity: ${(props) => (props.$isCurrent ? 1 : 0.9)};
   transition: 0.3s;
-  cursor: ${(props) => (props.$isCurrent ? "default" : undefined)};
+  cursor: ${(props) => (props.$isCurrent ? "default" : "pointer")};
 
   ${Container}:nth-child(even) & {
-    right: auto;
-    left: ${(props) => (!props.$isCurrent ? "0px" : undefined)};
+    left: ${(props) => (!props.$isCurrent ? "auto" : "-2px")};
+    right: ${(props) => (!props.$isCurrent ? "0px" : undefined)};
   }
 `;
 
@@ -142,7 +202,7 @@ export const Title = styled.div`
 `;
 
 export const Tagline = styled.div`
-  padding: 0.25em 0;
+  margin-top: 0.25em;
   font-size: 0.9rem;
   text-transform: capitalize;
 `;

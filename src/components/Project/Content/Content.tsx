@@ -24,6 +24,7 @@ export const Content = memo((props: ContentProps) => {
   const {
     title,
     url,
+    urlLabel,
     products,
     technologies,
     description,
@@ -32,8 +33,6 @@ export const Content = memo((props: ContentProps) => {
     previousProject,
     isCurrent,
   } = props;
-
-  const descriptionMarkup = { __html: description };
 
   return (
     <Container $isCurrent={isCurrent}>
@@ -51,12 +50,12 @@ export const Content = memo((props: ContentProps) => {
 
       <Section>
         <Label>Description</Label>
-        <Copy dangerouslySetInnerHTML={descriptionMarkup} />
+        {description}
       </Section>
       {!!url && (
         <LinkWrapper>
           <Link href={url} target="_blank" rel="noopener noreferrer">
-            Visit {title}
+            Visit {urlLabel ? urlLabel : title}
           </Link>
         </LinkWrapper>
       )}

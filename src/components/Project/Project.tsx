@@ -1,7 +1,7 @@
 import React, {
   memo,
   SyntheticEvent,
-  useContext,
+  useContext, useState
 } from "react";
 import { useNavigate } from "react-router-dom"
 import { ProjectData } from 'data/projects';
@@ -16,6 +16,7 @@ import {
   Tagline,
   Close,
 } from './project.styles';
+import { BorderTracer } from "components/BorderTracer/BorderTracer";
 
 export type ProjectProps = {
   isParentLoading: boolean,
@@ -33,6 +34,7 @@ export const Project = memo(
       isParentLoading,
     } = props;
     const navigate = useNavigate()
+    const [ isHovering, setIsHovering ] = useState(false)
     const { workLocation, setWorkLocation } = useContext(WorkLocationContext);
     const isCurrent = workLocation && !isParentLoading ? workLocation === target : false;
 
@@ -45,10 +47,20 @@ export const Project = memo(
 
     const isOtherCurrent = isCurrent ? false : !!workLocation;
 
+    const handleMouseOver = () => {
+      setIsHovering(true);
+    };
+
+    const handleMouseOut = () => {
+      setIsHovering(false);
+    };
+
     return (
       <Container
         $isCurrent={isCurrent}
         $isOtherCurrent={isOtherCurrent}
+        onMouseOver={handleMouseOver}
+        onMouseOut={handleMouseOut}
       >
         <Tile
           $isCurrent={isCurrent}
@@ -57,11 +69,17 @@ export const Project = memo(
           $isOtherCurrent={isOtherCurrent}
           onClick={handleTileClick}
         >
-          <Image
-            $isCurrent={isCurrent}
-            $target={target}
-            $src={images.tile}
-          />
+            {!isCurrent && isHovering && (
+              <>
+                <BorderTracer />
+                <BorderTracer direction={"left"} />
+              </>
+            )}
+            <Image
+              $isCurrent={isCurrent}
+              $target={target}
+              $src={images.tile}
+            />
           <TileContent $isCurrent={isCurrent}>
             <Title>{title}</Title>
             <Tagline>{tagline}</Tagline>

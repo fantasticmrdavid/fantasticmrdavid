@@ -58,7 +58,7 @@ export const Work = memo((props: WorkProps) => {
         />
       </LoadingContainer>
 
-      <ProjectListContainer $isLoading={isLoading}>
+      <ProjectListContainer $isLoading={isLoading} $hasTarget={!!target}>
         {projects.map((p: ProjectData, index) => {
           const isLast = index === projects.length - 1;
           const isFirst = index === 0;
