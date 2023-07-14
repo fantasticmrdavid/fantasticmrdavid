@@ -217,7 +217,7 @@ const projects = [
       {
         type: "image",
         thumbnail: "/assets/images/projects/sffpc/inner_preview.jpg",
-        url: "/assets/images/projects/retropie_tv/inner.jpg",
+        url: "/assets/images/projects/sffpc/inner.jpg",
         orientation: "landscape",
         title: "PC components installed on inner frame",
         slug: "sffpc_inner",
@@ -225,7 +225,7 @@ const projects = [
       {
         type: "image",
         thumbnail: "/assets/images/projects/sffpc/open_preview.jpg",
-        url: "/assets/images/projects/retropie_tv/open.jpg",
+        url: "/assets/images/projects/sffpc/open.jpg",
         orientation: "landscape",
         title: "PC switched on before panels added.",
         slug: "sffpc_open",
@@ -233,7 +233,7 @@ const projects = [
       {
         type: "image",
         thumbnail: "/assets/images/projects/sffpc/off_preview.jpg",
-        url: "/assets/images/projects/retropie_tv/off.jpg",
+        url: "/assets/images/projects/sffpc/off.jpg",
         orientation: "landscape",
         title: "PC off",
         slug: "sffpc_off",
@@ -241,7 +241,7 @@ const projects = [
       {
         type: "image",
         thumbnail: "/assets/images/projects/sffpc/complete_preview.jpg",
-        url: "/assets/images/projects/retropie_tv/complete.jpg",
+        url: "/assets/images/projects/sffpc/complete.jpg",
         orientation: "landscape",
         title: "Completed PC switch on",
         slug: "sffpc_complete",
