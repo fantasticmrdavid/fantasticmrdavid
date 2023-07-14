@@ -67,6 +67,7 @@ export const Container = styled.div<ContainerProps>`
       }
       
       &:nth-child(3){
+        top: 0%;
         right: 0;
         height: 35%;
         width: 20%;
@@ -80,7 +81,7 @@ export const Container = styled.div<ContainerProps>`
       }
       
       &:nth-child(5){
-        top: 35%;
+        top: 37.5%;
         height: 40%;
         width: 25%;
       }
