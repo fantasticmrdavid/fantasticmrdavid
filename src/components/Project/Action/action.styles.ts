@@ -79,6 +79,7 @@ export const Container = styled.div<ContainerProps>`
   cursor: pointer;
   transition: 0.3s;
   border: 1px solid ${theme.colorDarkCharcoal};
+  z-index: 1;
 
   ${media.hover`
     &:hover {

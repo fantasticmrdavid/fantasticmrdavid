@@ -27,6 +27,7 @@ export const Container = styled.div<ContainerProps>`
   background: ${theme.colorDarkCharcoal};
   opacity: ${(props) => (props.$isCurrent ? 1 : 0)};
   overflow: ${(props) => (props.$isCurrent ? "auto" : undefined)};
+  width: 100%;
 `;
 
 export const Section = styled.section`
@@ -63,7 +64,8 @@ export const MediaWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   flex: none;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 2em;
 `;
 
 export const Spacer = styled.div`
