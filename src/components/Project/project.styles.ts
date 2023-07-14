@@ -151,6 +151,7 @@ export const Tile = styled.a<TileProps>`
   }};
   opacity: ${(props) => (props.$isOtherCurrent ? 0 : 1)};
   z-index: ${(props) => (props.$isOtherCurrent ? 0 : 12)};
+  overflow: ${(props) => (props.$isCurrent ? undefined : "hidden")};
 `;
 
 export const Image = styled.div<ImageProps>`
@@ -170,6 +171,7 @@ export const Image = styled.div<ImageProps>`
 
   ${Container}:hover & {
     filter: grayscale(0);
+    transform: ${(props) => (props.$isCurrent ? undefined : "scale(1.1)")};
   }
 `;
 
