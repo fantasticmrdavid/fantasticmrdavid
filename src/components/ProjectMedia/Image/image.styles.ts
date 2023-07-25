@@ -14,7 +14,6 @@ export const Container = styled.div<ContainerProps>`
 
 export const Frame = styled(Stroke)`
   padding: 10px 10px;
-  margin-bottom: 20px;
   cursor: pointer;
 `;
 
