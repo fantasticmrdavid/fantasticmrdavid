@@ -99,5 +99,6 @@
     "webpack-merge": "5.9.0"
   },
   "readme": "ERROR: No README data found!",
-  "_id": "fantasticmrdavid.com@1.0.0"
+  "_id": "fantasticmrdavid.com@1.0.0",
+  "packageManager": "yarn@3.6.4"
 }

@@ -3,3 +3,8 @@
 node_modules/
 public/
 npm-debug.log
+.yarn/cache
+storybook-static
+.yarn/releases
+.yarn
+.yarnrc.yml
