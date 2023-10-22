@@ -14,10 +14,13 @@
         "minor",
         "patch"
       ],
-      "minimumReleaseAge": "3 days"
+      "minimumReleaseAge": "3 days",
+      "schedule": [
+        "every weekend"
+      ]
     }
   ],
   "schedule": [
-    "every weekend"
+    "monthly"
   ]
 }
