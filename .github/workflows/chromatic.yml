@@ -19,7 +19,7 @@ jobs:
           fetch-depth: 0 # 👈 Required to retrieve git history
       - uses: actions/setup-node@v4
         with:
-          node-version: "18"
+          node-version: "20"
       - name: Enable Corepack before setting up Node
         run: corepack enable
       - name: Install dependencies
