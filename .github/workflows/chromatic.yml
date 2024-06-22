@@ -22,6 +22,8 @@ jobs:
           node-version: "20"
       - name: Enable Corepack before setting up Node
         run: corepack enable
+      - name: Set yarn version
+        run: yarn set version 4.3.0
       - name: Install dependencies
         run: yarn install --immutable
         # 👇 Adds Chromatic as a step in the workflow
