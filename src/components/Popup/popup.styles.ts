@@ -41,9 +41,10 @@ export const Dialog = styled.div`
 `;
 
 export const Landscape = styled.img`
-  width: 1000px;
+  width: auto;
   max-width: 90vw;
   height: auto;
+  max-height: 90vh;
 
   ${media.xlarge`
     width: 95vw;

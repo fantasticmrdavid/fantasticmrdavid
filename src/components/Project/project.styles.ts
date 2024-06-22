@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
-import theme from 'styles/theme';
-import { media } from 'styles/utils';
+import theme from "styles/theme";
+import { media } from "styles/utils";
 
 interface ContainerProps {
   $isOtherCurrent: boolean;
@@ -15,9 +15,9 @@ interface TileProps {
 }
 
 interface ImageProps {
-  $isCurrent: boolean,
-  $src: string,
-  $target: string
+  $isCurrent: boolean;
+  $src: string;
+  $target: string;
 }
 
 interface TileContentProps {
@@ -46,11 +46,15 @@ export const Container = styled.div<ContainerProps>`
     if (props.$isCurrent) return 12;
     return 0;
   }};
-  
+
   ${(props: ContainerProps) => {
-    if (props.$isCurrent) return css`height: 100%;`
-    if (!props.$isCurrent) return css`
-      ${media.small`
+    if (props.$isCurrent)
+      return css`
+        height: 100%;
+      `;
+    if (!props.$isCurrent)
+      return css`
+        ${media.small`
       position: absolute;
       max-height: 100%;
       
@@ -88,46 +92,52 @@ export const Container = styled.div<ContainerProps>`
       
       &:nth-child(6){
         right: 0;
-        top: 40%;
-        height: 40%;
+        top: 37.5%;
+        height: 22.5%;
         width: 25%;
       }
       
       &:nth-child(7){
+        right: 0;
+        top: 60%;
+        height: 20%;
+        width: 25%;
+      }
+      
+      &:nth-child(8){
         right: 25%;
         top: 35%;
         height: 20%;
         width: 50%;
       }
       
-      &:nth-child(8){
+      &:nth-child(9){
         left: 25%;
         bottom: 20%;
         height: 25%;
         width: 45%;
       }
       
-      &:nth-child(9){
+      &:nth-child(10){
         left: 0;
         bottom: 0%;
         height: 20%;
         width: 35%;
       }
       
-      &:nth-child(10){
+      &:nth-child(11){
         right: 0;
         bottom: 0;
         height: 20%;
         width: 65%;
       }
-    `}`
+    `}
+      `;
   }}
-
-  
 `;
 
 export const Tile = styled.a<TileProps>`
-  display: ${(props) => props.$isOtherCurrent ? "none" : "block"};
+  display: ${(props) => (props.$isOtherCurrent ? "none" : "block")};
   position: absolute;
   box-sizing: border-box;
   width: 100%;
@@ -137,7 +147,6 @@ export const Tile = styled.a<TileProps>`
   background-position-y: ${(props) => {
     const { $isCurrent, $target } = props;
     if ($isCurrent) {
-      if ($target === "sitepoint") return "top";
       if ($target === "ga" || $target === "tramsformation") return "30%";
     }
     return undefined;
@@ -164,6 +173,13 @@ export const Image = styled.div<ImageProps>`
     props.$isCurrent && props.$target === "tramsformation"
       ? "left"
       : undefined};
+  background-position-y: ${(props) => {
+    if (props.$isCurrent) {
+      if (props.$target === "cultureamp") return "45%";
+      if (props.$target === "retropc") return "30%";
+    }
+    return undefined;
+  }};
   height: 100%;
   width: 100%;
   cursor: pointer;

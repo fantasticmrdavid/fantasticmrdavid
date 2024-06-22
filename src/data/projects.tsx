@@ -249,6 +249,89 @@ const projects = [
     ],
   },
   {
+    title: "Mini Retro PC",
+    tagline: "3D Printing & Design",
+    target: "retropc",
+    images: {
+      tile: "/assets/images/projects/retro_pc.jpg",
+    },
+    urlLabel: "Mini Retro PC on printables.com",
+    url: "https://www.printables.com/model/694802-retro-desktop-pc-raspberry-pi-case-v2",
+    products: "Mini Retro PC",
+    technologies: "Raspberry Pi, DOSBox, 3D printing",
+    description: (
+      <>
+        A successor project to my Mini Retro TV project, I built a tiny retro PC
+        case based on an old 286 PC I grew up with. Designed to fit a Pi 4B with
+        a 3.5 inch HDMI MPI3508 LCD display, it also features a a soundboard and
+        a bootable SD card reader in the 5.25 floppy drive bay. Running DOSBox
+        on Debian Buster I aimed to recreate as much as possible the retro PC
+        experience of a bygone era. 3D printable files and build guide are
+        available from the link below.
+      </>
+    ),
+    media: [
+      {
+        type: "image",
+        thumbnail: "/assets/images/projects/retro_pc/front_preview.jpg",
+        url: "/assets/images/projects/retro_pc/front.jpg",
+        orientation: "landscape",
+        title: "Retro PC - Front",
+        slug: "retropc_front",
+      },
+      {
+        type: "image",
+        thumbnail: "/assets/images/projects/retro_pc/back_preview.jpg",
+        url: "/assets/images/projects/retro_pc/back.jpg",
+        orientation: "landscape",
+        title: "Retro PC - Back",
+        slug: "retropc_back",
+      },
+      {
+        type: "image",
+        thumbnail:
+          "/assets/images/projects/retro_pc/desktop_internal_preview.jpg",
+        url: "/assets/images/projects/retro_pc/desktop_internal.jpg",
+        orientation: "landscape",
+        title: "Retro PC - Desktop internals",
+        slug: "retropc_desktop_internal",
+      },
+      {
+        type: "image",
+        thumbnail:
+          "/assets/images/projects/retro_pc/monitor_internal_preview.jpg",
+        url: "/assets/images/projects/retro_pc/monitor_internal.jpg",
+        orientation: "landscape",
+        title: "Retro PC - Monitor internals",
+        slug: "retropc_monitor_internal",
+      },
+      {
+        type: "image",
+        thumbnail: "/assets/images/projects/retro_pc/exploded_view_preview.jpg",
+        url: "/assets/images/projects/retro_pc/exploded_view.jpg",
+        orientation: "landscape",
+        title: "Retro PC - CAD Assembly",
+        slug: "retropc_exploded_view",
+      },
+      {
+        type: "image",
+        thumbnail: "/assets/images/projects/retro_pc/tim_preview.jpg",
+        url: "/assets/images/projects/retro_pc/tim.jpg",
+        orientation: "portrait",
+        title: "Retro PC - The Incredible Machine",
+        slug: "retropc_tim",
+      },
+      {
+        type: "image",
+        thumbnail: "/assets/images/projects/retro_pc/hackspace_preview.jpg",
+        url: "/assets/images/projects/retro_pc/hackspace.jpg",
+        orientation: "landscape",
+        title: "Retro PC article published in Hackspace magazine",
+        slug: "retropc_hackspace",
+      },
+    ],
+  },
+  {
     title: "Nerf Mods",
     tagline: "Tinkering & Electronics",
     target: "nerf",
@@ -306,7 +389,7 @@ const projects = [
   },
   {
     title: "KindyNow",
-    tagline: "Lead Front-End Engineer",
+    tagline: "Front-End Engineer",
     target: "kindynow",
     images: {
       tile: "/assets/images/projects/kindynow_on.jpg",
@@ -374,67 +457,42 @@ const projects = [
     ],
   },
   {
-    title: "SitePoint",
-    tagline: "Front-End Engineer",
-    target: "sitepoint",
+    title: "Culture Amp",
+    tagline: "Software Engineer",
+    target: "cultureamp",
     images: {
-      tile: "/assets/images/projects/sitepoint_on.jpg",
+      tile: "/assets/images/projects/cultureamp/ca_desktop_preview.jpg",
     },
-    url: "https://www.sitepoint.com",
-    products: "Company media website, Premium platform, forums",
-    technologies: "HTML, CSS, ES6, React, Redux, Node.js, MobX, RoR, PHP",
+    url: "https://cultureamp.com",
+    products:
+      "Homepage, Shoutouts, Goals, and various internal platform integrations",
+    technologies: "React, Next.js, Tailwind CSS",
     description: (
       <>
-        SitePoint is a hub built by developers for developers with the goal of
-        sharing knowledge and educating others on incredible Internet things.
-        Spanning articles, courses, books, screencasts, and a huge forum
-        community, they are a leading source for the latest news on all things
-        web development.
+        Culture Amp is the world’s leading employee experience platform,
+        revolutionizing how 25 million employees across more than 6,500
+        companies create a better world of work. Powered by people science and
+        the most comprehensive employee dataset in the world, Culture Amp
+        empowers companies of all sizes and industries to transform employee
+        engagement, drive performance management, and develop high-performing
+        teams.
         <br />
         <br />
-        As Front-End engineer I worked within an Agile development team to
-        maintain and upgrade the company Articles WordPress and Premium RoR
-        platforms. The revised articles site featured a new homepage and
-        template designs with server-side rendered front-end components. We
-        completely renovated the Premium members platform library design as well
-        as shifted front-end components from Rails to React and Redux.
+        As a Front-End engineer I worked with various teams to build and deliver
+        software features ranging from new features for customers to improving
+        our internal developer tooling. Some highlights include building the
+        Shoutouts web platform, mentoring junior engineers, and migrating
+        codebases to Next.js.
       </>
     ),
     media: [
       {
         type: "website",
-        platform: "mobile",
-        thumbnail:
-          "/assets/images/projects/sitepoint/sitepoint_mobile_preview.jpg",
-        url: "https://www.sitepoint.com",
-        title: "SitePoint mobile site",
-        slug: "sitepoint_mobile_preview",
-      },
-      {
-        type: "website",
         platform: "desktop",
-        thumbnail: "/assets/images/projects/sitepoint/sitepoint_preview.jpg",
-        url: "https://www.sitepoint.com",
-        title: "SitePoint desktop site",
-        slug: "sitepoint_preview",
-      },
-      {
-        type: "website",
-        platform: "desktop",
-        thumbnail:
-          "/assets/images/projects/sitepoint/sitepoint_premium_preview.jpg",
-        url: "https://www.sitepoint.com/premium",
-        title: "SitePoint Premium desktop site",
-        slug: "sitepoint_premium_preview",
-      },
-      {
-        type: "website",
-        platform: "mobile",
-        thumbnail:
-          "/assets/images/projects/sitepoint/sitepoint_premium_mobile_preview.jpg",
-        url: "https://www.sitepoint.com/premium",
-        title: "SitePoint Premium mobile site",
-        slug: "sitepoint_premium_mobile_preview",
+        thumbnail: "/assets/images/projects/cultureamp/ca_desktop_preview.jpg",
+        url: "https://cultureamp.com",
+        title: "Culture Amp website",
+        slug: "cultureamp_desktop_preview",
       },
     ],
   },
