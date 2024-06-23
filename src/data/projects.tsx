@@ -263,7 +263,7 @@ const projects = [
       <>
         A successor project to my Mini Retro TV project, I built a tiny retro PC
         case based on an old 286 PC I grew up with. Designed to fit a Pi 4B with
-        a 3.5 inch HDMI MPI3508 LCD display, it also features a a soundboard and
+        a 3.5 inch HDMI MPI3508 LCD display, it also features a soundboard and
         a bootable SD card reader in the 5.25 floppy drive bay. Running DOSBox
         on Debian Buster I aimed to recreate as much as possible the retro PC
         experience of a bygone era. 3D printable files and build guide are
