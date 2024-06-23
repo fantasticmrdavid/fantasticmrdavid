@@ -110,8 +110,18 @@ export const Subtitle = styled.div<SubtitleProps>`
 
 export const CogIconWrapper = styled.div<CogIconWrapperProps>`
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition: 0.6s;
   transform: ${(props) => (props.$isOpen ? "rotate(150deg)" : undefined)};
-  left: -0.25em;
   opacity: 0.5;
+  width: 22px;
+  height: 22px;
+  left: -0.25em;
+  top: -0.05em;
+    
+  & svg {
+    margin: 0;
+  }
 `;
