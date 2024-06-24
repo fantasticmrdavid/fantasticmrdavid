@@ -23,7 +23,6 @@ export const Container = styled.div<ContainerProps>`
   margin-top: 5em;
   max-height: ${(props) => (props.$isCurrent ? "2500px" : "0px")};
   padding: 5em 2.5em 0;
-  transition: 1s;
   background: ${theme.colorDarkCharcoal};
   opacity: ${(props) => (props.$isCurrent ? 1 : 0)};
   overflow: ${(props) => (props.$isCurrent ? "auto" : undefined)};

@@ -2,6 +2,7 @@ import styled, { css, keyframes } from "styled-components";
 import theme from "styles/theme";
 import { transparentize } from "polished";
 import { media } from "styles/utils";
+import { fadeIn } from "styles/animations";
 
 const colors = ["#269", "#195905"];
 
@@ -24,6 +25,7 @@ interface LoadingContainerProps {
 interface ProjectListContainerProps {
   $isLoading: boolean;
   $hasTarget: boolean;
+  $listSize: number;
 }
 
 export const Container = styled.div`
@@ -75,9 +77,27 @@ export const SpinnerPlaceholder = styled.div`
   height: 0px;
 `;
 
+const generateAnimationDelay = (numItems: number) => {
+  let styles = '';
+  for (let i = 1; i <= numItems; i++) {
+    styles += `
+      &:nth-child(${i}) {
+        animation-delay: ${i * 0.05}s;
+      }
+    `;
+  }
+  return css`${styles}`;
+};
+
 export const ProjectListContainer = styled.div<ProjectListContainerProps>`
   height: 100%;
   width: 100%;
   min-height: 100%;
   opacity: ${(props) => (props.$isLoading ? 0 : 1)};
+    
+  & > * {
+    opacity: 0;
+    animation: ${fadeIn} 1s forwards;
+    ${({ $listSize }) => generateAnimationDelay($listSize)}
+  }
 `;

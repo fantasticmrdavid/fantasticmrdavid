@@ -41,6 +41,7 @@ export const Container = styled.div<ContainerProps>`
     if ($isCurrent) return "100%";
     return "20%";
   }};
+  transition: 0.3s;
   z-index: ${(props) => {
     if (props.$isOtherCurrent) return 0;
     if (props.$isCurrent) return 12;
@@ -50,7 +51,25 @@ export const Container = styled.div<ContainerProps>`
   ${(props: ContainerProps) => {
     if (props.$isCurrent)
       return css`
+        top: 0;
+        left: 0;
         height: 100%;
+          
+        ${media.small`
+          &:nth-child(3){
+            right: 0;
+          }
+          &:nth-child(6){
+            right: 0;
+          }
+          &:nth-child(7){
+            right: 0;
+          }
+          &:nth-child(11){
+            right: 0;
+          }
+          `
+        }
       `;
     if (!props.$isCurrent)
       return css`
@@ -101,7 +120,7 @@ export const Container = styled.div<ContainerProps>`
         right: 0;
         top: 60%;
         height: 20%;
-        width: 25%;
+        width: 27.5%;
       }
       
       &:nth-child(8){
@@ -137,31 +156,31 @@ export const Container = styled.div<ContainerProps>`
 `;
 
 export const Tile = styled.a<TileProps>`
-  display: ${(props) => (props.$isOtherCurrent ? "none" : "block")};
-  position: absolute;
-  box-sizing: border-box;
-  width: 100%;
-  height: ${(props) => (props.$isCurrent ? "4rem" : "100%")};
-  top: 0px;
-  background-color: ${theme.colorCharcoal};
-  background-position-y: ${(props) => {
-    const { $isCurrent, $target } = props;
-    if ($isCurrent) {
-      if ($target === "ga" || $target === "tramsformation") return "30%";
-    }
-    return undefined;
-  }};
-  border: ${`2px solid ${theme.colorBlack}`};
-  box-shadow: ${theme.dropShadow};
-  transition: 0.5s;
-  transform: ${(props: TileProps) => {
-    const { $isCurrent, $isParentLoading } = props;
-    if ($isCurrent || !$isParentLoading) return "rotateY(0deg)";
-    return "rotateY(180deg)";
-  }};
-  opacity: ${(props) => (props.$isOtherCurrent ? 0 : 1)};
-  z-index: ${(props) => (props.$isOtherCurrent ? 0 : 12)};
-  overflow: ${(props) => (props.$isCurrent ? undefined : "hidden")};
+    display: ${(props) => (props.$isOtherCurrent ? "none" : "block")};
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    height: ${(props) => (props.$isCurrent ? "4rem" : "100%")};
+    top: 0;
+    background-color: ${theme.colorCharcoal};
+    background-position-y: ${(props) => {
+        const { $isCurrent, $target } = props;
+        if ($isCurrent) {
+            if ($target === "ga" || $target === "tramsformation") return "30%";
+        }
+        return undefined;
+    }};
+    border: ${`2px solid ${theme.colorBlack}`};
+    box-shadow: ${theme.dropShadow};
+    transition: 0.5s;
+    transform: ${(props: TileProps) => {
+        const { $isCurrent, $isParentLoading } = props;
+        if ($isCurrent || !$isParentLoading) return "rotateY(0deg)";
+        return "rotateY(180deg)";
+    }};
+    opacity: ${(props) => (props.$isOtherCurrent ? 0 : 1)};
+    z-index: ${(props) => (props.$isOtherCurrent ? 0 : 12)};
+    overflow: ${(props) => (props.$isCurrent ? undefined : "hidden")};
 `;
 
 export const Image = styled.div<ImageProps>`
