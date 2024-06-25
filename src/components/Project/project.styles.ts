@@ -74,82 +74,82 @@ export const Container = styled.div<ContainerProps>`
     if (!props.$isCurrent)
       return css`
         ${media.small`
-      position: absolute;
-      max-height: 100%;
-      
-      &:nth-child(1){
-        height: 20%;
-        width: 55%;
-      }
-      
-      &:nth-child(2){
-        top: 5%;
-        left: 55%;
-        height: 30%;
-        width: 25%;
-      }
-      
-      &:nth-child(3){
-        top: 0%;
-        right: 0;
-        height: 35%;
-        width: 20%;
-      }
-      
-      &:nth-child(4){
-        left: 5%;
-        top: 20%;
-        height: 15%;
-        width: 50%;
-      }
-      
-      &:nth-child(5){
-        top: 37.5%;
-        height: 40%;
-        width: 25%;
-      }
-      
-      &:nth-child(6){
-        right: 0;
-        top: 37.5%;
-        height: 22.5%;
-        width: 25%;
-      }
-      
-      &:nth-child(7){
-        right: 0;
-        top: 60%;
-        height: 20%;
-        width: 27.5%;
-      }
-      
-      &:nth-child(8){
-        right: 25%;
-        top: 35%;
-        height: 20%;
-        width: 50%;
-      }
-      
-      &:nth-child(9){
-        left: 25%;
-        bottom: 20%;
-        height: 25%;
-        width: 45%;
-      }
-      
-      &:nth-child(10){
-        left: 0;
-        bottom: 0%;
-        height: 20%;
-        width: 35%;
-      }
-      
-      &:nth-child(11){
-        right: 0;
-        bottom: 0;
-        height: 20%;
-        width: 65%;
-      }
+          position: absolute;
+          max-height: 100%;
+          
+          &:nth-child(1){
+            height: 20%;
+            width: 55%;
+          }
+          
+          &:nth-child(2){
+            top: 5%;
+            left: 55%;
+            height: 30%;
+            width: 25%;
+          }
+          
+          &:nth-child(3){
+            top: 0%;
+            left: 80%;
+            height: 35%;
+            width: 20%;
+          }
+          
+          &:nth-child(4){
+            left: 5%;
+            top: 20%;
+            height: 15%;
+            width: 50%;
+          }
+          
+          &:nth-child(5){
+            top: 37.5%;
+            height: 40%;
+            width: 25%;
+          }
+          
+          &:nth-child(6){
+            left: 75%;
+            top: 37.5%;
+            height: 22.5%;
+            width: 25%;
+          }
+          
+          &:nth-child(7){
+            left: 72.5%;
+            top: 60%;
+            height: 20%;
+            width: 27.5%;
+          }
+          
+          &:nth-child(8){
+            left: 25%;
+            top: 35%;
+            height: 20%;
+            width: 50%;
+          }
+          
+          &:nth-child(9){
+            left: 25%;
+            top: 55%;
+            height: 25%;
+            width: 45%;
+          }
+          
+          &:nth-child(10){
+            left: 0;
+            top: 80%;
+            height: 20%;
+            width: 35%;
+          }
+          
+          &:nth-child(11){
+            left: 35%;
+            top: 80%;
+            height: 20%;
+            width: 65%;
+          }
     `}
       `;
   }}
