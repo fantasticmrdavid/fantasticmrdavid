@@ -40,7 +40,7 @@ export const Popup = memo((props: PopupProps) => {
         <Close data-testid={"popupClose"} onClick={handleClose}>
           X
         </Close>
-        {!!url && (
+        {!!url && !isLoading && (
           <Image
             data-testid={"popupImage"}
             data-orientation={orientation}

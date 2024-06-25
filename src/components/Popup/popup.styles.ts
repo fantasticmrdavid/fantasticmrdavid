@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { transparentize } from "polished";
 import theme from "styles/theme";
 import { media } from "styles/utils";
+import { fadeIn } from "styles/animations";
 
 interface ContainerProps {
   $isLoading: boolean;
@@ -45,6 +46,8 @@ export const Landscape = styled.img`
   max-width: 90vw;
   height: auto;
   max-height: 90vh;
+  opacity: 0;
+  animation: ${fadeIn} 0.5s forwards;
 
   ${media.xlarge`
     width: 95vw;
@@ -57,6 +60,8 @@ export const Portrait = styled.img`
   width: auto;
   max-height: 90vh;
   max-width: 90vw;
+  opacity: 0;
+  animation: ${fadeIn} 0.5s forwards;
 
   ${media.small`
     height: 100vh;
