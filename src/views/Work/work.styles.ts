@@ -92,8 +92,12 @@ const generateAnimationDelay = (numItems: number) => {
 export const ProjectListContainer = styled.div<ProjectListContainerProps>`
   height: 100%;
   width: 100%;
-  min-height: 100%;
+  min-height: 100vh;
   opacity: ${(props) => (props.$isLoading ? 0 : 1)};
+    
+  ${media.small`
+    min-height: 100%;
+  `}
     
   & > * {
     opacity: 0;
