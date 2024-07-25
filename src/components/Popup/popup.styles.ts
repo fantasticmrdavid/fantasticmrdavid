@@ -50,7 +50,6 @@ export const Landscape = styled.img`
   animation: ${fadeIn} 0.5s forwards;
 
   ${media.xlarge`
-    width: 95vw;
     max-width: 1600px;
   `}
 `;
@@ -64,7 +63,6 @@ export const Portrait = styled.img`
   animation: ${fadeIn} 0.5s forwards;
 
   ${media.small`
-    height: 100vh;
     max-width: auto;
   `}
 `;
