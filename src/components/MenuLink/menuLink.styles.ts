@@ -5,6 +5,7 @@ import { LOCATIONS } from "routers/constants";
 
 const colorAbout = "#3fa44e";
 const colorWork = "#967fd1";
+const colorShop = "#7fd1d1";
 const colorContact = "#cc750c";
 
 interface LabelProps {
@@ -36,6 +37,7 @@ export const Label = styled.div<LabelProps>`
     if ($isCurrent) {
       if ($target === "about") return colorAbout;
       if ($target === "work") return colorWork;
+      if ($target === "shop") return colorShop;
       if ($target === "contact") return colorContact;
       return theme.colorLightGrey;
     }
@@ -68,6 +70,7 @@ export const Label = styled.div<LabelProps>`
             if (!$isCurrent) {
               if ($target === "about") return colorAbout;
               if ($target === "work") return colorWork;
+              if ($target === "shop") return colorShop;
               if ($target === "contact") return colorContact;
               return undefined;
             }

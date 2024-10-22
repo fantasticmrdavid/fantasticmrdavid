@@ -1,21 +1,25 @@
-import { LOCATIONS } from 'routers/constants';
+import { LOCATIONS } from "routers/constants";
 
 type MenuItem = {
-  label: string,
-  target: typeof LOCATIONS[keyof typeof LOCATIONS]
+  label: string;
+  target: (typeof LOCATIONS)[keyof typeof LOCATIONS];
 };
 
 const menu: MenuItem[] = [
   {
-    label: 'About',
+    label: "About",
     target: LOCATIONS.about,
   },
   {
-    label: 'Latest Work',
+    label: "Latest Work",
     target: LOCATIONS.work,
   },
   {
-    label: 'Contact',
+    label: "Shop",
+    target: LOCATIONS.shop,
+  },
+  {
+    label: "Contact",
     target: LOCATIONS.contact,
   },
 ];
