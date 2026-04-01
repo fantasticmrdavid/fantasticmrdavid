@@ -31,7 +31,7 @@
     "ajv": "8.17.1",
     "animated-scroll-to": "2.3.2",
     "console-browserify": "1.2.0",
-    "eslint-webpack-plugin": "4.2.0",
+    "eslint-webpack-plugin": "5.0.3",
     "fontfaceobserver": "2.3.0",
     "html-loader": "5.1.0",
     "polished": "4.3.1",
