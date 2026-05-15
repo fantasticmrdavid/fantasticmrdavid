@@ -8370,22 +8370,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chromatic@npm:^11.0.0":
-  version: 11.27.0
-  resolution: "chromatic@npm:11.27.0"
+"chromatic@npm:^16.0.0":
+  version: 16.10.1
+  resolution: "chromatic@npm:16.10.1"
+  dependencies:
+    semver: "npm:^7.3.5"
   peerDependencies:
     "@chromatic-com/cypress": ^0.*.* || ^1.0.0
     "@chromatic-com/playwright": ^0.*.* || ^1.0.0
+    "@chromatic-com/vitest": ^0.*.* || ^1.0.0
   peerDependenciesMeta:
     "@chromatic-com/cypress":
       optional: true
     "@chromatic-com/playwright":
       optional: true
+    "@chromatic-com/vitest":
+      optional: true
   bin:
-    chroma: dist/bin.js
-    chromatic: dist/bin.js
-    chromatic-cli: dist/bin.js
-  checksum: 10c0/500c1a522a48b3ef9188d63693b2602128b4cd7b2b96e5cb5412cdc0e3b7ac2a33c30d8f55f7662de4111e1c7c70bcb970e86782700e02580881400bdd10419b
+    chroma: dist/bin.cjs
+    chromatic: dist/bin.cjs
+    chromatic-cli: dist/bin.cjs
+  checksum: 10c0/5cab90a48a4709e930dc864a06f707ec63e1a32211f19c8e1a7237687cc3398f5a1a01427bf35116df76e78164b9e9d57927d641216a6c48f1a588cff770dee4
   languageName: node
   linkType: hard
 
@@ -10682,7 +10687,7 @@ __metadata:
     babel-jest: "npm:29.7.0"
     babel-loader: "npm:9.2.1"
     babel-plugin-styled-components: "npm:2.1.4"
-    chromatic: "npm:^11.0.0"
+    chromatic: "npm:^16.0.0"
     clean-webpack-plugin: "npm:4.0.0"
     console-browserify: "npm:1.2.0"
     copy-webpack-plugin: "npm:12.0.2"
